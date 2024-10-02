@@ -5,7 +5,7 @@ from llama_cpp import Llama
 from LLMServer.base_model import BaseLLM
 from tenacity import retry, stop_after_attempt, wait_exponential
 
-STOP_AFTER_ATTEMPT = 6
+STOP_AFTER_ATTEMPT = 10
 WAIT_EXPONENTIAL_MIN = 4
 WAIT_EXPONENTIAL_MAX = 30
 
@@ -23,6 +23,7 @@ class LlamaModel(BaseLLM):
             repo_id=model_path,
             filename=filename,
             n_gpu_layers=-1,
+            n_ctx=4096,
             verbose=True,
         )
         self.inference_params = {
