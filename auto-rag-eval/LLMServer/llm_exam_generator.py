@@ -83,3 +83,36 @@ class ClaudeExamGenerator(LLMExamGenerator):
                 "answer": answer
             }
         return generated_questions
+
+
+class LlamaExamGenerator(LLMExamGenerator):
+
+    def __init__(self,
+                 step_size: int,
+                 task_domain: str,
+                 llm_model: BaseLLM):
+
+        super().__init__(step_size=step_size,
+                         task_domain=task_domain,
+                         llm_model=llm_model)
+
+    def make_question_prompt(self, documentation: str) -> str:
+        return (f"\n\nHuman: Here is some documentation from {self.task_domain}: {documentation}.\n"
+                "From this generate a difficult multi-form question for an exam. It should have 4 candidates,"
+                " 1 correct answer and explanations. Syntax should be Question: {question}\nA){candidate A}\n"
+                "B){candidate B}\nC){candidate C}\nD){candidate D} Correct Answer: {correct answer}\n\nAssistant:")
+
+    def generate_exam(self, data: List[Dict[str, str]]) -> Dict[int, Dict[str, str]]:
+
+        generated_questions = {}
+        for k in tqdm(range(0, len(data), self.step_size)):
+            answer = self.llm_model.invoke(
+                prompt=self.make_question_prompt(data[k]['text']),
+                # params={}
+            )
+            generated_questions[k] = {
+                "documentation": data[k],
+                "answer": answer
+            }
+        return generated_questions
+
