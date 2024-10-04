@@ -4,44 +4,73 @@ import json
 import logging
 import random
 import time
+import os
 from datetime import datetime
 from os.path import abspath, dirname
 from typing import List
 
 from ExamGenerator.utils import get_single_file_in_folder
-from LLMServer.bedrock.claude_instant import ClaudeInstant
-from LLMServer.bedrock.claude_v2 import ClaudeV2
-from LLMServer.llm_exam_generator import ClaudeExamGenerator, LLMExamGenerator
+# from LLMServer.bedrock.claude_instant import ClaudeInstant
+# from LLMServer.bedrock.claude_v2 import ClaudeV2
+from LLMServer.llama.llama_instant import LlamaModel
+from LLMServer.gcp.claude_instant import Claude_GCP
+from LLMServer.llm_exam_generator import LLMExamGenerator, LlamaExamGenerator, ClaudeExamGenerator
 
 logger = logging.getLogger(__name__)
 ROOTPATH = dirname(dirname(abspath(__file__)))
 
 
+def read_jsonl(file_path):
+    flattened_data = []
+    with open(file_path, 'r') as f:
+        for line in f:
+            try:
+                json_object = json.loads(line)
+                # Extend the flattened_data list with the contents of json_object
+                # This assumes json_object is always a list of dictionaries
+                flattened_data.extend(json_object)
+            except json.JSONDecodeError as e:
+                print(f"Error parsing line: {line}")
+                print(f"Error message: {str(e)}")
+    return flattened_data
+
+
 class BatchExamGenerator:
 
     def __init__(self,
+                 data_path: str,
                  task_domain: str,
                  model_list: List[str],
                  batch_size: int):
 
+        self.data_path = data_path
         self.batch_size = batch_size
         self.model_list = model_list
         self.task_domain = task_domain
 
         self.model_map = {
-                          'claudev2': ClaudeExamGenerator(step_size=1,
-                                                          task_domain=self.task_domain,
-                                                          llm_model=ClaudeV2()),
-                          'claude_instant': ClaudeExamGenerator(step_size=1,
-                                                                task_domain=self.task_domain,
-                                                                llm_model=ClaudeInstant())
-                          }
+            # 'claudev2': ClaudeExamGenerator(step_size=1,
+            #                                 task_domain=self.task_domain,
+            #                                 llm_model=ClaudeV2()),
+            # 'claude_instant': ClaudeExamGenerator(step_size=1,
+            #                                       task_domain=self.task_domain,
+            #                                       llm_model=ClaudeInstant()),
+            'llama': LlamaExamGenerator(step_size=1,
+                                        task_domain=self.task_domain,
+                                        llm_model=LlamaModel()),
+            "claude_gcp": ClaudeExamGenerator(step_size=1,
+                                            task_domain=self.task_domain,
+                                            llm_model=Claude_GCP()),
+        }
         assert not (any([model not in self.model_map.keys() for model in self.model_list]))
 
     def batch_generate_exam(self, data_folder: str) -> None:
 
-        with open(get_single_file_in_folder(data_folder), "r") as f:
-            data = json.load(f)
+        # with open(get_single_file_in_folder(data_folder), "r") as f:
+            # data = json.load(f)
+        # Read the data line by line
+        data = read_jsonl(data_folder)
+
 
         # Suffle the data to prevent overfocusing on a topic
         # ---
@@ -59,30 +88,35 @@ class BatchExamGenerator:
         start_time = datetime.fromtimestamp(
             time.time()).strftime('%Y%m%d%H')
 
-        try:
+        # try:
 
-            for batch_index, batch in enumerate(batches):
+        for batch_index, batch in enumerate(batches):
 
-                logger.error(f"Running batch {batch_index}.")
-                if len(self.model_list) > 1:
-                    # Multiprocessing not compatible with Bedrock Usage
-                    with concurrent.futures.ProcessPoolExecutor() as executor:
-                        futurs = {model: executor.submit(self.model_map[model].generate_exam, batch)
-                                  for model in self.model_list}
-                        generated_questions = {model: futur.result() for model, futur in futurs.items()}
-                else:
-                    generated_questions = {model: self.model_map[model].generate_exam(batch)
-                                           for model in self.model_list}
+            logger.error(f"Running batch {batch_index}.")
+            if len(self.model_list) > 1:
+                # Multiprocessing not compatible with Bedrock Usage
+                with concurrent.futures.ProcessPoolExecutor() as executor:
+                    futurs = {model: executor.submit(self.model_map[model].generate_exam, batch)
+                              for model in self.model_list}
+                    generated_questions = {model: futur.result() for model, futur in futurs.items()}
+            else:
+                generated_questions = {model: self.model_map[model].generate_exam(batch)
+                                       for model in self.model_list}
 
-                # Write the dictionary to a JSON file
-                for model in generated_questions.keys():
-                    filename = f"{self.task_domain}_QCM_{model}_{start_time}_batch{batch_index}.json"
-                    with open(f"{ROOTPATH}/Data/{self.task_domain}/RawExamData/{filename}", "w") as write_file:
-                        json.dump(generated_questions[model], write_file)
+            # Write the dictionary to a JSON file
+            for model in generated_questions.keys():
+                filename = f"{self.task_domain}_QCM_{model}_{start_time}_batch{batch_index}.json"
+                full_path = os.path.join(ROOTPATH, "Data", self.task_domain, "RawExamData", filename)
 
-        except Exception as e:
+                # Create the directory if it doesn't exist
+                os.makedirs(os.path.dirname(full_path), exist_ok=True)
 
-            logger.error(f"Failure to collect questions for batch {batch_index}: {e}")
+                with open(f"{ROOTPATH}/Data/{self.task_domain}/RawExamData/{filename}", "w") as write_file:
+                    json.dump(generated_questions[model], write_file)
+
+        # except Exception as e:
+        #
+        #     logger.error(f"Failure to collect questions for batch {batch_index}: {e}")
 
 
 if __name__ == "__main__":
@@ -97,11 +131,12 @@ if __name__ == "__main__":
 
     main_args, _ = parser.parse_known_args()
 
-    raw_exam_generator = BatchExamGenerator(batch_size=60,
-                                            task_domain=main_args.task_domain,
-                                            # model_list=['openllama', 'llamav2']
-                                            model_list=['claudev2']
-                                            )
+    raw_exam_generator = BatchExamGenerator(
+        data_path=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main/",
+        batch_size=60,
+        task_domain=main_args.task_domain,
+        model_list=["claude_gcp"]
+        )
 
     raw_exam_generator.batch_generate_exam(
-        data_folder=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main")
+        data_folder=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main/data_2024092613.json")
