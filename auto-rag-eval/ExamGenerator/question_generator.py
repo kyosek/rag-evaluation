@@ -13,7 +13,8 @@ from ExamGenerator.utils import get_single_file_in_folder
 # from LLMServer.bedrock.claude_instant import ClaudeInstant
 # from LLMServer.bedrock.claude_v2 import ClaudeV2
 from LLMServer.llama.llama_instant import LlamaModel
-from LLMServer.llm_exam_generator import LLMExamGenerator, LlamaExamGenerator  # ClaudeExamGenerator
+from LLMServer.gcp.claude_instant import Claude_GCP
+from LLMServer.llm_exam_generator import LLMExamGenerator, LlamaExamGenerator, ClaudeExamGenerator
 
 logger = logging.getLogger(__name__)
 ROOTPATH = dirname(dirname(abspath(__file__)))
@@ -56,7 +57,10 @@ class BatchExamGenerator:
             #                                       llm_model=ClaudeInstant()),
             'llama': LlamaExamGenerator(step_size=1,
                                         task_domain=self.task_domain,
-                                        llm_model=LlamaModel())
+                                        llm_model=LlamaModel()),
+            "claude_gcp": ClaudeExamGenerator(step_size=1,
+                                            task_domain=self.task_domain,
+                                            llm_model=Claude_GCP()),
         }
         assert not (any([model not in self.model_map.keys() for model in self.model_list]))
 
@@ -131,8 +135,8 @@ if __name__ == "__main__":
         data_path=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main/",
         batch_size=60,
         task_domain=main_args.task_domain,
-        model_list=["llama"]
+        model_list=["claude_gcp"]
         )
 
     raw_exam_generator.batch_generate_exam(
-        data_folder=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main/data_2024100123.json")
+        data_folder=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main/data_2024092613.json")
