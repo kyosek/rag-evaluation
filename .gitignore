@@ -131,7 +131,7 @@ env.bak/
 venv.bak/
 *.pyc
 
-# Spyder project settings
+# Spyder project settingsH
 .spyderproject
 .spyproject
 
