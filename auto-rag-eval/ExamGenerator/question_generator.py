@@ -128,6 +128,10 @@ if __name__ == "__main__":
         "--task-domain",
         help="Task Domain, among DevOps, StackExchange, MyOwnTask...",
     )
+    parser.add_argument(
+        "--file-name",
+        help="File name to the KnowledgeCorpus",
+    )
 
     main_args, _ = parser.parse_known_args()
 
@@ -139,4 +143,4 @@ if __name__ == "__main__":
         )
 
     raw_exam_generator.batch_generate_exam(
-        data_folder=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main/data_2024092613.json")
+        data_folder=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main/{main_args.file_name}")
