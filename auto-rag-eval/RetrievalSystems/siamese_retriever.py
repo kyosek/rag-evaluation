@@ -1,4 +1,3 @@
-
 import os.path
 from typing import List
 
@@ -8,6 +7,8 @@ from datasets import load_dataset
 from RetrievalSystems.context_utils import ContextPassage, ContextProvider
 from RetrievalSystems.docs_faiss_index import DocFaissIndex
 from transformers import AutoTokenizer, DPRQuestionEncoder
+
+
 
 
 class SiameseContextProvider(ContextProvider):
