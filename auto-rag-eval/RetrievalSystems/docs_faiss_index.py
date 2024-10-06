@@ -7,9 +7,11 @@ from typing import Dict
 import faiss
 import numpy as np
 import torch
-from datasets import load_dataset
+from datasets import Dataset
 from sentence_transformers import SentenceTransformer
 from transformers import AutoTokenizer, DPRContextEncoder
+from ExamGenerator.utils import flatten_data
+from RetrievalSystems.utils import get_device
 
 ROOTPATH = dirname(dirname(abspath(__file__)))
 
@@ -29,10 +31,11 @@ class FaissIndex:
         index_file_name = f"{index_folder}/kilt_dpr_data.faiss"
         cache_file_name = f"{index_folder}/data_kilt_embedded.arrow"
 
-        docs_data = load_dataset(data_folder,
-                                 split="train",
-                                 # field="data" # To be removed for BH data template, which differs from others
-                                 )
+        all_data = flatten_data(data_folder)
+
+        docs_data = Dataset.from_list(all_data,
+                                           # split="train",
+                                           )
 
         if os.path.isfile(index_file_name):
             logger.error(f"Deleting existing Faiss index: {index_file_name}")
@@ -69,7 +72,7 @@ class DocFaissIndex(FaissIndex):
                  ctx_encoder_name: str = "vblagoje/dpr-ctx_encoder-single-lfqa-base"):
 
         self.dims = 128
-        self.device = ("cuda" if torch.cuda.is_available() else "cpu")
+        self.device = get_device()
         self.ctx_tokenizer = AutoTokenizer.from_pretrained(
             ctx_encoder_name)
         self.ctx_model = DPRContextEncoder.from_pretrained(
@@ -87,14 +90,15 @@ class DocFaissIndex(FaissIndex):
 
     def embed_passages_for_retrieval(self,
                                      passages: Dict[str, str]):
+        device = get_device()
         p = self.ctx_tokenizer(passages["text"],
                                max_length=128,
                                padding="max_length",
                                truncation=True,
                                return_tensors="pt")
         with torch.no_grad():
-            a_reps = self.ctx_model(p["input_ids"].to("cuda:0"),
-                                    p["attention_mask"].to("cuda:0")).pooler_output
+            a_reps = self.ctx_model(p["input_ids"].to(f"{device}:0"),
+                                    p["attention_mask"].to(f"{device}:0")).pooler_output
 
         return {"embeddings": a_reps.cpu().numpy()}
 
@@ -105,7 +109,7 @@ class EmbedFaissIndex(FaissIndex):
                  model_name: str = "sentence-transformers/multi-qa-MiniLM-L6-cos-v1"):
 
         self.dims = 384
-        self.device = ("cuda" if torch.cuda.is_available() else "cpu")
+        self.device = get_device()
         self.model = SentenceTransformer(model_name)
 
         self.docs_data_columns = ['source',
