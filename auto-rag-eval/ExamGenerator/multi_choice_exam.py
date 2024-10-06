@@ -267,7 +267,8 @@ if __name__ == '__main__':
         }),
     }
 
-    for model_name in ['llamav2', 'openllama', 'claudev2', 'claude_instant']:
+    # for model_name in ['llamav2', 'openllama', 'claudev2', 'claude_instant']:
+    for model_name in ['llamav2']:
 
         MultiChoiceExamLLM = MultiChoiceExam(task_domain=main_args.task_domain,
                                              model_name=model_name,

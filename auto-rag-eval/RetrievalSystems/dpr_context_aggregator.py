@@ -6,7 +6,7 @@ import numpy as np
 from RetrievalSystems.context_utils import (
     ContextPassage,
     ContextProvider,
-    SearchConstraint,
+    # SearchConstraint,
     filter_args,
 )
 from sentence_transformers import CrossEncoder
@@ -27,7 +27,7 @@ class DPRContextGenerator(ContextProvider):
         self.context_sources = context_sources
         self.crossencoder = CrossEncoder(
             "cross-encoder/ms-marco-MiniLM-L-6-v2")
-        self.search_constraints = SearchConstraint()
+        # self.search_constraints = SearchConstraint()
 
     def get_matching_context(self,
                              query: str) -> List[ContextPassage]:

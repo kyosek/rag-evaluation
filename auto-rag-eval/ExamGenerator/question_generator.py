@@ -9,7 +9,7 @@ from datetime import datetime
 from os.path import abspath, dirname
 from typing import List
 
-from ExamGenerator.utils import get_single_file_in_folder
+from ExamGenerator.utils import read_jsonl
 # from LLMServer.bedrock.claude_instant import ClaudeInstant
 # from LLMServer.bedrock.claude_v2 import ClaudeV2
 from LLMServer.llama.llama_instant import LlamaModel
@@ -18,21 +18,6 @@ from LLMServer.llm_exam_generator import LLMExamGenerator, LlamaExamGenerator, C
 
 logger = logging.getLogger(__name__)
 ROOTPATH = dirname(dirname(abspath(__file__)))
-
-
-def read_jsonl(file_path):
-    flattened_data = []
-    with open(file_path, 'r') as f:
-        for line in f:
-            try:
-                json_object = json.loads(line)
-                # Extend the flattened_data list with the contents of json_object
-                # This assumes json_object is always a list of dictionaries
-                flattened_data.extend(json_object)
-            except json.JSONDecodeError as e:
-                print(f"Error parsing line: {line}")
-                print(f"Error message: {str(e)}")
-    return flattened_data
 
 
 class BatchExamGenerator:
