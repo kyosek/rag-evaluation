@@ -19,7 +19,7 @@ def delayed_text_generator(text: str, delay: float = 0.2):
 class Claude_GCP(BaseLLM):
 
     def __init__(self):
-        self.client = AnthropicVertex(project_id='rag-evaluation-437417', region='us-central1')
+        self.client = AnthropicVertex(project_id='rag-evaluation-437417', region='europe-west1')
         # aiplatform.init(project='rag-evaluation-437417', location='us-central1')
         # self.endpoint = aiplatform.Endpoint('projects/rag-evaluation-437417/locations/us-central1/endpoints/rag-evaluation-437417')
         self.inference_params = {
@@ -46,15 +46,15 @@ class Claude_GCP(BaseLLM):
             max_tokens=4096,
             messages=[
                 {
-                    "role": "system",
-                    "content": "You are a great assistant. Please follow the instruction of the user prompt.",
+                    "role": "user",
+                    "content": f"{prompt}",
                 }
             ]
         )
         # response = self.endpoint.predict([instance])
         
-        if response.predictions:
-            return response.predictions[1].text
+        if response.content[0].text:
+            return response.content[0].text
 
         raise ValueError("Incorrect Generation")
 

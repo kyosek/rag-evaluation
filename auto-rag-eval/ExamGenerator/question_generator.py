@@ -83,14 +83,17 @@ class BatchExamGenerator:
 
         # Split the data into batches
         batches = [data[i:i + self.batch_size]
-                   for i in range(0, len(data), self.batch_size)]
+                #    for i in range(0, len(data), self.batch_size)]
+                    for i in range(35 * self.batch_size, len(data), self.batch_size)]  # resuming from interrupted process
 
         start_time = datetime.fromtimestamp(
             time.time()).strftime('%Y%m%d%H')
 
         # try:
 
+        # for batch_index, batch in enumerate(batches):
         for batch_index, batch in enumerate(batches):
+            batch_index += 35  # resuming from interrupted process
 
             logger.error(f"Running batch {batch_index}.")
             if len(self.model_list) > 1:
@@ -128,6 +131,10 @@ if __name__ == "__main__":
         "--task-domain",
         help="Task Domain, among DevOps, StackExchange, MyOwnTask...",
     )
+    parser.add_argument(
+        "--file-name",
+        help="File name to the KnowledgeCorpus",
+    )
 
     main_args, _ = parser.parse_known_args()
 
@@ -139,4 +146,4 @@ if __name__ == "__main__":
         )
 
     raw_exam_generator.batch_generate_exam(
-        data_folder=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main/data_2024092613.json")
+        data_folder=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main/{main_args.file_name}")
