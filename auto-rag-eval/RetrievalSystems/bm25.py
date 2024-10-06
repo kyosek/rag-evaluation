@@ -1,6 +1,6 @@
 # From https://github.com/dorianbrown/rank_bm25/blob/master/rank_bm25.py
 
-import json
+import os
 import math
 from multiprocessing import Pool, cpu_count
 from typing import Dict, List
@@ -8,6 +8,7 @@ from typing import Dict, List
 import numpy as np
 from RetrievalSystems.context_utils import (ContextPassage, ContextProvider,
                                             get_single_file_in_folder)
+from ExamGenerator.utils import read_jsonl
 
 """
 All of these algorithms have been taken from the paper:
@@ -220,8 +221,9 @@ class BM25ContextProvider(ContextProvider):
                  bm25algo: BM25 = BM25Okapi,
                  top_k_results: int = 3):
 
-        with open(get_single_file_in_folder(data_folder), "r") as f:
-            self.corpus = json.load(f)
+        for filename in os.listdir(data_folder):
+            with open(get_single_file_in_folder(data_folder), "r") as f:
+                self.corpus = read_jsonl(os.path.join(data_folder, filename))
 
         self.bm25 = bm25algo([self.tokenizer(doc['text'])
                               for doc in self.corpus])
