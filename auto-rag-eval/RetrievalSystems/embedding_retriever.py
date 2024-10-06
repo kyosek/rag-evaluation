@@ -2,7 +2,8 @@ import os.path
 from typing import List
 
 import numpy as np
-from datasets import load_dataset
+from datasets import Dataset
+from ExamGenerator.utils import flatten_data
 from RetrievalSystems.context_utils import ContextPassage, ContextProvider
 from RetrievalSystems.docs_faiss_index import EmbedFaissIndex
 from sentence_transformers import SentenceTransformer
@@ -22,10 +23,11 @@ class EmbeddingContextProvider(ContextProvider):
         self.topk_embeddings = 20
         self.min_snippet_length = 20
 
-        self.docs_data = load_dataset(data_folder,
-                                      split="train",
-                                      # field="data" Old artifact from BH Template
-                                      )
+        all_data = flatten_data(data_folder)
+
+        self.docs_data = Dataset.from_list(all_data,
+                                           # split="train",
+                                           )
         # Generate a new index each time to avoid using an incorrect one
         if regenerate_index or not os.path.isfile(f"{index_folder}/kilt_dpr_data.faiss"):
             faiss_index = EmbedFaissIndex()

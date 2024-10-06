@@ -2,6 +2,7 @@ import os
 from collections import Counter
 from typing import List
 
+import json
 import nltk
 import numpy as np
 from ExamGenerator.multi_choice_question import MultiChoiceQuestion
@@ -10,6 +11,45 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
 nltk.download('punkt')
+
+
+def read_jsonl(file_path: str):
+    flattened_data = []
+    with open(file_path, 'r') as f:
+        for line in f:
+            try:
+                json_object = json.loads(line)
+                # Extend the flattened_data list with the contents of json_object
+                # This assumes json_object is always a list of dictionaries
+                flattened_data.extend(json_object)
+            except json.JSONDecodeError as e:
+                print(f"Error parsing line: {line}")
+                print(f"Error message: {str(e)}")
+    return flattened_data
+
+
+def flatten_data(data_folder: str) -> list:
+    all_data = []
+
+    for filename in os.listdir(data_folder):
+        if filename.endswith('.json'):
+            file_path = os.path.join(data_folder, filename)
+            # with open(file_path, 'r') as f:
+            data = read_jsonl(file_path)
+
+            for item in data:
+                all_data.append({
+                    'title': item['title'],
+                    'source': item['source'],
+                    'docs_id': item['docs_id'],
+                    'section': item['section'],
+                    'start_character': item['start_character'],
+                    'end_character': item['end_character'],
+                    'date': item['date'],
+                    'text': item['text'],
+                })
+
+    return all_data
 
 
 def get_n_sentences(text):
