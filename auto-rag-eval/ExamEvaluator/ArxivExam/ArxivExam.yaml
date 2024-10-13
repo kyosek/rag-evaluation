@@ -2,7 +2,7 @@ group: ArxivExam
 task:
 - dataset_kwargs: &id001
     data_files:
-      test: exam.json
+      test: Arxiv_QCM_claude_gcp_2024100422_batch0.json
   dataset_path: /Users/kyosuke/projects/auto-rag-eval/auto-rag-eval/Data/Arxiv/RawExamData/
   doc_to_choice: '{{choices}}'
   doc_to_target: '{{correct_answer}}'
