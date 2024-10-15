@@ -11,10 +11,10 @@ echo "Evaluating Llamav2 - 13B - ICL@0"
 lm-eval \
     --model hf \
     --model_args "pretrained=${model_path}" \
-    --tasks "${task_domain}RagExam" \
+    --tasks "${task_domain}Exam" \
     --include_path ../ \
     --device cpu \
-    --output_path "results/${task_domain}Exam/llamav2/13b/results_${current_date}_icl0.json"
+    --output_path "results/${task_domain}Exam/claude_gcp/13b/results_${current_date}_icl0.json"
 #echo "Evaluating Llamav2 - 13B - ICL@1"
 #accelerate launch main.py \
 #    --model hf \
