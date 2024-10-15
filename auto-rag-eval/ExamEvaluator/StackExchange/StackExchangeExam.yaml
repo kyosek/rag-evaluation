@@ -1,7 +1,8 @@
 group: StackExchangeExam
 task:
 - dataset_kwargs: &id001
-    data_dir: ./Data/StackExchange/ExamData/claude_gcp_2024100421/exam.json
+    data_files:
+      test: ../Data/StackExchange/ExamData/claude_gcp_2024100421/exam.json
   dataset_path: json
   doc_to_choice: '{{choices}}'
   doc_to_target: '{{correct_answer}}'
