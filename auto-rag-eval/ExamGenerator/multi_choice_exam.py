@@ -10,7 +10,7 @@ from typing import Dict, List
 
 import numpy as np
 from ExamGenerator.multi_choice_question import MultiChoiceQuestion
-from ExamGenerator.utils import SimilarityChecker, get_n_sentences
+from ExamGenerator.utils import SimilarityChecker, get_n_sentences, read_jsonl
 from RetrievalSystems.bm25 import BM25ContextProvider
 from RetrievalSystems.context_utils import ContextProvider
 from RetrievalSystems.dpr_context_aggregator import DPRContextGenerator
@@ -54,8 +54,11 @@ class MultiChoiceExam:
             mcq.extract_information()
 
             if mcq.valid_mcq() and self.task_based_constraints(mcq=mcq):
-                mcq.add_retrieved_context(self.context_generator_dict)
-                self.question_list.append(mcq)
+                try:
+                    mcq.add_retrieved_context(self.context_generator_dict)
+                    self.question_list.append(mcq)
+                except IndexError:
+                    self.question_list.append(mcq)
             else:
                 if mcq.question is None:
                     self.question_parsing_fail += 1
@@ -91,6 +94,7 @@ class MultiChoiceExam:
 
             with open(file, "r") as f:
                 raw_exam_list = list(json.load(f).values())
+                # raw_exam_list = list(read_jsonl(f).values())
                 self.load_from_list(raw_exam_list=raw_exam_list)
                 self.n_question += len(raw_exam_list)
 
@@ -268,7 +272,7 @@ if __name__ == '__main__':
     }
 
     # for model_name in ['llamav2', 'openllama', 'claudev2', 'claude_instant']:
-    for model_name in ['llamav2']:
+    for model_name in ['claude_gcp']:
 
         MultiChoiceExamLLM = MultiChoiceExam(task_domain=main_args.task_domain,
                                              model_name=model_name,
@@ -279,7 +283,6 @@ if __name__ == '__main__':
 
         if llm_exam_exists:
 
-            MultiChoiceExamLLM.compute_exam_analytics(save_failed_question=True)
+            MultiChoiceExamLLM.compute_exam_analytics(save_failed_question=False)
 
-            if main_args.save_exam:
-                MultiChoiceExamLLM.save_exam_dataset()
+            MultiChoiceExamLLM.save_exam_dataset()
