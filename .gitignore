@@ -1,3 +1,5 @@
+lm-evaluation-harness/
+
 *.out
 
 # Byte-compiled / optimized / DLL files
