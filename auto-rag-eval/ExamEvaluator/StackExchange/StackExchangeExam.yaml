@@ -1,0 +1,59 @@
+group: StackExchangeExam
+task:
+- dataset_kwargs: &id001
+    data_dir: ./Data/StackExchange/ExamData/claude_gcp_2024100421/exam.json
+  dataset_path: json
+  doc_to_choice: '{{choices}}'
+  doc_to_target: '{{correct_answer}}'
+  doc_to_text: !function preprocess_exam.make_prompt_closed_book
+  group: &id002
+  - multiple_choice
+  - StackExchange
+  metric_list: &id003
+  - aggregation: mean
+    higher_is_better: 'true'
+    metric: acc
+  - aggregation: mean
+    higher_is_better: 'true'
+    metric: acc_norm
+  output_type: multiple_choice
+  task: StackExchangeExam_closed_book_claude_gcp
+  test_split: test
+  training_split: null
+  validation_split: null
+- dataset_kwargs: *id001
+  dataset_path: auto-rag-eval/Data/StackExchange/ExamData/claude_gcp_2024100421/
+  doc_to_choice: '{{choices}}'
+  doc_to_target: '{{correct_answer}}'
+  doc_to_text: !function preprocess_exam.make_prompt_open_book
+  group: *id002
+  metric_list: *id003
+  output_type: multiple_choice
+  task: StackExchangeExam_open_book_claude_gcp
+  test_split: test
+  training_split: null
+  validation_split: null
+- dataset_kwargs: *id001
+  dataset_path: auto-rag-eval/Data/StackExchange/ExamData/claude_gcp_2024100421/
+  doc_to_choice: '{{choices}}'
+  doc_to_target: '{{correct_answer}}'
+  doc_to_text: !function preprocess_exam.make_prompt_closed_book
+  group: *id002
+  metric_list: *id003
+  output_type: multiple_choice
+#  task: StackExchangeExam_closed_book_llamav2
+#  test_split: test
+#  training_split: null
+#  validation_split: null
+#- dataset_kwargs: *id001
+#  dataset_path: auto-rag-eval/Data/StackExchange/ExamData/claude_gcp_2024100421/
+#  doc_to_choice: '{{choices}}'
+#  doc_to_target: '{{correct_answer}}'
+#  doc_to_text: !function preprocess_exam.make_prompt_open_book
+#  group: *id002
+#  metric_list: *id003
+#  output_type: multiple_choice
+#  task: StackExchangeExam_open_book_llamav2
+#  test_split: test
+#  training_split: null
+#  validation_split: null

@@ -1,7 +1,7 @@
 #!/bin/bash
 #Task supported: StackExchange, DevOps and rag variants StackExchangeRag, DevOpsRag...
 
-#cd lm-evaluation-harness
+cd lm-evaluation-harness
 current_date=$(date +"%y%m%d%H")
 task_domain=$1
 echo "Evaluating ${task_domain} task"
@@ -11,8 +11,8 @@ echo "Evaluating Llamav2 - 13B - ICL@0"
 lm-eval \
     --model hf \
     --model_args "pretrained=${model_path}" \
-    --tasks "${task_domain}Exam" \
-    --include_path ./ExamEvaluator \
+    --tasks "${task_domain}RagExam" \
+    --include_path ../ \
     --device cpu \
     --output_path "results/${task_domain}Exam/llamav2/13b/results_${current_date}_icl0.json"
 #echo "Evaluating Llamav2 - 13B - ICL@1"
@@ -35,7 +35,7 @@ lm-eval \
 ## Note the difference in arguments when using 70B models: python3 + parallelize=True vs accelerate launch
 #model_path="add/you/model/path/here"
 #echo "Evaluating Llamav2 - 70B - ICL@0"
-#python3 main.py \
+#lm-eval \
 #    --model hf \
 #    --model_args "pretrained=${model_path},parallelize=True" \
 #    --tasks "${task_domain}Exam" \
