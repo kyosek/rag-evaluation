@@ -94,7 +94,6 @@ class MultiChoiceExam:
 
             with open(file, "r") as f:
                 raw_exam_list = list(json.load(f).values())
-                # raw_exam_list = list(read_jsonl(f).values())
                 self.load_from_list(raw_exam_list=raw_exam_list)
                 self.n_question += len(raw_exam_list)
 
