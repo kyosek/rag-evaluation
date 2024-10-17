@@ -10,8 +10,6 @@ from os.path import abspath, dirname
 from typing import List
 
 from ExamGenerator.utils import read_jsonl
-# from LLMServer.bedrock.claude_instant import ClaudeInstant
-# from LLMServer.bedrock.claude_v2 import ClaudeV2
 from LLMServer.llama.llama_instant import LlamaModel
 from LLMServer.gcp.claude_instant import Claude_GCP
 from LLMServer.llm_exam_generator import LLMExamGenerator, LlamaExamGenerator, ClaudeExamGenerator
@@ -59,7 +57,7 @@ class BatchExamGenerator:
 
         # Suffle the data to prevent overfocusing on a topic
         # ---
-        random.seed(10)
+        random.seed(42)
         random.shuffle(data)
 
         logger.error((f"Processing a total of {len(data)} documentation pieces for {self.task_domain}"
@@ -68,8 +66,8 @@ class BatchExamGenerator:
 
         # Split the data into batches
         batches = [data[i:i + self.batch_size]
-                #    for i in range(0, len(data), self.batch_size)]
-                    for i in range(35 * self.batch_size, len(data), self.batch_size)]  # resuming from interrupted process
+                   for i in range(0, len(data), self.batch_size)]
+                #     for i in range(35 * self.batch_size, len(data), self.batch_size)]  # resuming from interrupted process
 
         start_time = datetime.fromtimestamp(
             time.time()).strftime('%Y%m%d%H')
@@ -78,7 +76,7 @@ class BatchExamGenerator:
 
         # for batch_index, batch in enumerate(batches):
         for batch_index, batch in enumerate(batches):
-            batch_index += 35  # resuming from interrupted process
+            # batch_index += 35  # resuming from interrupted process
 
             logger.error(f"Running batch {batch_index}.")
             if len(self.model_list) > 1:
