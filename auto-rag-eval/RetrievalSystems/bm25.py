@@ -6,8 +6,11 @@ from multiprocessing import Pool, cpu_count
 from typing import Dict, List
 
 import numpy as np
-from RetrievalSystems.context_utils import (ContextPassage, ContextProvider,
-                                            get_single_file_in_folder)
+from RetrievalSystems.context_utils import (
+    ContextPassage,
+    ContextProvider,
+    get_single_file_in_folder,
+)
 from ExamGenerator.utils import read_jsonl
 
 """
@@ -74,7 +77,9 @@ class BM25:
 
     def get_top_n(self, query, documents, n=5):
 
-        assert self.corpus_size == len(documents), "The documents given don't match the index corpus!"
+        assert self.corpus_size == len(
+            documents
+        ), "The documents given don't match the index corpus!"
 
         scores = self.get_scores(query)
         top_n = np.argsort(scores)[::-1][:n]
@@ -122,8 +127,11 @@ class BM25Okapi(BM25):
         doc_len = np.array(self.doc_len)
         for q in query:
             q_freq = np.array([(doc.get(q) or 0) for doc in self.doc_freqs])
-            score += (self.idf.get(q) or 0) * (q_freq * (self.k1 + 1)
-                                               / (q_freq + self.k1 * (1 - self.b + self.b * doc_len / self.avgdl)))
+            score += (self.idf.get(q) or 0) * (
+                q_freq
+                * (self.k1 + 1)
+                / (q_freq + self.k1 * (1 - self.b + self.b * doc_len / self.avgdl))
+            )
         return score
 
     def get_batch_scores(self, query, doc_ids):
@@ -135,8 +143,11 @@ class BM25Okapi(BM25):
         doc_len = np.array(self.doc_len)[doc_ids]
         for q in query:
             q_freq = np.array([(self.doc_freqs[di].get(q) or 0) for di in doc_ids])
-            score += (self.idf.get(q) or 0) * (q_freq * (self.k1 + 1)
-                                               / (q_freq + self.k1 * (1 - self.b + self.b * doc_len / self.avgdl)))
+            score += (self.idf.get(q) or 0) * (
+                q_freq
+                * (self.k1 + 1)
+                / (q_freq + self.k1 * (1 - self.b + self.b * doc_len / self.avgdl))
+            )
         return score.tolist()
 
 
@@ -159,8 +170,12 @@ class BM25L(BM25):
         for q in query:
             q_freq = np.array([(doc.get(q) or 0) for doc in self.doc_freqs])
             ctd = q_freq / (1 - self.b + self.b * doc_len / self.avgdl)
-            score += (self.idf.get(q) or 0) * (self.k1 + 1) * (ctd + self.delta) / \
-                     (self.k1 + ctd + self.delta)
+            score += (
+                (self.idf.get(q) or 0)
+                * (self.k1 + 1)
+                * (ctd + self.delta)
+                / (self.k1 + ctd + self.delta)
+            )
         return score
 
     def get_batch_scores(self, query, doc_ids):
@@ -173,8 +188,12 @@ class BM25L(BM25):
         for q in query:
             q_freq = np.array([(self.doc_freqs[di].get(q) or 0) for di in doc_ids])
             ctd = q_freq / (1 - self.b + self.b * doc_len / self.avgdl)
-            score += (self.idf.get(q) or 0) * (self.k1 + 1) * (ctd + self.delta) / \
-                     (self.k1 + ctd + self.delta)
+            score += (
+                (self.idf.get(q) or 0)
+                * (self.k1 + 1)
+                * (ctd + self.delta)
+                / (self.k1 + ctd + self.delta)
+            )
         return score.tolist()
 
 
@@ -196,8 +215,11 @@ class BM25Plus(BM25):
         doc_len = np.array(self.doc_len)
         for q in query:
             q_freq = np.array([(doc.get(q) or 0) for doc in self.doc_freqs])
-            score += (self.idf.get(q) or 0) * (self.delta + (q_freq * (self.k1 + 1))
-                                               / (self.k1 * (1 - self.b + self.b * doc_len / self.avgdl) + q_freq))
+            score += (self.idf.get(q) or 0) * (
+                self.delta
+                + (q_freq * (self.k1 + 1))
+                / (self.k1 * (1 - self.b + self.b * doc_len / self.avgdl) + q_freq)
+            )
         return score
 
     def get_batch_scores(self, query, doc_ids):
@@ -209,34 +231,30 @@ class BM25Plus(BM25):
         doc_len = np.array(self.doc_len)[doc_ids]
         for q in query:
             q_freq = np.array([(self.doc_freqs[di].get(q) or 0) for di in doc_ids])
-            score += (self.idf.get(q) or 0) * (self.delta + (q_freq * (self.k1 + 1))
-                                               / (self.k1 * (1 - self.b + self.b * doc_len / self.avgdl) + q_freq))
+            score += (self.idf.get(q) or 0) * (
+                self.delta
+                + (q_freq * (self.k1 + 1))
+                / (self.k1 * (1 - self.b + self.b * doc_len / self.avgdl) + q_freq)
+            )
         return score.tolist()
 
 
 class BM25ContextProvider(ContextProvider):
 
-    def __init__(self,
-                 data_folder: str,
-                 bm25algo: BM25 = BM25Okapi,
-                 top_k_results: int = 3):
+    def __init__(self, data_folder: str, bm25algo: BM25 = BM25Okapi, top_k_results: int = 3):
 
         for filename in os.listdir(data_folder):
             with open(get_single_file_in_folder(data_folder), "r") as f:
                 self.corpus = read_jsonl(os.path.join(data_folder, filename))
 
-        self.bm25 = bm25algo([self.tokenizer(doc['text'])
-                              for doc in self.corpus])
+        self.bm25 = bm25algo([self.tokenizer(doc["text"]) for doc in self.corpus])
         self.top_k_results = top_k_results
 
-    def get_context_from_query(self,
-                               query: str) -> List[Dict[str, str]]:
+    def get_context_from_query(self, query: str) -> List[Dict[str, str]]:
 
         tokenized_query = self.tokenizer(query)
 
-        return self.bm25.get_top_n(tokenized_query,
-                                   self.corpus,
-                                   n=self.top_k_results)
+        return self.bm25.get_top_n(tokenized_query, self.corpus, n=self.top_k_results)
 
     def tokenizer(self, text: str) -> str:
 
