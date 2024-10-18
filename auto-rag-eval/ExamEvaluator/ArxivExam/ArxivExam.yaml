@@ -2,8 +2,8 @@ group: ArxivExam
 task:
 - dataset_kwargs: &id001
     data_files:
-      test: Arxiv_QCM_claude_gcp_2024100422_batch0.json
-  dataset_path: /Users/kyosuke/projects/auto-rag-eval/auto-rag-eval/Data/Arxiv/RawExamData/
+      test: exam.json
+  dataset_path: /Users/kyosuke/projects/auto-rag-eval/auto-rag-eval/Data/Arxiv/ExamData/claude_gcp_2024100422
   doc_to_choice: '{{choices}}'
   doc_to_target: '{{correct_answer}}'
   doc_to_text: !function preprocess_exam.make_prompt_closed_book

@@ -11,6 +11,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
 nltk.download('punkt')
+nltk.download('punkt_tab')
 
 
 def read_jsonl(file_path: str):

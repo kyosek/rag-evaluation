@@ -1,8 +1,8 @@
 def make_prompt_closed_book(doc):
 
     return "###Human: Question: {}\n\n###Assistant: Correct answer".format(
-        doc["0"]["answer"]
-        # , "\n".join(doc["choices"])
+        doc['question'],
+        "\n".join(doc["choices"])
     )
 
 
