@@ -32,7 +32,7 @@ def evaluate_performance(exam: List[Dict], results: List[str]) -> float:
 
 
 # Main function to run the exam
-def run_exam(model_path: str, model_name: str, task_name: str, exam_file: str):
+def run_closed_book_exam(model_path: str, model_name: str, task_name: str, exam_file: str):
     exam = load_exam(exam_file)
     model = LlamaModel(model_path=model_path)
 
@@ -56,7 +56,7 @@ def run_exam(model_path: str, model_name: str, task_name: str, exam_file: str):
         json.dump(output, f, indent=2)
 
     print(f"Exam completed. Accuracy: {accuracy:.2%}")
-    print(f"Results saved to exam_results_{model_name}_{task_name}.json")
+    print(f"Results saved to exam_results_{model_name}.json")
 
 
 if __name__ == "__main__":
@@ -64,4 +64,4 @@ if __name__ == "__main__":
     model_name = "llamav2"
     task_name = "StackExchange"
     exam_file = f"Data/{task_name}/ExamData/claude_gcp_2024100421/exam.json"
-    run_exam(model_path, model_name, task_name, exam_file)
+    run_closed_book_exam(model_path, model_name, task_name, exam_file)
