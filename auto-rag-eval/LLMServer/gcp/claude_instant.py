@@ -10,16 +10,18 @@ STOP_AFTER_ATTEMPT = 6
 WAIT_EXPONENTIAL_MIN = 4
 WAIT_EXPONENTIAL_MAX = 30
 
+
 def delayed_text_generator(text: str, delay: float = 0.2):
     tokens = text.split()
     for i in range(1, len(tokens) + 1):
         time.sleep(delay)
-        yield ' '.join(tokens[:i])
+        yield " ".join(tokens[:i])
+
 
 class Claude_GCP(BaseLLM):
 
     def __init__(self):
-        self.client = AnthropicVertex(project_id='rag-evaluation-437417', region='europe-west1')
+        self.client = AnthropicVertex(project_id="rag-evaluation-437417", region="europe-west1")
         # aiplatform.init(project='rag-evaluation-437417', location='us-central1')
         # self.endpoint = aiplatform.Endpoint('projects/rag-evaluation-437417/locations/us-central1/endpoints/rag-evaluation-437417')
         self.inference_params = {
@@ -34,12 +36,9 @@ class Claude_GCP(BaseLLM):
     )
     def invoke(self, prompt: str, params: Dict[str, Any] = None) -> str:
         inference_params = {**self.inference_params, **(params or {})}
-        
+
         # Prepare the instance
-        instance = {
-            "prompt": prompt,
-            **inference_params
-        }
+        instance = {"prompt": prompt, **inference_params}
 
         response = self.client.messages.create(
             model="claude-3-5-sonnet@20240620",
@@ -49,10 +48,10 @@ class Claude_GCP(BaseLLM):
                     "role": "user",
                     "content": f"{prompt}",
                 }
-            ]
+            ],
         )
         # response = self.endpoint.predict([instance])
-        
+
         if response.content[0].text:
             return response.content[0].text
 
@@ -62,7 +61,9 @@ class Claude_GCP(BaseLLM):
         stop=stop_after_attempt(STOP_AFTER_ATTEMPT),
         wait=wait_exponential(min=WAIT_EXPONENTIAL_MIN, max=WAIT_EXPONENTIAL_MAX),
     )
-    def stream_inference(self, prompt: str, params: Dict[str, Any] = None) -> Generator[str, None, None]:
+    def stream_inference(
+        self, prompt: str, params: Dict[str, Any] = None
+    ) -> Generator[str, None, None]:
         completion = self.invoke(prompt, params)
         return delayed_text_generator(completion)
 
