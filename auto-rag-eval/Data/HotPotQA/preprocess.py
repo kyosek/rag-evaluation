@@ -75,14 +75,14 @@ class ArxivData:
 
     def load_save_data(self) -> None:
 
-        dataset = load_dataset("gfissore/arxiv-abstracts-2021",
+        dataset = load_dataset(path="hotpotqa/hotpot_qa",
+                               name="fullwiki",
                                split="train",
-                               # cache_dir="/home/USER/.cache/huggingface/datasets/",
                                )
 
         # Remove too lengthy or shorty answers to avoid repeting operation
-        sub_df = dataset.filter(lambda x: self.min_char_length <= len(x['abstract']) <= self.max_char_length)
-        logger.error((f"Reducing dataset size from {len(dataset)} to {len(sub_df)} by keeping abstract with"
+        sub_df = dataset.filter(lambda x: self.min_char_length <= len(x['context']["sentences"]) <= self.max_char_length)
+        logger.info((f"Reducing dataset size from {len(dataset)} to {len(sub_df)} by keeping context with"
                      f" character length between {self.min_char_length} and {self.max_char_length}."))
 
         # Join over all categories at the end and shuffle again

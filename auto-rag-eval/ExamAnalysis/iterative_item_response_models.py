@@ -127,7 +127,6 @@ class IterativeHierarchicalItemResponseModel(BaseItemResponseModel):
             estimator_dict[step] = params
 
         return estimator_dict
-        
 
     def compute_stats(self, estimator: Dict[str, np.array]):
 
@@ -223,3 +222,19 @@ class IterativeHierarchicalItemResponseModel(BaseItemResponseModel):
         if save_path:
             plt.savefig(save_path)
         plt.show()
+        
+    def save_iterated_exam(self, step: int, kept_indices: np.array):
+        """Saves the iterated exam data in JSON format."""
+        for student in self.students:
+            data = self.load_data(student.data_path)
+            iterated_data = [data[i] for i in kept_indices]
+
+            # Define the output path (modify as needed)
+            output_dir = f"Data/IteratedExams/{student.llm}/{student.retrieval}/icl_{student.icl}"
+            os.makedirs(output_dir, exist_ok=True)
+            output_path = os.path.join(output_dir, f"step_{step}.jsonl")
+
+            with open(output_path, 'w') as f:
+                for item in iterated_data:
+                    json.dump(item, f)
+                    f.write('\n')
