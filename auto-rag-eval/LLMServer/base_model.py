@@ -5,16 +5,14 @@ from typing import Dict, Generator, Union
 class BaseLLM(ABC):
 
     @abstractmethod
-    def invoke(self,
-               prompt: str,
-               params: Dict[str, Union[int, str]]) -> str:
+    def invoke(self, prompt: str, params: Dict[str, Union[int, str]]) -> str:
 
         pass
 
     @abstractmethod
-    def stream_inference(self,
-                         prompt: str,
-                         params: Dict[str, Union[int, str]]) -> Generator[str, None, None]:
+    def stream_inference(
+        self, prompt: str, params: Dict[str, Union[int, str]]
+    ) -> Generator[str, None, None]:
 
         pass
 

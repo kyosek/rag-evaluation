@@ -35,9 +35,9 @@ class ConstraintException(Exception):
 
 class ContextProvider:
 
-    def get_context_from_query(self,
-                               query: str,
-                               params: Dict[str, Union[int, str]] = {}) -> List[ContextPassage]:
+    def get_context_from_query(
+        self, query: str, params: Dict[str, Union[int, str]] = {}
+    ) -> List[ContextPassage]:
 
         pass
 
@@ -47,7 +47,11 @@ def get_single_file_in_folder(folder_path):
     entries = os.listdir(folder_path)
 
     # Filter out only the files (excluding directories and other types)
-    files = [os.path.join(folder_path, f) for f in entries if os.path.isfile(os.path.join(folder_path, f))]
+    files = [
+        os.path.join(folder_path, f)
+        for f in entries
+        if os.path.isfile(os.path.join(folder_path, f))
+    ]
 
     # Check the number of files
     if len(files) == 1:
@@ -55,7 +59,9 @@ def get_single_file_in_folder(folder_path):
     elif len(files) == 0:
         raise ValueError(f"No files found in the directory {folder_path}")
     else:
-        raise ValueError(f"More than one file found in the directory {folder_path}. Files are: {', '.join(files)}")
+        raise ValueError(
+            f"More than one file found in the directory {folder_path}. Files are: {', '.join(files)}"
+        )
 
 
 def clean_question(text):
