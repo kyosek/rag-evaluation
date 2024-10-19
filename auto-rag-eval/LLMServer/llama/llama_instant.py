@@ -14,11 +14,15 @@ def delayed_text_generator(text: str, delay: float = 0.2):
     tokens = text.split()
     for i in range(1, len(tokens) + 1):
         time.sleep(delay)
-        yield ' '.join(tokens[:i])
+        yield " ".join(tokens[:i])
 
 
 class LlamaModel(BaseLLM):
-    def __init__(self, model_path: str = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF", filename: str = "*q8_0.gguf"):
+    def __init__(
+        self,
+        model_path: str = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF",
+        filename: str = "*q8_0.gguf",
+    ):
         self.llm = Llama.from_pretrained(
             repo_id=model_path,
             filename=filename,
@@ -39,10 +43,9 @@ class LlamaModel(BaseLLM):
     def invoke(self, prompt: str) -> str:
         try:
             output = self.llm.create_chat_completion(
-                messages=[{"role": "user", "content": prompt}],
-                **self.inference_params
+                messages=[{"role": "user", "content": prompt}], **self.inference_params
             )
-            return output['choices'][0]['message']['content']
+            return output["choices"][0]["message"]["content"]
         except Exception as e:
             raise ValueError(f"Incorrect Generation: {str(e)}")
 
@@ -53,15 +56,13 @@ class LlamaModel(BaseLLM):
     def stream_inference(self, prompt: str) -> Generator[str, None, None]:
         try:
             output = self.llm.create_chat_completion(
-                messages=[{"role": "user", "content": prompt}],
-                **self.inference_params,
-                stream=True
+                messages=[{"role": "user", "content": prompt}], **self.inference_params, stream=True
             )
             full_response = ""
             for chunk in output:
-                if chunk['choices'][0]['delta'].get('content'):
-                    full_response += chunk['choices'][0]['delta']['content']
-                    yield chunk['choices'][0]['delta']['content']
+                if chunk["choices"][0]["delta"].get("content"):
+                    full_response += chunk["choices"][0]["delta"]["content"]
+                    yield chunk["choices"][0]["delta"]["content"]
         except Exception as e:
             raise ValueError(f"Incorrect Generation: {str(e)}")
 

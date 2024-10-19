@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 # Load the JSON file
 def load_exam(file_path):
-    with open(file_path, 'r') as file:
+    with open(file_path, "r") as file:
         return json.load(file)
 
 
@@ -27,7 +27,7 @@ def generate_answer(model: LlamaModel, question: str, choices: List[str]) -> str
 
 # Evaluate the model's performance
 def evaluate_performance(exam: List[Dict], results: List[str]) -> float:
-    correct = sum(1 for q, r in zip(exam, results) if q['correct_answer'].startswith(r))
+    correct = sum(1 for q, r in zip(exam, results) if q["correct_answer"].startswith(r))
     return correct / len(exam)
 
 
@@ -38,21 +38,23 @@ def run_closed_book_exam(model_path: str, model_name: str, task_name: str, exam_
 
     results = []
     for question in tqdm(exam, desc="Processing questions", unit="question"):
-        answer = generate_answer(model, question['question'], question['choices'])
+        answer = generate_answer(model, question["question"], question["choices"])
         results.append(answer)
 
     accuracy = evaluate_performance(exam, results)
 
     output = []
     for q, r in zip(exam, results):
-        output.append({
-            'question': q['question'],
-            'model_answer': r,
-            'correct_answer': q['correct_answer'][0],
-            'is_correct': r == q['correct_answer'][0]
-        })
+        output.append(
+            {
+                "question": q["question"],
+                "model_answer": r,
+                "correct_answer": q["correct_answer"][0],
+                "is_correct": r == q["correct_answer"][0],
+            }
+        )
 
-    with open(f'Data/{task_name}/ExamResults/exam_results_{model_name}_{task_name}.json', 'w') as f:
+    with open(f"Data/{task_name}/ExamResults/exam_results_{model_name}_{task_name}.json", "w") as f:
         json.dump(output, f, indent=2)
 
     print(f"Exam completed. Accuracy: {accuracy:.2%}")

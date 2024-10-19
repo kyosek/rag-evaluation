@@ -11,12 +11,15 @@ class RAGEvaluator:
         # Implement closed book evaluation
         pass
 
-    def evaluate_open_book(self, questions: List[Dict[str, Any]], context: str) -> List[Dict[str, Any]]:
+    def evaluate_open_book(
+        self, questions: List[Dict[str, Any]], context: str
+    ) -> List[Dict[str, Any]]:
         # Implement open book evaluation
         pass
 
-    def evaluate_icl(self, questions: List[Dict[str, Any]], examples: List[Dict[str, Any]], num_shots: int) -> List[
-        Dict[str, Any]]:
+    def evaluate_icl(
+        self, questions: List[Dict[str, Any]], examples: List[Dict[str, Any]], num_shots: int
+    ) -> List[Dict[str, Any]]:
         # Implement in-context learning evaluation
         pass
 
@@ -26,7 +29,7 @@ class RAGEvaluator:
 
 
 def load_questions(file_path: str) -> List[Dict[str, Any]]:
-    with open(file_path, 'r') as f:
+    with open(file_path, "r") as f:
         return json.load(f)
 
 

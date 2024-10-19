@@ -24,18 +24,17 @@ class FaissIndex:
 
         pass
 
-    def create_faiss(self,
-                     data_folder: str,
-                     index_folder: str) -> None:
+    def create_faiss(self, data_folder: str, index_folder: str) -> None:
 
         index_file_name = f"{index_folder}/kilt_dpr_data.faiss"
         cache_file_name = f"{index_folder}/data_kilt_embedded.arrow"
 
         all_data = flatten_data(data_folder)
 
-        docs_data = Dataset.from_list(all_data,
-                                           # split="train",
-                                           )
+        docs_data = Dataset.from_list(
+            all_data,
+            # split="train",
+        )
 
         if os.path.isfile(index_file_name):
             logger.error(f"Deleting existing Faiss index: {index_file_name}")
@@ -46,12 +45,14 @@ class FaissIndex:
 
         # TODO: asssert set(self.docs_data_columns.features.keys()) == set(self.docs_data_columns)
 
-        paragraphs_embeddings = docs_data.map(self.embed_passages_for_retrieval,
-                                              remove_columns=self.docs_data_columns,
-                                              batched=True,
-                                              batch_size=512,
-                                              cache_file_name=cache_file_name,
-                                              desc="Creating faiss index")
+        paragraphs_embeddings = docs_data.map(
+            self.embed_passages_for_retrieval,
+            remove_columns=self.docs_data_columns,
+            batched=True,
+            batch_size=512,
+            cache_file_name=cache_file_name,
+            desc="Creating faiss index",
+        )
 
         # Faiss implementation of HNSW for fast approximate nearest neighbor search
         # custom_index = faiss.IndexHNSWFlat(dims, 128, faiss.METRIC_INNER_PRODUCT)
@@ -59,75 +60,75 @@ class FaissIndex:
         # custom_index = faiss.index_cpu_to_all_gpus(custom_index)
 
         paragraphs_embeddings.add_faiss_index(
-            column="embeddings",
-            custom_index=faiss.IndexFlatIP(self.dims))
-        paragraphs_embeddings.save_faiss_index(
-            "embeddings", index_file_name)
+            column="embeddings", custom_index=faiss.IndexFlatIP(self.dims)
+        )
+        paragraphs_embeddings.save_faiss_index("embeddings", index_file_name)
         logger.error("Faiss index successfully created")
 
 
 class DocFaissIndex(FaissIndex):
 
-    def __init__(self,
-                 ctx_encoder_name: str = "vblagoje/dpr-ctx_encoder-single-lfqa-base"):
+    def __init__(self, ctx_encoder_name: str = "vblagoje/dpr-ctx_encoder-single-lfqa-base"):
 
         self.dims = 128
         self.device = get_device()
-        self.ctx_tokenizer = AutoTokenizer.from_pretrained(
-            ctx_encoder_name)
-        self.ctx_model = DPRContextEncoder.from_pretrained(
-            ctx_encoder_name).to(self.device)
+        self.ctx_tokenizer = AutoTokenizer.from_pretrained(ctx_encoder_name)
+        self.ctx_model = DPRContextEncoder.from_pretrained(ctx_encoder_name).to(self.device)
         _ = self.ctx_model.eval()
 
-        self.docs_data_columns = ['source',
-                                  'docs_id',
-                                  'title',
-                                  'section',
-                                  'text',
-                                  'start_character',
-                                  'end_character',
-                                  'date']
+        self.docs_data_columns = [
+            "source",
+            "docs_id",
+            "title",
+            "section",
+            "text",
+            "start_character",
+            "end_character",
+            "date",
+        ]
 
-    def embed_passages_for_retrieval(self,
-                                     passages: Dict[str, str]):
+    def embed_passages_for_retrieval(self, passages: Dict[str, str]):
         device = get_device()
-        p = self.ctx_tokenizer(passages["text"],
-                               max_length=128,
-                               padding="max_length",
-                               truncation=True,
-                               return_tensors="pt")
+        p = self.ctx_tokenizer(
+            passages["text"],
+            max_length=128,
+            padding="max_length",
+            truncation=True,
+            return_tensors="pt",
+        )
         with torch.no_grad():
-            a_reps = self.ctx_model(p["input_ids"].to(f"{device}:0"),
-                                    p["attention_mask"].to(f"{device}:0")).pooler_output
+            a_reps = self.ctx_model(
+                p["input_ids"].to(f"{device}:0"), p["attention_mask"].to(f"{device}:0")
+            ).pooler_output
 
         return {"embeddings": a_reps.cpu().numpy()}
 
 
 class EmbedFaissIndex(FaissIndex):
 
-    def __init__(self,
-                 model_name: str = "sentence-transformers/multi-qa-MiniLM-L6-cos-v1"):
+    def __init__(self, model_name: str = "sentence-transformers/multi-qa-MiniLM-L6-cos-v1"):
 
         self.dims = 384
         self.device = get_device()
         self.model = SentenceTransformer(model_name)
 
-        self.docs_data_columns = ['source',
-                                  'docs_id',
-                                  'title',
-                                  'section',
-                                  'text',
-                                  'start_character',
-                                  'end_character',
-                                  'date']
+        self.docs_data_columns = [
+            "source",
+            "docs_id",
+            "title",
+            "section",
+            "text",
+            "start_character",
+            "end_character",
+            "date",
+        ]
 
     def embed_passages_for_retrieval(self, examples):
-        return {"embeddings": self.model.encode(examples['text'])}
+        return {"embeddings": self.model.encode(examples["text"])}
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(
-        description="Creates Faiss Docs index file")
+    parser = argparse.ArgumentParser(description="Creates Faiss Docs index file")
 
     parser.add_argument(
         "--task-domain",
@@ -137,5 +138,7 @@ if __name__ == "__main__":
     main_args, _ = parser.parse_known_args()
 
     faiss_index = DocFaissIndex()
-    faiss_index.create_faiss(data_folder=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main",
-                             index_folder=f"{ROOTPATH}/Data/{main_args.task_domain}/RetrievalIndex")
+    faiss_index.create_faiss(
+        data_folder=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main",
+        index_folder=f"{ROOTPATH}/Data/{main_args.task_domain}/RetrievalIndex",
+    )
