@@ -18,10 +18,12 @@ def generate_answer(model: LlamaModel, question: str, choices: List[str]) -> str
     prompt += """
     \nYou are a student that is solving the exam.
     Please provide the letter (A, B, C, or D) only of the correct answer.
+    The response must follow the response format:
+    Response format example:
+    A
     """
 
     response = model.invoke(prompt)
-    # Extract the last character (should be the letter answer)
     return response.strip()[-1]
 
 

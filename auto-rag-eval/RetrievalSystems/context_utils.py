@@ -19,7 +19,7 @@ def filter_args(func, args_dict):
 
 class ContextPassage(BaseModel):
     source: Union[str, List[str]]
-    docs_id: str
+    docs_id: Union[str, int]
     title: str
     section: Union[str, List[str]]
     text: str
