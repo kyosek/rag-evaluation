@@ -45,10 +45,12 @@ class BatchExamGenerator:
 
     def batch_generate_exam(self, data_folder: str) -> None:
 
-        # with open(get_single_file_in_folder(data_folder), "r") as f:
-        # data = json.load(f)
-        # Read the data line by line
-        data = read_jsonl(data_folder)
+        try:
+            with open(data_folder, "r") as f:
+                data = json.load(f)
+        except:
+            # Read the data line by line
+            data = read_jsonl(data_folder)
 
         # Suffle the data to prevent overfocusing on a topic
         # ---
@@ -132,5 +134,5 @@ if __name__ == "__main__":
     )
 
     raw_exam_generator.batch_generate_exam(
-        data_folder=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main/{main_args.file_name}"
+        data_folder=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main/data_2024102022.json"
     )
