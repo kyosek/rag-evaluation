@@ -19,10 +19,16 @@ def generate_answer(model: LlamaModel, question: str, choices: List[str], docume
     prompt += """
     \nYou are a student that is solving the exam.
     Please solve the question by using the given document and 
-    provide the letter (A, B, C, or D) only of the correct answer.
+    provide the letter (A, B, C, or D) only of the correct answer.\n
     The response must follow the response format:
-    Response format example:
+    - Return only one letter (A, B, C, or D)
+    - No period or anything else at the end of the sentence\n
+    Response format example 1:
     A
+    Response format example 2:
+    C
+    Response format example 3:
+    D
     """
 
     response = model.invoke(prompt)
@@ -36,7 +42,7 @@ def evaluate_performance(exam: List[Dict], results: List[str]) -> float:
 
 
 # Main function to run the exam
-def run_closed_book_exam(model_path: str, model_name: str, task_name: str, exam_file: str):
+def run_open_book_exam(model_path: str, model_name: str, task_name: str, exam_file: str):
     exam = load_exam(exam_file)
     model = LlamaModel(model_path=model_path)
 
@@ -58,7 +64,7 @@ def run_closed_book_exam(model_path: str, model_name: str, task_name: str, exam_
             }
         )
 
-    with open(f"Data/{task_name}/ExamResults/exam_results_{model_name}_{task_name}.json", "w") as f:
+    with open(f"Data/{task_name}/ExamResults/open_exam_results_{model_name}_{task_name}.json", "w") as f:
         json.dump(output, f, indent=2)
 
     print(f"Exam completed. Accuracy: {accuracy:.2%}")
@@ -68,6 +74,6 @@ def run_closed_book_exam(model_path: str, model_name: str, task_name: str, exam_
 if __name__ == "__main__":
     model_path = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF"
     model_name = "llamav2"
-    task_name = "StackExchange"
-    exam_file = f"Data/{task_name}/ExamData/claude_gcp_2024100421/exam.json"
-    run_closed_book_exam(model_path, model_name, task_name, exam_file)
+    task_name = "Arxiv"
+    exam_file = f"Data/{task_name}/ExamData/claude_gcp_2024100422/exam.json"
+    run_open_book_exam(model_path, model_name, task_name, exam_file)
