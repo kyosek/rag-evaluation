@@ -66,13 +66,13 @@ class BatchExamGenerator:
         )
 
         # Split the data into batches
-        # batches = [data[i : i + self.batch_size] for i in range(0, len(data), self.batch_size)]
-        batches = [data[i : i + self.batch_size] for i in range(180, len(data), self.batch_size)] # resuming from interrupted process
+        batches = [data[i : i + self.batch_size] for i in range(0, len(data), self.batch_size)]
+        # batches = [data[i : i + self.batch_size] for i in range(180, len(data), self.batch_size)] # resuming from interrupted process
 
         start_time = datetime.fromtimestamp(time.time()).strftime("%Y%m%d%H")
 
         for batch_index, batch in enumerate(batches):
-            batch_index += 180  # resuming from interrupted process
+            # batch_index += 180  # resuming from interrupted process
 
             logger.error(f"Running batch {batch_index}.")
             if len(self.model_list) > 1:
