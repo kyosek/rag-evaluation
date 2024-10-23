@@ -105,7 +105,7 @@ class IterativeHierarchicalItemResponseModel(BaseItemResponseModel):
         for step in range(1, n_steps):
 
             # Low-discrimation filtering, remove low self.drop_ratio % of questions
-            percentile_value = np.percentile(params["discrimination"], drop_ratio)
+            percentile_value = np.percentile(params["discrimination"], drop_ratio) * 0.98
 
             # Find the index of the closest value to this percentile in the array and filter it
             indices_to_remove = [

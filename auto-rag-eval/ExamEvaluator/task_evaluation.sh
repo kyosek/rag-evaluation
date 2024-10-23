@@ -8,12 +8,12 @@ echo "Evaluating ${task_domain} task"
 
 model_path="meta-llama/Llama-2-13b-hf"
 echo "Evaluating Llamav2 - 13B - ICL@0"
-lm-eval \
+lm_eval \
     --model hf \
     --model_args "pretrained=${model_path}" \
     --tasks "${task_domain}Exam" \
     --include_path ../ \
-    --device cpu \
+    --device gpu \
     --output_path "results/${task_domain}Exam/claude_gcp/13b/results_${current_date}_icl0.json"
 #echo "Evaluating Llamav2 - 13B - ICL@1"
 #accelerate launch main.py \

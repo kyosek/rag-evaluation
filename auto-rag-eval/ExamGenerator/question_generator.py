@@ -45,10 +45,12 @@ class BatchExamGenerator:
 
     def batch_generate_exam(self, data_folder: str) -> None:
 
-        # with open(get_single_file_in_folder(data_folder), "r") as f:
-        # data = json.load(f)
-        # Read the data line by line
-        data = read_jsonl(data_folder)
+        try:
+            with open(data_folder, "r") as f:
+                data = json.load(f)
+        except:
+            # Read the data line by line
+            data = read_jsonl(data_folder)
 
         # Suffle the data to prevent overfocusing on a topic
         # ---
@@ -65,15 +67,12 @@ class BatchExamGenerator:
 
         # Split the data into batches
         batches = [data[i : i + self.batch_size] for i in range(0, len(data), self.batch_size)]
-        #     for i in range(35 * self.batch_size, len(data), self.batch_size)]  # resuming from interrupted process
+        # batches = [data[i : i + self.batch_size] for i in range(180, len(data), self.batch_size)] # resuming from interrupted process
 
         start_time = datetime.fromtimestamp(time.time()).strftime("%Y%m%d%H")
 
-        # try:
-
-        # for batch_index, batch in enumerate(batches):
         for batch_index, batch in enumerate(batches):
-            # batch_index += 35  # resuming from interrupted process
+            # batch_index += 180  # resuming from interrupted process
 
             logger.error(f"Running batch {batch_index}.")
             if len(self.model_list) > 1:
@@ -132,5 +131,5 @@ if __name__ == "__main__":
     )
 
     raw_exam_generator.batch_generate_exam(
-        data_folder=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main/{main_args.file_name}"
+        data_folder=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main/data_2024102123.json"
     )

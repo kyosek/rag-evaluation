@@ -27,11 +27,11 @@ class LlamaModel(BaseLLM):
             repo_id=model_path,
             filename=filename,
             n_gpu_layers=-1,
-            n_ctx=8192,
+            n_ctx=16384,
             verbose=True,
         )
         self.inference_params = {
-            "max_tokens": 8192,
+            "max_tokens": 16384,
             "temperature": 0,
             "top_p": 0.9,
         }
