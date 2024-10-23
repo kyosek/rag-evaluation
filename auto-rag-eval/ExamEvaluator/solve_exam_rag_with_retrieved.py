@@ -72,7 +72,7 @@ def run_rag_exam(model_path: str, model_name: str, task_name: str, exam_file: st
             }
         )
 
-    with open(f"Data/{task_name}/ExamResults/rag_exam_results_{model_name}_{task_name}_{retriever}.json", "w") as f:
+    with open(f"Data/{task_name}/ExamResults/rag_exam_results_{model_name}_{retriever}.json", "w") as f:
         json.dump(output, f, indent=2)
 
     print(f"Exam completed. Accuracy: {accuracy:.2%}")
@@ -84,8 +84,8 @@ if __name__ == "__main__":
     model_name = "llamav2"
     task_name = "StackExchange"
     exam_file = f"Data/{task_name}/ExamData/claude_gcp_2024100421/exam.json"
-    # retrievers = ["BM25", "DPR", "SIAMESE", "MultiQA", "DPR:MultiQA:BM25"]
-    retrievers = ["MultiQA", "DPR:MultiQA:BM25"]
+    retrievers = ["BM25", "DPR", "SIAMESE", "MultiQA", "DPR:MultiQA:BM25"]
+    # retrievers = ["MultiQA", "DPR:MultiQA:BM25"]
     for retriever in retrievers:
         print(f"Retriever: {retriever}")
         run_rag_exam(model_path, model_name, task_name, exam_file, retriever)
