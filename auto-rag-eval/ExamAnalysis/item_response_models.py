@@ -73,7 +73,7 @@ class BaseItemResponseModel:
             llm: index
             for index, llm in enumerate(set([student.retrieval for student in self.students]))
         }
-        self.num_icl = 3
+        self.num_icl = 1
         self.num_llm = len(self.llm_map)
         self.num_retrieval = len(self.retrieval_map)
         self.num_theta_params = len(self.llm_map) + len(self.retrieval_map) + self.num_icl
