@@ -40,6 +40,7 @@ class LawStackExchangeDataLoader:
             "docs_id": row["question_id"],
             "title": row["question_title"],
             "section": "N/A",
+            "date": "N/A",
             "start_character": "N/A",
             "end_character": "N/A",
             "text": self.html2md(
