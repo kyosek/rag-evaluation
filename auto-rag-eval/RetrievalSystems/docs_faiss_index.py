@@ -7,7 +7,7 @@ from typing import Dict
 import faiss
 import numpy as np
 import torch
-from datasets import Dataset
+from datasets import Dataset, load_dataset
 from sentence_transformers import SentenceTransformer
 from transformers import AutoTokenizer, DPRContextEncoder
 from ExamGenerator.utils import flatten_data
@@ -29,12 +29,19 @@ class FaissIndex:
         index_file_name = f"{index_folder}/kilt_dpr_data.faiss"
         cache_file_name = f"{index_folder}/data_kilt_embedded.arrow"
 
-        all_data = flatten_data(data_folder)
+        try:
+            docs_data = load_dataset(data_folder,
+                                     split="train",
+                                     # field="data" # To be removed for BH data template, which differs from others
+                                     )
 
-        docs_data = Dataset.from_list(
-            all_data,
-            # split="train",
-        )
+        except:
+            all_data = flatten_data(data_folder)
+
+            docs_data = Dataset.from_list(
+                all_data,
+                # split="train",
+            )
 
         if os.path.isfile(index_file_name):
             logger.error(f"Deleting existing Faiss index: {index_file_name}")
