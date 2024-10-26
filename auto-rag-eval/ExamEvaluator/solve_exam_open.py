@@ -2,6 +2,7 @@ import os
 import json
 from typing import List, Dict
 from LLMServer.llama.llama_instant import LlamaModel
+from LLMServer.llama_gcp.llama_gcp_instant import LlamaGcpModel
 from tqdm import tqdm
 
 
@@ -43,9 +44,14 @@ def evaluate_performance(exam: List[Dict], results: List[str]) -> float:
 
 
 # Main function to run the exam
-def run_open_book_exam(model_path: str, model_name: str, task_name: str, exam_file: str):
+def run_open_book_exam(model_device: str, model_path: str, model_name: str, task_name: str, exam_file: str):
     exam = load_exam(exam_file)
-    model = LlamaModel(model_path=model_path)
+    if model_device == "GCP":
+        print("Using transformer")
+        model = LlamaGcpModel(model_path=model_path)
+    else:
+        print("Using Llama-cpp")
+        model = LlamaModel(model_path=model_path)
 
     results = []
     for question in tqdm(exam, desc="Processing questions", unit="question"):
@@ -73,10 +79,11 @@ def run_open_book_exam(model_path: str, model_name: str, task_name: str, exam_fi
 
 
 if __name__ == "__main__":
-    # model_path = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF"
-    model_path = "Meta-Llama-3.1-70B-Instruct-Q4_K_S.gguf"
-    # model_name = "llamav2"
-    model_name = "llama3-B70"
+    model_device = "GCP"
+    model_path = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF"
+    # model_path = "Meta-Llama-3.1-70B-Instruct-Q4_K_S.gguf"
+    model_name = "llamav2"
+    # model_name = "llama3-B70"
     task_name = "LawStackExchange"
     exam_file = f"Data/{task_name}/ExamData/claude_gcp_2024102123/exam_1000_42.json"
 
@@ -84,4 +91,4 @@ if __name__ == "__main__":
     directory = f"Data/{task_name}/ExamResults"
     os.makedirs(directory, exist_ok=True)
 
-    run_open_book_exam(model_path, model_name, task_name, exam_file)
+    run_open_book_exam(model_device, model_path, model_name, task_name, exam_file)
