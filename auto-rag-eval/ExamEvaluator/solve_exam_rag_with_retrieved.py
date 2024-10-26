@@ -82,8 +82,11 @@ def run_rag_exam(model_path: str, model_name: str, task_name: str, exam_file: st
 if __name__ == "__main__":
     model_path = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF"
     model_name = "llamav2"
-    task_name = "StackExchange"
-    exam_file = f"Data/{task_name}/ExamData/claude_gcp_2024100421/exam.json"
+    # task_name = "LawStackExchange"
+    # folder_name = "claude_gcp_2024102123"
+    task_name = "Arxiv"
+    folder_name = "claude_gcp_2024100422"
+    exam_file = f"Data/{task_name}/ExamData/{folder_name}/exam.json"
     retrievers = ["BM25", "DPR", "SIAMESE", "MultiQA", "DPR:MultiQA:BM25"]
     # retrievers = ["MultiQA", "DPR:MultiQA:BM25"]
     for retriever in retrievers:
