@@ -48,7 +48,11 @@ def run_open_book_exam(model_device: str, model_path: str, model_name: str, task
     exam = load_exam(exam_file)
     if model_device == "GCP":
         print("Using transformer")
-        model = LlamaGcpModel(model_path=model_path)
+        model = LlamaGcpModel(
+            model_size="70B",
+            use_gpu=True,
+            load_in_4bit=True
+            )
     else:
         print("Using Llama-cpp")
         model = LlamaModel(model_path=model_path)

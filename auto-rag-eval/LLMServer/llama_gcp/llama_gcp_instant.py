@@ -20,11 +20,14 @@ def delayed_text_generator(text: str, delay: float = 0.2):
 class LlamaGcpModel(BaseLLM):
     AVAILABLE_MODELS = {
         "3B": {
-            "model_id": "meta-llama/Llama-2-3b-chat-hf",
+            "model_id": "meta-llama/Llama-3.2-3B-Instruct-QLORA_INT4_EO8",
         },
-        # "70B": {
-        #     "model_id": "meta-llama/Llama-2-70b-chat-hf",
-        # }
+        "70B": {
+            "model_id": "meta-llama/Llama-3.1-70B-Instruct",
+        },
+        "Ministral-8B": {
+            "model_id": "bartowski/Ministral-8B-Instruct-2410-GGUF"
+        }
     }
 
     def __init__(
