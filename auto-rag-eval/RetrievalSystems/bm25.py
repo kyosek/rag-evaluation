@@ -1,5 +1,5 @@
 # From https://github.com/dorianbrown/rank_bm25/blob/master/rank_bm25.py
-
+import json
 import os
 import math
 from multiprocessing import Pool, cpu_count
@@ -243,8 +243,11 @@ class BM25ContextProvider(ContextProvider):
 
     def __init__(self, data_folder: str, bm25algo: BM25 = BM25Okapi, top_k_results: int = 3):
 
-        for filename in os.listdir(data_folder):
-            with open(get_single_file_in_folder(data_folder), "r") as f:
+        # for filename in os.listdir(data_folder):
+        with open(get_single_file_in_folder(data_folder), "r") as f:
+            try:
+                self.corpus = json.load(f)
+            except:
                 self.corpus = read_jsonl(os.path.join(data_folder, filename))
 
         self.bm25 = bm25algo([self.tokenizer(doc["text"]) for doc in self.corpus])

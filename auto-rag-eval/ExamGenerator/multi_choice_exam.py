@@ -22,6 +22,84 @@ ROOTPATH = dirname(dirname(abspath(__file__)))
 logger = logging.getLogger(__name__)
 
 
+def clean_text(text: str) -> str:
+    """
+    Clean text by fixing escape sequences and other formatting issues
+
+    Args:
+        text: The text to clean
+
+    Returns:
+        Cleaned text with properly formatted escape sequences
+    """
+    if not isinstance(text, str):
+        return text
+
+    # Fix double-escaped sequences
+    text = text.replace('\\\\', '\\')
+
+    # Fix common markdown escapes
+    text = text.replace('\\#', '#')
+    text = text.replace('\\-', '-')
+    text = text.replace('\\.', '.')
+    text = text.replace('\\(', '(')
+    text = text.replace('\\)', ')')
+
+    return text
+
+
+def clean_json_dict(data: dict) -> dict:
+    """
+    Recursively clean all text values in a dictionary
+
+    Args:
+        data: Dictionary to clean
+
+    Returns:
+        Cleaned dictionary
+    """
+    if not isinstance(data, dict):
+        return data
+
+    cleaned = {}
+    for key, value in data.items():
+        if isinstance(value, dict):
+            cleaned[key] = clean_json_dict(value)
+        elif isinstance(value, list):
+            cleaned[key] = [clean_json_dict(item) if isinstance(item, dict) else clean_text(item) for item in value]
+        else:
+            cleaned[key] = clean_text(value)
+    return cleaned
+
+
+def load_and_clean_json(file_path: str) -> dict:
+    """
+    Load JSON file and clean its contents
+
+    Args:
+        file_path: Path to JSON file
+
+    Returns:
+        Cleaned JSON data as dictionary
+    """
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            raw_data = json.load(f)
+            return clean_json_dict(raw_data)
+    except json.JSONDecodeError as e:
+        print(f"JSON decode error in {file_path}: {str(e)}")
+        # Try loading the file line by line
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+            # Remove any potential BOM or other invisible characters
+            content = content.encode('utf-8').decode('utf-8-sig')
+            try:
+                return clean_json_dict(json.loads(content))
+            except json.JSONDecodeError as e2:
+                print(f"Second attempt failed: {str(e2)}")
+                raise
+
+
 class MultiChoiceExam:
 
     def __init__(
@@ -44,13 +122,79 @@ class MultiChoiceExam:
         self.other_parsing_fail: int = 0
         self.failed_question_list: List[str] = []
 
+    # def load_from_list(self, raw_exam_list: List[str]) -> None:
+    #
+    #     for raw_question in raw_exam_list:
+    #
+    #         mcq = MultiChoiceQuestion(
+    #             documentation=raw_question["documentation"]["text"],
+    #             raw_answer=raw_question["answer"],
+    #             model_name=self.model_name,
+    #         )
+    #
+    #         mcq.extract_information()
+    #
+    #         if mcq.valid_mcq() and self.task_based_constraints(mcq=mcq):
+    #             try:
+    #                 mcq.add_retrieved_context(self.context_generator_dict)
+    #                 self.question_list.append(mcq)
+    #             except IndexError:
+    #                 self.question_list.append(mcq)
+    #         else:
+    #             if mcq.question is None:
+    #                 self.question_parsing_fail += 1
+    #
+    #             if mcq.choices is None:
+    #                 self.choices_parsing_fail += 1
+    #
+    #             if mcq.correct_answer is None:
+    #                 self.correct_answer_parsing_fail += 1
+    #
+    #             if mcq.valid_mcq():
+    #                 self.other_parsing_fail += 1
+    #
+    #             self.failed_question_list.append(mcq.raw_answer)
+    #
+    # def load_all_model_question(self) -> bool:
+    #
+    #     exam_directory = f"{ROOTPATH}/Data/{self.task_domain}/RawExamData/"
+    #     self.n_question = 0
+    #
+    #     logger.error(f"Starting to load all raw questions from {exam_directory}")
+    #
+    #     raw_question_files = [
+    #         os.path.join(exam_directory, f)
+    #         for f in os.listdir(exam_directory)
+    #         if (
+    #             os.path.isfile(os.path.join(exam_directory, f))
+    #             and f.startswith(f"{self.task_domain}_QCM_{self.model_name}_{self.question_date}")
+    #         )
+    #     ]
+    #
+    #     if len(raw_question_files) == 0:
+    #
+    #         return False
+    #
+    #     for file in tqdm(raw_question_files):
+    #
+    #         with open(file, "r") as f:
+    #             raw_exam_list = list(json.load(f).values())
+    #             self.load_from_list(raw_exam_list=raw_exam_list)
+    #             self.n_question += len(raw_exam_list)
+    #
+    #     return True
+
     def load_from_list(self, raw_exam_list: List[str]) -> None:
+        if isinstance(raw_exam_list, dict):
+            raw_exam_list = [raw_exam_list[key] for key in raw_exam_list]
 
         for raw_question in raw_exam_list:
+            # Clean the raw question data
+            raw_question = clean_json_dict(raw_question)
 
             mcq = MultiChoiceQuestion(
-                documentation=raw_question["documentation"]["text"],
-                raw_answer=raw_question["answer"],
+                documentation=raw_question.get('documentation', {}).get('text', ''),
+                raw_answer=raw_question.get('answer', ''),
                 model_name=self.model_name,
             )
 
@@ -78,7 +222,6 @@ class MultiChoiceExam:
                 self.failed_question_list.append(mcq.raw_answer)
 
     def load_all_model_question(self) -> bool:
-
         exam_directory = f"{ROOTPATH}/Data/{self.task_domain}/RawExamData/"
         self.n_question = 0
 
@@ -88,21 +231,29 @@ class MultiChoiceExam:
             os.path.join(exam_directory, f)
             for f in os.listdir(exam_directory)
             if (
-                os.path.isfile(os.path.join(exam_directory, f))
-                and f.startswith(f"{self.task_domain}_QCM_{self.model_name}_{self.question_date}")
+                    os.path.isfile(os.path.join(exam_directory, f))
+                    and f.startswith(f"{self.task_domain}_QCM_{self.model_name}_{self.question_date}")
             )
         ]
 
         if len(raw_question_files) == 0:
-
             return False
 
         for file in tqdm(raw_question_files):
+            try:
+                # Use the new load_and_clean_json function
+                raw_data = load_and_clean_json(file)
 
-            with open(file, "r") as f:
-                raw_exam_list = list(json.load(f).values())
+                if isinstance(raw_data, dict):
+                    raw_exam_list = list(raw_data.values())
+                else:
+                    raw_exam_list = raw_data
+
                 self.load_from_list(raw_exam_list=raw_exam_list)
                 self.n_question += len(raw_exam_list)
+            except Exception as e:
+                logger.error(f"Error processing file {file}: {str(e)}")
+                continue
 
         return True
 

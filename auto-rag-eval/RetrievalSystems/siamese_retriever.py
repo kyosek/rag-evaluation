@@ -3,7 +3,7 @@ from typing import List
 
 import numpy as np
 import torch
-from datasets import Dataset
+from datasets import Dataset, load_dataset
 from ExamGenerator.utils import flatten_data
 from RetrievalSystems.context_utils import ContextPassage, ContextProvider
 from RetrievalSystems.docs_faiss_index import DocFaissIndex
@@ -30,12 +30,19 @@ class SiameseContextProvider(ContextProvider):
         self.topk_embeddings = 20
         self.min_snippet_length = 20
 
-        all_data = flatten_data(data_folder)
+        try:
+            self.docs_data = load_dataset(data_folder,
+                                     split="train",
+                                     # field="data" # To be removed for BH data template, which differs from others
+                                     )
 
-        self.docs_data = Dataset.from_list(
-            all_data,
-            # split="train",
-        )
+        except:
+            all_data = flatten_data(data_folder)
+
+            self.docs_data = Dataset.from_list(
+                all_data,
+                # split="train",
+            )
 
         # Generate a new index each time to avoid using an incorrect one
         if regenerate_index or not os.path.isfile(f"{index_folder}/kilt_dpr_data.faiss"):
