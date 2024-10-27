@@ -2,7 +2,7 @@ import json
 import time
 from typing import Generator, Optional, Dict, Any
 import torch
-from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
+from transformers import AutoTokenizer, AutoModelForCausalLM #, BitsAndBytesConfig
 from LLMServer.base_model import BaseLLM
 from tenacity import retry, stop_after_attempt, wait_exponential
 
@@ -79,18 +79,18 @@ class LlamaGcpModel(BaseLLM):
         try:
             # Configure quantization
             quantization_config = None
-            if load_in_4bit:
-                quantization_config = BitsAndBytesConfig(
-                    load_in_4bit=True,
-                    bnb_4bit_compute_dtype=torch.float16,
-                    bnb_4bit_use_double_quant=True,
-                    bnb_4bit_quant_type="nf4"
-                )
-            elif load_in_8bit:
-                quantization_config = BitsAndBytesConfig(
-                    load_in_8bit=True,
-                    bnb_8bit_compute_dtype=torch.float16
-                )
+            # if load_in_4bit:
+            #     quantization_config = BitsAndBytesConfig(
+            #         load_in_4bit=True,
+            #         bnb_4bit_compute_dtype=torch.float16,
+            #         bnb_4bit_use_double_quant=True,
+            #         bnb_4bit_quant_type="nf4"
+            #     )
+            # elif load_in_8bit:
+            #     quantization_config = BitsAndBytesConfig(
+            #         load_in_8bit=True,
+            #         bnb_8bit_compute_dtype=torch.float16
+            #     )
 
             # Set device configuration
             if use_gpu and torch.cuda.is_available():
