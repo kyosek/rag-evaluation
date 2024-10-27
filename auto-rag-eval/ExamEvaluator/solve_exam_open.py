@@ -149,11 +149,12 @@ def run_open_book_exam(model_device: str, model_path: str, model_name: str, task
 
 
 if __name__ == "__main__":
-    model_device = "GCP"
+    model_device = "claude"
     model_path = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF"
     # model_path = "Meta-Llama-3.1-70B-Instruct-Q4_K_S.gguf"
     # model_name = "llamav2"
-    model_name = "llama3-B70"
+    # model_name = "llama3-B70"
+    model_name = "claude"
     task_name = "StackExchange"
     exam_file = f"Data/{task_name}/ExamData/claude_gcp_2024100421/exam_1000_42.json"
 
