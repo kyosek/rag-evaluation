@@ -44,6 +44,55 @@ def generate_answer(model, question: str, choices: List[str], document) -> str:
     """
 
     response = model.invoke(prompt)
+    print(f"response: {response}")
+    return response.strip()[-1]
+
+
+def generate_answer_llama(model, question: str, choices: List[str], document: str) -> str:
+    # Format choices with letters for clear instruction
+    formatted_choices = "\n".join(f"{chr(65+i)}. {choice}" for i, choice in enumerate(choices))
+    
+    # Construct a more structured prompt with system and user roles
+    prompt = f"""[INST] <<SYS>>
+    You are an AI assistant taking a multiple choice exam. Your task is to:
+    1. Read the question and provided document carefully
+    2. Analyze the choices
+    3. Select the most appropriate answer
+    4. Respond with ONLY the letter (A, B, C, or D) of the correct answer
+    <</SYS>>
+
+    Question: {question}
+
+    Choices:
+    {formatted_choices}
+
+    Document:
+    {document}
+
+    Instructions:
+    - You must respond with exactly one letter: A, B, C, or D
+    - Do not include any explanation, period, or additional text
+    - Just the letter of the correct answer
+
+    Examples of valid responses:
+    A
+    B
+    C
+    D
+
+    Your answer (one letter only): [/INST]"""
+
+    # Get model response
+    response = model.invoke(prompt)
+    
+    # Extract just the letter from the response
+    # Look for first occurrence of A, B, C, or D
+    valid_answers = {'A', 'B', 'C', 'D'}
+    for char in response:
+        if char in valid_answers:
+            return char
+            
+    # If no valid letter found, return the last character as fallback
     return response.strip()[-1]
 
 
@@ -62,7 +111,7 @@ def run_open_book_exam(model_device: str, model_path: str, model_name: str, task
             model_size="70B",
             use_gpu=True,
             model_config=model_config,
-            load_in_4bit=True
+            # load_in_4bit=True,
             )
     else:
         print("Using Llama-cpp")
@@ -70,7 +119,10 @@ def run_open_book_exam(model_device: str, model_path: str, model_name: str, task
 
     results = []
     for question in tqdm(exam, desc="Processing questions", unit="question"):
-        answer = generate_answer(model, question["question"], question["choices"], question["documentation"])
+        try:
+            answer = generate_answer_llama(model, question["question"], question["choices"], question["documentation"])
+        except:
+            answer = " "
         results.append(answer)
 
     accuracy = evaluate_performance(exam, results)
