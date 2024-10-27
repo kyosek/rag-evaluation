@@ -58,7 +58,7 @@ class LlamaGcpModel(BaseLLM):
         """
         self.inference_params = {
         "max_new_tokens": 2048,
-        "temperature": 0,
+        "temperature": 0.1,
         "top_p": 0.9,
         "do_sample": True,
     }
@@ -112,7 +112,7 @@ class LlamaGcpModel(BaseLLM):
             base_model_config = {
                 "trust_remote_code": True,
                 "device_map": device_map,
-                # "quantization_config": quantization_config,
+                "quantization_config": quantization_config,
                 "torch_dtype": torch_dtype,
                 # "max_memory": max_memory,
                 "offload_folder": "offload",
@@ -146,11 +146,11 @@ class LlamaGcpModel(BaseLLM):
         except Exception as e:
             raise RuntimeError(f"Failed to initialize model: {str(e)}")
 
-    def _format_chat_prompt(self, prompt: str) -> str:
+    def _format_chat_prompt(self, prompt: str, model_family: str = "llama") -> str:
         """Format the prompt for chat completion."""
-        if self.model_family == "llama2":
+        if model_family == "llama":
             return f"[INST] {prompt} [/INST]"
-        elif self.model_family == "mistral":
+        elif model_family == "mistral":
             return f"<s>[INST] {prompt} [/INST]"
         else:
             return prompt  # For custom models, use raw prompt
