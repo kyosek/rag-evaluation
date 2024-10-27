@@ -1,9 +1,19 @@
 import os
 import json
+import torch
+
 from typing import List, Dict
-# from LLMServer.llama.llama_instant import LlamaModel
+from LLMServer.llama.llama_instant import LlamaModel
 from LLMServer.llama_gcp.llama_gcp_instant import LlamaGcpModel
 from tqdm import tqdm
+
+model_config = {
+    "load_in_4bit": True,
+    "bnb_4bit_compute_dtype": torch.float16,
+    "bnb_4bit_use_double_quant": True,
+    "bnb_4bit_quant_type": "nf4",
+    "device_map": "auto"
+}
 
 
 # Load the JSON file
@@ -51,6 +61,7 @@ def run_open_book_exam(model_device: str, model_path: str, model_name: str, task
         model = LlamaGcpModel(
             model_size="70B",
             use_gpu=True,
+            model_config=model_config,
             load_in_4bit=True
             )
     else:

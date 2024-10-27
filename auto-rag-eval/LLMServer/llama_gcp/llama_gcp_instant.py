@@ -2,7 +2,7 @@ import json
 import time
 from typing import Generator, Optional, Dict, Any
 import torch
-from transformers import AutoTokenizer, AutoModelForCausalLM #, BitsAndBytesConfig
+from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from LLMServer.base_model import BaseLLM
 from tenacity import retry, stop_after_attempt, wait_exponential
 
@@ -56,13 +56,12 @@ class LlamaGcpModel(BaseLLM):
             load_in_8bit: Whether to load model in 8-bit quantization
             torch_dtype: Data type for model weights
         """
-        # Set default inference parameters
         self.inference_params = {
-            "max_new_tokens": 2048,
-            "temperature": 0,
-            "top_p": 0.9,
-            "do_sample": True,
-        }
+        "max_new_tokens": 2048,
+        "temperature": 0,
+        "top_p": 0.9,
+        "do_sample": True,
+    }
         if inference_params:
             self.inference_params.update(inference_params)
 
@@ -79,30 +78,51 @@ class LlamaGcpModel(BaseLLM):
         try:
             # Configure quantization
             quantization_config = None
-            # if load_in_4bit:
-            #     quantization_config = BitsAndBytesConfig(
-            #         load_in_4bit=True,
-            #         bnb_4bit_compute_dtype=torch.float16,
-            #         bnb_4bit_use_double_quant=True,
-            #         bnb_4bit_quant_type="nf4"
-            #     )
-            # elif load_in_8bit:
-            #     quantization_config = BitsAndBytesConfig(
-            #         load_in_8bit=True,
-            #         bnb_8bit_compute_dtype=torch.float16
-            #     )
+            if load_in_4bit:
+                quantization_config = BitsAndBytesConfig(
+                    load_in_4bit=True,
+                    bnb_4bit_compute_dtype=torch.float16,
+                    bnb_4bit_use_double_quant=True,
+                    bnb_4bit_quant_type="nf4",
+                    llm_int8_enable_fp32_cpu_offload=True
+                )
+            elif load_in_8bit:
+                quantization_config = BitsAndBytesConfig(
+                    load_in_8bit=True,
+                    bnb_8bit_compute_dtype=torch.float16,
+                    llm_int8_enable_fp32_cpu_offload=True
+                )
 
             # Set device configuration
             if use_gpu and torch.cuda.is_available():
                 device = "cuda"
-                device_map = device_map
-            elif use_gpu and torch.cuda.is_available():
-                device = "mps"
-                device_map = device_map
             else:
                 device = "cpu"
                 device_map = None
                 torch_dtype = torch.float32
+
+            # Get GPU memory info
+            if torch.cuda.is_available():
+                gpu_memory = torch.cuda.get_device_properties(0).total_memory
+                max_memory = {0: f"{int(gpu_memory * 0.9)}B", "cpu": "32GB"}
+            else:
+                max_memory = None
+
+            # Create base model config
+            base_model_config = {
+                "trust_remote_code": True,
+                "device_map": device_map,
+                # "quantization_config": quantization_config,
+                "torch_dtype": torch_dtype,
+                # "max_memory": max_memory,
+                "offload_folder": "offload",
+            }
+
+            # Update with any additional model config
+            if model_config:
+                # Remove device_map from model_config if it exists to avoid conflict
+                model_config.pop('device_map', None)
+                base_model_config.update(model_config)
 
             # Initialize tokenizer and model
             self.tokenizer = AutoTokenizer.from_pretrained(
@@ -112,11 +132,7 @@ class LlamaGcpModel(BaseLLM):
             
             self.model = AutoModelForCausalLM.from_pretrained(
                 self.model_id,
-                trust_remote_code=True,
-                device_map=device_map,
-                quantization_config=quantization_config,
-                torch_dtype=torch_dtype,
-                **model_config if model_config else {}
+                **base_model_config
             )
 
             # Log configuration
@@ -132,7 +148,13 @@ class LlamaGcpModel(BaseLLM):
 
     def _format_chat_prompt(self, prompt: str) -> str:
         """Format the prompt for chat completion."""
-        return f"[INST] {prompt} [/INST]"
+        if self.model_family == "llama2":
+            return f"[INST] {prompt} [/INST]"
+        elif self.model_family == "mistral":
+            return f"<s>[INST] {prompt} [/INST]"
+        else:
+            return prompt  # For custom models, use raw prompt
+
 
     @retry(
         stop=stop_after_attempt(STOP_AFTER_ATTEMPT),
