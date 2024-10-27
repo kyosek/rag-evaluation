@@ -5,6 +5,7 @@ import torch
 from typing import List, Dict
 from LLMServer.llama.llama_instant import LlamaModel
 from LLMServer.llama_gcp.llama_gcp_instant import LlamaGcpModel
+from LLMServer.gcp.claude_instant import Claude_GCP
 from tqdm import tqdm
 
 model_config = {
@@ -23,7 +24,7 @@ def load_exam(file_path):
 
 
 # Generate an answer for a given question
-def generate_answer(model: LlamaModel, question: str, choices: List[str], context) -> str:
+def generate_answer(model, question: str, choices: List[str], context) -> str:
     prompt = f"Question: {question}\n\nChoices:\n"
     for i, choice in enumerate(choices):
         prompt += f"{choice}\n"
@@ -112,6 +113,8 @@ def run_rag_exam(model_path: str, model_name: str, task_name: str, exam_file: st
             model_config=model_config,
             # load_in_4bit=True,
             )
+    elif model_device == "claude":
+        model = Claude_GCP()
     else:
         print("Using Llama-cpp")
         model = LlamaModel(model_path=model_path)

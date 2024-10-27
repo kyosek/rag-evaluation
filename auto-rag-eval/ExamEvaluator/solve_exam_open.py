@@ -5,6 +5,7 @@ import torch
 from typing import List, Dict
 from LLMServer.llama.llama_instant import LlamaModel
 from LLMServer.llama_gcp.llama_gcp_instant import LlamaGcpModel
+from LLMServer.gcp.claude_instant import Claude_GCP
 from tqdm import tqdm
 
 model_config = {
@@ -113,6 +114,8 @@ def run_open_book_exam(model_device: str, model_path: str, model_name: str, task
             model_config=model_config,
             # load_in_4bit=True,
             )
+    elif model_device == "claude":
+        model = Claude_GCP()
     else:
         print("Using Llama-cpp")
         model = LlamaModel(model_path=model_path)
@@ -149,10 +152,10 @@ if __name__ == "__main__":
     model_device = "GCP"
     model_path = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF"
     # model_path = "Meta-Llama-3.1-70B-Instruct-Q4_K_S.gguf"
-    model_name = "llamav2"
-    # model_name = "llama3-B70"
-    task_name = "LawStackExchange"
-    exam_file = f"Data/{task_name}/ExamData/claude_gcp_2024102123/exam_1000_42.json"
+    # model_name = "llamav2"
+    model_name = "llama3-B70"
+    task_name = "StackExchange"
+    exam_file = f"Data/{task_name}/ExamData/claude_gcp_2024100421/exam_1000_42.json"
 
     # Create the full directory path
     directory = f"Data/{task_name}/ExamResults"

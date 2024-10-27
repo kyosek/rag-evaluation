@@ -7,9 +7,9 @@
   },
   {
     "question": "According to the Daubert Standard in the US legal system, which of the following is NOT a criterion for determining the admissibility of expert testimony?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A Canadian technology company is hiring for a senior software engineer position. They have received applications from four candidates with equal qualifications. The company wants to ensure they are complying with Canadian employment laws while also considering their preference for Canadian citizens. Which of the following hiring decisions would be most appropriate and legal?",
@@ -121,9 +121,9 @@
   },
   {
     "question": "Which of the following statements about radio-based communications regulation is correct?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A German student finds lecture notes on a professor's personal webpage without any explicit license. The student wants to download and use these notes for personal study. According to German copyright law, which of the following statements is most accurate?",
@@ -157,19 +157,19 @@
   },
   {
     "question": "According to the information provided, which of the following methods would be legally permissible for retaining music from an Apple Music subscription after the subscription expires?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In a case where a son transfers money from his parent's equity account without explicit permission, which of the following scenarios would most likely result in the parent being held legally responsible for the transfer?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A fan of a popular music group wants to sell merchandise inspired by the band. Which of the following actions is LEAST likely to result in trademark infringement?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -187,7 +187,7 @@
   },
   {
     "question": "According to the documentation, what are the two major legal concerns regarding Google Street View in the European Union and Germany?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -211,9 +211,9 @@
   },
   {
     "question": "A small business is considering a government subcontract with an indemnity clause that requires the subcontractor to indemnify the contractor and the government for \"any and all liabilities... arising out of or in any way connected with the Subcontractor's performance.\" Why might the small business agree to such a clause, despite the potential risks?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A website owner implements a contact form that collects a user's full name, email address, subject, and message. The owner doesn't store this data in a database or cookies but receives an email with the information to respond to the user. Which of the following statements is most accurate regarding GDPR compliance in this scenario?",
@@ -223,9 +223,9 @@
   },
   {
     "question": "John borrows his friend Sarah's truck in California. The truck is insured but not registered. John receives the following citations while driving the truck:\n1. A moving violation for speeding\n2. A ticket for driving an unregistered vehicle\n3. A parking ticket\n4. A notice to correct the vehicle's registration\n\nWho is responsible for each citation?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Which of the following statements about night courts is NOT accurate according to the information provided?",
@@ -259,9 +259,9 @@
   },
   {
     "question": "A citizen of a Visa Waiver Program (VWP) eligible country visited Iran in 2013 for a cultural exchange program. In 2023, they plan to travel to the United States for tourism. Which of the following statements is most accurate regarding their ability to enter the US?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In Texas, a prospective tenant applies for an apartment, incurring both an application fee and an administrative fee. The tenant ultimately decides not to rent the apartment. Which of the following statements is most accurate regarding the tenant's financial obligations?",
@@ -271,21 +271,21 @@
   },
   {
     "question": "Under GDPR regulations, which of the following sets of cookies can be set without explicit user consent on a website?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false
   },
   {
     "question": "Which of the following statements is correct regarding the legality of using mailboxes and mail slots in the United States?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In a complex legal scenario, John accidentally causes a car accident resulting in the death of his estranged father, for whom John is the sole heir. John wants to access his car insurance policy to cover potential damages. Which of the following legal actions would be most appropriate and potentially beneficial for John?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A Swedish company is developing a web application that uses JavaScript to collect information about users' devices for various purposes. Which of the following scenarios would NOT require explicit user consent under the ePrivacy Directive and Swedish law?",
@@ -295,15 +295,15 @@
   },
   {
     "question": "According to Illinois law and local ordinances, which of the following best describes the role of a \"custodian\" in a mobile home park?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In Supreme Court jurisprudence, which of the following statements is most accurate regarding the use of \"Natural Moral Law\" and related concepts?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In a criminal case where an incendiary device was thrown from one house to another, causing a fire, there are four suspects who were present in the house at the time. All four deny involvement, and there's not enough evidence to pin the crime on any single individual. However, it's certain that one of the four is guilty. What is the most likely legal outcome in this situation?",
@@ -331,7 +331,7 @@
   },
   {
     "question": "John, who is 25 years old, was convicted in England for a minor offense resulting in a fine and a 12-month community order. The community order ended on June 1, 2023. Assuming this is John's only conviction and it's eligible for filtering, when will this conviction no longer appear on a standard DBS check?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -397,7 +397,7 @@
   },
   {
     "question": "A tech company allows its employees to add custom emojis to their internal Slack workspace. Which of the following scenarios is LEAST likely to raise copyright concerns?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -421,9 +421,9 @@
   },
   {
     "question": "In the United States, if a presidential candidate dies after early voting has begun but before the general election day, what happens to the votes already cast for that candidate?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A company, TechInnovate, files a patent application for a new technology on January 1, 2022. The application is published on July 1, 2022. The patent is eventually granted on March 1, 2023. A competitor, RivalTech, starts using a technology that potentially infringes on TechInnovate's patent on September 1, 2022. When can TechInnovate enforce their patent rights and under what conditions?",
@@ -487,15 +487,15 @@
   },
   {
     "question": "In the context of the 1997 \"Citizens Arrest\" episode of Beavis and Butt-Head, what best explains the unusual camera work and lack of visible gun during the robbery scene?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "According to the passage, which of the following best describes the primary limitation of using recidivism rates alone to determine fair sentencing?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "John and Sarah have been married for 10 years and are considering a divorce. They currently reside in New York but are looking for a jurisdiction that might offer more favorable terms for John. Which of the following statements is most accurate regarding their options for obtaining a divorce?",
@@ -505,9 +505,9 @@
   },
   {
     "question": "A tenant signs a lease for a residential property in England with an Assured Shorthold Tenancy agreement. The monthly rent is \u00a32,500, and the lease begins on April 28th. The tenant decides to end the tenancy on August 15th of the same year. How much rent will the tenant owe for the final partial month?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A small business owner purchases a unique decorative item from a Chinese seller on eBay. The item's listing and packaging contain no information about copyrights, trademarks, or intellectual property rights. The business owner wants to reproduce and sell copies of this item. Which of the following statements is most accurate regarding the legality of this action?",
@@ -535,7 +535,7 @@
   },
   {
     "question": "A company is engaging in transactions where it sells products to a subsidiary at an inflated price, and the subsidiary then sells these products back to the parent company. Which of the following best describes this practice and its impact on consolidated financial statements?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -559,9 +559,9 @@
   },
   {
     "question": "John wants to invest in a rental property and form an LLC for asset protection. He has already made a $50,000 down payment on a $250,000 property in his personal name. Now he wants to transfer the property to a newly formed LLC. Which of the following statements is most accurate regarding the capital contribution to the LLC?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In a city where face masks are required by emergency order in all public places, with violations subject to a $300 fine, what legal action can a concerned citizen take against someone refusing to wear a mask in public?",
@@ -589,9 +589,9 @@
   },
   {
     "question": "Under New South Wales law, in which of the following scenarios would a police officer NOT have reasonable grounds to enter premises without a warrant?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In England and Wales, a defendant shreds the ownership papers of a \u00a3100,000 yacht belonging to the plaintiff during an ongoing legal dispute. Which of the following charges would be MOST appropriate for this action?",
@@ -601,9 +601,9 @@
   },
   {
     "question": "A mobile app is owned by CompanyIP, but CompanyL is the exclusive licensor and the company that enters into agreements with app stores. Which of the following is the most appropriate copyright notice for this situation?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A popular online gaming platform decides to switch from displaying user balances in US dollars to a proprietary token system. Which of the following is the most likely primary reason for this change?",
@@ -613,9 +613,9 @@
   },
   {
     "question": "A law firm's website publishes an article about recent changes in employment law. Which of the following statements best describes the legal implications of this article?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the scenario described, where a woman distributes her version of events regarding an allegedly offensive text message she received, under what circumstances might the man have a valid legal claim against her?",
@@ -643,9 +643,9 @@
   },
   {
     "question": "Alice, who owns a professional car washing business, notices her neighbor Bob struggling to wash his car. Without any prior discussion or agreement, Alice helps Bob wash his car thoroughly. Later, Alice sends Bob an invoice for her services. Bob refuses to pay, claiming there was no agreement. Which of the following statements is most accurate regarding this situation?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You find a flash drive in a public library. Which of the following actions is the most appropriate and legally compliant?",
@@ -661,9 +661,9 @@
   },
   {
     "question": "A tenant wants to file an application to recover banned fees under the Tenant Fees Act 2019 using form TFA1. What is the correct fee for filing this application with the First-tier Tribunal (Property Chamber)?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In an appellate court case, which of the following statements is most accurate regarding the roles of Louis J. Hoffman and Lan B Crosby in relation to DDR Holdings LLC?",
@@ -673,9 +673,9 @@
   },
   {
     "question": "In a case where a small news outlet intentionally publishes false information about climate change, which of the following statements is most accurate regarding the potential for a successful fraud claim?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A small business owner in Australia has registered her company name \"Southern Australia Kite Company\" as a business name and secured the corresponding domain name. She is concerned about potential competitors using similar names. Which of the following statements is most accurate regarding the protection of her business name?",
@@ -817,13 +817,13 @@
   },
   {
     "question": "When renting a car in Oregon, which of the following statements is most accurate regarding the rental agent's responsibilities and the customer's understanding of the contract?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A small business owner wants to create a program specifically to hire homeless individuals. Which of the following statements is most accurate regarding the legality and requirements of this hiring practice?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -847,9 +847,9 @@
   },
   {
     "question": "In California, under what circumstances would the use of deadly force be considered legally justifiable in defending property?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A client receives an invoice from a professional services firm that significantly exceeds the initial verbal quote. The client disputes the amount within 21 days but doesn't hear back from the firm. What is the most appropriate next step for the client from a legal standpoint?",
@@ -871,9 +871,9 @@
   },
   {
     "question": "A startup is developing a mobile app that allows users to deposit money, which they can use for future purchases or receive as a refund after 3 months. Which of the following is NOT a primary legal or regulatory concern for this feature?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Which of the following statements most accurately describes Vermont's unique situation when it was admitted to the Union in 1791?",
@@ -925,9 +925,9 @@
   },
   {
     "question": "Under U.S. Copyright Law, which of the following scenarios would most likely constitute \"publication\" of a copyrighted work?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "According to the information provided, what is the legally recommended course of action for dealing with noisy individuals outside one's residence late at night?",
@@ -955,9 +955,9 @@
   },
   {
     "question": "According to the Equal Pay Act of 1963, which of the following is NOT a valid exemption for paying employees of different sexes at different rates for equal work?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of sexual assault cases, which of the following statements is most accurate regarding civil lawsuits as an alternative to criminal prosecution?",
@@ -997,15 +997,15 @@
   },
   {
     "question": "In North Carolina, which of the following factors is NOT explicitly listed in \u00a7 50-16.3A as a consideration for determining alimony?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A social media manager at XYZ Corporation posts a controversial statement on the company's official Twitter account. The post causes significant public backlash and potential legal issues. Which of the following best describes the legal relationship between the social media manager and XYZ Corporation in this scenario?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the United States legal system, under which of the following circumstances would a person NOT be entitled to a jury trial for a criminal offense?",
@@ -1015,9 +1015,9 @@
   },
   {
     "question": "In the case of Alice and Bob's car contract, what is the most likely legal explanation for the jury awarding Bob only $5,000 instead of the full $10,000 contract price?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An aspiring software engineer pitches a novel product idea during a job interview with a major tech company. The company later implements the idea without hiring or crediting the interviewee. Which legal action would the interviewee most likely have a chance of succeeding with in California courts, based on existing case law?",
@@ -1039,9 +1039,9 @@
   },
   {
     "question": "Bob creates a limited liability company called \"Bob Limited\" where he owns 100% of the shares. The company starts trading, makes some profit, and acquires assets. Later, Bob sells 50% of his shares to Matt for $50. Subsequently, Bob Limited incurs a large debt, fails to pay it off, and gets sued. Which of the following statements is most accurate regarding the potential liabilities in this scenario?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A homeowner, Sarah, hired a contractor, Tom, to renovate her kitchen. The renovation work was completed on March 15th. Tom sent the final invoice on April 1st, which Sarah disputed. They exchanged emails about the invoice until May 10th, with no resolution. On September 20th, Tom threatens to file a lien on Sarah's property for the unpaid amount. According to Washington State lien law, what is the correct assessment of this situation?",
@@ -1087,9 +1087,9 @@
   },
   {
     "question": "You are driving on a highway in Florida, maintaining the posted speed limit of 65 mph. You need to change lanes to the left to take an upcoming exit. In your rearview mirror, you see a vehicle in the left lane approaching at a speed you estimate to be 80 mph. Which of the following statements is correct regarding this situation?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A person is planning to purchase a car with visible damage from a potential crash to drive around the French-Swiss border and possibly Italy. Which of the following statements is most accurate regarding potential issues with authorities?",
@@ -1117,9 +1117,9 @@
   },
   {
     "question": "An author published a book under a pen name through a publisher that has since closed. The author wants to self-publish the book under a new name. Which of the following statements is most accurate regarding the copyright of the book?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A startup CEO instructs the development team to implement deceptive practices regarding user data and privacy. As the lead developer, which of the following actions would be the most appropriate and legally sound response?",
@@ -1183,9 +1183,9 @@
   },
   {
     "question": "An online personality who keeps their online and personal lives separate receives a message from someone threatening to expose their real identity. Which of the following statements is most accurate regarding the legal implications of this situation?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "According to YouTube's terms of service and copyright law, which of the following actions is legally permissible without explicit permission from the content creator?",
@@ -1195,9 +1195,9 @@
   },
   {
     "question": "A plaintiff files a legitimate lawsuit against a defendant. The defendant, in retaliation, files a countersuit that appears to be frivolous. What is the most appropriate legal recourse for the plaintiff's attorney in this situation?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "According to the documentation, which of the following statements best describes the legal situation surrounding the removal of President Yanukovich from office during the Revolution of Dignity in Ukraine?",
@@ -1213,7 +1213,7 @@
   },
   {
     "question": "In the context of UFC fight agreements, what is the most likely reason for specifying that \"fights are verbally agreed\"?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -1225,9 +1225,9 @@
   },
   {
     "question": "A software developer is conducting due diligence on legacy software and encounters a dependency licensed under \"L-GPL\" without a specific version number. What is the most appropriate approach to determining the applicable license version?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In a situation where a condo resident is experiencing violent and profane outbursts due to a suspected mental health issue, which of the following statements is most accurate regarding the legal options available to neighbors and the HOA?",
@@ -1249,9 +1249,9 @@
   },
   {
     "question": "A content creator wants to explain the contents of a book on their monetized YouTube channel. The book is freely available online under a Creative Commons license with Attribution-NonCommercial-ShareAlike terms. Which of the following statements is most accurate regarding the legality of this situation?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a copyright infringement case, an email with full headers is presented as evidence, but the original message is no longer available in the sender's Gmail account. Which of the following statements is most accurate regarding the admissibility and evidentiary value of this email?",
@@ -1279,9 +1279,9 @@
   },
   {
     "question": "A company has paid for an employee's expensive training course, with the condition that the employee must repay the cost if they leave the company before a certain period. The employee is now planning to take maternity leave. Which of the following statements is correct regarding the company's policy on maternity leave and training repayment?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Which of the following best describes the process for locating specific regulations referenced in the United States Code?",
@@ -1291,9 +1291,9 @@
   },
   {
     "question": "A patient in Virginia is asked by their psychiatrist to take a second random drug test after an unexpected result on the first test. Which of the following statements is most accurate regarding the patient's rights and the potential consequences of refusing the test?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A European entrepreneur wants to start a sports blog called \"TheSportLad\" focused on sports news. There is an existing small US-based blog called \"TheSportLand\" with similar content. The US blog has no registered trademarks. Which of the following statements is most accurate regarding potential trademark infringement?",
@@ -1315,7 +1315,7 @@
   },
   {
     "question": "An author wants to publish cycling route guides with photographs on a website for free, while retaining the ability to use the content commercially in the future. Which Creative Commons license would best suit this purpose?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -1339,15 +1339,15 @@
   },
   {
     "question": "Which of the following statements best describes the effect of the Judicature Act 1873 on the relationship between common law and equity?",
-    "model_answer": "C",
-    "correct_answer": "D",
-    "is_correct": false
-  },
-  {
-    "question": "A public school decides to show a movie about Christmas traditions and allows students to exchange gifts. Some students give disapproving looks to those who don't participate. Which of the following statements is most accurate regarding the legality of this situation?",
     "model_answer": "D",
     "correct_answer": "D",
     "is_correct": true
+  },
+  {
+    "question": "A public school decides to show a movie about Christmas traditions and allows students to exchange gifts. Some students give disapproving looks to those who don't participate. Which of the following statements is most accurate regarding the legality of this situation?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
   },
   {
     "question": "A software developer licensed their custom-built program to a university club but now wants to revoke the license and recover the files. Which of the following statements is most accurate regarding the developer's legal position?",
@@ -1357,13 +1357,13 @@
   },
   {
     "question": "According to the explanation provided, why is U.S. citizenship not considered a title of nobility, despite its hereditary nature for children born abroad to U.S. citizens?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false
   },
   {
     "question": "A US-based software company with a significant EU customer base is planning to incorporate in Europe. They currently store all user data, including personal information, in AWS East-1 datacenter in N. Virginia. Which of the following actions would be most appropriate for the company to comply with GDPR regulations regarding data transfer?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -1435,9 +1435,9 @@
   },
   {
     "question": "A startup company is preparing to issue shares to its first group of investors. The company's lawyer has drafted a shareholder agreement and insists that all potential shareholders must sign an identical version. One investor, Sarah, requests a modification to the confidentiality clause. Which of the following statements is most accurate regarding this situation?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a noise ordinance dispute, which of the following actions would be most appropriate and legally sound for a resident to take first?",
@@ -1477,9 +1477,9 @@
   },
   {
     "question": "A property management company is drafting a lease agreement for a new apartment complex. Which of the following clauses would be most appropriate to include in the agreement to address potential legal conflicts while maintaining the intended restrictions?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In South Africa, you lend your car to a friend for their personal use. Upon return, the car has multiple issues including a non-functioning horn, broken reverse lights, and cracked windows. Which of the following statements is most accurate regarding your legal rights in this situation?",
@@ -1501,9 +1501,9 @@
   },
   {
     "question": "A job applicant sends their resume to a company's HR department. The HR manager wants to share the resume with other departments for potential opportunities. Which of the following statements is most accurate regarding the legal implications of sharing the resume?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A software development firm based in Austria built a WordPress website for a client. The website was later hacked due to a WordPress exploit. The firm did not maintain backups of the site. The client is demanding a rebuild of the site at no additional cost. Which of the following statements most accurately reflects the firm's potential liability in this situation?",
@@ -1537,9 +1537,9 @@
   },
   {
     "question": "In the United States, which of the following is NOT typically considered a legal consequence or significance of being engaged to be married?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the investigation of Ashli Babbitt's death during the Capitol riots, why did the Department of Justice (DOJ) focus on civil rights law rather than homicide laws?",
@@ -1621,9 +1621,9 @@
   },
   {
     "question": "A landlord issues a notice to their tenant declaring that the tenancy is not to be an assured shorthold tenancy (AST) but rather an assured tenancy (AT). Which of the following statements is NOT a potential consequence or motivation for this action?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A startup founder in Israel wants to use the name of a dissolved company for their new international business. The nature of the new business is different from that of the dissolved company. Under what circumstances would it likely be legally permissible to use this name?",
@@ -1645,9 +1645,9 @@
   },
   {
     "question": "An ENT office implements a new policy requiring all employees to undergo weekly COVID-19 testing at their own expense. Some employees, particularly young single mothers, find this requirement financially burdensome. Which of the following statements most accurately reflects the legal situation regarding this policy?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A small town is hosting its annual music festival. The festival organizers have obtained a noise variance from the chief of police to exceed the normal noise limits. A resident living 2 miles away is bothered by the noise and wants to take legal action. Which of the following statements is most accurate regarding the resident's potential case?",
@@ -1657,9 +1657,9 @@
   },
   {
     "question": "According to the CJEU ruling in 2019 and GDPR requirements, which of the following approaches is considered compliant for implementing Google Analytics on a website?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A former volunteer director of an organization discovers that the admin has reset the password and logged into their old G-Suite account after their resignation. Which of the following statements is most accurate regarding the legal and ethical implications of this situation?",
@@ -1669,9 +1669,9 @@
   },
   {
     "question": "Which of the following best describes how lawyers influence the content of law, according to the information provided?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A UK resident plans to start a company in Brazil in several years and has purchased a domain name for it. Which of the following statements is most accurate regarding trademark protection for this future business name?",
@@ -1735,15 +1735,15 @@
   },
   {
     "question": "Based on the FBI's extensive investigation of Jeremy Hammond, what can be inferred about the agency's approach to cybercrime cases?",
-    "model_answer": "A",
+    "model_answer": ">",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A freelance developer creates an LLC for their work and enters into a contract with a client to develop an e-commerce platform. The platform is later hacked, resulting in significant financial losses for the client. Under which scenario would the developer be most likely to face personal liability, despite having an LLC?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Which of the following statements best describes the relationship between the First Amendment and potential government actions against Tucker Carlson's controversial reporting?",
@@ -1771,21 +1771,21 @@
   },
   {
     "question": "A software developer prepares a technical contract for a SaaS project, which is reviewed and approved by IP lawyers. The client refuses to sign the contract but still wants to proceed with the project. The client provides a deposit, and work begins. Several months later, the relationship sours, and the developer refuses to continue. Which of the following statements is most accurate regarding the legal situation?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
-  },
-  {
-    "question": "Based on the scenario described in Nathan Lowell's novel \"Owner's Share\", which of the following statements is most accurate regarding William Simpson's legal obligations to Ishmael Wang?",
-    "model_answer": "A",
-    "correct_answer": "A",
     "is_correct": true
   },
   {
-    "question": "A graduate student develops a novel software application as part of their thesis work while employed as a Research Assistant at a university. Who most likely holds the copyright to this software?",
-    "model_answer": "B",
-    "correct_answer": "C",
+    "question": "Based on the scenario described in Nathan Lowell's novel \"Owner's Share\", which of the following statements is most accurate regarding William Simpson's legal obligations to Ishmael Wang?",
+    "model_answer": "C",
+    "correct_answer": "A",
     "is_correct": false
+  },
+  {
+    "question": "A graduate student develops a novel software application as part of their thesis work while employed as a Research Assistant at a university. Who most likely holds the copyright to this software?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
   },
   {
     "question": "Which of the following statements best describes the legal status of anti-vaccination advocacy in the United States?",
@@ -1831,9 +1831,9 @@
   },
   {
     "question": "A police officer has probable cause to arrest you based on evidence in plain sight. Before being detained, you place the alleged evidence in a device that could potentially destroy it if accessed incorrectly. The officer asks you to produce the evidence. Which of the following statements is most accurate regarding your rights and potential consequences in this situation?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "John owes $10,000 to a credit card company. After being sued, the court orders him to pay $500 per month. John genuinely cannot afford this payment. Which of the following scenarios is most likely to occur?",
@@ -1885,9 +1885,9 @@
   },
   {
     "question": "In the context of a federal plea bargain involving cooperation in related cases, what is the most accurate statement regarding the impact of a presidential pardon?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Which of the following statements most accurately reflects the legal status of traffic tickets and local speed limits in the United States?",
@@ -1915,9 +1915,9 @@
   },
   {
     "question": "In a defamation case involving satirical content in the United States, which of the following combinations of factors would be MOST likely to result in a successful libel claim against the publisher?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the case of trying to purchase a piece of land with complicated ownership issues in Germany, which of the following options is likely to be the most effective legal approach to resolve the situation and potentially acquire the property?",
@@ -1927,9 +1927,9 @@
   },
   {
     "question": "A company, MultiSell Inc., wants to act as a sales representative for multiple widget manufacturers. Which of the following approaches would be legally appropriate for MultiSell Inc. to pursue?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "According to Article 26 of the International Covenant on Civil and Political Rights (ICCPR), which of the following statements is most accurate regarding the phrase \"birth or other status\"?",
@@ -1951,9 +1951,9 @@
   },
   {
     "question": "In the UK, a homeowner decides to deter potential trespassers by placing a sign indicating the presence of CCTV cameras on their property, despite not actually having any cameras installed. Which of the following statements most accurately reflects the legal implications of this action?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A U.S. citizen wants to sue a foreign company that is headquartered and exclusively operates in another country. Which of the following statements is most accurate regarding the ability to pursue legal action in a U.S. court?",
@@ -1963,27 +1963,27 @@
   },
   {
     "question": "A homeowner places landscaping rocks in the street in front of their house. The city removes the rocks without notifying the homeowner and bills them $200. According to the city code described, which of the following statements is most accurate regarding the city's actions?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false
   },
   {
     "question": "Under the CAN-SPAM Act, which of the following statements is most accurate regarding unsolicited emails about job openings from a military recruiter?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A tenant in Massachusetts pays their rent 10 days late. The landlord wants to charge a late fee. Which of the following statements is most accurate regarding the landlord's ability to impose a late fee in this situation?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the case of Eric Abramovitz vs. Jennifer Lee, where Abramovitz was awarded $350,000 CAD in damages but is unable to locate Lee, which of the following is NOT a viable option for Abramovitz to collect the damages?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A software developer, Alice, creates a unique algorithm for data compression and implements it in code while working for TechCorp. After leaving TechCorp, Alice starts her own company and wants to use a similar algorithm in her new product. Which of the following statements is most accurate regarding the legal implications?",
@@ -1999,9 +1999,9 @@
   },
   {
     "question": "A tenant receives a \"Three Day Notice to Cure Breach or Quit\" for a dirty apartment. The notice is dated Wednesday but left on the tenant's door Thursday at 9am. The landlord plans to inspect on Saturday before noon. Which of the following statements is correct regarding this situation?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In a legal proceeding, a pro se litigant is preparing exhibits for their case. Which of the following statements is most accurate regarding the organization of exhibits?",
@@ -2011,9 +2011,9 @@
   },
   {
     "question": "An aspiring filmmaker wants to adapt a novel into a movie. The novel was published in the United States in 1940 by a lesser-known author who died in 1960 with no heirs. The filmmaker has been unable to find any record of copyright renewal for the work. Under which circumstance would the filmmaker most likely be able to adapt this novel without obtaining permission or risking copyright infringement?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A landlord in Chicago requests a tenant's personal information (including SSN and government ID) via email to set up an account for the security deposit three weeks after receiving the deposit check. Which of the following best describes the legality and appropriateness of this situation?",
@@ -2047,9 +2047,9 @@
   },
   {
     "question": "A company has appointed a Data Protection Officer (DPO) who is also tasked with conducting internal audits for ISO 27001 compliance. Which of the following statements best describes the potential issues with this arrangement?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the United Kingdom, under what circumstances would accessing a deceased relative's online account be considered a violation of the Computer Misuse Act 1990?",
@@ -2101,15 +2101,15 @@
   },
   {
     "question": "In a Maryland traffic court case involving a red-light camera ticket, when is it most appropriate for the defendant to object to the judge asking factual questions?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In California, Party A signs a contract with Party B, releasing Party B from liability for potential injuries resulting from a service. The contract states there's a 75% chance of injury. Which of the following statements is most accurate regarding the enforceability of this liability release?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In Canada, regarding the transfer of encrypted data peer-to-peer across international borders, which of the following statements is most accurate?",
@@ -2149,9 +2149,9 @@
   },
   {
     "question": "A company offers a service to create digital backups of books for customers who own physical copies. Which of the following practices would be most likely to comply with copyright laws?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Under Section 7A of the Prevention of Corruption Act in India, which of the following scenarios is MOST LIKELY to be considered a violation of the law?",
@@ -2167,7 +2167,7 @@
   },
   {
     "question": "Under U.S. federal law, which of the following scenarios would most likely be considered illegal child pornography?",
-    "model_answer": "?",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false
   },
@@ -2191,9 +2191,9 @@
   },
   {
     "question": "A website is running a lottery game where users can only participate once. To enforce this rule while complying with GDPR, the website wants to partially store IP addresses and home addresses. Which of the following approaches is most appropriate and compliant with GDPR regulations?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A murder suspect flees to Canada after committing a crime on US soil. The US requests extradition, but Canada refuses due to the possibility of capital punishment in the US. What is the most likely course of action for Canadian authorities?",
@@ -2215,15 +2215,15 @@
   },
   {
     "question": "John tells his psychologist during a confidential therapy session that his boss, Sarah, has been embezzling company funds. The psychologist, without John's knowledge, shares this information with the company's HR department, leading to Sarah's termination. Sarah sues John for defamation. Which of the following is the most accurate legal assessment of this situation?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A German company is considering legal action against a British company for a small claim. Which of the following statements is most accurate regarding their options for pursuing this claim?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of an HOA rule prohibiting inoperable vehicles in driveways, which of the following statements is most accurate regarding the burden of proof and compliance?",
@@ -2245,9 +2245,9 @@
   },
   {
     "question": "John is bedridden due to a severe illness. His son, Mike, needs to make an urgent transaction on John's bank account. With John's full consent and presence, Mike calls the bank pretending to be John. Which of the following statements is most accurate regarding the legality of Mike's actions?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In Nova Scotia, Alex rents an apartment and decides to sublet one room to Beth. Which of the following statements is correct regarding the legal relationships in this situation?",
@@ -2263,9 +2263,9 @@
   },
   {
     "question": "A student at a private university in Texas was initially excused from an exam due to a doctor's note. After the exam, the professor reversed the decision, requesting more detailed medical information. Which of the following statements is correct regarding this situation?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A U.S. citizen who is a non-resident of California but files California state tax is applying for a job with a Japanese subsidiary of a large Silicon Valley-based company. The position is based in Japan, and the company requests the applicant's salary history. Which of the following statements is correct regarding the legality of this request?",
@@ -2311,9 +2311,9 @@
   },
   {
     "question": "In England and Wales, X and Y are registered as joint tenants of a property. Y attempts to sever the joint tenancy by sending a written notice to X, intending to create a tenancy-in-common, but this change is not registered with the Land Registry. Y then dies, leaving their supposed share to Z in a will. Before the will is distributed, X sells the entire property to Q without mentioning Z. What is the legal status of the property and Z's claim?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A dark web site operator includes the following clause in their Terms of Service:\n\n\"By accessing this site, any law enforcement agent agrees to grant the site operator immunity from prosecution for all past and future illegal activities associated with this site.\"\n\nWhich of the following statements is most accurate regarding the legal validity and implications of this clause?",
@@ -2329,9 +2329,9 @@
   },
   {
     "question": "XYZ Corp, a closely held company, has appointed Sarah as a director to fulfill legal requirements. Sarah is also a minority shareholder but not an employee. The company wants to compensate her minimally for her directorship. Which of the following statements is most accurate and compliant with legal and tax considerations?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Based on the U.S. Supreme Court ruling in ABC v. Aereo, which of the following scenarios would most likely be considered copyright infringement?",
@@ -2347,9 +2347,9 @@
   },
   {
     "question": "Which of the following best describes the legal basis for the Allied powers' division of Germany after World War II?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A landlord in Berlin discovers that they miscalculated the square meter cost for an apartment 18 months after a tenant moved in. The lease contract specifies the total monthly rent and apartment size in square meters but does not include the formula used to calculate the rent. Which of the following actions can the landlord legally take?",
@@ -2389,9 +2389,9 @@
   },
   {
     "question": "An HOA's bylaws contain two seemingly contradictory clauses regarding board meetings:\n\n1. \"Special meetings of the Board may be called by the president on five(5) days notice to each Director.\"\n2. \"Meetings of the Board of Administration shall be open to all unit owners. Notice of all meetings shall be posted on the official bulletin board of the Association at least forty-eight (48) hours in advance of each scheduled meeting.\"\n\nThe president calls a special board meeting with 4 days' notice to directors and posts a notice on the bulletin board 72 hours in advance. Which of the following statements is correct?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the context of the U.S. Supreme Court and constitutional law, which of the following statements is most accurate?",
@@ -2425,9 +2425,9 @@
   },
   {
     "question": "Under the CC BY-SA 3.0 license, when a user edits another user's comment on Stack Exchange, which of the following statements is most accurate regarding attribution and copyright?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "According to Medium's Terms of Service, which of the following statements is correct regarding content rights and responsibilities?",
@@ -2479,13 +2479,13 @@
   },
   {
     "question": "A landlord in Cincinnati owns a quadplex where a tenant recently moved out. The tenant left trash by the road, resulting in a $750 citation for the landlord. The security deposit for the unit was $600. According to Ohio landlord-tenant law, what is the most appropriate course of action for the landlord?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the Harvey Weinstein sexual abuse cases, he was convicted of third-degree rape but acquitted of first-degree rape charges. Based on the legal definitions provided, which of the following scenarios would most likely constitute third-degree rape but not first-degree rape?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -2503,7 +2503,7 @@
   },
   {
     "question": "A tenant is signing a lease where various changes are required. The landlord refuses to modify the lease itself but instead issues a separate letter detailing the changes. The letter includes the statement: \"This agreement does not constitute a variation of the terms of the Lease, which shall continue in full force and effect notwithstanding the terms of this agreement.\" What is the most likely legal effect of this letter?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -2587,9 +2587,9 @@
   },
   {
     "question": "A graphic designer wants to create a trademarked logo using a font licensed under the SIL Open Font License (OFL). Which of the following statements is correct regarding the use of OFL fonts in trademarks?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A data scientist develops a large language model (LLM) using publicly available data from social media and academic publications. She runs the model on her personal computer to generate summaries about various individuals, including her colleagues and neighbors, out of curiosity. Which of the following statements is most accurate regarding the application of GDPR in this scenario?",
@@ -2617,9 +2617,9 @@
   },
   {
     "question": "According to the U.S. Constitution's Good Behaviour Clause and its interpretation, which of the following statements is most accurate regarding federal judges' tenure?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A graphic designer includes a clause in their freelance contract stating: \"Client shall obtain all necessary copyright permissions and privacy releases for materials included in the designs at Client's request.\" What is the primary purpose of this clause?",
@@ -2629,9 +2629,9 @@
   },
   {
     "question": "Which of the following statements accurately describes the legal actions taken against Clearview AI in Europe for GDPR violations?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A home care nurse in New York City works 24-hour shifts for a family. Which of the following statements is correct regarding the calculation of her work hours under the Fair Labor Standards Act (FLSA)?",
@@ -2677,9 +2677,9 @@
   },
   {
     "question": "In a complex business transaction involving multiple parties signing various documents, which of the following methods would NOT be considered a valid way to achieve legal simultaneity?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Jane takes a selfie in her friend Tom's bedroom without his knowledge and posts it on social media. The photo inadvertently captures some of Tom's original artwork hanging on the walls, which he never intended to share publicly. Which of the following statements is most accurate regarding Tom's legal options?",
@@ -2737,9 +2737,9 @@
   },
   {
     "question": "An authorized officer at the Victorian Parliament is considering whether to direct a person to leave the premises. Which of the following scenarios would most likely meet the \"reasonable grounds\" requirement under the Parliamentary Precincts Act 2001?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In a fictional scenario set in California, an undercover police officer hires you to kill their spouse. You accept the money, but are then arrested. Another officer involved in the sting operation informs you (with bodycam evidence) that the supposed target doesn't actually exist. Which of the following statements is most accurate regarding the potential charges you might face?",
@@ -2749,15 +2749,15 @@
   },
   {
     "question": "An employee at a virtual call center is experiencing software issues and has been instructed to clock out while waiting for a resolution. After 3 hours of waiting without pay, what is the most appropriate course of action for the employee?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A restaurant chain is considering hiring minors (under 18) for various positions. Which of the following is NOT a valid reason for the restaurant to be cautious about hiring minors or allowing them to operate certain equipment?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "The EU's efforts to create a legal framework for data transfers to the US have faced several challenges. Which of the following statements accurately describes the current situation regarding EU-US data transfer agreements as of 2023?",
@@ -2803,15 +2803,15 @@
   },
   {
     "question": "A high-ranking government official receives a private jet flight from a political supporter. The market value of chartering such a flight is $24,000, but the official declares it as a $3,200 gift (equivalent to a first-class commercial flight). Which of the following statements is most accurate regarding the proper valuation of this gift for declaration purposes?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A tenant signed a one-year lease in January 2019 and renewed it with an identical lease (except for dates and rent amount) in January 2020. The lease contains a provision stating that the penalty for breaking the lease is smaller if the tenant has been on the lease for more than 9 months. In August 2020, the tenant decides to break the lease. Which of the following statements is most accurate regarding the applicable penalty?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "As a Cyber Security student researching court cases involving electronically stored information, which of the following statements about accessing legal databases in the United States is most accurate?",
@@ -2839,9 +2839,9 @@
   },
   {
     "question": "In legal documents, particularly court orders, the phrase \"be and the same is\" is often used. What is the primary purpose of this seemingly redundant phrasing?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A group of indie game developers is planning to work together on a revenue-sharing basis without forming a legal company. Which of the following documents would be most appropriate and legally binding to protect each member's work and contributions?",
@@ -2881,9 +2881,9 @@
   },
   {
     "question": "A permanent resident of the United States, originally from a country listed in the travel ban, plans to travel internationally. Which of the following statements is correct regarding their situation?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A developer has reverse engineered an undocumented API of a popular e-commerce app to create a program that automatically places orders for users. The program allows users to specify products and automatically places orders at predetermined times, giving users an advantage in time-sensitive sales. Assuming the e-commerce platform is an American company operating in the U.S., which of the following statements is most likely to be true regarding the legality of this program?",
@@ -2893,9 +2893,9 @@
   },
   {
     "question": "Which of the following statements is correct regarding the use of the term \"enact\" and the nature of delegated legislation in the UK legal system?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A game developer wants to create and publish digital versions of classic board games on mobile app stores. Which of the following statements is most accurate regarding the legal considerations for this endeavor?",
@@ -2911,9 +2911,9 @@
   },
   {
     "question": "Which of the following statements best describes the implications of the Kellogg v National Biscuit Co ruling regarding product design and trademark protection?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In a breach of contract case involving ambiguous terms about implementing tracking software, which of the following is most likely to be considered by the court when determining if a breach occurred?",
@@ -2959,9 +2959,9 @@
   },
   {
     "question": "In New Jersey, Company X and Employee Y signed an employment contract with an arbitration clause on January 1, 2015. On March 15, 2023, Employee Y files a lawsuit against Company X in state court for wrongful termination. Company X wants to enforce the arbitration agreement. Which of the following statements is correct?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You are living in a shared house and frequently receive mail addressed to previous tenants. Which of the following actions is the most appropriate and legally compliant way to handle this situation?",
@@ -2989,9 +2989,9 @@
   },
   {
     "question": "In Santa Monica, California, a robber breaks into a house, flees through the backyard, and accidentally drowns in an unfenced pool. The municipal code requires pools to be fenced. Which of the following statements is most accurate regarding the homeowner's potential liability?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A restaurant owner is selling their business. When asked by a potential buyer \"How many does the restaurant seat?\", the owner responds with the number of place settings they have, which is higher than the actual licensed seating capacity. Which of the following best describes this situation from a legal perspective?",
@@ -3007,9 +3007,9 @@
   },
   {
     "question": "In the context of UK law, specifically the Theft Act 1968, a customer notices that a self-service checkout at a supermarket is consistently charging half the marked price for all items. The customer proceeds to purchase a large quantity of goods at these reduced prices. Under which circumstances would this most likely be considered theft?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Under GDPR regulations, which of the following is a valid reason for a service to retain a user's email address after they have requested to unsubscribe?",
@@ -3031,9 +3031,9 @@
   },
   {
     "question": "A mobile app developer is creating an application that allows users to personalize their phones with images. They plan to use Unsplash.com as the image source, which provides CC0 licensed images. Which of the following statements is most accurate regarding the use of these images in the app on the Google Play Store?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A car is towed from a private apartment complex parking lot. Which of the following scenarios most likely represents a legal towing situation?",
@@ -3079,9 +3079,9 @@
   },
   {
     "question": "When applying for British citizenship, Sarah is unsure about how to accurately report her employment history. Which of the following approaches is the most appropriate and compliant with the application requirements?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In a first-tier tribunal hearing, Bob is asked a question he believes is irrelevant. Which of the following statements is most accurate regarding his obligation to answer?",
@@ -3091,9 +3091,9 @@
   },
   {
     "question": "In a UK Employment Tribunal case, the respondent's legal document includes the statement: \"Save as expressly admitted or denied above, no admissions are made as to any part of the Claimant's claim.\" What is the most accurate interpretation of this statement?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of software licensing under the GPL (GNU General Public License), which of the following statements is most accurate regarding the \"or later\" clause in the European Union, particularly in Germany?",
@@ -3139,9 +3139,9 @@
   },
   {
     "question": "A couple was married in Japan and now resides in the United States. They want their marriage to be officially recognized and documented within the U.S. system. Which of the following statements is correct regarding their options?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A litigant in person is appealing against a possession order from a District Judge to a Circuit Judge. If permission to appeal is denied by the Circuit Judge, what is the correct next step for the litigant?",
@@ -3181,9 +3181,9 @@
   },
   {
     "question": "According to the information provided about cookie consent on websites, which of the following actions would most likely be interpreted as giving consent to the use of cookies?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Under UK law, which of the following statements is most accurate regarding gender-specific job advertisements for babysitting positions?",
@@ -3211,13 +3211,13 @@
   },
   {
     "question": "In a scenario where a police officer approaches your parked car in a fast-food parking lot and demands you exit the vehicle, which of the following statements is most accurate regarding your legal obligations and rights?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In a country where the statutory notice period for terminating a residential lease is 3 months, a tenant signs a contract with a 5-month notice period. The tenant now wishes to terminate the lease. Which of the following statements is most accurate regarding the tenant's legal position?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -3229,9 +3229,9 @@
   },
   {
     "question": "In the UK, which of the following scenarios would be legal under current weights and measures legislation?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "When using Nativescript, which is licensed under Apache 2.0, to develop an application, what are the attribution requirements for the final delivered app?",
@@ -3265,9 +3265,9 @@
   },
   {
     "question": "A U.S. Navy sailor commits a murder while on leave in Washington, D.C. Which of the following scenarios regarding potential prosecutions is correct?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A UK resident has fallen victim to a cryptocurrency scam and wants to report it to the appropriate authorities. Which of the following is the MOST accurate and comprehensive way to report this fraud?",
@@ -3277,9 +3277,9 @@
   },
   {
     "question": "A game developer wants to release their game under a Creative Commons license that allows derivative works but preserves their exclusive rights to sell the original work. Which of the following statements is most accurate regarding this situation?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of using images from academic papers on a Q&A website like Stack Exchange, which of the following statements is most accurate regarding copyright and fair use?",
@@ -3337,9 +3337,9 @@
   },
   {
     "question": "In Canadian copyright law, if two individuals independently create identical literary works without knowledge of each other's creation, which statement best describes the legal situation?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In Illinois, 8 years after an incident where someone unknowingly gave medicine to cure an STD to another person without their knowledge, which of the following statements is most accurate regarding potential legal actions?",
@@ -3355,9 +3355,9 @@
   },
   {
     "question": "In the United States, when an emergency vehicle with lights and sirens approaches from behind on a non-divided road, which of the following actions is generally considered the safest and most legally compliant response?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An inventor wants to prevent companies from patenting their idea without going through the formal patent process themselves. Which of the following methods would be most effective in establishing prior art and keeping the idea in the public domain?",
@@ -3385,9 +3385,9 @@
   },
   {
     "question": "A Canadian citizen married to a U.S. citizen is awaiting his green card through Consular Processing. Which of the following statements is true regarding his ability to work and stay in the U.S. during this waiting period?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An open-source developer releases code with a simple copyright notice but no explicit license or warranty. Which of the following statements is most accurate regarding potential legal liability?",
@@ -3397,9 +3397,9 @@
   },
   {
     "question": "John is a J-1 visa holder in the US. His visa expired last week, but his program doesn't end for another 2 months. His girlfriend wants to visit him for a week before his program ends. Which of the following statements is correct?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An employee works at a university full-time and takes on a summer job at another company as at-will employment. She signs a document (not a formal contract) stating she shouldn't receive salary from the university while working for the company. She receives salary from both employers during this period. After the summer job ends, which of the following is most accurate regarding the company's legal options?",
@@ -3493,9 +3493,9 @@
   },
   {
     "question": "An artist wants to create a new piece incorporating images of 19th-century paintings. Which of the following statements is correct regarding copyright law and the use of these images?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of defamation lawsuits against public figures like Alex Jones, which of the following statements is most accurate?",
@@ -3529,15 +3529,15 @@
   },
   {
     "question": "In a federal civil case in the United States, a defendant withholds video evidence that proves their innocence until the last moment of the trial, intending to embarrass the plaintiff. Which of the following is NOT a potential consequence the defendant might face under the Federal Rules of Civil Procedure?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A tenant is moving out of an apartment in Germany. The landlord claims the tenant must pay to repair uneven wall textures that make it difficult to paint evenly. The tenant believes these issues existed before they moved in, but they didn't document the apartment's condition at move-in. The rental contract states the apartment was \"renovated\" at the time of moving in. In this situation, who bears the burden of proof regarding the pre-existing condition of the walls?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "John and Mary reached a settlement agreement through mediation on March 1st regarding a civil dispute. The agreement did not specify a payment deadline. It's now June 15th, and John hasn't received the agreed-upon payment from Mary. Which of the following statements is most accurate regarding this situation?",
@@ -3547,7 +3547,7 @@
   },
   {
     "question": "Alice is a professional photographer who posts her high-quality images on her public website. Bob runs a blog about photography techniques and wants to reference Alice's work. Which of the following actions by Bob would most likely be considered copyright infringement?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -3559,9 +3559,9 @@
   },
   {
     "question": "A tech company in the UK is trying to address gender imbalance in their workforce. They receive 100 applications for a software developer position, with 80 from men and 20 from women. Which of the following hiring practices would be legal under UK employment law?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A game developer is creating a space-themed video game and wants to use a famous phrase from a popular space movie as the title of their game. Which of the following statements is most accurate regarding potential trademark infringement?",
@@ -3613,9 +3613,9 @@
   },
   {
     "question": "Congress wants to effectively abolish the death penalty nationwide, including in states that wish to retain it. Which of the following strategies would be most likely to achieve this goal without requiring a constitutional amendment or Supreme Court ruling?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Under GDPR regulations, a company is sending marketing emails to a customer who has purchased their event services. The customer wants to unsubscribe from marketing emails but continue receiving important event information. The company's unsubscribe page only allows opting out of all communications or continuing to receive marketing emails. Which of the following statements is correct regarding this situation?",
@@ -3637,15 +3637,15 @@
   },
   {
     "question": "Under the proposed Renters Reform Bill, which of the following statements is most accurate regarding the changes to Assured Shorthold Tenancies (ASTs) and tenant notice periods?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false
   },
   {
     "question": "John has a student loan debt of $20,000 with Bank A. He wants to transfer this debt to his friend Sarah, who has agreed to take on the responsibility. Which of the following statements is most accurate regarding John's ability to transfer his debt?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In Denver, Colorado, a tenant discovers that the phone lines in their apartment are broken, confirmed by multiple technicians. The landlord refuses to address the issue. Based on Colorado law, which of the following statements is most accurate regarding the tenant's rights and the landlord's responsibilities?",
@@ -3679,15 +3679,15 @@
   },
   {
     "question": "A small bakery wants to sell a chocolate cake mix based on a popular recipe they found online called \"Jina's Chocolate Delight\". Which of the following statements is most accurate regarding the legal implications of this action?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A private university's campus police department receives an anonymous tip that a student is selling drugs from their dorm room. The campus police want to search the room but don't have enough evidence for a warrant. Which of the following actions would be most legally appropriate?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Based on the U.S. Supreme Court's interpretation in United States v. Ortega and subsequent congressional action, which of the following statements most accurately reflects the current understanding of the phrase \"affecting Ambassadors, other public Ministers and Consuls\" in Article III, Section 2, Clause 2 of the U.S. Constitution?",
@@ -3721,9 +3721,9 @@
   },
   {
     "question": "An employee signed a contract stating they must pay \u00a31800 for mandatory training if they leave within 18 months. The employee was already qualified and the training was specific to company procedures. Which of the following statements is most accurate regarding the enforceability of this contract clause?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a defamation lawsuit in the United States, which of the following statements is most accurate regarding the plaintiff's burden and the nature of the legal process?",
@@ -3751,9 +3751,9 @@
   },
   {
     "question": "According to the Alameda County Superior Court Local Rule 3.30(c) and its \"Technical E-Filing Requirements,\" which of the following statements is correct regarding the need for printed courtesy copies?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An employee creates a bookmarklet that modifies and enhances the functionality of their company's web application locally on users' computers. The company claims this violates their Terms of Service, which prohibit modifying or creating derivative works from their site. Which of the following statements is most accurate regarding the legal implications of this situation?",
@@ -3793,9 +3793,9 @@
   },
   {
     "question": "In Cambodia, a person buys 10 cans of beer that have a lottery feature where one can win prizes like additional beer, money, or even a motorbike. The buyer takes these cans to a friend's house and one of the cans wins a motorbike. According to legal principles, who has the right to keep the motorbike?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An MP uses parliamentary privilege to name an individual protected by an anonymity order. A newspaper wants to report on this, including the individual's name. Which of the following statements most accurately describes the legal position of the newspaper?",
@@ -3817,9 +3817,9 @@
   },
   {
     "question": "Which of the following statements about the Supreme Court of the United States is FALSE?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An aspiring translator wants to translate a novel into their native language. The original author is deceased, and the publishing house that first published the book no longer exists. Which of the following statements is most accurate regarding the copyright situation and the translator's next steps?",
@@ -3829,9 +3829,9 @@
   },
   {
     "question": "In a U.S. court, under which of the following circumstances would an arbitration agreement be most likely to be thrown out?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In California, a tenant is named in an Unlawful Detainer action. The tenant answers the Summons and Complaint, appears in court, and the judge rules in the tenant's favor. Which of the following statements is most accurate regarding the tenant's legal position after this ruling?",
@@ -3889,9 +3889,9 @@
   },
   {
     "question": "A small business owner is setting up an affiliate program for their online store. Which of the following statements is correct regarding their tax reporting obligations?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A company issues corporate credit cards to its employees. Which of the following scenarios best describes a situation where it might be appropriate for the company to change the billing address of an employee's corporate credit card to their personal home address?",
@@ -3925,9 +3925,9 @@
   },
   {
     "question": "Two hunters, John and Mike, are hunting in the woods. They both simultaneously and negligently fire their rifles in the direction of a hiker, hitting and killing him instantly. Each shot would have been fatal on its own. Which of the following statements is most accurate regarding causation and liability in this case?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An indie software developer in India wants to use their screen name \"Cyfrost\" instead of their legal name \"Billy Raymond\" in the copyright notice for their freely available but closed-source software. Which of the following statements is most accurate regarding this situation?",
@@ -3961,9 +3961,9 @@
   },
   {
     "question": "A non-UK resident purchases items from a UK-based online retailer. Some items arrive damaged, and the customer receives a refund for the items' value but not for shipping (which was originally free). The retailer's policy states they don't replace items for international customers, only refund. When the customer tries to reorder, prices have increased and free shipping is no longer available. What is the retailer's legal obligation in this situation under UK law?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "John, a long-time New York resident, decides to travel the world for an entire year without establishing a new permanent domicile. During this year, he earns income from various sources worldwide but does not set foot in New York. New York State attempts to tax John's worldwide income for that year. If John challenges this in court, what is the most likely outcome?",
@@ -4003,9 +4003,9 @@
   },
   {
     "question": "A library is creating a digital catalog of its book collection. Which of the following elements would potentially require copyright consideration or permission from the publisher?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A computer company claims they are legally required to include an operating system with all their systems. Which of the following is the most likely explanation for this claim?",
@@ -4051,9 +4051,9 @@
   },
   {
     "question": "A real estate agent, Sarah, is aware that a property owner, John, has an exclusive listing agreement with another broker, Tom. Under what circumstances can Sarah legally discuss a potential future listing with John without risking a lawsuit for interference with contractual relations?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An artist creates a simple character design for a meme in about 2 minutes and posts it on social media. Which of the following statements is most accurate regarding the copyright protection of this character?",
@@ -4063,13 +4063,13 @@
   },
   {
     "question": "A tech enthusiast is writing a guidebook about Microsoft Windows 10, including screenshots of the interface and the Windows logo. Which of the following statements is most accurate regarding potential legal issues?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "John, a New York resident, wants to create a will that allows him to easily update specific bequests of personal property without having to re-execute the entire will each time. Which of the following statements is correct regarding John's options under New York law?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -4081,9 +4081,9 @@
   },
   {
     "question": "The Johnsons, who live in Ohio, are going through a divorce. They have two children, and both parents want to claim the children as dependents on their federal taxes. Which of the following scenarios would most likely allow Mr. Johnson to claim both children as dependents?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A college student who is a licensed amateur radio operator wants to use a personal WiFi router in their dorm room, which is normally banned by the college. The student claims they are using it under amateur radio regulations (Part 97) instead of standard WiFi regulations (Part 15). Which of the following statements is most accurate regarding this situation?",
@@ -4117,9 +4117,9 @@
   },
   {
     "question": "Which of the following statements most accurately describes the current legal status of married couples in the United States with respect to their treatment as individuals or a single entity?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A former professional athlete, Sarah, discovers that GettyImages is selling photos of her from her playing days for $500 per digital download. Which of the following statements is most accurate regarding Sarah's rights and obligations in this situation?",
@@ -4165,9 +4165,9 @@
   },
   {
     "question": "A UK-based developer has created a web application that allows users to request help from others in their local area. The app collects personal information and displays it publicly. Which of the following statements is NOT a correct approach to ensure GDPR compliance for this application?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Officer Johnson is attending a small party off-duty when a fight breaks out. He attempts to intervene but is knocked unconscious. Upon regaining consciousness, he notices several partygoers still present, though some have left. Under what circumstances can Officer Johnson legally arrest someone at this point?",
@@ -4177,9 +4177,9 @@
   },
   {
     "question": "Under Oregon law, which of the following statements about community service as a criminal sentence is NOT correct?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In a scenario where Person A asks Person B to shoot them non-lethally, and Person B complies, which of the following statements is most accurate regarding the legal implications?",
@@ -4189,15 +4189,15 @@
   },
   {
     "question": "An online digital library offers scanned images of public domain books with a \"Non-Commercial use only\" restriction. A researcher extracts the text from these images using OCR technology and plans to sell e-books of the extracted text. Which of the following statements is most accurate regarding the legal implications of this action?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "John and Sarah, a married couple, jointly owned a house in Albany, NY. Sarah passed away without a will, leaving behind John and her daughter from a previous marriage, Emily, who lives in Florida. The total value of Sarah's estate, excluding the house, is $150,000. How much of Sarah's estate will Emily inherit?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A small artisanal food company produces a spread called \"Pure Peanut Delight.\" The ingredients list simply states \"100% peanuts,\" but the product does not include the warning \"Contains peanuts\" or \"May contain peanuts.\" A customer with a known peanut allergy consumes the product and suffers a severe allergic reaction. Which of the following statements is most accurate regarding the company's potential liability?",
@@ -4231,15 +4231,15 @@
   },
   {
     "question": "A 17-year-old California resident wants to become emancipated. Which of the following scenarios would automatically result in their emancipation under California law, without requiring additional court approval?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Which of the following statements about the legal system of Vatican City State (VCS) is correct?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A tech startup, EmojiConvert, has developed a website that converts emojis into PNG and SVG formats. The company wants to expand its services by allowing users to download and use these converted emojis for commercial purposes in videos, games, pictures, and logos. Which of the following statements best describes the legal implications of this business model?",
@@ -4267,9 +4267,9 @@
   },
   {
     "question": "In the UK, a man drives home intoxicated from a bar and causes an accident resulting in the death of another driver. Which of the following statements is most accurate regarding the legal consequences under UK law?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "According to the U.S. Constitution and relevant case law, which of the following statements is correct regarding the Supreme Court's jurisdiction and Congress's power to limit it?",
@@ -4291,9 +4291,9 @@
   },
   {
     "question": "Four roommates - Alice, Bob, Charlie, and Dana - share a rental house. Alice pays 40% of the rent, while the others split the remaining 60% equally. The landlord discovers that the tenants have been illegally subletting a room and decides to sue for breach of contract. Which of the following statements is most accurate regarding this situation?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A scholar is creating a web app that allows users to arrange and organize texts from a 19th-century philosopher's notebooks. The texts are taken from a recent digitized scholarly edition of the author's works, which involved editors distilling the original notebook material into printable texts. Under which circumstances might the scholar's use of these texts potentially infringe on copyright?",
@@ -4321,9 +4321,9 @@
   },
   {
     "question": "A tech startup founder is preparing to seek outside investment but wants to maintain control of the board. Which of the following scenarios is MOST likely to allow the founder to retain control while still securing external funding?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "UEFA's membership criteria currently require applicants to represent a sovereign state recognized by the majority of UN members. Which of the following statements is most accurate regarding potential changes to this requirement?",
@@ -4459,7 +4459,7 @@
   },
   {
     "question": "A student rents an apartment from a university housing service in Germany. The rental agreement states that \"Termination is permitted no later than the third working day of a calendar month following the end of the month after next.\" If the student wishes to move out on June 30th, by which date must they inform the landlord at the latest?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false
   },
@@ -4543,15 +4543,15 @@
   },
   {
     "question": "An individual is carrying a firearm in an inside-the-waistband holster with their shirt tucked in, causing the grip of the gun to be partially visible. Under which circumstances would this most likely be considered concealed carry rather than open carry?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A state governor issues two conflicting rules during a public health crisis:\n1. Providers will be fined heavily for administering treatments to ineligible individuals.\n2. Providers will be fined heavily for not using all allocated treatment doses.\n\nWhat legal concept best describes the situation providers find themselves in, where complying with one rule may lead to violating the other?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An employee develops valuable intellectual property during off-work hours under a contract stating all IP belongs to the company regardless of when it's developed. The company then significantly reduces the incentive program that was a major part of the employee's income. Which of the following statements is most accurate regarding the employee's rights in this situation?",
@@ -4591,9 +4591,9 @@
   },
   {
     "question": "A religious organization in Illinois operates a church and an affiliated school as separate entities, both with 501(c)(3) status and distinct Federal Employer Identification Numbers (FEINs). The school, considered an integrated auxiliary of the church, has just over 100 employees. Regarding EEOC-1 reporting requirements, which of the following statements is most accurate?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A person accidentally walks into a glass panel surrounding a revolving door in a large commercial building, sustaining minor injuries. The building's security takes down the person's contact information and identification details. What is the most likely reason for collecting this information?",
@@ -4615,9 +4615,9 @@
   },
   {
     "question": "On a freeway, there is a work zone sign in the express lane indicating a 30 mph speed limit. After this work zone, the entire freeway has a posted speed limit of 85 mph. A driver is traveling in the express lane and passes the work zone. Which of the following statements is correct?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "John receives a \"Final determination of violation liability\" for a red light camera ticket. He didn't receive the initial notice and wants to contest the citation. Based on the information provided, what is the most appropriate course of action for John to take?",
@@ -4705,15 +4705,15 @@
   },
   {
     "question": "A freelance web designer receives an email from a potential client offering a high-paying job. The client asks the designer to accept a large sum of money and then transfer a portion to a third party. What type of scam is this most likely to be?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the landmark case New York Times Co. v. United States, the Supreme Court issued an unusually high number of separate opinions. Which of the following statements most accurately describes the breakdown of opinions in this case?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An international student facing a civil legal issue related to their U.S. education is seeking affordable legal advice without being able to visit the U.S. in person. Which of the following options is most likely to provide the most appropriate and accessible assistance for their situation?",
@@ -4741,9 +4741,9 @@
   },
   {
     "question": "A police officer in Salt Lake City, Utah suspects a person of selling drugs in a public park, but has no concrete evidence. The officer tells the person to leave and never return to the park. Which of the following statements is most accurate regarding this situation?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An employee with a non-compete clause in their contract is considering taking a job with a competitor. The clause prohibits working for a competitor for 6 months after leaving the current job. Which of the following statements is most accurate regarding the legal implications?",
@@ -4759,9 +4759,9 @@
   },
   {
     "question": "In the United States, which of the following factors is NOT typically considered when determining the enforceability of a non-compete clause?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Under UK law, when using a store's \"scan as you go\" system, which of the following statements is most accurate regarding the store's rights and the customer's obligations?",
@@ -4795,9 +4795,9 @@
   },
   {
     "question": "According to GDPR best practices for a gaming app available in multiple EU countries, which of the following approaches to providing a privacy policy is most recommended?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Based on the scenario and legal information provided, which of the following statements is most accurate regarding Larry's potential criminal liability?",
@@ -4819,9 +4819,9 @@
   },
   {
     "question": "A Russian citizen living in Moscow wants to support a U.S. presidential candidate's campaign. Which of the following actions would be legal under U.S. federal law?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the context of the eBay/PayPal split, which of the following statements is most accurate regarding user agreements and account management?",
@@ -4831,9 +4831,9 @@
   },
   {
     "question": "A state court is hearing a civil case involving both state and federal laws. Which of the following statements is most accurate regarding the use of federal court rulings as precedent in this case?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A developer has created a mobile app that processes and modifies user photos on their devices. To protect against potential liability from unintentional data loss, which of the following approaches is MOST likely to provide the strongest legal protection?",
@@ -4879,7 +4879,7 @@
   },
   {
     "question": "A website hosts content that could potentially be considered obscene. Which of the following measures would most likely provide the strongest legal defense for the website operator under federal law if a minor accessed the content?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -4915,9 +4915,9 @@
   },
   {
     "question": "An e-commerce company is considering selling on a marketplace that includes a price parity clause in its contract. The marketplace's sales team has sent an email stating, \"The issue you had is you wanted us to remove the price parity clause. I said we are unable however told you in writing that you were fine to overlook this clause.\" Which of the following statements most accurately describes the legal implications of this situation?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of the Kansas federal judge's ruling on religious gatherings during the COVID-19 pandemic, which of the following statements best describes the legal principle that likely influenced the judge's decision?",
@@ -5029,15 +5029,15 @@
   },
   {
     "question": "According to the interpretation presented in the documentation, which of the following scenarios would be LEAST likely to violate the equal suffrage clause in Article V of the US Constitution?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the case of a rear-end collision with an uninsured and potentially intoxicated driver, which of the following actions is LEAST likely to result in successful recovery of damages for the victim?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the given situation, what is the most appropriate and legally sound course of action for the student to take to prevent his ex-girlfriend from entering the college-owned house?",
@@ -5047,15 +5047,15 @@
   },
   {
     "question": "An employee discovers that their boss has obtained personal course materials with copyright protection from the employee's work computer. The boss claims to have deleted the files but hasn't. What is the most appropriate legal course of action for the employee?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false
   },
   {
     "question": "A small U.S. business owner is sending payments to various affiliates for referrals. Which of the following scenarios would require the business owner to file a Form 1099-MISC?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An employee living in Connecticut but working remotely for a Massachusetts-based company rents an office space in their Connecticut town. The local tax appraiser has mistakenly classified this employee as a taxable business. What is the most appropriate initial course of action for the employee to take?",
@@ -5077,9 +5077,9 @@
   },
   {
     "question": "A professor has kept personal notes and a student's plagiarized exam from an academic misconduct case that occurred 5 years ago. The university's official records of the case have been destroyed in accordance with their retention policy. Under these circumstances, which of the following statements is most accurate regarding the professor's ability to discuss the case?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A startup in the UK plans to launch a website allowing tenants to share rental prices for specific addresses. Which of the following statements is most accurate regarding the legal implications of this business model?",
@@ -5095,15 +5095,15 @@
   },
   {
     "question": "A private company board of directors in Delaware is considering a major change to their corporate structure. The board consists of 7 members, but only 5 are present at the meeting where this decision is to be made. The company's bylaws are silent on the voting requirements for such changes. Which of the following statements is most accurate regarding the decision-making process in this scenario?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false
   },
   {
     "question": "An employee signed a confidentiality agreement with their former employer that states the obligation to keep information confidential \"during your employment and any time thereafter.\" Ten years later, the employee is unsure about the status of some technical information they learned. Which of the following statements is most accurate regarding the confidentiality obligation?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Which of the following best describes the key characteristic that distinguishes a kangaroo court from a legitimate court system?",
@@ -5125,7 +5125,7 @@
   },
   {
     "question": "In Utah, three co-executors are named in a will for an estate with no complications. They want to designate one person as the primary executor and another as a successor executor through informal probate. Which of the following statements is most accurate regarding this situation?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -5137,13 +5137,13 @@
   },
   {
     "question": "You are driving on a road that merges into a four-lane one-way street. As you approach the merge point, you notice another vehicle coming from a different direction that will also merge onto the same one-way street. Under these circumstances, which of the following statements is most accurate according to general road rules?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In a busy urban area, city planners are designing a new bike lane system. They need to decide on the appropriate signage for different scenarios. Which of the following combinations of sign placement and arrow direction is INCORRECT according to the Ontario Traffic Manual guidelines?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false
   },
@@ -5167,7 +5167,7 @@
   },
   {
     "question": "In Colorado, under what circumstances is the use of deadly force in self-defense legally justified?",
-    "model_answer": "B",
+    "model_answer": ">",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -5269,9 +5269,9 @@
   },
   {
     "question": "According to the interpretation of the non-solicitation contract clause, which of the following scenarios would MOST LIKELY be considered a violation of the agreement?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Which of the following statements most accurately describes the process required to officially change the name of the United States of America?",
@@ -5281,9 +5281,9 @@
   },
   {
     "question": "John, a U.S. citizen living in New York, wins $10,000 from online gambling on a UK-based website. Which of the following statements is correct regarding his tax obligations?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A tenant is moving out of a rental property in Germany. The landlord claims there is damage to the property and wants the tenant to sign a document noting these damages. The tenant disputes these claims. What is the most appropriate course of action for the tenant in this situation?",
@@ -5329,9 +5329,9 @@
   },
   {
     "question": "A VPN company based in Panama operates servers in the United States. Which statement is most accurate regarding the logging requirements for this company?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A driver in Massachusetts gets a flat tire and decides to drive to a nearby mechanic to get it fixed. On the way, they are stopped by police and issued a citation for \"negligent operation of vehicles.\" Which of the following statements is most accurate regarding this situation?",
@@ -5341,9 +5341,9 @@
   },
   {
     "question": "According to the LawStackExchange answer, what is the legal status of a clause in a software EULA that prohibits reverse engineering, when a user wants to reverse engineer for interoperability purposes as described in the U.S. law?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A researcher wants to create a dataset of Dr. Seuss books for machine learning purposes and share it on GitHub. Which of the following statements is most accurate regarding the legality of this action under fair use doctrine?",
@@ -5353,9 +5353,9 @@
   },
   {
     "question": "According to UK copyright law and the information provided, which of the following statements is most accurate regarding the journal article by John Maynard Keynes published in 1943?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Which of the following statements best describes the relationship between precedent and legislation in establishing law, particularly in the context of the Roe v. Wade decision?",
@@ -5365,15 +5365,15 @@
   },
   {
     "question": "In the context of reporting on a high-profile trial where the accused was acquitted of sexual assault charges, which of the following statements about the phrase \"The attempted rape charge was dismissed along with all the others, but the broader sentiment was endorsed\" is most accurate from a legal perspective?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the scenario described, if the father's wishes regarding the partner's right to use the house and cost-sharing arrangements are not put in writing, what is the legal status of these agreements after the father's death?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Sarah's ex-boyfriend sold her car without her permission and took three other cars registered in her name to another state. Which of the following statements most accurately describes the legal implications of this situation?",
@@ -5395,9 +5395,9 @@
   },
   {
     "question": "According to the information provided, what is the primary reason for the regulatory \"friction\" surrounding the purchase and importation of 5-Hydroxytryptophan (5-HTP) in Australia?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Under the Companies Act 2006, how long must a private company in England and Wales retain accounting records that may include sensitive personal information such as bank account details and addresses of former employees?",
@@ -5437,15 +5437,15 @@
   },
   {
     "question": "A new clothing brand entrepreneur discovers that a clothing company in a foreign country has the same name as their planned brand. Which of the following scenarios presents the LEAST risk for potential legal issues?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A landlord tells a tenant that they are legally required to charge a pet fee for guinea pigs because they charge for dogs, and not doing so would be considered discrimination. Which of the following statements is most accurate regarding this situation?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A linguistics professor with a Ph.D. in phonetics and several published papers on accent analysis wants to serve as an expert witness in a court case involving speaker identification. Which of the following statements is most accurate regarding their qualification as a forensic linguist in a U.S. court?",
@@ -5503,15 +5503,15 @@
   },
   {
     "question": "Which of the following statements most accurately describes the legal classification of software piracy?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A local theater company contracts with a set designer to create and build a custom stage for their upcoming production of \"Hamlet\". Two weeks before the production, the theater company decides to change the play to \"Romeo and Juliet\" and informs the set designer that the original set is no longer needed. The set designer has already purchased materials and spent significant time on the \"Hamlet\" set. Which legal principle best applies to this situation?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A researcher publishes a Google Drive spreadsheet containing experimental data and makes it publicly accessible via a sharing link. Which of the following statements is most accurate regarding the legal status and usage of this information?",
@@ -5593,15 +5593,15 @@
   },
   {
     "question": "In Washington state, what is the maximum time limit for a money transmitter licensee to refund a customer's money after receiving a written request for a refund following a failed wire transfer?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Under UK law, in a case where a potentially illegal video of a person is circulating without their consent, which of the following statements is most accurate regarding the ability to compel information from witnesses?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The city of Metropolis is considering enacting an ordinance to prevent future protests by a controversial political group after their last rally resulted in property damage. Which of the following actions would likely be considered constitutional?",
@@ -5743,7 +5743,7 @@
   },
   {
     "question": "In Idaho, the legislature is attempting to pass a constitutional amendment that would make it significantly more difficult for citizens to get initiatives on the ballot. Which of the following statements is most accurate regarding the potential legal challenges to this amendment?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false
   },
@@ -5779,9 +5779,9 @@
   },
   {
     "question": "A South Korean poet's work was first published in an anthology in 1946 alongside two other poets. The poet in question died in 1968. If you want to translate and publish this poet's work in the United States in 2023, what is the copyright status of the poems?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An employee is signing an employment contract with a company based in New York, but the contract includes a clause referencing \"California Labor Code 2870\" regarding Assignment of Inventions. What is the most likely reason for including this specific reference to California law?",
@@ -5809,9 +5809,9 @@
   },
   {
     "question": "Sarah signed up for a yoga studio membership on June 15th. The contract states it's \"entered into on June 15th\" and \"in effect from July 1st\". The studio offers a \"14-day money-back guarantee from the date of enrollment\". On which date does Sarah's money-back guarantee period end?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "John's car was stolen last month and he reported it to the police. Today, while walking in a nearby town, he spots his car parked on the street. What is the most appropriate and legally safe course of action for John?",
@@ -5863,9 +5863,9 @@
   },
   {
     "question": "Bob was assaulted in a store and requests CCTV footage through a GDPR subject access request. The Data Protection Officer (DPO) intentionally omits damaging footage before responding. If Bob later files a lawsuit, what legal principle might apply to this situation?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Congress is considering a law that would require commercial VPN operators to register their \"veneer IPs\" (IPs used to mask customers' real IPs) in a public database. Which of the following statements is most accurate regarding the constitutionality and potential challenges to such a law?",
@@ -5929,15 +5929,15 @@
   },
   {
     "question": "According to the EU Directive 95/46/EC, which of the following is NOT a condition under which data processing is considered lawful?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the case of a 16-year-old witness (E) to a serious crime, whose mother (S) demands her return home against the wishes of law enforcement, which of the following statements is most accurate regarding the legal situation?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Which of the following best describes the primary approach used in legal writing for contracts, and why is this approach potentially problematic when dealing with new technologies or situations?",
@@ -5965,21 +5965,21 @@
   },
   {
     "question": "Which of the following statements most accurately describes the legal status of Jews in England following the series of laws passed between 1835 and 1890?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of obtaining someone's personal information from online or social media accounts for legal purposes, which of the following statements is most accurate?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "According to Austrian weapons law and common practice, which of the following statements is most accurate regarding the purchase and regulation of firearm magazines?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In a case where a painting of a child is created based on a photograph, which of the following statements is most accurate regarding parental consent and legal action?",
