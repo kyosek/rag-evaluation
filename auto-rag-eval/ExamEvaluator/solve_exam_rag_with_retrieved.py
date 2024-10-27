@@ -103,7 +103,7 @@ def evaluate_performance(exam: List[Dict], results: List[str]) -> float:
 
 
 # Main function to run the exam
-def run_rag_exam(model_path: str, model_name: str, task_name: str, exam_file: str, retriever: str):
+def run_rag_exam(model_device, model_path: str, model_name: str, task_name: str, exam_file: str, retriever: str):
     exam = load_exam(exam_file)
     if model_device == "GCP":
         print("Using transformer")
@@ -153,16 +153,16 @@ def run_rag_exam(model_path: str, model_name: str, task_name: str, exam_file: st
 
 
 if __name__ == "__main__":
-    model_device = "GCP"
+    model_device = "claude"
     model_path = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF"
-    model_name = "llamav2"
-    task_name = "LawStackExchange"
-    folder_name = "claude_gcp_2024102123"
-    # task_name = "Arxiv"
-    # folder_name = "claude_gcp_2024100422"
+    # model_name = "llamav2"
+    model_name = "claude"
+    # task_name = "SecFilings"
+    # folder_name = "claude_gcp_2024102118"
+    task_name = "Arxiv"
+    folder_name = "claude_gcp_2024100422"
     exam_file = f"Data/{task_name}/ExamData/{folder_name}/exam_1000_42.json"
     retrievers = ["BM25", "DPR", "SIAMESE", "MultiQA", "DPR:MultiQA:BM25"]
-    # retrievers = ["MultiQA", "DPR:MultiQA:BM25"]
     
     # Create the full directory path
     directory = f"Data/{task_name}/ExamResults"
@@ -170,4 +170,4 @@ if __name__ == "__main__":
     
     for retriever in retrievers:
         print(f"Retriever: {retriever}")
-        run_rag_exam(model_path, model_name, task_name, exam_file, retriever)
+        run_rag_exam(model_device, model_path, model_name, task_name, exam_file, retriever)
