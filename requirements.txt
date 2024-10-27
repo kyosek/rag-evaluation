@@ -17,3 +17,4 @@ torch==2.2.1
 tqdm==4.66.5
 transformers
 llama-cpp-python
+# bitsandbytes  # This should be installed after setting up CUDA
