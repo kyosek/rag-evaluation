@@ -1,7 +1,7 @@
 import os
 import json
 from typing import List, Dict
-from LLMServer.llama.llama_instant import LlamaModel
+# from LLMServer.llama.llama_instant import LlamaModel
 from LLMServer.llama_gcp.llama_gcp_instant import LlamaGcpModel
 from tqdm import tqdm
 
@@ -13,7 +13,7 @@ def load_exam(file_path):
 
 
 # Generate an answer for a given question
-def generate_answer(model: LlamaModel, question: str, choices: List[str], document) -> str:
+def generate_answer(model, question: str, choices: List[str], document) -> str:
     prompt = f"Question: {question}\n\nChoices:\n"
     for i, choice in enumerate(choices):
         prompt += f"{choice}\n"
