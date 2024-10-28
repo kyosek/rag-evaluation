@@ -121,16 +121,10 @@ def run_rag_exam(model_device, model_path: str, model_name: str, task_name: str,
 
     results = []
     for question in tqdm(exam, desc="Processing questions", unit="question"):
-        try:
-            answer = generate_answer(
-                model,
-                question["question"],
-                question["choices"],
-                question["retrieved_context"][retriever]
-            )
-            results.append(answer)
-        except:
-            pass
+        if model_device == "GCP":
+            answer = generate_answer_llama(model, question["question"], question["choices"])
+        else:
+            answer = generate_answer(model, question["question"], question["choices"])
 
     accuracy = evaluate_performance(exam, results)
 
@@ -153,10 +147,12 @@ def run_rag_exam(model_device, model_path: str, model_name: str, task_name: str,
 
 
 if __name__ == "__main__":
-    model_device = "claude"
+    model_device = "GCP"
+    # model_device = "claude"
     model_path = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF"
     # model_name = "llamav2"
-    model_name = "claude"
+    # model_name = "claude"
+    model_name = "llama3_70b"
     # task_name = "SecFilings"
     # folder_name = "claude_gcp_2024102118"
     task_name = "Arxiv"
