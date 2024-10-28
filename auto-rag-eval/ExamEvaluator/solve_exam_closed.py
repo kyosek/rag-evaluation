@@ -114,7 +114,10 @@ def run_closed_book_exam(model_device: str, model_path: str, model_name: str, ta
 
     results = []
     for question in tqdm(exam, desc="Processing questions", unit="question"):
-        answer = generate_answer(model, question["question"], question["choices"])
+        if model_device == "GCP":
+            answer = generate_answer_llama(model, question["question"], question["choices"])
+        else:
+            answer = generate_answer(model, question["question"], question["choices"])
         results.append(answer)
 
     accuracy = evaluate_performance(exam, results)
