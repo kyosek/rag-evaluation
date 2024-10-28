@@ -123,9 +123,9 @@ def run_open_book_exam(model_device: str, model_path: str, model_name: str, task
     results = []
     for question in tqdm(exam, desc="Processing questions", unit="question"):
         if model_device == "GCP":
-            answer = generate_answer_llama(model, question["question"], question["choices"])
+            answer = generate_answer_llama(model, question["question"], question["choices"], question["documentation"])
         else:
-            answer = generate_answer(model, question["question"], question["choices"])
+            answer = generate_answer(model, question["question"], question["choices"], question["documentation"])
         results.append(answer)
 
     accuracy = evaluate_performance(exam, results)
@@ -155,8 +155,8 @@ if __name__ == "__main__":
     # model_name = "llamav2"
     # model_name = "llama3-B70"
     model_name = "claude"
-    task_name = "StackExchange"
-    exam_file = f"Data/{task_name}/ExamData/claude_gcp_2024100421/exam_1000_42.json"
+    task_name = "SecFilings"
+    exam_file = f"Data/{task_name}/ExamData/claude_gcp_2024102118/exam_1000_42.json"
 
     # Create the full directory path
     directory = f"Data/{task_name}/ExamResults"
