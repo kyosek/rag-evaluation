@@ -48,14 +48,14 @@ def generate_answer(model, question: str, choices: List[str], context) -> str:
     return response.strip()[-1]
 
 
-def generate_answer_llama(model, question: str, choices: List[str], document: str) -> str:
+def generate_answer_llama(model, question: str, choices: List[str], context: str) -> str:
     # Format choices with letters for clear instruction
     formatted_choices = "\n".join(f"{chr(65+i)}. {choice}" for i, choice in enumerate(choices))
     
     # Construct a more structured prompt with system and user roles
     prompt = f"""[INST] <<SYS>>
     You are an AI assistant taking a multiple choice exam. Your task is to:
-    1. Read the question and provided document carefully
+    1. Read the question and provided context carefully
     2. Analyze the choices
     3. Select the most appropriate answer
     4. Respond with ONLY the letter (A, B, C, or D) of the correct answer
@@ -66,8 +66,8 @@ def generate_answer_llama(model, question: str, choices: List[str], document: st
     Choices:
     {formatted_choices}
 
-    Document:
-    {document}
+    Context:
+    {context}
 
     Instructions:
     - You must respond with exactly one letter: A, B, C, or D
@@ -122,9 +122,9 @@ def run_rag_exam(model_device, model_path: str, model_name: str, task_name: str,
     results = []
     for question in tqdm(exam, desc="Processing questions", unit="question"):
         if model_device == "GCP":
-            answer = generate_answer_llama(model, question["question"], question["choices"])
+            answer = generate_answer_llama(model, question["question"], question["choices"], question["retrieved_context"][retriever])
         else:
-            answer = generate_answer(model, question["question"], question["choices"])
+            answer = generate_answer(model, question["question"], question["choices"], question["retrieved_context"][retriever])
 
     accuracy = evaluate_performance(exam, results)
 
