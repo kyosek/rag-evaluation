@@ -33,18 +33,30 @@ def generate_answer(model, question: str, choices: List[str], context: List[str]
     \nYou are a student that is solving the exam.
     Please solve the question by using the given context and 
     provide the letter (A, B, C, or D) only of the correct answer.\n
-    The response must follow the response format:
-    - Return only one letter (A, B, C, or D)
-    - No period or anything else at the end of the sentence\n
-    Response format example 1:
+    
+    Instructions:
+    - You must respond with exactly one letter: A, B, C, or D
+    - Do not include any explanation, period, or additional text
+    - Just the letter of the correct answer
+    
+    Examples of valid responses:
     A
-    Response format example 2:
+    B
     C
-    Response format example 3:
     D
+    
+    Your answer (one letter only):
     """
 
     response = model.invoke(prompt)
+    
+    # Extract just the letter from the response
+    # Look for first occurrence of A, B, C, or D
+    valid_answers = {'A', 'B', 'C', 'D'}
+    for char in response:
+        if char in valid_answers:
+            return char
+    
     return response.strip()[-1]
 
 
