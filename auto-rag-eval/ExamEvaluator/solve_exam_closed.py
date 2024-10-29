@@ -40,7 +40,7 @@ def generate_answer(model: LlamaModel, question: str, choices: List[str]) -> str
     return response.strip()[-1]
 
 
-def generate_answer_llama(model, question: str, choices: List[str], document: str) -> str:
+def generate_answer_llama(model, question: str, choices: List[str]) -> str:
     # Format choices with letters for clear instruction
     formatted_choices = "\n".join(f"{chr(65+i)}. {choice}" for i, choice in enumerate(choices))
     
@@ -57,9 +57,6 @@ def generate_answer_llama(model, question: str, choices: List[str], document: st
 
     Choices:
     {formatted_choices}
-
-    Document:
-    {document}
 
     Instructions:
     - You must respond with exactly one letter: A, B, C, or D
@@ -141,10 +138,11 @@ def run_closed_book_exam(model_device: str, model_path: str, model_name: str, ta
 
 
 if __name__ == "__main__":
-    model_device = "claude"
+    model_device = "GCP"
+    # model_device = "claude"
     model_path = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF"
-    # model_name = "llama3"
-    model_name = "claude"
+    model_name = "llama3"
+    # model_name = "claude"
     task_name = "SecFilings"
     exam_file = f"Data/{task_name}/ExamData/claude_gcp_2024102118/exam_1000_42.json"
     
