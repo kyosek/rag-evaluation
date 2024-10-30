@@ -179,4 +179,5 @@ if __name__ == "__main__":
     
     for retriever in retrievers:
         print(f"Retriever: {retriever}")
+        torch.cuda.empty_cache()
         run_rag_exam(model_device, model_path, model_name, task_name, exam_file, retriever)
