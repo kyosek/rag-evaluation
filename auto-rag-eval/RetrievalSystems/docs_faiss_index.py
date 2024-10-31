@@ -43,12 +43,12 @@ class FaissIndex:
                 # split="train",
             )
 
-        if os.path.isfile(index_file_name):
-            logger.error(f"Deleting existing Faiss index: {index_file_name}")
-            os.remove(index_file_name)
-        if os.path.isfile(cache_file_name):
-            logger.error(f"Deleting existing Faiss index cache {cache_file_name}")
-            os.remove(cache_file_name)
+        # if os.path.isfile(index_file_name):
+        #     logger.error(f"Deleting existing Faiss index: {index_file_name}")
+        #     os.remove(index_file_name)
+        # if os.path.isfile(cache_file_name):
+        #     logger.error(f"Deleting existing Faiss index cache {cache_file_name}")
+        #     os.remove(cache_file_name)
 
         # TODO: asssert set(self.docs_data_columns.features.keys()) == set(self.docs_data_columns)
 
