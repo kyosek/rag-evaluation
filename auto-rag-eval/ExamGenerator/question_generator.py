@@ -67,12 +67,12 @@ class BatchExamGenerator:
 
         # Split the data into batches
         # batches = [data[i : i + self.batch_size] for i in range(0, len(data), self.batch_size)]
-        batches = [data[i : i + self.batch_size] for i in range(88, len(data), self.batch_size)] # resuming from interrupted process
+        batches = [data[i : i + self.batch_size] for i in range(94, len(data), self.batch_size)] # resuming from interrupted process
 
         start_time = datetime.fromtimestamp(time.time()).strftime("%Y%m%d%H")
 
         for batch_index, batch in enumerate(batches):
-            batch_index += 88  # resuming from interrupted process
+            batch_index += 94  # resuming from interrupted process
 
             logger.error(f"Running batch {batch_index}.")
             if len(self.model_list) > 1:
@@ -131,5 +131,5 @@ if __name__ == "__main__":
     )
 
     raw_exam_generator.batch_generate_exam(
-        data_folder=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main/data_2024100123.json"
+        data_folder=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main/data_2024102123.json"
     )
