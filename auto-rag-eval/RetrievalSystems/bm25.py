@@ -248,7 +248,8 @@ class BM25ContextProvider(ContextProvider):
             try:
                 self.corpus = json.load(f)
             except:
-                self.corpus = read_jsonl(os.path.join(data_folder, filename))
+                for filename in os.listdir(data_folder):
+                    self.corpus = read_jsonl(os.path.join(data_folder, filename))
 
         self.bm25 = bm25algo([self.tokenizer(doc["text"]) for doc in self.corpus])
         self.top_k_results = top_k_results
