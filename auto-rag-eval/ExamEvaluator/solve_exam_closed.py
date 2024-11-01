@@ -141,10 +141,11 @@ if __name__ == "__main__":
     model_device = "GCP"
     # model_device = "claude"
     model_path = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF"
-    model_name = "llama3"
+    model_name = "llama3-70b"
     # model_name = "claude"
-    task_name = "SecFilings"
-    exam_file = f"Data/{task_name}/ExamData/claude_gcp_2024102118/exam_1000_42.json"
+    # task_name = "Arxiv"
+    task_name = "LawStackExchange"
+    exam_file = f"Data/{task_name}/ExamData/claude_gcp_2024102123/exam_1000_42.json"
     
     # Create the full directory path
     directory = f"Data/{task_name}/ExamResults"

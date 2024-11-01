@@ -103,9 +103,13 @@ def generate_answer_llama(model, question: str, choices: List[str], context: str
     for char in response:
         if char in valid_answers:
             return char
-            
+    
+    print(response)
     # If no valid letter found, return the last character as fallback
-    return response.strip()[-1]
+    try:
+        return response.strip()[-1]
+    except:
+        return "A"
 
 
 # Evaluate the model's performance
@@ -160,18 +164,19 @@ def run_rag_exam(model_device, model_path: str, model_name: str, task_name: str,
 
 
 if __name__ == "__main__":
-    # model_device = "GCP"
-    model_device = "claude"
+    model_device = "GCP"
+    # model_device = "claude"
     model_path = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF"
     # model_name = "llamav2"
-    model_name = "claude"
-    # model_name = "llama3_70b"
+    # model_name = "claude"
+    model_name = "llama3_70b"
     task_name = "SecFilings"
     folder_name = "claude_gcp_2024102118"
     # task_name = "Arxiv"
     # folder_name = "claude_gcp_2024100422"
     exam_file = f"Data/{task_name}/ExamData/{folder_name}/exam_1000_42.json"
-    retrievers = ["BM25", "DPR", "SIAMESE", "MultiQA", "DPR:MultiQA:BM25"]
+    # retrievers = ["BM25", "DPR", "SIAMESE", "MultiQA", "DPR:MultiQA:BM25"]
+    retrievers = ["DPR:MultiQA:BM25"]
     
     # Create the full directory path
     directory = f"Data/{task_name}/ExamResults"
