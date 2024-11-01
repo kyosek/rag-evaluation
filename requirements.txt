@@ -19,4 +19,5 @@ transformers
 llama-cpp-python==0.3.1
 accelerate==1.0.1
 huggingface_hub
+chardet==5.2.0
 # bitsandbytes  # This should be installed after setting up CUDA
