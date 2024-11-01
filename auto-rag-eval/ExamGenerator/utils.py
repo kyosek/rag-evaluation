@@ -151,7 +151,7 @@ def flatten_data(data_folder: str) -> list:
     for filename in os.listdir(data_folder):
         if filename.endswith(".json"):
             file_path = os.path.join(data_folder, filename)
-            robust_json_load(file_path)
+            data = robust_json_load(file_path)
             # with open(file_path, 'r') as f:
             #     data = json.load(f)
             # data = read_jsonl(file_path)
