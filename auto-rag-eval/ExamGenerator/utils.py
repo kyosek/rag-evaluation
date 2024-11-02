@@ -1,7 +1,8 @@
 import os
 from collections import Counter
-from typing import List
+from typing import List, Dict, Union, Optional
 
+import chardet
 import json
 import nltk
 import numpy as np
@@ -12,6 +13,90 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 nltk.download("punkt")
 nltk.download("punkt_tab")
+
+
+
+
+def robust_json_load(filepath: str) -> List[Dict]:
+    """
+    Robustly load JSON files with multiple fallback mechanisms
+    
+    Args:
+        filepath (str): Path to the JSON file
+    
+    Returns:
+        List[Dict]: Parsed JSON data
+    """
+    def detect_encoding(filepath):
+        """Detect file encoding"""
+        with open(filepath, 'rb') as file:
+            result = chardet.detect(file.read())
+        return result['encoding']
+    
+    def read_file_with_encoding(filepath, encoding):
+        """Read file with specified encoding"""
+        with open(filepath, 'r', encoding=encoding) as f:
+            content = f.read().strip()
+        return content
+    
+    def parse_json_with_fallbacks(content):
+        """Try multiple JSON parsing strategies"""
+        parse_attempts = [
+            # Standard JSON parsing
+            lambda: json.loads(content),
+            
+            # Remove potential BOM (Byte Order Mark)
+            lambda: json.loads(content.lstrip('\ufeff')),
+            
+            # Try to fix common JSON formatting issues
+            lambda: json.loads(content.replace('\n', '').replace('\r', '')),
+            
+            # Try to parse lines individually
+            lambda: [json.loads(line.strip()) for line in content.split('\n') if line.strip()]
+        ]
+        
+        for attempt in parse_attempts:
+            try:
+                result = attempt()
+                # Ensure result is a list
+                return result if isinstance(result, list) else [result]
+            except (json.JSONDecodeError, TypeError):
+                continue
+        
+        # If all attempts fail
+        raise ValueError(f"Unable to parse JSON from file: {filepath}")
+    
+    try:
+        # First, try standard JSON loading
+        with open(filepath, 'r') as f:
+            return json.load(f)
+    
+    except (json.JSONDecodeError, UnicodeDecodeError) as e:
+        print(f"Initial JSON loading failed: {e}")
+        
+        # Try detecting encoding
+        try:
+            detected_encoding = detect_encoding(filepath)
+            print(f"Detected encoding: {detected_encoding}")
+            
+            # Read with detected encoding
+            content = read_file_with_encoding(filepath, detected_encoding)
+            
+            # Parse with multiple fallback strategies
+            return parse_json_with_fallbacks(content)
+        
+        except Exception as encoding_error:
+            print(f"Encoding-based loading failed: {encoding_error}")
+            
+            # Last resort: read raw content and attempt parsing
+            try:
+                with open(filepath, 'rb') as f:
+                    raw_content = f.read().decode('utf-8', errors='ignore')
+                return parse_json_with_fallbacks(raw_content)
+            
+            except Exception as final_error:
+                print(f"Final JSON loading attempt failed: {final_error}")
+                raise ValueError(f"Absolutely unable to load JSON from {filepath}")
 
 
 def read_jsonl(file_path: str):
@@ -29,14 +114,47 @@ def read_jsonl(file_path: str):
     return flattened_data
 
 
+
 def flatten_data(data_folder: str) -> list:
+    """
+    Flatten JSON data with robust handling of different field types
+    """
+    # all_data = []
+    # for filename in os.listdir(data_folder):
+    #     if filename.endswith('.json'):
+    #         with open(os.path.join(data_folder, filename), 'r') as f:
+    #             json_data = json.load(f)
+                
+    #             for key, item in json_data.items():
+    #                 # Normalize section to a string
+    #                 section = item['documentation'].get('section', 'N/A')
+    #                 if isinstance(section, list):
+    #                     section = ', '.join(section)
+                    
+    #                 # Create a flattened entry
+    #                 entry = {
+    #                     'source': item['documentation'].get('source', 'N/A'),
+    #                     'docs_id': item['documentation'].get('docs_id', 'N/A'),
+    #                     'title': item['documentation'].get('title', 'N/A'),
+    #                     'section': section,
+    #                     'start_character': item['documentation'].get('start_character', 'N/A'),
+    #                     'end_character': item['documentation'].get('end_character', 'N/A'),
+    #                     'text': item['documentation'].get('text', ''),
+    #                     'date': item['documentation'].get('date', 'N/A'),
+    #                     'answer': item.get('answer', '')
+    #                 }
+    #                 all_data.append(entry)
+    
+    # return all_data
     all_data = []
 
     for filename in os.listdir(data_folder):
         if filename.endswith(".json"):
             file_path = os.path.join(data_folder, filename)
+            data = robust_json_load(file_path)
             # with open(file_path, 'r') as f:
-            data = read_jsonl(file_path)
+            #     data = json.load(f)
+            # data = read_jsonl(file_path)
 
             for item in data:
                 all_data.append(

@@ -5,7 +5,7 @@ datasets==2.14.5
 markdownify==0.13.1
 matplotlib
 nltk==3.9.1
-numpy
+numpy<2.0
 protobuf==5.28.2
 pydantic==2.9.2
 scikit_learn
@@ -16,5 +16,8 @@ tenacity==9.0.0
 torch==2.2.1
 tqdm==4.66.5
 transformers
-llama-cpp-python
-google-cloud-aiplatform
+llama-cpp-python==0.3.1
+accelerate==1.0.1
+huggingface_hub
+chardet==5.2.0
+# bitsandbytes  # This should be installed after setting up CUDA
