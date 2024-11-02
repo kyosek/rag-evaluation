@@ -88,13 +88,52 @@ class LlamaExamGenerator(LLMExamGenerator):
             " 1 correct answer and explanations. Syntax should be Question: {question}\nA){candidate A}\n"
             "B){candidate B}\nC){candidate C}\nD){candidate D} Correct Answer: {correct answer}\n\nAssistant:"
         )
+        
+    def make_l3_question_prompt(self, documentation: str) -> str:
+        return (
+            f"""\n\n
+            <<SYS>>
+            You are an AI assistant to generate a difficult multiple choice question that are
+            necessitate external data to furnish rationales for its resolution.
+            The question demands not only a grasp of the factual content but also 
+            the ability to comprehend and apply domain-specific rationales that are
+            integral to the data’s context.
+            Your task is:
+                1. Read and comprehend the given document in a specific domain
+                2. Come up with a question that is described the above
+                3. Generate a multiple-choice question with 4 candidates: 1 correct answer
+                4. Follow the output instructions 
+            <</SYS>>
+            
+            Here is a documentation from domain: {self.task_domain}:\n
+            Document: {documentation}\n
+
+            Output instructions:
+                - It must have 4 candidates
+                - 1 correct answer 
+                - The output must be:
+                    Question: {question}\n
+                    A) candidate A\n
+                    B) candidate B\n
+                    C) candidate C\n
+                    D) candidate D\n
+                    Correct Answer: correct answer
+
+            Example of questions:
+                - How should a patient with chest pain and specific symptom descriptions be diagnosed and treated *(given a chest pain management guideline)
+                - How to respond to a user’s question in a real-life scenario? *(given a customer service workflow)
+
+            Your answer:
+            """
+        )
 
     def generate_exam(self, data: List[Dict[str, str]]) -> Dict[int, Dict[str, str]]:
 
         generated_questions = {}
         for k in tqdm(range(0, len(data), self.step_size)):
             answer = self.llm_model.invoke(
-                prompt=self.make_question_prompt(data[k]["text"]),
+                # prompt=self.make_question_prompt(data[k]["text"]),
+                prompt=self.make_l3_question_prompt(data[k]["text"]),
                 # params={}
             )
             generated_questions[k] = {"documentation": data[k], "answer": answer}
