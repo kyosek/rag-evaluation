@@ -61,9 +61,9 @@
   },
   {
     "question": "In the context of two-pulse solutions in the fifth-order Korteweg--de Vries (KdV) equation, which of the following statements is correct regarding the stability analysis and numerical approximations?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of a critically-loaded multiclass queueing control problem with model uncertainty, which of the following statements is correct regarding the generalized c\u03bc rule?",
@@ -319,9 +319,9 @@
   },
   {
     "question": "In the online multiobjective minimax optimization framework described, which of the following statements is NOT true?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of bounded-rational pursuit-evasion games, which of the following statements is NOT true?",
@@ -523,9 +523,9 @@
   },
   {
     "question": "In the context of resolving the zero-entropy singularity of the U(1) x U(1) invariant black ring, which of the following statements is NOT correct regarding the resulting geometries?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The compositeness (X) of the $Z_b(10610)$ and $Z_b(10650)$ states was calculated using the expression $X=1/\\sqrt{2r/a-1}$, where 'r' is the effective range and 'a' is the scattering length. Given that the calculated compositeness values are $X=0.66\\pm 0.11$ for $Z_b(10610)$ and $X=0.51\\pm 0.10$ for $Z_b(10650)$, which of the following statements is most accurate?",
@@ -577,7 +577,7 @@
   },
   {
     "question": "Which of the following statements about Geometric Mean Market Makers (G3M) and Impermanent Loss is most accurate?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -595,7 +595,7 @@
   },
   {
     "question": "Consider a Veech surface X \u2208 H(2) with discriminant D. Which of the following statements is correct regarding the permutation group G(X) induced by the affine group of X on the set of Weierstrass points of X?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -631,9 +631,9 @@
   },
   {
     "question": "In the NiFe/VO2 heterostructure, which of the following statements is NOT true regarding the optical control of magnetism?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of heavy ion collisions at RHIC, which of the following statements about charm quarks and their role in studying Quark-Gluon Plasma (QGP) is most accurate?",
@@ -739,9 +739,9 @@
   },
   {
     "question": "In the RDWIA analysis of 12C(e,e'p) for Q^2 < 2 (GeV/c)^2, what phenomenon is responsible for the discrepancy between the extracted 1p normalization and the Independent Particle Shell Model (IPSM) prediction, and how does this relate to the transparency calculations?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the dynamic principal-agent model described, which of the following best explains how a far-sighted employer might maximize long-term profits when dealing with a gig worker whose wage demands are based on previously realized wages?",
@@ -781,9 +781,9 @@
   },
   {
     "question": "Based on the observational data and analysis of ACT J2029+0120, which of the following statements is most likely true?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of superradiant phase transitions in light-matter systems, which of the following statements is most accurate regarding the nature of these transitions and their behavior in the presence of photon losses?",
@@ -811,9 +811,9 @@
   },
   {
     "question": "In a binary causal-adversary channel with adversarial jamming probability p, what is the maximum achievable rate of information transmission as p approaches 0.2?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of the proposed adaptive randomization procedure for two-stage randomized controlled trials, what is the primary purpose of using data from the first-wave experiment?",
@@ -829,9 +829,9 @@
   },
   {
     "question": "In the context of singular semi-Riemannian manifolds, which of the following statements is true regarding the development of geometric constructions for degenerate metrics?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of Compressive Sensing (CS) and manifold-based models, which of the following statements is most accurate regarding the established bounds for signal recovery and parameter estimation from noisy compressive measurements?",
@@ -901,9 +901,9 @@
   },
   {
     "question": "In the described method for sorting animals according to socially relevant traits, which of the following statements is most accurate regarding the experimental process and its outcomes?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Which of the following statements accurately describes the improvements made in Version 9 of the CHIANTI atomic database, specifically regarding X-ray satellite lines?",
@@ -919,9 +919,9 @@
   },
   {
     "question": "In the information-theoretic framework described for identifying age-related genes, which of the following sequences best represents the methodology used?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Based on the analysis of the 11-year data set from Tlaxcala, Mexico, which of the following conclusions best supports Lorenz's conjecture about the climate system?",
@@ -1093,9 +1093,9 @@
   },
   {
     "question": "Which of the following statements about centennialite CaCu\u2083(OH)\u2086Cl\u2082\u00b70.6H\u2082O is NOT correct?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In laboratory simulations of astrophysical ice mixtures, which of the following statements is true regarding the infrared band strengths of H2O, CO, and CO2?",
@@ -1513,9 +1513,9 @@
   },
   {
     "question": "In the context of the L2PSync approach for predicting synchronization in coupled oscillator systems, which of the following statements is most accurate?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of MAP detectors for optimal input detection in networks, which of the following statements is most accurate regarding the asymptotic measurement regime with jointly Gaussian input and measurement noise?",
@@ -1585,9 +1585,9 @@
   },
   {
     "question": "Which of the following statements best describes the key advantage of the proposed time discretization method for integrable lattice systems compared to the Ablowitz and Ladik approach?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the Go-type models of protein folding described, which of the following statements is NOT correct regarding the comparison between models with and without steric constraints?",
@@ -1849,9 +1849,9 @@
   },
   {
     "question": "In the context of mass segregation in galactic centers, which of the following statements is correct regarding the formation of a stellar cusp around a massive black hole (MBH)?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Neural Descriptor Fields (NDFs) are used for object manipulation tasks. Which of the following statements best describes a key advantage of NDFs over traditional object representation methods?",
@@ -1885,9 +1885,9 @@
   },
   {
     "question": "In the proposed Adaptive Dynamic Programming (ADP) approach for controlling Permanent Magnet Synchronous Motors (PMSMs), which of the following combinations best describes the roles of the two neural networks used and the training method employed?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A CP-even axion-like particle (ALP) with mass m_a \u2272 MeV is proposed as a dark matter candidate. Which combination of the following methods would be most comprehensive for probing this dark matter candidate?",
@@ -1903,9 +1903,9 @@
   },
   {
     "question": "In the extended XYZ model described, which of the following statements is NOT true regarding the boundaries between different phases?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Consider a random Gaussian linear combination of eigenfunctions of the Laplace-Beltrami operator on a compact Riemannian manifold (M,g). When the random coefficients are independent Gaussians with standard deviations obeying polynomial asymptotics and means obeying a corresponding polynomial upper bound, what can be said about the resultant random H^s-wavefront set?",
@@ -1927,9 +1927,9 @@
   },
   {
     "question": "In the CEBAF 89-009 experiment on inclusive electron scattering from nuclei, which of the following statements is correct regarding the scaling analysis and final state interactions (FSI)?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Which of the following statements best describes the primary innovation and advantage of the Adaptive Scheduling (AdaS) algorithm for Stochastic Gradient Descent (SGD) optimization?",
@@ -2179,9 +2179,9 @@
   },
   {
     "question": "An optomechanical inertial sensor utilizing a slot photonic crystal cavity is described. Which of the following statements best explains the key advantage of this sensor's oscillation-mode operation compared to pre-oscillation mode detection?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Which of the following statements accurately reflects the findings of the comparison between BISC and ESL architectures for neural network acceleration using stochastic computing?",
@@ -2221,9 +2221,9 @@
   },
   {
     "question": "In an experiment studying fast-neutron induced background in LaBr3:Ce detectors, which of the following combinations of equipment and techniques was NOT mentioned as being used?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of single-timescale actor-critic algorithms with function approximation, which of the following statements is correct regarding the convergence to a globally optimal policy?",
@@ -2263,9 +2263,9 @@
   },
   {
     "question": "In the context of the pionless Effective Field Theory (EFT(\u03c0\u0338)) calculation for three-nucleon systems, which of the following statements is correct?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of the Riemannian low-rank method for optimization over semidefinite matrices with block-diagonal constraints, which of the following statements is correct?",
@@ -2503,9 +2503,9 @@
   },
   {
     "question": "In the context of the constriction percolation model for coupled diffusion-reaction corrosion of zirconium in PWR, which of the following statements is most accurate regarding the model's approach and its significance?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Based on the MAXIMA-1 and BOOMERANG-98 measurements of the cosmic microwave background anisotropy power spectrum, which of the following statements most accurately reflects the findings of the Bayesian likelihood analysis regarding quintessence models?",
@@ -2527,9 +2527,9 @@
   },
   {
     "question": "Which of the following statements accurately describes the relationship between accretion flow density and the spectral state of a black hole accretion system, according to the unified model proposed by the radiation-magnetohydrodynamic simulations?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Based on the modeling of the radio pulsar population in the Small Magellanic Cloud (SMC), which of the following factors has the LEAST impact on the number of synthesized and recovered pulsars?",
@@ -2641,9 +2641,9 @@
   },
   {
     "question": "An ARIMA(0,1,6) model was used to forecast India's military expenditure. What does this model imply about the nature of the forecast, and what is the predicted growth rate by 2024?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "According to the passage, which of the following statements best describes the relationship between behavioral finance and rational dynamic asset pricing theory in the context of option pricing models with heterogeneous views on instantaneous mean return?",
@@ -2701,9 +2701,9 @@
   },
   {
     "question": "Consider a group code C and its dual C^\u22a5. Which of the following statements is NOT true regarding the relationship between C and C^\u22a5?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Which of the following statements about the physics prospects of polarized proton-electron collisions at HERA is NOT correct?",
@@ -2791,9 +2791,9 @@
   },
   {
     "question": "Which of the following statements best describes the difference in statistical behavior between astrometric and radial-velocity planet detections when the ratio of orbital period (P) to experiment duration (T) is greater than or approximately equal to 1?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of scalar-Gauss-Bonnet gravity, which of the following statements is correct regarding the dynamical formation of scalarized black holes and neutron stars through stellar core collapse?",
@@ -2845,9 +2845,9 @@
   },
   {
     "question": "In the two-photon exchange (TPE) correction to elastic electron-proton scattering, which of the following statements is true regarding the contributions from hadronic resonant intermediate states at higher Q^2 values (Q^2 \u2273 2 GeV^2)?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Based on the analysis of atmospheric neutrino data, which of the following statements is most accurate regarding the comparison between \u03bd\u03bc \u2192 \u03bd\u03c4 and \u03bd\u03bc \u2192 \u03bds oscillation solutions?",
@@ -3031,9 +3031,9 @@
   },
   {
     "question": "In the context of color-dots identification and spatial pattern analysis, which of the following statements is NOT accurate according to the described methodology?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A quant is using a variational autoencoder (VAE) to estimate missing points on a partially observed volatility surface. Which of the following statements is NOT a correct application or benefit of this approach?",
@@ -3115,9 +3115,9 @@
   },
   {
     "question": "Which of the following statements best describes the principle of Defect Level Switching (DLS) and its potential impact on electronic device design?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Which of the following statements best describes the findings related to J/\u03c8 production in Pb-Pb collisions at \u221as_NN = 2.76 TeV, as measured by ALICE?",
@@ -3175,9 +3175,9 @@
   },
   {
     "question": "In the search for heavy resonances decaying into Z boson pairs, which of the following statements is NOT correct regarding the ATLAS experiment at the LHC?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Based on the Bayesian analysis of GW170817 data, which of the following statements is NOT correct regarding the constraints on neutron star properties and nuclear symmetry energy?",
@@ -3265,9 +3265,9 @@
   },
   {
     "question": "Consider a random G_\u03b4 set S defined as S = \u2229_m \u222a_{k\u2265m} I_k, where each I_k is an interval in [0,1] with length l_k that decreases to 0. The intervals are placed randomly in [0,1] according to a given distribution, and their lengths decay exponentially. Which of the following statements is correct regarding the logarithmic capacity of S?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of integrable spin chains, which of the following statements accurately describes the relationship between integrable initial/final states and the derived overlap formulas?",
@@ -3643,7 +3643,7 @@
   },
   {
     "question": "In the numerical simulations of globular cluster formation described, which combination of initial conditions most likely results in the formation of a dense star cluster as massive as a globular cluster?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false
   },
@@ -3727,9 +3727,9 @@
   },
   {
     "question": "Consider the sum $\\Sigma_q(U)=\\sum_{\\substack{d,e\\leq U\\\\(de,q)=1}}\\frac{\\mu(d)\\mu(e)}{[d,e]}\\log\\left(\\frac{U}{d}\\right)\\log\\left(\\frac{U}{e}\\right)$, where $U>1$ and $q$ is a positive integer. Which of the following statements is correct regarding the asymptotic behavior of this sum?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following statements best represents the key argument made by prominent papers in response to the economic crisis, as mentioned in the given text?",
@@ -3739,9 +3739,9 @@
   },
   {
     "question": "Which of the following combinations of factors is most crucial for accurately modeling the linear polarization signals produced by scattering processes in strong resonance lines of the solar chromosphere and transition region?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of high-dimensional factor models with group-specific heterogeneity, which of the following statements is NOT correct?",
@@ -4189,9 +4189,9 @@
   },
   {
     "question": "Which of the following statements best describes the relationship between pure-exploitative and pure-explorative criteria in Active Position Estimation (APE) control laws?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Which of the following statements best describes the approach and findings of the contextual risk model in relation to the Ellsberg paradox?",
@@ -4237,9 +4237,9 @@
   },
   {
     "question": "Which of the following statements about GL(2) geometry and dispersionless integrable hierarchies is NOT correct?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of full-sky CMB experiments like WMAP and Planck, what is the primary advantage of using the proposed morphological separation approach for point-source removal compared to the standard local chi\u00b2 minimization method?",
@@ -4603,15 +4603,15 @@
   },
   {
     "question": "In the context of functional target controllability of networks, which of the following statements is NOT correct?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A researcher is designing a free-space quantum communication system using a multi-mode time-delay interferometer. Which combination of features would be most beneficial for this interferometer's performance in atmospheric conditions?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the holographic p-wave superconductor model described, what phenomenon is observed regarding the $p_x+ip_y$ and $p_x-ip_y$ components of the superconducting order parameter in an isolated vortex solution, and what does this imply about the system's symmetry?",
@@ -4903,9 +4903,9 @@
   },
   {
     "question": "Based on the Coulomb and proximity potential model for deformed nuclei (CPPMDN), which of the following statements about the alpha decay chains of isotopes of element 113 is correct?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In high-Rayleigh-number and high-Prandtl-number Rayleigh-B\u00e9nard convection, what characterizes the boundary layers at the horizontal container plates, and how does this affect the average temperature profile in these layers?",
@@ -4927,7 +4927,7 @@
   },
   {
     "question": "Consider a network coding scenario where increasing or decreasing the message dimension by 1 can result in vector linear solutions over an arbitrarily larger set of characteristics. Which of the following statements is NOT a correct conclusion that can be drawn from this information?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false
   },
@@ -5041,9 +5041,9 @@
   },
   {
     "question": "In the context of coarse-graining the dynamics of heterogeneous oscillators in networks with spectral gaps, which of the following statements is most accurate regarding the choice of coarse variables and the equation-free framework?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Which of the following statements best describes the proposed new strategy for detecting planets through microlensing, as outlined in the document?",
@@ -5137,9 +5137,9 @@
   },
   {
     "question": "The formation of birdsong dialects is compared to which physical process, and what critical factor determines the formation of single dialect domains in the model described?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of D=4 BPS state construction and counting, which of the following statements best describes the relationship between the Coulomb phase and Higgs phase approaches in quiver quantum mechanics, according to the conjectures proposed in arXiv:1205.6511?",
@@ -5173,9 +5173,9 @@
   },
   {
     "question": "In the search for technicolor particles at CDF, which of the following statements is NOT correct regarding the experimental setup and results?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Based on the observations and modeling of the ultra-compact HII region G35.20-1.74, which of the following statements is most likely true regarding the physical properties and kinematics of the region?",
@@ -5251,9 +5251,9 @@
   },
   {
     "question": "According to the passage, which of the following best describes the relationship between the placement of the head in a syntactic dependency and online memory cost?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of two-flavor dense QCD, what are the key characteristics of non-Abelian Alice strings and their relationship to the 2SC condensates?",
@@ -5281,9 +5281,9 @@
   },
   {
     "question": "In the Pomeranzian growth model of the Great Divergence, which of the following best describes the mechanism that initiates the transition from a Malthusian to a non-Malthusian state?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Which of the following statements best describes the significance and challenges of quantifying neuronal correlations using mutual information rate in calcium spike trains?",
@@ -5305,9 +5305,9 @@
   },
   {
     "question": "Consider a non-empty simple graph G with n vertices, matching number \u03b1', and Laplacian eigenvalues \u03bc\u2081 \u2264 \u03bc\u2082 \u2264 ... \u2264 \u03bc\u2099. Which of the following statements is true?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "TANTRA, a novel network intrusion evasion technique, primarily focuses on manipulating which aspect of attack traffic to bypass Network Intrusion Detection Systems (NIDSs)?",
@@ -5341,7 +5341,7 @@
   },
   {
     "question": "A novel quadruple junction solar cell achieves 47.2082% efficiency under AM1.5 conditions. Which combination of factors does NOT contribute to this high efficiency?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false
   },
