@@ -18,6 +18,7 @@ class SiameseContextProvider(ContextProvider):
         index_folder := f"{ROOTPATH}/Data/DevOps/RetrievalIndex"
         data_folder := f"{ROOTPATH}/Data/DevOps/KnowledgeCorpus/main"
         """
+        print("SiameseContextProvider")
         self.device = get_device()
         self.model = DPRQuestionEncoder.from_pretrained(
             "vblagoje/dpr-question_encoder-single-lfqa-base"
@@ -37,6 +38,7 @@ class SiameseContextProvider(ContextProvider):
                                      )
 
         except:
+            print("Using flattened data")
             all_data = flatten_data(data_folder)
 
             self.docs_data = Dataset.from_list(
