@@ -3,6 +3,7 @@ lm-evaluation-harness/
 auto-rag-eval/Data/StackExchange/ExamData/claude_gcp_2024103016/exam.json
 auto-rag-eval/Data/Arxiv/ExamData/claude_gcp_2024103108/exam.json
 auto-rag-eval/Data/LawStackExchange/ExamData/claude_gcp_2024103117/exam.json
+auto-rag-eval/Data/SecFilings/ExamData/claude_gcp_2024103117/exam.json
 
 *.out
 
