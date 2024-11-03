@@ -130,7 +130,7 @@ def run_closed_book_exam(model_device: str, model_path: str, model_name: str, ta
             }
         )
 
-    with open(f"Data/{task_name}/ExamResults/exam_results_{model_name}_{task_name}.json", "w") as f:
+    with open(f"Data/{task_name}/ExamResults/l3_exam_results_{model_name}_{task_name}.json", "w") as f:
         json.dump(output, f, indent=2)
 
     print(f"Exam completed. Accuracy: {accuracy:.2%}")
@@ -144,8 +144,9 @@ if __name__ == "__main__":
     model_name = "llama3-70b"
     # model_name = "claude"
     # task_name = "Arxiv"
-    task_name = "LawStackExchange"
-    exam_file = f"Data/{task_name}/ExamData/claude_gcp_2024102123/exam_1000_42.json"
+    # task_name = "LawStackExchange"
+    task_name = "StackExchange"
+    exam_file = f"Data/{task_name}/ExamData/claude_gcp_2024103016/exam_1000_42.json"
     
     # Create the full directory path
     directory = f"Data/{task_name}/ExamResults"
