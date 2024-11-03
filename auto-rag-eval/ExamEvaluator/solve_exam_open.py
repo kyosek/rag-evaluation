@@ -94,7 +94,10 @@ def generate_answer_llama(model, question: str, choices: List[str], document: st
             return char
             
     # If no valid letter found, return the last character as fallback
-    return response.strip()[-1]
+    try:
+        return response.strip()[-1]
+    except:
+        return "A"
 
 
 # Evaluate the model's performance
