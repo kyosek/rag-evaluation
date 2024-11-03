@@ -156,7 +156,7 @@ def run_rag_exam(model_device, model_path: str, model_name: str, task_name: str,
             }
         )
 
-    with open(f"Data/{task_name}/ExamResults/rag_exam_results_{model_name}_{retriever}.json", "w") as f:
+    with open(f"Data/{task_name}/ExamResults/l3_rag_exam_results_{model_name}_{retriever}.json", "w") as f:
         json.dump(output, f, indent=2)
 
     print(f"Exam completed. Accuracy: {accuracy:.2%}")
@@ -164,19 +164,24 @@ def run_rag_exam(model_device, model_path: str, model_name: str, task_name: str,
 
 
 if __name__ == "__main__":
-    model_device = "GCP"
-    # model_device = "claude"
+    # model_device = "GCP"
+    model_device = "claude"
     model_path = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF"
     # model_name = "llamav2"
-    # model_name = "claude"
-    model_name = "llama3_70b"
+    model_name = "claude"
+    # model_name = "llama3_70b"
+    # task_name = "StackExchange"
+    # folder_name = "claude_gcp_2024103016"
     task_name = "SecFilings"
-    folder_name = "claude_gcp_2024102118"
+    # folder_name = "claude_gcp_2024102118"
     # task_name = "Arxiv"
     # folder_name = "claude_gcp_2024100422"
+    # folder_name = "claude_gcp_2024103108"
+    # task_name = "LawStackExchange"
+    folder_name = "claude_gcp_2024103117"
     exam_file = f"Data/{task_name}/ExamData/{folder_name}/exam_1000_42.json"
-    # retrievers = ["BM25", "DPR", "SIAMESE", "MultiQA", "DPR:MultiQA:BM25"]
-    retrievers = ["DPR:MultiQA:BM25"]
+    retrievers = ["BM25", "DPR", "SIAMESE", "MultiQA", "DPR:MultiQA:BM25"]
+    # retrievers = ["DPR:MultiQA:BM25"]
     
     # Create the full directory path
     directory = f"Data/{task_name}/ExamResults"
