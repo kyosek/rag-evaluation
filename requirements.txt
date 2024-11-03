@@ -1,6 +1,5 @@
 anthropic==0.34.2
-boto3==1.35.33
-botocore==1.35.33
+bs4==0.0.2
 datasets==2.14.5
 markdownify==0.13.1
 matplotlib
@@ -20,4 +19,5 @@ llama-cpp-python==0.3.1
 accelerate==1.0.1
 huggingface_hub
 chardet==5.2.0
-# bitsandbytes  # This should be installed after setting up CUDA
+PyPDF2==3.0.1
+# bitsandbytes  # This should be installed only after setting up CUDA
