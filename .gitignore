@@ -1,5 +1,8 @@
 lm-evaluation-harness/
 
+auto-rag-eval/Data/StackExchange/ExamData/claude_gcp_2024103016/exam.json
+auto-rag-eval/Data/Arxiv/ExamData/claude_gcp_2024103108/exam.json
+
 *.out
 
 # Byte-compiled / optimized / DLL files
