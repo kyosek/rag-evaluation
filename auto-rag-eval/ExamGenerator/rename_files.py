@@ -37,9 +37,9 @@ def rename_files(directory_path, old_date='20241001', new_date='20241030'):
 # Example usage
 if __name__ == "__main__":
     # Replace with your directory path
-    directory = "Data/Arxiv/RawExamData"
+    directory = "Data/SecFilings/RawExamData"
     old_date = "2024103016"
-    new_date = "2024103108"
+    new_date = "2024103117"
     
     try:
         rename_files(directory, old_date, new_date)
