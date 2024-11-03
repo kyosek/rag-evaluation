@@ -39,7 +39,7 @@ def sample_json_entries(input_file, output_file, sample_size=1000, random_seed=4
 if __name__ == "__main__":
     sample_size = 1000
     seed = 42
-    input_file = "Data/StackExchange/ExamData/claude_gcp_2024103016/exam.json"
-    output_file = f"Data/StackExchange/ExamData/claude_gcp_2024103016/exam_{sample_size}_{seed}.json"
+    input_file = "Data/Arxiv/ExamData/claude_gcp_2024103108/exam.json"
+    output_file = f"Data/Arxiv/ExamData/claude_gcp_2024103108/exam_{sample_size}_{seed}.json"
     sample_json_entries(input_file, output_file)
     
