@@ -82,7 +82,10 @@ def generate_answer_llama(model, question: str, choices: List[str]) -> str:
             return char
             
     # If no valid letter found, return the last character as fallback
-    return response.strip()[-1]
+    try:
+        return response.strip()[-1]
+    except:
+        return "A"
 
 
 # Evaluate the model's performance
@@ -138,14 +141,14 @@ def run_closed_book_exam(model_device: str, model_path: str, model_name: str, ta
 
 
 if __name__ == "__main__":
-    # model_device = "GCP"
-    model_device = "claude"
+    model_device = "GCP"
+    # model_device = "claude"
     model_path = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF"
-    # model_name = "llama3-70b"
-    model_name = "claude"
+    model_name = "llama3-70b"
+    # model_name = "claude"
     # task_name = "Arxiv"
-    task_name = "SecFilings"
-    # task_name = "LawStackExchange"
+    # task_name = "SecFilings"
+    task_name = "LawStackExchange"
     # task_name = "StackExchange"
     exam_file = f"Data/{task_name}/ExamData/claude_gcp_2024103117/exam_1000_42.json"
     
