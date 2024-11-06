@@ -87,6 +87,7 @@ class BatchExamGenerator:
                 generated_questions = {
                     model: self.model_map[model].generate_exam(batch) for model in self.model_list
                 }
+                time.sleep(0.1)
 
             # Write the dictionary to a JSON file
             for model in generated_questions.keys():
