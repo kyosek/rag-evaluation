@@ -18,7 +18,7 @@ def delayed_text_generator(text: str, delay: float = 0.2):
         yield " ".join(tokens[:i])
 
 
-class Claude_GCP(BaseLLM):
+class ClaudeGcp(BaseLLM):
 
     def __init__(self):
         self.client = AnthropicVertex(project_id="rag-evaluation-437417", region="europe-west1")

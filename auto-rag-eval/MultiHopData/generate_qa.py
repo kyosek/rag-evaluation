@@ -7,6 +7,10 @@ from typing import List, Dict, Tuple, Optional
 from sentence_transformers import SentenceTransformer
 from dataclasses import dataclass
 import pickle
+from tqdm import tqdm
+
+# from LLMServer.base_model import BaseLLM
+from LLMServer.gcp.claude_instant import ClaudeGcp
 
 @dataclass
 class Chunk:
@@ -14,6 +18,7 @@ class Chunk:
     doc_id: str
     content: str
     original_index: int
+
 
 class ChunkRetriever:
     def __init__(self, model_name: str = 'all-MiniLM-L6-v2', random_seed: Optional[int] = None):
@@ -94,8 +99,8 @@ class ChunkRetriever:
     def find_similar_chunks(
         self, 
         query_chunk: Chunk, 
-        k: int = 5, 
-        similarity_threshold: float = 0.8,
+        k: int = 4, 
+        similarity_threshold: float = 0.9,
         exclude_same_doc: bool = True
     ) -> List[Tuple[Chunk, float]]:
         """
@@ -180,44 +185,135 @@ class ChunkRetriever:
         
         return instance
 
-def main(data_path: str, sample_size: int = 1000):
-    # Initialize the retriever with a fixed seed
+
+def generate_exam(data: List[Dict[str, str]], step_size: int, task_domain: str, retriever: ChunkRetriever, llm_model) -> List[Dict[str, str]]:
+    """
+    Generate an exam with multiple-choice questions from the given data.
+    
+    Args:
+        data: List of dictionaries containing the documentation for each chunk
+        step_size: Number of chunks to process at a time
+        task_domain: Domain of the documentation
+        llm_model: Language model to use for generating questions
+        
+    Returns:
+        List of dictionaries representing the generated exam questions
+    """
+    exam = []
+    
+    for k in tqdm(range(0, len(data), step_size)):
+        # Get the current chunk and its similar chunks
+        current_chunk = data[k]
+        similar_chunks = retriever.find_similar_chunks(
+            Chunk(
+                chunk_id=current_chunk["chunk_id"],
+                doc_id=current_chunk["doc_id"],
+                content=current_chunk["text"],
+                original_index=k
+            ),
+            k=4,
+            similarity_threshold=0.9,
+            exclude_same_doc=True
+        )
+        similar_chunk_data = [{"chunk_id": c.chunk_id, "doc_id": c.doc_id, "text": c.content} for c, _ in similar_chunks]
+        
+        # Generate a high-level (L3) question
+        question_prompt = make_l3_question_prompt(task_domain, similar_chunk_data)
+        answer = llm_model.invoke(prompt=question_prompt, params={})
+        
+        # Extract question, choices, correct answer, and explanation
+        question = answer.split("\nQuestion: ")[1].split("\nA)")[0]
+        choices = answer.split("\nA)")[1].split("\nB)")[1].split("\nC)")[1].split("\nD)")[1].split("\nCorrect Answer:")[0].split("\n")
+        correct_answer = answer.split("\nCorrect Answer: ")[1].split("\nExplanation:")[0]
+        explanation = answer.split("\nExplanation: ")[1]
+        
+        # Construct the exam entry
+        exam_entry = {
+            "question": question,
+            "documentation": [chunk["text"] for chunk in similar_chunk_data],
+            "choices": [choice.strip() for choice in choices],
+            "correct_answer": f"{correct_answer}) {explanation}"
+        }
+        
+        exam.append(exam_entry)
+    
+    return exam
+
+
+def make_l3_question_prompt(task_domain: str, chunks: List[Dict[str, str]]) -> str:
+    documentation = "\n\n".join([chunk["text"] for chunk in chunks])
+    return f"""
+    <<SYS>>
+    You are an expert exam question and answer generator specializing in creating high-quality, challenging multiple-choice questions. 
+    Your questions should:
+    1. Target L3 (Analysis/Application) or higher cognitive levels in Bloom's taxonomy
+    2. Require integration of multiple concepts from the documentation
+    3. Test critical thinking rather than memorization
+    4. Have carefully crafted distractors that represent common misconceptions
+    5. Use all the provided information from the document to generate a question
+
+    Guidelines for creating options:
+    - All options should be of similar length and complexity
+    - Avoid obvious wrong answers
+    - Use common misconceptions as distractors
+    - Ensure options are mutually exclusive
+    - Avoid "all/none of the above" options
+    <</SYS>>
+
+    Domain: {task_domain}
+    Documentation: {documentation}
+
+    Example questions based on different domains:
+
+    Technical Documentation Example:
+    Question: A microservice is experiencing intermittent failures during peak load. Given the following error logs and system metrics, what is the most likely root cause?
+    A) Network timeout due to connection pool exhaustion
+    B) Memory leak in the application container
+    C) Database connection throttling
+    D) CPU throttling by the container orchestrator
+    Correct Answer: A
+    Explanation: The logs show increasing connection wait times...
+
+    Medical Guidelines Example:
+    Question: A 45-year-old patient presents with acute chest pain (7/10), radiating to the left arm, with associated shortness of breath. The ECG shows ST-segment elevation in leads V1-V4. Based on the current guidelines, what is the most appropriate immediate management?
+    A) Administer aspirin and arrange urgent PCI
+    B) Start thrombolysis and transfer to nearest cardiac center
+    C) Perform bedside echocardiogram before any intervention
+    D) Administer morphine and arrange CT coronary angiogram
+    Correct Answer: A
+    Explanation: Given the STEMI presentation...
+
+    Please generate a question following this format:
+    Question: [Question text]
+    A) [Option A]
+    B) [Option B]
+    C) [Option C]
+    D) [Option D]
+    Correct Answer: [Letter]
+    Explanation: [Detailed explanation]
+    """
+
+
+def main(data_path: str, output_path: str, task_domain: str, step_size: int):
+    print("Start processing")
     retriever = ChunkRetriever(random_seed=42)
+    model = ClaudeGcp()
     
     # Load documents
     retriever.load_documents(data_path)
     
-    # Save the database
-    retriever.save_database('chunk_database')
+    # Generate the exam
+    exam = generate_exam(retriever.chunks, step_size, task_domain, retriever, model)
     
-    # Later, you can load the database like this:
-    loaded_retriever = ChunkRetriever.load_database('chunk_database')
-    
-    # Sample 5 random chunks with a specific seed
-    sampled_chunks = loaded_retriever.sample_chunks(sample_size, seed=42)
-    
-    # Process each sampled chunk
-    for chunk in sampled_chunks:
-        print(f"\nProcessing chunk: {chunk.chunk_id}")
-        print(f"Content: {chunk.content[:100]}...")  # Show first 100 characters
-        
-        # Find similar chunks
-        similar_chunks = loaded_retriever.find_similar_chunks(
-            chunk,
-            k=5,
-            similarity_threshold=0.8,
-            exclude_same_doc=True
-        )
-        
-        # Print similar chunks
-        print("\nSimilar chunks:")
-        for similar_chunk, score in similar_chunks:
-            print(f"- {similar_chunk.chunk_id} (score: {score:.3f})")
-            print(f"  Content: {similar_chunk.content[:100]}...")
+    # Save the exam to a JSON file
+    with open(output_path, "w") as f:
+        json.dump(exam, f, indent=2)
 
 
 if __name__ == "__main__":
-    data_path = "auto-rag-eval/MultiHopData/SecFilings/docs_chunk.json"
+    task_domain = "SecFilings"
+    data_path = f"auto-rag-eval/MultiHopData/{task_domain}/docs_chunk.json"
+    output_path = f"auto-rag-eval/MultiHopData/{task_domain}/exam.json"
     sample_size = 10
     
-    main(data_path, sample_size)
+    main(data_path, output_path, task_domain, sample_size)
