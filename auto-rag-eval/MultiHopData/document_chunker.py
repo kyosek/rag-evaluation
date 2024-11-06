@@ -79,7 +79,7 @@ def main(task_name: str):
     chunker = DocumentChunker(chunk_size=4000, chunk_overlap=200)
     
     # Process a directory of text files
-    docs_dir = f"MultiHopData/{task_name}"
+    docs_dir = f"MultiHopData/{task_name}/raw_texts"
     output_path = "docs_chunk.json"
     
     # Process all documents
