@@ -58,18 +58,81 @@ class ClaudeExamGenerator(LLMExamGenerator):
 
     def make_question_prompt(self, documentation: str) -> str:
         return (
-            f"\n\nHuman: Here is some documentation from {self.task_domain}: {documentation}.\n"
-            "From this generate a difficult multi-form question for an exam. It should have 4 candidates,"
-            " 1 correct answer and explanations. Syntax should be Question: {question}\nA){candidate A}\nB){candidate B}\n"
-            "C){candidate C}\nD){candidate D} Correct Answer: {correct answer}\n\nAssistant:"
+            f"\n\nHuman: Here is some documentation from {self.task_domain}:\n\n{documentation}\n\n"
+            "Generate a challenging multiple-choice question that tests deep understanding of the material. "
+            "The question should:\n"
+            "1. Test application of concepts rather than mere recall\n"
+            "2. Include plausible distractors that represent common misconceptions\n"
+            "3. Have clear, unambiguous wording\n\n"
+            "Format:\n"
+            "Question: [Question text]\n"
+            "A) [First option]\n"
+            "B) [Second option]\n"
+            "C) [Third option]\n"
+            "D) [Fourth option]\n"
+            "Correct Answer: [Letter of correct answer]\n"
+            "Explanation: [Detailed explanation of why the correct answer is right and why others are wrong]\n\n"
+            "Assistant:"
         )
+    
+    def make_l3_question_prompt(self, documentation: str) -> str:
+        return f"""
+        <<SYS>>
+        You are an expert exam question generator specializing in creating high-quality, challenging multiple-choice questions. 
+        Your questions should:
+        1. Target L3 (Analysis/Application) or higher cognitive levels in Bloom's taxonomy
+        2. Require integration of multiple concepts from the documentation
+        3. Include real-world applications or scenarios
+        4. Test critical thinking rather than memorization
+        5. Have carefully crafted distractors that represent common misconceptions
 
+        Guidelines for creating options:
+        - All options should be of similar length and complexity
+        - Avoid obvious wrong answers
+        - Use common misconceptions as distractors
+        - Ensure options are mutually exclusive
+        - Avoid "all/none of the above" options
+        <</SYS>>
+
+        Domain: {self.task_domain}
+        Documentation: {documentation}
+
+        Example questions based on different domains:
+
+        Technical Documentation Example:
+        Question: A microservice is experiencing intermittent failures during peak load. Given the following error logs and system metrics, what is the most likely root cause?
+        A) Network timeout due to connection pool exhaustion
+        B) Memory leak in the application container
+        C) Database connection throttling
+        D) CPU throttling by the container orchestrator
+        Correct Answer: A
+        Explanation: The logs show increasing connection wait times...
+
+        Medical Guidelines Example:
+        Question: A 45-year-old patient presents with acute chest pain (7/10), radiating to the left arm, with associated shortness of breath. The ECG shows ST-segment elevation in leads V1-V4. Based on the current guidelines, what is the most appropriate immediate management?
+        A) Administer aspirin and arrange urgent PCI
+        B) Start thrombolysis and transfer to nearest cardiac center
+        C) Perform bedside echocardiogram before any intervention
+        D) Administer morphine and arrange CT coronary angiogram
+        Correct Answer: A
+        Explanation: Given the STEMI presentation...
+
+        Please generate a question following this format:
+        Question: [Question text]
+        A) [Option A]
+        B) [Option B]
+        C) [Option C]
+        D) [Option D]
+        Correct Answer: [Letter]
+        Explanation: [Detailed explanation]
+        """
+    
     def generate_exam(self, data: List[Dict[str, str]]) -> Dict[int, Dict[str, str]]:
 
         generated_questions = {}
         for k in tqdm(range(0, len(data), self.step_size)):
             answer = self.llm_model.invoke(
-                prompt=self.make_question_prompt(data[k]["text"]), params={}
+                prompt=self.make_l3_question_prompt(data[k]["text"]), params={}
             )
             generated_questions[k] = {"documentation": data[k], "answer": answer}
         return generated_questions
@@ -112,7 +175,7 @@ class LlamaExamGenerator(LLMExamGenerator):
                 - It must have 4 candidates
                 - 1 correct answer 
                 - The output must be:
-                    Question: {question}\n
+                    Question: question\n
                     A) candidate A\n
                     B) candidate B\n
                     C) candidate C\n
