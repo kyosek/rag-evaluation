@@ -229,29 +229,32 @@ def generate_exam(data: List[Dict[str, str]], step_size: int, task_domain: str, 
         chunk_dict = [{"chunk_id": current_chunk.chunk_id, "doc_id": current_chunk.doc_id, "text": current_chunk.content}]
         chunk_dict += [{"chunk_id": c.chunk_id, "doc_id": c.doc_id, "text": c.content} for c, _ in similar_chunks]
         
-        # Generate a high-level (L3) question
-        question_prompt = make_l3_question_prompt(task_domain, chunk_dict)
-        answer = llm_model.invoke(prompt=question_prompt, params={})
-        
-        # Extract question, choices, correct answer, and explanation
-        question = answer.split("\nQuestion: ")[1].split("\nA)")[0]
-        correct_answer = answer.split("\nCorrect Answer: ")[1].split("\nExplanation:")[0]
-        explanation = answer.split("\nExplanation: ")[1]
-        # Find all choices that start with A), B), C), or D)
-        choices = re.findall(r'[A-D]\)(.*?)(?=[A-D]\)|Correct Answer|$)', answer, re.DOTALL)
+        try:
+            # Generate a high-level (L3) question
+            question_prompt = make_l3_question_prompt(task_domain, chunk_dict)
+            answer = llm_model.invoke(prompt=question_prompt, params={})
+            
+            # Extract question, choices, correct answer, and explanation
+            question = answer.split("\nQuestion: ")[1].split("\nA)")[0]
+            correct_answer = answer.split("\nCorrect Answer: ")[1].split("\nExplanation:")[0]
+            explanation = answer.split("\nExplanation: ")[1]
+            # Find all choices that start with A), B), C), or D)
+            choices = re.findall(r'[A-D]\)(.*?)(?=[A-D]\)|Correct Answer|$)', answer, re.DOTALL)
 
-        # Clean up the choices by removing extra whitespace and newlines
-        choices = [f"{chr(65+i)}) {choice.strip()}" for i, choice in enumerate(choices)]
-        
-        # Construct the exam entry
-        exam_entry = {
-            "question": question,
-            "documentation": [chunk["text"] for chunk in chunk_dict],
-            "choices": [choice.strip() for choice in choices],
-            "correct_answer": f"{correct_answer}) {explanation}"
-        }
-        
-        exam.append(exam_entry)
+            # Clean up the choices by removing extra whitespace and newlines
+            choices = [f"{chr(65+i)}) {choice.strip()}" for i, choice in enumerate(choices)]
+            
+            # Construct the exam entry
+            exam_entry = {
+                "question": question,
+                "documentation": [chunk["text"] for chunk in chunk_dict],
+                "choices": [choice.strip() for choice in choices],
+                "correct_answer": f"{correct_answer}) {explanation}"
+            }
+            
+            exam.append(exam_entry)
+        except:
+            pass
     
     return exam
 
@@ -340,6 +343,6 @@ if __name__ == "__main__":
     task_domain = "SecFilings"
     data_path = f"MultiHopData/{task_domain}/docs_chunk.json"
     output_path = f"MultiHopData/{task_domain}/exam.json"
-    sample_size = 1000
+    sample_size = 1100
     
     main(data_path, output_path, task_domain, sample_size, step_size=1)
