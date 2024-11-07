@@ -266,8 +266,7 @@ def make_l3_question_prompt(task_domain: str, chunks: List[Dict[str, str]]) -> s
     2. Target L3 (Analysis/Application) or higher cognitive levels in Bloom's taxonomy
     3. Require integration of multiple concepts from the documentation
     4. Test critical thinking rather than memorization
-    5. Have carefully crafted distractors that represent common misconceptions
-    6. Use all the provided information from the document to generate a question
+    5. Have carefully crafted 3 distractors that represent common misconceptions
 
     Guidelines for creating options:
     - All options should be of similar length and complexity
