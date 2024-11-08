@@ -95,6 +95,6 @@ def main(task_name: str):
 
 
 if __name__ == "__main__":
-    task_name = "multifieldqa_en"
+    task_name = "wiki"
     
     main(task_name)
