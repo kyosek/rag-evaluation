@@ -8,6 +8,7 @@ auto-rag-eval/Data/Arxiv/ExamData/claude_gcp_2024110614/exam.json
 auto-rag-eval/Data/LawStackExchange/ExamData/claude_gcp_2024103117/exam.json
 auto-rag-eval/Data/LawStackExchange/ExamData/claude_gcp_2024110614/exam.json
 auto-rag-eval/Data/SecFilings/ExamData/claude_gcp_2024103117/exam.json
+auto-rag-eval/Data/SecFilings/ExamData/claude_gcp_2024110616/exam.json
 
 auto-rag-eval/MultiHopData/SecFilings/raw_texts
 auto-rag-eval/MultiHopData/SecFilings/docs_chunk.json
