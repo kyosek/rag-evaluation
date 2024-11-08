@@ -4,14 +4,9 @@ import random
 import os
 from typing import List, Dict
 from collections import Counter
-import logging
 from dataclasses import dataclass
 import re
 import argparse
-
-# Set up logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
 
 
 @dataclass
@@ -29,13 +24,13 @@ class MCQuestion:
     
     def display(self):
         """Display the question details."""
-        logger.info(f"\nQuestion: {self.question}")
+        print(f"\nQuestion: {self.question}")
         for choice in self.choices:
-            logger.info(choice)
-        logger.info(f"Correct Answer: {self.correct_answer}")
-        logger.info("Documentation:")
+            print(choice)
+        print(f"Correct Answer: {self.correct_answer}")
+        print("Documentation:")
         for doc in self.documentation:
-            logger.info(doc)
+            print(doc)
 
 
 class ExamAnalyser:
@@ -146,7 +141,7 @@ class ExamAnalyser:
         
         # Display sample questions if requested
         if display_n_samples > 0:
-            logger.info("\nSample Questions:")
+            print("\nSample Questions:")
             for elem in random.sample(self.question_list, min(display_n_samples, len(self.question_list))):
                 elem.display()
         
@@ -154,25 +149,25 @@ class ExamAnalyser:
 
     def _log_analytics(self, analytics: Dict) -> None:
         """Log the analytics results."""
-        logger.info(f"\n########################################################\n")
-        logger.info(f"ExamID: {analytics['exam_id']}")
-        logger.info(
+        print(f"\n########################################################\n")
+        print(f"ExamID: {analytics['exam_id']}")
+        print(
             f"\nProcessing Analysis:\n"
             f"Total of {analytics['processed_questions']}/{analytics['total_questions']} "
             f"questions processed ({analytics['processing_success_rate']:.2f}%)"
         )
         
-        logger.info(
+        print(
             f"\nAccuracy Analysis:\n"
             f"Best Fixed Answer Baseline: {analytics['best_fixed_answer_baseline']:.2f}%\n"
             f"Longest Answer Baseline: {analytics['longest_answer_baseline']:.2f}%"
         )
         
-        logger.info("\nQuestion Type Analysis:")
+        print("\nQuestion Type Analysis:")
         for qtype, percentage in analytics['question_types'].items():
-            logger.info(f"{qtype:7} -- {percentage:.2f}%")
+            print(f"{qtype:7} -- {percentage:.2f}%")
         
-        logger.info(
+        print(
             f"\nLength Analysis:\n"
             f"Avg. question length: {analytics['avg_question_length']['mean']:.2f} "
             f"(std: {analytics['avg_question_length']['std']:.2f})\n"
@@ -185,8 +180,6 @@ class ExamAnalyser:
 
 def main(exam_path: str, task_domain: str):
     parser = argparse.ArgumentParser(description='Analyse multiple choice exam data')
-    # parser.add_argument('exam_path', help='Path to the exam JSON file')
-    # parser.add_argument('--task-domain', required=True, help='Domain of the exam (e.g., SecFilings)')
     parser.add_argument('--display-samples', type=int, default=3, help='Number of sample questions to display')
     parser.add_argument('--output-dir', default=None, help='Directory to save analytics output')
     
@@ -213,11 +206,11 @@ def main(exam_path: str, task_domain: str):
     with open(output_path, 'w') as f:
         json.dump(analytics, f, indent=2)
     
-    logger.info(f"\nAnalytics saved to: {output_path}")
+    print(f"\nAnalytics saved to: {output_path}")
 
 
 if __name__ == "__main__":
-    exam_path = "MultiHopData/SecFilings/exam.json"
+    exam_path = "MultiHopData/SecFilings/exam_cleaned.json"
     task_domain = "SecFilings"
     
     main(exam_path, task_domain)

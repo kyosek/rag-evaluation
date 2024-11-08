@@ -1,34 +1,35 @@
 {
-  "exam_id": "SecFilings:20241106",
-  "total_questions": 10,
-  "processed_questions": 10,
+  "exam_id": "SecFilings:20241108",
+  "total_questions": 1096,
+  "processed_questions": 1096,
   "processing_success_rate": 100.0,
   "answer_distribution": {
-    "C": 6,
-    "B": 3,
-    "D": 1
+    "C": 496,
+    "B": 329,
+    "D": 176,
+    "A": 95
   },
-  "best_fixed_answer_baseline": 60.0,
-  "longest_answer_baseline": 30.0,
+  "best_fixed_answer_baseline": 45.25547445255474,
+  "longest_answer_baseline": 38.22992700729927,
   "question_types": {
-    "Which": 100.0,
-    "What": 0.0,
-    "How": 0.0,
-    "When": 0.0,
-    "Why": 0.0,
-    "Where": 0.0,
+    "Which": 79.92700729927007,
+    "What": 20.164233576642335,
+    "How": 3.102189781021898,
+    "When": 0.7299270072992701,
+    "Why": 0.8211678832116789,
+    "Where": 0.8211678832116789,
     "Other": 0.0
   },
   "avg_question_length": {
-    "mean": 276.6,
-    "std": 43.31789468568388
+    "mean": 268.985401459854,
+    "std": 44.3937648350046
   },
   "avg_answer_length": {
-    "mean": 285.95,
-    "std": 186.1679282261045
+    "mean": 178.91902372262774,
+    "std": 142.48451142249115
   },
   "avg_documentation_length": {
-    "mean": 11081.9,
-    "std": 4366.431734265407
+    "mean": 9133.09397810219,
+    "std": 4584.086633559442
   }
 }
