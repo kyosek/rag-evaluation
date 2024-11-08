@@ -1,0 +1,102 @@
+[nltk_data] Downloading package punkt to /home/kyosuke/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package punkt_tab to
+[nltk_data]     /home/kyosuke/nltk_data...
+[nltk_data]   Package punkt_tab is already up-to-date!
+Some weights of the model checkpoint at vblagoje/dpr-question_encoder-single-lfqa-base were not used when initializing DPRQuestionEncoder: ['question_encoder.bert_model.pooler.dense.bias', 'question_encoder.bert_model.pooler.dense.weight']
+- This IS expected if you are initializing DPRQuestionEncoder from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DPRQuestionEncoder from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at vblagoje/dpr-ctx_encoder-single-lfqa-base were not used when initializing DPRContextEncoder: ['ctx_encoder.bert_model.pooler.dense.bias', 'ctx_encoder.bert_model.pooler.dense.weight']
+- This IS expected if you are initializing DPRContextEncoder from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DPRContextEncoder from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+SiameseContextProvider
+Creating faiss index:   0%|          | 0/10000 [00:00<?, ? examples/s]Creating faiss index:   5%|▌         | 512/10000 [00:03<00:57, 166.44 examples/s]Creating faiss index:  10%|█         | 1024/10000 [00:04<00:41, 217.16 examples/s]Creating faiss index:  15%|█▌        | 1536/10000 [00:06<00:35, 239.04 examples/s]Creating faiss index:  20%|██        | 2048/10000 [00:08<00:31, 253.13 examples/s]Creating faiss index:  26%|██▌       | 2560/10000 [00:10<00:28, 262.50 examples/s]Creating faiss index:  31%|███       | 3072/10000 [00:12<00:25, 269.30 examples/s]Creating faiss index:  36%|███▌      | 3584/10000 [00:14<00:23, 274.42 examples/s]Creating faiss index:  41%|████      | 4096/10000 [00:16<00:22, 264.74 examples/s]Creating faiss index:  46%|████▌     | 4608/10000 [00:17<00:20, 269.26 examples/s]Creating faiss index:  51%|█████     | 5120/10000 [00:19<00:17, 272.85 examples/s]Creating faiss index:  56%|█████▋    | 5632/10000 [00:21<00:15, 275.39 examples/s]Creating faiss index:  61%|██████▏   | 6144/10000 [00:23<00:13, 276.75 examples/s]Creating faiss index:  67%|██████▋   | 6656/10000 [00:25<00:11, 279.97 examples/s]Creating faiss index:  72%|███████▏  | 7168/10000 [00:27<00:10, 280.85 examples/s]Creating faiss index:  77%|███████▋  | 7680/10000 [00:28<00:08, 282.90 examples/s]Creating faiss index:  82%|████████▏ | 8192/10000 [00:30<00:06, 281.92 examples/s]Creating faiss index:  87%|████████▋ | 8704/10000 [00:32<00:04, 281.49 examples/s]Creating faiss index:  92%|█████████▏| 9216/10000 [00:34<00:02, 282.19 examples/s]Creating faiss index:  97%|█████████▋| 9728/10000 [00:36<00:00, 283.34 examples/s]Creating faiss index: 100%|██████████| 10000/10000 [00:37<00:00, 284.46 examples/s]Creating faiss index: 100%|██████████| 10000/10000 [00:37<00:00, 270.14 examples/s]
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 604.02it/s]
+Faiss index successfully created
+Some weights of the model checkpoint at vblagoje/dpr-question_encoder-single-lfqa-base were not used when initializing DPRQuestionEncoder: ['question_encoder.bert_model.pooler.dense.bias', 'question_encoder.bert_model.pooler.dense.weight']
+- This IS expected if you are initializing DPRQuestionEncoder from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DPRQuestionEncoder from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at vblagoje/dpr-ctx_encoder-single-lfqa-base were not used when initializing DPRContextEncoder: ['ctx_encoder.bert_model.pooler.dense.bias', 'ctx_encoder.bert_model.pooler.dense.weight']
+- This IS expected if you are initializing DPRContextEncoder from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DPRContextEncoder from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Deleting existing Faiss index: /home/kyosuke/rag-evaluation/auto-rag-eval/Data/SecFilings/RetrievalIndex/siamese_emb/kilt_dpr_data.faiss
+Deleting existing Faiss index cache /home/kyosuke/rag-evaluation/auto-rag-eval/Data/SecFilings/RetrievalIndex/siamese_emb/data_kilt_embedded.arrow
+SiameseContextProvider
+Creating faiss index:   0%|          | 0/10000 [00:00<?, ? examples/s]Creating faiss index:   5%|▌         | 512/10000 [00:01<00:32, 288.72 examples/s]Creating faiss index:  10%|█         | 1024/10000 [00:03<00:31, 286.32 examples/s]Creating faiss index:  15%|█▌        | 1536/10000 [00:05<00:29, 286.12 examples/s]Creating faiss index:  20%|██        | 2048/10000 [00:07<00:27, 286.87 examples/s]Creating faiss index:  26%|██▌       | 2560/10000 [00:08<00:26, 285.82 examples/s]Creating faiss index:  31%|███       | 3072/10000 [00:10<00:24, 285.72 examples/s]Creating faiss index:  36%|███▌      | 3584/10000 [00:12<00:22, 286.23 examples/s]Creating faiss index:  41%|████      | 4096/10000 [00:14<00:20, 285.75 examples/s]Creating faiss index:  46%|████▌     | 4608/10000 [00:16<00:18, 284.68 examples/s]Creating faiss index:  51%|█████     | 5120/10000 [00:17<00:17, 284.73 examples/s]Creating faiss index:  56%|█████▋    | 5632/10000 [00:19<00:15, 283.79 examples/s]Creating faiss index:  61%|██████▏   | 6144/10000 [00:21<00:13, 283.16 examples/s]Creating faiss index:  67%|██████▋   | 6656/10000 [00:23<00:11, 282.28 examples/s]Creating faiss index:  72%|███████▏  | 7168/10000 [00:25<00:10, 282.11 examples/s]Creating faiss index:  77%|███████▋  | 7680/10000 [00:27<00:08, 281.69 examples/s]Creating faiss index:  82%|████████▏ | 8192/10000 [00:28<00:06, 282.12 examples/s]Creating faiss index:  87%|████████▋ | 8704/10000 [00:30<00:04, 283.14 examples/s]Creating faiss index:  92%|█████████▏| 9216/10000 [00:32<00:02, 281.19 examples/s]Creating faiss index:  97%|█████████▋| 9728/10000 [00:34<00:00, 282.28 examples/s]Creating faiss index: 100%|██████████| 10000/10000 [00:35<00:00, 282.66 examples/s]Creating faiss index: 100%|██████████| 10000/10000 [00:35<00:00, 283.77 examples/s]
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 585.16it/s]
+Faiss index successfully created
+Creating faiss index:   0%|          | 0/10000 [00:00<?, ? examples/s]Creating faiss index:   5%|▌         | 512/10000 [00:00<00:18, 522.08 examples/s]Creating faiss index:  10%|█         | 1024/10000 [00:01<00:17, 510.92 examples/s]Creating faiss index:  15%|█▌        | 1536/10000 [00:02<00:16, 514.89 examples/s]Creating faiss index:  20%|██        | 2048/10000 [00:03<00:15, 524.45 examples/s]Creating faiss index:  26%|██▌       | 2560/10000 [00:04<00:13, 532.75 examples/s]Creating faiss index:  31%|███       | 3072/10000 [00:05<00:13, 514.73 examples/s]Creating faiss index:  36%|███▌      | 3584/10000 [00:06<00:12, 519.97 examples/s]Creating faiss index:  41%|████      | 4096/10000 [00:07<00:11, 508.95 examples/s]Creating faiss index:  46%|████▌     | 4608/10000 [00:08<00:10, 508.03 examples/s]Creating faiss index:  51%|█████     | 5120/10000 [00:09<00:09, 513.22 examples/s]Creating faiss index:  56%|█████▋    | 5632/10000 [00:10<00:08, 510.86 examples/s]Creating faiss index:  61%|██████▏   | 6144/10000 [00:11<00:07, 532.26 examples/s]Creating faiss index:  67%|██████▋   | 6656/10000 [00:12<00:06, 535.31 examples/s]Creating faiss index:  72%|███████▏  | 7168/10000 [00:13<00:05, 516.89 examples/s]Creating faiss index:  77%|███████▋  | 7680/10000 [00:14<00:04, 527.21 examples/s]Creating faiss index:  82%|████████▏ | 8192/10000 [00:15<00:03, 532.33 examples/s]Creating faiss index:  87%|████████▋ | 8704/10000 [00:16<00:02, 530.45 examples/s]Creating faiss index:  92%|█████████▏| 9216/10000 [00:17<00:01, 513.02 examples/s]Creating faiss index:  97%|█████████▋| 9728/10000 [00:18<00:00, 512.52 examples/s]Creating faiss index: 100%|██████████| 10000/10000 [00:19<00:00, 517.03 examples/s]Creating faiss index: 100%|██████████| 10000/10000 [00:19<00:00, 519.03 examples/s]
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 355.34it/s]
+Faiss index successfully created
+Starting to load all raw questions from /home/kyosuke/rag-evaluation/auto-rag-eval/Data/SecFilings/RawExamData/
+Initialising MultiChoiceExamLLM
+  0%|          | 0/99 [00:00<?, ?it/s]  1%|          | 1/99 [00:44<1:13:00, 44.70s/it]  2%|▏         | 2/99 [01:29<1:12:11, 44.66s/it]  3%|▎         | 3/99 [02:14<1:11:50, 44.90s/it]  4%|▍         | 4/99 [02:59<1:11:15, 45.01s/it]  5%|▌         | 5/99 [03:46<1:11:18, 45.51s/it]  6%|▌         | 6/99 [04:31<1:10:39, 45.58s/it]  7%|▋         | 7/99 [05:17<1:09:41, 45.45s/it]  8%|▊         | 8/99 [06:02<1:09:08, 45.59s/it]  9%|▉         | 9/99 [06:47<1:08:01, 45.36s/it] 10%|█         | 10/99 [07:29<1:05:50, 44.39s/it] 11%|█         | 11/99 [08:14<1:04:58, 44.31s/it] 12%|█▏        | 12/99 [08:58<1:04:23, 44.41s/it] 13%|█▎        | 13/99 [09:42<1:03:26, 44.26s/it] 14%|█▍        | 14/99 [10:25<1:01:57, 43.74s/it] 15%|█▌        | 15/99 [11:07<1:00:50, 43.46s/it] 16%|█▌        | 16/99 [11:51<1:00:02, 43.40s/it] 17%|█▋        | 17/99 [12:33<58:56, 43.13s/it]   18%|█▊        | 18/99 [13:16<58:09, 43.09s/it] 19%|█▉        | 19/99 [13:58<57:04, 42.81s/it] 20%|██        | 20/99 [14:40<55:55, 42.47s/it] 21%|██        | 21/99 [15:22<54:51, 42.20s/it] 22%|██▏       | 22/99 [16:03<53:49, 41.94s/it] 23%|██▎       | 23/99 [16:45<53:03, 41.88s/it] 24%|██▍       | 24/99 [17:26<52:14, 41.79s/it] 25%|██▌       | 25/99 [18:08<51:28, 41.74s/it] 26%|██▋       | 26/99 [18:51<51:06, 42.00s/it] 27%|██▋       | 27/99 [19:33<50:23, 42.00s/it] 28%|██▊       | 28/99 [20:14<49:29, 41.82s/it] 29%|██▉       | 29/99 [20:54<48:12, 41.32s/it] 30%|███       | 30/99 [21:34<47:09, 41.01s/it] 31%|███▏      | 31/99 [22:15<46:19, 40.88s/it] 32%|███▏      | 32/99 [22:54<45:04, 40.36s/it] 33%|███▎      | 33/99 [23:34<44:14, 40.22s/it] 34%|███▍      | 34/99 [24:13<43:13, 39.90s/it] 35%|███▌      | 35/99 [24:53<42:36, 39.94s/it] 36%|███▋      | 36/99 [25:33<41:52, 39.89s/it] 37%|███▋      | 37/99 [26:13<41:13, 39.90s/it] 38%|███▊      | 38/99 [26:52<40:13, 39.57s/it] 39%|███▉      | 39/99 [27:31<39:27, 39.46s/it] 40%|████      | 40/99 [28:11<38:51, 39.52s/it] 41%|████▏     | 41/99 [28:50<38:16, 39.59s/it] 42%|████▏     | 42/99 [29:29<37:27, 39.44s/it] 43%|████▎     | 43/99 [30:09<36:46, 39.40s/it] 44%|████▍     | 44/99 [30:48<36:03, 39.34s/it] 45%|████▌     | 45/99 [31:28<35:30, 39.45s/it] 46%|████▋     | 46/99 [32:07<34:56, 39.56s/it] 47%|████▋     | 47/99 [32:48<34:27, 39.75s/it] 48%|████▊     | 48/99 [33:26<33:33, 39.48s/it] 49%|████▉     | 49/99 [34:06<32:50, 39.40s/it] 51%|█████     | 50/99 [34:44<31:51, 39.01s/it] 52%|█████▏    | 51/99 [35:24<31:23, 39.23s/it] 53%|█████▎    | 52/99 [36:03<30:53, 39.44s/it] 54%|█████▎    | 53/99 [36:43<30:13, 39.42s/it] 55%|█████▍    | 54/99 [37:22<29:27, 39.28s/it] 56%|█████▌    | 55/99 [38:02<28:58, 39.50s/it] 57%|█████▋    | 56/99 [38:42<28:25, 39.67s/it] 58%|█████▊    | 57/99 [39:21<27:43, 39.61s/it] 59%|█████▊    | 58/99 [40:01<27:02, 39.59s/it] 60%|█████▉    | 59/99 [40:40<26:22, 39.55s/it] 61%|██████    | 60/99 [41:19<25:31, 39.27s/it] 62%|██████▏   | 61/99 [41:59<24:56, 39.39s/it] 63%|██████▎   | 62/99 [42:38<24:13, 39.28s/it] 64%|██████▎   | 63/99 [43:17<23:40, 39.46s/it] 65%|██████▍   | 64/99 [43:58<23:09, 39.71s/it] 66%|██████▌   | 65/99 [44:39<22:40, 40.02s/it] 67%|██████▋   | 66/99 [45:18<21:58, 39.97s/it] 68%|██████▊   | 67/99 [45:58<21:17, 39.91s/it] 69%|██████▊   | 68/99 [46:38<20:39, 39.98s/it] 70%|██████▉   | 69/99 [47:18<19:53, 39.79s/it] 71%|███████   | 70/99 [47:57<19:10, 39.68s/it] 72%|███████▏  | 71/99 [48:37<18:31, 39.71s/it] 73%|███████▎  | 72/99 [49:16<17:49, 39.62s/it] 74%|███████▎  | 73/99 [49:55<17:06, 39.49s/it] 75%|███████▍  | 74/99 [50:35<16:30, 39.62s/it] 76%|███████▌  | 75/99 [51:16<15:55, 39.81s/it] 77%|███████▋  | 76/99 [51:56<15:18, 39.94s/it] 78%|███████▊  | 77/99 [52:35<14:34, 39.76s/it] 79%|███████▉  | 78/99 [53:15<13:54, 39.72s/it] 80%|███████▉  | 79/99 [53:55<13:14, 39.72s/it] 81%|████████  | 80/99 [54:35<12:38, 39.92s/it] 82%|████████▏ | 81/99 [55:14<11:53, 39.64s/it] 83%|████████▎ | 82/99 [55:54<11:15, 39.75s/it] 84%|████████▍ | 83/99 [56:34<10:38, 39.88s/it] 85%|████████▍ | 84/99 [57:14<09:57, 39.86s/it] 86%|████████▌ | 85/99 [57:53<09:16, 39.75s/it] 87%|████████▋ | 86/99 [58:33<08:35, 39.66s/it] 88%|████████▊ | 87/99 [59:13<07:58, 39.86s/it] 89%|████████▉ | 88/99 [59:54<07:20, 40.02s/it] 90%|████████▉ | 89/99 [1:00:34<06:39, 39.98s/it] 91%|█████████ | 90/99 [1:01:14<06:01, 40.21s/it] 92%|█████████▏| 91/99 [1:01:54<05:21, 40.16s/it] 93%|█████████▎| 92/99 [1:02:34<04:40, 40.10s/it] 94%|█████████▍| 93/99 [1:03:14<03:59, 39.92s/it] 95%|█████████▍| 94/99 [1:03:53<03:18, 39.71s/it] 96%|█████████▌| 95/99 [1:04:33<02:38, 39.68s/it] 97%|█████████▋| 96/99 [1:05:12<01:59, 39.73s/it] 98%|█████████▊| 97/99 [1:05:53<01:19, 39.89s/it] 99%|█████████▉| 98/99 [1:06:32<00:39, 39.84s/it]100%|██████████| 99/99 [1:07:13<00:00, 39.97s/it]100%|██████████| 99/99 [1:07:13<00:00, 40.74s/it]
+
+###################### claude_gcp ######################
+
+ExamID: SecFilings:claude_gcp:2024110616
+
+### Parsing Analysis:
+
+Total of 9847/9900 questions processed (99.46%)
+Statistics over 53 failed parsing:
+Question Parsing Error: 0.00%
+Choices Parsing Error: 66.04%
+Correct Answer Parsing Error: 100.00%
+Other Parsing Error or Constraints: 0.00%
+
+### Accuracy Analysis:
+
+Best Fixed Answer Baseline: 25.41%
+Longest Answer Baseline: 48.55%
+
+### Sample questions:
+
+Question 1: O'Sullivan is considering expanding its operations. Based on the information provided, which of the following strategies would be the most efficient and cost-effective approach for immediate expansion?
+Question 2: Canandaigua National Corporation is planning to expand its operations in Monroe County. Given the information provided and considering potential real-world business strategies, which of the following actions is most likely to provide the greatest long-term benefit to the company's growth and customer service in the area?
+Question 3: A growing biotech company is planning to expand its operations and needs to decide on the most strategic location for its new manufacturing facility. Based on the information provided in the documentation, which of the following options would likely be the most advantageous for the company?
+Question 4: LoJack is planning to restructure its operations to improve efficiency. Given the information about their current facilities, which of the following strategies would likely be most effective in optimizing their real estate portfolio while minimizing disruption to operations?
+Question 5: Gymboree is planning to expand its operations in Europe and is considering different strategies for its distribution network. Given the information about Gymboree's current distribution centers and store leasing practices, which of the following approaches would likely be the most cost-effective and aligned with their existing business model?
+Question 6: A growing tech startup is considering leasing office space similar to the company described in the documentation. Which of the following scenarios would most likely necessitate a change in their office space strategy within the next fiscal year?
+Question 7: A regional bank is considering expanding its operations in Sullivan County, New York. Given the information about Jeff Bank's property holdings and lease arrangements, which strategy would likely be most advantageous for the new bank to quickly establish a presence while maintaining flexibility for future growth?
+Question 8: A startup biotech company is considering leasing the same property described in the documentation. The CEO wants to maximize flexibility while minimizing long-term financial commitment. Given the lease terms, which strategy would best align with the CEO's goals?
+Question 9: A financial analyst is reviewing a company's SEC filings and notices that the company has incorporated certain financial statements by reference in Item 8 of their filing. The analyst wants to conduct a comprehensive analysis of the company's financial position and performance over the past three years. Which of the following statements most accurately reflects the analyst's ability to access the necessary information based on the details provided in Item 8?
+Question 10: Brass Eagle is planning to expand its paintball manufacturing operations due to increasing demand. Given the company's current property portfolio and business strategy, which of the following actions would be the most strategically sound and cost-effective approach?
+
+### Question Analysis
+
+Question type:
+Which   -- 91.50%
+What    -- 8.85%
+How     -- 0.69%
+When    -- 1.51%
+Why     -- 0.16%
+Where   -- 0.39%
+Other   -- 0.00%
+
+Question starts with ['Which', 'What', 'How', 'When', 'Why', 'Where']: 0.00%
+Avg. question char. length: 287.59 (std: 42.92)
+Avg. number of sentence in question: 2.20
+Avg. answers char. length: 98.31 (std: 25.14)
+Avg. correct answer char. length: 104.27 (std: 29.77)
+Avg. documentation char. length: 1180.51 (std: 42.92)
+Avg. number of sentence in documentation: 9.83
+
+########### claude_gcp ###########
+
+Documentation: 
+     Item 2. Properties.
+As of November 30, 1998, Multicare operated 156 eldercare facilities and 14 assisted living facilities (89 wholly owned, 8 joint ventures, 22 leased and 51 managed). Twenty-two of Multicare's facilities are leased by the respective operating entities from third parties. The inability of the Company to make rental payments under these leases could result in loss of the leased property through eviction or other proceedings. Certain facility leases do not provide for non disturbance from the mortgagee of the fee interest in the property and consequently each such lease is subject to termination in the event that the mortgage is foreclosed following a default by the owner.
+The Company considers its properties to be in good operating condition and suitable for the purposes for which they are being used.
+The following table summarizes by state certain information regarding Multicare's facilities and outpatient rehabilitation centers at November 30, 1998 (excluding 14 facilities with 1,668 beds at which Multicare provides quality assurance consulting services):
+Item 3.
+Question: 
+     Multicare, a company operating eldercare facilities, is considering expanding its operations. Given the information provided about their current property portfolio and lease arrangements, which of the following scenarios poses the greatest potential risk to Multicare's long-term stability and growth?
+Answers: 
+     [0.110.170.45] - A) Entering into new joint venture agreements for assisted living facilities in emerging markets
+     [0.060.080.35] - B) Acquiring additional wholly-owned facilities in states where they already have a strong presence
+     [0.220.220.37] - C) Increasing the number of leased properties from third parties with standard lease terms
+     [0.080.120.44] - D) Expanding managed facilities in locations where the property owners have highly leveraged mortgages
+Correct Answer: 
+     D) Expanding managed facilities in locations where the property owners have highly leveraged mortgages
+
