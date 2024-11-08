@@ -1,0 +1,326 @@
+Hey folks! Here is the shiny new Changelog thread. We're including the archived patch notes from the old forums, so that they are preserved for anyone that would like to reference back to them. We will continue to update this thread with new notes as the patches are released.
+Chat is now accessible from the quest board, upgrade screen, and many other menus.
+Tapping on objects and menus may reveal helpful hints about that object.
+Team PI is now colored red if lower than recommended for the quest.
+Many text fixes and consistency improvements.
+• A new Basic Catalyst found in Special Events is used in every recipe!
+Several heroes have received improvements to their base stats.
+The abilities of all Champions have increased in effectiveness.
+A new Critical Boost buff has been introduced.
+Iron Fist and Spiderman now have the ability to Armor Break with their Critical Hits.
+Deadpool’s ability to Regenerate is more powerful, but only triggers once per fight.
+Scarlet Witch now has a chance to trigger Nullify off of any Critical Hit.
+Juggernaut and Rhino now have a layer of Armor.
+Punisher and Winter Solider now may also trigger Fury in addition to Bleed.
+Colossus now further increases his base Armor with the Armor Up ability.
+Thor and Ronan no longer Armor Break; instead, base stats and Stun durations have improved.
+We reduced the effectiveness of the Revive items in order to give away more as rewards.
+A bonus of 50% for using ISO-8 matching your Champion’s Class can now be previewed on the Upgrade screen.
+It’s now possible sell Champions in exchange for ISO-8 and Gold. The amount received increases proportionately to the Rank and Level of the sold Champion.
+-You can now skip dialogue on the quest map by pressing ‘SKIP’.
+-Added a ‘Quit’ button directly on the quest interface.
+-The Back button on the Top Bar now returns the player to the Home screen.
+-Various game balance and cosmetic improvements to the available quests.
+• PVP energy has been replaced with Hero Stamina. Each Hero has their own Stamina values, meaning the more Heroes you have the more you can play in PVP.
+• Each Hero has 1 Stamina and takes 2 hours to recharge.
+We have removed the Next Quest button for a much more favorable and flavorful approach to teaching and informing people about Marvel : Contest of Champions. In the Main Menu(Bottom Right Corner) you will now see an image of the Collector showing you what the best or recommended actions that you should preform. This can be anything from opening Crystals, Continuing a Quest, Ranking Up Champions if the difficulty is too hard, Tips where to obtain items, and Playing Versus/Arenas.
+• Adjusted the PI calculation for Power Burn and Power Drain abilities to improve accuracy.
+• Significantly increased the Power Burn multiplier as well as the amount of Power burned. Prior to this change, Vision's Special Attack damage output was far below the curve. Vision's Special Damage is distinct from other heroes in that the dependency on opponents' Power levels cause the damage dealt to be highly variable, and sometimes quite low; however, when striking an opponent with high Power levels, Vision has the potential to deal very high amounts of direct, Armor-ignoring damage.
+• Slightly adjusted the Armor Break trigger to be less punishing to opponents with the Armor Up ability without sacrificing PI or damage output.
+• Slightly increased his base Health and, in turn, the amount of Health recovered by Regeneration. This improvement is reflected by an increase to PI of about 1%.
+• Slightly reduced the damage from Bleeding, but slightly increased the amount of Power drained by E.M.P. Arrow to compensate. This added utility strengthens the choice between whether to offensively Bleed the enemy or defensively drain their Power. These changes may modify PI by +/-1%.
+• Slightly reduced the frequency of Nullify for basic attacks, but slightly increased the chance a Special Attack is critical. Chaotic Bombardment no longer has a chance to critical, and instead has a 100% chance to Nullify the target. This is less punishing to opponents with beneficial effects, while providing a more reliable source of Nullify. Overall, her PI has decreased by about 2%.
+• Decreased base Health and Attack by 2% each to bring his PI in line with other Champions without compromising Special Attack effectiveness.
+• Slightly increased base Health by 2% to bring his PI in line with other Champions. This change may result in a PI increase of up to 1%.
+• Fixed a bug with her Bleed ability scaling incorrectly. This has no effect on PI.
+• User's on iPhone 4 devices will no longer encounter a progression blocker after fighting Iron Man in the tutorial.
+• Fixed an issue where player's Hero would disappear after using a special move.
+• Fixed an issue where very rarely a character would lose all functionality when dashing.
+• Added additional Network support to better diagnose disconnects. The game should resolve and recover much more gracefully than in previous updates.
+• Adjusted some of the touch sensitivity while fighting. Heroes moves should feel more responsive. This is something that is going to be an ongoing process. Please let us know how you think it feels.
+• Fixed various issues with Chat.
+• We have updated Open GL versions/drivers for iOS devices that support Open GL 3.0.
+• User's will no longer receive delayed Game Center notifications. This caused some weirdness to occur while opening Crystals in the Crystal Vault.
+• The Crystal Vault has received another polish pass and should now feel much more responsive, thank you for all your feedback on this feature!
+• Many more minor bug fixes were included in this update.
+• Special Attack 1 base damage increased by +25% Attack Rating.
+• Heavy Attack base Power gained reduced to 63 points.
+We recently improved the functionality of Heavy Attacks, so they’re easier to use. Their base Power has been reduced to normal levels – previously, they generated Power at a higher rate to compensate for their difficult execution. Special Attacks have been adjusted to give the unlucky recipients more of a fighting chance. These changes bring these attacks in line with existing damage-to-power ratios.
+*NOTE: Special Attacks only generate Power for the target struck, not for the user; this prevents infinite loops and helps serve as a comeback mechanic.
+Versus Crystal prizes have been adjusted due to the Champion Stamina changes.
+Arena Crystal prizes have been increased to help balance the adjustments to the Versus Crystal.
+Payouts have significantly increased when receiving a duplicate Champion with a Star rating of two or more. The boosted amount increases based on Star rating. We apologize for any inconvenience caused by delivering each reward individually, and are working to get a fix to you as soon as possible. In the meantime, using the “Skip” button avoids the inconvenience.
+• We fixed a bug where finding a new match could cost a player Units.
+• Spending Units to find a new opponent will now return opponents with lower ratings.
+• Chapters 3 and 4 of Act 2 Story Quests are now available. A mysterious opponent awaits you at the end of Act 2!
+*NOTE: This caused some players' progress to reset for a brief time, but that issue should now be corrected.
+• Event Quest difficulty has been adjusted to match Catalyst availability.
+• Rank-Up Recipes have been adjusted to be more accessible across all ranks.
+• Bosses for the Monday through Saturday Daily Events now have a small chance to drop a Class Catalyst. This is in addition to the drop chance from Chests.
+• Ambush Rates have been adjusted on all Event Quests.
+• Increased Catalyst drops for the Collector Free-For-All Event Quest.
+• Alpha Catalysts now have a chance to drop from Chests in Medium and Hard difficulties of The Collector Free-For-All event.
+• The unobtainable chest in Act 1, Chapter 1, Quest 6 has been removed from the Battlerealm.
+Increased the amount of Gold awarded by the Arena Crystal.
+Slightly reduced the cost to level-up a 3-Star Champion at Rank 1 to cleanly align with ISO-8 chunk values.
+Fixed a bug with Billion-Dollar Punch not triggering Armor Break.
+• Duplicate 2-Star, 3-Star, and 4-Star Champions now awaken a brand new ability unique to that Champion in addition to the rare ISO8 they currently give. Duplicates thereafter continue to level-up this ability to make it stronger. When a Champion is awakened, their Stars turn bright and glow, making them easy to identify (and look pretty cool too). These new abilities can be quite powerful, so please fight responsibly!
+• Various other improvements, including rank and level information for opponents, find match options in team select, and animation tuning.
+• There is now a chance to encounter the elusive Treasure Adaptoid, who divulges his hoard of ISO8 and Gold to those able to defeat him in battle.
+• Class Relationships can be viewed by tapping “Enemy Classes” before entering a quest, and preview the number of enemies in that quest for each class type.
+• You can also now see rewards for completion and exploration on the Edit Team screen.
+• Opponents are more aware of the distance between you and them, improving their interaction with knockback effects, such as that from Heavy Attacks.
+Mutant Champions are now effective against Skill Champions.
+• The high Special Attack damage and regenerative abilities of Mutant Champions are effective against Skill Champions, which typically rely on Bleed damage from their weaponry. We think of this relationship as if the X-Gene grants Mutant Champions superpowers that evolved to be stronger than Champions that are merely “Skilled”.
+Skill Champions are now effective against Science Champions.
+• While scientists fiddle in their cute little laboratories to create flasks full of serums to turn even frail young men into super-soldiers, Skill Champions were just born that way baby. Often donning sharp weaponry to make their opponents Bleed, Skill Champions enjoy watching the high base attributes of Science Champions just melt away.
+Cosmic Champions are now effective against Tech Champions.
+• Tech Champions construct durable robots and thick suits of Armor to outlast their opponents in battles of tank-the-nuke...which gives Cosmic Champions extra time to build up stacks of beneficial effects to overrun Tech Champions using their peculiar alien enhancements.
+• Tech Champions are still effective against Mutant Champions.
+Tech Champions typically excel at Armor, Resistance, and Power manipulation, which is effective against the high Special Attack damage of Mutant Champions. Think of the robotic Sentinels adapting for tactical advantages in the war against Mutantkind!
+Science Champions are still effective against Mystic Champions.
+• Science Champions – a Class of behemoths like Hulk and super-soldiers like Captain America – typically have above average base attributes like Health, Attack, and Armor. These raw stats cannot be affected by pesky Mystics and their removal abilities: Nullify and Purge.
+Mystic Champions are still effective against Cosmic Champions.
+• Cosmic Champions explore strange new beneficial effects to seek out new power and new abilities, to boldly take their attributes where no class has gone before. Well, not if Mystic Champions – who are fully capable of stripping Cosmic Champions of their beneficial effects – have anything to say about it! Maybe it’s the Mystic Agenda to protect the secrets of the universe?
+These changes ensure that having a Class Bonus always gives you the advantage it promises, as it now also reflects ability trends for a particular Class. Please keep in mind that these are generalizations, and some Champions abilities may not always strictly align with these relationships. Learn more about Champions’ abilities by viewing their profiles and tapping on features for detailed information.
+• When you attack someone, you charge up their Power in addition to yours. This meant they would reach a full three bars while you only reached one and a half. We've reduced the amount defenders receive such that you'll be at two bars when they're at three. This change maintains the underdog functionality to give defenders a chance to comeback while being less punishing to players earning high Combos.
+New damage types for attacks now play a larger role in the abilities of Champions. For example, some heroes power-up by successfully blocking magical damage, while others’ abilities may harm anyone that makes physical contact with them.
+New Resistances and Immunities have found their way to the Battlerealm. Some heroes are completely immune to specific status effects based on either lore from the comics or logic. For example, the android Vision has no blood, and is therefore fully immune to Bleed conditions. We’ve also strengthened the effectiveness of certain status effects, so be careful who you choose to bring into battle! Could you guess who might be immune to the new “Poison” condition?
+• Poison: Inflicts damage over time and reduces healing and regeneration effectiveness.
+• Unstoppable: A buff to shrug off the impact from attacks, but still take the damage.
+• Weakness: A debuff that reduces Attack attributes.
+• Heal Block: Fully prevents the target from gaining health in any way.
+• Power Lock: Seals the target, preventing them from gaining any Power.
+• When fighting, you may notice that many status effects are now able to stack. This also changes how certain beneficial “buffs” and detrimental “debuffs” interact with one another. For example, it's now possible to have both Armor Up and Armor Break effects on you simultaneously. Let the tug-o-war begin, and may the strongest effects win!
+• Black Bolt's Corkscrew: +25% damage, but at the cost of minor recoil damage.
+• Punisher's “Wrath” has been replaced by "Payback". Payback deals additional damage based on the total damage dealt to Frank.
+• Colossus' “Unbreakable” now deal bonus damage based on his armor level at the time of activation.
+• All of Black Panther’s special attacks now deal bonus damage based on the number of Bleeds on the target.
+• Spider-Man’s Web-Slinger now has a chance to inflict Weakness.
+• Vision’s Physical Disruption: Added a minor Power Burn effect due to “his” use of his Infrared Beam. “He” also now purges all status effects while phasing through the ground.
+• Scarlet Witch: Increased the Critical Hit Chance for Hex Bolt and Hex Sphere.
+• Many knockback effects have been adjusted to improve consistency.
+We’ve tested the Signature Abilities quite extensively before releasing them, but there have been a few abilities that we have been keeping an eye on. We’ve compared our notes with the feedback you’ve been sending us and are making some balance changes to them. Thanks for your feedback!
+Slightly reduced the frequency and duration of Juggernaut’s “Unstoppable” ability.
+• He was indeed a bit too...unstoppable. We’ve toned down the frequency this ability triggers, as well as reduced the duration it’s active for when it does trigger. We feel Juggernaut is still a powerful Champion despite these revisions. Take care!
+Slightly reduced the starting values of Wolverine's “Cellular Regeneration”.
+• We found that Cellular Regeneration was too strong at lower levels where fewer counters to Regeneration exist.
+Re-scaled Gamora's “Assassination” to start higher but scale slower.
+• At lower levels, Special Attacks were used too infrequently, giving this powerful ability little visibility. We’ve adjusted the scaling to better match Special Attack usage at all levels.
+Increased the frequency that Black Bolt’s “Provocation” triggers.
+• Due to the varying Critical Hit rates across all Champions, in some cases Provocation would trigger rarely or not at all within a fight. We’ve increased the frequency to ensure you’ll see it every match – but especially so against opponents with high Critical Hit rates.
+We’ll continue to follow the effect of these new abilities on gameplay. Please keep your feedback coming!
+Hey everyone! We have been hard at work on improving the game and have prepared a big update inspired in part by your great community feedback. Please keep letting us know what you think!
+• Fixed many Dash, Medium, Heavy and Special Attacks missing or failing to execute.
+• Added Alliances and a new Alliance Crystal.
+• Rocket Raccoon and Unstoppable Colossus join The Contest.
+• Temporary Boosts to Attack, Health, and XP are now available from the Alliance Crystal.
+• Rewards for completing and exploring Chapters and Acts. Earn a guaranteed 3-Star hero crystal for each fully explored Act! This is retroactive, just complete any quest to claim them.
+• A new Fight Menu combines The Arenas, Story Quests and Event Quest menus.
+• Updated Summoner Profiles with new information. Inspect other players’ Profiles and brag about your achievements!
+• A list of blocked users has been added to Chat windows. The option to unblock these users is found in this new menu. The power is in your hands now!
+• We fixed Dash and Medium Attack issues for many heroes that sometimes missed or did not activate.
+• We fixed issues to Drax and Colossus Light and Medium Attacks where they would not connect.
+• Fixed an issue where the camera would stop moving after a level 3 special sequence.
+• Fixed an issue where the player’s heavy attack would get stuck in charge even after the player has released input.
+• Fixed a rare bug where Champions were still able to deal damage after they died, resulting in tied fights.
+Form Alliances with your Friends!
+What is better than playing? Playing with your friends! Create a new Alliance or join an existing one through the new Alliance Menu.
+• Invite other players to your Alliance.
+• Search for an Alliance by name or join a Recommended Alliance.
+• Receive rewards for entering your first Alliance.
+• Alliance News Feed. The news feed celebrates your Alliance member’s achievements.
+• Alliance Chat. Chat with other members of your Alliance in a private channel all to yourself.
+• Help Allies. Players can ask for help when out of Energy or Stamina. Alliance members help each other as much as they can to earn Loyalty Points. Loyalty points have a daily limit to how many can be earned.
+• Alliance Crystal. Access a new Alliance Crystal while part of any Alliance. Use new Loyalty Points for purchasing Alliance Crystals.
+He may start out slow, but watch out for his immense power at high ranks!
+• Adjusted the range of many Heavy Attacks, including Hulk and Drax, to ensure they correctly connect with enemies.
+• Many Special Attacks, including those for Wolverine, Iron Fist, Winter Soldier, Punisher, Black Panther, and many others have had their range adjusted to ensure they correctly connect with enemies even if activated immediately after a combo that knocked the enemy back.
+• Payback and Unbreakable now display their maximum potential damage bonus.
+• Added detailed descriptions for Bleed Immunity and Poison Immunity.
+• Gamora: We’ve adjusted the scaling of her base Special Attack damage to ensure they scale up more similarly to other heroes. This also makes Gamora more reliant on her high Bleed damage, and improves the chances of opponents able to deal with her high Bleed.
+Vital Strike and Jade Assassin damage decreased by 10%.
+Godslayer damage increased by 10%.
+• Magik: Rewind is a game-changer for Magik that allows her to go up against foes like Gamora and Rewind off big Critical Hits and Bleed damage; however, the frequency of Rewind triggering was too low to be there when she needed it.
+Increased the likelihood Rewind triggers by +20% at all levels.
+Rewind now heals over one second instead of instantly.
+Fixed a bug allowing Magik to break out of an enemy combo using Rewind. It now only removes Status Effects.
+• Hulk: Given the riskiness of losing Health in certain game modes, Hulk’s anger-management provided too little help too late in the game. We’ve increased the Attack boost to ensure he’s appropriately scary in all game modes – as long as he’s angry!
+Increased Hulk Rage by +20% Attack at all ability levels.
+Arc Overload no longer causes Armor Break when it expires.
+• Vision: Added Poison Immunity to our robot friend.
+Arena tuning is an ongoing process. The team is continually making adjustments to Arenas to improve the experience.
+Ultron has infected The Contest!
+Many new Champions join the battle against Ultron.
+Quest through the new Ultron’s Assault Event.
+Wield new power with Summoner Masteries.
+Grow your Friend’s List with the new Social Hub.
+Team up with your Alliance in new Events, Arenas, and more!
+Filter and sort your Stash.
+Fights have been optimized for performance improvements on all devices.
+Users can now filter through the items in their Stash.
+Fixed several issues where Hero Rating would fluctuate.
+Fixed a bug with Rhino and Juggernaut having 11-20% more Armor than intended.
+Fixed a bug with Rocket Raccoon’s Dash attack being slower than intended.
+Added a confirmation popup when spending Units on stamina recharges and unlocking arenas.
+Regeneration no longer displays green Health values if you’re at full Health.
+Several new improvements to how status effects are displayed.
+AI opponents are no longer able to perform one unavoidable attack in response to a Special Attack 3.
+A new and improved look for all Health Potions in the Battlerealm.
+All Revive Potions now revive your Champions with +10% more Health.
+We’re adding so many new Champions, they could form their own Alliance!
+Some of your favourite heroes of the Marvel Cinematic Universe join The Contest!
+Summoner Mastery is on the horizon!
+Masteries provide beneficial effects for your Champions.
+Access Masteries through your Summoner Profile.
+Earn Mastery Points when you level up.
+Choose your Masteries wisely and strategically customize your benefits.
+Recover your points to try a new specialization as often as you’d like.
+Keep an eye on in-game messaging for more information.
+The daily loyalty limit has been set to refresh at 08:00UTC for all players.
+A timer has been added to show when the daily loyalty limit resets.
+Loyalty balance is now displayed in the Alliance menus.
+Ask for Versus help with a single tap on the ‘Help’ icon in Team Select.
+New Alliance Events are coming very soon!
+Work together with your Alliance to complete objectives and receive rewards!
+Muster your might, Alliance Arenas will soon open their gates!
+Competing in Alliance Arenas shares your points across your whole Alliance; work together to reach milestones and top ranks!
+Work together to amass a huge score, and defeat your competition in classic Arena combat! No slackers here either - if you don’t contribute to win the competition, you’re not eligible for the goods!
+All social features (Chat, Mail, and Friends) can now be accessed through the new Social Hub.
+Search for and add friends, and send private messages to Summoners on your Friends List.
+Redesigned chat and mail screens.
+Take on other Summoners’ top Champions for bragging rights and prizes in 1-on-1 Duels!
+A new series of special Ultron quests are available, starting with the first Chapter. Fight back against Ultron’s infection alongside the Summoner, and team up with some of Marvel’s finest! New quests unlock each week!
+The Spider-Man Champion gate has been removed from Act 1, Chapter 1, Quest 5.
+• Fixed an issue where chat snapped to the most recent message.
+• Fixed several issues where Hero Rating would fluctuate.
+• Various improvements to the Summoner Mastery screens and descriptions.
+• Increased the ISO8 awarded by duplicate 2-Star Champions.
+Quest through the new single-player campaign, Ant-Man’s Adventure!
+In addition to Ant-Man and Yellowjacket feuding throughout the Battlerealm, additional new Champions will be joining The Contest!
+Access more Masteries in the new Utility Mastery tree!
+Please note, these changes may result in a loss of Hero Rating as incorrect effects are restored back to normal levels.
+Improved and polished combat mechanics to reduce the amount of stutters and lost input.
+Fixed and optimized rendering related issues with Metal enabled devices.
+Team up with Ant-Man, and put a stop to Yellowjacket’s mysterious mission!
+All Alliance Quests only last for a specified amount of time, defeat the boss with your Alliance before it expires!
+New Prestige System - A dynamic difficulty and score setting that adjusts as you and your Alliance succeed in harder quests. The better you do and the tougher your Alliance is, the higher the prestige. The higher the prestige, the better the rewards!
+Choose your teams carefully as Champions within Alliance Quests cannot be used in other Story or Event Quests.
+Act 4 has been released! Play Chapter 1 now!
+Summoner level maximum has been increased to level 60!
+5-Star Champions are coΩming to The Contest! These are the most powerful Champions yet!
+Additional improvements have been made to the UI, Versus Arenas, Synergy Bonuses, the Stash & Items Store.
+Act 4 - Chapter 1 released!
+New challenges - more path variation and features to challenge the strongest Summoners!
+Greater challenge means greater rewards! Earn 4 Star Crystals and Mastery Points!
+The Summoner Level cap has been increased by ten levels to level 60!
+Champion Items will be coming soon! These allow you to apply items and buffs to a specific Champion, keep an eye out for updates on these new Champion Items!
+Synergy Bonuses have updated iconography and the calculation has been updated to a distinct, additive bonus - What you see is what you get!
+Alliance class distribution is now displayed on team select - Choose the right class!
+Your Catalysts now have their own inventory, and will no longer appear in the Upgrade Item inventory.
+The Stash is now separated into three tabs: Catalysts, Rewards and ISO, allowing you to sort and view your Stash much faster!
+The UI flow for both Quests and Arenas have been greatly improved. You can now skip through fight victory and reward animations!
+Here is the rundown of patch 5.1.0, filled with various bug fixes and optimizations. The important ones to note are below.
+New Champions, new theme, and a new arena!
+To celebrate our one year anniversary AND the holidays, we’ll be running a special event quest! Battle through the history of The Contest, and test your mettle against familiar faces both old and new!
+A special reward will be available to those who master every quest!
+Our Anniversary Celebration will be happening very soon; stay tuned for more info!
+More Act 4 quests are coming very soon!
+Opponents in Story Quests now have the ability to use their Special 3 attack! Note that we are not changing previous quest opponents to have this special attack (Act 1-3, Proving Grounds, Realm of Legends will not change); this will be in effect starting with the soon-to-be-released Act 4 content.
+As with our previous major build releases (3.0’s Ultron, 4.0’s Ant Man, and 5.0’s Battlerealm), the Contest has been reskinned with a new theme!
+The Road to Knowhere map is here! Fight in a new level inspired by Guardians of the Galaxy!
+A new button in your Alliance Chat to take you directly to Alliance Quests!
+You can now collect Catalyst Fragments in Event Quests, Proving Grounds, and Alliance Quests; these can be pieced together into a Catalyst!
+Selling Items is now a thing! Sell any items in your inventory for gold!
+Level 3 and Level 4 Health Potions have arrived! These are powerful instruments to help you tackle all the new Act 4 content!
+Over 400 bugs were fixed in this patch!
+This patch is a fix for the missing Champions during the Special 3 animation on Android devices.
+This issue occurred during our upload process to the Google Play Store. This was an odd edge case scenario that we could not have caught during our internal tests, as it began appearing once we uploaded to the Google Play Store. This hotfix will be out by tomorrow, and will put Android at version 6.0.1. As this issue does not occur on iOS devices, iOS will remain at version 6.0.
+3:30pm PST: We have started slow-rolling this patch out to Android devices, beginning with about 20% of users. We expect this to be available for 100% of users within the next 24 hours.
+We have a few new Champions that you will see within the next couple of months (including one of my personal favorites)!
+Over 200 total bugs squashed in this patch!
+An artifact left over from the early days of the contest was Black Panther’s ability to gain a Critical Hit Rate boost during Special 3 attacks. As many might know, Critical Hits aren’t possible during a Special 3 anymore, making this effect...unhelpful. We’ve switched it out with a new ability to stack up even more Bleed effects on the opponent based on how many Bleeds are already active.
+Example: The opponent has 4 stacks (instances) of Bleed on them when you launch a Special 3. With this new ability, you have a chance to add an additional 0 - 4 more stacks (instances) of Bleed.
+Previously, a bug existed that allowed champions with Evade to continue to dodge Black Widow’s attacks, even if her Signature Ability was maxed out. This issue has been fixed.
+Captain America WW2 has started to become outpaced by his non-WW2 counterpart and while we want the two to feel different and each have their own specific uses, we also want to ensure they are kept within range of each other in terms of balance. To accomplish this, we’ve given WW2 Cap the ability to Stun with his Special 1 and Special 3 attacks, but kept his Bleed on Special 2 the same, giving him options during combat against non-bleeding champions.
+A bug that prevented Daredevil from triggering Armor Breaks from Heavy Attacks has been fixed and is now working as intended.
+Against non-bleeding champions: Critical Hits have a chance to Armor Break on Special Attacks.
+Increase range of Signature to 25% from 20%.
+Many players found Elektra’s signature ability lacked enough opportunities to use it. To remedy this, we’ve increased the range from 20% to 25%. Additionally, to help make Elektra unique from other skill champions, we’ve given her the ability to deal with naturally Bleed Immune champions. Note: This Armor Break only applies to champions naturally immune to bleed, such as Colossus and Ultron, and not to champions granted Bleed Immunity from Local or Link Nodes.
+Guillotine’s Bleed effect used to have a chance to activate from any given attack, meaning that it had to be kept quite weak to compensate for the frequency of triggers. We’ve made the switch to have her Bleed behave closer to existing champions, and in doing so have boosted the strength of the Bleed and have allowed it to stack.
+Norman Osborn overloads the Arc Reactor in his chest if Health drops below 10%, granting a large burst of power, with (18% - 48% ) Armor, Regeneration, and Power Gain. After that, his suit burns out and cannot trigger Armor Up, Armor Break or Stun and loses all base Armor.
+Many players didn’t like Iron Patriot’s old signature ability, feeling that due to the lack of Regeneration, it was considerably weaker than Iron Man’s. While we agreed, we didn’t want to just copy and paste his signature ability, but rather give him his own unique twist on the ability. This “all or nothing version” feels more like Norman Osborn, pushing his suit to the limit to get a larger boost but at the cost of damaging the suit. The addition of Power Gain allows Iron Patriot a large attack before the suit burns out, if timed correctly.
+Heavy Attacks: 90% chance to Stagger the enemy for 8 seconds. A Staggered enemy cannot gain their next beneficial effect.
+All versions of Juggernaut, even those who haven’t been awakened, now gain the 2 second Unstoppable ability at the start of the fight when they hit Rank 2.
+We wanted to add some new functionality to Juggernaut, while also keeping him true to his Mystic class assignment. To accomplish this, we added this “buff smasher” effect which keeps an opponent from gaining their next beneficial effect. Additionally, we wanted to make non-awakened versions of Juggernaut more fun to play, without adding more power to the awakened variations. As a result, we gave all versions of Juggernaut the ability to become Unstoppable at the start of the fight.
+While many players liked the new functionality of Star-Lord’s Element Gun effect, they found it to be a little too random, specifically when it would Heal Block a champion incapable of Healing. We’ve now added in some contingencies that will make Heal Block appear less unless the opposing champion shows that he / she can Heal during the fight. This includes both activated healing effects, such as Wolverine or Ultron’s Heal, or passive healing effects gained from Masteries, such as Salve or Willpower.
+It’s been a bit weird that Bucky wasn’t friends with his most famous friend. Well, he is now. This affects 3 Star and above versions.
+We’ve increased the overall speed of this attack, allowing quick players to use this ability after a four or five hit combo.
+It seems the Marvel’s have gotten tired of their beams being dodged so easily and have decided to angle it a little better, increasing the overall range of the attack and making it harder to dodge away from. We’ve also increased the speed of both special attacks to allow them to better flow into combat.
+In order to allow this attack to better flow in combat, we’ve shaved off a few frames from the beginning, allowing players to chain this attack into 4 and 5 hit combos.
+Alliance Wars have arrived! It’s Alliance versus Alliance in a war for Battlerealm supremacy!
+Enter the NEW Loyalty Store to buy Alliance Potions, Mastery items, or other EXCLUSIVE items.
+Gain Power back from Special Attacks, enhance or defend against Special Attacks, OR gain a temporary Arena Point Boosts with hoards of new Summoner Boost items!
+Additional changes and improvements are listed below.
+This patch will be released February 24th.
+A new area of the Battlerealm has been opened! Compete with your Alliance-mates for pride, glory, and PRIZES!
+Matchmake to find a rival Alliance, then combine strategy and teamwork to dominate them.
+Setup the ultimate defensive team to fortify your Battlerealm, then take your offensive team on the assault!
+Watch your War Rating skyrocket as your Alliance works together to defeat rivals!
+Load up on Crystal Shards, Loyalty, and brand new exclusive rewards!
+Note that this will be slow-rolled to Alliances in phases, similar to the introduction of Alliance Quests (to ensure server stability and gather your feedback on the new mode). Expect tuning changes throughout these phases, as well as into Season 1.
+Use Loyalty instead of Units to obtain items for Alliance Quests & Wars!
+Items will rotate daily, similar to how the Mastery cores in the current Store change.
+Store contents will be randomly chosen from a pool of categories/items; a select few items will be persistent and always be available for purchase.
+A 5-Star version of Unstoppable Colossus will be available in the Loyalty Store (keep in mind, this is an expensive Champion due to his exclusivity; this will require winning quite a few Alliance Wars and saving up!).
+This is accessible from the “Store” section of the pop-down menu, and will be available at a later date after the initial 7.0 launch; there will be advance notice through forums and in-game before we release the Loyalty Store.
+New Summoner Boosts have arrived in the Loyalty Store; NEW Boost types, purchasable with Loyalty Points.
+Class specific Boosts, such as Mystic Champions restoring power after using Special Attacks 2 and 3, or Skill Champions boosting their Special Attack Damage.
+Defensive Boosts, where your Champions take reduced incoming Special 3 Attack Damage.
+Gain a temporary Arena Point boost with new Arena Boost items!
+Fixed an issue where, after Parrying certain Champion’s Special Attacks, your Champion would be stuck in a blocking state until the Special Attack finished.
+Fixed an issue where 90s Cyclops’ Armor Breaks would not remove Armor Ups.
+Fixed an issue with Scarlet Witch’s Signature Ability proc rate (previously, the % chance displayed did not match in-game functionality; this is now fixed).
+(Netflix) Daredevil’s Heavy Attack now has a chance to apply 2 stacks of Armor Break, instead of the previous 1 stack.
+When spending Battlechips to enter an Arena (such as the Tier 4 Basic or Alpha Catalyst Arena), there is now a confirmation popup.
+The Alliance Crystal now has a purchase limit that resets daily.
+Permanently increased the Alliance Crystal’s points in Summoner Advancement (from 30 to 300).
+Updates to Champion Special Attack animations, flow, and timing.
+7.0.1 will be released within the next few days.
+A celebration message is sent to the War Room when an Alliance War battlegroup is cleared.
+Players can now tap directly on another node icon while the tile info popup is open (previously, the popup had to be closed before selecting another node).
+Alliance’s reward tier position is now highlighted in the Alliance War tier breakdown.
+In Attack Phase, players can view the score breakdown for both the battlegroup and overall.
+The “Place Your Defenders” text now disappears much faster after tapping on the screen.
+Mail messages now display the date they were sent.
+It should be much harder to accidentally tap the Units Store when closing a screen.
+Players can tap to skip the point animation in Versus mode again.
+Resolved an issue with Class Masteries (specifically Mystic Dispersion) not functioning.
+The Juggernaut issue with his linked nodes not appearing in Act 4, Chapter 3, Quest 3 (4.3.3) has been fixed.
+Fixed a crash that occurs when a player who is not in an Alliance enters Alliance Wars through an outside link.
+Fixed a text issue where Alliance War specific descriptions would appear on the Alliance Quest “Select a Battlegroup” screen.
+Resolved ~20 various rare crashes and additional minor issues in different game modes.
+Fixed and optimized performance on the new Samsung S7.
+Fixed an Unknown Error that occurred rarely after a device was woken after going to sleep.
+Improved Performance(Frames Per Second) tracking per fight to help diagnose hitches/pauses/lag spikes during gameplay.
+Improved gesture tracking(Swipe, Tap, Hold) during low performance moments in combat.
+Fixed a rare crash that would sometimes occur when receiving a phone call while in combat.
+Tuned and updated many Champion Special Attack animations to improve timing and combat flow. Please see the expanded forum post HERE for a full list.
+Fixed She-Hulk’s Special Attacks being marked as a projectile (allowing Daredevil to evade them).
+Fixed an issue where the player would be stuck in place after parrying Captain America’s Special 1.
+Fixed an issue where chaining 2 medium attacks into Old Man Logan’s Special 2 would cause the first 2 strikes to miss opponents.
+Fixed an issue with Daredevil or Spider-man missing with a dash attack if Vision charges a heavy attack during the dash.
+Fixed an issue where some hidden information in Alliance Wars was visible.
+Fixed a display issue where Defender Placement percentage was not displaying all placed Alliance members.
+Resolved minor issue with the total Alliance’s score being displayed on the War Progress widget (now only displays the score of the battlegroup being viewed).
+Multiple minor Alliance War issues have also been fixed in this patch.
+Fixed a display issue where Shard amounts provided by defeating a boss displayed as double.
+Fixed a display issue where opponent PI values would display differently between the map, prefight screen, and in combat.
+Boss power is now correctly displayed after removing Global and Linked boosts.
+Fixed an issue where a player in Alliance Quests would lose input ability on the quest board after sleeping the device.
+Fixed an issue where a player enters Alliance Quests and gets stuck after viewing the linked node or buff node tutorial.
+Fixed an issue where sending an Alliance invite to a player would cause the “Add Friend” button to become greyed out.
+Fixed a text issue that appears when viewing Featured Hero information from the Home Screen.
+Join The Iron or fight for The Blue with new events, quests, Champions, and special Shards; inspired by Marvel’s Captain America: Civil War!
+Solo Events: constantly-evolving events that vary in length, requirements, and prizes!
+Compare statistics against other players and Alliances with the new Leaderboards!

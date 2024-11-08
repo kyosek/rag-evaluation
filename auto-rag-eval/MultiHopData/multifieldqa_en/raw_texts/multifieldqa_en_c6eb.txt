@@ -1,0 +1,222 @@
+2008年5月31日 随笔档案 - 狼爱上狸 - BlogJava
+本地搭建以太坊私有网络-基于Ganache和MetaMask
+本文主要介绍如何使用Ganache，在本地搭建以太坊私有网络，并进行简单的测试。
+Ganache用于搭建私有网络。在开发和测试环境下，Ganache提供了非常简便的以太坊私有网络搭建方法，通过可视化界面可以直观地设置各种参数、浏览查看账户和交易等数据。
+下载地址为：https://truffleframework.com/ganache/
+MetaMask用于测试私有网络。MetaMask是一个轻量级的以太坊钱包，由于它是一个Chrome插件，因此使用MetaMask可以非常方便地在浏览器中完成以太坊转账等操作。
+下载地址为：https://www.metamask.io
+安装、启动Ganache
+1. 使用安装包安装即可。
+2. 打开程序后，会显示以下界面，用户可以查看账户（默认创建10个账户）、区块、交易和日志。
+3. 点击“设置”，如下图所示，用户还可以设置绑定的ip和端口（设置为8545即可，稍后MetaMask会用这个端口）、账户数量以及gas限制等，点击“restart”后设置生效。
+此时，Ganache已经在本机运行了一个以太坊私有网络，并绑定了8545端口。
+安装、启动MetaMask
+1. 把插件添加到chrome扩展程序即可
+2. 点击Chrome中的MetaMask图标，按照每一步提示启动MetaMask
+3. 如下图所示，设置MetaMask连接到本地的以太坊私有网络
+此时，MetaMask就可以和本地的以太坊私有网络进行交互了。
+用MetaMask测试私有网络
+1. 从Ganache创建的账户中选择一个导入到MetaMask中
+a. 在Ganache账户页面选定一个账户，点击最右边的小钥匙图标，复制其私钥（private key）
+b. 在MetaMask中点击头像，选择 “import account”，弹出对话框
+c. 把复制的账户私钥填入文本框中，并点击“import”
+此时，MetaMask就可以操作这个新账户了。
+2. 用新导入的账户进行转账
+a. 点击“send”按钮，弹出转账对话框
+b. 从Ganache账户页面中，再选定一个其他的账户，复制其地址
+c. 把复制的地址填入到 “to” 文本框中，并在“amount”文本框中填入一个数值，表示要转账的金额（如 “10”）；其它文本框默认值即可
+d. 点击next，弹出转账确认框，点击“confirm”确认交易
+e. 提醒转账成功后，可以看到账户余额发生了变化，此时再转到Ganache账户页面，也可看到两个账户的余额也都发生了变化。
+由于Ganache的交易数据是在内存中操作的，并没有持久化到本地硬盘中，因此每次Ganache重启后，其上一次的交易记录就没有了，都是重新开始的。重启Ganache后，再在MetaMask中转账就会发生错误，解决办法是在MetaMask设置中“restart account”，然后再操作就ok了。
+如果想保留Ganache每一次运行时的交易数据，以便下一次继续使用，可以使用命令行的形式ganache-cli启动Ganache，并指定数据存储目录
+作者：BigCuttie
+原文：https://blog.csdn.net/starleelzx/article/details/82943530
+webstrom下载安装
+1.https://www.jetbrains.com/webstorm/download/ 下载2019.1.3版
+2.在网盘开发软件下载JetbrainsCrack3.4.jar、汉化包和激活码软件。
+3.将解压的.jar 破解补丁放在你的安装idea下面的bin的目录下面。如C:\JetBrains\WebStorm\bin
+4.在安装的idea下面的bin目录下面有2个文件 ： 一个是webstorm.exe.vmoptions，还有一个是webstorm64.exe.vmoptions。用记事本打开 分别在最下面一行增加一行：
+-javaagent:C:\JetBrains\WebStorm\bin\JetbrainsCrack3.4.jar
+5.重启一下软件，在进入出现有active code选择界面的时候，打开激活码.txt文件，输入即可，能够进入应用界面则表示安装破解成功
+安装intelliJ IDEA2018.3
+1.https://www.jetbrains.com/idea/download/previous.html 下载2018.3.6版本；
+2.在网盘开发软件下载JetbrainsCrack_jb51.rar软件，里面包含了JetbrainsCrack-4.2-release-enc.jar文件。
+3.将解压的.jar 破解补丁放在你的安装idea下面的bin的目录下面。如C:\JetBrains\IntelliJ\bin
+4.在安装的idea下面的bin目录下面有2个文件 ： 一个是idea64.exe.vmoptions，还有一个是idea.exe.vmoptions。用记事本打开 分别在最下面一行增加一行：
+-javaagent:C:\JetBrains\IntelliJ\bin\JetbrainsCrack-4.2-release-enc.jar
+5.重启一下软件，在进入出现有active code选择界面的时候，随便输入几个字母即可，能够进入应用界面则表示安装破解成功。
+Ubuntu16 升级nodejs版本
+Ubuntu16下，使用apt-get下载的nodejs最新版本为v4.2.6，而react-native需要v8.x及以上的版本
+在网上找到了这一篇博客Ubuntu安装最新版nodejs，用npm安装了Node工具包n，使用该工具包将nodejs安装到了目前的最新版本v10.6.0。在已经安装npm的基础上，具体操作如下：
+n是一个Node工具包，它提供了几个升级命令参数：
+n 显示已安装的Node版本
+n latest 安装最新版本Node
+n stable 安装最新稳定版Node
+n lts 安装最新长期维护版(lts)Node
+n version 根据提供的版本号安装Node
+作者：LDY_T
+原文：https://blog.csdn.net/u010277553/article/details/80938829
+献给那些安装remix-ide一直不成功的windows用户
+首先找到编译器git地址，https://github.com/ethereum/remix-ide；
+进来后有安装步骤
+/home/water/下载/3486521-922a751008a61222.png
+remix-ide.png
+如果我们电脑上没有node.js先登录下面的网址安装
+因为安装的过程中需要的权限功能比较多所以得用管理员执行powershell 不建议使用cmd操作
+安装好之后查看自己的 输入命令npm -v ，查看npm版本号如果低于6.1.0。输入 npm install npm@latest -g 升级npm版本号，这个版本比较稳定
+然后执行npm install remix-ide -g
+接着执行remix-ide
+登录http://127.0.0.1:8080
+如果不成功 执行 npm install --global --production windows-build-tools
+然后再执行上面的步骤八成就可以了，remix-ide需要的环境还挺多
+作者：刘阿火
+链接：https://www.jianshu.com/p/fb198cd619b9
+windows之geth账户建立
+建立新账号，最好用>personal.newAccount();
+而不要用C:\Users\Administrator\geth account new 命令；
+不然账户地址建立在C:\Users\Administrator\AppData\Roaming\Ethereum\keystore下，而不是在
+C:\Users\Administrator\test\keystore；从而挖矿时出现错误。
+IPFS(DRAFT 3) 中文版白皮书
+https://blog.csdn.net/easylover/article/details/82733578
+Akasha——基于以太坊和IPFS的社交网络
+在Akasha项目组测试各种代币模型并追求最优解决方案之后。
+Akasha项目同时使用了以太坊和IPFS技术，创建一个去中心化的社交网络。以太坊提供了身份系统、微支付等支持，IPFS提供了内容存储、分发等支持。最近Akasha发布了0.3.0测试版，爱折腾的用户可以在Akasha创建的以太坊私有测试网络上体验这个追逐理想的项目。
+说再多的理论，不如动手尝试。现在使用Akasha比较容易，无论你使用Windows操作系统，还是Mac操作系统，还是Linux系统，都可以一键安装。下载地址：https://github.com/AkashaProject/Alpha/releases/tag/0.3.0
+安装完成后，进入设置阶段。如果你以前安装过以太坊Go客户端或者IPFS客户端，选择“Advanced”，自定义配置。如果没有安装过，选择“Express setup”(快速安装)。
+Akasha后台的以太坊Go客户端和IPFS客户端开始运行，等到以太坊客户端同步区块到最新就可以进入Akasha网络。
+同步结束后，就可以进行注册。填写完注册信息后，点击Submit(提交)。提交这一操作会发送一笔交易，当这笔交易被矿工打包的区块中，注册就成功了。
+Identity Registered ! 注册成功。开始畅游Akasha世界
+进入你的个人主页。你可以关注某人(欢迎关ע@shaoping：)、某个主题。
+当然你也可以发表状态。每个状态需要至少加一个标签(tag)才能发布，你可以添加已有的标签，例如ethfans。你也可以自己创建一个新标签，创建新标签也会通过发送交易实现的。
+Akasha支持Whisper协议，可以在聊天室聊天。
+Akasha官网：https://akasha.world/
+来源：以太坊爱好者 http://ethfans.org/posts/Akasha-release-0-3-0
+有趣的椭圆曲线加密
+摘要: 一、概述 椭圆曲线加密算法依赖于椭圆曲线理论，后者理论涵盖的知识比较深广，而且涉及数论中比较深奥的问题。经过数学家几百年的研究积累，已经有很多重要的成果，一些很棘手的数学难题依赖椭圆曲线理论得以解决（比如费马大定理）。 本文涉及的椭圆曲线知识只是抽取与密码学相关的很小的一个角落，涉及到很浅的理论的知识，同时也是一点比较肤浅的总结和认识，重点是利用椭圆曲线结合数学技巧阐述加密算法的过程和原理。 本文... 阅读全文
+ipfs私有网络搭建
+ipfs私有网络搭建准备工作：
+1、至少准备2个ipfs的节点
+2、创建一个共享秘钥
+3、配置需要相互共享的节点。
+一、准备IPFS节点。
+1、准备两台linux节点，我测试的系统是Ubuntu 18.04 LTS（点击可以下载）。
+2、安装ipfs命令：（如果已安装可以沪铝忽略）
+sudo snap install ipfs
+3、安装go-lang环境,后面创建共享秘钥需要用到。（如果已安装请忽略）
+sudo apt-get install golang
+4、安装git。（如果已经安装请忽略）
+两台linux服务器均完成ipfs安装之后第一步准备工作便已完成。
+二、创建共享秘钥
+1、到github上面下载秘钥生成工具go-ipfs-swarm-key-gen。
+sudo git clone https://github.com/Kubuxu/go-ipfs-swarm-key-gen.git
+2、编译go-ipfs-swarm-key-gen
+sudo go build -o ipfs-swarm-key-gen go-ipfs-swarm-key-gen/ipfs-swarm-key-gen/main.go
+在当前目录会成一个ipfs-swarm-key-gen的可执行二进制文件。然后使用该文件生成一个swarm.key文件
+sudo ./ipfs-swarm-key-gen > swarm.key
+拷贝swarm.key文件到.ipfs目录中。（注意使用snap安装ipfs那么.ipfs目录在~/snap/ipfs/目录下，例如我的是在~/snap/ipfs/589/下）。
+三、配置相互共享的私有网络
+1、分别初始化两个ipfs节点。
+ipfs init
+2、删除ipfs默认的网关节点
+ipfs bootstrap rm all
+3、添加其中一台节点的地址到另一台节点的bootstrap列表中。
+3.1执行ipfs id查看ipfs节点的ID值。
+ipfs节点信息
+3.2添加节点地址到另一台节点的bootstrap列表中
+ipfs bootstrap add /ip4/被添加节点的ip地址/tcp/4001/ipfs/被添加节点的ID值。
+至此ipfs私有网络搭建完毕
+作者：embedsky
+链接：https://www.jianshu.com/p/cf70c5bc81ae
+win10时间不同步怎么办
+1.cmd
+2.services.msc
+3.Remote Procedure Call(RPC) Locator 自动启动
+4.与Internet时间服务器同步 选择 time.windows.com
+网的学位论文只有CAJ版，而我又偏偏使用Ubuntu，所以就有了这篇文章。
+前端时间发现第一种方法在ubuntu 16 上不行， 请使用第二种方法。
+环境：Ubuntu 14.04 64bit
+1.安装wine：
+2.下载caj6.0绿色版CAJViewer6.0_green.rar： http://pan.baidu.com/s/1mhwEvAK
+3.解压到目录cajviewer6.0：
+mkdir cajviewer6.0 unrar x CAJViewer6.0_green.rar cajviewer6.0
+sudo chmod u+x CAJViewer.exe //修改权限 wine CAJViewer.exe
+PS: 由于我装的是英文版系统，所以有乱码，但将就着还可以看啦～
+前段时间发现用Ubuntu16.04上边的这种不行了，请使用下边的方法：
+下载链接： http://pan.baidu.com/s/1jIqHxLs
+或 http://download.csdn.net/detail/arhaiyun/5457947
+压缩包里边有安装说明，这里边是7.2 的cajviewer版本。亲测可用。
+来自：https://www.cnblogs.com/asmer-stone/p/5197307.html
+https://morton.li/%E8%A7%A3%E5%86%B3ubuntu-18-04%E4%BD%BF%E7%94%A8root%E8%B4%A6%E6%88%B7%E7%99%BB%E5%BD%95%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2%E8%AE%A4%E8%AF%81%E5%A4%B1%E8%B4%A5/
+1. Gwenview
+是较好的一项应用，支持几乎所有图片格式，可进行基本的编辑、标签、缩略图、全屏、幻灯显示功能等等。
+sudo apt-get install gwenview
+2. Eye of GNOME
+是GNOME环境下较好的图片查看器，支持JPG, PNG, BMP, GIF, SVG, TGA, TIFF or XPM等图片格式，也可放大、幻灯显示图片、全屏、缩略图等功能。
+sudo apt-get install eog
+3. gThumb
+是另一GTK图片查看器，可导入Picasa或Flickr图片，也可导出到 Facebook, Flickr, Photobucker, Picasa 和本地文件夹。
+4. Viewnior
+是小型化的图片查看器，支持JPG和PNG格式。
+sudo apt-get install viewnior
+5.gPicView
+是LXDE下的默认图片查看器，操作按钮位于窗口底部。只需右击图片，实现所有相关功能。支持JPG, TIFF, BMP, PNG ， ICO格式。
+sudo apt-get install gpicview
+https://www.linuxidc.com/Linux/2011-03/33659.htm
+以太坊多节点(两个节点)私链搭建
+https://blog.csdn.net/apple9005/article/details/81282735
+ubuntu apt-get 安装 golang 版本过低问题
+apt-get install golang-go这样安装版本可能过低。
+go version查看版本为 1.6.2。
+apt-get 卸载此版本重新安装
+重新安装
+去官网查看最新版链接 https://studygolang.com/dl
+比如我要下的是 https://studygolang.com/dl/golang/go1.11.linux-amd64.tar.gz
+wget https://studygolang.com/dl/golang/go1.11.linux-amd64.tar.gz
+也可以到go语言中文网https://studygolang.com/dl下载最新版
+tar -zxvf go1.11.linux-amd64.tar.gz -C /usr/lib
+将解压后的文件夹go移动到 /usr/local
+输入命令： sudo mv go /usr/local
+设置添加环境变量
+sudo gedit ~/.profile 在最后面添加如下配置
+export PATH=$PATH:/usr/local/go/bin 或者
+export GOPATH=/opt/gopath export GOROOT=/usr/lib/go export GOARCH=386 export GOOS=linux export GOTOOLS=$GOROOT/pkg/tool export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+卸载老的go
+sudo apt-get remove golang-go
+结果 go version go1.11 linux/amd64
+https://blog.csdn.net/Booboochen/article/details/82463162
+https://www.jianshu.com/p/85e98e9b003d
+自从2015年开始使用ubuntu之后，就开始了各种折腾。可惜的是，linux下，能用的音乐软件实在是少之又少！网易云音乐勉强可以，但是经常打不开。烦死。偶然发现这个软件：CoCoMusic，才惊觉是ubuntu 18.04.2下最好用的音乐软件！没有之一! 同时也适用于linux mint19.1。即点即开！堪称是，linux下的酷狗音乐！下载地址：https://github.com/xtuJSer/CoCoMusic/releases，直接下载：cocomusic_2.0.4_amd64.deb安装即可。
+~$ cocomusic
+即可启动
+https://www.ubuntukylin.com/ukylin/forum.php?mod=viewthread&tid=188255
+ubuntu18.04安装扫描仪
+Linux下一般使用sane做为扫描仪后端，安装如下：
+sudo apt-get install sane sane-utils xsane
+@node1:~$ sudo sane-find-scanner
+found USB scanner (vendor=0x04a9 [Canon], product=0x190d [CanoScan]) at libusb:003:006
+device `pixma:04A9190D' is a CANON Canoscan 9000F Mark II multi-function peripheral
+期间也曾装过VueScan，可以识别扫描仪，但是要收费。
+$ simple-scan
+终于可以使用扫描仪了。
+HyperLedger Fabric链码开发及测试
+https://blog.csdn.net/TripleS_X/article/details/80550401
+fabric-samples
+https://github.com/hyperledger/fabric-samples
+Linux（Ubuntu18.04）安装Chrome浏览器
+一分钟安装教程！
+1、将下载源加入到系统的源列表（添加依赖）
+sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
+2、导入谷歌软件的公钥，用于对下载软件进行验证。
+wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+3、用于对当前系统的可用更新列表进行更新。（更新依赖）
+4、谷歌 Chrome 浏览器（稳定版）的安装。（安装软件）
+5、启动谷歌 Chrome 浏览器。
+/usr/bin/google-chrome-stable
+然后添加到状态栏即可。
+https://blog.csdn.net/hellozex/article/details/80762705
+cp: 无法获取".build/docker/gotools/bin/protoc-gen-go" 的文件状态(stat): 没有那个文件或目录
+在进行make docker时出现如下错误：
+[root@master1 fabric]# make docker
+mkdir -p .build/image/ccenv/payload
+cp .build/docker/gotools/bin/protoc-gen-go .build/bin/chaintool .build/goshim.tar.bz2 .build/image/ccenv/payload
+make: *** [.build/image/ccenv

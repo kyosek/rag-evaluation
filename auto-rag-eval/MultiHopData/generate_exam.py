@@ -215,7 +215,7 @@ def generate_exam(data: List[Dict[str, str]], step_size: int, task_domain: str, 
             chunk_data,
             k=4,
             similarity_threshold=0.9,
-            exclude_same_doc=True
+            exclude_same_doc=False
         )
         
         if not similar_chunks:
@@ -223,7 +223,7 @@ def generate_exam(data: List[Dict[str, str]], step_size: int, task_domain: str, 
                 chunk_data,
                 k=1,
                 similarity_threshold=0.01,
-                exclude_same_doc=True
+                exclude_same_doc=False
         )
         
         chunk_dict = [{"chunk_id": current_chunk.chunk_id, "doc_id": current_chunk.doc_id, "text": current_chunk.content}]
@@ -340,7 +340,7 @@ def main(data_path: str, output_path: str, task_domain: str, sample_size: int, s
 
 
 if __name__ == "__main__":
-    task_domain = "SecFilings"
+    task_domain = "qasper"
     data_path = f"MultiHopData/{task_domain}/docs_chunk.json"
     output_path = f"MultiHopData/{task_domain}/exam.json"
     sample_size = 1100
