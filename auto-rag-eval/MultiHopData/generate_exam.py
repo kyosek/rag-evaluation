@@ -4,6 +4,7 @@ import numpy as np
 import faiss
 import random
 import os
+import logging
 from typing import List, Dict, Tuple, Optional
 from sentence_transformers import SentenceTransformer
 from dataclasses import dataclass
@@ -11,6 +12,7 @@ import pickle
 from tqdm import tqdm
 
 from LLMServer.gcp.claude_instant import ClaudeGcp
+
 
 @dataclass
 class Chunk:
@@ -314,24 +316,25 @@ def make_l3_question_prompt(task_domain: str, chunks: List[Dict[str, str]]) -> s
 
 
 def main(data_path: str, output_path: str, task_domain: str, sample_size: int, step_size: int):
-    print("Start processing")
+    logging.info("Start processing")
     retriever = ChunkRetriever(task_domain, random_seed=42)
     model = ClaudeGcp()
 
-    if not os.path.exists('chunk_database'):
-        print("Load documents")
+    if not os.path.exists(f'MultiHopData/{task_domain}/chunk_database'):
+        logging.info("Load documents")
         retriever.load_documents(data_path)
         
-        print("Save the database")
-        retriever.save_database('chunk_database')
+        logging.info(f"Save the database to 'MultiHopData/{task_domain}/chunk_database'")
+        retriever.save_database(f'MultiHopData/{task_domain}/chunk_database')
     else:
-        print("Loading database from file")
-        retriever = ChunkRetriever.load_database('chunk_database')
+        logging.info("Loading database from file")
+        retriever = ChunkRetriever.load_database(f'MultiHopData/{task_domain}/chunk_database')
     
-    # Sample 5 random chunks with a specific seed
+    # Sample chunks with a specific seed
     sampled_chunks = retriever.sample_chunks(sample_size, seed=42)
     
     # Generate the exam
+    print("Start generating exam")
     exam = generate_exam(sampled_chunks, step_size, task_domain, retriever, model)
     
     # Save the exam to a JSON file
@@ -340,7 +343,7 @@ def main(data_path: str, output_path: str, task_domain: str, sample_size: int, s
 
 
 if __name__ == "__main__":
-    task_domain = "qasper"
+    task_domain = "wiki"
     data_path = f"MultiHopData/{task_domain}/docs_chunk.json"
     output_path = f"MultiHopData/{task_domain}/exam.json"
     sample_size = 1100
