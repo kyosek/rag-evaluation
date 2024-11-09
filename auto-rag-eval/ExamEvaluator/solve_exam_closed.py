@@ -141,19 +141,23 @@ def run_closed_book_exam(model_device: str, model_path: str, model_name: str, ta
 
 
 if __name__ == "__main__":
-    model_device = "GCP"
-    # model_device = "claude"
+    # model_device = "GCP"
+    model_device = "claude"
     model_path = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF"
-    model_name = "llama3-70b"
-    # model_name = "claude"
+    # model_name = "llama3-70b"
+    model_name = "claude"
     # task_name = "Arxiv"
     # task_name = "SecFilings"
-    task_name = "LawStackExchange"
+    # task_name = "LawStackExchange"
     # task_name = "StackExchange"
-    exam_file = f"Data/{task_name}/ExamData/ClaudeGcp_2024103117/exam_1000_42.json"
+    task_names = ["Arxiv", "LawStackExchange", "SecFilings", "StackExchange"]
+
+    for task_name in task_names:
+        print(f"Processing {task_name}")
+        exam_file = f"Data/{task_name}/ExamData/claude_gcp_2024110616/exam_1000_42.json"
     
-    # Create the full directory path
-    directory = f"Data/{task_name}/ExamResults"
-    os.makedirs(directory, exist_ok=True)
-    
-    run_closed_book_exam(model_device, model_path, model_name, task_name, exam_file)
+        # Create the full directory path
+        directory = f"Data/{task_name}/ExamResults"
+        os.makedirs(directory, exist_ok=True)
+        
+        run_closed_book_exam(model_device, model_path, model_name, task_name, exam_file)
