@@ -218,10 +218,10 @@ def main(task_domain: str, model_name: str):
 
 
 if __name__ == "__main__":
-    # task_domain = "gov_report"
-    task_domains = ["hotpotqa", "multifieldqa_en"]
+    task_domain = "wiki"
+    # task_domains = ["hotpotqa", "multifieldqa_en"]
     model_name = "claude"
     
-    for task_domain in task_domains:
-        print(f"Solving {task_domain}")
-        main(task_domain, model_name)
+    # for task_domain in task_domains:
+    print(f"Solving {task_domain}")
+    main(task_domain, model_name)
