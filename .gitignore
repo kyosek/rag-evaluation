@@ -2,15 +2,9 @@ lm-evaluation-harness/
 
 # Large files
 auto-rag-eval/Data/StackExchange/ExamData/claude_gcp_2024103016/exam.json
-auto-rag-eval/Data/StackExchange/ExamData/claude_gcp_2024110616/exam.json
 auto-rag-eval/Data/Arxiv/ExamData/claude_gcp_2024103108/exam.json
-auto-rag-eval/Data/Arxiv/ExamData/claude_gcp_2024110614/exam.json
 auto-rag-eval/Data/LawStackExchange/ExamData/claude_gcp_2024103117/exam.json
-auto-rag-eval/Data/LawStackExchange/ExamData/claude_gcp_2024110614/exam.json
 auto-rag-eval/Data/SecFilings/ExamData/claude_gcp_2024103117/exam.json
-auto-rag-eval/Data/SecFilings/ExamData/claude_gcp_2024110616/exam.json
-
-auto-rag-eval/MultiHopData/SecFilings/raw_texts
 auto-rag-eval/MultiHopData/SecFilings/docs_chunk.json
 
 *.out
@@ -179,4 +173,3 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
 .vscode/
-auto-rag-eval/Data/StackExchange/ExamData/claude_gcp_2024100421/exam.json
