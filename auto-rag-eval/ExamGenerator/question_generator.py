@@ -11,7 +11,7 @@ from typing import List
 
 from ExamGenerator.utils import read_jsonl
 from LLMServer.llama.llama_instant import LlamaModel
-from LLMServer.gcp.claude_instant import Claude_GCP
+from LLMServer.gcp.claude_instant import ClaudeGcp
 from LLMServer.llm_exam_generator import LLMExamGenerator, LlamaExamGenerator, ClaudeExamGenerator
 
 logger = logging.getLogger(__name__)
@@ -34,11 +34,11 @@ class BatchExamGenerator:
             # 'claude_instant': ClaudeExamGenerator(step_size=1,
             #                                       task_domain=self.task_domain,
             #                                       llm_model=ClaudeInstant()),
-            # "llama": LlamaExamGenerator(
-            #     step_size=1, task_domain=self.task_domain, llm_model=LlamaModel()
-            # ),
+            "llama": LlamaExamGenerator(
+                step_size=1, task_domain=self.task_domain, llm_model=LlamaModel()
+            ),
             "claude_gcp": ClaudeExamGenerator(
-                step_size=1, task_domain=self.task_domain, llm_model=Claude_GCP()
+                step_size=1, task_domain=self.task_domain, llm_model=ClaudeGcp()
             ),
         }
         assert not (any([model not in self.model_map.keys() for model in self.model_list]))
@@ -87,7 +87,6 @@ class BatchExamGenerator:
                 generated_questions = {
                     model: self.model_map[model].generate_exam(batch) for model in self.model_list
                 }
-                time.sleep(0.1)
 
             # Write the dictionary to a JSON file
             for model in generated_questions.keys():
@@ -126,11 +125,11 @@ if __name__ == "__main__":
 
     raw_exam_generator = BatchExamGenerator(
         data_path=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main/",
-        batch_size=100,
+        batch_size=60,
         task_domain=main_args.task_domain,
         model_list=["claude_gcp"],
     )
 
     raw_exam_generator.batch_generate_exam(
-        data_folder=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main/data_2024092613.json"
+        data_folder=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main/data_2024100123.json"
     )
