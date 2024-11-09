@@ -11,7 +11,7 @@ from typing import List
 
 from ExamGenerator.utils import read_jsonl
 from LLMServer.llama.llama_instant import LlamaModel
-from LLMServer.gcp.claude_instant import Claude_GCP
+from LLMServer.gcp.claude_instant import ClaudeGcp
 from LLMServer.llm_exam_generator import LLMExamGenerator, LlamaExamGenerator, ClaudeExamGenerator
 
 logger = logging.getLogger(__name__)
@@ -38,7 +38,7 @@ class BatchExamGenerator:
                 step_size=1, task_domain=self.task_domain, llm_model=LlamaModel()
             ),
             "claude_gcp": ClaudeExamGenerator(
-                step_size=1, task_domain=self.task_domain, llm_model=Claude_GCP()
+                step_size=1, task_domain=self.task_domain, llm_model=ClaudeGcp()
             ),
         }
         assert not (any([model not in self.model_map.keys() for model in self.model_list]))
