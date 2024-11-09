@@ -193,7 +193,7 @@ class ExamSolver:
         return metrics
 
 
-def main(task_domain: str, retriever_type: str, model_name: str):
+def main(task_domain: str, model_name: str):
     if model_name == "GCP":
         print("Using transformer")
         model = LlamaGcpModel(
@@ -207,6 +207,7 @@ def main(task_domain: str, retriever_type: str, model_name: str):
         print("Using Llama-cpp")
         # model = LlamaModel(model_path=model_path)
     
+    print("Solving the exam")
     solver = ExamSolver()
     questions = solver.load_exam(f"MultiHopData/{task_domain}/exam_cleaned_1000_42.json")
     metrics = solver.evaluate_performance(questions, model)
@@ -217,8 +218,10 @@ def main(task_domain: str, retriever_type: str, model_name: str):
 
 
 if __name__ == "__main__":
-    task_domain = "SecFilings"
-    retriever_type = "Dense"
+    # task_domain = "gov_report"
+    task_domains = ["hotpotqa", "multifieldqa_en"]
     model_name = "claude"
     
-    main(task_domain, retriever_type, model_name)
+    for task_domain in task_domains:
+        print(f"Solving {task_domain}")
+        main(task_domain, model_name)
