@@ -164,13 +164,13 @@ def run_rag_exam(model_device, model_path: str, model_name: str, task_name: str,
 
 
 if __name__ == "__main__":
-    model_device = "GCP"
-    # model_device = "claude"
+    # model_device = "GCP"
+    model_device = "claude"
     model_path = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF"
     # model_name = "llamav2"
-    # model_name = "claude"
-    model_name = "llama3_70b"
-    task_name = "StackExchange"
+    model_name = "claude"
+    # model_name = "llama3_70b"
+    # task_name = "StackExchange"
     # folder_name = "claude_gcp_2024103016"
     # task_name = "SecFilings"
     # folder_name = "claude_gcp_2024102118"
@@ -179,15 +179,19 @@ if __name__ == "__main__":
     # folder_name = "claude_gcp_2024103108"
     # task_name = "LawStackExchange"
     # folder_name = "claude_gcp_2024103117"
-    folder_name = "claude_gcp_2024103016"
-    exam_file = f"Data/{task_name}/ExamData/{folder_name}/exam_1000_42.json"
+    # folder_name = "claude_gcp_2024103016"
+    folder_name = "claude_gcp_2024110616"
     retrievers = ["BM25", "DPR", "SIAMESE", "MultiQA", "DPR:MultiQA:BM25"]
+    task_names = ["Arxiv", "LawStackExchange", "SecFilings", "StackExchange"]
     
-    # Create the full directory path
-    directory = f"Data/{task_name}/ExamResults"
-    os.makedirs(directory, exist_ok=True)
-    
-    for retriever in retrievers:
-        print(f"Retriever: {retriever}")
-        torch.cuda.empty_cache()
-        run_rag_exam(model_device, model_path, model_name, task_name, exam_file, retriever)
+    for task_name in task_names:
+        print(f"Processing {task_name}")
+        exam_file = f"Data/{task_name}/ExamData/{folder_name}/exam_1000_42.json"
+        # Create the full directory path
+        directory = f"Data/{task_name}/ExamResults"
+        os.makedirs(directory, exist_ok=True)
+        
+        for retriever in retrievers:
+            print(f"Retriever: {retriever}")
+            torch.cuda.empty_cache()
+            run_rag_exam(model_device, model_path, model_name, task_name, exam_file, retriever)

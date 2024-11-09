@@ -159,14 +159,18 @@ if __name__ == "__main__":
     # model_name = "llamav2"
     # model_name = "llama3-B70"
     model_name = "claude"
-    task_name = "SecFilings"
+    # task_name = "SecFilings"
     # task_name = "StackExchange"
     # task_name = "Arxiv"
     # task_name = "LawStackExchange"
-    exam_file = f"Data/{task_name}/ExamData/ClaudeGcp_2024103117/exam_1000_42.json"
+    task_names = ["Arxiv", "LawStackExchange", "SecFilings", "StackExchange"]
+    
+    for task_name in task_names:
+        print(f"Processing {task_name}")
+        exam_file = f"Data/{task_name}/ExamData/claude_gcp_2024110616/exam_1000_42.json"
 
-    # Create the full directory path
-    directory = f"Data/{task_name}/ExamResults"
-    os.makedirs(directory, exist_ok=True)
+        # Create the full directory path
+        directory = f"Data/{task_name}/ExamResults"
+        os.makedirs(directory, exist_ok=True)
 
-    run_open_book_exam(model_device, model_path, model_name, task_name, exam_file)
+        run_open_book_exam(model_device, model_path, model_name, task_name, exam_file)
