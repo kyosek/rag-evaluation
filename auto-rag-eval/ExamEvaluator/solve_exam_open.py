@@ -163,7 +163,7 @@ if __name__ == "__main__":
     # task_name = "StackExchange"
     # task_name = "Arxiv"
     # task_name = "LawStackExchange"
-    exam_file = f"Data/{task_name}/ExamData/claude_gcp_2024103117/exam_1000_42.json"
+    exam_file = f"Data/{task_name}/ExamData/ClaudeGcp_2024103117/exam_1000_42.json"
 
     # Create the full directory path
     directory = f"Data/{task_name}/ExamResults"
