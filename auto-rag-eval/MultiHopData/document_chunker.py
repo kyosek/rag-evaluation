@@ -1,6 +1,7 @@
 import os
 import json
 import uuid
+from tqdm import tqdm
 from typing import List, Dict, Any
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import TextLoader
@@ -61,7 +62,7 @@ class DocumentChunker:
         processed_docs = []
         
         # Process each .txt file in the directory
-        for filename in os.listdir(dir_path):
+        for filename in tqdm(os.listdir(dir_path)):
             if filename.endswith('.txt'):
                 file_path = os.path.join(dir_path, filename)
                 doc_entry = self.process_file(file_path)
@@ -79,8 +80,9 @@ def main(task_name: str):
     chunker = DocumentChunker(chunk_size=4000, chunk_overlap=200)
     
     # Process a directory of text files
-    docs_dir = f"MultiHopData/{task_name}"
-    output_path = "docs_chunk.json"
+    docs_dir = f"MultiHopData/{task_name}/raw_texts"
+    os.makedirs(docs_dir, exist_ok=True)
+    output_path = f"MultiHopData/{task_name}/docs_chunk.json"
     
     # Process all documents
     processed_docs = chunker.process_directory(docs_dir)
@@ -93,6 +95,6 @@ def main(task_name: str):
 
 
 if __name__ == "__main__":
-    task_name = "SecFilings"
+    task_name = "wiki"
     
     main(task_name)
