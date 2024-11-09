@@ -5,7 +5,7 @@ import torch
 from typing import List, Dict
 from LLMServer.llama.llama_instant import LlamaModel
 from LLMServer.llama_gcp.llama_gcp_instant import LlamaGcpModel
-from LLMServer.gcp.claude_instant import Claude_GCP
+from LLMServer.gcp.claude_instant import ClaudeGcp
 from tqdm import tqdm
 
 model_config = {
@@ -118,7 +118,7 @@ def run_open_book_exam(model_device: str, model_path: str, model_name: str, task
             # load_in_4bit=True,
             )
     elif model_device == "claude":
-        model = Claude_GCP()
+        model = ClaudeGcp()
     else:
         print("Using Llama-cpp")
         model = LlamaModel(model_path=model_path)
