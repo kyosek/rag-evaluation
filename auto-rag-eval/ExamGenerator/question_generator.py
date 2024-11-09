@@ -34,9 +34,9 @@ class BatchExamGenerator:
             # 'claude_instant': ClaudeExamGenerator(step_size=1,
             #                                       task_domain=self.task_domain,
             #                                       llm_model=ClaudeInstant()),
-            "llama": LlamaExamGenerator(
-                step_size=1, task_domain=self.task_domain, llm_model=LlamaModel()
-            ),
+            # "llama": LlamaExamGenerator(
+            #     step_size=1, task_domain=self.task_domain, llm_model=LlamaModel()
+            # ),
             "claude_gcp": ClaudeExamGenerator(
                 step_size=1, task_domain=self.task_domain, llm_model=Claude_GCP()
             ),
@@ -87,6 +87,7 @@ class BatchExamGenerator:
                 generated_questions = {
                     model: self.model_map[model].generate_exam(batch) for model in self.model_list
                 }
+                time.sleep(0.1)
 
             # Write the dictionary to a JSON file
             for model in generated_questions.keys():
@@ -125,11 +126,11 @@ if __name__ == "__main__":
 
     raw_exam_generator = BatchExamGenerator(
         data_path=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main/",
-        batch_size=60,
+        batch_size=100,
         task_domain=main_args.task_domain,
         model_list=["claude_gcp"],
     )
 
     raw_exam_generator.batch_generate_exam(
-        data_folder=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main/data_2024102123.json"
+        data_folder=f"{ROOTPATH}/Data/{main_args.task_domain}/KnowledgeCorpus/main/data_2024092613.json"
     )

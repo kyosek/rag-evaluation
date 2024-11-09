@@ -1,0 +1,149 @@
+[nltk_data] Downloading package punkt to /home/kyosuke/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package punkt_tab to
+[nltk_data]     /home/kyosuke/nltk_data...
+[nltk_data]   Package punkt_tab is already up-to-date!
+Some weights of the model checkpoint at vblagoje/dpr-question_encoder-single-lfqa-base were not used when initializing DPRQuestionEncoder: ['question_encoder.bert_model.pooler.dense.bias', 'question_encoder.bert_model.pooler.dense.weight']
+- This IS expected if you are initializing DPRQuestionEncoder from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DPRQuestionEncoder from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at vblagoje/dpr-ctx_encoder-single-lfqa-base were not used when initializing DPRContextEncoder: ['ctx_encoder.bert_model.pooler.dense.bias', 'ctx_encoder.bert_model.pooler.dense.weight']
+- This IS expected if you are initializing DPRContextEncoder from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DPRContextEncoder from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+SiameseContextProvider
+Creating faiss index:   0%|          | 0/9862 [00:00<?, ? examples/s]Creating faiss index:   5%|▌         | 512/9862 [00:04<01:28, 105.13 examples/s]Creating faiss index:  10%|█         | 1024/9862 [00:08<01:12, 122.36 examples/s]Creating faiss index:  16%|█▌        | 1536/9862 [00:12<01:04, 129.49 examples/s]Creating faiss index:  21%|██        | 2048/9862 [00:16<00:59, 132.03 examples/s]Creating faiss index:  26%|██▌       | 2560/9862 [00:19<00:54, 133.84 examples/s]Creating faiss index:  31%|███       | 3072/9862 [00:23<00:50, 134.47 examples/s]Creating faiss index:  36%|███▋      | 3584/9862 [00:27<00:46, 134.81 examples/s]Creating faiss index:  42%|████▏     | 4096/9862 [00:31<00:43, 132.88 examples/s]Creating faiss index:  47%|████▋     | 4608/9862 [00:35<00:39, 133.52 examples/s]Creating faiss index:  52%|█████▏    | 5120/9862 [00:38<00:35, 134.60 examples/s]Creating faiss index:  57%|█████▋    | 5632/9862 [00:42<00:31, 134.22 examples/s]Creating faiss index:  62%|██████▏   | 6144/9862 [00:46<00:27, 134.37 examples/s]Creating faiss index:  67%|██████▋   | 6656/9862 [00:50<00:23, 134.66 examples/s]Creating faiss index:  73%|███████▎  | 7168/9862 [00:54<00:19, 134.84 examples/s]Creating faiss index:  78%|███████▊  | 7680/9862 [00:57<00:16, 134.38 examples/s]Creating faiss index:  83%|████████▎ | 8192/9862 [01:01<00:12, 135.52 examples/s]Creating faiss index:  88%|████████▊ | 8704/9862 [01:05<00:08, 135.75 examples/s]Creating faiss index:  93%|█████████▎| 9216/9862 [01:09<00:04, 135.52 examples/s]Creating faiss index:  99%|█████████▊| 9728/9862 [01:12<00:00, 135.50 examples/s]Creating faiss index: 100%|██████████| 9862/9862 [01:13<00:00, 135.16 examples/s]Creating faiss index: 100%|██████████| 9862/9862 [01:13<00:00, 133.45 examples/s]
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 595.44it/s]
+Faiss index successfully created
+Some weights of the model checkpoint at vblagoje/dpr-question_encoder-single-lfqa-base were not used when initializing DPRQuestionEncoder: ['question_encoder.bert_model.pooler.dense.bias', 'question_encoder.bert_model.pooler.dense.weight']
+- This IS expected if you are initializing DPRQuestionEncoder from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DPRQuestionEncoder from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at vblagoje/dpr-ctx_encoder-single-lfqa-base were not used when initializing DPRContextEncoder: ['ctx_encoder.bert_model.pooler.dense.bias', 'ctx_encoder.bert_model.pooler.dense.weight']
+- This IS expected if you are initializing DPRContextEncoder from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DPRContextEncoder from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Deleting existing Faiss index: /home/kyosuke/rag-evaluation/auto-rag-eval/Data/LawStackExchange/RetrievalIndex/siamese_emb/kilt_dpr_data.faiss
+Deleting existing Faiss index cache /home/kyosuke/rag-evaluation/auto-rag-eval/Data/LawStackExchange/RetrievalIndex/siamese_emb/data_kilt_embedded.arrow
+SiameseContextProvider
+Creating faiss index:   0%|          | 0/9862 [00:00<?, ? examples/s]Creating faiss index:   5%|▌         | 512/9862 [00:01<00:34, 273.01 examples/s]Creating faiss index:  10%|█         | 1024/9862 [00:03<00:32, 275.23 examples/s]Creating faiss index:  16%|█▌        | 1536/9862 [00:05<00:30, 276.35 examples/s]Creating faiss index:  21%|██        | 2048/9862 [00:07<00:30, 253.47 examples/s]Creating faiss index:  26%|██▌       | 2560/9862 [00:11<00:35, 205.50 examples/s]Creating faiss index:  31%|███       | 3072/9862 [00:14<00:36, 184.73 examples/s]Creating faiss index:  36%|███▋      | 3584/9862 [00:17<00:36, 174.02 examples/s]Creating faiss index:  42%|████▏     | 4096/9862 [00:21<00:34, 166.56 examples/s]Creating faiss index:  47%|████▋     | 4608/9862 [00:24<00:32, 162.40 examples/s]Creating faiss index:  52%|█████▏    | 5120/9862 [00:27<00:29, 159.59 examples/s]Creating faiss index:  57%|█████▋    | 5632/9862 [00:31<00:26, 157.46 examples/s]Creating faiss index:  62%|██████▏   | 6144/9862 [00:34<00:23, 156.62 examples/s]Creating faiss index:  67%|██████▋   | 6656/9862 [00:37<00:20, 156.15 examples/s]Creating faiss index:  73%|███████▎  | 7168/9862 [00:41<00:17, 154.96 examples/s]Creating faiss index:  78%|███████▊  | 7680/9862 [00:44<00:14, 154.15 examples/s]Creating faiss index:  83%|████████▎ | 8192/9862 [00:47<00:10, 154.75 examples/s]Creating faiss index:  88%|████████▊ | 8704/9862 [00:51<00:07, 153.30 examples/s]Creating faiss index:  93%|█████████▎| 9216/9862 [00:54<00:04, 153.18 examples/s]Creating faiss index:  99%|█████████▊| 9728/9862 [00:58<00:00, 148.48 examples/s]Creating faiss index: 100%|██████████| 9862/9862 [00:59<00:00, 140.18 examples/s]Creating faiss index: 100%|██████████| 9862/9862 [00:59<00:00, 165.30 examples/s]
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 586.89it/s]
+Faiss index successfully created
+Creating faiss index:   0%|          | 0/9862 [00:00<?, ? examples/s]Creating faiss index:   5%|▌         | 512/9862 [00:04<01:17, 121.41 examples/s]Creating faiss index:  10%|█         | 1024/9862 [00:07<01:02, 142.22 examples/s]Creating faiss index:  16%|█▌        | 1536/9862 [00:10<00:52, 158.83 examples/s]Creating faiss index:  21%|██        | 2048/9862 [00:13<00:48, 159.67 examples/s]Creating faiss index:  26%|██▌       | 2560/9862 [00:16<00:45, 161.99 examples/s]Creating faiss index:  31%|███       | 3072/9862 [00:19<00:41, 163.52 examples/s]Creating faiss index:  36%|███▋      | 3584/9862 [00:22<00:39, 160.77 examples/s]Creating faiss index:  42%|████▏     | 4096/9862 [00:25<00:35, 162.04 examples/s]Creating faiss index:  47%|████▋     | 4608/9862 [00:29<00:32, 162.89 examples/s]Creating faiss index:  52%|█████▏    | 5120/9862 [00:32<00:29, 161.60 examples/s]Creating faiss index:  57%|█████▋    | 5632/9862 [00:35<00:25, 163.11 examples/s]Creating faiss index:  62%|██████▏   | 6144/9862 [00:38<00:23, 157.93 examples/s]Creating faiss index:  67%|██████▋   | 6656/9862 [00:41<00:20, 158.96 examples/s]Creating faiss index:  73%|███████▎  | 7168/9862 [00:44<00:16, 161.73 examples/s]Creating faiss index:  78%|███████▊  | 7680/9862 [00:48<00:13, 161.44 examples/s]Creating faiss index:  83%|████████▎ | 8192/9862 [00:51<00:10, 161.53 examples/s]Creating faiss index:  88%|████████▊ | 8704/9862 [00:54<00:07, 164.44 examples/s]Creating faiss index:  93%|█████████▎| 9216/9862 [00:57<00:03, 163.35 examples/s]Creating faiss index:  99%|█████████▊| 9728/9862 [00:59<00:00, 186.57 examples/s]Creating faiss index: 100%|██████████| 9862/9862 [00:59<00:00, 194.57 examples/s]Creating faiss index: 100%|██████████| 9862/9862 [00:59<00:00, 164.98 examples/s]
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 380.10it/s]
+Faiss index successfully created
+Starting to load all raw questions from /home/kyosuke/rag-evaluation/auto-rag-eval/Data/LawStackExchange/RawExamData/
+Initialising MultiChoiceExamLLM
+  0%|          | 0/99 [00:00<?, ?it/s]  1%|          | 1/99 [01:10<1:55:39, 70.81s/it]  2%|▏         | 2/99 [02:12<1:45:21, 65.17s/it]  3%|▎         | 3/99 [03:09<1:38:25, 61.52s/it]  4%|▍         | 4/99 [04:06<1:34:36, 59.75s/it]  5%|▌         | 5/99 [05:04<1:32:38, 59.14s/it]  6%|▌         | 6/99 [06:04<1:32:03, 59.39s/it]  7%|▋         | 7/99 [07:04<1:31:23, 59.60s/it]  8%|▊         | 8/99 [08:02<1:29:51, 59.25s/it]  9%|▉         | 9/99 [09:00<1:28:03, 58.71s/it] 10%|█         | 10/99 [10:00<1:27:38, 59.09s/it] 11%|█         | 11/99 [10:59<1:26:42, 59.12s/it] 12%|█▏        | 12/99 [11:59<1:26:12, 59.45s/it] 13%|█▎        | 13/99 [12:58<1:25:01, 59.32s/it] 14%|█▍        | 14/99 [13:57<1:23:58, 59.28s/it] 15%|█▌        | 15/99 [14:55<1:22:17, 58.78s/it] 16%|█▌        | 16/99 [15:54<1:21:24, 58.85s/it] 17%|█▋        | 17/99 [16:53<1:20:37, 59.00s/it] 18%|█▊        | 18/99 [17:52<1:19:35, 58.96s/it] 19%|█▉        | 19/99 [18:50<1:18:11, 58.65s/it] 20%|██        | 20/99 [19:51<1:18:04, 59.30s/it] 21%|██        | 21/99 [20:49<1:16:35, 58.92s/it] 22%|██▏       | 22/99 [21:46<1:14:57, 58.41s/it] 23%|██▎       | 23/99 [22:44<1:13:41, 58.18s/it] 24%|██▍       | 24/99 [23:43<1:13:03, 58.45s/it] 25%|██▌       | 25/99 [24:41<1:11:57, 58.34s/it] 26%|██▋       | 26/99 [25:37<1:10:09, 57.66s/it] 27%|██▋       | 27/99 [26:37<1:09:55, 58.27s/it] 28%|██▊       | 28/99 [27:37<1:09:33, 58.78s/it] 29%|██▉       | 29/99 [28:34<1:08:11, 58.46s/it] 30%|███       | 30/99 [29:34<1:07:43, 58.89s/it] 31%|███▏      | 31/99 [30:32<1:06:18, 58.50s/it] 32%|███▏      | 32/99 [31:31<1:05:28, 58.64s/it] 33%|███▎      | 33/99 [32:31<1:05:08, 59.22s/it] 34%|███▍      | 34/99 [33:30<1:03:56, 59.03s/it] 35%|███▌      | 35/99 [34:28<1:02:29, 58.59s/it] 36%|███▋      | 36/99 [35:28<1:02:09, 59.20s/it] 37%|███▋      | 37/99 [36:25<1:00:29, 58.53s/it] 38%|███▊      | 38/99 [37:22<59:08, 58.17s/it]   39%|███▉      | 39/99 [38:22<58:34, 58.57s/it] 40%|████      | 40/99 [39:21<57:47, 58.77s/it] 41%|████▏     | 41/99 [40:20<56:42, 58.66s/it] 42%|████▏     | 42/99 [41:18<55:36, 58.54s/it] 43%|████▎     | 43/99 [42:15<54:20, 58.22s/it] 44%|████▍     | 44/99 [43:14<53:24, 58.27s/it] 45%|████▌     | 45/99 [44:13<52:36, 58.44s/it] 46%|████▋     | 46/99 [45:10<51:27, 58.25s/it] 47%|████▋     | 47/99 [46:09<50:39, 58.46s/it] 48%|████▊     | 48/99 [47:08<49:50, 58.64s/it] 49%|████▉     | 49/99 [48:07<48:56, 58.72s/it] 51%|█████     | 50/99 [49:05<47:46, 58.49s/it] 52%|█████▏    | 51/99 [50:01<46:07, 57.65s/it] 53%|█████▎    | 52/99 [50:55<44:23, 56.67s/it] 54%|█████▎    | 53/99 [51:52<43:25, 56.65s/it] 55%|█████▍    | 54/99 [52:48<42:20, 56.45s/it] 56%|█████▌    | 55/99 [53:43<41:09, 56.12s/it] 57%|█████▋    | 56/99 [54:38<40:00, 55.81s/it] 58%|█████▊    | 57/99 [55:34<39:07, 55.89s/it] 59%|█████▊    | 58/99 [56:29<37:53, 55.46s/it] 60%|█████▉    | 59/99 [57:25<37:10, 55.76s/it] 61%|██████    | 60/99 [58:20<36:00, 55.39s/it] 62%|██████▏   | 61/99 [59:13<34:43, 54.82s/it] 63%|██████▎   | 62/99 [1:00:08<33:42, 54.66s/it] 64%|██████▎   | 63/99 [1:01:03<32:58, 54.96s/it] 65%|██████▍   | 64/99 [1:02:00<32:20, 55.45s/it] 66%|██████▌   | 65/99 [1:02:55<31:18, 55.24s/it] 67%|██████▋   | 66/99 [1:03:51<30:30, 55.48s/it] 68%|██████▊   | 67/99 [1:04:44<29:12, 54.77s/it] 69%|██████▊   | 68/99 [1:05:35<27:46, 53.77s/it] 70%|██████▉   | 69/99 [1:06:28<26:40, 53.34s/it] 71%|███████   | 70/99 [1:07:20<25:36, 52.98s/it] 72%|███████▏  | 71/99 [1:08:16<25:11, 53.99s/it] 73%|███████▎  | 72/99 [1:09:08<24:00, 53.35s/it] 74%|███████▎  | 73/99 [1:10:02<23:14, 53.65s/it] 75%|███████▍  | 74/99 [1:10:56<22:19, 53.59s/it] 76%|███████▌  | 75/99 [1:11:48<21:15, 53.14s/it] 77%|███████▋  | 76/99 [1:12:41<20:19, 53.03s/it] 78%|███████▊  | 77/99 [1:13:34<19:27, 53.08s/it] 79%|███████▉  | 78/99 [1:14:27<18:32, 53.00s/it] 80%|███████▉  | 79/99 [1:15:17<17:24, 52.24s/it] 81%|████████  | 80/99 [1:16:07<16:20, 51.63s/it] 82%|████████▏ | 81/99 [1:16:58<15:24, 51.33s/it] 83%|████████▎ | 82/99 [1:17:48<14:25, 50.94s/it] 84%|████████▍ | 83/99 [1:18:38<13:31, 50.74s/it] 85%|████████▍ | 84/99 [1:19:29<12:42, 50.82s/it] 86%|████████▌ | 85/99 [1:20:29<12:30, 53.58s/it] 87%|████████▋ | 86/99 [1:21:37<12:30, 57.74s/it] 88%|████████▊ | 87/99 [1:22:29<11:12, 56.05s/it] 89%|████████▉ | 88/99 [1:23:20<10:02, 54.74s/it] 90%|████████▉ | 89/99 [1:24:12<08:56, 53.64s/it] 91%|█████████ | 90/99 [1:24:43<07:03, 47.04s/it] 92%|█████████▏| 91/99 [1:25:46<06:53, 51.75s/it] 93%|█████████▎| 92/99 [1:26:41<06:08, 52.68s/it] 94%|█████████▍| 93/99 [1:27:34<05:16, 52.74s/it] 95%|█████████▍| 94/99 [1:28:25<04:21, 52.32s/it] 96%|█████████▌| 95/99 [1:29:16<03:27, 51.90s/it] 97%|█████████▋| 96/99 [1:30:09<02:36, 52.20s/it] 98%|█████████▊| 97/99 [1:30:58<01:42, 51.32s/it] 99%|█████████▉| 98/99 [1:31:53<00:52, 52.30s/it]100%|██████████| 99/99 [1:32:46<00:00, 52.49s/it]100%|██████████| 99/99 [1:32:46<00:00, 56.22s/it]
+
+###################### claude_gcp ######################
+
+ExamID: LawStackExchange:claude_gcp:2024110614
+
+### Parsing Analysis:
+
+Total of 9726/9862 questions processed (98.62%)
+Statistics over 136 failed parsing:
+Question Parsing Error: 5.15%
+Choices Parsing Error: 88.97%
+Correct Answer Parsing Error: 94.85%
+Other Parsing Error or Constraints: 0.00%
+
+### Accuracy Analysis:
+
+Best Fixed Answer Baseline: 25.30%
+Longest Answer Baseline: 49.15%
+
+### Sample questions:
+
+Question 1: A small tech startup has created a new slogan for their AI-powered productivity software: "Work smarter, not harder." A larger, well-established company in the same industry claims this infringes on their trademarked slogan "Work smart." In a legal dispute, which of the following factors would be most crucial in determining whether trademark infringement has occurred?
+Question 2: A law enforcement officer approaches you, stating that you match the description of a suspect in a recent crime. After cooperating with their initial request for identification, they later ask you to participate in a photo lineup at the police station. Which of the following actions is most likely to protect your legal interests while maintaining a cooperative relationship with law enforcement?
+Question 3: A tenant in Seattle extends their 3-month lease by 11 days, agreeing to a prorated rent amount via email with the property manager. After moving out, the manager claims they don't prorate and demands full month's rent. The tenant is no longer in the US. Which legal principle best supports the tenant's position in this dispute?
+Question 4: Bill, a former resident of East Sconsin with a felony conviction, moves to West Sconsin and aspires to become a police officer. The West Sconsin Police Department has a policy prohibiting felons from serving. Which of the following scenarios would most likely allow Bill to legally pursue a career in law enforcement in West Sconsin?
+Question 5: A British national is suspected of committing a serious crime in the United Kingdom but has fled to a country without an extradition treaty with the UK. Which of the following scenarios is most likely to occur, based on the information provided in the documentation?
+Question 6: A landlord, Sarah, owns a flat in London that she occasionally uses for short stays when visiting the city. She decides to rent it out to maximize income. Which of the following scenarios is most likely to create an Assured Shorthold Tenancy (AST)?
+Question 7: A prominent scientist successfully sues a popular science magazine for defamation after it published an article falsely claiming the scientist fabricated research data. The scientist wants to maximize the impact of the lawsuit's outcome. Which combination of remedies would likely be most effective in addressing both the personal and professional damage caused by the defamation?
+Question 8: An aspiring author is creating a detailed in-universe timeline for a popular sci-fi franchise, including technological and cultural developments. Which of the following actions is most likely to pose a legal risk under copyright law?
+Question 9: A technology startup, Company C, is considering legal action against a potential client who made allegations about their product being a copy of a competitor's. Given the scenario described, which of the following legal strategies would be most appropriate and effective for Company C to pursue?
+Question 10: A popular trivia game show is developing a new season and discovers that one of their questions is identical to a question in your independently created trivia game. The show's producers threaten legal action. Given the legal precedents and copyright principles discussed, what is the most appropriate conclusion about this situation?
+
+### Question Analysis
+
+Question type:
+Which   -- 82.98%
+What    -- 17.12%
+How     -- 5.82%
+When    -- 2.20%
+Why     -- 0.95%
+Where   -- 5.19%
+Other   -- 0.04%
+
+Question starts with ['Which', 'What', 'How', 'When', 'Why', 'Where']: 0.00%
+Avg. question char. length: 320.62 (std: 69.37)
+Avg. number of sentence in question: 2.94
+Avg. answers char. length: 101.03 (std: 23.95)
+Avg. correct answer char. length: 108.36 (std: 31.93)
+Avg. documentation char. length: 2423.74 (std: 69.37)
+Avg. number of sentence in documentation: 17.13
+
+########### claude_gcp ###########
+
+Documentation: 
+     \#\#\# User: According to the [Controlled Substance Act](http://www.fda.gov/regulatoryinformation/legislation/ucm148726.htm):
+
+> § 801\. Congressional findings and declarations: controlled substances....
+> 
+> 
+> ...(3\) A major portion of the traffic in controlled substances flows through interstate and foreign commerce. **Incidents of the traffic which are not an integral part of the interstate or foreign flow, such as manufacture, local distribution, and possession, nonetheless have a substantial and direct effect upon interstate commerce because** \-
+> 
+> 
+> (A) after manufacture, many controlled substances are transported in interstate commerce,
+> 
+> 
+> (B) controlled substances distributed locally usually have been transported in interstate commerce immediately before their distribution, and
+> 
+> 
+> (C) controlled substances possessed commonly flow through interstate commerce immediately prior to such possession.
+> 
+> 
+> (4\) **Local distribution and possession of controlled substances contribute to swelling the interstate traffic in such substances.**
+> 
+> 
+> (5\) Controlled substances manufactured and distributed intrastate cannot be differentiated from controlled substances manufactured and distributed interstate. Thus, it is not feasible to distinguish, in terms of controls, between controlled substances manufactured and distributed interstate and controlled substances manufactured and distributed intrastate.
+> 
+> 
+> (6\) Federal control of the intrastate incidents of the traffic in controlled substances is essential to the effective control of the interstate incidents of such traffic.
+> 
+> 
+> (7\) The United States is a party to the Single Convention on Narcotic Drugs, 1961, and other international conventions designed to establish effective control over international and domestic traffic in controlled substances.
+
+From what I understand, this means that because of [the Commerce Clause](https://en.m.wikipedia.org/wiki/Commerce_Clause) of the Constitution, which grants Congress the power:
+
+> To regulate Commerce with foreign Nations, and among the several States, and with the Indian Tribes.
+
+...Controlled Substances may not be exchanged through interstate commerce. Also, because it is impossible to determine whether drugs produced for intrastate commerce are also crossing state lines, then:
+
+> (5\)...**it is not feasible to distinguish, in terms of controls, between controlled substances manufactured and distributed interstate and controlled substances manufactured and distributed intrastate.**
+> 
+> 
+> (6\) **Federal control of the intrastate incidents of the traffic in controlled substances is essential to the effective control of the interstate incidents of such traffic.**
+
+Therefore, no intrastate commerce is allowed. However, I don't understand how possession or manufacturing of drugs for personal consumption is covered in the Commerce Clause.
+
+For example, let's say I wish to grow one cannabis plant for personal consumption. In what way does this affect the cannabis market in other states so that Congress has the power to prohibit it?
+
+ \-
+
+\#\#\# Top Answer: To pick up on your comment 'Does this mean if I wish to build a chair for personal use, then since trade of chairs exists between states, Congress has the authority to outlaw possession or manufacturing of chairs?': Yes.
+
+For example, the US Congress can legislate to prohibit a farmer from growing wheat for use on his own farm, on the basis that there is interstate trade in wheat and therefore the Commerce Clause permits Congress to regulate the growing of wheat: *Wickard v Filburn* (1942\) 317 US 111\.
+
+If you grow marijuana, or build a chair, or whatever, you conceivably affect the number of marijuanas, chairs, etc that are traded between states. Therefore you affect interstate commerce. Therefore the US Congress can regulate you. The fact that your marijuana or your chair or your what is trivial in the scheme of the national economy is irrelevant if the aggregation of all regulated marijuana, chairs or wheat is significant: 317 US 111, 127\-128\.
+
+If the law didn't prohibit possession of marijuana absolutely but instead prohibited, say, the carrying of marijuana in schools, then the US Congress might have trouble relying on the Commerce Clause: see *United States v Lopez* (1995\) 514 US 549 and replace 'marijuana' with 'handguns' (OK the marijuana/handgun analogy is bad but hopefully this illustrates that there are at least some limits on Congress' power \-\- it's not just 'any physical object that relates whatsoever to interstate trade therefore unfettered federal legislative power').
+Question: 
+     A small-scale farmer in Colorado decides to grow a single cannabis plant in their basement for personal use, arguing that it doesn't cross state lines or enter commerce. The federal government seeks to prosecute under the Controlled Substances Act. Which of the following best explains why this action might still be considered within Congress's power under the Commerce Clause?
+Answers: 
+     [0.110.210.50] - A) The aggregate effect of similar actions could substantially impact interstate commerce
+     [0.120.180.56] - B) Personal cultivation of cannabis automatically becomes interstate commerce
+     [0.130.200.40] - C) The farmer's action directly impacts the interstate cannabis market by reducing demand
+     [0.110.150.34] - D) Growing cannabis, even for personal use, is inherently an economic activity
+Correct Answer: 
+     A) The aggregate effect of similar actions could substantially impact interstate commerce
+
