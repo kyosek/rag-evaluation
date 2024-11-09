@@ -182,7 +182,6 @@ if __name__ == "__main__":
     folder_name = "claude_gcp_2024103016"
     exam_file = f"Data/{task_name}/ExamData/{folder_name}/exam_1000_42.json"
     retrievers = ["BM25", "DPR", "SIAMESE", "MultiQA", "DPR:MultiQA:BM25"]
-    # retrievers = ["DPR:MultiQA:BM25"]
     
     # Create the full directory path
     directory = f"Data/{task_name}/ExamResults"
