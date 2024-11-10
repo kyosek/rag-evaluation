@@ -1,27 +1,20 @@
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
 from typing import List, Dict, Any, Tuple, Optional
-from sentence_transformers import SentenceTransformer
 import json
-import torch
 import faiss
 import numpy as np
 from rank_bm25 import BM25Okapi
 import nltk
 from nltk.tokenize import word_tokenize
+from tqdm import tqdm
 
-from MultiHopData.generate_exam import ChunkRetriever, Chunk
+from MultiHopData.retriever import Chunk, ChunkRetriever
 from LLMServer.llama.llama_instant import LlamaModel
 from LLMServer.llama_gcp.llama_gcp_instant import LlamaGcpModel
 from LLMServer.gcp.claude_instant import ClaudeGcp
 
-model_config = {
-    "load_in_4bit": True,
-    "bnb_4bit_compute_dtype": torch.float16,
-    "bnb_4bit_use_double_quant": True,
-    "bnb_4bit_quant_type": "nf4",
-    "device_map": "auto"
-}
+nltk.download('punkt_tab')
 
 
 @dataclass
@@ -35,7 +28,7 @@ class ExamQuestion:
 class BaseRetriever(ABC):
     """Abstract base class for different retrieval methods."""
     @abstractmethod
-    def retrieve(self, query: str, k: int = 3) -> List[Tuple[str, float]]:
+    def retrieve(self, query: str, k: int = 5) -> List[Tuple[str, float]]:
         """Retrieve relevant documents for a query."""
         pass
 
@@ -110,7 +103,6 @@ class HybridRetriever(BaseRetriever):
 class ExamSolver:
     def __init__(self, retriever: BaseRetriever, n_documents: int = 5):
         self.retriever = retriever
-        # self.model = SentenceTransformer('all-MiniLM-L6-v2')
         self.n_documents = n_documents
     
     def load_exam(self, exam_file: str) -> List[ExamQuestion]:
@@ -143,7 +135,7 @@ class ExamSolver:
         # Construct a more structured prompt with system and user roles
         prompt = f"""[INST] <<SYS>>
         You are an AI assistant taking a multiple choice exam. Your task is to:
-        1. Read the question and provided document carefully
+        1. Read the given question and supporting document carefully
         2. Analyze the choices
         3. Select the most appropriate answer
         4. Respond with ONLY the letter (A, B, C, or D) of the correct answer
@@ -153,6 +145,9 @@ class ExamSolver:
 
         Choices:
         {formatted_choices}
+        
+        Supporting document:
+        {context}
 
         Instructions:
         - You must respond with exactly one letter: A, B, C, or D
@@ -182,15 +177,14 @@ class ExamSolver:
             return response.strip()[-1]
         except:
             return "A"
-            
-            return answer
     
     def evaluate_performance(self, questions: List[ExamQuestion], model) -> Dict[str, float]:
         """Evaluate the solver's performance on a set of questions."""
         correct = 0
         total = len(questions)
         
-        for question in questions:
+        print("Solving the exam")
+        for question in tqdm(questions):
             predicted_answer = self.solve_question(question, model)
             if predicted_answer == question.correct_answer:
                 correct += 1
@@ -203,27 +197,20 @@ class ExamSolver:
         return metrics
 
 
-def main(task_domain: str, retriever_type: str, model_name: str):
+def main(task_domain: str, retriever_type: str, model_type: str, model_name: str):
     chunk_retriever = ChunkRetriever(task_domain, random_seed=42)
     
-    try:
-        chunk_retriever.load_database(f"MultiHopData/{task_domain}/chunk_database")
-    except FileNotFoundError:
-        print("Documents file not found. Please provide the correct path.")
-        return
-    except Exception as e:
-        print(f"Error loading documents: {e}")
-        return
+    chunk_retriever = chunk_retriever.load_database(f"MultiHopData/{task_domain}/chunk_database", task_domain)
     
     # Initialize different retrievers
     faiss_retriever = FAISSRetriever(chunk_retriever)
-    # bm25_retriever = BM25Retriever([chunk.content for chunk in chunk_retriever.chunks])
+    bm25_retriever = BM25Retriever([chunk.content for chunk in chunk_retriever.chunks])
     
     # Create a hybrid retriever
-    # hybrid_retriever = HybridRetriever([
-    #     (faiss_retriever, 0.5),
-    #     (bm25_retriever, 0.5)
-    # ])
+    hybrid_retriever = HybridRetriever([
+        (faiss_retriever, 0.5),
+        (bm25_retriever, 0.5)
+    ])
     
     # Initialize solver with chosen retriever
     if retriever_type == "Dense":
@@ -234,15 +221,10 @@ def main(task_domain: str, retriever_type: str, model_name: str):
         solver = ExamSolver(hybrid_retriever)
     
     # Load and solve exam
-    if model_name == "GCP":
+    if model_type == "GCP":
         print("Using transformer")
-        model = LlamaGcpModel(
-            model_size="70B",
-            use_gpu=True,
-            model_config=model_config,
-            )
-    elif model_name == "claude":
-        model = ClaudeGcp()
+    elif model_type == "claude":
+        model = ClaudeGcp(model_name=model_name)
     else:
         print("Using Llama-cpp")
         # model = LlamaModel(model_path=model_path)
@@ -257,7 +239,16 @@ def main(task_domain: str, retriever_type: str, model_name: str):
 
 if __name__ == "__main__":
     task_domain = "SecFilings"
-    retriever_type = "Dense"
-    model_name = "claude"
+    # retriever_type = "Dense"
+    # retriever_type = "Sparse"
+    # retriever_type = "Hybrid"
+    model_type = "claude"
+    model_name = "claude-3-5-haiku@20241022"
+    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    retriever_types = ["Dense", "Sparse", "Hybrid"]
     
-    main(task_domain, retriever_type, model_name)
+    for task_domain in task_domains:
+        print(f"Processing {task_domain}")
+        for retriever_type in retriever_types:
+            print(f"Retriever: {retriever_type}")
+            main(task_domain, retriever_type, model_type, model_name)

@@ -1,7 +1,6 @@
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
 from typing import List, Dict, Any, Tuple, Optional
-from sentence_transformers import SentenceTransformer
 import json
 import torch
 import faiss
@@ -11,18 +10,10 @@ from tqdm import tqdm
 import nltk
 from nltk.tokenize import word_tokenize
 
-from MultiHopData.generate_exam import ChunkRetriever, Chunk
+from MultiHopData.retriever import Chunk, ChunkRetriever
 from LLMServer.llama.llama_instant import LlamaModel
 from LLMServer.llama_gcp.llama_gcp_instant import LlamaGcpModel
 from LLMServer.gcp.claude_instant import ClaudeGcp
-
-model_config = {
-    "load_in_4bit": True,
-    "bnb_4bit_compute_dtype": torch.float16,
-    "bnb_4bit_use_double_quant": True,
-    "bnb_4bit_quant_type": "nf4",
-    "device_map": "auto"
-}
 
 
 @dataclass
@@ -133,7 +124,7 @@ class ExamSolver:
         # Construct a more structured prompt with system and user roles
         prompt = f"""[INST] <<SYS>>
         You are an AI assistant taking a multiple choice exam. Your task is to:
-        1. Read the question and provided document carefully
+        1. Read the question and choices carefully
         2. Analyze the choices
         3. Select the most appropriate answer
         4. Respond with ONLY the letter (A, B, C, or D) of the correct answer
@@ -193,16 +184,12 @@ class ExamSolver:
         return metrics
 
 
-def main(task_domain: str, model_name: str):
-    if model_name == "GCP":
+def main(task_domain: str, model_type: str, model_name: str):
+    if model_type == "GCP":
         print("Using transformer")
-        model = LlamaGcpModel(
-            model_size="70B",
-            use_gpu=True,
-            model_config=model_config,
-            )
-    elif model_name == "claude":
-        model = ClaudeGcp()
+        
+    elif model_type == "claude":
+        model = ClaudeGcp(model_name=model_name)
     else:
         print("Using Llama-cpp")
         # model = LlamaModel(model_path=model_path)
@@ -218,10 +205,11 @@ def main(task_domain: str, model_name: str):
 
 
 if __name__ == "__main__":
-    task_domain = "wiki"
-    # task_domains = ["hotpotqa", "multifieldqa_en"]
-    model_name = "claude"
+    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    model_type = "claude"
+    model_name = "claude-3-5-haiku@20241022"
+    # model_name = "claude-3-5-sonnet@20240620"
     
-    # for task_domain in task_domains:
-    print(f"Solving {task_domain}")
-    main(task_domain, model_name)
+    for task_domain in task_domains:
+        print(f"Solving {task_domain}")
+        main(task_domain, model_type, model_name)

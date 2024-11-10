@@ -95,6 +95,6 @@ def main(task_name: str):
 
 
 if __name__ == "__main__":
-    task_name = "wiki"
+    task_name = "SecFilings"
     
     main(task_name)
