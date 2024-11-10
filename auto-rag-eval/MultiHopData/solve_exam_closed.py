@@ -14,6 +14,7 @@ from MultiHopData.retriever import Chunk, ChunkRetriever
 from LLMServer.llama.llama_instant import LlamaModel
 from LLMServer.llama_gcp.llama_gcp_instant import LlamaGcpModel
 from LLMServer.gcp.claude_instant import ClaudeGcp
+from LLMServer.gcp.gemini_instant import GeminiGcp
 
 
 @dataclass
@@ -185,8 +186,8 @@ class ExamSolver:
 
 
 def main(task_domain: str, model_type: str, model_name: str):
-    if model_type == "GCP":
-        print("Using transformer")
+    if model_type == "gemini":
+        model = GeminiGcp(model_name=model_name)
         
     elif model_type == "claude":
         model = ClaudeGcp(model_name=model_name)
@@ -206,10 +207,18 @@ def main(task_domain: str, model_type: str, model_name: str):
 
 if __name__ == "__main__":
     task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    task_domains = ["multifieldqa_en", "SecFilings", "wiki"]
     model_type = "claude"
-    model_name = "claude-3-5-haiku@20241022"
+    # model_type = "gemini"
+    # model_name = "claude-3-5-haiku@20241022"
     # model_name = "claude-3-5-sonnet@20240620"
+    # model_name = "gemini-1.5-pro-002"
+    # model_name = "gemini-1.5-flash-002"
     
-    for task_domain in task_domains:
-        print(f"Solving {task_domain}")
-        main(task_domain, model_type, model_name)
+    model_names = ["claude-3-5-haiku@20241022"]
+    
+    for model_name in model_names:
+        for task_domain in task_domains:
+            print(f"Using {model_name}")
+            print(f"Solving {task_domain}")
+            main(task_domain, model_type, model_name)

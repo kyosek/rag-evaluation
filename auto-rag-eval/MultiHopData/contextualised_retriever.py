@@ -10,6 +10,7 @@ import random
 from tqdm import tqdm
 
 from LLMServer.gcp.claude_instant import ClaudeGcp
+from LLMServer.gcp.gemini_instant import GeminiGcp
 
 
 @dataclass
@@ -30,9 +31,10 @@ class ContextualChunkRetriever:
         if random_seed is not None:
             random.seed(random_seed)
         
-        self.llm = ClaudeGcp(model_name="claude-3-5-haiku@20241022")
+        self.claude = ClaudeGcp(model_name="claude-3-5-haiku@20241022")
+        self.gemini = GeminiGcp(model_name="gemini-1.5-flash-002")
 
-    def generate_context(self, doc_content: str, chunk_content: str) -> str:
+    def generate_context(self, doc_content: str, chunk_content: str, model_name) -> str:
         prompt = f'''
         <document>
         {doc_content}
@@ -55,8 +57,9 @@ class ContextualChunkRetriever:
 
         Output only the contextual summary, with no additional text or explanations.
         '''
+        llm = model_name
 
-        response = self.llm.invoke(prompt)
+        response = llm.invoke(prompt)
         return response.strip()
 
     def load_documents(self, json_file: str) -> None:
@@ -68,7 +71,11 @@ class ContextualChunkRetriever:
             doc_content = "\n".join([chunk['content'] for chunk in doc['chunks']])
             
             for chunk in doc['chunks']:
-                context = self.generate_context(doc_content, chunk['content'])
+                try:
+                    context = self.generate_context(doc_content, chunk['content'], self.gemini)
+                except:
+                    print("Generating with Claude")
+                    context = self.generate_context(doc_content, chunk['content'], self.claude)
                 chunk_obj = Chunk(
                     chunk_id=chunk['chunk_id'],
                     doc_id=doc_id,
@@ -157,12 +164,12 @@ class ContextualChunkRetriever:
 def main(task_domain: str):
     chunk_retriever = ContextualChunkRetriever(task_domain, random_seed=42)
     chunk_retriever.load_documents(f"MultiHopData/{task_domain}/docs_chunk.json")
-    chunk_retriever.save_database(f"MultiHopData/{task_domain}/contextual_chunk_haiku_database")
+    chunk_retriever.save_database(f"MultiHopData/{task_domain}/contextual_chunk_flash_database")
 
 
 if __name__ == "__main__":
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    task_domains = ["SecFilings"]
+    task_domains = ["hotpotqa"]
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en"]
     for task_domain in task_domains:
         print(f"Processing {task_domain}")
