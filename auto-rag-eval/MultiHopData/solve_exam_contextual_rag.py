@@ -107,7 +107,7 @@ class ContextualChunkRetriever:
         self, 
         query_chunk: ContextualChunk, 
         k: int = 4, 
-        similarity_threshold: float = 0.9,
+        similarity_threshold: float = 0.5,
         exclude_same_doc: bool = True
     ) -> List[Tuple[ContextualChunk, float]]:
         query_embedding = self.model.encode([f"{query_chunk.content}\n\nContext: {query_chunk.context}"])
@@ -253,9 +253,9 @@ class ContextualExamSolver(ExamSolver):
     def solve_question(self, question: ExamQuestion, model) -> str:
         retrieved_docs = self.retriever.retrieve(question.question, k=self.n_documents)
         
-        context = "\n".join([doc for doc, _ in retrieved_docs])
+        context = "\n".join([f"{i+1}) {doc}" for i, (doc, _) in enumerate(retrieved_docs)])
         
-        formatted_choices = "\n".join(f"{chr(65+i)}. {choice}" for i, choice in enumerate(question.choices))
+        formatted_choices = "\n".join(f"{choice}" for choice in question.choices)
     
         prompt = f"""[INST] <<SYS>>
         You are an AI assistant taking a multiple choice exam. Your task is to:
@@ -353,16 +353,20 @@ if __name__ == "__main__":
     # retriever_type = "Dense"
     # retriever_type = "Sparse"
     # retriever_type = "Hybrid"
-    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "wiki", "SecFilings"]
+    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "wiki"]
-    retriever_types = ["Dense", "Sparse", "Hybrid"]
+    # retriever_types = ["Dense", "Sparse", "Hybrid"]
+    retriever_types = ["Dense", "Hybrid"]
     model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
     # model_names = ["claude-3-5-haiku@20241022", "claude-3-5-sonnet@20240620"]
+    rerank_flags = [True, False]
     
-    for model_name in model_names:
-        for task_domain in task_domains:
-            for retriever_type in retriever_types:
-                print(f"Using {model_name}")            
-                print(f"Processing {task_domain}")
-                print(f"Retriever: {retriever_type}")
-                main(task_domain, retriever_type, model_type, model_name, reranking=True)
+    for rerank_flag in rerank_flags:
+        for model_name in model_names:
+            for task_domain in task_domains:
+                for retriever_type in retriever_types:
+                    print(f"Using {model_name}")            
+                    print(f"Processing {task_domain}")
+                    print(f"Retriever: {retriever_type}")
+                    print(f"Rerank: {rerank_flag}")
+                    main(task_domain, retriever_type, model_type, model_name, reranking=rerank_flag)

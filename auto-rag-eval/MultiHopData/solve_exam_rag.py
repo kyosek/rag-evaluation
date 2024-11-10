@@ -51,6 +51,7 @@ class FAISSRetriever(BaseRetriever):
         similar_chunks = self.chunk_retriever.find_similar_chunks(
             query_chunk,
             k=k,
+            similarity_threshold=0.5,
             exclude_same_doc=False
         )
         
