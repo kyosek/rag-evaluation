@@ -41,8 +41,8 @@ if __name__ == "__main__":
     seed = 42
     # input_file = "Data/SecFilings/ExamData/claude_gcp_2024103117/exam.json"
     # output_file = f"Data/SecFilings/ExamData/claude_gcp_2024103117/exam_{sample_size}_{seed}.json"
-    input_file = "MultiHopData/wiki/exam_cleaned.json"
-    output_file = f"MultiHopData/wiki/exam_cleaned_{sample_size}_{seed}.json"
+    input_file = "MultiHopData/SecFilings/exam_cleaned.json"
+    output_file = f"MultiHopData/SecFilings/exam_cleaned_{sample_size}_{seed}.json"
     
-    sample_json_entries(input_file, output_file)
+    sample_json_entries(input_file, output_file, sample_size)
     
