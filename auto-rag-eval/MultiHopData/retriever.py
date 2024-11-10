@@ -1,11 +1,14 @@
+from abc import ABC, abstractmethod
 import json
 import faiss
 import random
 import os
+import pickle
+
 from typing import List, Dict, Tuple, Optional
 from sentence_transformers import SentenceTransformer
 from dataclasses import dataclass
-import pickle
+from sentence_transformers import CrossEncoder
 
 
 @dataclass
@@ -14,6 +17,14 @@ class Chunk:
     doc_id: str
     content: str
     original_index: int
+
+
+class BaseRetriever(ABC):
+    """Abstract base class for different retrieval methods."""
+    @abstractmethod
+    def retrieve(self, query: str, k: int = 5) -> List[Tuple[str, float]]:
+        """Retrieve relevant documents for a query."""
+        pass
 
 
 class ChunkRetriever:
@@ -187,3 +198,29 @@ class ChunkRetriever:
             instance._build_index()
         
         return instance
+
+
+class RerankingRetriever(BaseRetriever):
+    def __init__(self, base_retriever: BaseRetriever, rerank_model_name: str = 'cross-encoder/ms-marco-MiniLM-L-6-v2'):
+        self.base_retriever = base_retriever
+        self.rerank_model = CrossEncoder(rerank_model_name)
+
+    def retrieve(self, query: str, k: int = 5) -> List[Tuple[str, float]]:
+        # Get initial results
+        initial_results = self.base_retriever.retrieve(query, k=k*2)  # Retrieve more initially
+
+        # Check if we have any results
+        if not initial_results:
+            print(f"Warning: No results found for query: {query}")
+            return []
+
+        # Prepare pairs for re-ranking
+        pairs = [[query, doc] for doc, _ in initial_results]
+
+        # Re-rank
+        scores = self.rerank_model.predict(pairs)
+
+        # Sort and return top k
+        reranked_results = sorted(zip(initial_results, scores), key=lambda x: x[1], reverse=True)[:k]
+        return [(doc, score) for (doc, _), score in reranked_results]
+
