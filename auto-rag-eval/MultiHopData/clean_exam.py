@@ -128,6 +128,6 @@ def process_json_file(input_path, output_path):
 
 
 if __name__ == "__main__":
-    input_file = "MultiHopData/wiki/exam.json"
-    output_file = "MultiHopData/wiki/exam_cleaned.json"
+    input_file = "MultiHopData/SecFilings/exam_new.json"
+    output_file = "MultiHopData/SecFilings/exam_cleaned.json"
     process_json_file(input_file, output_file)
