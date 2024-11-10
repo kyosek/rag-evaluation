@@ -10,9 +10,9 @@ from nltk.tokenize import word_tokenize
 from tqdm import tqdm
 
 from MultiHopData.retriever import Chunk, ChunkRetriever
-from LLMServer.llama.llama_instant import LlamaModel
 from LLMServer.llama_gcp.llama_gcp_instant import LlamaGcpModel
 from LLMServer.gcp.claude_instant import ClaudeGcp
+from LLMServer.gcp.gemini_instant import GeminiGcp
 
 nltk.download('punkt_tab')
 
@@ -221,8 +221,8 @@ def main(task_domain: str, retriever_type: str, model_type: str, model_name: str
         solver = ExamSolver(hybrid_retriever)
     
     # Load and solve exam
-    if model_type == "GCP":
-        print("Using transformer")
+    if model_type == "gemini":
+        model = GeminiGcp(model_name=model_name)
     elif model_type == "claude":
         model = ClaudeGcp(model_name=model_name)
     else:
@@ -242,13 +242,17 @@ if __name__ == "__main__":
     # retriever_type = "Dense"
     # retriever_type = "Sparse"
     # retriever_type = "Hybrid"
-    model_type = "claude"
-    model_name = "claude-3-5-haiku@20241022"
+    model_type = "gemini"
+    # model_type = "claude"
+    # model_name = "claude-3-5-haiku@20241022"
     task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     retriever_types = ["Dense", "Sparse", "Hybrid"]
+    model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
     
-    for task_domain in task_domains:
-        print(f"Processing {task_domain}")
-        for retriever_type in retriever_types:
-            print(f"Retriever: {retriever_type}")
-            main(task_domain, retriever_type, model_type, model_name)
+    for model_name in model_names:
+        for task_domain in task_domains:
+            for retriever_type in retriever_types:
+                print(f"Using {model_name}")            
+                print(f"Processing {task_domain}")
+                print(f"Retriever: {retriever_type}")
+                main(task_domain, retriever_type, model_type, model_name)

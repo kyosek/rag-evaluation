@@ -151,10 +151,10 @@ def main(data_path: str, output_path: str, task_domain: str, sample_size: int, s
         retriever.load_documents(data_path)
         
         logging.info(f"Save the database to 'MultiHopData/{task_domain}/chunk_database'")
-        retriever.save_database(f'MultiHopData/{task_domain}/chunk_database')
+        retriever.save_database(f'MultiHopData/{task_domain}/chunk_database', task_domain)
     else:
         logging.info("Loading database from file")
-        retriever = ChunkRetriever.load_database(f'MultiHopData/{task_domain}/chunk_database')
+        retriever = ChunkRetriever.load_database(f'MultiHopData/{task_domain}/chunk_database', task_domain)
     
     # Sample chunks with a specific seed
     sampled_chunks = retriever.sample_chunks(sample_size, seed=42)
@@ -169,9 +169,9 @@ def main(data_path: str, output_path: str, task_domain: str, sample_size: int, s
 
 
 if __name__ == "__main__":
-    task_domain = "wiki"
+    task_domain = "SecFilings"
     data_path = f"MultiHopData/{task_domain}/docs_chunk.json"
-    output_path = f"MultiHopData/{task_domain}/exam.json"
+    output_path = f"MultiHopData/{task_domain}/exam_new.json"
     sample_size = 1100
     
     main(data_path, output_path, task_domain, sample_size, step_size=1)
