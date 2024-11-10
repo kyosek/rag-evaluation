@@ -163,17 +163,16 @@ class ExamSolver:
         Your answer (one letter only): [/INST]"""
 
         # Get model response
-        response = model.invoke(prompt)
-        
-        # Extract just the letter from the response
-        # Look for first occurrence of A, B, C, or D
-        valid_answers = {'A', 'B', 'C', 'D'}
-        for char in response:
-            if char in valid_answers:
-                return char
-            
-        # If no valid letter found, return the last character as fallback
         try:
+            response = model.invoke(prompt)
+            
+            # Extract just the letter from the response
+            # Look for first occurrence of A, B, C, or D
+            valid_answers = {'A', 'B', 'C', 'D'}
+            for char in response:
+                if char in valid_answers:
+                    return char
+                
             return response.strip()[-1]
         except:
             return "A"
