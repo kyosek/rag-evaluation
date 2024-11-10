@@ -3,52 +3,8 @@ from LLMServer.gcp.claude_instant import ClaudeGcp
 model = ClaudeGcp()
 
 prompt = """I am developing a python script to perform RAG to solve multi-choice exam.
-In addition to the current solution, I am thinking to add re-ranking method to the context that were retrieved.
 
-My current script looks like this.
-
-Current RAG script:
-
-from abc import ABC, abstractmethod
-from dataclasses import dataclass
-from typing import List, Dict, Any, Tuple, Optional
-import json
-import faiss
-import numpy as np
-from rank_bm25 import BM25Okapi
-import nltk
-from nltk.tokenize import word_tokenize
-from tqdm import tqdm
-
-from MultiHopData.generate_exam import ChunkRetriever, Chunk
-from LLMServer.llama.llama_instant import LlamaModel
-from LLMServer.llama_gcp.llama_gcp_instant import LlamaGcpModel
-from LLMServer.gcp.claude_instant import ClaudeGcp
-
-nltk.download('punkt_tab')
-
-
-@dataclass
-class ExamQuestion:
-    question: str
-    choices: List[str]
-    correct_answer: str
-    documentation: List[str]
-
-
-class BaseRetriever(ABC):
-    "Abstract base class for different retrieval methods."
-    @abstractmethod
-    def retrieve(self, query: str, k: int = 5) -> List[Tuple[str, float]]:
-        "Retrieve relevant documents for a query."
-        pass
-
-
-class FAISSRetriever(BaseRetriever):
-    "Dense retrieval using FAISS."
-    def __init__(self, chunk_retriever: 'ChunkRetriever'):
-        self.chunk_retriever = chunk_retriever
-        import os
+import os
 import json
 import pickle
 import random
@@ -61,6 +17,7 @@ from dataclasses import dataclass, field
 from rank_bm25 import BM25Okapi
 from nltk.tokenize import word_tokenize
 import nltk
+from sentence_transformers import CrossEncoder
 
 from LLMServer.gcp.gemini_instant import GeminiGcp
 from LLMServer.gcp.claude_instant import ClaudeGcp
@@ -245,6 +202,7 @@ class BM25Retriever(BaseRetriever):
         top_indices = np.argsort(doc_scores)[-k:][::-1]
         return [(self.corpus[i], doc_scores[i]) for i in top_indices]
 
+
 class HybridRetriever(BaseRetriever):
     def __init__(self, dense_retriever: ContextualFAISSRetriever, sparse_retriever: BM25Retriever, dense_weight: float = 0.5):
         self.dense_retriever = dense_retriever
@@ -267,6 +225,26 @@ class HybridRetriever(BaseRetriever):
         
         sorted_results = sorted(combined_results.items(), key=lambda x: x[1], reverse=True)
         return sorted_results[:k]
+
+
+class RerankingRetriever(BaseRetriever):
+    def __init__(self, base_retriever: BaseRetriever, rerank_model_name: str = 'cross-encoder/ms-marco-MiniLM-L-6-v2'):
+        self.base_retriever = base_retriever
+        self.rerank_model = CrossEncoder(rerank_model_name)
+
+    def retrieve(self, query: str, k: int = 5) -> List[Tuple[str, float]]:
+        # Get initial results
+        initial_results = self.base_retriever.retrieve(query, k=k*2)  # Retrieve more initially
+
+        # Prepare pairs for re-ranking
+        pairs = [[query, doc] for doc, _ in initial_results]
+
+        # Re-rank
+        scores = self.rerank_model.predict(pairs)
+
+        # Sort and return top k
+        reranked_results = sorted(zip(initial_results, scores), key=lambda x: x[1], reverse=True)[:k]
+        return [(doc, score) for (doc, _), score in reranked_results]
 
 
 class ContextualExamSolver(ExamSolver):
@@ -323,7 +301,7 @@ class ContextualExamSolver(ExamSolver):
             return "A"
 
 
-def main(task_domain: str, retriever_type: str, model_type: str, model_name: str):
+def main(task_domain: str, retriever_type: str, model_type: str, model_name: str, reranking: bool):
     chunk_retriever = ContextualChunkRetriever(task_domain, llm_model_name=model_name, random_seed=42)
     
     # Load or create the contextual database
@@ -346,6 +324,9 @@ def main(task_domain: str, retriever_type: str, model_type: str, model_name: str
         retriever = HybridRetriever(contextual_faiss_retriever, bm25_retriever)
     else:
         raise ValueError("Invalid retriever type")
+    
+    if reranking:
+        retriever = RerankingRetriever(retriever)
     
     solver = ContextualExamSolver(retriever)
     
@@ -372,7 +353,7 @@ if __name__ == "__main__":
     # model_name = "claude-3-5-sonnet@20240620"
     # retriever_type = "Dense"
     # retriever_type = "Sparse"
-    retriever_type = "Hybrid"
+    # retriever_type = "Hybrid"
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "wiki"]
     retriever_types = ["Dense", "Sparse", "Hybrid"]
@@ -385,13 +366,37 @@ if __name__ == "__main__":
                 print(f"Using {model_name}")            
                 print(f"Processing {task_domain}")
                 print(f"Retriever: {retriever_type}")
-                main(task_domain, retriever_type, model_type, model_name)
+                main(task_domain, retriever_type, model_type, model_name, reranking=True)
+
+Got an error:            
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/kyosuke/rag-evaluation/auto-rag-eval/MultiHopData/solve_exam_contextual_rag.py", line 363, in <module>
+    main(task_domain, retriever_type, model_type, model_name, reranking=True)
+  File "/home/kyosuke/rag-evaluation/auto-rag-eval/MultiHopData/solve_exam_contextual_rag.py", line 336, in main
+    metrics = solver.evaluate_performance(questions, model)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/rag-evaluation/auto-rag-eval/MultiHopData/solve_exam_rag.py", line 187, in evaluate_performance
+    predicted_answer = self.solve_question(question, model)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/rag-evaluation/auto-rag-eval/MultiHopData/solve_exam_contextual_rag.py", line 249, in solve_question
+    retrieved_docs = self.retriever.retrieve(question.question, k=self.n_documents)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/rag-evaluation/auto-rag-eval/MultiHopData/solve_exam_contextual_rag.py", line 237, in retrieve
+    scores = self.rerank_model.predict(pairs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/rag-evaluation/venv/lib/python3.11/site-packages/sentence_transformers/cross_encoder/CrossEncoder.py", line 415, in predict
+    if isinstance(sentences[0], str):  # Cast an individual sentence to a list with length 1
+                  ~~~~~~~~~^^^
+IndexError: list index out of range
+
 
 Your task is:
 1. Analyse the current RAG system
-2. Think how to add re-ranking method to the existing RAG
-3. Explain what components are needed to implement it
-4. Write a python script or modify the contextual RAG script to do so
+2. Explain what is this error
+3. Think how we can fix this
+4. Write a python script or modify the contextual RAG script to fix this error
 """
 
 print(model.invoke(prompt))

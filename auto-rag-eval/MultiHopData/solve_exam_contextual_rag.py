@@ -11,6 +11,7 @@ from dataclasses import dataclass, field
 from rank_bm25 import BM25Okapi
 from nltk.tokenize import word_tokenize
 import nltk
+from sentence_transformers import CrossEncoder
 
 from LLMServer.gcp.gemini_instant import GeminiGcp
 from LLMServer.gcp.claude_instant import ClaudeGcp
@@ -195,6 +196,7 @@ class BM25Retriever(BaseRetriever):
         top_indices = np.argsort(doc_scores)[-k:][::-1]
         return [(self.corpus[i], doc_scores[i]) for i in top_indices]
 
+
 class HybridRetriever(BaseRetriever):
     def __init__(self, dense_retriever: ContextualFAISSRetriever, sparse_retriever: BM25Retriever, dense_weight: float = 0.5):
         self.dense_retriever = dense_retriever
@@ -217,6 +219,31 @@ class HybridRetriever(BaseRetriever):
         
         sorted_results = sorted(combined_results.items(), key=lambda x: x[1], reverse=True)
         return sorted_results[:k]
+
+
+class RerankingRetriever(BaseRetriever):
+    def __init__(self, base_retriever: BaseRetriever, rerank_model_name: str = 'cross-encoder/ms-marco-MiniLM-L-6-v2'):
+        self.base_retriever = base_retriever
+        self.rerank_model = CrossEncoder(rerank_model_name)
+
+    def retrieve(self, query: str, k: int = 5) -> List[Tuple[str, float]]:
+        # Get initial results
+        initial_results = self.base_retriever.retrieve(query, k=k*2)  # Retrieve more initially
+
+        # Check if we have any results
+        if not initial_results:
+            print(f"Warning: No results found for query: {query}")
+            return []
+
+        # Prepare pairs for re-ranking
+        pairs = [[query, doc] for doc, _ in initial_results]
+
+        # Re-rank
+        scores = self.rerank_model.predict(pairs)
+
+        # Sort and return top k
+        reranked_results = sorted(zip(initial_results, scores), key=lambda x: x[1], reverse=True)[:k]
+        return [(doc, score) for (doc, _), score in reranked_results]
 
 
 class ContextualExamSolver(ExamSolver):
@@ -273,7 +300,7 @@ class ContextualExamSolver(ExamSolver):
             return "A"
 
 
-def main(task_domain: str, retriever_type: str, model_type: str, model_name: str):
+def main(task_domain: str, retriever_type: str, model_type: str, model_name: str, reranking: bool):
     chunk_retriever = ContextualChunkRetriever(task_domain, llm_model_name=model_name, random_seed=42)
     
     # Load or create the contextual database
@@ -297,6 +324,9 @@ def main(task_domain: str, retriever_type: str, model_type: str, model_name: str
     else:
         raise ValueError("Invalid retriever type")
     
+    if reranking:
+        retriever = RerankingRetriever(retriever)
+    
     solver = ContextualExamSolver(retriever)
     
     # Load and solve exam
@@ -316,18 +346,18 @@ def main(task_domain: str, retriever_type: str, model_type: str, model_name: str
 
 
 if __name__ == "__main__":
-    # model_type = "gemini"
-    model_type = "claude"
+    model_type = "gemini"
+    # model_type = "claude"
     # model_name = "claude-3-5-haiku@20241022"
     # model_name = "claude-3-5-sonnet@20240620"
     # retriever_type = "Dense"
     # retriever_type = "Sparse"
-    retriever_type = "Hybrid"
-    # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "wiki"]
+    # retriever_type = "Hybrid"
+    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "wiki", "SecFilings"]
+    # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "wiki"]
     retriever_types = ["Dense", "Sparse", "Hybrid"]
-    # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
-    model_names = ["claude-3-5-haiku@20241022", "claude-3-5-sonnet@20240620"]
+    model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
+    # model_names = ["claude-3-5-haiku@20241022", "claude-3-5-sonnet@20240620"]
     
     for model_name in model_names:
         for task_domain in task_domains:
@@ -335,5 +365,4 @@ if __name__ == "__main__":
                 print(f"Using {model_name}")            
                 print(f"Processing {task_domain}")
                 print(f"Retriever: {retriever_type}")
-                main(task_domain, retriever_type, model_type, model_name)
-
+                main(task_domain, retriever_type, model_type, model_name, reranking=True)
