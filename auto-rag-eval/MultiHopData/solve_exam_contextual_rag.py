@@ -8,11 +8,16 @@ from typing import List, Dict, Any, Tuple, Optional
 from tqdm import tqdm
 from sentence_transformers import SentenceTransformer
 from dataclasses import dataclass, field
+from rank_bm25 import BM25Okapi
+from nltk.tokenize import word_tokenize
+import nltk
 
 from LLMServer.gcp.gemini_instant import GeminiGcp
 from LLMServer.gcp.claude_instant import ClaudeGcp
 from MultiHopData.retriever import Chunk
 from MultiHopData.solve_exam_rag import BaseRetriever, ExamQuestion, ExamSolver
+
+nltk.download('punkt_tab')
 
 
 @dataclass
@@ -177,6 +182,43 @@ class ContextualFAISSRetriever(BaseRetriever):
         return [(f"{chunk.content}\n\nContext: {chunk.context}", score) for chunk, score in similar_chunks]
 
 
+class BM25Retriever(BaseRetriever):
+    def __init__(self, chunks: List[ContextualChunk]):
+        self.chunks = chunks
+        self.corpus = [f"{chunk.content}\n\nContext: {chunk.context}" for chunk in chunks]
+        self.tokenized_corpus = [word_tokenize(doc.lower()) for doc in self.corpus]
+        self.bm25 = BM25Okapi(self.tokenized_corpus)
+    
+    def retrieve(self, query: str, k: int = 5) -> List[Tuple[str, float]]:
+        tokenized_query = word_tokenize(query.lower())
+        doc_scores = self.bm25.get_scores(tokenized_query)
+        top_indices = np.argsort(doc_scores)[-k:][::-1]
+        return [(self.corpus[i], doc_scores[i]) for i in top_indices]
+
+class HybridRetriever(BaseRetriever):
+    def __init__(self, dense_retriever: ContextualFAISSRetriever, sparse_retriever: BM25Retriever, dense_weight: float = 0.5):
+        self.dense_retriever = dense_retriever
+        self.sparse_retriever = sparse_retriever
+        self.dense_weight = dense_weight
+        self.sparse_weight = 1 - dense_weight
+
+    def retrieve(self, query: str, k: int = 5) -> List[Tuple[str, float]]:
+        dense_results = self.dense_retriever.retrieve(query, k=k)
+        sparse_results = self.sparse_retriever.retrieve(query, k=k)
+        
+        combined_results = {}
+        for doc, score in dense_results:
+            combined_results[doc] = score * self.dense_weight
+        for doc, score in sparse_results:
+            if doc in combined_results:
+                combined_results[doc] += score * self.sparse_weight
+            else:
+                combined_results[doc] = score * self.sparse_weight
+        
+        sorted_results = sorted(combined_results.items(), key=lambda x: x[1], reverse=True)
+        return sorted_results[:k]
+
+
 class ContextualExamSolver(ExamSolver):
     def __init__(self, retriever: BaseRetriever, n_documents: int = 5):
         super().__init__(retriever, n_documents)
@@ -243,8 +285,19 @@ def main(task_domain: str, retriever_type: str, model_type: str, model_name: str
         chunk_retriever.save_database(db_path)
     
     # Initialize solver with contextual retriever
-    contextual_retriever = ContextualFAISSRetriever(chunk_retriever)
-    solver = ContextualExamSolver(contextual_retriever)
+    contextual_faiss_retriever = ContextualFAISSRetriever(chunk_retriever)
+    bm25_retriever = BM25Retriever(chunk_retriever.chunks)
+    
+    if retriever_type == "Dense":
+        retriever = contextual_faiss_retriever
+    elif retriever_type == "Sparse":
+        retriever = bm25_retriever
+    elif retriever_type == "Hybrid":
+        retriever = HybridRetriever(contextual_faiss_retriever, bm25_retriever)
+    else:
+        raise ValueError("Invalid retriever type")
+    
+    solver = ContextualExamSolver(retriever)
     
     # Load and solve exam
     if model_type == "claude":
@@ -263,20 +316,24 @@ def main(task_domain: str, retriever_type: str, model_type: str, model_name: str
 
 
 if __name__ == "__main__":
-    model_type = "gemini"
-    # model_type = "claude"
+    # model_type = "gemini"
+    model_type = "claude"
     # model_name = "claude-3-5-haiku@20241022"
-    retriever_type = "Dense"
+    # model_name = "claude-3-5-sonnet@20240620"
+    # retriever_type = "Dense"
+    # retriever_type = "Sparse"
+    retriever_type = "Hybrid"
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "wiki"]
-    # retriever_types = ["Dense", "Sparse", "Hybrid"]
-    model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
+    retriever_types = ["Dense", "Sparse", "Hybrid"]
+    # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
+    model_names = ["claude-3-5-haiku@20241022", "claude-3-5-sonnet@20240620"]
     
     for model_name in model_names:
         for task_domain in task_domains:
-            # for retriever_type in retriever_types:
-            print(f"Using {model_name}")            
-            print(f"Processing {task_domain}")
-            print(f"Retriever: {retriever_type}")
-            main(task_domain, retriever_type, model_type, model_name)
+            for retriever_type in retriever_types:
+                print(f"Using {model_name}")            
+                print(f"Processing {task_domain}")
+                print(f"Retriever: {retriever_type}")
+                main(task_domain, retriever_type, model_type, model_name)
 
