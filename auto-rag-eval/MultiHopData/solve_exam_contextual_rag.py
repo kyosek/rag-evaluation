@@ -15,8 +15,8 @@ from sentence_transformers import CrossEncoder
 
 from LLMServer.gcp.gemini_instant import GeminiGcp
 from LLMServer.gcp.claude_instant import ClaudeGcp
-from MultiHopData.retriever import Chunk
-from MultiHopData.solve_exam_rag import BaseRetriever, ExamQuestion, ExamSolver
+from MultiHopData.retriever import Chunk, BaseRetriever, RerankingRetriever
+from MultiHopData.solve_exam_rag import ExamQuestion, ExamSolver
 
 nltk.download('punkt_tab')
 
@@ -107,7 +107,7 @@ class ContextualChunkRetriever:
         self, 
         query_chunk: ContextualChunk, 
         k: int = 4, 
-        similarity_threshold: float = 0.9,
+        similarity_threshold: float = 0.5,
         exclude_same_doc: bool = True
     ) -> List[Tuple[ContextualChunk, float]]:
         query_embedding = self.model.encode([f"{query_chunk.content}\n\nContext: {query_chunk.context}"])
@@ -183,7 +183,7 @@ class ContextualFAISSRetriever(BaseRetriever):
         return [(f"{chunk.content}\n\nContext: {chunk.context}", score) for chunk, score in similar_chunks]
 
 
-class BM25Retriever(BaseRetriever):
+class ContextualBM25Retriever(BaseRetriever):
     def __init__(self, chunks: List[ContextualChunk]):
         self.chunks = chunks
         self.corpus = [f"{chunk.content}\n\nContext: {chunk.context}" for chunk in chunks]
@@ -198,7 +198,7 @@ class BM25Retriever(BaseRetriever):
 
 
 class HybridRetriever(BaseRetriever):
-    def __init__(self, dense_retriever: ContextualFAISSRetriever, sparse_retriever: BM25Retriever, dense_weight: float = 0.5):
+    def __init__(self, dense_retriever: ContextualFAISSRetriever, sparse_retriever: ContextualBM25Retriever, dense_weight: float = 0.5):
         self.dense_retriever = dense_retriever
         self.sparse_retriever = sparse_retriever
         self.dense_weight = dense_weight
@@ -221,31 +221,6 @@ class HybridRetriever(BaseRetriever):
         return sorted_results[:k]
 
 
-class RerankingRetriever(BaseRetriever):
-    def __init__(self, base_retriever: BaseRetriever, rerank_model_name: str = 'cross-encoder/ms-marco-MiniLM-L-6-v2'):
-        self.base_retriever = base_retriever
-        self.rerank_model = CrossEncoder(rerank_model_name)
-
-    def retrieve(self, query: str, k: int = 5) -> List[Tuple[str, float]]:
-        # Get initial results
-        initial_results = self.base_retriever.retrieve(query, k=k*2)  # Retrieve more initially
-
-        # Check if we have any results
-        if not initial_results:
-            print(f"Warning: No results found for query: {query}")
-            return []
-
-        # Prepare pairs for re-ranking
-        pairs = [[query, doc] for doc, _ in initial_results]
-
-        # Re-rank
-        scores = self.rerank_model.predict(pairs)
-
-        # Sort and return top k
-        reranked_results = sorted(zip(initial_results, scores), key=lambda x: x[1], reverse=True)[:k]
-        return [(doc, score) for (doc, _), score in reranked_results]
-
-
 class ContextualExamSolver(ExamSolver):
     def __init__(self, retriever: BaseRetriever, n_documents: int = 5):
         super().__init__(retriever, n_documents)
@@ -253,9 +228,9 @@ class ContextualExamSolver(ExamSolver):
     def solve_question(self, question: ExamQuestion, model) -> str:
         retrieved_docs = self.retriever.retrieve(question.question, k=self.n_documents)
         
-        context = "\n".join([doc for doc, _ in retrieved_docs])
+        context = "\n".join([f"{i+1}) {doc}" for i, (doc, _) in enumerate(retrieved_docs)])
         
-        formatted_choices = "\n".join(f"{chr(65+i)}. {choice}" for i, choice in enumerate(question.choices))
+        formatted_choices = "\n".join(f"{choice}" for choice in question.choices)
     
         prompt = f"""[INST] <<SYS>>
         You are an AI assistant taking a multiple choice exam. Your task is to:
@@ -270,7 +245,7 @@ class ContextualExamSolver(ExamSolver):
         Choices:
         {formatted_choices}
         
-        Supporting document:
+        Supporting documents:
         {context}
 
         Instructions:
@@ -300,7 +275,7 @@ class ContextualExamSolver(ExamSolver):
             return "A"
 
 
-def main(task_domain: str, retriever_type: str, model_type: str, model_name: str, reranking: bool):
+def main(task_domain: str, retriever_type: str, model_type: str, model_name: str, reranking: bool = False):
     chunk_retriever = ContextualChunkRetriever(task_domain, llm_model_name=model_name, random_seed=42)
     
     # Load or create the contextual database
@@ -313,7 +288,7 @@ def main(task_domain: str, retriever_type: str, model_type: str, model_name: str
     
     # Initialize solver with contextual retriever
     contextual_faiss_retriever = ContextualFAISSRetriever(chunk_retriever)
-    bm25_retriever = BM25Retriever(chunk_retriever.chunks)
+    bm25_retriever = ContextualBM25Retriever(chunk_retriever.chunks)
     
     if retriever_type == "Dense":
         retriever = contextual_faiss_retriever
@@ -346,23 +321,32 @@ def main(task_domain: str, retriever_type: str, model_type: str, model_name: str
 
 
 if __name__ == "__main__":
+    # Model family
     model_type = "gemini"
     # model_type = "claude"
-    # model_name = "claude-3-5-haiku@20241022"
-    # model_name = "claude-3-5-sonnet@20240620"
-    # retriever_type = "Dense"
-    # retriever_type = "Sparse"
-    # retriever_type = "Hybrid"
-    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "wiki", "SecFilings"]
-    # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "wiki"]
-    retriever_types = ["Dense", "Sparse", "Hybrid"]
+    
+    # Task domain
+    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    
+    # Retriever type
+    # retriever_types = ["Dense", "Sparse", "Hybrid"]
+    retriever_types = ["Sparse"]
+    
+    # Model name
     model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
     # model_names = ["claude-3-5-haiku@20241022", "claude-3-5-sonnet@20240620"]
     
-    for model_name in model_names:
-        for task_domain in task_domains:
-            for retriever_type in retriever_types:
-                print(f"Using {model_name}")            
-                print(f"Processing {task_domain}")
-                print(f"Retriever: {retriever_type}")
-                main(task_domain, retriever_type, model_type, model_name, reranking=True)
+    # Reranker flag
+    # rerank_flags = [False, True]
+    rerank_flags = [True]
+    
+    for rerank_flag in rerank_flags:
+        for model_name in model_names:
+            for task_domain in task_domains:
+                for retriever_type in retriever_types:
+                    print(f"Using {model_name}")            
+                    print(f"Processing {task_domain}")
+                    print(f"Retriever: {retriever_type}")
+                    print(f"Rerank: {rerank_flag}")
+                    main(task_domain, retriever_type, model_type, model_name, reranking=rerank_flag)
+                # main(task_domain, retriever_type, model_type, model_name)
