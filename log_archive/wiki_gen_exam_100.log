@@ -1,0 +1,65 @@
+INFO:__main__:Start processing
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+/home/kyosuke/auto-rag-eval/venv/lib/python3.11/site-packages/transformers/tokenization_utils_base.py:1617: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be deprecated in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+INFO:__main__:Loading database from file
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+Start generating exam
+  0%|          | 0/11 [00:00<?, ?it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 15.76it/s]
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 21.53it/s]
+INFO:httpx:HTTP Request: POST https://europe-west1-aiplatform.googleapis.com/v1/projects/rag-evaluation-437417/locations/europe-west1/publishers/anthropic/models/claude-3-5-sonnet@20240620:rawPredict "HTTP/1.1 200 OK"
+  9%|▉         | 1/11 [00:08<01:21,  8.15s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 21.11it/s]
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 20.99it/s]
+INFO:httpx:HTTP Request: POST https://europe-west1-aiplatform.googleapis.com/v1/projects/rag-evaluation-437417/locations/europe-west1/publishers/anthropic/models/claude-3-5-sonnet@20240620:rawPredict "HTTP/1.1 200 OK"
+ 18%|█▊        | 2/11 [00:15<01:09,  7.77s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 13.33it/s]
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 19.34it/s]
+INFO:httpx:HTTP Request: POST https://europe-west1-aiplatform.googleapis.com/v1/projects/rag-evaluation-437417/locations/europe-west1/publishers/anthropic/models/claude-3-5-sonnet@20240620:rawPredict "HTTP/1.1 200 OK"
+ 27%|██▋       | 3/11 [00:23<01:01,  7.74s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 21.73it/s]
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 21.16it/s]
+INFO:httpx:HTTP Request: POST https://europe-west1-aiplatform.googleapis.com/v1/projects/rag-evaluation-437417/locations/europe-west1/publishers/anthropic/models/claude-3-5-sonnet@20240620:rawPredict "HTTP/1.1 200 OK"
+ 36%|███▋      | 4/11 [00:32<00:58,  8.30s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 16.85it/s]
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 11.98it/s]
+INFO:httpx:HTTP Request: POST https://europe-west1-aiplatform.googleapis.com/v1/projects/rag-evaluation-437417/locations/europe-west1/publishers/anthropic/models/claude-3-5-sonnet@20240620:rawPredict "HTTP/1.1 200 OK"
+ 45%|████▌     | 5/11 [00:41<00:50,  8.46s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 15.06it/s]
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 17.16it/s]
+INFO:httpx:HTTP Request: POST https://europe-west1-aiplatform.googleapis.com/v1/projects/rag-evaluation-437417/locations/europe-west1/publishers/anthropic/models/claude-3-5-sonnet@20240620:rawPredict "HTTP/1.1 200 OK"
+ 55%|█████▍    | 6/11 [00:48<00:41,  8.21s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 13.48it/s]
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 18.64it/s]
+INFO:httpx:HTTP Request: POST https://europe-west1-aiplatform.googleapis.com/v1/projects/rag-evaluation-437417/locations/europe-west1/publishers/anthropic/models/claude-3-5-sonnet@20240620:rawPredict "HTTP/1.1 200 OK"
+ 64%|██████▎   | 7/11 [00:55<00:31,  7.80s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 30.13it/s]
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 32.14it/s]
+INFO:httpx:HTTP Request: POST https://europe-west1-aiplatform.googleapis.com/v1/projects/rag-evaluation-437417/locations/europe-west1/publishers/anthropic/models/claude-3-5-sonnet@20240620:rawPredict "HTTP/1.1 200 OK"
+ 73%|███████▎  | 8/11 [01:03<00:23,  7.77s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 20.33it/s]
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 20.40it/s]
+INFO:httpx:HTTP Request: POST https://europe-west1-aiplatform.googleapis.com/v1/projects/rag-evaluation-437417/locations/europe-west1/publishers/anthropic/models/claude-3-5-sonnet@20240620:rawPredict "HTTP/1.1 200 OK"
+ 82%|████████▏ | 9/11 [01:11<00:15,  7.80s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 20.56it/s]
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 21.53it/s]
+INFO:httpx:HTTP Request: POST https://europe-west1-aiplatform.googleapis.com/v1/projects/rag-evaluation-437417/locations/europe-west1/publishers/anthropic/models/claude-3-5-sonnet@20240620:rawPredict "HTTP/1.1 200 OK"
+ 91%|█████████ | 10/11 [01:19<00:07,  7.76s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 16.34it/s]
+
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 20.48it/s]
+INFO:httpx:HTTP Request: POST https://europe-west1-aiplatform.googleapis.com/v1/projects/rag-evaluation-437417/locations/europe-west1/publishers/anthropic/models/claude-3-5-sonnet@20240620:rawPredict "HTTP/1.1 200 OK"
+100%|██████████| 11/11 [01:27<00:00,  8.06s/it]100%|██████████| 11/11 [01:27<00:00,  7.99s/it]

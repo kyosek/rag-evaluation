@@ -162,8 +162,8 @@ def run_rag_exam(model_device, model_path: str, model_name: str, task_name: str,
 
 if __name__ == "__main__":
     # model_device = "GCP"
-    # model_device = "claude"
-    model_device = "gemini"
+    model_device = "claude"
+    # model_device = "gemini"
     model_path = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF"
     # model_name = "llamav2"
     # model_name = "claude"
@@ -180,11 +180,12 @@ if __name__ == "__main__":
     # folder_name = "claude_gcp_2024103016"
     folder_name = "claude_gcp_2024103108"
     # folder_name = "claude_gcp_2024110616"
-    retrievers = ["BM25", "DPR", "SIAMESE", "MultiQA", "DPR:MultiQA:BM25"]
+    # retrievers = ["BM25", "DPR", "SIAMESE", "MultiQA", "DPR:MultiQA:BM25"]
+    retrievers = ["DPR:MultiQA:BM25"]
     # task_names = ["Arxiv", "LawStackExchange", "SecFilings", "StackExchange"]
     task_names = ["StackExchange"]
     # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
-    model_names = ["gemini-1.5-flash-002"]
+    model_names = ["claude-3-5-haiku@20241022"]
     
     for model_name in model_names:
         for task_name in task_names:
