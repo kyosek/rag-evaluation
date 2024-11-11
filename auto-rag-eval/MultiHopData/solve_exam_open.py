@@ -88,16 +88,27 @@ class ExamSolver:
             return response.strip()[-1]
         except:
             return "A"
-            
-            return answer
     
-    def evaluate_performance(self, questions: List[ExamQuestion], model) -> Dict[str, float]:
+    def evaluate_performance(self, questions: List[ExamQuestion], model, task_domain, model_name) -> Dict[str, float]:
         """Evaluate the solver's performance on a set of questions."""
         correct = 0
         total = len(questions)
+        results = [] 
         
         for question in tqdm(questions):
             predicted_answer = self.solve_question(question, model)
+            
+                
+            question_result = {
+            "question": question.question,
+            "model_answer": predicted_answer,
+            "correct_answer": question.correct_answer,
+            "is_correct": predicted_answer == question.correct_answer
+            }
+        
+            # Add the question result to the list
+            results.append(question_result)
+            
             if predicted_answer == question.correct_answer:
                 correct += 1
         
@@ -106,12 +117,18 @@ class ExamSolver:
             'correct': correct,
             'total': total
         }
+        
+        with open(f"MultiHopData/{task_domain}/{model_name}_exam_results.json", 'w') as json_file:
+            json.dump(results, json_file, indent=2)
+        
         return metrics
 
 
 def main(task_domain: str, model_type: str, model_name: str):
     if model_type == "gemini":
         model = GeminiGcp(model_name=model_name)
+    elif model_type == "claude":
+        model = ClaudeGcp(model_name=model_name)
     else:
         print("Using Llama-cpp")
         # model = LlamaModel(model_path=model_path)
@@ -119,7 +136,7 @@ def main(task_domain: str, model_type: str, model_name: str):
     print("Solving the exam")
     solver = ExamSolver()
     questions = solver.load_exam(f"MultiHopData/{task_domain}/exam_cleaned_1000_42.json")
-    metrics = solver.evaluate_performance(questions, model)
+    metrics = solver.evaluate_performance(questions, model, task_domain, model_name)
     
     print(f"Exam Performance:")
     print(f"Accuracy: {metrics['accuracy']:.2%}")
@@ -127,15 +144,18 @@ def main(task_domain: str, model_type: str, model_name: str):
 
 
 if __name__ == "__main__":
-    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    # model_type = "claude"
-    model_type = "gemini"
+    # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    task_domains = ["gov_report"]
+    model_type = "claude"
+    # model_type = "gemini"
     # model_name = "claude-3-5-haiku@20241022"
     # model_name = "claude-3-5-sonnet@20240620"
     # model_name = "gemini-1.5-pro-002"
     # model_name = "gemini-1.5-flash-002"
     
-    model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
+    # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
+    # model_names = ["claude-3-5-sonnet@20240620", "claude-3-5-haiku@20241022"]
+    model_names = ["claude-3-5-haiku@20241022"]
     
     for model_name in model_names:
         for task_domain in task_domains:

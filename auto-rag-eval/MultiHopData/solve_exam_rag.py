@@ -168,14 +168,26 @@ class ExamSolver:
         except:
             return "A"
     
-    def evaluate_performance(self, questions: List[ExamQuestion], model) -> Dict[str, float]:
+    def evaluate_performance(self, questions: List[ExamQuestion], model, task_domain, retriever_type, model_name) -> Dict[str, float]:
         """Evaluate the solver's performance on a set of questions."""
         correct = 0
         total = len(questions)
+        results = [] 
         
         print("Solving the exam")
         for question in tqdm(questions):
             predicted_answer = self.solve_question(question, model)
+            
+            question_result = {
+            "question": question.question,
+            "model_answer": predicted_answer,
+            "correct_answer": question.correct_answer,
+            "is_correct": predicted_answer == question.correct_answer
+            }
+        
+            # Add the question result to the list
+            results.append(question_result)
+            
             if predicted_answer == question.correct_answer:
                 correct += 1
         
@@ -184,6 +196,10 @@ class ExamSolver:
             'correct': correct,
             'total': total
         }
+        
+        with open(f"MultiHopData/{task_domain}/{model_name}_{retriever_type}_exam_results.json", 'w') as json_file:
+            json.dump(results, json_file, indent=2)
+        
         return metrics
 
 
@@ -225,7 +241,7 @@ def main(task_domain: str, retriever_type: str, model_type: str, model_name: str
         # model = LlamaModel(model_path=model_path)
         
     questions = solver.load_exam(f"MultiHopData/{task_domain}/exam_cleaned_1000_42.json")
-    metrics = solver.evaluate_performance(questions, model)
+    metrics = solver.evaluate_performance(questions, model, task_domain, retriever_type, model_name)
     
     print(f"Exam Performance:")
     print(f"Accuracy: {metrics['accuracy']:.2%}")
@@ -238,19 +254,21 @@ if __name__ == "__main__":
     # model_type = "claude"
     
     # Task domain
-    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    task_domains = ["SecFilings"]
     
     # Retriever type
     # retriever_types = ["Dense", "Sparse", "Hybrid"]
-    retriever_types = ["Sparse"]
+    retriever_types = ["Dense", "Hybrid"]
     
     # Model name
-    model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
+    # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
     # model_names = ["claude-3-5-sonnet@20240620", "claude-3-5-haiku@20241022"]
+    model_names = ["gemini-1.5-flash-002"]
     
     # Reranker flag
     # rerank_flags = [True, False]
-    rerank_flags = [True]
+    rerank_flags = [False]
     
     for rerank_flag in rerank_flags:
         for model_name in model_names:
