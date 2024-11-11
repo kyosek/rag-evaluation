@@ -150,22 +150,20 @@ class ExamSolver:
         Your answer (one letter only): [/INST]"""
 
         # Get model response
-        response = model.invoke(prompt)
-        
-        # Extract just the letter from the response
-        # Look for first occurrence of A, B, C, or D
-        valid_answers = {'A', 'B', 'C', 'D'}
-        for char in response:
-            if char in valid_answers:
-                return char
-            
-        # If no valid letter found, return the last character as fallback
         try:
+            response = model.invoke(prompt)
+            
+            # Extract just the letter from the response
+            # Look for first occurrence of A, B, C, or D
+            valid_answers = {'A', 'B', 'C', 'D'}
+            for char in response:
+                if char in valid_answers:
+                    return char
+                
+            # If no valid letter found, return the last character as fallback
             return response.strip()[-1]
         except:
             return "A"
-            
-            return answer
     
     def evaluate_performance(self, questions: List[ExamQuestion], model) -> Dict[str, float]:
         """Evaluate the solver's performance on a set of questions."""
@@ -206,8 +204,8 @@ def main(task_domain: str, model_type: str, model_name: str):
 
 
 if __name__ == "__main__":
-    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    task_domains = ["multifieldqa_en", "SecFilings", "wiki"]
+    # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    task_domains = ["SecFilings"]
     model_type = "claude"
     # model_type = "gemini"
     # model_name = "claude-3-5-haiku@20241022"
@@ -215,7 +213,8 @@ if __name__ == "__main__":
     # model_name = "gemini-1.5-pro-002"
     # model_name = "gemini-1.5-flash-002"
     
-    model_names = ["claude-3-5-haiku@20241022"]
+    model_names = ["claude-3-5-sonnet@20240620", "claude-3-5-haiku@20241022"]
+    # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
     
     for model_name in model_names:
         for task_domain in task_domains:
