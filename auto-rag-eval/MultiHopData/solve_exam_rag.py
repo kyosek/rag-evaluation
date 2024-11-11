@@ -241,15 +241,16 @@ if __name__ == "__main__":
     task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     
     # Retriever type
-    retriever_types = ["Dense", "Sparse", "Hybrid"]
-    # retriever_types = ["Dense", "Hybrid"]
+    # retriever_types = ["Dense", "Sparse", "Hybrid"]
+    retriever_types = ["Sparse"]
     
     # Model name
     model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
     # model_names = ["claude-3-5-sonnet@20240620", "claude-3-5-haiku@20241022"]
     
     # Reranker flag
-    rerank_flags = [True, False]
+    # rerank_flags = [True, False]
+    rerank_flags = [True]
     
     for rerank_flag in rerank_flags:
         for model_name in model_names:
