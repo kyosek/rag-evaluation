@@ -19,9 +19,9 @@
   },
   {
     "question": "A state legislature is considering joining the National Popular Vote (NPV) compact. Which of the following arguments most strongly challenges the constitutionality of this decision, while also addressing potential practical issues?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A public university is revising its Title IX procedures for handling sexual misconduct allegations. Which of the following approaches would be most aligned with the 2014 Q&A guidance while also considering potential due process concerns?\n",
@@ -97,7 +97,7 @@
   },
   {
     "question": "A Department of Defense (DOD) agency is planning a military construction (MILCON) project that has exceeded its initial cost estimate. The project manager is considering reprogramming funds from another project to cover the shortfall. Under what circumstances would this reprogramming require prior congressional approval?\n",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -121,9 +121,9 @@
   },
   {
     "question": "Georgia's complex relationship with NATO and Russia has evolved significantly over the past two decades. Which of the following scenarios best represents the current geopolitical situation and its implications for Georgia's NATO aspirations?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A policy analyst is evaluating the effectiveness of summer nutrition programs for low-income children. Which of the following conclusions can be most reliably drawn from the information provided in the government report?\n",
@@ -145,15 +145,15 @@
   },
   {
     "question": "The Forest Service lacks proper documentation for its fire incident cooperative agreements. What is the most significant potential consequence of this deficiency?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "CMS implemented changes to Medicare payment rates for laboratory tests in 2018. Which of the following outcomes is most likely to result from CMS's implementation approach, according to the report?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The Department of Defense (DOD) is facing significant challenges in meeting its readiness goals for the F-35 fleet. Based on the information provided, which of the following strategies is most likely to effectively address these challenges in the long term?\n",
@@ -163,9 +163,9 @@
   },
   {
     "question": "The State Department's FY2019 budget request for the Diplomatic Programs account showed a significant decrease from the previous year's funding level. Given the information in the report, what is the most likely rationale behind Congress's decision to ultimately increase funding for this account above both the request and the previous year's level?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The Performance Improvement Council (PIC) is considering new strategies to enhance the use of performance information in federal decision-making. Given the findings from recent surveys and the requirements of GPRAMA, which of the following approaches would be most effective in addressing current challenges while aligning with legal requirements?\n",
@@ -241,9 +241,9 @@
   },
   {
     "question": "A Medicare Advantage (MA) plan is bidding to provide services in a region where the benchmark is $900 per member per month. The plan's estimated cost (bid) is $850 per month, and it has achieved a 4-star quality rating. What is the most accurate description of the financial outcome for this plan and its enrollees?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An administrative agency issues a statement outlining new procedures for conducting investigations into potential regulatory violations. Which of the following is the most accurate assessment of whether this statement qualifies as a \"rule\" under the Administrative Procedure Act (APA)?\n",
@@ -313,7 +313,7 @@
   },
   {
     "question": "Based on the moderate case simulations presented in the report, which of the following strategies would most effectively balance the Black Lung Disability Trust Fund by 2050 while minimizing the burden on both the coal industry and general taxpayers?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -379,15 +379,15 @@
   },
   {
     "question": "An analysis of SBA's 7(a) loan program from fiscal years 2007 through 2016 revealed changing trends in loan approvals. Which of the following conclusions can be most accurately drawn from this data?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The Secretary of the Navy is considering implementing a fixed policy for naming a new class of vessels. Given the information in the report, what is the most likely outcome and rationale for this decision?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A multinational corporation is expanding its operations globally and needs to ensure compliance with various data privacy regulations while maintaining efficient cross-border data flows. Which approach would best address their needs while aligning with current international trends in data privacy and trade?\n",
@@ -445,9 +445,9 @@
   },
   {
     "question": "The USS Gerald R. Ford (CVN-78) experienced cost overruns and technical issues during its development. Given this information, which of the following strategies is the Navy most likely implementing to reduce costs and improve efficiency for the construction of the USS John F. Kennedy (CVN-79)?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A policymaker is considering implementing a carbon tax and wants to maximize its economic efficiency while addressing concerns about its regressive nature. Which of the following approaches would be most likely to achieve both objectives?\n",
@@ -529,9 +529,9 @@
   },
   {
     "question": "A state Vocational Rehabilitation (VR) agency for the blind is struggling to implement pre-employment transition services as mandated by WIOA. Which of the following is the most likely combination of factors contributing to this challenge?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "VA's review of misconduct cases revealed several data quality issues. Which of the following strategies would be most effective in addressing these issues and improving the ability to analyze misconduct trends across the department?\n",
@@ -631,9 +631,9 @@
   },
   {
     "question": "A government is considering implementing a carbon tax to reduce greenhouse gas emissions. Based on economic models and projections, which of the following statements most accurately describes the expected outcomes and challenges of this policy?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Puerto Rico's economic challenges from 2004 to 2017 were multifaceted. Which of the following combinations of factors most accurately represents the territory's economic situation during this period, and demonstrates the interconnected nature of its fiscal problems?\n",
@@ -685,7 +685,7 @@
   },
   {
     "question": "A policy analyst is examining trends in nonimmigrant visa (NIV) adjudications from 2012 to 2017. Which of the following conclusions is best supported by the data in the report?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -715,15 +715,15 @@
   },
   {
     "question": "DHS experienced delays in implementing a contingency plan for a critical risk in the TRIO project. Which of the following approaches would have been most effective in preventing this issue?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A U.S. pharmaceutical company is considering a merger with a foreign firm to reduce its tax burden. Which of the following strategies would most likely allow the company to successfully invert while avoiding the strictest anti-inversion regulations?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Congress has historically faced challenges in funding water quality initiatives. Given the information provided, which of the following strategies has Congress most consistently employed to balance competing demands and ensure funding for water infrastructure programs?\n",
@@ -841,9 +841,9 @@
   },
   {
     "question": "A newly established private nonprofit institution is seeking Title IV eligibility for its programs. Which of the following program offerings would NOT meet the eligibility criteria for Title IV funding at this institution?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "During President Santos's tenure, Colombia experienced significant political changes and peace negotiations. Which of the following best describes the complex interplay of factors that led to the successful ratification of the peace agreement with FARC in 2016?\n",
@@ -865,9 +865,9 @@
   },
   {
     "question": "Egypt's foreign policy in the Middle East and North Africa region is characterized by complex relationships and strategic interests. Which of the following scenarios best represents Egypt's likely approach to regional diplomacy in the near future?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A state is struggling to implement the CAPTA requirements for substance-affected infants. Given the information in the report, what is the most effective action the federal government should take to address this issue?\n",
@@ -907,15 +907,15 @@
   },
   {
     "question": "A state Medicaid agency is revising its oversight of assisted living facilities. Which of the following approaches would most effectively address the gaps in critical incident reporting identified in the GAO report?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A U.S. multinational corporation is considering various strategies to optimize its global tax position in light of recent tax law changes. Which of the following approaches would likely be LEAST effective in reducing the company's overall tax burden under the current U.S. tax system?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A housing market analyst is studying the trends in new home construction and sales over the past two decades. Given the information provided, which of the following conclusions best represents the current state of the new home market compared to historical trends?\n",
@@ -1009,9 +1009,9 @@
   },
   {
     "question": "A government agency is considering revising its radiation protection guidelines. Given the current scientific understanding and regulatory approach, which of the following scenarios would most likely prompt the agency to change its use of the linear no-threshold model for low-dose radiation exposure?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "GSA has been exploring swap exchanges as a method to address federal real property needs. Based on the information provided, which of the following represents the most significant challenge to the successful implementation of swap exchanges for large-scale federal property projects?\n",
@@ -1021,9 +1021,9 @@
   },
   {
     "question": "The Trump Administration's FY2019 budget request for Colombia proposed a significant reduction in funding compared to the FY2018 appropriation. Which of the following best describes the Administration's shift in priorities for Colombia, as reflected in this budget proposal?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A VA facility manager is tasked with analyzing misconduct data across various departments. Given the data quality issues described in the documentation, which of the following strategies would be most effective in improving the ability to accurately analyze misconduct patterns?\n",
@@ -1075,9 +1075,9 @@
   },
   {
     "question": "The CVN 78 aircraft carrier is facing challenges in achieving its Sortie Generation Rate (SGR) requirement. Which of the following factors most comprehensively explains why the current SGR requirement is likely unrealistic and difficult to achieve?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A financial analyst is evaluating the effectiveness of the Small Business Lending Fund (SBLF) program. Given the information from Treasury reports and the Office of Inspector General (OIG) audit, which of the following conclusions is most accurate and comprehensive regarding the program's impact on small business lending?\n",
@@ -1171,9 +1171,9 @@
   },
   {
     "question": "A newly appointed U.S. government official is preparing for an overseas post where they will be involved in export promotion activities. Which of the following actions would best ensure the official's compliance with tobacco-related restrictions?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "The U.S. government is considering making the Aegis Ashore Missile Defense Test Center in Hawaii operational. Which of the following is the most complex challenge this decision would likely present?\n",
@@ -1339,9 +1339,9 @@
   },
   {
     "question": "A controversial judicial nominee is facing scrutiny in the Senate confirmation process. The Senate Judiciary Committee is considering how to proceed. Which of the following actions would be most unusual for the committee to take in this situation?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The President has used IEEPA (International Emergency Economic Powers Act) in various ways since its inception. Which of the following scenarios best demonstrates the evolution of IEEPA's application in recent decades?\n",
@@ -1489,9 +1489,9 @@
   },
   {
     "question": "WMATA is implementing a new capital planning process for its fiscal year 2020 budget. Given the information provided, what is the most significant risk associated with WMATA's approach to developing this new process?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A Department of Defense (DOD) research center is facing challenges in implementing critical infrastructure upgrades. Given the information in the report, what is likely the most significant underlying cause of this issue?\n",
@@ -1549,9 +1549,9 @@
   },
   {
     "question": "A state is struggling to implement effective policies for substance-affected infants. Which approach would likely be most beneficial in addressing this issue, based on the information provided in the report?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A hospital is implementing a new protocol for managing neonatal abstinence syndrome (NAS). Which of the following approaches is most likely to improve outcomes while reducing costs and length of stay?\n",
@@ -1603,9 +1603,9 @@
   },
   {
     "question": "According to the government report, which of the following strategies would most effectively balance the Black Lung Disability Trust Fund by 2050 while minimizing the burden on both the coal industry and general taxpayers?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A school district is planning to test for lead in its drinking water. Which of the following approaches would be most comprehensive and aligned with best practices for lead testing in schools?\n",
@@ -1789,9 +1789,9 @@
   },
   {
     "question": "DHS implemented the Expedited Approval Program (EAP) for tier 3 and tier 4 chemical facilities, but participation has been low. Which of the following best explains the complex factors contributing to this low participation?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A federal agency is considering implementing a new telework policy to reduce office space and cut costs. Which of the following strategies would be most effective in achieving these goals while aligning with current federal guidelines?\n",
@@ -1819,9 +1819,9 @@
   },
   {
     "question": "The U.S. Census Bureau's 2017 cost estimate for the 2020 Census showed significant improvement over the 2015 estimate, but still fell short in one key characteristic. Which of the following actions would most effectively address this shortcoming while aligning with best practices for cost estimation?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A bill is proposed to address the issue of sexual assault in the military by removing unit commanders' legal power to oversee major criminal cases and transferring that authority to uniformed prosecutors. What is the most likely consequence of this approach, according to the testimony of military leaders?\n",
@@ -1927,9 +1927,9 @@
   },
   {
     "question": "A state regulatory authority is reviewing its financial assurance program for coal mine reclamation. Which of the following actions would most effectively address the challenges identified by OSMRE while staying within the current regulatory framework?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A rural community is experiencing a significant increase in neonatal abstinence syndrome (NAS) cases. The local health department wants to implement a comprehensive strategy to address this issue. Which of the following approaches would be most effective in preventing NAS and improving outcomes for affected infants and mothers?\n",
@@ -2161,15 +2161,15 @@
   },
   {
     "question": "The U.S. Attorney's Office (USAO) is struggling with enforcing compliance for LD-203 referrals. Which of the following best explains why LD-203 referrals are more complicated to address than LD-2 referrals?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A U.S.-based humanitarian organization is experiencing delays in transferring funds to implement a USAID-funded project in a high-risk country. What is the most likely underlying cause of this issue?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "CMS is planning to conduct a fraud risk assessment for Medicare. Which of the following approaches would be most effective in developing a comprehensive and actionable fraud risk profile for the Medicare program?\n",
@@ -2179,9 +2179,9 @@
   },
   {
     "question": "The Secretary of the Navy is considering naming a new aircraft carrier after a living former President. Given the historical context and recent trends in ship naming, which of the following statements most accurately reflects the potential implications of this decision?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "TSA's Pipeline Security Branch has not been tracking the status of Corporate Security Review (CSR) recommendations for over 5 years. What is the most significant consequence of this gap in data collection and management?\n",
@@ -2263,9 +2263,9 @@
   },
   {
     "question": "The U.S. Trade Representative (USTR) received $15.0 million from the Trade Enforcement Trust Fund (TETF) in FY2019. Given this information and the context provided, which of the following statements most accurately reflects the strategic implications of this funding decision?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "DHS's TRIO project for modernizing financial management systems faced significant challenges. Given the information provided, which of the following actions would most effectively address the root causes of these challenges and improve the likelihood of project success?\n",
@@ -2305,9 +2305,9 @@
   },
   {
     "question": "FWS and NOAA have not prioritized the use of financial rewards in combating wildlife trafficking. Which of the following actions would most effectively address the limitations in their current reward practices while considering resource constraints?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A government agency is developing a new training program to improve compliance with the Buy American Act. Which of the following approaches would be most effective in addressing the key challenges identified in the report?\n",
@@ -2323,9 +2323,9 @@
   },
   {
     "question": "NASA's WFIRST project is facing budget constraints and considering potential \"descopes\" to maintain costs within the $3.2 billion target. Given this context and the information provided about other NASA projects, which of the following actions is most likely to have the least negative impact on WFIRST's scientific objectives while helping to reduce costs?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A mid-sized regional bank is updating its cybersecurity policies to ensure compliance with federal regulations. Which of the following actions would most comprehensively address the bank's obligations under both the Gramm-Leach-Bliley Act (GLBA) and recent regulatory enforcement trends?\n",
@@ -2521,9 +2521,9 @@
   },
   {
     "question": "A congressional committee is conducting an oversight review of federal revenue sources. Which of the following data sources would be most appropriate and comprehensive for analyzing government-wide collections of fees, fines, and penalties?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The Department of Energy's contractor-operated Federally Funded Research and Development Centers (FFRDCs) have certain advantages over government-operated labs. Which of the following scenarios best illustrates the unique capabilities of these contractor-operated FFRDCs in responding to emerging scientific needs?\n",
@@ -2557,7 +2557,7 @@
   },
   {
     "question": "The Navy has announced that the new oiler class (TAO-205) will be named after civil rights leaders. Given this naming convention and the information provided about ship naming practices, which of the following scenarios is most likely to occur for future ship naming decisions?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -2605,9 +2605,9 @@
   },
   {
     "question": "A federal agency has been struggling to improve its performance metrics over the past four years. The agency head wants to implement a comprehensive strategy to enhance the use of performance information. Which combination of actions would be most effective in addressing this issue according to GPRAMA and OMB guidance?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A state is struggling to implement the recent CAPTA amendments related to substance-affected infants. Which of the following approaches would be most effective in addressing this challenge while aligning with federal guidance?\n",
@@ -2671,9 +2671,9 @@
   },
   {
     "question": "A congressional committee is reviewing USAID's management of Economic Support Fund (ESF) assistance to the West Bank and Gaza for fiscal years 2015 and 2016. Which of the following conclusions can be most appropriately drawn from the GAO's report?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A U.S. citizen with foreign financial assets is concerned about complying with reporting requirements. Which of the following statements most accurately describes the current situation regarding Form 8938 and FBAR reporting?\n",
@@ -2737,9 +2737,9 @@
   },
   {
     "question": "A local SFSP sponsor is experiencing safety concerns at their meal sites due to recent violent incidents in the area. They want to allow children to consume meals off-site but are unsure about the flexibility options. What is the most significant barrier the sponsor is likely to face when applying for this flexibility from FNS?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "The Navy is planning to name a new Expeditionary Sea Base (ESB). Given the recent naming conventions and historical context, which of the following is the most likely approach for naming this vessel?\n",
@@ -2791,9 +2791,9 @@
   },
   {
     "question": "The U.S. Attorney's Office (USAO) is responsible for enforcing lobbyist compliance with disclosure requirements. Given the information provided about their enforcement process, which of the following scenarios would likely result in the USAO suspending enforcement actions against a non-compliant lobbying firm?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The Navy is implementing cost-saving measures for the CVN 79 aircraft carrier. Which of the following strategies best represents their approach to reduce costs while maintaining capabilities?\n",
@@ -2821,7 +2821,7 @@
   },
   {
     "question": "A federal agency has issued a new guidance document that significantly impacts industry practices but was not subject to notice-and-comment procedures. Congress wants to overturn this action using the Congressional Review Act (CRA). Which of the following statements most accurately describes the potential challenges and correct course of action?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -2839,7 +2839,7 @@
   },
   {
     "question": "A contracting officer at the Department of Veterans Affairs (VA) is preparing to award a contract for medical supplies. The officer is unsure about how to properly apply Buy American Act requirements. Based on the GAO report, what is the most critical action the VA should take to address this issue?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -2857,9 +2857,9 @@
   },
   {
     "question": "CDC's information security program had several shortcomings. Which of the following actions would be most effective in addressing these deficiencies while also aligning with NIST's cybersecurity framework?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "FEMA's Public Assistance (PA) program is implementing a new system called FAC-Trax. Given the information provided about their risk management approach, which of the following scenarios would most likely trigger a re-evaluation of the program's risk mitigation strategies?\n",
@@ -2881,9 +2881,9 @@
   },
   {
     "question": "A pension plan analyst is comparing the Central States Pension Fund (CSPF) to other multiemployer defined benefit plans. Which of the following approaches would be most appropriate for analyzing CSPF's funded status over time, while also allowing for meaningful comparisons with other plans?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The U.S. Navy and Marine Corps are facing significant challenges with their F-35 Lightning II aircraft program. Given the information provided, what is likely to be the most critical long-term consequence if these issues are not effectively addressed?\n",
@@ -2965,7 +2965,7 @@
   },
   {
     "question": "The Federal Trade Commission (FTC) is considering new approaches to regulate Internet privacy. Given the challenges with traditional regulatory methods, which strategy would likely be most effective in addressing rapidly evolving privacy concerns while balancing industry innovation?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -2983,7 +2983,7 @@
   },
   {
     "question": "The Secretary of Defense wants to close a military installation that employs 350 civilian personnel. Given the evolution of base closure legislation and current statutes, which of the following scenarios would allow the Secretary to proceed with the closure most efficiently?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -2995,9 +2995,9 @@
   },
   {
     "question": "FEMA's Public Assistance (PA) program is implementing a new system called FAC-Trax. Given the information provided about risk management and change control processes, what is the most significant gap in the program's current approach to managing system enhancements?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A school district is analyzing its disciplinary data to identify potential disparities. Which of the following approaches would be most comprehensive in uncovering multifaceted patterns of disproportionate discipline?\n",
@@ -3019,9 +3019,9 @@
   },
   {
     "question": "A researcher is analyzing early withdrawals from retirement accounts and notices that certain demographic groups have higher incidences of withdrawals. Which of the following combinations of factors is most likely to be associated with a higher incidence of both IRA withdrawals and hardship withdrawals from 401(k) plans?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The U.S. State Department has been facing persistent vacancies in Foreign Service positions at overseas posts for over a decade. Given this information and the details provided in the report, what is likely the most effective approach to address this long-standing issue?\n",
@@ -3061,9 +3061,9 @@
   },
   {
     "question": "A new administration proposes restructuring U.S. foreign assistance accounts to improve efficiency and align with policy objectives. Which of the following changes would be most likely to face significant congressional opposition based on recent legislative actions?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The Central States Pension Fund (CSPF) is operating under a consent decree due to past fiduciary breaches. Which of the following scenarios would most likely violate the current governance structure established by this decree?\n",
@@ -3145,9 +3145,9 @@
   },
   {
     "question": "CMS has implemented various strategies to combat fraud in Medicare. Which of the following approaches would be most effective in evaluating the overall success of CMS's antifraud efforts in the Medicare home health benefit?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A multinational company is implementing a new global supply chain management system that relies on cloud computing and blockchain technology. Which of the following policy approaches is most likely to hinder the effectiveness of this system while attempting to address privacy concerns?\n",
@@ -3175,9 +3175,9 @@
   },
   {
     "question": "A large school district recently tested over 10,000 water sources and found that 3,600 had lead levels at or above their action level. Given this information and the broader context of lead testing in schools, which of the following conclusions is most accurate?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A new pipeline security analyst is tasked with assessing the criticality and vulnerability of various pipeline systems across the United States. Which of the following scenarios would likely be considered the highest priority for increased security measures?\n",
@@ -3283,9 +3283,9 @@
   },
   {
     "question": "A federal agency has issued a new guidance document that significantly alters how it interprets a key regulation. Congress wants to overturn this guidance using the Congressional Review Act (CRA). Which of the following statements most accurately describes the potential challenges and process for using the CRA in this scenario?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "The Coast Guard is facing challenges in effectively managing its marine safety mission, particularly regarding commercial fishing vessel safety. Which of the following approaches would be most effective in addressing the data limitations and improving the Coast Guard's ability to enhance safety in this high-risk industry?\n",
@@ -3319,9 +3319,9 @@
   },
   {
     "question": "TSA's Pipeline Security Branch is facing challenges in effectively managing pipeline security risks. Which of the following actions would most comprehensively address the current gaps in TSA's approach to pipeline security?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "WMATA has implemented changes to address weaknesses in its capital planning process. However, a key deficiency remains in their approach to project selection. Which of the following best describes this deficiency and its potential impact?\n",
@@ -3505,9 +3505,9 @@
   },
   {
     "question": "A lobbying firm has consistently failed to file required LD-2 disclosure reports for the past three years, despite multiple referrals from the Secretary of the Senate and the Clerk of the House. The firm does not appear to be actively lobbying anymore. How is the U.S. Attorney's Office (USAO) most likely to handle this situation?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "VA is implementing the CHIP-IN pilot program for donation partnerships in construction projects. Which of the following best describes a potential drawback of VA's current approach to implementing this pilot?\n",
@@ -3559,9 +3559,9 @@
   },
   {
     "question": "A study of small business lending trends from 2003 to 2010 revealed a significant shift in the lending landscape. Which of the following best explains the complex interplay of factors contributing to the decline in small business loans during this period?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "The Bureau's 2020 Census cost estimate includes several provisions for risk and uncertainty. Which of the following approaches best addresses the GAO's ongoing recommendation regarding risk accounting in the cost estimate?\n",
@@ -3601,9 +3601,9 @@
   },
   {
     "question": "The U.S. Navy is planning a freedom of navigation operation (FONOP) near Mischief Reef in the South China Sea. Given China's artificial island construction and territorial claims in the area, which approach would most effectively challenge China's claims while minimizing the risk of inadvertently legitimizing them?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of U.S. foreign policy and economic sanctions, which of the following scenarios most accurately represents the application of the International Emergency Economic Powers Act (IEEPA) based on historical precedents?\n",
@@ -3613,9 +3613,9 @@
   },
   {
     "question": "Congress is concerned about the Navy's 30-year shipbuilding plan's affordability, particularly during the mid-2020s through mid-2030s. Given the information provided, what is the most significant challenge to the plan's feasibility during this period?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A Medicare Part D beneficiary has just entered the coverage gap (\"doughnut hole\") in 2019. They need to fill a prescription for a brand-name drug. Which of the following most accurately describes how the cost of this medication will be covered?\n",
@@ -3721,9 +3721,9 @@
   },
   {
     "question": "A Medicare beneficiary with terminal cancer has been receiving hospice care for 175 days. The hospice physician is preparing for the upcoming recertification. Which of the following actions best aligns with Medicare hospice benefit requirements?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An agency is implementing FITARA to improve its IT management. Which of the following actions would best address multiple key areas of FITARA while also aligning with recent executive orders on cybersecurity?\n",
@@ -3733,9 +3733,9 @@
   },
   {
     "question": "A coal miner who worked in the mines for 20 years files a claim for black lung benefits in 2018. He has been diagnosed with chronic obstructive pulmonary disease (COPD) but does not have clinical pneumoconiosis. Which of the following statements most accurately describes his eligibility for benefits under the Black Lung Benefits Act (BLBA)?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "NHTSA is planning to improve its website to enhance consumer access to auto recall information. Which of the following approaches would be most effective in addressing the current challenges while aligning with NHTSA's ongoing efforts?\n",
@@ -3769,9 +3769,9 @@
   },
   {
     "question": "A bank's risk management team is analyzing the potential impacts of the Federal Reserve's interest rate normalization process. Which of the following scenarios presents the most complex challenge for the bank's balance sheet management in the current economic environment?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The Department of Defense is considering expanding its use of Other Transaction Authority (OTA) for procurement. Critics argue this could lead to potential issues. Which of the following represents the most comprehensive and nuanced critique of expanded OTA use?\n",
@@ -3841,9 +3841,9 @@
   },
   {
     "question": "A government audit reveals inconsistencies in VA's disciplinary file management. Which of the following scenarios most comprehensively represents the issues identified in the audit?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A coal company is facing bankruptcy and has significant Part C liabilities to the Black Lung Disability Trust Fund. Which of the following scenarios would most likely result in the Trust Fund absorbing these liabilities?\n",
@@ -3865,9 +3865,9 @@
   },
   {
     "question": "The State Department is facing challenges with Foreign Service staffing at overseas posts. Given the information provided in the report, which of the following strategies would be most effective in addressing the vacancy issues while also aligning with congressional directives and department goals?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The Colombian government has faced criticism for human rights violations, including the \"false positives\" scandal. Given the information provided, which of the following statements most accurately reflects the current state of accountability for these violations?\n",
@@ -3901,9 +3901,9 @@
   },
   {
     "question": "A newly established private, for-profit college is seeking to become eligible for Title IV funding. The institution offers a 20-week program that provides 500 clock hours of instruction in cybersecurity. What additional steps must the college take to ensure this program meets Title IV eligibility requirements?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "The Trump administration's approach to China's actions in the South China Sea (SCS) has been criticized for undermining U.S. interests. Which of the following scenarios best illustrates the potential long-term consequences of this policy approach?\n",
@@ -3967,9 +3967,9 @@
   },
   {
     "question": "FEMA's Logistics Supply Chain Management System (LSCMS) experienced delays in reaching full operational capability. Given the information provided, what is the most likely combination of factors that contributed to this delay?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A proposed bill aims to change the appointment process for the Architect of the Capitol. Which of the following best describes the most significant shift in the appointment procedure according to the documentation?\n",
@@ -4021,7 +4021,7 @@
   },
   {
     "question": "A state agency is struggling to provide summer meals to children in a rural area where fewer than 50% of children qualify for free or reduced-price meals during the school year. Which of the following approaches would be most effective in addressing this challenge while adhering to SFSP guidelines?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -4039,9 +4039,9 @@
   },
   {
     "question": "A defense laboratory is considering implementing the $10,000 micro-purchase threshold authority granted by Congress. Which of the following represents the most significant challenge in implementing this authority, based on the experiences of other labs?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The U.S. government's approach to foreign assistance has evolved significantly over the past few decades. Which of the following best describes the current trend in the composition of U.S. foreign aid, considering both traditional and nontraditional sources?\n",
@@ -4129,9 +4129,9 @@
   },
   {
     "question": "CDC implemented various security controls but still faced vulnerabilities in its systems. Which of the following scenarios best illustrates the primary reason for the persistence of these vulnerabilities, according to the report?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The National Cemetery Administration (NCA) has been criticized for its limited progress in implementing its plan to increase burial access for veterans. Which of the following actions would most effectively address this criticism and improve NCA's ability to identify and prioritize areas with unserved veteran populations?\n",
@@ -4327,9 +4327,9 @@
   },
   {
     "question": "DLA Document Services is considering further facility consolidations to improve efficiency. Given the information provided, which of the following actions would be most effective in identifying additional consolidation opportunities while adhering to DOD guidelines?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A national bank is facing a lawsuit from a former officer who claims wrongful termination under a state whistleblower statute. The bank argues that the National Bank Act preempts this claim. How would a federal court likely rule on this preemption issue?\n",
@@ -4399,9 +4399,9 @@
   },
   {
     "question": "An institution of higher education (IHE) has been found to have a cohort default rate (CDR) of 32% for each of the past three fiscal years. The Department of Education (ED) is considering various actions. Which of the following outcomes is most likely, given the information provided?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "The SBA's Surety Bond Guarantee Program experienced significant changes in its operations and funding from the 1970s through the 2000s. Which of the following best describes the program's trajectory and the factors influencing it during this period?\n",
@@ -4477,9 +4477,9 @@
   },
   {
     "question": "Colombia's recent accession to the OECD and its leadership role in the Pacific Alliance demonstrate a shift in the country's international positioning. Given these developments and the ongoing challenges faced by President Duque's government, what is likely to be the most significant impact on U.S.-Colombia relations in the near future?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A federal agency is considering implementing new regulations for Internet privacy protection. Which of the following best describes a potential drawback of relying solely on FTC's current enforcement approach without implementing specific regulations?\n",
@@ -4537,13 +4537,13 @@
   },
   {
     "question": "DHS has made changes to its Future Years Homeland Security Program (FYHSP) report to Congress. Which of the following best describes the impact of these changes on the transparency of DHS's funding needs?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The Government Accountability Office (GAO) has made several recommendations to improve the evaluation and transparency of tax expenditures. Which of the following actions would most comprehensively address the GAO's concerns while potentially introducing new challenges for policymakers?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -4555,9 +4555,9 @@
   },
   {
     "question": "The National Science Foundation (NSF) is considering how to optimize its use of rotator programs. Given the information provided, what is the most critical step NSF should take to improve its management of these programs?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A state is struggling to implement CAPTA requirements for substance-affected infants. Which of the following actions by the Department of Health and Human Services (HHS) would most effectively address the challenges reported by multiple states?\n",
@@ -4585,9 +4585,9 @@
   },
   {
     "question": "A domestic charitable organization has been designated as a Specially Designated Global Terrorist (SDGT) by OFAC, resulting in the freezing of its assets. The organization challenges this designation on constitutional grounds. Which of the following arguments is most likely to succeed in court, based on recent judicial precedents?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "The Register of Copyrights Selection and Accountability Act proposed during the 115th Congress aimed to change the appointment process for the Register of Copyrights. What potential impact would this change have had on the position's accountability and independence?\n",
@@ -4597,9 +4597,9 @@
   },
   {
     "question": "A small business owner is analyzing the SBA's 7(a) loan program to determine its effectiveness in supporting businesses like theirs. Based on the Urban Institute's study and the SBA's data, which of the following conclusions is best supported by the information provided?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The SBA's HUBZone program has evolved since its inception. Which of the following statements best reflects the program's current status and impact, considering its funding history and recent performance?\n",
@@ -4657,9 +4657,9 @@
   },
   {
     "question": "The Secret Service's CIO plans to adjust recruiting strategies to focus on entry-level staff rather than mid-career employees. Given the information in the document, what is the most significant flaw in this approach?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The Navy is facing challenges in reducing costs for the CVN-79 aircraft carrier. Given the information provided, what is the most likely outcome for the CVN-79's final cost, and why?\n",
@@ -4681,9 +4681,9 @@
   },
   {
     "question": "The United States has accused China of \"provocative militarisation\" in the South China Sea. Given the information provided, which of the following actions by the U.S. government demonstrates the most strategic and comprehensive approach to addressing this issue?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A developing country is experiencing economic stagnation, political instability, and a public health crisis. The U.S. government is considering a comprehensive aid package. Which combination of aid types would most effectively address these issues while aligning with multiple U.S. foreign policy objectives?\n",
@@ -4861,9 +4861,9 @@
   },
   {
     "question": "A USAID partner organization is experiencing difficulty transferring funds to implement a humanitarian assistance project in a high-risk country. Given USAID's current approach to banking access challenges, what is the most likely outcome of this situation?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The Integrated Fixed Towers (IFT) program is facing delays in achieving its full operational capability (FOC). Given the information provided, which of the following represents the most complex challenge for the program's timely completion?\n",
@@ -5089,9 +5089,9 @@
   },
   {
     "question": "A state government is considering implementing a new commercial disclosure requirement for businesses. Which of the following scenarios would be most likely to withstand First Amendment scrutiny under the Zauderer standard?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An audit of heavy equipment acquisitions by federal agencies reveals inconsistent practices in lease-versus-purchase analyses. Which of the following best explains why most acquisitions reviewed lacked documentation of such analyses?\n",
@@ -5113,9 +5113,9 @@
   },
   {
     "question": "In light of the Supreme Court's decision in NIFLA v. Becerra, how might lower courts be expected to approach content-based commercial disclosure requirements in the future?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The National Science Foundation (NSF) is considering how to optimize its use of rotator programs. Given the information in the report, which of the following actions would be most effective in addressing the GAO's concerns while aligning with NSF's goals?\n",
@@ -5173,9 +5173,9 @@
   },
   {
     "question": "China's approach to military activities in Exclusive Economic Zones (EEZs) appears contradictory, as it conducts operations in other countries' EEZs while opposing similar activities in its own. What is the most likely explanation for this seemingly inconsistent stance?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The Coast Guard is struggling to ensure all eligible servicemembers participate in the Transition Assistance Program (TAP) as required by federal law. Which of the following actions would be most effective in addressing this issue while also improving the Coast Guard's ability to contribute to interagency TAP evaluations?\n",
@@ -5215,15 +5215,15 @@
   },
   {
     "question": "DOD conducted a cost comparison study of federal civilian and service contractor personnel. Which of the following best describes a limitation of DOD's methodology that could impact the accuracy of the cost comparison results?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The National Popular Vote (NPV) compact proposes to change how states allocate their electoral votes in presidential elections. Which of the following best describes the most significant constitutional challenge to the NPV compact?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A WTO member country has implemented new tariffs on imported steel products, citing national security concerns. Several other countries have filed complaints against this action. Given the current WTO dispute settlement process, what is the most likely sequence of events if the initial consultations fail to resolve the dispute?\n",
@@ -5353,9 +5353,9 @@
   },
   {
     "question": "A federal judge is considering whether to order restitution in a complex fraud case with multiple victims. Which of the following scenarios would most likely result in the judge declining to order full restitution, despite the general requirement to do so?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The U.S. government is considering developing a comprehensive data protection policy. Given the information provided about the Trump Administration's approach and the global trends in data protection, which of the following outcomes is most likely if the U.S. does not enact comprehensive federal legislation?\n",
@@ -5467,9 +5467,9 @@
   },
   {
     "question": "A state agency is looking to improve participation in the Summer Food Service Program (SFSP). Based on the challenges and solutions mentioned in the report, which of the following strategies would likely be LEAST effective in increasing program participation?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A congressional committee is analyzing the transparency and accuracy of government-wide fee collection reporting. Given the information provided in the documentation, which of the following actions would be most effective in improving the clarity and accessibility of fee collection data?\n",
@@ -5497,9 +5497,9 @@
   },
   {
     "question": "A group of WTO members wants to negotiate a new agreement on digital trade standards. Which approach is most likely to succeed in implementing this agreement within the WTO framework, while also addressing potential concerns from non-participating members?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of U.S. strategic interests in the South China Sea (SCS), which of the following scenarios would most likely prompt a direct U.S. military response under existing treaty obligations?\n",
@@ -5521,7 +5521,7 @@
   },
   {
     "question": "Congress is evaluating the Navy's proposed FY2020 shipbuilding program. Given the information provided in the report, which of the following factors would likely have the most significant impact on Congress's decision to modify the Navy's proposal?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false
   },
@@ -5533,9 +5533,9 @@
   },
   {
     "question": "In the context of the NIFLA v. Becerra case, why did the Supreme Court rule that California's FACT Act's licensed notice requirement failed to survive intermediate scrutiny?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A consumer advocacy group is considering filing a lawsuit against a major tech company for violating federal data protection laws. The company allegedly collected and sold users' personal information without proper consent. Which of the following factors would be most critical in determining whether the lawsuit can proceed in federal court?\n",
@@ -5647,9 +5647,9 @@
   },
   {
     "question": "The Secret Service is implementing two projects using an agile methodology - the Uniformed Division Resource Management System and Events Management. Given the information provided, which of the following statements most accurately reflects the Secret Service's implementation of agile metrics for these projects?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "During the Great Depression, Congress expanded the Trading with the Enemy Act (TWEA) to grant the President broader economic powers. Which of the following best describes the primary criticism of this expansion and its long-term implications for executive power?\n",
@@ -5779,7 +5779,7 @@
   },
   {
     "question": "A Department of Justice (DOJ) review aims to improve victim compensation through forfeited assets. Which approach would most effectively address the current gaps in the process while maintaining prosecutorial discretion?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -5833,9 +5833,9 @@
   },
   {
     "question": "The Department of Defense is considering a prototype project that is expected to cost $450 million. Under what circumstances can this project be carried out using the authority granted in Section 2371b?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A government audit team is analyzing the sustainment challenges for several fixed-wing aircraft in the Air Force and Navy. Which of the following approaches would be most effective in identifying and categorizing these challenges across multiple aircraft types?\n",
@@ -5929,9 +5929,9 @@
   },
   {
     "question": "The Black Lung Disability Trust Fund is facing long-term financial challenges. Given the information provided, which of the following approaches would most effectively balance the Trust Fund by 2050 while considering both industry impact and taxpayer burden?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An IHS facility is struggling with a shortage of emergency department physicians. Which of the following strategies would most likely address this issue while maintaining quality of care and aligning with successful practices mentioned in the report?\n",
@@ -5941,9 +5941,9 @@
   },
   {
     "question": "A prime contractor on a federal construction project has consistently delayed payments to its subcontractors, citing cash flow issues. The contracting officer has received multiple complaints about this behavior. What is the most appropriate course of action for the contracting officer to take, considering the long-term implications and regulatory requirements?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The FCC is planning to improve broadband access on tribal lands. Which of the following approaches would be most effective in addressing the current limitations in FCC's data collection process and ensuring accurate targeting of broadband funding?\n",

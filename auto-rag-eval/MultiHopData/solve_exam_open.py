@@ -144,7 +144,7 @@ def main(task_domain: str, model_type: str, model_name: str):
 
 if __name__ == "__main__":
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    task_domains = ["hotpotqa"]
+    task_domains = ["wiki"]
     model_type = "claude"
     # model_type = "gemini"
     # model_name = "claude-3-5-haiku@20241022"
@@ -154,7 +154,7 @@ if __name__ == "__main__":
     
     # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
     # model_names = ["claude-3-5-sonnet@20240620", "claude-3-5-haiku@20241022"]
-    model_names = ["claude-3-5-haiku@20241022"]
+    model_names = ["claude-3-5-sonnet@20240620"]
     
     for model_name in model_names:
         for task_domain in task_domains:

@@ -19,9 +19,9 @@
   },
   {
     "question": "The production of \"The Life of Emile Zola\" was marked by conflicts between producer Hal B. Wallis and Henry Blanke. Which of the following best explains the core of their disagreement and its impact on the film?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Dr. August Hirt's \"Jewish skeleton collection\" project was abandoned in 1944 due to the Allied advance. Upon liberation of Strasbourg, investigators found incomplete remains. Which of the following best explains why the project was not completed as originally intended, and demonstrates the ethical implications of such research?\n",
@@ -67,13 +67,13 @@
   },
   {
     "question": "Belzoni's expedition to recover the Head of Memnon faced multiple challenges. Which of the following best describes the complex interplay of factors that made this mission particularly difficult?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Throughout Phileas Fogg's journey around the world, he encounters several obstacles that test his resourcefulness and determination. Which of the following scenarios best demonstrates Fogg's ability to adapt and overcome challenges while maintaining his integrity?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -133,7 +133,7 @@
   },
   {
     "question": "During Nanyue's second period of submission to the Han dynasty (179 BC - 112 BC), which of the following best describes the complex political relationship between the two entities?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -343,9 +343,9 @@
   },
   {
     "question": "In the post-apocalyptic world of \"A Boy and His Dog,\" Vic's decision to murder Quilla June to feed Blood demonstrates which of the following complex themes?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Showmatch's evolution from 2005 to 2019 demonstrates which of the following trends in television programming?\n",
@@ -361,7 +361,7 @@
   },
   {
     "question": "A music critic is analyzing the evolution of the band's sound across their releases. Which of the following statements most accurately reflects the band's discography progression and likely artistic development?\n",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -391,9 +391,9 @@
   },
   {
     "question": "Southern Company's growth strategy in the early 2000s involved diversification into multiple energy-related sectors. Which of the following combinations best represents the company's expansion during this period, considering both successful ventures and those later divested?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A filmmaker wants to make a cameo appearance in their latest movie, which takes place entirely on a small boat at sea. Which director's past cameo technique would be most suitable to adapt for this challenging setting?\n",
@@ -469,9 +469,9 @@
   },
   {
     "question": "Arnold Bennett's transition from novelist to playwright revealed certain challenges. Which of the following best describes the primary criticism of Bennett's early theatrical works, and how did he address this in his most successful solo play?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A racing historian is analyzing the career of Gloaming and comparing it to modern champions. Which of the following statements most accurately reflects Gloaming's achievements in the context of Australasian horse racing history?\n",
@@ -517,9 +517,9 @@
   },
   {
     "question": "In the TV series \"The Forgotten,\" why might Tyler Davies' background and initial motivation for joining the Forgotten Network create potential conflicts or unique contributions to the team's investigations?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Mohsen Makhmalbaf's decision to screen his film at the Jerusalem Film Festival sparked controversy and led to consequences in Iran. Which of the following best describes the complex interplay of factors surrounding this event?\n",
@@ -577,9 +577,9 @@
   },
   {
     "question": "In the context of Mare Barrow's journey and the political landscape of Norta, which of the following scenarios would most likely lead to a significant shift in the power dynamics between Reds and Silvers?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The decline of Nanyue's autonomy and its eventual downfall can be attributed to a complex interplay of factors. Which of the following scenarios best represents the critical turning point that set the stage for Nanyue's loss of independence?\n",
@@ -691,9 +691,9 @@
   },
   {
     "question": "An angler is designing a custom fishing rod for targeting large walleye using light fishing line and Lindy rigs. Which rod taper would be most appropriate for this specific fishing scenario, and why?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The unique geographical and cultural characteristics of Umina Beach have influenced its development as a coastal community. Which of the following statements best explains the interplay between these factors and their impact on the town's current structure?\n",
@@ -715,15 +715,15 @@
   },
   {
     "question": "Richie Ginther's racing career progression demonstrates the importance of networking and diverse experience in motorsports. Which sequence of events best represents his path to international racing?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A retail analyst is studying the evolution of Harbor Square shopping center. Which sequence of events best illustrates the complex interplay of market forces, competition, and adaptive strategies that shaped its transformation over time?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A city planner is analyzing Halkarni for potential urban development projects. Given the information provided, which of the following strategies would likely be most effective in promoting sustainable growth while preserving the city's character?\n",
@@ -793,9 +793,9 @@
   },
   {
     "question": "In the graphic novel \"Batman: Son of the Demon,\" how does Talia al Ghul's decision regarding her pregnancy with Batman's child demonstrate the complex interplay between love, duty, and the superhero lifestyle?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The decision to produce a live episode of 30 Rock was influenced by multiple factors. Which of the following best represents the complex reasoning behind this creative choice?\n",
@@ -823,9 +823,9 @@
   },
   {
     "question": "A linguist is studying the evolution of Celtic languages in Europe. Based on the information provided, which of the following statements most accurately reflects the relationship between Continental Celtic languages and their geographical distribution?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The Arab Kingdom of Syria faced significant challenges during its brief existence. Which of the following best describes the complex interplay of factors that led to its downfall?\n",
@@ -925,9 +925,9 @@
   },
   {
     "question": "In 1993, Temple Baptist Seminary underwent a significant restructuring. Which of the following statements best describes the long-term impact of this change on the institution's development and its relationship with Tennessee Temple University?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A sociologist is studying the evolution of attitudes towards interracial relationships in the United States. Which of the following scenarios best demonstrates the complex interplay between legal, social, and political factors in shaping these attitudes over time?\n",
@@ -937,9 +937,9 @@
   },
   {
     "question": "During the 53rd NHL All-Star Game, Dany Heatley scored four goals, tying a record. Given the events of the game, what is the most significant aspect of Heatley's performance that sets it apart from previous four-goal performances in All-Star history?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the 2013 6 Hours of Fuji race, an unusual situation occurred due to heavy rain. As a result of this event, what significant rule change did the FIA implement for the 2014 season and beyond?\n",
@@ -955,9 +955,9 @@
   },
   {
     "question": "A botanist is studying the adaptability of Mimosa species in different ecosystems. Given the characteristics of Mimosa aculeaticarpa and Mimosa rubicaulis, which of the following conclusions is most likely to be true about their ecological roles and potential uses?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The city of Witbank (now officially Emalahleni) faces several interconnected challenges related to its growth and economic activities. Which of the following best describes the most comprehensive and far-reaching impact of these challenges on the city and its residents?\n",
@@ -985,9 +985,9 @@
   },
   {
     "question": "The Palo Alto Daily News experienced significant growth and expansion since its inception. Which of the following strategic decisions best explains the newspaper's rapid success and subsequent acquisition by a major media company?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Joe West's career as an MLB umpire spanned several decades and significant events. Which of the following statements best demonstrates the unique breadth and impact of his career?\n",
@@ -1135,9 +1135,9 @@
   },
   {
     "question": "Reagan's political evolution from a Democrat to a Republican was influenced by several factors. Which of the following best describes the complex interplay of events and influences that contributed to his ideological shift?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The closure of the Oak Beach Inn (OBI) and its subsequent transformation into a park highlights which complex interplay of factors in local community development?\n",
@@ -1393,9 +1393,9 @@
   },
   {
     "question": "In Brahms's Piano Quartet Op. 60, the second movement scherzo demonstrates complex tonal relationships with the first movement. Which of the following best explains the composer's approach to key relationships and thematic development in this movement?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Raj Kapoor's career trajectory and artistic collaborations demonstrate his multifaceted role in Indian cinema. Which of the following statements best captures the complexity of his contributions and the evolution of his work?\n",
@@ -1519,9 +1519,9 @@
   },
   {
     "question": "In the 2009 game against Oklahoma, Texas Tech employed a multifaceted strategy to secure their victory. Which of the following best describes the key factors that contributed to their success, demonstrating the team's ability to execute a comprehensive game plan?\n",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The Language Year project in Norway aimed to address several linguistic objectives. Which of the following outcomes would be LEAST aligned with the project's stated goals?\n",
@@ -1633,7 +1633,7 @@
   },
   {
     "question": "In the reality TV show described, what strategic move likely had the most significant impact on the final outcome of the game?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -1663,9 +1663,9 @@
   },
   {
     "question": "The Ulysses spacecraft mission faced several challenges near the end of its extended operational life. Which combination of factors most accurately describes the complex interplay of issues that led to the ultimate termination of the mission?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of Santer\u00eda's evolution in Cuba during the 20th century, which of the following best represents the complex interplay between societal attitudes, intellectual perspectives, and government policies?\n",
@@ -1711,9 +1711,9 @@
   },
   {
     "question": "A wildlife biologist is investigating the declining moose population in temperate North America. Which combination of factors best explains the complex interplay of causes contributing to this decline, while also accounting for the stability of Arctic and subarctic moose populations?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A local environmental group is proposing a restoration project for Mount Kaukau and the surrounding area. Which of the following strategies would be most effective in aligning with the historical ecological context and current conservation efforts?\n",
@@ -1831,9 +1831,9 @@
   },
   {
     "question": "Francis J. Beckwith's academic career demonstrates a shift in his philosophical stance on certain issues. Which of the following best represents this evolution in his thinking?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Following Bajkam's unexpected death in 941, a series of power struggles ensued in Baghdad. Which of the following best describes the sequence of events and their ultimate outcome?\n",
@@ -1969,9 +1969,9 @@
   },
   {
     "question": "Rihanna's single \"We Found Love\" achieved several milestones on the Billboard Hot 100 chart. Which of the following statements most accurately represents the song's unique accomplishments in the context of chart history?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In 2010, Angela McGlowan ran for Congress in Mississippi's 1st congressional district. Given her campaign positions and the historical context, which of the following statements most accurately reflects the significance of her candidacy?\n",
@@ -1981,9 +1981,9 @@
   },
   {
     "question": "A film historian is comparing the 1956 and 2004 versions of \"Around the World in 80 Days.\" Which of the following conclusions is most accurate based on the information provided?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Bobbie Kilberg's career trajectory demonstrates a unique blend of public service and private sector leadership. Given her extensive experience, which of the following strategies would likely be most effective for a technology council seeking to influence national policy on emerging technologies?\n",
@@ -2017,7 +2017,7 @@
   },
   {
     "question": "Q101's format changes throughout the 1980s and 1990s reflect broader trends in radio programming and audience preferences. Which sequence of format changes best represents the station's evolution and its attempt to capture changing listener demographics?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -2029,9 +2029,9 @@
   },
   {
     "question": "A space agency is planning a mission to collect samples from Mars and return them to Earth for analysis. Which of the following approaches would best align with current planetary protection guidelines and recommendations?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In a quantum computing system utilizing Rabi oscillations, a researcher wants to create a superposition state of |0\u27e9 and |1\u27e9 with equal amplitudes. Which of the following accurately describes the pulse and resulting state?\n",
@@ -2077,9 +2077,9 @@
   },
   {
     "question": "Jessica Biel's early career trajectory demonstrates the challenges young actors face in transitioning from child to adult roles. Which of the following sequences best represents her strategic career moves and their consequences during this period?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A foreign news outlet is reporting on Canada's treatment of its indigenous population. Which of the following strategies would be most effective in critically evaluating the credibility of these reports?\n",
@@ -2143,9 +2143,9 @@
   },
   {
     "question": "An aspiring voice actor is studying the career of a versatile voice actress who has worked on various anime and animated series. Which of the following scenarios best demonstrates this actress's range and adaptability in her career?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In Super Ghouls 'n Ghosts, Arthur must defeat Emperor Sardius to save Princess Guinevere. Which game mechanic best illustrates the integration of difficulty progression and narrative elements in this title?\n",
@@ -2191,7 +2191,7 @@
   },
   {
     "question": "Gloaming's racing career spanned multiple years and included numerous achievements. Which of the following statements best captures a unique aspect of Gloaming's racing history that sets him apart from other horses of his time?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -2227,7 +2227,7 @@
   },
   {
     "question": "Fitz and The Tantrums experienced rapid success early in their career. Which sequence of events best demonstrates the band's unconventional path to recognition and their ability to capitalize on unexpected opportunities?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -2329,7 +2329,7 @@
   },
   {
     "question": "The cultural legacy of Cortina d'Ampezzo is complex and multifaceted. Which of the following scenarios best represents the integration of Cortina's cultural elements as described in the documentation?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -2341,9 +2341,9 @@
   },
   {
     "question": "A wildlife biologist is studying the prevalence of cutaneous fibromas in a population of white-tailed deer. They observe that bucks seem to be more affected than does, and younger deer more than older ones. What combination of factors best explains these observations?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the 2010 Individual Speedway Polish Championship, what factor most likely contributed to Janusz Ko\u0142odziej's success in winning the championship, despite the absence of defending champion Tomasz Gollob?\n",
@@ -2377,9 +2377,9 @@
   },
   {
     "question": "The BBC's \"Egypt\" series faced several production challenges. Which of the following best represents the primary reason for the significant budget increase and the producers' approach to managing it?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Based on the evidence presented in the Atlanta child murders case, which of the following factors most significantly contributed to Wayne Bertram Williams becoming the prime suspect?\n",
@@ -2731,9 +2731,9 @@
   },
   {
     "question": "In 2004, Steve Fossett broke the world sailing record for circumnavigation but was not awarded the Jules Verne Trophy. Which of the following best explains this situation and highlights a key aspect of the trophy's administration?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A music historian is analyzing the evolution of Cirque du Soleil's Myst\u00e8re show. Which of the following statements most accurately reflects the show's musical development and its significance in Cirque du Soleil's history?\n",
@@ -2989,9 +2989,9 @@
   },
   {
     "question": "Lavinia Greenlaw's diverse body of work spans multiple genres and mediums. Which of the following combinations best represents the breadth of her artistic output and the underlying themes that connect her various works?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A practitioner of Santer\u00eda is consulted by a patient suffering from a persistent genital infection that has not responded to conventional medical treatment. Which of the following approaches would be most consistent with Santer\u00eda practices for this specific ailment?\n",
@@ -3013,9 +3013,9 @@
   },
   {
     "question": "The Kentucky Derby has undergone several changes since its inception in 1875. Which of the following scenarios best demonstrates the evolution of the race and its impact on the broader horse racing landscape?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Tommie Smith's career trajectory and activism demonstrate the complex intersection of sports, politics, and social change. Which of the following best explains why Smith's 1968 Olympic performance and subsequent actions had such a lasting impact on both athletics and civil rights?\n",
@@ -3067,15 +3067,15 @@
   },
   {
     "question": "Robert Jordan faced significant challenges while writing The Wheel of Time series. Which of the following best describes how he addressed these challenges and their impact on the series' development?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The town of Clarkstown is participating in multiple environmental initiatives. Which of the following outcomes is most likely to result from these efforts, considering the town's history and current commitments?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In a hypothetical episode, Krypto and Streaky are faced with a complex situation where they need to stop a villain while protecting their secret identities. Given their character traits and abilities, which approach would most likely result in a successful outcome while maintaining the show's themes?\n",
@@ -3121,9 +3121,9 @@
   },
   {
     "question": "In the context of the Isma'ili Shi'ite movement in the late 9th century, what was the most significant consequence of Sa'id ibn al-Husayn's claim to be the awaited mahdi?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "After World War II, Lieutenant General Sir George Collingwood gave a memorial address for Dick O'Connor, highlighting three distinct aspects of his life. Which of the following best represents Collingwood's characterization of O'Connor's multifaceted career and personality?\n",
@@ -3163,9 +3163,9 @@
   },
   {
     "question": "During the Battle of Okinawa, American forces faced significant challenges in distinguishing between civilians and enemy combatants. Which of the following best explains the complexity of this situation and its consequences?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the context of the early 20th century electric utility industry, why did Samuel Insull actively promote the idea of a regulated monopoly, contrary to J.P. Morgan's opposition to government regulation?\n",
@@ -3331,9 +3331,9 @@
   },
   {
     "question": "A classically trained opera singer is struggling to reach the lowest notes in a contemporary piece that incorporates elements of American country music. Which technique would be most effective for the singer to master in order to authentically perform this piece while maintaining vocal health?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "During the production of The Hunger Games: Mockingjay, an unexpected challenge arose that required creative problem-solving from the filmmakers. Which of the following scenarios best represents how the production team likely addressed this issue while maintaining the integrity of the film?\n",
@@ -3409,9 +3409,9 @@
   },
   {
     "question": "Air Wisconsin's strategic decisions in the early 2000s reflect a complex interplay of market forces and airline partnerships. Which sequence of events best illustrates the company's adaptability and the challenges it faced in maintaining its position in the regional airline market?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A passenger on a United Airlines flight is asked to give up their seat for a standby passenger, despite having paid full price for a first-class ticket. The passenger refuses, citing the importance of their travel. How might this situation most likely escalate based on the patterns observed in similar incidents?\n",
@@ -3475,9 +3475,9 @@
   },
   {
     "question": "In the context of the Isma'ili movement's expansion in the late 9th century, what complex series of events best explains the rise of the group known as \"Qarmatians\" and their relationship to the future Fatimid Caliphate?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Tom Campbell's voting record and political stances demonstrate a complex ideological profile. Which of the following best characterizes Campbell's political philosophy and its implications for his electoral success?\n",
@@ -3559,9 +3559,9 @@
   },
   {
     "question": "In the Gasser case, the European Court of Justice rejected the possibility of party autonomy taking precedence over the lis pendens doctrine. What is the most significant long-term implication of this ruling for international commercial litigation within the EU?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A local historian is researching the early settlement patterns of Saginaw County. Given the information provided about the area's history, which of the following conclusions is best supported by the evidence?\n",
@@ -3679,9 +3679,9 @@
   },
   {
     "question": "The decline of the Nahrawan Canal system in the 10th century CE is often seen as symbolic of the broader decline of the Abbasid Caliphate. Which of the following scenarios best represents the complex interplay of factors that led to this decline?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of Severianus' career and the Roman political landscape of the 2nd century CE, which of the following best explains his appointment as governor of Cappadocia and his subsequent actions there?\n",
@@ -3733,9 +3733,9 @@
   },
   {
     "question": "Finger Eleven's evolution as a band showcases adaptability in the music industry. Which sequence of events best illustrates the band's strategic decisions to maintain relevance and success over time?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "The Gang's behavior in \"It's Always Sunny in Philadelphia\" often leads to absurd and dark situations. Which of the following best explains why their actions rarely result in lasting consequences or character growth?\n",
@@ -3769,9 +3769,9 @@
   },
   {
     "question": "In the context of \"Whatever Happened to... Robot Jones?\", which of the following scenarios best exemplifies the show's core theme and Robot Jones' character development?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The University of Houston Cougars faced several challenges during their 2008 football season. Which of the following scenarios best demonstrates the team's resilience and ability to overcome adversity?\n",
@@ -3793,9 +3793,9 @@
   },
   {
     "question": "A researcher is studying the cultural evolution of children's rhymes and games across different countries. They come across \"Pretty Little Dutch Girl\" and want to analyze its spread and variations. Which of the following conclusions is best supported by the information provided?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Following the Port Arthur Massacre, how did the complex interplay of media coverage, government responses, and international perceptions most significantly impact Japan's geopolitical standing?\n",
@@ -3853,9 +3853,9 @@
   },
   {
     "question": "In the context of Shakespeare's Twelfth Night adaptations and Norwegian theater history, which scenario most accurately represents the intersection of these domains?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of Isidor Isaac Rabi's career and contributions, which of the following best exemplifies his approach to fostering international scientific collaboration in the post-World War II era?\n",
@@ -3937,9 +3937,9 @@
   },
   {
     "question": "A local government official is planning to improve public transportation access to Old Trafford stadium on match days. Given the information about existing transport options and the area's characteristics, which of the following strategies would likely be most effective in reducing traffic congestion while accommodating the largest number of fans?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Considering Aldington's experiences during World War I and their impact on his literary career, which of the following best explains the evolution of his writing style and subject matter post-war?\n",
@@ -3997,9 +3997,9 @@
   },
   {
     "question": "In the evolution of English dog breed documentation, which of the following best represents the progression of how dogs were categorized from the 14th to the 16th century?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The Port of Portland accelerated plans for the airport light rail in the mid-1990s. Which combination of factors most likely contributed to this decision?\n",
@@ -4045,9 +4045,9 @@
   },
   {
     "question": "The BBC Radio 5 Live show \"7 Day Sunday\" underwent several changes throughout its run. Which of the following scenarios best represents the evolution of the show's format and hosting from its inception to its final broadcast?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Hong Kong's unique architectural landscape is a result of various historical and geographical factors. Which of the following statements best explains the interplay between Hong Kong's economic development, urban planning, and architectural heritage?\n",
@@ -4063,15 +4063,15 @@
   },
   {
     "question": "Gordon Burns, known for hosting The Krypton Factor, had a diverse career in football. Which of the following best describes the trajectory and impact of his football career and transition into management?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "TVXQ's song \"Keep Your Head Down\" sparked controversy due to its lyrics. Which of the following best explains the complexity of this situation and demonstrates critical thinking about the event?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The decline of Goguryeo's imperial power and its eventual fall can be attributed to a complex interplay of factors. Which of the following sequences of events most accurately represents the trajectory of Goguryeo's decline?\n",
@@ -4087,9 +4087,9 @@
   },
   {
     "question": "David Parlett, known for inventing numerous games, won the Spiel des Jahres award in 1979 for one of his creations. Given his diverse portfolio and the award's significance, which of the following statements most accurately reflects Parlett's contributions to the gaming industry?\n",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of Trotsky's theory of uneven and combined development, which of the following scenarios best exemplifies the complex interplay between archaic and modern elements in a society undergoing rapid transformation?\n",
@@ -4189,9 +4189,9 @@
   },
   {
     "question": "Eddie Vedder's musical evolution in Pearl Jam demonstrates his growing influence on the band's sound. Which of the following best describes the impact of Vedder's increased guitar playing on Pearl Jam's musical direction?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Air Wisconsin is planning to expand its operations and is considering different aircraft types. Given the airline's historical fleet, current operations, and recent agreements, which of the following strategies would be most aligned with Air Wisconsin's business model and operational capabilities?\n",
@@ -4339,9 +4339,9 @@
   },
   {
     "question": "A city planner is analyzing demographic trends in two different cities to inform policy decisions. City A has a population of 5,744 with 90.39% White residents and a median household income of $53,608. City B has a population of 14,532 with 96.00% White residents and a median household income of $37,330. Which of the following conclusions is best supported by this data?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A historian is analyzing the expansion strategies of early 20th-century electric utility companies in the Americas. Which of the following scenarios best illustrates the complex interplay between corporate interests, geopolitics, and local governance as exemplified by American & Foreign Power Company's operations?\n",
@@ -4405,9 +4405,9 @@
   },
   {
     "question": "In the context of the novel's themes, what is the most likely reason for Yod's decision to destroy himself and Avram's lab simultaneously?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An urban planning committee is evaluating the impact of 55 Water Street on New York City's skyline and public spaces. Which of the following conclusions best integrates the various perspectives on the building's design and its contribution to the urban landscape?\n",
@@ -4459,9 +4459,9 @@
   },
   {
     "question": "In the plot of \"The Hot Chick,\" Jessica's body swap experience leads to several unexpected consequences. Which of the following best represents the most significant character development for Jessica as a result of her transformation?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Les Stroud, the host of \"Survive This,\" adopted a specific demeanor during the filming of Season One. What was the likely purpose of this approach, and how did it impact the overall production?\n",
@@ -4495,9 +4495,9 @@
   },
   {
     "question": "A streaming service is considering acquiring the rights to ER for their platform. Given the information about the show's distribution history and production details, which strategy would likely be most effective for maximizing viewer engagement and justifying the acquisition cost?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A small town in Maine is planning to honor Bud Leavitt's legacy by creating a new outdoor-themed television program. Which of the following approaches would most effectively capture the essence of Leavitt's impact on outdoor journalism and Maine culture?\n",
@@ -4555,9 +4555,9 @@
   },
   {
     "question": "The Houston Cougars are preparing for their final game of the regular season against Rice. Given the current standings in Conference USA and the potential outcomes, which of the following scenarios would result in Houston NOT making it to the Conference USA Football Championship?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In 2020, Churchill Downs implemented a significant change to the Kentucky Derby starting gate arrangement. What was the primary motivation behind this change, and what potential impact did it aim to address?\n",
@@ -4573,9 +4573,9 @@
   },
   {
     "question": "A firearms enthusiast is developing a new load for an antique lever-action rifle chambered in .30-30 Winchester. Given the historical context and powder characteristics, which of the following powders would be the most appropriate choice for this application?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Arnold Bennett's career and literary approach were characterized by a combination of factors. Which of the following best represents the complex interplay of his beliefs, writing style, and impact on early 20th-century literature?\n",
@@ -4627,9 +4627,9 @@
   },
   {
     "question": "Following the Port Arthur massacre in Australia, the government implemented strict gun control measures. Which of the following best explains why these measures were successfully enacted despite some state-level opposition?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of Liam Hemsworth's career and personal life, which of the following sequences of events best represents the integration of his professional achievements and personal challenges?\n",
@@ -4639,9 +4639,9 @@
   },
   {
     "question": "Colorado's football team decided to renew its rivalry with Nebraska after both teams left the Big 12 Conference in 2011. Given the historical context and recent developments, which of the following statements most accurately reflects the current state of this rivalry?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A television critic is analyzing the reception of 30 Rock's episode \"Cooter\". Which of the following statements most accurately reflects the complex critical response to this episode?\n",
@@ -4729,15 +4729,15 @@
   },
   {
     "question": "A city planner is analyzing the demographic shifts in Lansing between 2000 and 2010. Which of the following conclusions is most supported by the census data provided?\n",
-    "model_answer": "D",
-    "correct_answer": "D",
-    "is_correct": true
-  },
-  {
-    "question": "During the Good Guys hostage crisis, what tactical error made by the police entry team inadvertently contributed to saving an officer's life?\n",
     "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false
+  },
+  {
+    "question": "During the Good Guys hostage crisis, what tactical error made by the police entry team inadvertently contributed to saving an officer's life?\n",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
   },
   {
     "question": "Edith Wharton's novel \"The Age of Innocence\" draws inspiration from Calvary Church. Which of the following statements most accurately reflects the complex relationship between Wharton, the church, and her literary work?\n",
@@ -4765,9 +4765,9 @@
   },
   {
     "question": "In the context of Raj Kapoor's film \"Ram Teri Ganga Maili,\" which of the following best describes the film's approach to blending cultural elements and addressing societal issues?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following best describes the evolution of Deftones' musical style and its impact on their commercial success?\n",
@@ -4795,9 +4795,9 @@
   },
   {
     "question": "A debtor in Chapter 13 bankruptcy is considering participating in the Loss Mitigation Mediation (LMM) program to address their mortgage issues. Which of the following outcomes is most likely if they choose to participate?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Sonic Mania's development and reception demonstrate which of the following trends in the video game industry?\n",
@@ -4861,9 +4861,9 @@
   },
   {
     "question": "Which of the following best demonstrates Donna Summer's enduring impact across multiple decades in the music industry?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A music historian is analyzing Michael Tippett's compositional style. Which combination of influences and techniques would most accurately reflect Tippett's mature work, considering his diverse musical inspirations and the evolution of his style?\n",
@@ -4969,7 +4969,7 @@
   },
   {
     "question": "Ato Boldon's career trajectory demonstrates the challenges elite athletes face. Which sequence of events best illustrates his resilience and the impact of external factors on his performance?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -5005,15 +5005,15 @@
   },
   {
     "question": "A state legislature is drafting a new law to regulate obscene material. Which of the following approaches would be most consistent with the Miller v. California decision while also addressing potential criticism of the \"community standards\" element?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Jerry Garcia's musical legacy extends beyond his work with the Grateful Dead. Which of the following scenarios best demonstrates the integration of Garcia's diverse musical influences and his impact on various aspects of popular culture?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A university library is considering partnering with Purdue University Press for academic publishing. Which of the following strategies would best align with Purdue University Press's current publishing model?\n",
@@ -5041,9 +5041,9 @@
   },
   {
     "question": "A local historian is researching the early settlement patterns of Saginaw County, Michigan. Which of the following statements most accurately reflects the complex interplay of Native American groups and European settlers in the region during the early 19th century?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Activision's success as the first third-party developer for the Atari 2600 led to significant industry changes. Which of the following best describes the complex chain of events that followed, ultimately contributing to the video game crash of 1983?\n",
@@ -5065,9 +5065,9 @@
   },
   {
     "question": "A music producer is analyzing the success factors of Rihanna's \"We Found Love.\" Which combination of elements most likely contributed to its global impact and longevity on the charts?\n",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "During Mike Leach's tenure as head coach at Texas Tech, the Red Raiders became known for their high-scoring offense and come-from-behind victories. Which of the following best exemplifies the team's offensive prowess and ability to overcome deficits under Leach's leadership?\n",
@@ -5269,9 +5269,9 @@
   },
   {
     "question": "In the 1920s-1930s, the Republican leadership in Hawaii shifted its strategy towards the Japanese population. Which of the following best describes the rationale behind this shift and its consequences?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Michael Tippett's involvement with the Cleveland Work Camps in the early 1930s demonstrates his ability to integrate music with social causes. Which of the following best describes the long-term impact of his work during this period on his later compositions?\n",
@@ -5335,15 +5335,15 @@
   },
   {
     "question": "In 2019, multiple sources reported different attendance figures for the 1 July protest march in Hong Kong. Which of the following conclusions can be most reliably drawn from the various estimates?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An engineer is designing a high-frequency signal transmission system for a sensitive electronic measurement application. Given the following requirements:\n- Frequency range up to 3 GHz\n- Need for a separate guard conductor\n- Secure connection in high-vibration environments\n- Minimal signal reflection\n\nWhich connector type would be the most appropriate choice?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An aspiring historical fiction author wants to write a novel about Irish history and mythology, drawing inspiration from Morgan Llywelyn's works. Which of the following approaches would best capture Llywelyn's style and subject matter?\n",
@@ -5377,9 +5377,9 @@
   },
   {
     "question": "In the 2014 6 Hours of Silverstone race, Toyota achieved a historic victory. However, the race was stopped early due to adverse weather conditions. Given this context and the information provided about subsequent races, what can be inferred about the impact of this event on endurance racing at Silverstone?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In 2011, Governor Chris Christie initiated the privatization of NJN. Which of the following outcomes most accurately reflects the complex restructuring of NJN's assets and operations?\n",
@@ -5473,9 +5473,9 @@
   },
   {
     "question": "Dr. Swango managed to continue practicing medicine despite his criminal history. Which of the following factors most significantly contributed to his ability to evade detection and secure medical positions after his initial conviction?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The Garden Bridge project faced several legal and administrative challenges during its planning phase. Which of the following scenarios most accurately represents the complex interplay of stakeholders and their actions in this process?\n",
@@ -5557,9 +5557,9 @@
   },
   {
     "question": "An urban planner is analyzing the development of Albert Park to understand its unique characteristics. Which combination of factors best explains the suburb's distinctive blend of historical significance and modern urban design?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Simon Pagenaud's racing career has spanned multiple disciplines. Given his performance across various racing series, which of the following statements best represents Pagenaud's versatility and achievements in motorsports?\n",
@@ -5611,15 +5611,15 @@
   },
   {
     "question": "In the production of \"The Wolf of Wall Street,\" several factors contributed to its controversial nature and unique place in cinema history. Which of the following statements best synthesizes the film's production challenges and its impact on the industry?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Following the Port Arthur massacre, which of the following factors is considered to have potentially contributed most significantly to Martin Bryant's actions, according to forensic psychiatrist Paul Mullen?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The discovery of multiple bodies near Oak Beach in 2010-2011 led to increased public attention and an ongoing investigation. Given the information provided, which of the following conclusions is most supported by the evidence?\n",
@@ -5719,9 +5719,9 @@
   },
   {
     "question": "After Jane Merrick's death, multiple wills are discovered, leading to a complex inheritance situation. Which of the following best describes the final resolution of the estate's ownership?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "How did Michael Tippett's compositional style evolve in the 1960s, and what factors influenced this change?\n",
@@ -5773,13 +5773,13 @@
   },
   {
     "question": "During the 2014 Sydney hostage crisis, Man Haron Monis made several demands. Which of the following combinations of actions would have been most likely to escalate the situation and potentially endanger the hostages further?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false
   },
   {
     "question": "In a mixed SATB chorus, a singer with a vocal range from D3 to E5 is having difficulty with the higher notes of the alto part. Which of the following solutions would be most appropriate for the choir director to consider?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -5803,9 +5803,9 @@
   },
   {
     "question": "Manchester United is considering expanding Old Trafford's capacity. Given the information provided, which of the following scenarios is most likely to present the greatest challenge in implementing a significant capacity increase?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Leeds United's financial crisis in the early 2000s was exacerbated by a series of events. Which of the following sequences best represents the cascade of decisions and consequences that led to the club's eventual relegation to League One in 2007?\n",
@@ -5935,9 +5935,9 @@
   },
   {
     "question": "A music producer is analyzing the success of \"Lightning\" by The Wanted. Which of the following statements best explains why the song became more successful than originally anticipated?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of P.J. Mara's political career and his relationship with Charles Haughey, which of the following strategies best exemplifies Mara's innovative approach to political campaigning and public relations?\n",
@@ -5995,8 +5995,8 @@
   },
   {
     "question": "In the film adaptation of \"Call for the Dead,\" a significant change was made to the plot involving George Smiley's wife Ann. What implications might this alteration have for the narrative and character dynamics, particularly in relation to the broader le Carr\u00e9 spy universe?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   }
 ]

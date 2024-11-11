@@ -19,9 +19,9 @@
   },
   {
     "question": "In a study of Ge0.887Mn0.113 nanocolumns grown at 115\u00b0C, researchers observed discrepancies between the magnetic properties derived from susceptibility measurements and those calculated from the saturated magnetic moment. Which of the following best explains this observation and its implications for the nanocolumn structure?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The Pakistan Government's decision to disband the Hilaal Committee was influenced by which of the following sequences of events?\n",
@@ -37,9 +37,9 @@
   },
   {
     "question": "A NBA scout is evaluating draft prospects and comes across two players with contrasting situations: Player X is a 6-8 power forward from a mid-major school who has consistently led the nation in rebounding, while Player Y is a 6-2 guard from a major conference school who had an inconsistent sophomore season but possesses exceptional athleticism. Given the information provided, which of the following scenarios is most likely?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the evolving landscape of consumer electronics, which technological advancement is most likely to disrupt the current market dynamics and give certain companies a significant competitive advantage in the next 5 years?\n",
@@ -139,9 +139,9 @@
   },
   {
     "question": "In the context of analyzing the behavior of a test ball in a gravitational field using Einstein's vacuum equation, why is it necessary to consider particles that are initially at rest relative to the central particle C, rather than using the particles C, U, D, L, R directly?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of class relationships in the game, why might a team composed primarily of Mutant Champions struggle against a group of Skill Champions?\n",
@@ -163,9 +163,9 @@
   },
   {
     "question": "An engineer is analyzing a nonlinear system using Volterra series expansion. The system exhibits significant second-order nonlinear effects under two-tone excitation. Which of the following scenarios would most likely produce the maximum second-order response amplitude?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A marketing agency is considering using Agency Spotter's platform for client acquisition. Which of the following scenarios would most likely result in legal issues for the agency?\n",
@@ -193,15 +193,15 @@
   },
   {
     "question": "A researcher is comparing B meson lifetime measurements from CDF and D0 experiments. Given the data, which of the following conclusions is best supported?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false
   },
   {
     "question": "In a shock-bubble interaction experiment, researchers observe that bubbles with different specific-heat ratios exhibit varying jet structures and deformation processes. Which of the following correctly describes the relationship between the specific-heat ratio and bubble behavior, and provides the most accurate explanation for this phenomenon?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A 65-year-old patient with a history of alcoholism is admitted to the hospital with severe bruising, nosebleeds, and prolonged bleeding from a small cut. The patient has been on a strict diet and recently started taking warfarin for atrial fibrillation. Which of the following best explains the patient's condition and the underlying biochemical mechanism?\n",
@@ -247,9 +247,9 @@
   },
   {
     "question": "A patient on long-term warfarin therapy for atrial fibrillation is admitted with an INR of 6.5 and minor bleeding. The patient reports recently starting a new diet high in leafy green vegetables. Which of the following best explains the interaction between the patient's diet, warfarin, and vitamin K metabolism?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Benjamin Franklin and Mrs. Stevenson's living arrangements on Craven Street underwent changes in 1772. Based on the evidence presented in the correspondence and memoirs, what can be inferred about the nature and purpose of these changes?\n",
@@ -283,9 +283,9 @@
   },
   {
     "question": "A researcher is developing a system to recognize both hand gestures and postural activities using a single wrist-worn accelerometer. Which of the following best describes the key innovation in their approach for improving classification performance on both normal and diverse postures?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the context of the game dynamics described, what is the most likely reason for the author's aggressive response to the opposing faction's actions?\n",
@@ -331,9 +331,9 @@
   },
   {
     "question": "A 62-year-old patient with a history of coronary artery disease (CAD) presents with worsening shortness of breath, fatigue, and peripheral edema. The patient's BNP levels are elevated, and an echocardiogram shows reduced ejection fraction. The cardiologist is considering various treatment options. Which of the following combinations would be most appropriate to address the patient's condition comprehensively?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "FC Banants has experienced significant managerial turnover in recent years. Analyzing the managerial history, which of the following statements most accurately reflects the club's approach to coaching appointments between 2015 and 2022?\n",
@@ -361,15 +361,15 @@
   },
   {
     "question": "In a quantum circuit simulation using a denoiser to mitigate errors, why is it crucial to have decompositions with \u03b3 > 1, even though this increases the sampling overhead?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "The Gulftide platform on the Ekofisk field faced significant production challenges. Which of the following strategies would have been most effective in improving its continuous production capabilities, given the platform's design and the environmental conditions?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the experiment described, why does the molecular ultracold plasma appear to resist thermalization, contrary to expectations for higher-dimensional systems?\n",
@@ -391,9 +391,9 @@
   },
   {
     "question": "Mufti-e-Azam-e-Hind's experience during his third Hajj in 1971 demonstrates which of the following principles regarding the application of Islamic law in modern contexts?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a study of electronic transport through graphene strained junctions, researchers are analyzing the conduction gap. Which of the following approaches best describes the method to determine the conduction gap using bandstructure analysis?\n",
@@ -433,9 +433,9 @@
   },
   {
     "question": "A research team is planning to implement the compressed quantum error mitigation technique described in the paper by Tepaske and Luitz. Which of the following statements best describes a potential challenge they might face in applying this method to a large-scale quantum computing system?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A preacher is preparing a sermon on Jesus' tree/fruit analogy. Which approach best aligns with the author's view on effectively communicating the passage's theological message?\n",
@@ -487,9 +487,9 @@
   },
   {
     "question": "In an experiment comparing different solvers for a transport problem using the Screened Rutherford Kernel (SRK), what can be concluded about the performance of NFPA and FPSA as the parameter \u03b7 approaches 0?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A semiconductor manufacturer is upgrading their production line to accommodate larger wafer sizes. Which of the following strategies would best address the challenges of increased vacuum processing equipment size while maintaining productivity and minimizing cost increases?\n",
@@ -499,7 +499,7 @@
   },
   {
     "question": "During the fifth experiment with the robotic grasping controller, a person adds coins to a cup held by the robot. What is the most likely sequence of events that occurs in response to this weight increase?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -517,9 +517,9 @@
   },
   {
     "question": "A researcher is analyzing the relationship between power-law exponents of cryptocurrency price variations and factors such as age and market capitalization. Which of the following conclusions is most accurate based on the study of 2140 digital currencies?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A small indie band is considering using Broadjam's services to promote their music. They want to ensure they understand their legal obligations and Broadjam's rights. Which of the following scenarios most accurately reflects the band's responsibilities and Broadjam's rights under the agreement?\n",
@@ -529,9 +529,9 @@
   },
   {
     "question": "A robotics team is developing a force controller for a dexterous robotic hand to perform complex manipulation tasks. Which approach would best address the challenges of slip prevention and adaptability to different grasp types while minimizing data collection requirements?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An embodied agent is being evolved to forage in a dynamic environment where food values change over time. The agent's performance unexpectedly decreases when the frequency of environmental changes increases. Which of the following best explains this observation and suggests a potential solution?\n",
@@ -541,9 +541,9 @@
   },
   {
     "question": "In a robot navigation problem where the human's path preferences are being inferred, which approach would most effectively balance computational efficiency and accurate preference modeling?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "The city of Chico is facing financial difficulties and criticism regarding budget transparency. Given the information provided, what is the most likely underlying cause of the city's reluctance to provide detailed monthly budget reports as required by the city charter?\n",
@@ -553,9 +553,9 @@
   },
   {
     "question": "Given the information about Florida's role in the opioid crisis, what factor most significantly contributed to the state becoming the primary source of oxycodone for drug users and dealers across a large portion of the United States?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A 68-year-old patient with a history of atrial fibrillation is currently taking warfarin for anticoagulation. The patient's doctor is considering switching to a newer anticoagulant and adding a vitamin K supplement to support bone health. Which of the following statements best describes the potential implications of this change?\n",
@@ -571,7 +571,7 @@
   },
   {
     "question": "India and Russia are collaborating on the development of a new \"BrahMos mini missile.\" Given the information provided and considering the geopolitical context, what is the most likely strategic rationale behind this joint venture?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -619,9 +619,9 @@
   },
   {
     "question": "An engineer is designing a safety system for a sensitive electronic device that needs protection from both electromagnetic interference and electric fields. Which combination of principles would be most effective for this application?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A social media company is developing a new content recommendation system. Given the information about the processing unit 202 and model generation engine 207, which approach would most likely result in the most personalized and relevant content recommendations for users?\n",
@@ -637,9 +637,9 @@
   },
   {
     "question": "An experiment is conducted to create quantum dots (QDs) in semiconducting single-walled carbon nanotubes (SWNTs) using different defect combinations. Which of the following conclusions can be drawn from the ab-initio calculations and experimental results described in the text?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A small independent music label wants to create a website to promote their artists, and they're considering using Broadjam's hosting services. Which of the following actions would be a violation of Broadjam's terms of service?\n",
@@ -649,9 +649,9 @@
   },
   {
     "question": "A researcher is comparing the performance of the Deep Image Prior (DIP) inpainting model with the proposed Deep Shape Prior (DSP) method for image completion. Which of the following conclusions is best supported by the information provided in the documentation?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A college football program is struggling with recruitment and has recently lost several high-profile recruits to larger programs. Given the information in the document, which strategy would be most effective for improving the program's recruitment success and player retention?\n",
@@ -697,9 +697,9 @@
   },
   {
     "question": "An amateur aircraft builder purchases a partially completed project and discovers multiple issues with the aileron system upon inspection. Which of the following problems would likely require the most extensive redesign or reconstruction?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An engineer is designing a new device that utilizes both electric and magnetic fields. Given the historical understanding of electricity and magnetism, along with modern applications, which of the following statements best describes the relationship between these phenomena and their practical implications?\n",
@@ -709,9 +709,9 @@
   },
   {
     "question": "A particle physics experiment at CDF has observed a mass peak between 2.4 and 2.5 GeV/c\u00b2 in the invariant mass spectrum of D*\u03c0 pairs. What is the most likely interpretation of this observation, and what does it imply about B meson decays?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A philosopher argues that our actions are partially determined and partially indeterminate due to quantum effects in the brain. How does this view most likely impact the concept of moral responsibility in a justice system?\n",
@@ -805,9 +805,9 @@
   },
   {
     "question": "In a scanning probe microscopy experiment studying potential single-molecule switches, researchers are investigating the electronic states of a molecule on different metal surfaces. Which combination of techniques and conditions would be most appropriate to comprehensively analyze the open-shell and closed-shell states of the molecule?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In a Monte Carlo simulation of a 2D lattice spin system with N=64 spin variables, the Pseudolikelihood Maximization (PLM) method is used to infer couplings. Which of the following statements best describes the performance of PLM in reconstructing the coupling matrix for both ordered and disordered systems?\n",
@@ -817,9 +817,9 @@
   },
   {
     "question": "An autonomous vehicle is implementing a Speed and Lane Advisory System (SLAS) for highway driving. The system needs to make a decision about changing lanes while maximizing speed and maintaining safety. Which of the following combinations of factors would most likely result in the SLAS recommending a lane change?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In implementing a supercircuit for quantum error mitigation, why does the approach described in the documentation potentially require more gate applications on the quantum processor compared to a gate-wise scheme?\n",
@@ -835,9 +835,9 @@
   },
   {
     "question": "A software company is developing a new credit application system that processes applications over the internet. Which of the following implementations is most likely to satisfy the machine-or-transformation test as interpreted by recent court decisions?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A game developer is considering ways to address issues of \"cube injustice\" and improve the new player experience while maintaining revenue. Which of the following proposed solutions best balances these concerns without compromising competitive fairness?\n",
@@ -847,9 +847,9 @@
   },
   {
     "question": "An experienced homebuilder is planning to modify a KR2 design to address some common issues while still using as many standard parts as possible. Which combination of modifications would best achieve this goal while maintaining compatibility with Rand Robinson's premolded parts?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "During World War II, Captain Goodwin's leadership of the USS Gambier Bay was characterized by multiple roles and achievements. Which of the following best represents the complexity and impact of his command?\n",
@@ -871,15 +871,15 @@
   },
   {
     "question": "In the context of the XY model's applications in optics, which of the following scenarios would most likely benefit from using this model to analyze light propagation?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A robot is navigating through an environment with the assistance of a human operator. The robot needs to reach an unknown goal while adapting to the human's path preferences. Which of the following approaches would be most effective in solving this problem while minimizing human intervention?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a robot navigation experiment comparing a goal-only baseline method to a path preference method, which of the following best explains why the goal-only baseline might perform worse in certain scenarios?\n",
@@ -955,13 +955,13 @@
   },
   {
     "question": "In the context of the described statistical mechanical approach to electromagnetic field propagation, what is the primary purpose of introducing a finite \"temperature\" (\u0394\u00b2) when working with real, noisy data?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "The investigation into Benjamin Franklin's residence on Craven Street revealed discrepancies in historical records. What critical thinking error did Sir George Laurence Gomme likely make in his conclusion about the correct house number?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -1057,15 +1057,15 @@
   },
   {
     "question": "An RSU is monitoring vehicle trajectories and RF signals to detect potential jamming or spoofing attacks. Given the abnormality signals shown in Fig. 2, what can be concluded about the nature of the attack occurring at time t=150?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "When comparing the open-shell structures of different indenofluorene isomers, what unique characteristic distinguishes isomers 1 and 5 from isomers 2-4, and what implications might this have for their electronic properties?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A researcher is developing an underwater object detection system and wants to use the DUO dataset. However, they are concerned about potential biases in the dataset. Which of the following strategies would be most effective in addressing the dataset's limitations while maximizing its utility for real-world applications?\n",
@@ -1087,9 +1087,9 @@
   },
   {
     "question": "In a shared autonomy scenario where a robot and human are collaborating to navigate around obstacles, the robot consistently chooses a path to the right of an obstacle when the human prefers a left path. What is the most likely reason for this misalignment, and how could it be addressed?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An AI researcher is designing an agent to learn optimal foraging behavior in a dynamic environment with varying food values. Which combination of factors would likely result in the most complex evolved plasticity rules for the agent's neural network?\n",
@@ -1147,9 +1147,9 @@
   },
   {
     "question": "Simon English's political career trajectory demonstrates the complex nature of leadership in New Zealand politics. Which of the following sequences best represents the progression of his key roles, while also highlighting a significant challenge he faced?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Taylor's academic performance and behavior show a complex pattern of strengths and challenges. Which of the following best explains the discrepancy between his early academic success and later struggles in college?\n",
@@ -1213,9 +1213,9 @@
   },
   {
     "question": "Intel faces challenges in the evolving mobile market. Which of the following strategies would best position Intel to compete effectively in the phone/tablet space while balancing economic pressures?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "The Committee on Nominations & Elections (N&E) is proposing a new election mechanism for president-elect and district director positions. Which of the following best describes the potential impact of this change on ACS elections?\n",
@@ -1243,9 +1243,9 @@
   },
   {
     "question": "A developer is designing a power delivery system for a new device using the FS312B chip. The device needs to support both USB-C PD3.1 and legacy charging protocols. Which configuration would best meet these requirements while also providing the highest potential power delivery?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A robot is tasked with navigating through a complex office environment to deliver an item, but its goal location is unknown. Which approach would be most effective in allowing the robot to adapt to dynamic human preferences while maintaining computational efficiency?\n",
@@ -1255,9 +1255,9 @@
   },
   {
     "question": "A media application is designed to generate supplemental information for users during media playback. Which of the following approaches would most effectively ensure that users can understand the context of the supplemental information, especially if it's not generated in real-time?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In analyzing the resource requirements for breaking AES-128 using Grover's algorithm on quantum computers, which of the following statements most accurately reflects the relationship between theoretical models and practical implementation challenges?\n",
@@ -1267,7 +1267,7 @@
   },
   {
     "question": "A 62-year-old woman presents to the emergency department with sudden onset of chest pain, dizziness, and palpitations. Her ECG shows a heart rate of 180 bpm with regular, narrow QRS complexes. Given her history of fatigue and occasional fainting spells over the past year, what is the most likely underlying condition contributing to her current presentation?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -1321,9 +1321,9 @@
   },
   {
     "question": "In developing a simplified derivation of the Schwarzschild solution for undergraduate students, why might using the Gullstrand-Painlev\u00e9 form of the metric be advantageous over the more common Schwarzschild coordinates?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In an unbalanced channel scenario for a multi-user communication system, the LMS-PPIC and PLMS-PPIC methods are applied to estimate channel phases. Given the information in Table 1 (example 3), what can be inferred about the performance of these methods in estimating the channel phase of the first user?\n",
@@ -1345,9 +1345,9 @@
   },
   {
     "question": "In the experimental study of the molecular ultracold plasma state, why might the observed state of arrested relaxation be resistant to thermalization, contrary to expectations for higher-dimensional systems?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A researcher is analyzing the spectroscopic data of a novel indeno[1,2-a]fluorene compound. Given the NMR and AFM data provided, which of the following statements is most likely to be true about the compound's structural characteristics?\n",
@@ -1363,21 +1363,21 @@
   },
   {
     "question": "In a study comparing static agents with agents having a static motor network and a plastic sensory network, researchers observed a greater variety of well-functioning learning rules in the latter. Which of the following best explains this phenomenon and its implications for understanding neural plasticity?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a study of embodied artificial agents performing a foraging task, researchers introduced a bottleneck of information propagation between the sensory and motor networks. What is the most significant consequence of this modification on the evolved plasticity rules and agent performance?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A research team is developing a new Ge1-xMnx thin film for potential use in spintronic devices. They want to optimize the growth conditions to achieve the highest possible Curie temperature while maintaining semiconductor properties. Which of the following approaches is most likely to achieve this goal?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the evolving landscape of mobile technology, what factor is most likely to determine the success of Intel's Haswell processor in the tablet market?\n",
@@ -1393,9 +1393,9 @@
   },
   {
     "question": "A researcher is analyzing a large dataset with a high-dimensional Toeplitz covariance matrix. Given that the number of variables p is growing faster than the sample size n, which of the following statements is most accurate regarding the proposed estimator's performance?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the context of the interaction information between tokens and the mutual information between composed messages and encoded information, which of the following statements is most accurate regarding the relationship between the NCE-binary objective and utility mutual information?\n",
@@ -1405,9 +1405,9 @@
   },
   {
     "question": "In the late 18th century, Craven Street in London underwent significant changes in its house numbering system. Given this information, what is the most likely explanation for why Margaret Stevenson's former residence changed from number 27 to 36, instead of 37?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A developer is integrating Agency Spotter's services into a mobile application. Which of the following scenarios would most likely result in a breach of the terms and conditions?\n",
@@ -1483,9 +1483,9 @@
   },
   {
     "question": "An astronomer is analyzing the X-ray spectrum of XMMSL1 J060636.2-694933 obtained from XMM-Newton and Swift observations. Given the spectral fitting results and the source's characteristics, what is the most likely nature of this object?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a Rydberg gas experiment, researchers observe an unexpected spatial distribution of ions after ionization. They want to investigate if this is due to Penning ionization. Which combination of experimental parameters and observations would most strongly support the formation of a Penning lattice?\n",
@@ -1495,9 +1495,9 @@
   },
   {
     "question": "A historian is researching the academic and career progression of clergymen in 17th century England. Upon examining the records of Stephen Rose, what can be inferred about the relationship between his education and subsequent career path?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An aircraft builder is laying out the fuselage side panel using the described method. Which combination of steps, if executed incorrectly, would most likely result in a misaligned fuselage that doesn't conform to the plans when assembled?\n",
@@ -1573,7 +1573,7 @@
   },
   {
     "question": "In Florida during the early 2000s, which of the following factors most significantly contributed to the state's delayed response to the opioid crisis, despite clear evidence of widespread abuse?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -1603,9 +1603,9 @@
   },
   {
     "question": "In a study examining the effects of specific-heat ratio on the interaction between a planar shock wave and a 2-D heavy-cylindrical bubble, researchers observed varying jet structures. Which of the following best explains the relationship between specific-heat ratio and jet structure formation?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A social media company wants to implement a new feature that suggests personalized content channels to users. Which combination of components from the channel application would be most effective in creating this feature while considering both user interests and contextual relevance?\n",
@@ -1657,9 +1657,9 @@
   },
   {
     "question": "A researcher is investigating the role of astrocytes in dendritic spine pathology associated with Down syndrome. Which experimental approach would be most effective for directly observing and manipulating astrocyte-neuron interactions in this context?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Brooksley Born's warnings about financial derivatives and their impact on the 2007-08 financial crisis were initially dismissed but later recognized. Which of the following best illustrates the complexity and long-term consequences of her stance on financial regulation?\n",
@@ -1681,9 +1681,9 @@
   },
   {
     "question": "Boston College's football program is facing attendance issues. Given the information about NFL strategies and BC's current situation, which of the following approaches would most likely address BC's attendance problems while aligning with both NFL trends and BC's unique circumstances?\n",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Bill English's political career trajectory from 2001 to 2008 demonstrates which of the following leadership principles most clearly?\n",
@@ -1759,7 +1759,7 @@
   },
   {
     "question": "Consider the equation -div(\u03c9\u2081(x)\u2207u) = \u03c9\u2082(x)f(u) in \u211d\u1d3a, where \u03c9\u2081(x) and \u03c9\u2082(x) are smooth positive weight functions. A researcher is investigating the existence of stable solutions for this equation when f(u) = e\u1d58. Which of the following conditions would most likely lead to the non-existence of a stable solution in \u211d\u1d3a?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -1885,9 +1885,9 @@
   },
   {
     "question": "In light of the Wayfair decision's impact on stare decisis doctrine, how might the Supreme Court approach a case challenging the Miranda warnings, given that Miranda has been held to be a constitutional decision?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "The establishment of McPherson County as we know it today involved a complex series of territorial changes and political decisions. Which of the following sequences best represents the chronological evolution of the area's governance leading to the final establishment of McPherson County?\n",
@@ -1903,9 +1903,9 @@
   },
   {
     "question": "Intel is considering entering the mobile SoC market. Given the information provided about market trends, manufacturing processes, and historical context, what is the most likely challenge Intel will face in maintaining long-term profitability in this sector?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A coastal community heavily relies on shark fishing for their livelihood, but recent CITES regulations have listed several of their commonly caught shark species. What approach is most likely to result in effective conservation while considering the community's needs?\n",
@@ -1927,15 +1927,15 @@
   },
   {
     "question": "A user is experiencing discomfort and eye strain while using the VR headset. After ensuring the headset is properly positioned, what combination of adjustments should be made to most effectively address this issue?\n",
-    "model_answer": "A",
-    "correct_answer": "B",
-    "is_correct": false
-  },
-  {
-    "question": "A company is designing a new dual USB-C port charger using FastSOC's chips. They want to maximize power output while ensuring intelligent power distribution when both ports are in use. Which combination of FastSOC chips and configuration would best meet these requirements?\n",
     "model_answer": "B",
     "correct_answer": "B",
     "is_correct": true
+  },
+  {
+    "question": "A company is designing a new dual USB-C port charger using FastSOC's chips. They want to maximize power output while ensuring intelligent power distribution when both ports are in use. Which combination of FastSOC chips and configuration would best meet these requirements?\n",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
   },
   {
     "question": "A philosopher argues that the fear of determinism undermining free will is unfounded. Which of the following best represents the core reasoning behind this argument?\n",
@@ -2011,13 +2011,13 @@
   },
   {
     "question": "A hosting subscriber is considering using Broadjam's logo and name on their website to indicate their affiliation. Which of the following actions would be most appropriate and compliant with Broadjam's policies?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a graphene-based electronic device, a local strain is applied to create a conduction gap. Which of the following combinations would likely result in the largest conduction gap while minimizing potential damage to the graphene structure?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -2083,9 +2083,9 @@
   },
   {
     "question": "According to Pattee's perspective on the epistemic cut and the origin of life, which of the following statements best represents the relationship between quantum measurement and biological processes?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A religious leader is planning to address a diverse audience on the topic of interfaith harmony. Given the information in the text about Jewish beliefs and practices, which approach would be most effective in promoting mutual understanding while avoiding potential misconceptions?\n",
@@ -2095,9 +2095,9 @@
   },
   {
     "question": "A robot is navigating through an environment with the assistance of a human, but the goal and the human's path preference are unknown. Which approach would be most effective in enabling the robot to make navigation decisions while minimizing human input?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A Rydberg gas with an initial principal quantum number n\u2080 = 55 and density \u03c1\u2080 = 5 \u00d7 10\u00b9\u2070 cm\u207b\u00b3 is created. Compared to the avalanche time of the xenon Rydberg gas mentioned in the documentation (n\u2080 = 42, \u03c1\u2080 = 8.8 \u00d7 10\u2078 cm\u207b\u00b3), how would you expect the avalanche time of this new system to differ, and why?\n",
@@ -2137,9 +2137,9 @@
   },
   {
     "question": "Hugh Hilton Goodwin's diverse naval career demonstrates the importance of adaptability in military leadership. Which sequence of roles best illustrates Goodwin's ability to leverage his varied experiences to meet the evolving needs of the U.S. Navy from World War I through World War II?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Bill English's political career and personal views demonstrate a complex evolution in his stance on social issues. Which of the following scenarios best captures the nuanced progression of English's political position?\n",
@@ -2257,15 +2257,15 @@
   },
   {
     "question": "A European basketball scout is evaluating potential NBA draft prospects and comes across three players: Andrea Bargnani, Rudy Fern\u00e1ndez, and Sergio Rodr\u00edguez. Given the information provided, which of the following statements is most accurate regarding their draft potential and current situations?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A European basketball scout is evaluating players for potential NBA draft picks. Given the information provided, which player represents the highest risk-reward scenario for an NBA team looking to draft a European prospect?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A media application is developing a feature to provide supplemental information about events in media assets. Which of the following scenarios best demonstrates the integration of multiple concepts related to this feature?\n",
@@ -2317,9 +2317,9 @@
   },
   {
     "question": "A user is experiencing difficulty interacting with the VR headset's home screen after their controller has disconnected. Which sequence of actions would most effectively resolve this issue while also optimizing power management?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In an experiment comparing reward-prediction and decision tasks for adaptive agents, researchers observed differences in the evolved learning rules. Which of the following best explains the underlying reason for these differences and their implications?\n",
@@ -2347,9 +2347,9 @@
   },
   {
     "question": "A user requests supplemental information about a statement made in a media asset regarding coal exports. Which approach by the media application would most effectively balance speed, accuracy, and privacy while generating this supplemental information?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A research team is developing a new dialect detection system for a multilingual context. Given the approach described in the paper, which of the following strategies would most likely improve the system's performance for previously unseen dialects within the known languages?\n",
@@ -2359,9 +2359,9 @@
   },
   {
     "question": "The development of railroad infrastructure in McPherson County during the late 19th century had significant impacts on the region's connectivity and economic growth. Which of the following statements best describes the long-term consequences of these railroad developments on the county's transportation landscape?\n",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A coastal community in Florida is concerned about mercury exposure through seafood consumption. Local health officials want to identify high-risk individuals for targeted interventions. Which of the following characteristics would most likely indicate a person at highest risk for elevated mercury levels?\n",
@@ -2395,7 +2395,7 @@
   },
   {
     "question": "In a semiconductor manufacturing line using the described vacuum processing apparatus, what strategy would most effectively balance high production efficiency with minimal wafer contamination?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -2413,13 +2413,13 @@
   },
   {
     "question": "In a study of Mn-doped Ge films grown at low temperatures, researchers observed the formation of Mn-rich vertical nanocolumns. Which combination of factors best explains this phenomenon and its underlying mechanism?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the game's update, several changes were made to class relationships and champion abilities. Which of the following combinations most accurately represents these changes and their underlying game design philosophy?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false
   },
@@ -2491,9 +2491,9 @@
   },
   {
     "question": "An astronomer discovers a new X-ray source, XMMSL1_J060636.2-694933, using XMM-Newton slew data. Subsequent observations reveal a soft X-ray spectrum and an optical spectrum showing [OIII], He II, and H-alpha lines. Given this information and the source's location near the eastern edge of the LMC, what is the most likely nature and location of this object?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An X-ray astronomer is analyzing data from XMMSL1 J060636.2-694933, a source discovered during an XMM-Newton slew observation. Given the information provided, what is the most likely nature of this source?\n",
@@ -2521,7 +2521,7 @@
   },
   {
     "question": "John Rose, who matriculated at Merton College in 1581, and John Rose, who matriculated at Corpus Christi College in 1623, share some similarities but have distinct differences. Which of the following statements most accurately compares these two individuals?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -2539,9 +2539,9 @@
   },
   {
     "question": "A research team is comparing the effectiveness of different neural network models in simulating visual cortex activity across species. Which of the following conclusions is best supported by the information provided?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A researcher is developing a new algorithm for underwater object detection and wants to test it on a diverse dataset. Given the information about the DUO dataset, which of the following strategies would be most effective for ensuring the algorithm's robustness and generalization?\n",
@@ -2593,9 +2593,9 @@
   },
   {
     "question": "In a multi-agent reinforcement learning scenario, two heterogeneous agents with different observation spaces are tasked with coordinating their actions to complete a complex task. Which approach would most effectively enable these agents to align their policies and improve task performance?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An archaeologist is planning a meta-analysis of archaeobotanical data from the past decade. Which of the following approaches would likely be most effective in maximizing the quantity and quality of available data for this study?\n",
@@ -2635,9 +2635,9 @@
   },
   {
     "question": "A research team has synthesized compound 5 (indeno[1,2-a]fluorene) on an insulating surface and observes two distinct molecular geometries using high-resolution AFM imaging. What is the most likely explanation for these observations, considering the theoretical predictions and experimental results described?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "The city council's appointment of Kirk Trostle as the new police chief has raised concerns about transparency and fiscal responsibility. Which of the following actions would most effectively address these concerns while balancing the need for confidentiality in personnel matters?\n",
@@ -2677,7 +2677,7 @@
   },
   {
     "question": "In a highly anisotropic scattering medium, a researcher is comparing the performance of Nonlinear Fokker-Planck Acceleration (NFPA) and Fokker-Planck Synthetic Acceleration (FPSA) for solving transport problems. Which of the following conclusions is most accurate based on the information provided?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -2827,9 +2827,9 @@
   },
   {
     "question": "In the context of CDMA systems, the PLMS-PPIC method improves upon the LMS-PPIC method. Which of the following best describes the key innovation of PLMS-PPIC over LMS-PPIC in maintaining the unity magnitude property of weight elements?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In a multi-user communication system using modified LMS-PPIC and PLMS-PPIC methods, an engineer observes that the performance doesn't significantly improve when increasing from two to three stages. What is the most likely explanation for this observation?\n",
@@ -2911,15 +2911,15 @@
   },
   {
     "question": "A 30-year-old patient with beta thalassemia intermedia has been managing their condition with intermittent blood transfusions. Recently, they've noticed increased fatigue and paleness, requiring more frequent transfusions. Which of the following best explains this change and its implications for future management?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "The city council is facing criticism for the high cost of a special election regarding Measure A. Which of the following actions would have most effectively addressed both the legal requirements and cost concerns while potentially mitigating public backlash?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A college football program is struggling with local recruitment but has had success in other states. Which of the following strategies would most likely address their recruitment challenges while aligning with the program's strengths and values?\n",
@@ -2929,9 +2929,9 @@
   },
   {
     "question": "KSTP radio station underwent several changes in its sports broadcasting history. Which of the following scenarios best represents the station's strategic decisions and their consequences in the context of sports team partnerships and signal coverage?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In 1974, researchers discovered the precise function of vitamin K by studying cows treated with warfarin. What key insight did this experiment provide about vitamin K's role in blood coagulation?\n",
@@ -2965,9 +2965,9 @@
   },
   {
     "question": "In the context of the shifting public perception of government's role as described by Peter Denning, which of the following scenarios would most likely challenge Mara Liasson's approach to moderating the panel discussion?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A research team is developing a new reduced-order modeling approach for high-dimensional PDEs. Which of the following combinations of techniques would best align with the proposed framework described in the paper?\n",
@@ -2977,7 +2977,7 @@
   },
   {
     "question": "A postmenopausal woman taking warfarin for anticoagulation is concerned about her bone health and cardiovascular risk. Which dietary recommendation would be most appropriate to address her concerns while considering her medication?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -3049,9 +3049,9 @@
   },
   {
     "question": "Mufti-e-Azam-e-Hind's response to the train departure during Maghrib prayer time demonstrates which of the following Islamic principles most prominently?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A user experiences a service interruption while using Broadjam's platform and suffers significant financial losses as a result. They decide to sue Broadjam for damages. Given the terms outlined in the documentation, what is the most likely outcome of this legal action?\n",
@@ -3091,9 +3091,9 @@
   },
   {
     "question": "A fisheries manager is analyzing data from the Tanjung Luar shark fishery to implement conservation measures. Which of the following strategies would likely be most effective in reducing the catch of threatened shark species based on the study's findings?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the experimental setup for the SLAS (Speed and Lane Advisory System) implementation, what combination of factors would most likely contribute to improved real-time performance while maintaining the system's effectiveness in minimizing travel time and ensuring passenger comfort?\n",
@@ -3103,7 +3103,7 @@
   },
   {
     "question": "Air India's decision to acquire Boeing 777-200LR aircraft has been criticized. Given the information provided, what is the most likely reason for this criticism, and what alternative strategy could have potentially been more beneficial?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -3145,15 +3145,15 @@
   },
   {
     "question": "A researcher is analyzing the power-law distribution of large price movements in cryptocurrencies. Which of the following conclusions is most accurately supported by the data presented?\n",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A college basketball player is considering entering the NBA draft as an underclassman. Which of the following factors would most likely contribute to their decision to enter the draft without intending to return to college?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the context of the complex couplings XY model described, what is the key implication of considering intensities as 'quenched' with respect to phases?\n",
@@ -3169,9 +3169,9 @@
   },
   {
     "question": "A researcher is analyzing the power-law exponents of cryptocurrency price returns. Which of the following conclusions is most accurate based on the data presented?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the simulation of a shock wave interacting with a heavy cylindrical bubble, what phenomenon best explains the initial decrease and subsequent increase in bubble length during the time interval 150\u03bcs < t < 500\u03bcs?\n",
@@ -3217,21 +3217,21 @@
   },
   {
     "question": "A cognitive RSU in a V2X network detects an abnormality in the received RF signals from multiple vehicles. Which of the following scenarios would be the most challenging for the proposed C-GDBN method to accurately identify the cause of the abnormality?\n",
-    "model_answer": "B",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "A researcher is applying network reconstruction techniques to a complex system with sparse interactions. Which of the following approaches is most likely to yield the best performance in accurately identifying the underlying network structure?\n",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false
   },
   {
-    "question": "A researcher is applying network reconstruction techniques to a complex system with sparse interactions. Which of the following approaches is most likely to yield the best performance in accurately identifying the underlying network structure?\n",
-    "model_answer": "C",
-    "correct_answer": "C",
-    "is_correct": true
-  },
-  {
     "question": "Margaret Way's career as a novelist demonstrates a unique intersection of personal background, market opportunity, and cultural promotion. Analyzing her trajectory, which factor most likely contributed to her prolific output and success in the romance genre?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a T-shaped double quantum dot (DQD) system coupled to normal and superconducting leads, what unexpected phenomenon is observed when the coupling to the superconductor (\u0393S) is non-zero and the direct hopping (t) between quantum dots is zero?\n",
@@ -3265,9 +3265,9 @@
   },
   {
     "question": "A 68-year-old patient with a history of liver disease is admitted to the hospital with severe bruising and prolonged bleeding after a minor injury. The patient has been on a strict diet and taking warfarin for atrial fibrillation. Laboratory tests show prolonged prothrombin time. Which of the following best explains the patient's condition and provides the most appropriate intervention?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In twisted bilayer systems, what is the primary factor contributing to the sizable Hall conductivity responses observed at large twist angles, such as \u03b8 = 21.8\u00b0?\n",
@@ -3277,9 +3277,9 @@
   },
   {
     "question": "A software engineer is designing a new feature for the channel application that requires efficient retrieval of the most relevant and recent content. Which combination of components and strategies would best achieve this goal?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A new user is considering signing up for Broadjam but is concerned about potential changes to the terms of service. According to the agreement, what is the most accurate description of how Broadjam handles modifications to the agreement and notifies users?\n",
@@ -3367,9 +3367,9 @@
   },
   {
     "question": "A large hospital is planning to implement a comprehensive IoT and mobile device management solution for their future digital transformation. Given the complex ecosystem of healthcare devices and the need for robust security, which business model would be most advantageous for a secure device manufacturer to partner with this hospital?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A local government is planning to develop a new residential area within an existing planning region. According to the Himachal Pradesh Town and Country Planning Act, 1977, what sequence of actions should be taken to ensure proper development while adhering to legal requirements?\n",
@@ -3379,15 +3379,15 @@
   },
   {
     "question": "A 58-year-old woman with a family history of heart disease presents to her doctor with occasional episodes of chest pain. Her ECG shows inverted T waves on three leads. The doctor prescribes a glyceryl trinitrate (GNT) spray and aspirin, pending a cardiology referral. Which of the following is the most likely underlying condition and appropriate next step in management?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A student is analyzing the function f(x) = \u221bx sin(x\u00b2) on the interval [-1, 1]. After calculating the derivative using the product rule and simplifying, they conclude that the function has no horizontal tangents on this interval because the expression for f'(x) is never equal to zero for x \u2260 0, and is undefined at x = 0. What critical error has the student made in this analysis?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "When building the fuselage for a KR-2S experimental aircraft, builders often encounter an unexpected \"banana\" shape in the top longeron. What is the primary cause of this issue?\n",
@@ -3421,13 +3421,13 @@
   },
   {
     "question": "In a study of Ge1-xMnx films grown at 150\u00b0C, researchers observed varying magnetic behaviors across different Mn concentrations. Which of the following best explains the complex magnetic phenomena observed as Mn concentration increases from 2.3% to 11.3%?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A tech startup is developing a new mobile device that aims to bridge the gap between smartphones and tablets. Given the trends and economic factors discussed in the documentation, which of the following strategies is most likely to succeed in the current market?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -3517,9 +3517,9 @@
   },
   {
     "question": "The London Paving and Lighting Act of 1766 aimed to bring order to the chaotic street numbering system in London. However, discrepancies in house numbering persisted in subsequent years. Which of the following best explains the complexities and challenges in implementing a consistent house numbering system in 18th century London?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An aerospace company is considering various options for developing a new regional transport aircraft for both civilian and military use in India. Given the information provided, which approach would most likely result in the fastest deployment of a suitable aircraft while also supporting India's domestic aviation industry?\n",
@@ -3535,7 +3535,7 @@
   },
   {
     "question": "After William Hewson's death in 1774, why did Benjamin Franklin and Margaret Stevenson not move back into No. 27 Craven Street, despite having lived there previously?\n",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false
   },
@@ -3547,7 +3547,7 @@
   },
   {
     "question": "An engineer is developing a reduced-order model for a complex dynamical system using the autoencoder approach described. The model performs well on training data but struggles with long-term predictions on unseen data. Which modification to the latent space dynamics would most likely improve the model's generalization capabilities while maintaining interpretability?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -3673,27 +3673,27 @@
   },
   {
     "question": "A 68-year-old postmenopausal woman with a history of osteoporosis and recent coronary artery disease diagnosis is considering dietary changes to improve her overall health. Which of the following dietary recommendations would likely provide the most comprehensive benefits for her condition, based on the available research?\n",
-    "model_answer": "C",
-    "correct_answer": "C",
-    "is_correct": true
-  },
-  {
-    "question": "Given the technological trends discussed in the document, which strategy would most likely give Intel the best competitive advantage in the mobile and server processor markets?\n",
-    "model_answer": "C",
-    "correct_answer": "C",
-    "is_correct": true
-  },
-  {
-    "question": "A neurotypical (NT) wife is struggling with her husband's stimming behavior, which includes vocal singing, repetition of words, and self-slapping. Given the information provided, which of the following approaches is most likely to lead to a positive outcome for both partners?\n",
     "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false
   },
   {
-    "question": "Mufti-e-Azam-e-Hind's early spiritual development was marked by an unusual event. Considering the Islamic concepts of spiritual lineage (silsila) and the role of spiritual guides, what is the most significant implication of this event for his future role in Islamic scholarship?\n",
-    "model_answer": "A",
+    "question": "Given the technological trends discussed in the document, which strategy would most likely give Intel the best competitive advantage in the mobile and server processor markets?\n",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false
+  },
+  {
+    "question": "A neurotypical (NT) wife is struggling with her husband's stimming behavior, which includes vocal singing, repetition of words, and self-slapping. Given the information provided, which of the following approaches is most likely to lead to a positive outcome for both partners?\n",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Mufti-e-Azam-e-Hind's early spiritual development was marked by an unusual event. Considering the Islamic concepts of spiritual lineage (silsila) and the role of spiritual guides, what is the most significant implication of this event for his future role in Islamic scholarship?\n",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
   },
   {
     "question": "A researcher is studying the impact of Mennonite settlements on Kansas in the early 20th century. Which combination of factors would likely provide the most comprehensive understanding of the Mennonites' influence on the state's development?\n",
@@ -3733,9 +3733,9 @@
   },
   {
     "question": "The investigation into Franklin's residence on Craven Street revealed discrepancies in historical records. Which of the following best explains why Sir George Laurence Gomme concluded that Mrs. Stevenson's house was originally numbered 7, despite no directory listing it as such?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An experienced aircraft builder is inspecting a partially completed airplane project they're considering purchasing. Given the issues found during the inspection, which of the following represents the most critical safety concern that requires immediate attention?\n",
@@ -3799,7 +3799,7 @@
   },
   {
     "question": "In the characterization of open-shell indeno[1,2-a]fluorene (5OS) on bilayer NaCl/Au(111), which combination of techniques and observations provides the strongest evidence for its open-shell character and electronic structure?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -3877,15 +3877,15 @@
   },
   {
     "question": "A product manager wants to create a new channel in the content streaming system that aggregates niche technology news for a specific user group. Which combination of actions would best achieve this goal while maximizing user engagement?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Hugh Hilton Goodwin's naval career demonstrates significant versatility and progression. Which sequence of roles best represents the strategic evolution of his expertise and its alignment with the Navy's changing needs from World War I through World War II?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An engineer is analyzing a nonlinear oscillator using the Volterra series approach. The response accuracy needs to be improved without significantly increasing computational complexity. Which of the following strategies would be most effective in achieving this goal?\n",
@@ -3919,9 +3919,9 @@
   },
   {
     "question": "A robotic hand is designed to grasp and release objects using a force controller. During a handover task, the robot is holding an object when a human gently pulls it upward. How should the robot's control system respond to ensure a safe and smooth handover?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of the Pseudolikelihood Method (PLM) with l2 regularization for inferring couplings in the XY model, what is the most accurate statement about the properties and implementation of this approach?\n",
@@ -3937,9 +3937,9 @@
   },
   {
     "question": "A professor is designing a new honors-level American Government course. Which of the following course structures would best align with the goals of deepening students' understanding of theoretical foundations while maintaining practical relevance?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An archaeobotanist is conducting a meta-analysis of plant macrofossil data from the past decade. Which of the following approaches would most effectively address the current limitations in data sharing and reuse within the field?\n",
@@ -3973,9 +3973,9 @@
   },
   {
     "question": "A researcher is developing a novel contour completion algorithm inspired by the human visual system. Which of the following approaches best aligns with the deep structure priors (DSP) framework described in the documentation?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A philosopher is debating the nature of perception and reality. Which of the following scenarios best challenges the concept of direct realism while integrating multiple aspects from the given text?\n",
@@ -3991,9 +3991,9 @@
   },
   {
     "question": "In a multi-agent reinforcement learning system using the Dec-POMDP-Comm framework, an engineer wants to improve the communication efficiency between agents while maintaining task performance. Which approach would best achieve this goal?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the modified PLMS-PPIC algorithm, when estimating the channel phase \u03c6_m, under what condition would the algorithm resort to using the expected value of the quarter interval instead of relying on the weight estimate w^s_m(N)?\n",
@@ -4015,9 +4015,9 @@
   },
   {
     "question": "A researcher is estimating a Toeplitz covariance matrix for a stationary time series. Which approach would likely yield the most efficient and theoretically sound estimator for both the covariance matrix and its inverse?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An archaeologist is conducting a meta-analysis of archaeobotanical data from Roman-era sites across Europe. Which of the following strategies would be most effective for accessing a comprehensive and diverse dataset for this analysis?\n",
@@ -4057,15 +4057,15 @@
   },
   {
     "question": "In the PLM + decimation method for inferring couplings in the XY model, what is the primary purpose of introducing the tilted likelihood (\u2112t) during the decimation process?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An experimental setup is designed to study quantum dot (QD) structures in semiconducting single-walled carbon nanotubes (SWNTs). Which combination of factors would likely result in the most stable and well-defined QD states at room temperature, while also allowing for tunable level spacings?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "KSTP's evolution as a radio station from the 1940s to the 1980s demonstrates which of the following trends in broadcast media?\n",
@@ -4123,9 +4123,9 @@
   },
   {
     "question": "A quantum adversary is attempting to break Bitcoin's proof-of-work protocol using Grover's algorithm. Given that it currently takes around 2^75 classical hashing operations to find a desired hash pre-image, and assuming the use of a surface-code based fault-tolerant architecture, which of the following statements is most accurate regarding the quantum attack's resource requirements?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a study of protein dynamics using molecular dynamics (MD) simulations of yeast aquaporin (Aqy1), researchers aim to identify collective motions of atoms responsible for channel opening. What approach would likely yield the most interpretable and robust results for analyzing this high-dimensional, time-dependent data?\n",
@@ -4141,9 +4141,9 @@
   },
   {
     "question": "In a study of the 2D short-range ordered XY model with N=64 spins, researchers are analyzing the performance of their inference algorithm using True Positive (TP) curves. Which of the following conclusions can be drawn from the TP curves shown in Fig. \\ref{PL-varTP-Jor1}?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An experiment is conducted to characterize compound 5 adsorbed on bilayer NaCl/Au(111) using STM and differential conductance spectroscopy. Which of the following conclusions can be drawn from the experimental results and theoretical calculations?\n",
@@ -4177,9 +4177,9 @@
   },
   {
     "question": "A researcher is studying the magnetic properties of Ge-Mn samples grown at different temperatures. They observe a sharp transition in the ZFC curve for samples grown at temperatures \u2265120\u00b0C, with the peak shifting towards higher blocking temperatures. What is the most likely explanation for this observation?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A fisheries manager wants to implement measures to reduce the catch of threatened shark species in Tanjung Luar while maintaining the economic viability of the shark fishery. Which combination of management interventions would likely be most effective in achieving this goal?\n",
@@ -4201,13 +4201,13 @@
   },
   {
     "question": "A researcher is studying the spatial distribution of C\u2082H emission in IRAS 18089-1732, a high-mass star-forming region. The C\u2082H emission shows an anti-correlation with dust continuum emission and forms a shell-like structure. What is the most likely explanation for this observed C\u2082H morphology, considering the source's evolutionary stage and chemical properties?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In a twisted bilayer graphene (tBG) system with a large twist angle of 21.8\u00b0, two distinct commensurate structures are observed. How do these structures differ in terms of their Hall conductivity (\u03c3H) and energy dependence, and what implications does this have for supermoir\u00e9 patterns?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -4225,15 +4225,15 @@
   },
   {
     "question": "A 62-year-old patient with a history of heart failure is being considered for a new treatment approach. They have an ejection fraction of 30%, left ventricular hypertrophy, and frequent ectopic beats. Which of the following interventions would be most appropriate to improve their cardiac function and reduce symptoms?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false
   },
   {
     "question": "In a chemical model of massive star-forming regions, why does the cold (T=10K) model show a higher gas-phase abundance of C\u2082H in the cloud core compared to the warm model, despite both starting with similar initial C\u2082H abundances?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the context of global reactions to the Fukushima nuclear accident, which of the following statements best reflects the complex interplay between scientific assessment, public perception, and international response?\n",
@@ -4249,9 +4249,9 @@
   },
   {
     "question": "A pastor asks you for advice on developing a preaching method that integrates biblical exegesis with theological reflection. Based on the approach described in the documentation, which of the following strategies would be most consistent with the author's method?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A new policy is being considered in McPherson County to address economic disparities and promote local business growth. Given the county's demographic and economic data, which of the following strategies would likely be most effective in reducing poverty rates while aligning with the county's historical voting patterns and recent legal changes?\n",
@@ -4297,7 +4297,7 @@
   },
   {
     "question": "Margaret Way's career trajectory and writing style reflect several key trends in the romance novel industry. Which of the following statements best captures the evolution of her work and its significance?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -4357,9 +4357,9 @@
   },
   {
     "question": "An adaptive filtering algorithm is being evaluated for tracking a real MISO (Multiple Input Single Output) channel in an indoor wireless scenario. Given the steady-state Mean Square Deviation (MSD) results in Table 1, which of the following conclusions is most accurate regarding the proposed probabilistic LMS (probLMS) method?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An engineer is designing a high-voltage transmission line that will pass through varying terrain. Given that air's breakdown strength weakens over larger gaps, which of the following scenarios would most likely require additional insulation or design considerations to prevent electrical arcing?\n",
@@ -4417,9 +4417,9 @@
   },
   {
     "question": "A researcher is developing a novel AI system for contour completion in images with fragmented shapes. Which of the following approaches best aligns with the Deep Structure Priors (DSP) method described in the documentation?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "KSTP's evolution and current status demonstrates which of the following complex interplays in the history of American broadcasting?\n",
@@ -4477,9 +4477,9 @@
   },
   {
     "question": "A local authority is considering approving a change in land use for a parcel within a planning area where an existing land use map has been published under section 15. The proposed change conflicts with the map, but aligns with a new regional economic initiative. What is the most appropriate course of action for the local authority?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A researcher is attempting to perform statistical inference on a complex system of interacting elements. Given the limitations of traditional methods, which approach would be most suitable for accurately reconstructing the underlying interaction network when dealing with small data sizes, strong couplings, and a potentially sparse original network?\n",
@@ -4489,15 +4489,15 @@
   },
   {
     "question": "A robot using the described approach for inferring human path preferences in an obstacle-filled environment is experiencing issues with over-refined predictions. Which combination of factors is most likely contributing to this problem, and what potential solution is suggested?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false
   },
   {
     "question": "A startup is developing a new mobile device that aims to bridge the gap between smartphones and tablets. Given the trends discussed in the documentation, which strategy is most likely to succeed in terms of SoC (System on Chip) design and market positioning?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "The 1951 Ohio State Buckeyes baseball team had a successful season, but faced challenges in the postseason. Based on the team's performance and schedule, which of the following statements best explains their postseason outcome?\n",
@@ -4549,9 +4549,9 @@
   },
   {
     "question": "In a shock-bubble interaction (SBI) experiment with varying specific-heat ratios (\u03b3), which of the following statements most accurately describes the combined effects on vortex motion, mixing degree, and thermodynamic non-equilibrium (TNE) behaviors?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Intel's potential involvement in the mobile SoC market is discussed in the context of market commoditization and manufacturing processes. Which of the following scenarios best represents the likely outcome for Intel in this market, considering both economic and technological factors?\n",
@@ -4645,9 +4645,9 @@
   },
   {
     "question": "An RSU is monitoring two vehicles and observes abnormal signals in both RF and trajectory data. What scenario best explains this observation?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A researcher is developing a new method to analyze the dynamic response of a nonlinear system using Volterra series. Which of the following approaches would most effectively address the limitations of traditional methods while providing meaningful physical insights?\n",
@@ -4669,9 +4669,9 @@
   },
   {
     "question": "In transforming the metric for a static, spherically symmetric spacetime from static coordinates to the coordinates of infalling observers, why is a Galilei transformation used instead of a Lorentz transformation?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a study of the 2D XY model with N=64 spins, researchers are analyzing the effectiveness of their inference method using True Positive (TP) curves. Which of the following scenarios would most likely result in the best performance of the inference algorithm?\n",
@@ -4753,9 +4753,9 @@
   },
   {
     "question": "A political analyst is studying the career trajectory of a prominent New Zealand politician. Given the information provided, which of the following scenarios most accurately represents this politician's likely career path and achievements?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A researcher is designing an experiment to study the formation of a molecular ultracold plasma using a supersonic molecular beam of nitric oxide (NO). Which combination of factors would most likely result in the highest density of Rydberg gas formation?\n",
@@ -4795,9 +4795,9 @@
   },
   {
     "question": "After William Hewson's death in 1774, why did Benjamin Franklin and Margaret Stevenson not move back into No. 27 Craven Street, despite having lived there previously?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A researcher is studying mercury exposure in a riparian community in the Brazilian Amazon. The study finds that individuals who consume 5 carnivorous fish meals per week have higher blood inorganic mercury (B-IHg) levels compared to those who consume 5 non-carnivorous fish meals per week. Which of the following best explains this observation while considering other factors mentioned in the study?\n",
@@ -4945,13 +4945,13 @@
   },
   {
     "question": "A researcher is analyzing the growth characteristics of Ge\u2081\u208b\u2093Mn\u2093 films using RHEED and TEM techniques. Which combination of observations would most likely indicate the formation of a high-quality Ge\u2081\u208b\u2093Mn\u2093 film with uniform Mn distribution and minimal secondary phase formation?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false
   },
   {
     "question": "A research team is comparing the performance of three graph coloring algorithms (Lasa, Gitastrophe, and Shadoks) against the HEAD algorithm on the CG:SHOP 2022 instance vispecn13806. After running the algorithms for one hour, which of the following conclusions can be drawn about their relative performance?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -5047,9 +5047,9 @@
   },
   {
     "question": "A researcher is implementing a variational autoencoder for modeling the Kuramoto-Sivashinsky (KS) equation. The model performs well for short-term predictions but struggles with long-term forecasts. Which combination of features and limitations best describes this model's behavior?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A researcher is developing a new adaptive filtering algorithm for a non-stationary signal processing application. Which of the following approaches would be most advantageous in addressing the limitations of existing methods while providing additional benefits?\n",
@@ -5065,7 +5065,7 @@
   },
   {
     "question": "A media application is processing a statement made in a streaming television program about coal exports. Which approach would be most effective for the application to generate accurate supplemental information while maintaining user privacy and improving efficiency?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -5125,9 +5125,9 @@
   },
   {
     "question": "In the Wayfair case, Chief Justice Roberts argued for a \"heightened form of stare decisis\" when Congress can override the Court's decisions. How did the majority's decision in Wayfair conflict with this principle, and what broader implications does this have?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A user from Japan is dissatisfied with Agency Spotter's services and wants to file a lawsuit against the company. Given the information in the Terms and Conditions, which of the following statements most accurately reflects the correct course of action for resolving this dispute?\n",
@@ -5173,9 +5173,9 @@
   },
   {
     "question": "The Ekofisk field has undergone significant changes since its initial development. Which combination of factors best explains the field's extended lifespan and improved recovery factor?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of constitutional law and stare decisis, how did the Supreme Court's decision in South Dakota v. Wayfair, Inc. potentially impact the doctrine of stare decisis for cases involving \"constitutional default rules\"?\n",
@@ -5191,7 +5191,7 @@
   },
   {
     "question": "A Wahabi Maulvi was arguing with Mufti-e-Azam-e-Hind about the concept of Ilme Ghaib (Knowledge of the Unseen) of Prophet Muhammad (sallal laahu alaihi wasallam). After listening to the Maulvi's arguments, Mufti-e-Azam-e-Hind asked him seemingly unrelated personal questions. What does this interaction most likely demonstrate about Mufti-e-Azam-e-Hind's approach to religious debates?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -5245,9 +5245,9 @@
   },
   {
     "question": "In a system with two quantum dots (QDs) coupled to a superconductor, what phenomenon can occur even when the direct hopping (t) between the QDs is zero, leading to a two-stage Kondo effect?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the context of future media and communication infrastructure, which approach would most likely lead to a more diverse and equitable information landscape while addressing concerns about monopolistic control?\n",
@@ -5263,7 +5263,7 @@
   },
   {
     "question": "A research team is developing a new reduced-order modeling approach for a complex partial differential equation (PDE) system. Given the information in the paper, which of the following strategies would most likely lead to an interpretable and robust model for predicting the system's behavior under new initial conditions?\n",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -5299,15 +5299,15 @@
   },
   {
     "question": "In the late 18th century, Craven Street in London underwent significant changes in its housing structure and numbering system. Given this information, why did Margaret Stevenson's former residence change from number 27 to 36, instead of 37 as one might expect after the addition of 10 new houses?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An aircraft builder notices that the turtledeck skin can be deformed by applying pressure from the outside after initial construction. To address this issue while minimizing weight gain, what is the most effective solution based on the building technique described?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of the evolving information society, what approach does the speaker suggest for policymakers and technology practitioners to navigate the tensions between innovation and established order?\n",
@@ -5317,7 +5317,7 @@
   },
   {
     "question": "In the modified PLMS-PPIC algorithm described, what is the primary purpose of using multiple NLMS algorithms with different step sizes?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -5329,9 +5329,9 @@
   },
   {
     "question": "In a study of the XY model with real-valued couplings using PLM-l2, researchers are analyzing the results of coupling reconstruction. Given that the process involves minimizing -L_i through the vector of derivatives \u2202L_i/\u2202J_ij, and that the results are obtained with \u03bb = 0.01, what can be inferred about the nature of the reconstructed couplings?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In examining the stability of solutions for equation (L): -div(\u03c9\u2081\u2207u) = \u03c9\u2082u\u1d56 in \u211d\u1d3a, under what conditions is there no positive stable sub-solution when \u2207\u03c9\u2081(x) \u00b7 x \u2265 0 for large x?\n",
@@ -5347,15 +5347,15 @@
   },
   {
     "question": "A parent is struggling with their teenage daughter's behavior, which includes substance abuse, academic issues, and resistance to rules. After implementing several interventions, the situation escalates to the point where the daughter wants to live elsewhere. What complex factor is most likely contributing to the persistence of these issues?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An experiment is designed to study the evolution of an ultracold plasma formed from a dense Rydberg gas. Which of the following phenomena would most likely challenge the initial assumptions about plasma formation in this system?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A couple, where one partner has silent alpha thalassemia trait and the other has the 'cis' type of alpha thalassemia trait, is concerned about their future children's health. Which of the following statements most accurately describes the potential outcomes and associated risks for their offspring?\n",
@@ -5425,21 +5425,21 @@
   },
   {
     "question": "A local authority is planning to develop a new industrial zone in an area currently designated for agricultural use on the existing land use map. What sequence of actions would be required to legally proceed with this development?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false
   },
   {
     "question": "A researcher wants to create a molecular ultracold plasma using nitric oxide (NO) in a supersonic molecular beam. Which combination of factors would be most effective in maximizing the density of the Rydberg gas formed, while maintaining precise control over the experiment?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "The Shadoks team is optimizing their graph coloring algorithm and wants to improve the performance of their conflict optimizer. Which combination of strategies would likely yield the best results according to the documentation?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a study investigating astrocyte functions in brain tissue, researchers want to use a technique that allows for precise characterization of synaptic connections between individual neurons while also enabling pharmacological manipulation of either the presynaptic or postsynaptic neuron. Which of the following methods would be most appropriate for this research?\n",
@@ -5521,9 +5521,9 @@
   },
   {
     "question": "A philosopher argues that libertarian free will is incompatible with both determinism and indeterminism. Which of the following best represents the most comprehensive critique of the libertarian position on free will?\n",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A media application is developing a feature to provide users with supplemental information about events in a media asset. Which approach would best address the challenges of context determination, information accuracy, and user experience simultaneously?\n",
@@ -5629,9 +5629,9 @@
   },
   {
     "question": "An air force is considering upgrading its tanker fleet. Given the information about the KC-777 and KC-767, which of the following statements most accurately reflects the trade-offs between these two aircraft for long-range strategic missions?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A mother is struggling with whether to inform her adult son about his recently diagnosed Asperger's syndrome. Given the complex situation described, what approach is most likely to yield a positive outcome for both the son and the family?\n",
@@ -5641,9 +5641,9 @@
   },
   {
     "question": "During the peak of Islamic civilization under the Umayyad and Abbasid reigns, which of the following paradoxical situations best explains the relationship between religious adherence and cultural advancement?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In a study examining the role of the Integrated Stress Response (ISR) in transgene reactivation, researchers used various approaches to manipulate the ISR pathway. Which of the following conclusions is best supported by the experimental results described?\n",
@@ -5665,9 +5665,9 @@
   },
   {
     "question": "A physicist is studying the historical development of electromagnetic theory. Which sequence of discoveries and principles best represents the evolution of our understanding of the relationship between electricity and magnetism, culminating in Amp\u00e8re's circuital law?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An experiment is designed to study the formation of ultracold neutral plasmas from a Rydberg gas. Which of the following combinations of factors would most likely lead to the spontaneous formation of a plasma through Penning ionization and electron-impact avalanche?\n",
@@ -5749,9 +5749,9 @@
   },
   {
     "question": "A researcher is developing an automated cognitive health assessment system using wearable sensors. Which combination of techniques would be most effective for improving the accuracy of physiological signal processing while addressing the challenges of motion artifacts?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A research team is studying the chemical evolution of massive star-forming regions across different evolutionary stages. They have observed C\u2082H emission in both single-dish and interferometric observations. Which of the following conclusions can be most reliably drawn from the information provided?\n",
@@ -5761,9 +5761,9 @@
   },
   {
     "question": "In a vehicle-to-infrastructure (V2I) communication system using RF signals, researchers are comparing different configurations of an interactive matrix model. Based on the information provided in Figures 1 and 2, what conclusion can be drawn about the relationship between the number of clusters in the model and its predictive performance?\n",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Dr. Jesse Lazear's case of yellow fever in 1900 demonstrates the complex ethical and scientific challenges faced by researchers. Given the information provided, which of the following conclusions best represents the multifaceted nature of his situation?\n",
@@ -5785,9 +5785,9 @@
   },
   {
     "question": "An aircraft builder is inspecting a previously constructed wing and discovers multiple issues. Which of the following actions would be most critical to address first to ensure the structural integrity and safety of the wing?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A study is conducted to assess the effects of vitamin K supplementation on bone health in elderly women. The researchers observe an increase in bone mineral density but are surprised to find elevated levels of undercarboxylated osteocalcin in the blood. Which of the following best explains this seemingly contradictory result?\n",
@@ -5845,9 +5845,9 @@
   },
   {
     "question": "In a multi-user communication system with unbalanced channels, the LMS-PPIC and PLMS-PPIC methods are applied for channel estimation. Given the information in Table 1 (example 3), what can be concluded about the performance of these methods in estimating the channel phase for the first user when \u03c6_m = 3\u03c0/8 and M = 15?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A research team is developing a multilingual dialect classification system for a diverse dataset. Given the information provided, which approach would be most effective in addressing the challenges of class imbalance and the multilingual nature of the data?\n",
@@ -5923,9 +5923,9 @@
   },
   {
     "question": "An experimental aircraft builder is constructing a turtledeck and notices that the fiberglass skin can be deformed by applying pressure from the outside. Which of the following solutions would most effectively address this issue while maintaining the lightweight nature of the structure?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a quantum circuit experiment using a second-order Trotter supercircuit with Mtrot = 64 and t = 0.5, a denoiser is applied to mitigate errors. Which of the following statements most accurately describes the expected behavior and implications of this setup?\n",
@@ -5947,9 +5947,9 @@
   },
   {
     "question": "In the development of a two-fluid Discrete Boltzmann Model (DBM) for simulating non-equilibrium flows, which of the following steps is most critical for accurately capturing the system's thermodynamic non-equilibrium (TNE) effects while maintaining computational efficiency?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In an experiment comparing reward-prediction and decision-making tasks for adaptive agents, what key difference emerged in the evolved learning rules, and what does this suggest about the nature of reward-modulated learning?\n",
@@ -5983,15 +5983,15 @@
   },
   {
     "question": "A patient on long-term warfarin therapy for atrial fibrillation presents with increasing calcification of arteries despite stable INR levels. Which of the following best explains this situation and suggests a potential intervention?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A robot is navigating through an environment with the assistance of a human, but the goal and the human's path preference are unknown. Which approach would be most effective in enabling the robot to make navigation decisions while minimizing human input?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A 68-year-old patient with a history of atrial fibrillation has been on warfarin therapy for stroke prevention. Recent blood tests show the patient's INR is below the therapeutic range. The patient reports increasing their intake of leafy greens and cheese in the past month. Given this information and the properties of vitamin K, what is the most likely explanation for the patient's subtherapeutic INR?\n",
