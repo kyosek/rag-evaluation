@@ -31,9 +31,9 @@
   },
   {
     "question": "A healthcare conglomerate is planning to expand its behavioral health services in the western United States. Given the information provided about facility ownership and locations, which of the following strategies would likely be most effective for rapid expansion while minimizing initial capital expenditure?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "TCI sold 168.8 acres of McKinney Ranch land in 2006, resulting in total gains of $8.8 million. Given this information and the details about TCI's other real estate transactions, which of the following statements is most likely true regarding TCI's overall strategy and financial position?\n",
@@ -43,13 +43,13 @@
   },
   {
     "question": "A mining company has received approval for their Environmental Impact Assessment (EIA) and been granted a Mining License for the Kanunga 1 Prospect. They now want to explore a promising area east of Kanunga 1 called the Kanunga School Anomaly. What is the most appropriate next step for the company to take?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false
   },
   {
     "question": "The Arkose Mining Venture is reviewing a proposed new exploration program. Participant A has a 60% interest and wants to proceed, while Participant B has a 40% interest and opposes the program. What is the most likely outcome of this situation, considering the Venture Agreement terms?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -73,9 +73,9 @@
   },
   {
     "question": "ExxonMobil is planning its next major development project and needs to decide which location offers the best combination of existing infrastructure, recent production growth, and potential for future expansion. Based on the information provided, which of the following locations would be the most strategic choice?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A real estate investment trust is considering acquiring a multi-family property portfolio. Based on the occupancy trends and tenant information provided, which of the following strategies would likely be most beneficial for maximizing stable long-term revenue?\n",
@@ -115,9 +115,9 @@
   },
   {
     "question": "An energy company is considering acquiring a new well that could be classified as either a Producing Well or a PUD Well. The company owns a 75% working interest in this well. If the Trust's proceeds are maximized, what percentage of production proceeds would the Trust receive from this well?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A company is evaluating its possible reserves in an area adjacent to its proven reserves. Which of the following scenarios would most likely justify assigning possible reserves to this area?\n",
@@ -157,9 +157,9 @@
   },
   {
     "question": "A multinational oil company is considering investing in Bulgarian oil and gas operations. Given the complex fiscal regime and licensing process described, which of the following strategies would likely be most advantageous for maximizing the company's long-term profitability while complying with Bulgarian regulations?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A power company is considering adjusting its hedging strategy for natural gas purchases. Currently, 65% of its gas requirements for generation capacity are hedged through fixed-price purchases for the next six months. Market analysts predict a steady decline in gas prices over this period. Which of the following strategies would likely be most beneficial for the company's profit margins, considering both risk management and potential market opportunities?\n",
@@ -193,9 +193,9 @@
   },
   {
     "question": "A junior geologist is analyzing the Mercurio project's exploration data to determine the most promising area for follow-up drilling. Given the information from the 2005-2007 drilling campaign, which of the following conclusions is best supported by the data?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A golf course management company is considering acquiring one of the golf properties mentioned in the documentation. Which of the following factors would most likely make the Westin Innisbrook Resort's Copperhead Course the most attractive acquisition target?\n",
@@ -205,9 +205,9 @@
   },
   {
     "question": "A consortium is analyzing the well statistics of Partnership II-A and II-B to determine their relative production potential. Given the data provided, which statement most accurately reflects the comparative analysis of these two partnerships?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An analyst is comparing the financial performance of II-G Partnership and II-H Partnership for the year 2002. Given the data provided, which of the following statements most accurately reflects the relative operational efficiency of these two partnerships?\n",
@@ -217,9 +217,9 @@
   },
   {
     "question": "A mining company is planning to acquire the Butler Ranch project for uranium extraction. Given the information provided about the property and its history, which of the following strategies would be most appropriate for developing this site?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A property manager is analyzing the performance of several apartment complexes in the Boston Capital Tax Credit Fund II Limited Partnership - Series 9 portfolio. Which of the following conclusions is best supported by the data from March 31, 1996 to March 31, 2000?\n",
@@ -253,9 +253,9 @@
   },
   {
     "question": "A trust receives income from oil and gas production on New Mexico wells. Given the information about the New Mexico Oil and Gas Proceeds and Pass-Through Entity Withholding Tax Act, which of the following scenarios would most likely require withholding of income taxes for a nonresident recipient?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A real estate development company is considering investing in the Meadowbrook Project and the Coffman Project in Lake Elsinore. Given the information provided, which of the following strategies would most likely maximize the company's return on investment?\n",
@@ -289,7 +289,7 @@
   },
   {
     "question": "ECA is planning to drill a new PUD Well in which it owns a 100% working interest. The well is subject to a 15% royalty burden. How will this affect the Trust's share of production proceeds from this well, and why?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false
   },
@@ -301,7 +301,7 @@
   },
   {
     "question": "Deer Trail Mining Company has entered into two separate mining leases in 2006. If the company decides to extend both leases for the maximum possible duration and maintains consistent production levels, which of the following statements is most likely to be true in the long term?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false
   },
@@ -355,15 +355,15 @@
   },
   {
     "question": "An exploration company is planning a new mining operation in the La Valenciana area of the Deseado Massif. Given the information provided about the region, what is the most significant challenge they are likely to face in establishing infrastructure for their operation?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "AEP's public utility subsidiaries operate under complex agreements for transmission services. Given the information provided, which of the following scenarios would most likely result in a change to the allocation of costs and benefits under the Transmission Equalization Agreement (TEA)?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A coal mining company is reviewing its reserve estimates for the upcoming year. Given the information provided about their estimation process, which of the following scenarios would most likely lead to a significant reduction in their reported coal reserves?\n",
@@ -385,9 +385,9 @@
   },
   {
     "question": "Legacy's internal control process for reserve estimations involves multiple steps and stakeholders. Which of the following scenarios would most likely lead to a material misstatement in Legacy's reported reserves?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A petroleum company is evaluating the economic viability of its oil and gas reserves as of December 31, 2006. Given the information provided, which of the following scenarios would most likely result in an increase in the net present value of the company's proved reserves compared to the previous year?\n",
@@ -409,9 +409,9 @@
   },
   {
     "question": "An oil company is analyzing the performance of its wells in the Three Sands Project. Given the production data and well histories provided, which of the following strategies would likely be most effective for maximizing overall project value?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A natural gas company is evaluating its production strategy across multiple fields. Given the characteristics of the Hugoton and West Panhandle fields, which combination of factors would most likely lead the company to prioritize development in the West Panhandle field over the Hugoton field in the current market conditions?\n",
@@ -469,9 +469,9 @@
   },
   {
     "question": "A real estate investment firm is considering purchasing an office building in San Antonio's north-central market. Given the market data and the performance of the Alamo Towers, which of the following strategies would likely yield the highest return on investment?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A financial analyst is reviewing System Energy's complex financial arrangements. Based on the information provided, which of the following statements most accurately describes the nature of System Energy's financial structure and its relationships with other entities?\n",
@@ -613,9 +613,9 @@
   },
   {
     "question": "A mining company is considering acquiring Dostyk's exploration rights in Kazakhstan. Given the information provided, what is the most critical step Dostyk must take by December 31, 2010, to secure long-term mining rights for the project?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A company is revising its executive compensation structure and wants to implement a new incentive plan that maximizes motivation while staying within regulatory limits. Which of the following options would be the most effective approach while complying with the documented restrictions?\n",
@@ -691,9 +691,9 @@
   },
   {
     "question": "An oil and gas company is evaluating its reserves for SEC reporting. They have identified a new field with promising geological data, but drilling has not yet begun. The company's engineers are confident that the field contains significant quantities of oil that can be recovered profitably under current economic conditions. How should this field be classified in the company's reserve report?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A mining company is considering reopening the Mt. Todd gold project. Given the information from the NI 43-101 technical report and preliminary assessment, which of the following statements most accurately reflects the project's current status and potential challenges?\n",
@@ -739,9 +739,9 @@
   },
   {
     "question": "NJMC and Highland Mining LLC formed a joint venture for the Butte Highlands Gold Project. Given the complex financial arrangement and project history, which scenario best describes the potential outcome if the mine becomes operational and highly profitable?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A new energy bill is being considered in Congress that would reinstate tax credits for certain types of natural gas production. The Trust's management is trying to assess the potential impact on their operations. Given the information provided, which of the following scenarios is most likely to benefit the Trust financially?\n",
@@ -763,9 +763,9 @@
   },
   {
     "question": "A financial analyst is reviewing a company's SEC filing and notices that \"Item 3\" is repeated multiple times throughout the document. What is the most likely explanation for this observation, and what does it imply about the nature of the filing?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A small oil and gas company is evaluating its performance and financial position at the end of fiscal year 2008. Given the information provided, which of the following conclusions is most accurate regarding the company's recent operations and financial health?\n",
@@ -775,9 +775,9 @@
   },
   {
     "question": "A company operating natural gas wells on the Underlying Properties is considering expanding its operations. Given the information provided about water disposal, royalty interests, and federal lands, which of the following scenarios would likely present the most significant operational and financial challenges for the company?\n",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A company is considering acquiring Dominion Resources' interest in the Trust. Under what complex set of conditions would this acquisition potentially terminate Dominion Resources' obligations while ensuring the continuity of the Trust's operations?\n",
@@ -835,7 +835,7 @@
   },
   {
     "question": "A mining company is planning to conduct mineral exploration on a newly acquired property in Nevada County that was previously part of the Idaho-Maryland Mine. Given the environmental and regulatory information provided, which of the following scenarios would most likely require both a Use Permit and a reclamation plan?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -859,9 +859,9 @@
   },
   {
     "question": "Whiting Petroleum Corporation is preparing its annual reserves estimate for the Trust. Which of the following scenarios would most likely result in a reduction of the projected time to produce the remaining reserves attributable to the Trust?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "According to the Gas Purchase Contract and its subsequent modifications, which scenario would most likely result in WFS Gas Resources paying more than the Minimum Purchase Price for natural gas in a given month during the 2000 Contract Year?\n",
@@ -877,9 +877,9 @@
   },
   {
     "question": "A company is facing legal and operational challenges in its North Bald Prairie project. Given the complex situation described, what strategic approach is most likely to maximize the company's position in this asset?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "The Lordsburg Exploration Project aims to augment ore production for the Summit silver-gold mine. Given the geological context and exploration activities described, which of the following strategies would be most effective in identifying high-potential drilling targets?\n",
@@ -925,15 +925,15 @@
   },
   {
     "question": "A mining company is planning to renew its exploration license for the Dadi Property, which is set to expire soon. Given the information provided, which of the following scenarios would most likely result in a denial of the renewal application?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A mining company is considering acquiring the Aurora project for its gold production potential. Given the geological and infrastructural information provided, what is the most significant challenge the company would likely face in restarting operations at Aurora?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Pannonian International has entered into various agreements regarding its Romanian and German projects. Which of the following scenarios would most likely result in Pannonian retaining the largest working interest in its projects?\n",
@@ -1009,15 +1009,15 @@
   },
   {
     "question": "A mining company is considering acquiring the Aurora project for its potential to restart operations. Given the information provided, which of the following strategies would likely be the most effective for maximizing the value of the Aurora asset in the short term while minimizing initial capital expenditure?\n",
-    "model_answer": "D",
-    "correct_answer": "C",
-    "is_correct": false
-  },
-  {
-    "question": "SWEPCO is facing environmental cleanup costs for two separate sites. Given the information provided, which of the following statements most accurately reflects SWEPCO's financial and regulatory position regarding these environmental matters?\n",
     "model_answer": "C",
     "correct_answer": "C",
     "is_correct": true
+  },
+  {
+    "question": "SWEPCO is facing environmental cleanup costs for two separate sites. Given the information provided, which of the following statements most accurately reflects SWEPCO's financial and regulatory position regarding these environmental matters?\n",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
   },
   {
     "question": "A junior geologist at St. Mary Land & Exploration Company is tasked with evaluating the most promising near-term exploration opportunity. Given the company's current assets and ongoing projects, which of the following would likely yield the best results in terms of production and return on investment within the next year?\n",
@@ -1045,9 +1045,9 @@
   },
   {
     "question": "A new oil and gas company is preparing its annual report and wants to ensure compliance with SEC regulations regarding reserve estimates. Given the information provided, which of the following approaches would be most appropriate and aligned with industry best practices?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A company is considering acquiring an oil field with characteristics similar to the Langlie Mattix field. Given the information provided, which strategy would likely yield the highest return on investment while balancing risk?\n",
@@ -1075,9 +1075,9 @@
   },
   {
     "question": "A company is preparing its annual Form 10-K filing. The CFO notices that some financial statement schedules are missing and asks for advice on how to proceed. Based on the information provided in the documentation, what is the most appropriate course of action?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An investor is analyzing the performance of multiple oil and gas partnerships from 1993 to 1995. Which of the following statements most accurately reflects the trends and relationships observed across these partnerships during this period?\n",
@@ -1099,7 +1099,7 @@
   },
   {
     "question": "A mining company is considering investing in the Fish Lake Valley property for lithium extraction. Which combination of factors makes this property potentially valuable for lithium production, while also presenting a significant challenge for resource estimation?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -1159,15 +1159,15 @@
   },
   {
     "question": "A real estate investment partnership is analyzing capital improvement strategies across its apartment portfolio. Given the information from 1998 and 2005 for multiple properties, which of the following conclusions is best supported by the data?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An oil and gas company is evaluating its drilling activities and productive wells across different areas. Given the information in the documentation, which of the following scenarios would most likely represent the company's current operational status?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A uranium mining company is considering restarting operations at its Kingsville Dome property. Given the information provided, what is the most critical factor that would need to be addressed before production could resume?\n",
@@ -1207,9 +1207,9 @@
   },
   {
     "question": "A mining company is evaluating the Moss Property for potential gold reserves. Given the geological exploration results and drilling data, what is the most critical next step to determine the property's economic viability?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A petroleum company is evaluating its reserve estimates for the past three years. Given the information provided about reserve estimation practices, which of the following scenarios would most likely lead to a significant discrepancy between the company's reported SEC PV-10 value and the actual fair market value of its proved oil and gas properties?\n",
@@ -1237,15 +1237,15 @@
   },
   {
     "question": "A mining company is planning to expand its operations in an area where GSPG holds several claims. The company wants to identify the most strategically valuable claims based on size, location date, and potential for mineral rights. Which of the following sets of claims would likely be the most valuable for acquisition, considering these factors?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false
   },
   {
     "question": "An oil and gas trust is evaluating its proved reserves at the end of 2008. Given the information provided, which of the following scenarios would most likely result in an increase in the trust's estimated proved reserves for the upcoming year?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A real estate investment company is analyzing its recent property acquisitions and financing strategies. Given the information about the Summerfield Apartments and the Hartford Building purchases in November 1994, which of the following statements most accurately reflects the company's approach to leveraging and risk management?\n",
@@ -1351,7 +1351,7 @@
   },
   {
     "question": "A real estate investment trust (REIT) is analyzing the performance of its media and entertainment properties compared to its office portfolio. Given the information provided, which of the following conclusions is most accurate and supported by the data?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -1369,9 +1369,9 @@
   },
   {
     "question": "In the context of the Southern Ute Litigation, what potential scenario presents the most complex financial implications for Trust Unitholders?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Panhandle Oil and Gas Inc. experienced a 44.5 Bcfe increase in total proved reserves from 2016 to 2017. Given the information provided, which of the following factors contributed the most to this increase?\n",
@@ -1441,9 +1441,9 @@
   },
   {
     "question": "A financial analyst is reviewing the company's 2012 financial statements and notices some changes in the composition of assets. Which of the following conclusions is most accurate based on the information provided?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "AMEC-Cade Idepe recommended investigating two possibilities for reducing capital costs in the processing plant design. Given the information provided, which of the following strategies would likely be most effective in addressing both the capital cost concerns and the highest single operating cost item?\n",
@@ -1483,15 +1483,15 @@
   },
   {
     "question": "An analyst is comparing the financial performance of II-G Partnership and II-H Partnership for the year 2004. Which of the following conclusions is most accurate based on the given data?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "AvWorks Aviation Corp. underwent significant changes in 2011. Which of the following sequences best represents the chronological order of events leading to the company's transformation?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A hotel company is facing financial challenges due to recent global events. Given the information provided, which strategy is most likely to have the greatest positive impact on the company's short-term financial position while potentially risking long-term competitiveness?\n",
@@ -1555,9 +1555,9 @@
   },
   {
     "question": "A mining company holds leasehold interests in the Gold Hill Mining District and has entered into multiple Joint Venture Agreements. Given the complex royalty and penalty payment structures described, which of the following scenarios would most likely result in the company incurring the highest financial obligations?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A utility company is planning its future capacity requirements and considering the purchase of additional generating assets. Given the information in the documentation, which of the following strategies would most likely be recommended to the company's board of directors?\n",
@@ -1591,9 +1591,9 @@
   },
   {
     "question": "Coeur Rochester is planning to expand its operations at the Rochester mine. Given the complex land ownership structure and regulatory environment, which of the following strategies would most likely allow for efficient expansion while minimizing legal and operational risks?\n",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A real estate investment trust (REIT) is analyzing its portfolio performance. Given the information in the lease expiration table and occupancy data, which of the following strategies would most likely improve the REIT's financial performance in the short term?\n",
@@ -1603,15 +1603,15 @@
   },
   {
     "question": "A hotel management company is considering acquiring the Melbourne Hilton Oceanfront and the Melbourne Quality Suites. What strategic advantage would this acquisition likely provide, and what potential risk should they be most concerned about?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A junior mining company is evaluating the acquisition of the Sleeping Giant Mine from IAMGOLD. Given the information provided about the mine's history and the terms of the option agreement, what is the most strategic rationale for pursuing this acquisition?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A mining company is planning to expand operations near Church Rock, New Mexico. Given the information about access and potential legal challenges, what is the most critical consideration for the company's expansion strategy?\n",
@@ -1669,7 +1669,7 @@
   },
   {
     "question": "The Registrant is evaluating its investment strategy in real estate partnerships. Given the information provided about its various investments, which of the following actions would likely result in the most significant immediate positive impact on the Registrant's financial position?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false
   },
@@ -1699,9 +1699,9 @@
   },
   {
     "question": "A real estate investment trust (REIT) is considering acquiring a hotel property currently operating under a Percentage Lease agreement. Which of the following scenarios would most likely cause concern for the REIT in terms of maintaining its qualification for tax benefits?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An investment analyst is evaluating Drovers Bancshares Corporation's portfolio management strategy from 1995 to 1997. Which of the following conclusions is best supported by the data?\n",
@@ -1753,13 +1753,13 @@
   },
   {
     "question": "A hotel management company is considering acquiring a new property to expand its portfolio. Given the information about Kahler's existing properties, which of the following strategies would likely be most aligned with their current business model?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A regional transportation authority is considering purchasing a short-line railroad to diversify its operations. Which of the following railroads would likely be the most challenging to acquire and integrate, given the information provided?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -1777,7 +1777,7 @@
   },
   {
     "question": "Norfolk Southern is upgrading its traffic control systems. Given the information provided about their current infrastructure, which of the following strategies would most effectively improve operational efficiency while maintaining safety standards?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -1789,9 +1789,9 @@
   },
   {
     "question": "A junior analyst is tasked with evaluating Daybreak Oil and Gas Inc.'s operational strategy. Given the information in the company's SEC filings, which of the following conclusions best represents the company's approach to risk management and resource allocation?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A company is facing multiple litigation claims stemming from its restructuring efforts, while also anticipating future environmental compliance costs. Which of the following statements most accurately reflects the potential financial impact of these issues based on the information provided?\n",
@@ -1801,9 +1801,9 @@
   },
   {
     "question": "A company is preparing its annual report and needs to include information about its oil and gas reserves. Which of the following scenarios would most likely prevent the company from booking proved reserves on a new discovery?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A company has discovered commercially viable gas in their exploration concession and is now in the two-year test production phase. They are preparing to apply for an exploitation concession. Which of the following statements most accurately describes the potential financial obligations and challenges they may face in transitioning to full production?\n",
@@ -1843,9 +1843,9 @@
   },
   {
     "question": "An oil and gas company is evaluating its acreage position and well performance. Given the definitions provided in the documentation, which of the following scenarios would result in the highest number of net wells for the company?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A mining company is considering the development of the Nyngan Scandium Project. Given the information provided in the technical reports and joint venture agreement, which of the following statements most accurately represents the current status and challenges of the project?\n",
@@ -1879,9 +1879,9 @@
   },
   {
     "question": "Freescale Inc. is planning to reduce its cash and cash equivalents to a target level of approximately $500 million. Given the company's future financing activities and current financial position, what is the most likely strategic rationale behind this decision?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A mining company operating on land covered by Royal Gold's NSR royalty is disputing its payment obligations. Given the complex royalty structure and legal proceedings described, what is the most likely outcome of this dispute?\n",
@@ -1897,7 +1897,7 @@
   },
   {
     "question": "A mining company is considering expanding operations near the East Ore Body Mine in Nevada. Given the complex royalty agreements and land claims described, which of the following scenarios would most likely result in a royalty dispute between the mining company and the current rights holders?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -1933,7 +1933,7 @@
   },
   {
     "question": "WPC sells gas to its marketing affiliate WPX Gas Resources, which then resells the gas. The MMS is auditing WPC's royalty payments. Which scenario would most likely result in WPC owing additional royalties to the MMS?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false
   },
@@ -1957,9 +1957,9 @@
   },
   {
     "question": "An oil company is considering exploration activities in Nigeria's deepwater offshore areas. Which of the following scenarios most accurately represents the typical exploration and production structure in this region?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A real estate investment trust (REIT) is analyzing its portfolio performance and future strategy. Given the information about the company's retail property dispositions and leasing statistics in 1999, what is the most likely strategic direction for this REIT in the near future?\n",
@@ -2023,9 +2023,9 @@
   },
   {
     "question": "A mining company is evaluating the potential profitability of a new gold mining project with complex royalty agreements. Given the following information, what scenario would result in the highest royalty rate for Royal Gold?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A geologist is studying a complex ore deposit and observes a network of interconnected quartz veins with associated mineralization. The veins appear to be randomly oriented and vary in thickness. Within this system, the surrounding rock shows signs of alteration and contains disseminated sulphide minerals. What geological features best describe this scenario, and what implications does it have for mineral exploration?\n",
@@ -2035,9 +2035,9 @@
   },
   {
     "question": "An exploration company is planning a new drilling program at the Elder Creek property. Given the historical exploration data and geological context, which approach is most likely to yield significant results for identifying a potentially economic deposit?\n",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A junior mining company has recently acquired the Valolo Claim in Fiji and is planning its initial exploration program. Given the geological context and previous regional exploration results, what is the most strategic approach for the company to maximize the potential for discovering economically viable gold deposits on this property?\n",
@@ -2071,9 +2071,9 @@
   },
   {
     "question": "A small oil and gas company is evaluating its portfolio and considering future investments. Given the information provided about their various properties and recent activities, which of the following strategies would likely be most beneficial for the company's near-term financial performance?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A mining company is considering expanding its operations by developing a new gold exploration project. Which of the following factors would be LEAST critical in determining the economic viability of this new project?\n",
@@ -2083,9 +2083,9 @@
   },
   {
     "question": "XTO Energy is considering several strategies to optimize production from its existing wells in the Fontenelle field. Which combination of factors would most likely lead to the highest increase in gas production while minimizing potential contract risks?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "CMS Energy is planning its capital expenditures for the upcoming year. Given the trends and allocations from the previous year, which of the following scenarios is most likely to occur in the company's capital expenditure strategy?\n",
@@ -2113,9 +2113,9 @@
   },
   {
     "question": "First Chester County Corporation experienced changes in its interest income from federal funds sold and deposits in banks from 2005 to 2007. Given the information provided, which of the following best explains the corporation's strategy and its impact on interest income during this period?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Following the tailings dam failure at the Omai Mine in 1995, OGML agreed to several conditions to resume operations. Which of the following scenarios would most likely result in OGML being found in breach of its agreement with the Government of Guyana?\n",
@@ -2125,15 +2125,15 @@
   },
   {
     "question": "An oil and gas company is evaluating its reserve estimates for the upcoming year. Given current market conditions and the nature of reserve calculations, which of the following scenarios would most likely result in an increase in the company's reported proved reserves without any new discoveries or enhanced recovery techniques?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Entergy Corporation has filed a report under the Securities Exchange Act of 1934. Given the information provided in the signatures section, which of the following scenarios would most likely require additional filings or amendments?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A mining company is considering acquiring the Wabush mine. Given the information provided, which of the following strategies would likely be most effective in maximizing the long-term value of this asset?\n",
@@ -2143,9 +2143,9 @@
   },
   {
     "question": "A real estate investment company is reviewing its mortgage notes receivable portfolio. Given the information in the documentation, which scenario would most likely prompt the company's Board of Directors to consider diversifying its mortgage investments without requiring stockholder approval?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An oil and gas company is reviewing its financial statements at the end of a fiscal year marked by significant fluctuations in commodity prices. The company owns multiple properties, including the Newton field in Texas and the Paradox field in Utah. Given the information provided, which of the following scenarios would most likely trigger an impairment review and potentially lead to the largest write-down?\n",
@@ -2215,7 +2215,7 @@
   },
   {
     "question": "A company has been participating in a multi-stage drilling program with an initial 40% gross interest. After several transactions and changes in participation, what is the company's current gross working interest in the remaining wells to be drilled in the original 50-well option, and what critical factor influenced this final percentage?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -2233,15 +2233,15 @@
   },
   {
     "question": "A mining company is considering developing an ISR (In-Situ Recovery) mine at the Goliad Project site. Given the information provided about the location and its characteristics, which of the following factors would likely pose the most significant challenge to year-round operations at the site?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "PSO and SWEPCO are facing environmental cleanup challenges at different sites. Given the information provided, which of the following statements most accurately reflects the complex interplay of regulatory, legal, and strategic factors affecting these companies' environmental liabilities?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A natural gas company is planning to expand its operations into new interstate markets. Given the current regulatory environment described in the documentation, which of the following strategies would be most effective for the company to navigate potential future challenges?\n",
@@ -2269,21 +2269,21 @@
   },
   {
     "question": "A hotel property managed under a Participating Lease has suffered significant damage due to a severe storm. The insurance coverage is insufficient to fully cover the repairs. Given this scenario, which of the following actions would the Company most likely take, considering the terms of the Participating Lease and the best interests of all parties involved?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An oil and gas company is evaluating two potential investments: Project A with 10 MMcfe of proved reserves and Project B with 15 MMcfe of probable reserves. The company wants to compare these projects using a standardized valuation method. Which of the following statements is most accurate regarding the appropriate valuation approach?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A trust is established with a 90% Net Profits Interest (NPI) in certain underlying oil and gas properties. The current reserve report projects 10.61 MMBOE attributable to the NPI will be produced prior to December 31, 2021. However, the trust's term extends beyond this date under certain conditions. Which of the following scenarios would most likely result in additional value for trust unitholders beyond the projected 10.61 MMBOE?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A utility company is facing complex regulatory and financial challenges related to its nuclear power plant investments. Given the information provided, which of the following scenarios best represents the company's current situation and potential future risks?\n",
@@ -2293,9 +2293,9 @@
   },
   {
     "question": "A mining company is considering a joint venture with Fomicruz for the La Josefina project. Given the complex agreement terms and project history, what is the most strategic approach for the company to maximize its control while minimizing financial risk?\n",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A multinational oil company is considering investing in Romanian oil and gas exploration. Given the fiscal regime and commercial terms described, which of the following strategies would likely be most beneficial for maximizing the company's after-tax returns in the first two years of production?\n",
@@ -2359,9 +2359,9 @@
   },
   {
     "question": "A real estate investment company is analyzing its portfolio performance from 2008 to 2009. Given the information provided, which of the following conclusions is most accurate regarding the company's operational changes and market positioning during this period?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An exploration geologist is analyzing the Lucky Friday mine to determine the most promising area for future silver extraction. Given the information about the mine's ore-bearing structures, which of the following strategies would likely yield the highest silver content while maximizing operational efficiency?\n",
@@ -2437,9 +2437,9 @@
   },
   {
     "question": "A company is evaluating its proved oil and gas reserves from 2015 to 2017. Which of the following statements most accurately reflects the changes in the company's reserve composition and valuation during this period?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A regional retail gasoline company is considering expanding its operations into a new metropolitan area. Given the information about the company's current operations, which strategy would likely be most effective for successful market penetration?\n",
@@ -2479,7 +2479,7 @@
   },
   {
     "question": "The Madisonville Gas Treatment Plant experienced operational challenges with the additional treating facilities in late 2007. Which of the following strategies would most effectively address the specific issue that led to the suspension of operations, while also aligning with the plant's overall efficiency goals?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -2491,7 +2491,7 @@
   },
   {
     "question": "A company is considering divesting some of its assets to improve its financial position. Given the information provided about the company's past divestitures, which of the following strategies would likely be most effective in maximizing short-term cash flow while retaining core business capabilities?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -2515,9 +2515,9 @@
   },
   {
     "question": "A company is planning to expand its Atlanta-Metro data center facility. Given the information provided, which of the following strategies would likely yield the highest return on investment while addressing both short-term and long-term capacity needs?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An oil and gas company is preparing its annual reserves report. Which of the following scenarios would most likely lead to a material difference between the estimated reserves and the actual recoverable resources?\n",
@@ -2581,7 +2581,7 @@
   },
   {
     "question": "An energy company is evaluating its reserve estimation practices. Given the information provided about reserve estimation methods and the company's reported reserves for 2017 and 2018, which of the following conclusions is most accurate and supported by the data?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -2599,9 +2599,9 @@
   },
   {
     "question": "A mining company is considering expanding its operations in French Guiana. Given the complex regulatory environment described in the documentation, what is the most strategic approach for obtaining long-term mineral rights in the region?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A natural gas company is evaluating the acquisition of a midstream asset in central Oklahoma. Given the information about the Crescent System, which combination of factors would most likely make this asset attractive for integration with the company's existing operations?\n",
@@ -2695,9 +2695,9 @@
   },
   {
     "question": "The Partnership sold the Panda Buffet property in Grand Forks, ND through an installment sale. Two years after the initial sale, the Partnership amended the Buyer's Note. Which of the following best describes the financial implications of this amendment?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A new offshore oil and gas project is being planned in the Gulf of Mexico. Given the information about Devon's existing projects and future plans, which of the following strategies would most likely maximize production while balancing risk and resource allocation?\n",
@@ -2767,9 +2767,9 @@
   },
   {
     "question": "A utility company is evaluating its fuel strategy for the coming year. Given the information provided about Montaup's and Canal's fuel contracts, inventories, and historical costs, which of the following strategies would likely be most cost-effective while ensuring compliance with environmental regulations?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A real estate investment firm is considering acquiring Charles E. Smith Residential Realty L.P.'s retail properties. Given the information provided about Worldgate Centre and Skyline Mall, which of the following strategies would likely yield the highest return on investment over the next 5 years?\n",
@@ -2779,7 +2779,7 @@
   },
   {
     "question": "A new oil sands project is being planned in Alberta, Canada. Given the information about the Kearl operations, which combination of factors would most likely contribute to maximizing the proven reserves estimate for this new project?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -2809,7 +2809,7 @@
   },
   {
     "question": "A real estate development company is considering refinancing options for a property with an outstanding loan. The current loan has an anticipated balloon repayment date in 6 months, and the company is concerned about potential interest rate increases. Given the information in the documentation, what is the most strategic approach for the company to minimize interest rate risk while maintaining flexibility?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -2875,9 +2875,9 @@
   },
   {
     "question": "A company is considering acquiring the Energy Complex Equipment financed by the Mixed-Use Bonds. Given the complex financial structure described, what potential risk should the acquiring company be most concerned about?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Coeur is considering expanding the San Bartolome project. Given the information from the feasibility studies and recent developments, which of the following strategies would likely be most beneficial for maximizing the project's long-term value?\n",
@@ -2893,9 +2893,9 @@
   },
   {
     "question": "In the event of Whiting's bankruptcy, which scenario best describes the potential treatment of the Net Profits Interest (NPI) and its implications for the Trust?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "At the Burke Hollow Project, the presence of northeast-southwest trending faults is believed to have influenced uranium mineralization. Which of the following best explains the complex interplay between these faults and the uranium deposits in the Goliad Formation?\n",
@@ -2941,9 +2941,9 @@
   },
   {
     "question": "A real estate partnership is restructuring its Bank Loan. Given the complex financial arrangements described, which of the following scenarios would most likely trigger MII to fund its \"MII Back-up Guaranty\"?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Coeur Mining's Palmarejo complex in Mexico has shown fluctuating production and recovery rates over the years. Given the information provided about its operations and the company's strategic decisions, what is the most likely reason for the company's continued investment and expansion in this property?\n",
@@ -2965,15 +2965,15 @@
   },
   {
     "question": "A potential investor is analyzing the ownership structure and operational changes of the Texas Royalty properties over time. Which of the following statements most accurately reflects the complex series of transactions and their implications?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Nextel Peru is considering distributing dividends to its shareholders. Given the regulatory environment and financial obligations described, which of the following sequences correctly represents the priority order for allocating the company's earnings?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Entergy Arkansas has multiple financial instruments and agreements in place. Which of the following best describes the purpose and nature of the Guarantee Agreement dated August 14, 1996?\n",
@@ -3013,9 +3013,9 @@
   },
   {
     "question": "A new PUD Well is being developed where ECA owns a 75% working interest. The well is expected to generate $1,000,000 in quarterly revenue before post-production costs and taxes. Assuming post-production costs and taxes amount to 20% of the revenue, what is the approximate amount the Trust would receive from this well for the quarter?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A mining company has completed extensive exploration work at the Lookout Mountain and Windfall project areas. Given the information provided, what is the most strategic next step for advancing the Lookout Mountain project towards development?\n",
@@ -3067,7 +3067,7 @@
   },
   {
     "question": "Newmont is planning to adjust its reported economic interest in the Batu Hijau operation in Indonesia. Given the complex ownership structure and recent developments, what is the most likely percentage of economic interest Newmont will report for Batu Hijau in the near future?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -3079,9 +3079,9 @@
   },
   {
     "question": "A startup company in the sustainable lighting technology sector is facing financial difficulties. Given the information in their financial statements, which of the following strategies would most likely improve their chances of continuing as a going concern in the next 12 months?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A mining company is planning a new gold extraction project in Montana. Given the regulatory landscape and environmental considerations described, which of the following strategies would be most likely to receive approval and minimize environmental impact?\n",
@@ -3157,9 +3157,9 @@
   },
   {
     "question": "A company filing for Chapter 11 bankruptcy has a secured credit facility and senior unsecured notes. According to ASC 852, how should the company treat its interest expenses and unamortized deferred financing costs during the bankruptcy proceedings?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Alexander's completed a $400,000,000 mortgage financing on the Office Space of its Lexington Avenue development project. Given the details of this financing and the modifications to the Construction Loan, what is the most likely strategy behind these financial maneuvers?\n",
@@ -3271,13 +3271,13 @@
   },
   {
     "question": "A real estate investment firm is considering acquiring a portfolio of properties from the company described in the documentation. Given the information provided, which of the following statements would be the most accurate assessment of the company's property portfolio?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A company sold a hotel and casino property in 1992, recording a deferred gain of $4.6 million. The property was later foreclosed in 1998. Given the events described in the documentation, what is the most likely reason the company didn't recognize a loss on the foreclosure in 1998?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -3385,9 +3385,9 @@
   },
   {
     "question": "Nathan E. Langston has signed documents for multiple Entergy subsidiaries. Given his roles and the legal requirements for these filings, which of the following statements most accurately describes the scope and implications of his signatures?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A company's Standardized Measure of proved reserves decreased by 56% from 2000 to 2001, despite a 7% increase in proved reserve volumes. Which of the following best explains this apparent discrepancy and demonstrates the limitations of using Standardized Measure for valuation purposes?\n",
@@ -3433,15 +3433,15 @@
   },
   {
     "question": "The Greens Creek mine has implemented several modifications to its ore processing facility over the years. Given the information provided, which of the following changes would likely have the most significant impact on reducing the production of bulk concentrate while potentially improving the overall efficiency of the flotation process?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A financial analyst is reviewing the complex financial arrangements between Quarto Mining Company and the CAPCO Companies. Given the series of agreements and amendments from 1973 to 1991, what can be inferred about the evolving financial relationship between these entities?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A small oil and gas company is considering its acquisition strategy for the upcoming year. Given the information in the documentation about St. Mary's acquisition approach, which of the following strategies would most likely lead to success for this company?\n",
@@ -3511,9 +3511,9 @@
   },
   {
     "question": "An engineering team is evaluating the viability of processing material from an existing heap leach pad at the Mt Todd site. Given the test results and infrastructure considerations, which strategy would likely yield the best economic outcome while minimizing environmental impact?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A company is considering acquiring the Fairway Field for its portfolio. Given the field's characteristics and production history from 2011 to 2014, which of the following strategies would likely be most effective for maximizing the field's long-term value?\n",
@@ -3541,9 +3541,9 @@
   },
   {
     "question": "A mining company is considering acquiring the Aguila Project. Given the information provided, which of the following factors would be most critical in assessing the long-term economic viability of the project?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A company is analyzing its financial obligations to related parties. Given the information in the documentation, which of the following statements most accurately reflects the company's financial situation and compliance with accounting standards?\n",
@@ -3559,9 +3559,9 @@
   },
   {
     "question": "A junior mining company is considering acquiring Timberline's South Eureka property. Given the information provided about the property's claims and royalties, which of the following strategies would be most beneficial for the acquiring company to maximize its potential returns while managing risks?\n",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A real estate investment trust is considering acquiring a portfolio of properties. Given the information provided about various properties, which of the following acquisitions would likely provide the most diversified risk profile while aligning with trends in technology and healthcare sectors?\n",
@@ -3595,15 +3595,15 @@
   },
   {
     "question": "A real estate investment company is evaluating its minority stake in Malulani Investments, Limited (MIL). Given the information provided, which of the following strategies would likely be most effective in maximizing the value of this investment?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An oil company is evaluating whether to classify a newly discovered accumulation as having undeveloped reserves. Which of the following scenarios would most likely prevent the company from attributing undeveloped reserves to this acreage?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A mining company is evaluating the reliability of assay results from the Nkamouna project. Given the information provided about inter-laboratory checks and QA/QC procedures, which of the following conclusions is most accurate and comprehensive?\n",
@@ -3637,9 +3637,9 @@
   },
   {
     "question": "A real estate investment trust (REIT) is considering acquiring a hotel property similar to those described in the documentation. Given the information provided, which of the following scenarios would most likely lead to a decrease in the REIT's qualifying income for tax purposes?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A small oil and gas company is considering acquiring assets in the Spraberry Area and Gulf Coast Region. Given the information provided about HCRC's and HEP's operations in these areas, which of the following strategies would likely be most effective for maximizing near-term profitability while positioning for future growth?\n",
@@ -3655,9 +3655,9 @@
   },
   {
     "question": "A real estate investment trust (REIT) is evaluating its redevelopment and development strategies. Given the information provided about Redevelopment Communities and Development Rights, which of the following conclusions is most accurate and supported by the documentation?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A bank is evaluating a large commercial loan that has become 120 days past due. The borrower's financial situation has deteriorated, but they own significant collateral. Which of the following approaches would most accurately reflect the loan's impairment according to SFAS 114 and the bank's accounting policies?\n",
@@ -3667,15 +3667,15 @@
   },
   {
     "question": "A geologist is analyzing the historical resource estimations for the Bornite Project. Given the information provided, which of the following statements best describes the challenges and methodologies used in these estimations over time?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A mining company is in the early stages of developing a new uranium project called Jane Dough. Given the information provided, what is the most significant risk associated with the company's current approach to this project?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "The Matoush Project's management team is planning their community engagement strategy for the upcoming year. Given the information provided about their past activities and the project's current stage, which of the following approaches would be most effective in addressing stakeholder concerns while advancing the project?\n",
@@ -3709,9 +3709,9 @@
   },
   {
     "question": "A mining company is considering acquiring Newmont's Long Canyon operation. Which combination of factors would be most relevant in assessing the long-term viability and potential of this asset?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A mining company is considering expanding its operations and is evaluating the Cleburne and Crane facilities. Given the information provided, which of the following statements most accurately reflects the comparative advantages of these two facilities?\n",
@@ -3769,9 +3769,9 @@
   },
   {
     "question": "A hotel property management company is analyzing the performance of its luxury resort portfolio. Given the information in the documentation, which of the following strategies would be most likely to improve the overall revenue per available room (REVPAR) for the company's properties?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A natural gas company is planning to expand its operations in the Utica Shale region. Given the information about the Rice Midstream Holdings Segment's Ohio gathering system, what strategic consideration should the company prioritize to maximize its operational efficiency and market position?\n",
@@ -3829,9 +3829,9 @@
   },
   {
     "question": "Pacific Villas is facing increased competition in the senior housing market. Given the information about the facility, its location, and market conditions, which strategy would be most effective for maintaining high occupancy rates and competitive positioning?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A mining company is considering acquiring CR Minerals Corporation for its diatomite operations. Which of the following factors would be most critical in assessing the long-term viability and competitive advantage of CR Minerals' DiaFil products?\n",
@@ -3853,9 +3853,9 @@
   },
   {
     "question": "An executive at Northeast Utilities is planning for retirement and wants to maximize their target benefit under the Supplemental Plan. Which of the following strategies would be most effective in achieving this goal, given the information provided?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "St. Mary's Oil & Gas Company is evaluating its acreage portfolio for potential development. Which of the following scenarios would most likely result in a reclassification of undeveloped acreage to developed acreage?\n",
@@ -3883,9 +3883,9 @@
   },
   {
     "question": "A mining company is evaluating the Nyngan Scandium Project's feasibility study results. Which of the following conclusions would be most appropriate for the company to draw about the project's economic viability and technical readiness?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A real estate investment partnership is facing financial difficulties with one of its Operating Partnerships, Shaker Housing Credit L.P. Given the sequence of events described, what is the most likely long-term financial impact on the Limited Partners of the investment partnership?\n",
@@ -3943,13 +3943,13 @@
   },
   {
     "question": "A healthcare company is planning to expand its operations in the United Kingdom. They want to focus on areas where they can leverage existing infrastructure and expertise. Based on the information provided, which of the following strategies would likely be most effective for their expansion?\n",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A data center company is planning expansions across multiple facilities. Given the information about their Piscataway, Fort Worth, and Ashburn facilities, which strategic decision would likely yield the highest return on investment in the short term while aligning with their long-term growth plans?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -3979,15 +3979,15 @@
   },
   {
     "question": "A company has been increasing its involvement in 3-D seismic projects over the years. Given the trend described in the documentation, what strategy is the company most likely pursuing, and what potential risk does this approach carry?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Norfolk Southern (NS) is evaluating its fleet management strategy. Given the information about their locomotive and freight car fleets, which of the following actions would most likely improve operational efficiency while balancing cost considerations?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Terra's financial performance in 2004 showed improvement over 2003, with several factors contributing to this change. Which of the following combinations most accurately represents the key drivers of Terra's improved financial results in 2004 compared to 2003?\n",
@@ -4015,9 +4015,9 @@
   },
   {
     "question": "An investor is considering investing in a mining company that has reported \"inferred resources\" for its Bornite Project. Which of the following statements most accurately reflects the implications of this classification for U.S. investors?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A mining company is considering expanding its frac sand operations in Texas. Given the information about the Voca East and Voca West facilities, which strategy would likely be most effective for maximizing production while minimizing environmental impact?\n",
@@ -4045,7 +4045,7 @@
   },
   {
     "question": "Chugach entered into an Indenture granting a lien on most of its assets to secure long-term debt. However, a financial analyst notices that some of Chugach's valuable assets are not subject to this lien. Given the information provided, which of the following scenarios would most likely result in an asset being excluded from the lien?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -4075,9 +4075,9 @@
   },
   {
     "question": "A proposed amendment to the Gas Gathering Contract would significantly reduce the gathering rates for all wells, potentially impacting Trust revenues. Williams, which holds 30% of the outstanding Units, supports this amendment. What is the most accurate assessment of the voting process for this amendment?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An oil and gas company is evaluating its assets in the Midland Basin and Eagle Ford Trend for potential expansion. Given the information from December 31, 2017 to December 31, 2018, which strategy would likely yield the highest return on investment while balancing risk?\n",
@@ -4123,9 +4123,9 @@
   },
   {
     "question": "AMB has signed agreements to sell a significant portion of its retail properties. Given the information provided and the potential impact on AMB's business strategy, which of the following statements best represents the most likely outcome and its implications?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A financial analyst is evaluating the short-term debt structure of International Building Technologies Group, Inc. as of December 31, 2009. Given the information provided, which of the following statements most accurately reflects the company's financial situation and potential risks?\n",
@@ -4225,9 +4225,9 @@
   },
   {
     "question": "A real estate investment trust (REIT) specializing in cannabis-related properties has recently acquired two properties in Crowley County, Colorado. Given the lease structures and property details, which of the following scenarios would most likely result in a significant change to the REIT's financial performance?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A trust receives payments based on NPI Net Proceeds and Infill Net Proceeds from WI Properties. Given the \"entitlements basis\" calculation method described, which scenario is most likely to result in the trust receiving payments for gas that was not actually produced by WPC?\n",
@@ -4237,9 +4237,9 @@
   },
   {
     "question": "A mining company is analyzing the Spring Valley gold deposit for potential development. Given the geological and exploration data provided, which of the following strategies would be most effective for optimizing future exploration efforts?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A trust is considering investing in a new oil and gas property with limited production history. Given the complexities of estimating reserves for such properties, which approach would be most appropriate for the trust's independent petroleum engineers to use when estimating proved reserves?\n",
@@ -4249,21 +4249,21 @@
   },
   {
     "question": "A geologist is analyzing the drilling history and geological setting of the Burke Hollow Project. Which of the following conclusions would be most accurate based on the integration of multiple aspects of the provided information?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false
   },
   {
     "question": "A mining company is planning to explore the Lebak Gold Claim but faces financial constraints. Which of the following strategies would best align with the recommended exploration program while addressing the company's current financial situation?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A mining company is considering acquiring the Johnson Camp property. Given the information about data verification processes, which conclusion would be most justified regarding the reliability of the resource estimates?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Conrail is facing increasing competition in the freight transportation industry. Which of the following scenarios would likely pose the greatest threat to Conrail's competitive position in the long term?\n",
@@ -4285,9 +4285,9 @@
   },
   {
     "question": "A bank's net interest margin decreased from 3.81% to 3.43% between 1997 and 1998. Given the information provided, which of the following scenarios best explains this change and its implications for the bank's financial performance?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A mining company is evaluating the economic viability of a new zinc-focused project with Royal Gold's sliding-scale NSR royalty. If the project is expected to produce 100,000 pounds of zinc per year for 10 years, and zinc prices are forecasted to average $0.58 per pound for the first 5 years and $0.62 per pound for the last 5 years, what would be the total royalty percentage paid to Royal Gold over the life of the project?\n",
@@ -4327,7 +4327,7 @@
   },
   {
     "question": "An oil and gas company is analyzing the performance of its wells across different partnerships. Which of the following conclusions is most accurate based on the data provided for partnerships II-E, II-F, II-G, and II-H?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -4387,9 +4387,9 @@
   },
   {
     "question": "A mining company is analyzing the results of their 2006 drill program in resource area \"C\". Given the information from holes H0604 and H0605, what is the most significant implication for future exploration and resource estimation in this area?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A shareholder is concerned about the ethical practices of the company's executives and wants to review the Code of Ethics. The company claims to have adopted a Code of Ethics applicable to its principal officers. Which of the following statements most accurately reflects the company's approach to making the Code of Ethics available to interested parties?\n",
@@ -4405,9 +4405,9 @@
   },
   {
     "question": "NJMC recently acquired a stake in the Butte Highlands project. Given the project's history and current status, what is the most strategically sound next step for NJMC to improve the project's economic viability?\n",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An oil and gas company is evaluating its reserve estimates for the upcoming SEC filing. Which of the following scenarios would most likely lead to a downward revision of the company's proved reserves?\n",
@@ -4429,7 +4429,7 @@
   },
   {
     "question": "A midstream company is considering expanding its operations in the Sooner Trend region of Oklahoma. Given the information about the Crescent System, which of the following strategies would likely be most effective for maximizing the system's profitability and operational efficiency?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -4447,19 +4447,19 @@
   },
   {
     "question": "An auditor is reviewing the Form 10-K filings of three utility companies: The Cleveland Electric Illuminating Company, The Toledo Edison Company, and Pennsylvania Power Company. All three companies have had their financial statements audited by Arthur Andersen LLP. What conclusion can the auditor draw about the schedule of valuation and qualifying accounts listed in Item 14 for these companies?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
-  },
-  {
-    "question": "A real estate investment firm is considering acquiring the Quality Group of Companies' properties in Kansas. Given the information provided about the Overland Park and Lenexa facilities, which of the following strategies would likely yield the highest return on investment while aligning with current market trends in data center and office space utilization?\n",
-    "model_answer": "C",
-    "correct_answer": "C",
     "is_correct": true
   },
   {
+    "question": "A real estate investment firm is considering acquiring the Quality Group of Companies' properties in Kansas. Given the information provided about the Overland Park and Lenexa facilities, which of the following strategies would likely yield the highest return on investment while aligning with current market trends in data center and office space utilization?\n",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
     "question": "The Buenavista copper porphyry deposit is described as unique. Which combination of factors best explains this characterization and its implications for future mining operations?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -4495,15 +4495,15 @@
   },
   {
     "question": "A real estate investment firm is considering acquiring one of the resorts mentioned in the documentation. They are particularly interested in a property that offers the best combination of historical significance, potential for expansion, and diverse amenities. Which resort would be the most suitable choice for this investor?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A company is evaluating its Gulf Coast region assets for potential development. Given the information provided about the region's characteristics and the company's reserves, which strategy would likely yield the best return on investment while balancing risk?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A property management company is analyzing the performance of its apartment complexes. Given the information provided about occupancy rates and rental trends, which of the following strategies would be most effective for improving the overall financial performance of the portfolio?\n",
@@ -4519,9 +4519,9 @@
   },
   {
     "question": "A mid-sized oil and gas company is considering investing in Summo Minerals Corporation. Given the information provided about the Company's relationship with Summo and the current market conditions, what is the most strategic approach for the oil and gas company to take?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "At the Grassy Mountain property, what combination of geological factors most likely contributes to the complex distribution of mineralization and presents challenges for resource estimation?\n",
@@ -4537,9 +4537,9 @@
   },
   {
     "question": "A mining company is evaluating its exploration rights in Suriname. Given the information about the Kleine Saramacca, Saramacca, Thunder Mountain, and Headley's Rights of Exploration, what is the most critical strategic consideration for the company regarding these properties?\n",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A mining company is planning to expand its operations in the Lordsburg Mining District. Given the information provided about the exploration program and the geological context, which of the following strategies would be most likely to maximize the potential for discovering new economically viable mineral deposits?\n",
@@ -4555,7 +4555,7 @@
   },
   {
     "question": "A mining company is evaluating the acquisition of Newmont's Nevada operations. Given the information provided about ore types and processing methods, which of the following strategies would likely be most effective for maximizing gold production and profitability in the short term?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -4633,7 +4633,7 @@
   },
   {
     "question": "An exploration company is considering purchasing the Yellow Pine gold project. Given the geological information and current agreement details, which scenario would most likely maximize the project's long-term value while minimizing initial capital outlay?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -4699,9 +4699,9 @@
   },
   {
     "question": "A real estate investment firm is analyzing the performance of properties in the Boston Capital Tax Credit Fund III L.P. portfolio. They notice that the Coopers Crossing property in Irving, TX shows significant changes across the reported years. What conclusion can be drawn about this property's financial trajectory from 1996 to 2000?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A real estate investment company is considering acquiring a community center with a unique lease structure. Which of the following scenarios most closely aligns with the complex ground lease arrangements described in the documentation?\n",
@@ -4807,9 +4807,9 @@
   },
   {
     "question": "A real estate investment firm is considering acquiring a portion of the Merchandise Mart Properties portfolio. Given the information from 2007, which of the following strategies would likely yield the highest return on investment while minimizing risk?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A natural gas company is considering expanding its marketing operations in the Appalachian Basin. Given the information provided, which strategy would likely be most effective in maximizing the company's profitability while managing risk in this region?\n",
@@ -4843,7 +4843,7 @@
   },
   {
     "question": "A mining company is planning to restart operations at the Bunker Hill Mine. Given the historical mining methods and current conditions, which combination of factors would likely contribute most to improved productivity compared to historical operations?\n",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -4855,9 +4855,9 @@
   },
   {
     "question": "A mining company is evaluating its global exploration portfolio and considering divesting some assets. Given the information provided about Golden Star's African properties, which strategic decision would likely yield the best financial return while maintaining future growth potential?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Whiting Petroleum Corporation is considering selling a small portion of its underlying properties in the Mid-Continent region. Which of the following scenarios would allow Whiting to require the Trust to sell the associated Net Profits Interest (NPI) without obtaining consent from Trust unitholders?\n",
@@ -4879,15 +4879,15 @@
   },
   {
     "question": "A financial analyst is reviewing Lake Ariel Bancorp's stock performance and dividend policy. Given the information in the documentation, which of the following statements most accurately reflects the company's approach to shareholder value and market presence?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A mining company is planning to expand its operations at the San Jos\u00e9 de Gracia (SJG) project. Given the current infrastructure and geological characteristics, which of the following strategies would be most effective for increasing gold production while minimizing environmental impact?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A real estate investment firm is analyzing the performance of office properties in New Jersey. Which of the following statements most accurately reflects the relationship between occupancy rates, base rent, and effective rent across the properties listed?\n",
@@ -4939,7 +4939,7 @@
   },
   {
     "question": "ECA has drilled a new PUD Well with a 100% working interest, but discovers that the well is subject to pre-existing burdens totaling 15% of revenues. How will this situation affect the Trust's royalty payments for this well, and why?\n",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false
   },
@@ -4951,9 +4951,9 @@
   },
   {
     "question": "A mining company is analyzing its 2010 gold extraction operations and planning for future improvements. Given the information provided, what is the most critical factor limiting the company's gold production capacity, and what strategic decision should management prioritize for the next season?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An oil and gas company is considering acquiring a new field with promising reserve estimates. Given the uncertainties inherent in reserve estimation, which of the following actions would be most appropriate for the company to take before making an acquisition decision?\n",
@@ -4975,9 +4975,9 @@
   },
   {
     "question": "A property manager is analyzing the performance of apartments in the Boston Capital Tax Credit Fund II Limited Partnership - Series 12 portfolio. Which of the following statements is most accurate based on the data provided for the years 1996, 1998, and 2000?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A junior geologist is tasked with analyzing the company's most promising projects for future development. Given the information provided about various properties, which project would likely be recommended for immediate further investment and development, considering both current production potential and future prospects?\n",
@@ -4987,13 +4987,13 @@
   },
   {
     "question": "A mining company is considering reopening the Ferris-Haggerty Mine for copper extraction. Given the historical challenges and geological characteristics of the site, what is the most significant factor they should consider in their feasibility analysis?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "BSRT Colonial Courts Limited Partnership replaced its original letter of credit (LOC) with a new arrangement. Given this change and its implications, which of the following statements best describes the overall impact on the partnership's financial structure and obligations?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -5053,9 +5053,9 @@
   },
   {
     "question": "A mining company is evaluating the Guadalupe de los Reyes project for potential open-pit mining operations. Given the geological information provided, which of the following strategies would be most appropriate for maximizing the project's economic potential while minimizing environmental impact?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A junior mining company is planning to explore a property adjacent to the Price-Logan occurrence. Given the geological context and mineralization styles described, which exploration strategy would be most effective for identifying potential gold deposits in this area?\n",
@@ -5065,15 +5065,15 @@
   },
   {
     "question": "Ambler Metals is developing the Arctic Project in Alaska. Given the complex ownership structure and royalty arrangements described, which of the following scenarios would result in the highest net profit for Trilogy Metals if the project goes into production?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "The Donlin Gold project faces opposition from several local groups. Given the complex stakeholder landscape and regulatory environment described, what is the most significant challenge for the project's development in the near term?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A natural gas company is considering expanding its gathering and processing operations. Given the competitive landscape described in the documentation, which strategy would likely be most effective for gaining a competitive edge in this market?\n",
@@ -5083,13 +5083,13 @@
   },
   {
     "question": "A Silverleaf Club member who owns a high-rated Vacation Interval is planning a short weekend getaway during peak season. Which of the following scenarios is most likely to present a challenge for this member when attempting to use the Bonus Time Program?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A mining company is evaluating its office arrangements and associated costs. Given the information provided about the company's facilities, which of the following scenarios would most likely improve the company's financial position while maintaining necessary operations?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -5107,7 +5107,7 @@
   },
   {
     "question": "Norfolk Southern Railway is planning a major expansion of its operations. Given the historical context and current structure of the company, which of the following strategies would be most aligned with its past growth patterns and corporate structure?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -5155,9 +5155,9 @@
   },
   {
     "question": "A mining company is considering expanding operations at the Midas mine. Given the geological and operational information provided, which of the following strategies would likely yield the best results for increasing gold production while managing operational risks?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "XG Mining is required to submit various reports to the Government Authorities. Which of the following scenarios would most likely result in a breach of their reporting obligations under the Apapam mining lease?\n",
@@ -5167,9 +5167,9 @@
   },
   {
     "question": "An investor is analyzing the occupancy patterns of various business centers owned by the company. Which of the following conclusions can be drawn from the occupancy data of the Lakeshore Business Center phases as of December 31, 2004?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A technology company is analyzing its sales data from 2012 to 2014 to inform its future strategy. Given the trends in product group performance and market dynamics, which of the following strategies is most likely to yield the highest growth potential for the company in the near future?\n",
@@ -5197,9 +5197,9 @@
   },
   {
     "question": "An exploration company is analyzing the results from their recent drilling program at the Longshot Ridge copper deposit. Given the data presented, which of the following conclusions would be most accurate and valuable for guiding further exploration efforts?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A mining company is considering acquiring the Gold Rock project. Given the information provided about claim ownership, royalties, and geology, which of the following statements most accurately represents the potential challenges and opportunities of this acquisition?\n",
@@ -5215,13 +5215,13 @@
   },
   {
     "question": "A trust receives royalty payments from a Company Interests Owner based on natural gas sales. The trust is considering selling a portion of its Royalty Interests due to market conditions. Which of the following scenarios would most likely result in the lowest distribution to Unitholders in the short term?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A mining company is evaluating the Arctic Deposit for potential development. Given the information provided about the drilling history and mineralization, what is the most significant challenge they are likely to face in accurately estimating the resource?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -5233,13 +5233,13 @@
   },
   {
     "question": "A mining company is analyzing the results of their 2011 diamond core drilling campaign at Chandalar, Alaska. Given the information provided, which of the following conclusions would be most appropriate for the company to draw regarding the potential for gold mineralization in the area?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false
   },
   {
     "question": "A financial analyst is comparing the standardized measure of discounted future net cash flows related to future royalty income from proved reserves for an oil and gas trust between 2006 and 2007. Given the information provided, which of the following scenarios best explains the changes observed?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false
   },
@@ -5305,7 +5305,7 @@
   },
   {
     "question": "A mining company is planning to expand operations at the Cross Mine. Given the current permitting status and proposed expansion activities, which of the following scenarios would most likely require the company to obtain a new permit rather than amending the existing one?\n",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -5365,9 +5365,9 @@
   },
   {
     "question": "A mining company is evaluating its exploration strategy for the upcoming year. Given the information from Crown's 1996 and 1999 financial reports, which of the following statements most accurately reflects the company's likely approach to exploration and property management?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A unitholder is considering selling their units in an oil and gas trust after holding them for 2 years. Given the complex tax implications, which of the following statements most accurately reflects the potential tax consequences of this sale?\n",
@@ -5383,9 +5383,9 @@
   },
   {
     "question": "An oil and gas company is considering expanding its operations in a new region. Given the regulatory environment and market conditions described in the documentation, which of the following strategies would be most effective for the company to maintain competitiveness?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "NS Rail is considering expanding its services into a new market segment. Given the regulatory environment and competitive landscape described, which of the following strategies would be most likely to succeed while aligning with the company's historical approach?\n",
@@ -5407,9 +5407,9 @@
   },
   {
     "question": "A mining company is planning a new gold mining operation in Montana. Given the regulatory environment and economic considerations described, which of the following strategies would most likely allow the company to proceed while minimizing regulatory hurdles and maximizing profitability?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An mining company is evaluating the Arctic Project for potential development. Given the metallurgical test results and resource estimation methods described, which of the following scenarios would most likely lead to a significant overestimation of the project's economic value?\n",
@@ -5443,13 +5443,13 @@
   },
   {
     "question": "A mining company is considering expanding its operations in the Pioche District of Lincoln County, Nevada. Given the historical information and current focus of the company, which of the following strategies would be most aligned with the company's stated objectives and the district's characteristics?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A real estate investment trust is analyzing Security Capital Industrial Trust's portfolio diversification strategy. Given the information in the documentation, which of the following conclusions is most accurate regarding SCI's property holdings and their impact on the company's financial performance?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -5461,15 +5461,15 @@
   },
   {
     "question": "A natural gas trust is evaluating potential reductions in its Net Profits Interest (NPI) percentage. Under which complex scenario would the trust's NPI percentage be reduced to 25%, regardless of the Internal Rate of Return (IRR) on the After-tax Cash Flow per Unit?\n",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A real estate investment partnership is considering acquiring a property similar to the Hollywood Video Property described in the documentation. Given the lease structure and financial details provided, which of the following scenarios would most likely result in the highest long-term profitability for the partnership?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An oil and gas company is evaluating its reserve estimates for the upcoming annual report. Given the information in the documentation, which of the following statements most accurately reflects the complexity and potential variability in estimating proved reserves?\n",
@@ -5485,9 +5485,9 @@
   },
   {
     "question": "A company executive is considering terminating their employment shortly after a change of control event. According to the agreement, which of the following scenarios would most likely result in the executive being obligated to reimburse the company for legal expenses?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A mining company is evaluating the quality control procedures for their drill core and RC (reverse circulation) sampling program. Which of the following conclusions can be most reliably drawn from the information provided about their sampling and analysis methods?\n",
@@ -5509,7 +5509,7 @@
   },
   {
     "question": "A data center company is analyzing its facility expansion strategy. Given the information about their Chicago and Santa Clara facilities, which of the following statements most accurately reflects the company's approach to expansion and utilization across these locations?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -5575,7 +5575,7 @@
   },
   {
     "question": "Nexa has the option to increase its shareholding interest in the Florida Canyon project from 61% to 70%. Given the complex agreement structure between Solitario and Nexa, which scenario would most likely trigger this increase in Nexa's ownership?\n",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -5593,13 +5593,13 @@
   },
   {
     "question": "An oil company is evaluating a newly discovered reservoir for inclusion in its proved reserves. Which of the following scenarios would NOT allow the company to classify the oil in this reservoir as proved reserves according to SEC definitions?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A geologist at the Matoush Project is reviewing the Quality Assurance and Quality Control (QA/QC) procedures for uranium exploration. They notice that blanks are consistently showing trace amounts of uranium just below 50 PPM. What is the most appropriate course of action to improve the QA/QC process?\n",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -5617,9 +5617,9 @@
   },
   {
     "question": "A mining company is considering restarting production at the Prestea Underground mine. Given the information provided, which of the following strategies would most likely lead to a successful reopening of the mine?\n",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An oil company is conducting a comprehensive review of its reserve estimates. During this process, the independent petroleum engineering firm Huddleston identifies a discrepancy in the data provided by the company regarding a specific oil field. What is the most appropriate course of action for Huddleston in this situation, considering industry best practices and regulatory requirements?\n",
@@ -5653,7 +5653,7 @@
   },
   {
     "question": "A junior mining company is considering the development of the Champion Property in New Mexico. Given the information provided, which of the following factors would be LEAST critical in determining whether to bring this property into production?\n",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -5713,9 +5713,9 @@
   },
   {
     "question": "A real estate investment company is considering purchasing a property similar to the North Palm Street building. Given the information provided about that property, which of the following strategies would likely maximize the company's return on investment while minimizing risk?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A vacation ownership company is considering expanding its exchange network offerings to increase sales. Which strategy would most likely lead to increased consumer satisfaction and a competitive advantage, while also addressing potential challenges in the exchange process?\n",
@@ -5767,9 +5767,9 @@
   },
   {
     "question": "JayHawk Energy entered into two significant agreements with Vast Exploration and its affiliates in 2015. Given these transactions and their implications, what is the most likely strategic direction for JayHawk Energy?\n",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "AEP is considering a major expansion of its power generation facilities. However, recent economic forecasts suggest a potential downturn in the next 2-3 years. In light of this information and the details provided in the documentation, what is the most likely course of action for AEP's System construction program?\n",
@@ -5779,9 +5779,9 @@
   },
   {
     "question": "An investor is comparing the II-A and II-B Partnerships' performance in the Anadarko Basin as of December 31, 1995. Which of the following conclusions is most accurate based on the given information?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Drovers Bancshares Corporation is planning to expand its operations beyond York County. Given the information provided, which of the following strategies best aligns with the corporation's expansion plans while considering its financial management approach?\n",
@@ -5863,7 +5863,7 @@
   },
   {
     "question": "BROG plans to significantly increase capital expenditures for the Waddell Ranch properties in 2008 compared to 2007. Given the information provided, which combination of factors most likely explains this decision?\n",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -5905,9 +5905,9 @@
   },
   {
     "question": "A natural gas company is evaluating its Proved Undeveloped Reserves (PUDs) for SEC reporting. Which of the following scenarios would most likely result in an increase in the company's reported PUDs?\n",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A newly appointed CFO is reviewing Cliff Rock Resources Corp.'s financial statements. Given the information presented, which of the following strategies would be most appropriate for addressing the company's financial challenges while complying with accounting standards?\n",
@@ -5923,7 +5923,7 @@
   },
   {
     "question": "A real estate investment trust is analyzing the performance of two shopping centers in its portfolio: Cannon West and Spring Village. Given the information provided, which of the following statements most accurately reflects the comparative strengths and potential risks of these properties?\n",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false
   },
