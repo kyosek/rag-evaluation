@@ -37,9 +37,9 @@
   },
   {
     "question": "In a LaTeX document using the book class and amsthm package, you want to number your theorems, lemmas, and definitions within chapters, resetting the numbering at each new chapter. Which of the following code snippets will correctly achieve this?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a GIS application, you're working on a map of electoral districts that requires different labeling at various zoom levels. At closer zooms, you want to show detailed information for each district, but at further zooms, you want to show state/province labels without repetition for each district. Which of the following approaches would best solve this labeling challenge?",
@@ -73,9 +73,9 @@
   },
   {
     "question": "In a Ubuntu 14.04.1 system with Bind9 installed and no custom configuration, what is the primary source of DNS information for Bind9, and how can you determine the upstream DNS server being used?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "What was the primary outcome of the discussion regarding site promotion on DIY StackExchange?",
@@ -103,9 +103,9 @@
   },
   {
     "question": "In TikZ, when drawing very small arcs or curves, you may encounter a \"dimension too large\" error. Which of the following is the most efficient and reliable solution to this problem?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An engineer is designing a PCB that requires an unmanaged Ethernet switch circuit without connecting it to a microprocessor. Which of the following solutions would be most appropriate based on the information provided?",
@@ -151,15 +151,15 @@
   },
   {
     "question": "An electrician is inspecting a house built in 1973 and discovers blank wall plates in several rooms. Upon removing these plates, they find a loop of thick brown cable and a shorter length of thin 2-conductor black cable. What is the most likely purpose of the thick brown cable based on the information provided?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You are working with a large geospatial dataset using Fiona and need to filter out features with null geometries. Which of the following approaches is the most appropriate and efficient way to accomplish this task?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A homeowner is trying to replace unusual light bulbs in their bathroom. After removing the bulbs, they noticed wires coming out and had to cut them. Based on the information provided, what type of bulbs are these and what is the correct procedure for replacing them?",
@@ -181,15 +181,15 @@
   },
   {
     "question": "In a Symfony form, you want to remove the label for a ChoiceType field named 'responseA'. Which of the following options in the form builder will achieve this?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Given the integral \n$$g(u) = \\frac{\\sqrt{2u}}{\\pi} \\int^1_{\\frac{1}{u}} dz \\frac{\\sqrt{z-1}}{\\sqrt{z^2-u^{-2}}} $$\nWhat is the dominant behavior of this integral as u approaches infinity?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A developer is experiencing a LazyInitializationException when loading 2.5 million complex objects into MS SQL using Hibernate. The exception occurs consistently at the same point, but disappears under certain conditions. Which of the following is the most likely cause of this issue?",
@@ -205,9 +205,9 @@
   },
   {
     "question": "A hobbyist electronics engineer is trying to remove no-clean, non-water soluble, liquid flux after reflow soldering. Which of the following methods would be the most suitable and safe approach for a home environment?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A company is developing a web application based on an LGPL-licensed software. They plan to use this application internally to create and host a website for their own use, without distributing the software itself. Which of the following statements is correct regarding their obligations under the LGPL license?",
@@ -223,9 +223,9 @@
   },
   {
     "question": "A plumber is dealing with a leak in a copper pipe that is located just above a concrete floor, making it difficult to cut and solder. Which of the following methods would be the most appropriate to repair this leak?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Consider the statement: \"There exists a singular cardinal \u03bb such that V_\u03bb models ZFC(SOL).\" Which of the following best describes the consistency strength of this statement relative to large cardinal axioms?",
@@ -265,9 +265,9 @@
   },
   {
     "question": "According to the top answer, what is the recommended first step to address the issue of unexplained inappropriate searches appearing in the browser history?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A system administrator needs to change the root password on a Linux system, but they don't know the current root password. They have sudo privileges. Which of the following commands would allow them to change the root password securely?",
@@ -289,7 +289,7 @@
   },
   {
     "question": "When adding a product image in Magento 2 using the addImageToMediaGallery() method, which of the following file paths is most likely to work correctly?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -307,15 +307,15 @@
   },
   {
     "question": "Consider a quantum system described by a Hamiltonian H(\u03b1) that depends on a parameter \u03b1. According to the Feynman-Hellmann theorem, which of the following statements is correct?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A system administrator is experiencing issues with a newly migrated WSUS 3.0 SP2 server on Windows Server 2008 R2. Clients are unable to find updates and don't report status. After investigating, the administrator discovers an error code 0x8024400E in the WindowsUpdate.log file. What is the most appropriate first step to troubleshoot this issue?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A homeowner notices that their outdoor hose bib is stuck in a partially open position and the handle won't turn in either direction. What is the most likely cause of this issue and the recommended solution?",
@@ -337,9 +337,9 @@
   },
   {
     "question": "A new Ubuntu user, who is an experienced COBOL developer, wants to customize their terminal experience using tmux. They want to set up a shortcut to create a new window without using the command prefix key. Which of the following lines should they add to their ~/.tmux.conf file to accomplish this?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "As a newly elected moderator on Ask Different, you notice a user who consistently provides high-quality answers but frequently engages in argumentative behavior in comments, resulting in numerous flags. Which of the following approaches would be the most appropriate course of action?",
@@ -349,15 +349,15 @@
   },
   {
     "question": "You're configuring an Apache web server to restrict access to a website, allowing only one specific IP address while keeping certain URIs publicly accessible. Which of the following configurations is most likely to achieve this goal effectively?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the context of implementing Google AdMob native ads with MediaView in Android, which of the following approaches is most effective for ensuring that the MediaView properly resizes its height according to the content it displays, while adhering to the new AdMob policy requirements?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the context of using the mhchem package for typesetting chemical formulas, what is the primary reason for the inconsistency in the appearance of states of aggregation when inserted directly versus through a macro, as explained by the package author?",
@@ -373,9 +373,9 @@
   },
   {
     "question": "In a Django blog application, a developer is trying to restrict editing of blog posts to their owners. Which of the following approaches is most appropriate and secure for implementing this functionality?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A user on Stack Overflow notices they've been awarded the Caucus and Constituent badges multiple times in quick succession. What is the most likely explanation for this occurrence?",
@@ -385,9 +385,9 @@
   },
   {
     "question": "Which of the following statements accurately describes the historical development of graph drawing and representation in mathematics?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A user is experiencing issues with their MacBook running OSX Yosemite 10.10.5, including inability to restart or shutdown normally and Finder becoming unresponsive. After creating a new user account, it's determined that opening any Finder window causes the issue. What is the recommended troubleshooting step to address this Finder-specific problem?",
@@ -427,9 +427,9 @@
   },
   {
     "question": "A homeowner recently installed luxury vinyl plank (LVP) flooring in their kitchen over an uneven particleboard subfloor. They are now concerned about potential long-term issues. Which of the following is the BEST course of action to address this problem?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You're trying to send an HTML email notification when a file is uploaded. Which of the following code snippets correctly sets up the email message with a download link?",
@@ -439,21 +439,21 @@
   },
   {
     "question": "In designing a Class B amplifier using a common emitter configuration with a single transistor, which of the following approaches would be most appropriate to achieve the desired half-cycle output?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In Super Smash Bros. 4 for the 3DS, which of the following statements is true regarding secret taunts?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A naval radar system operating at 10 GHz is being used to detect surface vessels. Under normal clear-sky conditions, the maximum detection range is 100 km. On a day with significant cloud cover, the radar operators notice they are able to detect vessels beyond this normal range. Which of the following best explains this phenomenon and provides a reasonable estimate for the potential increase in detection range?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Consider the discrete dynamical system defined by:\n\n$\\overline{r} = 1 + \\alpha (r - 1)$\n$\\overline{\\phi} = \\phi + \\theta \\cdot \\frac{1+r^2}{2} \\mod 2\\pi$\n\nWhere $0 < \\alpha < 1$, $r \\in \\mathbb{R}$, $\\phi \\in \\mathbb{S}^1$, and $\\frac{\\theta}{\\pi} \\not \\in \\mathbb{Q}$.\n\nWhich of the following statements is true about this system?",
@@ -475,9 +475,9 @@
   },
   {
     "question": "A data processing application needs to analyze large files containing customer transaction data. The analysis requires calculating the total spend per customer, but the transactions for each customer are scattered throughout the file. Which approach would be most suitable for handling this scenario efficiently?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "You want to remove ImageMagick from Ubuntu 16.04 LTS without affecting other dependent packages like CUPS. What is a potential solution to this issue?",
@@ -487,9 +487,9 @@
   },
   {
     "question": "You have a list of dictionaries in Ansible, where some items have a 'type' attribute and others don't. You want to select all items which are NOT of type 'special'. Which of the following methods would correctly achieve this while handling items without a 'type' attribute?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A homeowner notices a long crack running along the length of their living room ceiling. Based on the information provided, what is the most likely cause of this issue and who should they contact first to address it?",
@@ -535,9 +535,9 @@
   },
   {
     "question": "A homebuyer is concerned about a sewer vent pipe (often called a \"candy cane\") placed in the center of the front yard of a newly built house. Which of the following approaches is most recommended by the expert for addressing this issue?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A software development team is considering whether to use the Long-Term Support (LTS) version or the latest standard version of a framework for a new enterprise project. Which of the following statements best describes the primary advantage of using an LTS version?",
@@ -553,13 +553,13 @@
   },
   {
     "question": "Which of the following statements is true regarding homogeneous topological spaces and continuous self-maps?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Given a text file named document_determinationv1.txt with the following content:\n\n```\n[DOCUMENT_DETERMINATION]\n#REVISION:v1;DATE:20210805\n```\n\nWhich of the following shell commands will correctly extract the date (20210805) from the second line and store it in a variable named AVARIABLE?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -571,9 +571,9 @@
   },
   {
     "question": "A Karthus player with 40% Cooldown Reduction (CDR) dies and activates his passive. If the player wants to cast Requiem before the passive expires, what is the maximum number of Lay Waste casts they can theoretically achieve, assuming near-perfect timing?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You are a Magento developer tasked with creating a coupon code that offers a 1% discount on the subtotal, up to a maximum of Rs. 300. Which of the following combinations of settings in the Cart Price Rules section would correctly implement this coupon?",
@@ -619,9 +619,9 @@
   },
   {
     "question": "A user is attempting to copy a 680GB file from a USB 3.0 drive to a USB 2.0 drive, both formatted as NTFS. After trying various methods and troubleshooting steps, what ultimately resolved the issue?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A system administrator is setting up a web server on a Linux system and needs to make an application running on port 8080 accessible via the standard HTTP port 80. Which of the following solutions would be the most appropriate and secure approach?",
@@ -631,9 +631,9 @@
   },
   {
     "question": "You are managing a Magento e-commerce store with multiple store views for different countries. After setting up the UAE store view with AED currency, you notice that the frontend is still displaying prices in USD. What steps should you take to ensure the correct currency (AED) is displayed for the UAE store view and other currencies are shown correctly for their respective store views?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A developer wants to create a static HTML file with sortable and filterable data that can be emailed to recipients. Which of the following approaches is most suitable for this requirement?",
@@ -643,9 +643,9 @@
   },
   {
     "question": "In a Windows batch script, you want to generate random numbers between 1 and 5 and use them to access array elements. Which of the following code snippets will correctly accomplish this task?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a factorial design experiment studying the effect of sex (M/F) and education level (P/S/PS) on income, which of the following statements about model specification is correct?",
@@ -685,9 +685,9 @@
   },
   {
     "question": "When installing an additional ground bus in a sub panel, which of the following is the most appropriate course of action according to electrical codes and best practices?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An engineer is designing a small robot using 24000rpm motors powered by 2xAA batteries. The robot is not performing as expected, with batteries draining quickly. Which of the following is the most likely cause and solution to this problem?",
@@ -709,15 +709,15 @@
   },
   {
     "question": "Consider a d-dimensional unit cube Cd. When oriented to maximize the vertical separation of its vertices, which of the following statements is correct?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a LaTeX document using pgfplots, which combination of settings and their order will correctly produce a graph with middle axis lines and an arrow at the end of the y-axis, while maintaining the reversed y-direction?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In XCOM 2, why might a unit be unable to attack an enemy that appears to be in line of sight?",
@@ -727,9 +727,9 @@
   },
   {
     "question": "A data scientist wants to perform a nearest neighbor calculation in Excel for clustering analysis. They have n data points in p-dimensional space and m possible cluster centers. Given the following information:\n- Data points are stored in an n x p array called X\n- Cluster centers are stored in an m x p array called M\n- Weights are stored in a 1 x p array called W\n\nWhich of the following Excel formulas would correctly calculate the weighted distance between each data point and each cluster center, without using temporary arrays?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "When posting a question on StackExchange about C++ object creation, a user received an error message stating \"Post contains code not formatted correctly\". What is the most likely cause of this error and the correct way to fix it?",
@@ -757,9 +757,9 @@
   },
   {
     "question": "You are working on a Magento 2.3.1 e-commerce site using the Porto theme. Users are encountering a fatal error when clicking on product pages, with the error message indicating a call to getData() on null. After investigating, you determine that the issue is in the file app/design/frontend/Smartwave/porto/Magento_Catalog/templates/product/view/details.phtml. Which of the following solutions would most effectively resolve this issue?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Based on the given information about software development roles, which of the following statements is most accurate?",
@@ -781,9 +781,9 @@
   },
   {
     "question": "You're developing a Magento 2 e-commerce site and need to implement custom zip code validation for the Netherlands, which requires 4 numbers followed by 2 uppercase letters (e.g., 1234AB). Which of the following approaches would be the most appropriate and efficient way to implement this validation?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A small business with 25 mailboxes is migrating from on-premises Exchange 2010 to Exchange Online. They have a single public folder containing several hundred contacts that rarely change. What is the recommended approach for migrating this public folder, given the small size and infrequent updates?",
@@ -799,9 +799,9 @@
   },
   {
     "question": "A researcher is comparing two Bernoulli distributions with highly skewed data, where 96-99% of samples are in the \"false\" category. The researcher can obtain 500+ \"true\" samples and tens of thousands of \"false\" samples. Which of the following statements is most accurate regarding the appropriate statistical test for comparing the proportions between these two samples?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A developer is working on a Google Apps Script project and wants to prevent accidental execution of scripts when using the Cmd+R shortcut on a Mac. Which of the following approaches would be most effective in addressing this concern?",
@@ -865,9 +865,9 @@
   },
   {
     "question": "You are renovating a basement and plan to install tile flooring in the bathroom and laundry room areas. The basement is dry and level. Which of the following statements is most accurate regarding the installation process?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following statements most accurately distinguishes between an adverbial phrase and an adverbial clause?",
@@ -877,9 +877,9 @@
   },
   {
     "question": "A developer clones an empty Git repository and receives a warning message. They then add a .gitignore file to the local master branch and create a new branch called \"FromCC\" with some code. When switching back to the master branch, they receive the message: \"Your branch is based on 'origin/master', but the upstream is gone. (use \"git branch --unset-upstream\" to fixup)\". What is the most likely explanation for this message?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Consider an elliptic curve E defined over a number field H with complex multiplication by R. Let P be a prime ideal in the maximal order of H where E has good reduction. Which of the following statements is most accurate regarding the reduction of endomorphisms of E modulo P?",
@@ -889,15 +889,15 @@
   },
   {
     "question": "According to the top answer, what is the main concern with implementing an automatic reputation penalty for comments flagged as rude or abusive?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You want to display Recently Viewed Products on the homepage of your e-commerce website for all visitors, including guests. After following the steps to configure this feature, you notice it's not working as expected. What could be the most likely cause of this issue?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A software developer is working on a Customer class with basic properties like firstname, surname, email, and dateofbirth. They've created a CustomerValidation class with a public method ValidateCustomer(Customer customer) that calls three private methods to validate name, email, and date of birth. The developer is concerned about unit testing this structure. Which of the following approaches would be the most appropriate to address their concerns about testability while maintaining good design principles?",
@@ -913,9 +913,9 @@
   },
   {
     "question": "According to the answer, what is the main issue with how mathematicians currently view proofs?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "According to the discussion, what is the main argument against limiting downvotes on poor quality questions?",
@@ -955,9 +955,9 @@
   },
   {
     "question": "You have a directory containing numerous *.org files, and you want to extract the content from the \"* Learnings\" header to the end of each file. Which of the following commands will correctly achieve this while maintaining separation between files?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In financial and trend analysis, what does the abbreviation Y/Y most likely represent, and how would you interpret \"+14x Y/Y\" in the context of user growth for an app?",
@@ -991,9 +991,9 @@
   },
   {
     "question": "A Magento developer is experiencing issues with their checkout page not displaying subtotals, discounts, and shipping information. After trying various troubleshooting steps, including disabling the custom theme, the problem persists. What is the most likely cause of this issue?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A data scientist is working with a logistic regression model using three feature sets: F1, F2, and F3. Before training, they apply weights to each feature set: w1 = 0.2, w2 = 0.9, and w3 = 0.000004. Which of the following statements is most accurate regarding the impact of these weights on the model?",
@@ -1003,15 +1003,15 @@
   },
   {
     "question": "An IT technician needs to connect a home LAN to a dock 800 feet away using Ubiquiti Nanobeams. The cable must run underwater for approximately 40 feet in brackish water. Which type of Ethernet cable is most suitable for this installation?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "According to Willie Sutton's explanation in his book \"Where the Money Was,\" what was his primary motivation for robbing banks, and how did he view the money he obtained?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You are working on a GIS project focusing on Amsterdam's road network. After downloading OSM data from the bbike website and loading the roads layer into QGIS, you notice strange artifacts where road sections cross the whole map in straight lines. What is the most appropriate solution to this problem?",
@@ -1021,9 +1021,9 @@
   },
   {
     "question": "In mathematical proofs, which of the following statements is true regarding Skewes' number?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A student with a 2:1 degree in mathematics wants to improve their chances of getting into a graduate program. Which of the following approaches is most likely to succeed, according to the advice given?",
@@ -1051,7 +1051,7 @@
   },
   {
     "question": "You are attempting to run a container using Podman, but are encountering permission issues. Which of the following command modifications would help resolve the problem, assuming you have already installed fuse-overlayfs?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -1081,15 +1081,15 @@
   },
   {
     "question": "A data scientist encounters an ImportError when trying to use train_test_split from sklearn. The error message states \"ImportError: cannot import name '_safe_split'\". What is the most likely cause and solution for this issue?",
-    "model_answer": "C",
-    "correct_answer": "C",
-    "is_correct": true
-  },
-  {
-    "question": "When cutting a 6-foot laminate kitchen countertop in half to fit two 36-inch base cabinets, which of the following is the best solution to address potential shortfall due to saw blade width?",
     "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false
+  },
+  {
+    "question": "When cutting a 6-foot laminate kitchen countertop in half to fit two 36-inch base cabinets, which of the following is the best solution to address potential shortfall due to saw blade width?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
   },
   {
     "question": "Consider a random graph G with vertices from the set [n] = {1,...,n} for some natural number n. Let S_n be the set of all graphs with vertex set [n], and S be the union of all S_n for n from 1 to infinity. If P is a probability measure defined on the power set of S, which of the following statements is correct?",
@@ -1111,7 +1111,7 @@
   },
   {
     "question": "Given that \u03c6(x) is the standard Normal probability density function and \u03a6(x) is its cumulative distribution function, which of the following statements is correct for all real x?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -1129,15 +1129,15 @@
   },
   {
     "question": "Consider the Hewitt-Marczewski-Pondiczery theorem, which states that for $m \u2265 \u2135_0$, if {X_s : s \u2208 S} are topological spaces with d(X_s) \u2264 m and |S| \u2264 2^m, then d(\u220f_s X_s) \u2264 m. Using this theorem, what can we conclude about the density of 2^\u03c9_1?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false
   },
   {
     "question": "Given the complex numbers a, b, c, and d satisfying the system of equations:\n\na + b + c + d = 3\na\u00b2 + b\u00b2 + c\u00b2 + d\u00b2 = 5\na\u00b3 + b\u00b3 + c\u00b3 + d\u00b3 = 3\na\u2074 + b\u2074 + c\u2074 + d\u2074 = 9\n\nLet an = a\u207f + b\u207f + c\u207f + d\u207f. Which of the following recurrence relations correctly describes an+3 in terms of previous terms?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a Magento 2 e-commerce website, you want to display the customer's last name when they access their account. Which of the following approaches would be the most efficient and maintainable way to implement this feature?",
@@ -1147,9 +1147,9 @@
   },
   {
     "question": "When using the tcolorbox package with a tabularx environment inside, what is the most effective way to modify the boxrule (frame width) of the tcolorbox?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A software developer is taking a survey about their work experience. The survey first asks \"How long have you worked in the software development / IT industry?\" and then asks \"What industry are you in?\" The developer works on creating banking software. How should they answer these questions?",
@@ -1177,7 +1177,7 @@
   },
   {
     "question": "Consider the function u(x,y) = (1/2)log(x^2+y^2) defined on the annulus \u03a9 = {0 < r < |z| < R}. Which of the following statements is correct regarding the existence of a holomorphic function on \u03a9 whose real part is u?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false
   },
@@ -1195,9 +1195,9 @@
   },
   {
     "question": "In de Sitter space, which of the following statements is true regarding the behavior of time-like or null geodesics?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A circular coil is rotating in a uniform magnetic field as shown in the diagram. Which of the following statements is correct regarding the magnetic flux through the coil?",
@@ -1213,9 +1213,9 @@
   },
   {
     "question": "Given the following Python code for solving the \"smaller counts\" problem:\n\n```python\nimport bisect\n\ndef smaller_counts(lst):\n   result = []\n   seen = []\n   for num in reversed(lst):\n      i = bisect.bisect_left(seen, num)\n      result.append(i)\n      bisect.insort(seen, num)\n   return list(reversed(result))\n```\n\nWhat is the correct time complexity of this algorithm, and what would be a more efficient approach?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A Magento 2 e-commerce site is experiencing an error on the category pages with the message \"The bucket doesn't exist.\" Which of the following is the MOST comprehensive solution to resolve this issue?",
@@ -1225,9 +1225,9 @@
   },
   {
     "question": "In vanilla Skyrim, how are multiple owned horses managed and what happens to them when not in use?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In Bash scripting, you're trying to create a wrapper function for the 'find' command that can accept any arguments. You've encountered an issue where quoting the arguments inside the function causes errors. Which of the following approaches would correctly solve this problem?",
@@ -1237,9 +1237,9 @@
   },
   {
     "question": "You want to delete all files in the current directory except those with extensions .bmp, .wav, and .png, regardless of case. Which of the following bash commands will accomplish this task while also handling hidden files?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the context of the film \"Tears of the Sun,\" what is the most accurate interpretation of the phrase \"These guys run the damned Olympics\" as used by Kelly Lake?",
@@ -1267,9 +1267,9 @@
   },
   {
     "question": "A user has upgraded from an iPhone 4S to an iPhone 5S and restored the new phone from the old phone's backup. Now, in the \"Find My Friends\" app, their location is showing twice under the same device name. What is the correct procedure to remove the old device from \"Find My Friends\" in iOS 8?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You want to create a responsive layout that changes based on the screen orientation and width. Which of the following CSS media query combinations would correctly implement a sidebar layout for landscape orientation on screens wider than 600px, while maintaining a full-width layout for portrait orientation or narrower screens?",
@@ -1303,9 +1303,9 @@
   },
   {
     "question": "A scientist is studying a newly discovered radioactive isotope. They have a sample containing 5 \u00d7 10^20 atoms of this isotope. After observing the sample for 2 years, they detect no decay events. Based on this information, what is the best estimate for the minimum half-life of this isotope?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A user is having trouble adding the movie \"Sita Sings the Blues\" to their iTunes library and syncing it with their iPad. Which of the following approaches is most likely to resolve the issue without requiring the use of iTunes?",
@@ -1339,9 +1339,9 @@
   },
   {
     "question": "A GIS service is experiencing performance issues due to a high volume of requests. The current configuration includes 100 service instances with a minimum pool size of 100 and a maximum pool size of 200. What would be the most effective initial step to improve performance without significantly increasing costs?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the Kittens Game, a player is struggling to survive the winter season. Which combination of strategies would be most effective in ensuring the survival of their cat population?",
@@ -1375,9 +1375,9 @@
   },
   {
     "question": "You are preparing a LaTeX document for submission to an American Chemical Society (ACS) journal using the achemso package. Which of the following combinations of preamble and bibliography commands would be most appropriate for this purpose?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A student is considering switching from Windows 10 to Ubuntu 15.10 for their laptop. Given the student's needs and the laptop's specifications, which of the following statements is most accurate?",
@@ -1405,9 +1405,9 @@
   },
   {
     "question": "In academic writing, when adding a footnote reference at the end of a sentence, which of the following statements is most accurate regarding the placement of the footnote marker and its relationship to tense?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A junior developer is consistently writing code that checks for null after object instantiation, like this:\n\n```csharp\nPerson p = new Person();\nif (p != null)\n{\n    p.Name = \"John Smith\";\n}\n```\n\nAs a senior developer, what is the BEST approach to address this issue?",
@@ -1435,9 +1435,9 @@
   },
   {
     "question": "Which of the following objects is considered to be one of the roundest natural objects in the known universe, and why?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You need to perform an LDAP search to find a specific user named \"john-doe\" in your organization's directory. The LDAP server is located at ldap.mycompany.com, and you want to search the entire \"People\" organizational unit. Which of the following ldapsearch commands would correctly accomplish this task?",
@@ -1453,9 +1453,9 @@
   },
   {
     "question": "You have two files, fileA and fileB. FileA contains two columns of data, while fileB contains only one column. You need to remove lines from fileA if the string in its first column does not appear in fileB. Which of the following commands would correctly accomplish this task, assuming both files are already sorted on the first column?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following statements about participial phrases and relative clauses is most accurate?",
@@ -1471,9 +1471,9 @@
   },
   {
     "question": "A system administrator has set up a daily backup job using anacron with the following entry in /etc/anacrontab:\n\n1 15 daily-backup /usr/local/bin/backup.sh\n\nThe system experiences an unexpected 3-day outage. When it comes back online on the fourth day, how many times will the backup job run?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You have a directory containing multiple XML files, each with various width and height attributes that you want to remove. Which of the following commands would most efficiently accomplish this task for all XML files in the current directory?",
@@ -1555,7 +1555,7 @@
   },
   {
     "question": "You need to copy a file named \"config.json\" to a directory with spaces in its path while using the home directory shorthand. Which of the following commands will correctly accomplish this task?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -1567,9 +1567,9 @@
   },
   {
     "question": "A system administrator wants to optimize DNS resolution on a Linux system. Which combination of settings in resolv.conf would both distribute queries among multiple nameservers and reduce waiting time for responses?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A system administrator accidentally removed all users from the sudo and admin groups on an Ubuntu system without setting a root password. What is the most appropriate method to regain administrative access to the system?",
@@ -1579,15 +1579,15 @@
   },
   {
     "question": "You're using Google Chrome and want to download a file from a URL instead of having it automatically display or play in the browser. Which of the following methods is NOT a valid way to accomplish this task?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false
   },
   {
     "question": "A system administrator is attempting to connect to a remote MySQL database using the command line. They are encountering an error when trying to connect. Which of the following is the most likely cause of the error \"ERROR 2003 (HY000): Can't connect to MySQL server on '192.168.1.145' (110 Connection timed out)\"?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a scenario where a Linux Virtual Machine has been compromised through an attack like SQL injection, what is the most secure and recommended approach to address the situation?",
@@ -1597,15 +1597,15 @@
   },
   {
     "question": "Given a file with content in the format \"key1=value1|key2=value2|...\", which of the following commands will correctly extract only the values, maintaining the original delimiter structure?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following JavaScript functions correctly replaces a div with a form containing a textarea for editing a user's bio?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following statements about time series anomaly detection algorithms is most accurate?",
@@ -1615,9 +1615,9 @@
   },
   {
     "question": "An administrator is experiencing issues with outgoing multicast traffic being blocked by the uncomplicated firewall (ufw) on a Linux system. Which combination of firewall rules would most effectively resolve this issue while maintaining security?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A web developer is trying to implement a web crawler using the Anemone gem in Ruby, but needs to access pages behind a login form. Which of the following approaches would be most suitable for this task?",
@@ -1627,9 +1627,9 @@
   },
   {
     "question": "A software company is developing a closed-source Android app that uses several open-source libraries with MIT, BSD modern, and Apache 2.0 licenses. The company wants to comply with the license requirements but is unsure about the best way to display copyright notices. Which of the following approaches is most likely to be compliant with the open-source licenses and align with best practices?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A Magento 2 developer is experiencing an error when trying to open simple products. The error message mentions \"Class Temando\\Shipping\\Model\\Source\\PackagingType does not exist\". After disabling the Temando_Shipping module, the issue persists. What series of steps should the developer take to resolve this issue?",
@@ -1675,9 +1675,9 @@
   },
   {
     "question": "In the Blizzard custom game Starjeweled, which combination of units is recommended as an effective strategy against higher-level AI opponents?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a JavaScript environment that doesn't support ES2015 features (such as older versions of Internet Explorer), which of the following methods would correctly add a dynamic property to an existing object?",
@@ -1687,9 +1687,9 @@
   },
   {
     "question": "In the given context, why is the use of \"hypothetical\" to describe NASA's wishes potentially problematic, and what would be a more appropriate word choice?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a multiple linear regression model with dependent variables having positive, negative, and zero values that are not normally distributed, which of the following statements is most accurate regarding data transformation?",
@@ -1705,21 +1705,21 @@
   },
   {
     "question": "A user is experiencing issues with their CD drive not auto-mounting in Ubuntu. Which of the following troubleshooting steps would be most appropriate to start with, given the information provided?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
-  },
-  {
-    "question": "A user is experiencing issues with emergency alerts on their iPhone 6 running iOS 9.3.2 on T-Mobile. Which of the following troubleshooting steps is most likely to resolve the problem, according to Apple support?",
-    "model_answer": "A",
-    "correct_answer": "A",
     "is_correct": true
   },
   {
-    "question": "You have a list of custom objects representing employee data, and you need to export this data to Excel. You decide to use a DataTable as an intermediary step. Which of the following code snippets correctly creates a DataTable and populates it with data from your custom object list?",
-    "model_answer": "C",
+    "question": "A user is experiencing issues with emergency alerts on their iPhone 6 running iOS 9.3.2 on T-Mobile. Which of the following troubleshooting steps is most likely to resolve the problem, according to Apple support?",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false
+  },
+  {
+    "question": "You have a list of custom objects representing employee data, and you need to export this data to Excel. You decide to use a DataTable as an intermediary step. Which of the following code snippets correctly creates a DataTable and populates it with data from your custom object list?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
   },
   {
     "question": "A developer is experiencing errors in their shell script on a Unix-based system. The error messages indicate issues with command not found and syntax errors. What is the most likely cause of these problems, and how can they be resolved?",
@@ -1765,9 +1765,9 @@
   },
   {
     "question": "A user has installed Ubuntu 12.04 alongside Windows 7 on a VAIO E14A16 laptop, but upon reboot, the system starts Windows 7 directly. Pressing F11 results in a \"no operating system found\" message. What is the most likely cause of this issue and the recommended first step to resolve it?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "When using the `ecta` bibliography style in LaTeX, which of the following modifications is necessary to properly display a URL for a `@misc` entry?",
@@ -1783,9 +1783,9 @@
   },
   {
     "question": "An Excel user wants to create a single legend for multiple graphs to save space. Which of the following methods is recommended for achieving this in all versions of Excel on Windows?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A system administrator is trying to set up a file synchronization system across multiple geographically distributed servers. Which of the following statements best describes the complexity and recommended approach for this task?",
@@ -1825,15 +1825,15 @@
   },
   {
     "question": "When pronouncing consonant clusters like \"fts\" in the word \"tufts\", what is the most natural approach for native English speakers?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false
   },
   {
     "question": "You are working on a Chromebook terminal without a mouse or GUI, and you need to copy a large block of text from your screen output. Which of the following methods would be the most appropriate and effective solution, given the limitations of your system?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An engineer is troubleshooting a TPS57160-Q1 step-down converter with unstable output voltage at high input voltages. Which of the following modifications is most likely to improve the stability of the control loop, especially when dealing with ceramic output capacitors?",
@@ -1867,7 +1867,7 @@
   },
   {
     "question": "In the IyzicoPkiStringBuilder class, there's an error occurring when trying to access the last element of an array. Which of the following code snippets correctly retrieves the last element of the $data array?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -1879,9 +1879,9 @@
   },
   {
     "question": "A user noticed that their Microsoft Live Sign-in Helper in Internet Explorer 9 stopped showing multiple Live IDs for easy sign-in after a browser tab crash. What was the actual cause of this issue, and what does it reveal about software support?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following statements best describes the importance of installing Hyper-V Integration Services on modern Windows guest operating systems (Windows 7, 8, Server 2008 R2, or Server 2012) running on Hyper-V 2008 R2 SP1 or 2012?",
@@ -1891,13 +1891,13 @@
   },
   {
     "question": "A junior developer is trying to fetch all rows from a MySQL table where the \"COLOR\" column has the value \"red\". They have written the following PHP code:\n\n```php\n$query = \"SELECT * FROM table WHERE COLOR = 'red'\";\n$result = mysqli_query($conn, $query);\nwhile($row = mysqli_fetch_assoc($result)) {\n    echo $row['ID'] . \" \" . $row['COLOR'] . \" \" . $row['LENGTH'] . \"<br>\";\n}\n```\n\nWhat improvements should be made to this code to follow best practices and enhance security?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A company uses three subnets (10.0.0.0/16, 10.1.0.0/16, and 10.2.0.0/16) connected by Layer 3 switches. A new gateway (10.0.0.1) has been configured, and the network administrator wants to test routing traffic from a workstation in the 10.2.0.0/16 subnet through this new gateway. Which of the following approaches is most likely to succeed in routing traffic from the 10.2.0.0/16 subnet to the new gateway at 10.0.0.1?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -1921,9 +1921,9 @@
   },
   {
     "question": "A Ubuntu user is experiencing issues with apt update, getting stuck on connecting to security.ubuntu.com via IPv6. The ping and traceroute outputs show 100% packet loss. What is the most appropriate first step to troubleshoot and potentially resolve this issue?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You have a table with multiple rows, each containing two select elements and an input field with an \"Add\" button. You want to retrieve the values of all select options and the input text for the specific row when the \"Add\" button is clicked. Which of the following jQuery code snippets would correctly accomplish this task?",
@@ -1969,15 +1969,15 @@
   },
   {
     "question": "In LaTeX, you want to patch the 'center' environment using etoolbox, but only for a specific portion of your document. Which of the following approaches would correctly achieve this localized patching?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false
   },
   {
     "question": "A homeowner is examining an unusual textured wallpaper in their newly purchased house. Based on the information provided, which of the following statements is most accurate regarding this type of wallpaper?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a Skyrim game on PS3 where a follower has disappeared after reinstalling DLC, which of the following methods is most likely to resolve the issue without losing significant game progress?",
@@ -1999,9 +1999,9 @@
   },
   {
     "question": "You need to configure IP restrictions for the IIS Management Service (port 8172) on a Windows Server 2012 R2 Core installation. Which of the following approaches is the most appropriate and secure method to accomplish this task?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A developer has created a simple data storage system for a medium-sized application using PHP files and JSON encoding. As the application grows, they are considering whether to keep the current system or migrate to MySQL. Which of the following statements best describes the most appropriate course of action for the developer?",
@@ -2041,9 +2041,9 @@
   },
   {
     "question": "An engineer is analyzing the circuit shown in the image. Assuming the diode in the output is removed, what is the approximate voltage gain of this non-inverting amplifier configuration?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a classification problem using a maximum a posteriori probability (MAP) estimator, a researcher wants to measure the confidence of the classification decision. Which of the following statements is most accurate regarding the use of posterior probabilities as a confidence measure?",
@@ -2071,9 +2071,9 @@
   },
   {
     "question": "When installing electrical wiring to a detached garage 80 feet from the main house, which of the following approaches is most recommended according to modern electrical practices?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You are working on a Rust project and want to compile and run a Rust file named \"calculator.rs\" located in your \"Desktop\" directory, but your current working directory is \"Downloads\". Which of the following commands would correctly compile the Rust file?",
@@ -2083,9 +2083,9 @@
   },
   {
     "question": "A system administrator wants to restrict access to a service running on port 7071 to only allow connections from IP address 1.2.3.4. Which of the following iptables rule combinations would achieve this goal securely?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Stack Overflow, a popular Q&A platform for developers, uses which of the following combinations of technologies for its backend infrastructure?",
@@ -2107,9 +2107,9 @@
   },
   {
     "question": "Consider a topological space X defined as \u03c9\u2081 + 1, where \u03c9\u2081 is the first uncountable ordinal. X is topologized with a base of closed sets generated by (i) countable initial segments [0,\u03b1], and (ii) the singleton {\u03c9\u2081}. Which of the following statements about X is correct?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Based on the unit upgrade chart for Civilization V, which of the following upgrade paths is correct?",
@@ -2143,15 +2143,15 @@
   },
   {
     "question": "An Ingress player is trying to track their progress towards the Guardian badge. Which of the following statements is true regarding portal ownership tracking in Ingress?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You are using dotfiles to sync your configuration files to GitHub. After creating a symbolic link from your dotfiles repository to your home directory, you encounter permission issues. Which of the following approaches is most likely to resolve this problem while maintaining the benefits of using dotfiles?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In an MVC architecture, when implementing a paginated and sortable product list with database queries, which of the following approaches is considered the best practice for balancing maintainability, readability, and performance?",
@@ -2179,9 +2179,9 @@
   },
   {
     "question": "A player experiences significant lag spikes while playing FTB Monster modpack. Which of the following is the most likely solution to this problem, based on the information provided?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An Arch Linux user installed GIMP after using Evince as their default PDF reader. Suddenly, PDF files started opening in GIMP instead of Evince. After trying several solutions without success, which file is most likely responsible for this unexpected behavior?",
@@ -2215,9 +2215,9 @@
   },
   {
     "question": "Which of the following statements about virtual globes is most accurate?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following statements best describes the difference between 'watershed' and 'landmark' when used metaphorically to describe events in someone's life?",
@@ -2239,15 +2239,15 @@
   },
   {
     "question": "A researcher is studying attitudes across different demographic groups using a survey. The dependent variable is a scale from 0 (extremely pessimistic) to 10 (extremely optimistic), and the independent variables are categorical (age groups, gender, education level). Which statistical method is most appropriate for analyzing this data to determine which demographic group exhibits the most pessimistic attitude?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A user is having trouble connecting to a WiFi network using netctl on a Linux system. After creating a profile named \"wireless-home\" and attempting to start it, the connection fails. What is the most likely cause of this issue and how should it be resolved?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A developer is refactoring a static FileHelper class to make it more testable. Which of the following approaches best achieves this goal while maintaining good design principles?",
@@ -2281,9 +2281,9 @@
   },
   {
     "question": "Which of the following commands will correctly process multi-word lines from standard input, treating each line as a single argument, and append \"DONE\" at the end of the output?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "An engineer is designing a device that needs to produce a consistent ticking sound once per second for an extended period (potentially years). Based on the information provided, which of the following approaches is most likely to offer the best combination of reliability, simplicity, and longevity for this application?",
@@ -2353,9 +2353,9 @@
   },
   {
     "question": "In a versioned ArcSDE for SQL Server geodatabase, which of the following approaches is recommended to implement autonumbering for a field when the identity seed attribute in SQL Server is not an option?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An audio engineer is trying to measure the frequency of an MP3 music file using a Fluke True RMS multimeter connected to a smartphone's audio jack. The multimeter displays frequencies between 0-15 Hz. Which of the following best explains this unexpected reading?",
@@ -2377,9 +2377,9 @@
   },
   {
     "question": "In Age of Empires - Conquerors, which combination of units would be most effective against Korean War Wagons in a large-scale battle?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Consider a scenario where you have a list of InwardInventory objects, each containing a set of InwardOutwardList items. You want to calculate the total quantity for each product, grouped by product name and measurement unit. Which of the following Java streams operations would correctly achieve this?",
@@ -2443,9 +2443,9 @@
   },
   {
     "question": "In R, you have a dataframe 'Example' with categorical columns Q1 and Q2, both containing levels \"Dissatisfied\", \"Neutral\", and \"Satisfied\". You want to collapse the levels \"Neutral\" and \"Satisfied\" into a single level \"Satisfied\" for both columns simultaneously. Which of the following code snippets would correctly accomplish this task?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following statements is the most efficient method to prove that the polynomial x\u00b3 - 9 is irreducible over \u2124?",
@@ -2491,9 +2491,9 @@
   },
   {
     "question": "Which of the following LaTeX commands would correctly produce a barred bold Upsilon (\u03a5\u0304) in a math equation?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You are a data analyst tasked with collecting census data for every block group in New England, focusing on median income and median age. Which of the following approaches would be the most efficient and comprehensive method to obtain this data in bulk?",
@@ -2509,9 +2509,9 @@
   },
   {
     "question": "In the LaTeX code for creating a table with nested cells, what is the primary purpose of the \\nestedCell command?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "What is the recommended approach for handling suspected homework questions on StackExchange, according to the top answer?",
@@ -2539,21 +2539,21 @@
   },
   {
     "question": "Consider the \"theorem\" and \"proof\" presented above regarding the equivalence of Banach norms on a real vector space X. Which of the following statements correctly identifies the flaw in this reasoning?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false
   },
   {
     "question": "In a Stack Snippet, external CSS is injected into the <body> tag while internal CSS is placed in the <head>. This can cause issues with CSS specificity and overriding. Which of the following solutions would correctly allow you to include an external stylesheet while ensuring your custom styles take precedence?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A company produces Product A using Product B. To obtain Product B, they can transform either Product C or Product D. The probability of successfully transforming Product C to B is 50%, while the probability of successfully transforming Product D to B is 25%. The cost of Product C is $100, and the cost of Product D is $60. What is the most cost-effective strategy for producing Product A, and what is the expected cost of obtaining Product B using this strategy?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following search patterns would you use in the Corpus of Contemporary American English to find words that contain the letters \"exa\" anywhere in the word?",
@@ -2575,9 +2575,9 @@
   },
   {
     "question": "A system administrator wants to automate the process of starting Cygwin and running a specific Java command on Windows startup. Which of the following approaches is the most appropriate and efficient way to achieve this?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "When migrating data from an old Mac to a new Mac with different short names, which of the following statements is true?",
@@ -2587,9 +2587,9 @@
   },
   {
     "question": "A system administrator is experiencing intermittent issues with a hostapd-configured access point on Ubuntu 12.04. The access point works for several hours before stopping new connections. Which of the following troubleshooting steps is MOST likely to resolve the issue long-term?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An organization is planning to implement Bandwidth-on-Demand from their ISP, with a limit of 8Mbps for both upstream and downstream traffic. They want to set up an Ubuntu server as a gateway to distribute traffic to four subnets, each with its own interface. Which of the following approaches is most likely to effectively limit the total bandwidth on the internet-facing interface to avoid exceeding the 8Mbps limit and incurring additional costs?",
@@ -2635,9 +2635,9 @@
   },
   {
     "question": "A homeowner wants to reduce energy costs associated with their gas water heater. Based on the information provided, which of the following solutions would be the most cost-effective way to achieve this goal?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In PHP, which of the following statements about array syntax is correct?",
@@ -2647,9 +2647,9 @@
   },
   {
     "question": "In Ubuntu, the method for removing the Workspace Switcher icon from the Unity dock has evolved across different versions. Which of the following accurately describes the correct removal method for Ubuntu 14.04 AND the setting location for Ubuntu 13.04?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A server running KVM virtualization with 3 guests is experiencing performance issues and OOM-killer events despite appearing to have sufficient free memory. What is the most likely root cause of this problem based on the information provided?",
@@ -2677,15 +2677,15 @@
   },
   {
     "question": "A mechanical engineer is conducting an experiment with a beam that has a magnet coupled to its free end, moving inside a coil to transfer energy from the mechanical domain to an electrical circuit. The coil has 27,000 turns of AWG 34 wire, resulting in a 3.3 k\u03a9 resistance and 10.8 H inductance. The engineer wants to reduce the internal resistance of the coil without physically altering it. Which of the following methods would be most effective and practical for this one-off experiment?",
-    "model_answer": "A",
-    "correct_answer": "A",
-    "is_correct": true
-  },
-  {
-    "question": "A homeowner is planning to install a 12' x 16' rectangular patio that needs to drain to one corner. The high end of the patio will be 4\" above the existing grade. If the recommended slope for proper drainage is 1/4\" per foot, what should be the height difference between the highest and lowest corners of the patio base?",
     "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false
+  },
+  {
+    "question": "A homeowner is planning to install a 12' x 16' rectangular patio that needs to drain to one corner. The high end of the patio will be 4\" above the existing grade. If the recommended slope for proper drainage is 1/4\" per foot, what should be the height difference between the highest and lowest corners of the patio base?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
   },
   {
     "question": "In LaTeX, when defining commands within a tcolorbox listing environment, why might a command defined in one listing be unavailable in a subsequent listing, and how can this be resolved?",
@@ -2695,9 +2695,9 @@
   },
   {
     "question": "You are troubleshooting a Ubuntu 12.04 system and need to recreate some important initialization files. Which of the following sets of commands will correctly create and populate the /etc/init.d/.depend.stop, /etc/init.d/.depend.start, and /etc/init.d/.depend.boot files with the appropriate content?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a laser cavity, two groups of photons (Group 1 and Group 2) are initially incoherent with each other. Which of the following best describes the process by which one group typically comes to dominate, leading to coherent laser output?",
@@ -2713,9 +2713,9 @@
   },
   {
     "question": "In an Nginx server configuration for an AngularJS application, a developer is trying to set different caching rules for HTML files versus static assets (JS, CSS, images). The current configuration isn't working as expected. Which of the following changes would correctly allow both the location directive for static assets and the location directive for the /app path to be applied?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An engineer is designing a system to measure the voltage across a high-impedance RC integrator circuit and feed it into a low-impedance ADC. Which of the following solutions would be most appropriate to address the impedance mismatch, and why?",
@@ -2737,9 +2737,9 @@
   },
   {
     "question": "Consider a positive definite function f:\u211d\u2192\u211d that is continuous at 0, and a system x'=\u03c6(x) where 0 is a stable point at t=0. Which of the following additional conditions is sufficient to guarantee that lim inf_{t\u2192\u221e} f(x(t))=0 implies lim inf_{t\u2192\u221e} ||x(t)||=0?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A homeowner replaced their doorbell transformer, rated at 16V, but measured 22V with no load. When connected to the chime, the voltage dropped to 2V. Which of the following is the most likely cause and appropriate next step?",
@@ -2755,7 +2755,7 @@
   },
   {
     "question": "A user has upgraded their dual-boot system from Ubuntu 19.10 to 20.04 LTS and is experiencing issues with mouse and keyboard input not being recognized. Which of the following solutions is most likely to resolve the issue based on the information provided?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -2773,9 +2773,9 @@
   },
   {
     "question": "In Animal Crossing: New Horizons, if a player accidentally tells a villager to leave the island, which of the following methods can be used to convince the villager to stay?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A user on StackExchange attempted to correct a typo in an answer about battery capacity. The original text stated \"a 1500 mAh cell will provide 1500 mA for one hour or 500 mA for 43 hours or 850 mA for 2 hours\". Which of the following best describes the situation and the appropriate course of action?",
@@ -2815,9 +2815,9 @@
   },
   {
     "question": "A web developer is planning to buy a 13-inch MacBook Pro (2017) without Touch Bar and wants to connect an external monitor for coding and graphic design work. Which of the following statements is true regarding external display support for this MacBook Pro model?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In various institutional settings, what term is most universally applicable to describe a small medical facility for treating minor illnesses or injuries, especially when a full hospital is unavailable?",
@@ -2827,9 +2827,9 @@
   },
   {
     "question": "A Linux user is having trouble getting their Bluetooth headset to work with the HSP/HFP profile on their system. Which of the following steps is most likely to resolve the issue, based on the solution provided?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "On a StackExchange site, under what circumstances would it be appropriate for a user to flag their own post?",
@@ -2839,9 +2839,9 @@
   },
   {
     "question": "You are using VMware Player 2.5.0-118166 on Ubuntu 8.10 with Gnome 2.24.1 and need to send a Ctrl+Alt+Del command to your Windows virtual machine. Which of the following methods is most likely to work, considering the information provided?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A developer is creating self-signed certificates for a device that resets frequently. After upgrading to macOS Catalina, Chrome throws a NET::ERR_CERT_REVOKED error. Which combination of requirements must the developer ensure their certificates meet to resolve this issue?",
@@ -2863,9 +2863,9 @@
   },
   {
     "question": "A user is experiencing issues installing Windows 10 on an older i7 machine. The installation process results in a black screen with a blinking cursor. After extensive troubleshooting, what is the most likely cause of this problem?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following statements about methods for computing standard deviation is most accurate, according to the information provided?",
@@ -2929,15 +2929,15 @@
   },
   {
     "question": "Based on StackExchange's community guidelines, which of the following approaches is most appropriate when a user has a follow-up question related to their original post?",
-    "model_answer": "D",
-    "correct_answer": "A",
-    "is_correct": false
-  },
-  {
-    "question": "In macOS, under which circumstance would the \"Hide\" option for the current application be grayed out and unavailable?",
     "model_answer": "A",
     "correct_answer": "A",
     "is_correct": true
+  },
+  {
+    "question": "In macOS, under which circumstance would the \"Hide\" option for the current application be grayed out and unavailable?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
   },
   {
     "question": "In a system of 3 indistinguishable particles with three energy levels E={0,\u03b5,2\u03b5} and a total energy of 3\u03b5, how does the multiplicity compare for classical particles (with 1/N! correction), bosons, and fermions?",
@@ -2965,15 +2965,15 @@
   },
   {
     "question": "An engineer is working with old GPS data collected using a Trimble TSC1 Pro XRS device from 2000. The device has incorrectly set the date to 1998, causing issues with differential correction. What is the correct method to modify the date in the *.ssf files to allow for proper post-processing?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You have a set of percentages x1, ..., xn that were originally derived from non-negative integers a1, ..., an, but rounded to the nearest tenth of a percent. The original integers are unknown, but their sum N is also unknown. You want to recover the original integers or a scaled version of them. Which of the following approaches is most likely to succeed, given the constraints described?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a Magento Enterprise edition with multiple stores on a single domain, which combination of steps would correctly implement a feature allowing users to select their preferred store location, with products varying by location?",
@@ -2989,9 +2989,9 @@
   },
   {
     "question": "A developer is working on a Mac and needs to run a Node.js application on a remote Ubuntu server. The application should continue running even after the developer logs out of the SSH session. Which of the following methods is most appropriate for achieving this?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "According to the top answer, what is the recommended approach for dealing with an incorrect answer from a new user on StackExchange?",
@@ -3007,15 +3007,15 @@
   },
   {
     "question": "You want to move a file from one directory to another and then immediately change to the destination directory. Which of the following function definitions would allow you to accomplish this with a single command?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An ideal monatomic gas is separated into two volumes V1 and V2 by a diathermic piston, with each volume containing N atoms at an initial temperature T0. The system is isolated from the surroundings by insulating walls. The piston is reversibly manipulated until the gases reach thermodynamic equilibrium. Which of the following statements is correct regarding this process?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "What is Stack Exchange's policy regarding the implementation of joke or troll badges on their platform?",
@@ -3025,9 +3025,9 @@
   },
   {
     "question": "Consider a noetherian algebraic stack X with finite inertia. Which of the following statements correctly characterizes when X has the property that H^i(X; F) = 0 for all quasi-coherent sheaves F on X and all i > 0?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A developer is experiencing 404/Not Found errors when trying to access the Magento storefront and admin after installation. Which of the following steps is most likely to resolve this issue?",
@@ -3061,9 +3061,9 @@
   },
   {
     "question": "An engineer needs to generate a 120 MHz square wave signal for testing a SerDes (Serializer/Deserializer) component. The signal source will not be directly adjacent to the IC. Which of the following approaches would be the most cost-effective and suitable for this application?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Consider a complex SU(3) triplet field \u03be with Lagrangian L = (\u2202_\u03bc\u03be\u2020)(\u2202^\u03bc\u03be) - \u03bc\u00b2(\u03be\u2020\u03be) - \u03bb(\u03be\u2020\u03be)\u00b2. After spontaneous symmetry breaking (SSB), how many Goldstone bosons are produced and what is the residual symmetry?",
@@ -3109,9 +3109,9 @@
   },
   {
     "question": "In a professional setting, you're informing users about a screen sharing session that is scheduled but hasn't begun. Which of the following is the most appropriate and grammatically correct message to display?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A student is using the Monte Carlo method to estimate \u03c0 by simulating random points in a unit square containing a quarter circle. Which of the following statements is correct about this method?",
@@ -3133,9 +3133,9 @@
   },
   {
     "question": "A player wants to maximize their Legendary Mark earnings in Destiny: The Taken King over a 7-day period. Assuming they complete all available activities and win all their Crucible matches, how many Legendary Marks can they earn in total, excluding dismantling items and quest rewards?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Which of the following sentences correctly uses modal verbs and maintains consistent verb forms?",
@@ -3151,15 +3151,15 @@
   },
   {
     "question": "In a Magento e-commerce system, a store owner wants to update product prices for their US store only, without affecting prices in other stores. Which configuration change and code modification would achieve this?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "When using SSH with a jumpbox, which of the following methods would allow you to bypass host key checking for both the jumpbox and the target host?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following statements is true regarding the `cd` command in Unix-like operating systems?",
@@ -3169,9 +3169,9 @@
   },
   {
     "question": "Based on the data from Stack Overflow question trends between 2008 and 2012, which of the following statements is most accurate?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In Magento 2, you want to add custom JavaScript functionality to a product listing page. Which of the following approaches is the recommended way to include and initialize your custom JavaScript?",
@@ -3199,9 +3199,9 @@
   },
   {
     "question": "In Shakespeare's \"Love's Labour's Lost,\" how does Rosaline describe Biron's wit and discourse?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following sentences correctly uses the \"not only... but also\" structure while maintaining proper grammar and clarity?",
@@ -3223,9 +3223,9 @@
   },
   {
     "question": "A Mac user experiences an issue where some applications in their dock have a slash through their icons and won't launch, displaying a message that they can't be run. The problem only affects one user account, and some troubleshooting steps have been attempted. What is the most efficient and comprehensive solution to address this issue?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following statements is true regarding the `\\UD@ExtractFirstOpeningBraceStringified` macro?",
@@ -3289,9 +3289,9 @@
   },
   {
     "question": "A data scientist is trying to install the GeoPandas package in their Anaconda environment but encounters compatibility issues. Which of the following approaches is most likely to resolve the problem and successfully install GeoPandas?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "As a newly appointed team leader for a group of software developers, which combination of actions would be most effective in creating a productive and satisfying work environment?",
@@ -3349,9 +3349,9 @@
   },
   {
     "question": "An astronomer wants to use IRAF (Image Reduction and Analysis Facility) on their Ubuntu system. Based on the information provided, which of the following statements is most accurate and helpful for installing and maintaining IRAF?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a residential plumbing system using PEX pipes, what is the primary purpose of the different colored sleeves (black, blue, and red) used on the pipes?",
@@ -3361,13 +3361,13 @@
   },
   {
     "question": "Which of the following best explains the linguistic phenomenon observed in the phrase \"What do you got?\" as used in the movie \"A Stranger Among Us\"?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false
   },
   {
     "question": "According to Faedo's theorem on Cauchy functions, which of the following is a necessary condition for a function \u03a6(X,Y) \u2208 C\u00b2(\u211d\u00b2\\E) to be a Cauchy function?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -3379,9 +3379,9 @@
   },
   {
     "question": "A refrigerator contains several items and is in regular use. You have a six-pack of room temperature beer that you want to cool for later consumption. Which of the following statements is most accurate regarding the energy efficiency of cooling the beer?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the game Diablo 3, the achievement \"Prepared for Battle\" requires equipping all inventory slots with items that have a minimum required level of 60 or higher. Which of the following statements is true regarding items with \"Reduced Level Requirement\" affixes?",
@@ -3415,15 +3415,15 @@
   },
   {
     "question": "When using the natbib package with bibunits in LaTeX, what is the correct way to redefine the \\cite command to allow for optional punctuation before the citation number?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A user has a Windows 10 mini PC connected to their TV and controls it remotely using VNC. They notice that the cursor disappears when no mouse is physically plugged into the PC. Which of the following solutions would most effectively address this issue while allowing for continued remote control without a physical mouse?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a JSP page, you need to convert a String parameter received from a form submission to an integer for further processing. Which of the following methods is the correct way to achieve this conversion?",
@@ -3445,9 +3445,9 @@
   },
   {
     "question": "Based on the relationship between independent systems in probability theory and Lagrangian mechanics, which of the following statements is most accurate?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following statements most accurately describes the structure and operation of a TRIAC?",
@@ -3475,9 +3475,9 @@
   },
   {
     "question": "When reviewing a low-quality one-line answer on StackExchange that is over a year old, what is the most appropriate course of action according to the given guidance?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In Path of Exile, a player is using a Spellslinger + Volatile Dead build that creates numerous visual effects, making it difficult to see other elements in the game. What options does the player have to address this issue?",
@@ -3517,27 +3517,27 @@
   },
   {
     "question": "In the game Bloons TD, a Dart Monkey is upgraded to a Spike-O-Pult (3,0 upgrade). If you then upgrade it on the second path to 3,2, what is the total number of bloons that can be popped by a single attack?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Consider the group G of conformal automorphisms of \u211d\u00b2. Let H be the group of translations (x,y) \u21a6 (x+m, y+n), and K be the group of translations (x,y) \u21a6 (x+m, y+2n), where m and n are integers. Which of the following statements is correct regarding the relation [H] \u2264 [K] as defined in the context of conjugate subgroups?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A web developer is setting up a testing environment to mimic MediaTemple's GridService for PHP sites. They encounter an issue where environment variables set in .htaccess using SetEnv are being prepended with \"REDIRECT_\" when accessed in PHP. Which of the following solutions would most likely resolve this issue while maintaining compatibility with the production environment?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A user of Apple Mail on macOS has accidentally hidden the Email preview pane and is unable to restore it by dragging with the mouse. Which of the following methods will successfully restore the Email preview pane?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An audio engineer is experiencing harmonic noise when using a Tascam iM2 stereo mic connected to an iPhone 4S via a dock extension cable. The noise has a 1-kHz fundamental frequency and persists across different extension cables. What is the most likely cause of this noise, and what would be the most effective solution?",
@@ -3565,9 +3565,9 @@
   },
   {
     "question": "Which of the following modifications would correctly increase the font size of the mathematical equations within the given LaTeX code segment?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Which of the following statements best describes an effective approach to understanding Perelman's proof of the Poincar\u00e9 Conjecture, according to the expert's advice?",
@@ -3577,15 +3577,15 @@
   },
   {
     "question": "In Python, what is the primary reason for avoiding implicit relative imports and using explicit relative or absolute imports instead?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the game described, what are the key steps to obtain the Shield of Valor and complete the \"Knight in Shining Armor\" achievement?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A web developer is considering implementing OpenID authentication for a new application. Based on the information provided, which of the following statements best describes the most user-friendly and practical approach to implementing OpenID?",
@@ -3619,9 +3619,9 @@
   },
   {
     "question": "A gravitational wave detector uses a Michelson interferometer with arm lengths L\u2081 and L\u2082. The input laser has wavelength \u03bb and amplitude E\u2080. If the arm length difference \u0394L = L\u2081 - L\u2082 changes by 10\u207b\u00b2\u00b2 m due to a passing gravitational wave, what is the approximate fractional change in the output intensity, assuming the interferometer was initially set to the middle of a fringe (i.e., \u0394L \u2248 0 initially)?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Consider an infinite-state Markov chain on the positive integers, where from state i, the process moves to state j with probability p_j, independent of i. Which of the following statements is true regarding the existence of a stationary distribution for this Markov chain?",
@@ -3631,9 +3631,9 @@
   },
   {
     "question": "A system administrator is trying to force log off a problematic user from a Remote Desktop Services (RDS) server. Which of the following methods is most likely to succeed in logging off the user when other common approaches have failed?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A DevOps engineer is trying to automate a deployment process using a bash script. The script needs to modify permissions of certain configuration files. However, when run as the 'deploy' user, the script fails to change file permissions. What is the most secure and recommended approach to resolve this issue?",
@@ -3685,9 +3685,9 @@
   },
   {
     "question": "Which of the following sentences is grammatically correct and most appropriate for formal academic writing about U.S. demographics?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A homeowner wants to install a webcam to check for mail while abroad. Their home internet connection uses DHCP with an internal network address. Which solution would be most practical and secure for accessing the webcam remotely?",
@@ -3721,9 +3721,9 @@
   },
   {
     "question": "A GIS analyst wants to add a company logo and title to a webmap created with qgis2web in QGIS. Which of the following approaches would be the most flexible and maintainable solution for achieving this goal?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Let f and g be two functions in Lp space. Which of the following inequalities is correct?",
@@ -3745,9 +3745,9 @@
   },
   {
     "question": "A company wants to use their custom domain name \"CompanyDomain.com\" (registered with GoDaddy) to display content hosted on a shared hosting service with the URL \"shared-host.987654321.com\" (provided by 1and1). They want to ensure that the shared hosting URL is always hidden from users and that page titles are preserved. What is the most effective way to achieve this?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a PHP application, you have two pages: movie1-rev01.php and moviesite-rev03.php. The first page contains a hyperlink to the second page, passing a variable 'favmovie' through the URL. On the second page, you want to retrieve and display this variable. Which of the following methods would correctly retrieve the 'favmovie' variable on moviesite-rev03.php?",
@@ -3757,9 +3757,9 @@
   },
   {
     "question": "When creating a new route to load the same controller for multiple ResourceModels in a Magento 2 grid setup, what is the minimum required step to get the new route (e.g., admin/grid2/grid/) to display content correctly?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Consider a smooth function f(x,y) defined for x > 0 and y > 0. Which of the following conditions is necessary and sufficient for f to be almost positive, as defined by f(x\u2081,y\u2081)f(x\u2082,y\u2082) - f(x\u2081,y\u2082)f(x\u2082,y\u2081) \u2265 0 for all 0 < x\u2081 \u2264 x\u2082 < \u221e and 0 < y\u2081 \u2264 y\u2082 < \u221e?",
@@ -3781,7 +3781,7 @@
   },
   {
     "question": "Consider the class of bounded sequences to which every Banach limit assigns the same limit value. Which of the following statements is correct regarding the relationship between this class and sequences with convergent Ces\u00e0ro means?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -3823,9 +3823,9 @@
   },
   {
     "question": "You want to share audio from your Mac with two different Bluetooth devices simultaneously. Which of the following methods will NOT allow you to achieve this?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the context of the chi-square (\u03c7\u00b2) test for contingency tables, which of the following statements is correct?",
@@ -3895,15 +3895,15 @@
   },
   {
     "question": "In Pok\u00e9mon X/Y, which of the following is NOT a requirement to obtain the DNA Splicer?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "John has posted two answers on Stack Overflow. Answer 1 has 27 upvotes and 2 downvotes. Answer 2 has 30 upvotes and 5 downvotes. John hasn't received the Good Answer silver badge yet. Which of the following statements is correct?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A company is deciding between Google Fusion Tables and Amazon Web Services (AWS) for storing and managing their spatial data. Which of the following statements is true regarding the storage capabilities and limitations of these services?",
@@ -3913,21 +3913,21 @@
   },
   {
     "question": "In the context of hyperbolic geometry, let \u03a9 be a connected domain in the hyperbolic plane H^2, and u: \u03a9 \u2192 H^2 be an orientation-preserving C^1 isometry from \u03a9 to its image. Which of the following statements is correct regarding the representation of u?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "When redefining a LaTeX macro to add content without using a temporary variable, which of the following methods is most appropriate and compatible with packages like titlesec?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a bathroom renovation project where water damage has led to the removal of the subfloor, you encounter obstacles preventing traditional blocking installation. What is the most appropriate solution for supporting the subfloor in the joist bay containing the toilet flange?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A hobbyist is designing a small electronic device where the wiring will be subject to occasional bending and light stretching. Which of the following wire specifications would be the most suitable for this application, considering flexibility, durability, and cost-effectiveness?",
@@ -3943,7 +3943,7 @@
   },
   {
     "question": "In a game show, there are three buttons, each of which can be either red (r) or white (w). The contestant wins if all three buttons are the same color. What is the probability of winning?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -3967,7 +3967,7 @@
   },
   {
     "question": "In professional email communication, which of the following closing salutations is generally considered the most universally acceptable across different English dialects and contexts?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false
   },
@@ -3985,7 +3985,7 @@
   },
   {
     "question": "In relativistic thermodynamics, which of the following statements is correct regarding the grand canonical ensemble?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -3997,15 +3997,15 @@
   },
   {
     "question": "When replacing images in an Xcode project, you encounter an error stating that a file you've deleted still exists. What is the correct sequence of steps to resolve this issue and successfully replace the image?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In QGIS Graphical Modeler, you want to combine the Intersection and Dissolve algorithms. You've set up the model to use the output of the Intersection algorithm as input for the Dissolve algorithm. However, you're having trouble configuring the Dissolve algorithm to select specific attributes for dissolving. What is the most appropriate solution to this problem?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A student conducts an experiment with iron filings and a bar magnet. She observes that the filings form patterns along the magnetic field lines, but not all filings move to the poles. Which of the following best explains this phenomenon?",
@@ -4015,9 +4015,9 @@
   },
   {
     "question": "In XFCE 4.10, a user experiences a delay when right-clicking on the desktop to open the menu, but no delay when using the menu button on the panel. What is the primary cause of this delay, and what are two potential solutions to improve the response time?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A system administrator is configuring iptables rules on a cPanel server to improve security. Which of the following statements accurately describes the implications of the provided iptables configuration?",
@@ -4045,9 +4045,9 @@
   },
   {
     "question": "A retail company is developing a predictive model for product sales based on price and other variables. The data is noisy due to diverse products and unmeasured factors. The model needs to make future predictions for different products, seasons, and client bases. Which of the following approaches is most likely to be both effective and practical for this scenario?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Sarah wants to ensure that her Messages application on her Mac is online and ready to use as soon as she logs in. Which of the following methods would NOT help her achieve this goal?",
@@ -4087,9 +4087,9 @@
   },
   {
     "question": "In a Fine & Gray competing risk analysis for breast cancer death, you want to assess the interaction between race and chemotherapy. You've fitted two models: one without the interaction (crr.cov1) and one with the interaction (crr.cov1int). How would you correctly test the significance of this interaction?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An electronics technician is replacing a blown fuse in an amplifier. The fuse holder is labeled \"125V 5A\", but the technician is unsure about the fuse's time-delay characteristics. Which of the following statements is most accurate regarding fuse identification and selection?",
@@ -4099,9 +4099,9 @@
   },
   {
     "question": "An engineer is designing a circuit with a variable resistor that experiences 'crackling' noise due to unavoidable DC voltage exposure. Which of the following solutions would be most effective in reducing this noise while maintaining the desired 0-4k resistance range and minimizing circuit complexity?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An Android developer has created an application that works well in portrait mode but has issues with missing controls when viewed in landscape orientation. Which of the following approaches would be the most comprehensive solution to ensure the app displays correctly in both orientations?",
@@ -4111,9 +4111,9 @@
   },
   {
     "question": "When importing a third-party library like TapkuLibrary into an Xcode project, what is the correct approach for setting up the header search paths and import statement?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A network administrator wants to monitor port utilization and packet statistics on a SOHO (Small Office/Home Office) router that doesn't support SNMP or port mirroring. What is the most feasible method to accomplish this with minimal physical intrusion?",
@@ -4141,9 +4141,9 @@
   },
   {
     "question": "What is the minimum character count required in an answer's body (excluding the link) to prevent it from being automatically converted to a comment on Stack Exchange sites?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In PHP, you're developing a product catalog system and need to store information about product groups. Which of the following approaches is the most appropriate and maintainable way to structure this data?",
@@ -4225,9 +4225,9 @@
   },
   {
     "question": "In LaTeX, when using the minted package for code highlighting, what is the correct syntax to define a custom path for inputting code files from multiple directories?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In PCB design for low current and low frequency applications, which of the following practices is generally recommended by experienced designers?",
@@ -4249,21 +4249,21 @@
   },
   {
     "question": "Which of the following statements best reflects the relationship between MVC (Model-View-Controller) and PHP frameworks?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A user is experiencing issues with Mail on their Mac OS X Snow Leopard (10.6.8) system. Which sequence of steps should they follow to resolve the compatibility problem?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "When using Tikzposter to create a poster with columns and subcolumns, how can you reduce the distance between subcolumns?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A developer is testing a web application on a Windows 7 host machine and needs to check its compatibility with IE6 using a Windows XP virtual machine. The application's configuration files reference \"localhost\". What is the most accurate statement about attempting to map \"localhost\" in the virtual machine to the host machine's IP address?",
@@ -4285,9 +4285,9 @@
   },
   {
     "question": "A web developer is looking to implement caching for dynamic PHP pages without making extensive code changes. Which of the following solutions best addresses this requirement while potentially minimizing code modifications?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A student attempts to charge a lead-acid battery using a computer power supply unit (PSU). Which of the following statements is correct regarding this setup and its implications?",
@@ -4297,9 +4297,9 @@
   },
   {
     "question": "In constructive mathematics, which of the following statements about Cauchy complete Archimedean ordered fields is correct?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A system administrator is trying to automate a task using xdotool to interact with Firefox, but the script is not working as expected. Which of the following is the most likely reason for the script's failure?",
@@ -4309,7 +4309,7 @@
   },
   {
     "question": "A network administrator is troubleshooting connectivity issues between two subnets: 10.0.0.0/24 and 10.9.0.0/24. Pings are successful, but SSH connections freeze after establishing a connection. After investigation, what is the most likely cause of this issue?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -4321,9 +4321,9 @@
   },
   {
     "question": "In Civilization V, what are the implications of adopting a religion founded by another civilization?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following statements about logging in Python is most accurate and aligned with best practices?",
@@ -4339,15 +4339,15 @@
   },
   {
     "question": "You have two JPEG images (page1.jpg and page2.jpg) that you want to combine into a single two-page PDF document. Which of the following command sequences will correctly accomplish this task using command-line tools?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Which LaTeX command is used in the given solution to place the page number below the task number without occupying any horizontal space?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A software development team is conducting code reviews. Which of the following statements best reflects the ideal approach to selecting participants for these reviews?",
@@ -4357,21 +4357,21 @@
   },
   {
     "question": "Which of the following statements about linear recurrence sequences and polynomials is correct?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false
   },
   {
     "question": "You are developing a UI5 application and need to display the sum of two numeric fields (D1 and D2) in a Text control. Which of the following XML snippets correctly implements this using Expression Binding?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following methods is described as a reliable way to determine the path of the directory containing the running script across multiple shell environments?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A GIS analyst is working with two datasets: a point layer of meteorological stations with 5km buffers, and a polygon layer of municipalities. The analyst wants to calculate the percentage of each buffer area occupied by different municipalities. Which of the following approaches in QGIS would be most efficient for handling large datasets (500 buffers and 500 municipalities) and providing the desired percentage results?",
@@ -4429,9 +4429,9 @@
   },
   {
     "question": "A user has been experiencing issues with outdated LaTeX packages on an online LaTeX editor platform. Where should they report maintenance issues for ShareLaTeX?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In No Man's Sky, which of the following statements about learning Atlas words is most accurate?",
@@ -4453,9 +4453,9 @@
   },
   {
     "question": "Given the sequence An = {3, 7, 11, -15, -19, -23, ...}, which of the following formulas correctly generates this sequence without using floor functions, trigonometric functions, or absolute value operations?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the context of video game performance optimization, particularly for Minecraft, what is the primary reason that disabling sound effects might lead to an increase in frame rate (FPS)?",
@@ -4465,9 +4465,9 @@
   },
   {
     "question": "A user is attempting to install ibus-avro on Ubuntu 12.10 after upgrading from 12.04. They encounter dependency issues and decide to compile from source. Which of the following steps is NOT necessary for successfully compiling and installing ibus-avro from source?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following sentences demonstrates correct parallel structure in its verb forms?",
@@ -4519,9 +4519,9 @@
   },
   {
     "question": "Based on the information provided about the Twin Shadows item in League of Legends, which of the following statements is most accurate regarding its interaction with stealthed champions?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A new Vim user is struggling with editing their _vimrc file located in the Program Files directory. What is the best practice for managing Vim configuration files on Windows?",
@@ -4531,9 +4531,9 @@
   },
   {
     "question": "A user is looking for a tool to enhance their reading experience by allowing them to underscore important parts and take notes directly on the text. Which of the following options best meets their needs?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You want to install Trello on your Ubuntu system. After downloading the Trello zip file, which sequence of commands would correctly install and set up Trello on your system?",
@@ -4579,15 +4579,15 @@
   },
   {
     "question": "You are working with two QGIS layers: 'Final cellsites' and 'Lighting columns'. Both layers have a field called \"new_name\". You want to select features in the 'Lighting columns' layer based on the selected features in the 'Final cellsites' layer, matching the \"new_name\" values. Which of the following PyQGIS code snippets would correctly accomplish this task?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "According to the top answer, what is the main issue with automatically re-opening a question after it has been edited?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You are tasked with understanding and maintaining a complex ETL pipeline in Scala that transforms data from protobuf schema A to protobuf schema B. Which approach is most recommended for creating an accurate mapping between fields in schema A and schema B?",
@@ -4633,15 +4633,15 @@
   },
   {
     "question": "Which of the following statements best describes the key issue with the inductive approach presented in the original proof?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false
   },
   {
     "question": "Consider the packing of circles with radii 1/2, 1/3, 1/4, ... into a unit disk. \n\nPart 1: What is the total area of all these circles?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Consider the partial sum $S_n = \\frac{1}{2} + \\frac{2}{4} + \\frac{3}{8} + \\cdots + \\frac{n}{2^n}$. Which of the following statements is true?",
@@ -4693,9 +4693,9 @@
   },
   {
     "question": "A MacBook user with parental restrictions is unable to open Firefox, receiving an error message stating \"A copy of Firefox is already open.\" What is the most likely cause of this issue and the correct solution?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You are working on a PyQGIS project and need to select multiple features from a layer based on their IDs. You have a list of IDs stored in the variable `id_list`. Which of the following code snippets would correctly select all features whose IDs are in the `id_list`?",
@@ -4705,9 +4705,9 @@
   },
   {
     "question": "In the circuit described for controlling a 1 1/2hp pump to fill a large tank, what is the primary function of RLY1?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A user is experiencing an issue where pressing the ESC key in Vim's insert mode causes iTerm2 to minimize instead of returning to normal mode. What is the most likely cause of this problem and how can it be resolved?",
@@ -4717,9 +4717,9 @@
   },
   {
     "question": "When using wood chips in landscaping, which of the following practices is recommended?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A company wants to set up a Network Attached Storage (NAS) device on their local network. Which of the following statements is true regarding the functionality of the NAS in the event of an internet outage?",
@@ -4729,9 +4729,9 @@
   },
   {
     "question": "Given a file named 'data.txt' containing the following line:\n\n1280654445itemitemURLhttps://site.site.com/user-user/fooo/210615/file.name.jpg?1280654445name\n\nWhich sed command would you use to extract only the URL (https://site.site.com/user-user/fooo/210615/file.name.jpg) from this line?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A Magento store owner wants to disable shopping functionality for certain store views, allowing products to be displayed as a catalog but preventing customers from adding items to the cart. Which combination of actions would be most effective in achieving this goal?",
@@ -4741,7 +4741,7 @@
   },
   {
     "question": "Consider a random variable Y ~ Ber(p) and X|Y distributed as Y*N(0,\u03c3\u2081\u00b2) + (1-Y)*N(0,\u03c3\u2082\u00b2). Given p = 0.4, \u03c3\u2081 = 2, and \u03c3\u2082 = 3, which of the following statements is correct about the marginal distribution of X?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -4777,15 +4777,15 @@
   },
   {
     "question": "In the sentence \"Carlos wrote a letter to his uncle,\" what is the grammatical function of the phrase \"to his uncle\"?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false
   },
   {
     "question": "Consider the following statements about Tikhonov regularization and ridge regression:\n\nI. Tikhonov regularization always uses a scalar multiple of the identity matrix as the regularization matrix.\nII. Ridge regression typically assumes that the predictor variables are scaled so that X^T X forms a correlation matrix.\nIII. The solution to ridge regression can be expressed as (X^T X + \u03bbI)^(-1)X^T b, where \u03bb \u2265 0.\nIV. Tikhonov regularization is a more general form of regularization compared to ridge regression.\n\nWhich combination of statements is correct?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You want to improve your efficiency in navigating directories in the command line. Which of the following options would allow you to change to a subdirectory simply by typing its name, without using the 'cd' command explicitly?",
@@ -4801,15 +4801,15 @@
   },
   {
     "question": "When working with large datasets in ArcGIS (e.g. 200,000 rows), which of the following approaches is likely to be the fastest for finding the minimum value in a field and then performing calculations based on that value?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following statements best describes the relationship between the logical and physical aspects of stacks and queues?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following statements accurately describes the functionality of WikiRhymer.com as a rhyming resource?",
@@ -4849,7 +4849,7 @@
   },
   {
     "question": "When regrading the ground around a house to improve drainage, which of the following combinations is most recommended?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false
   },
@@ -4903,9 +4903,9 @@
   },
   {
     "question": "A software company is developing a new social media platform and needs to implement a system for managing user agreements to Terms of Service (ToS). Which of the following approaches would be the most comprehensive and legally sound method for tracking user agreement to the ToS?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "Which of the following sentences best expresses the idea of knowing someone for a long duration of time, extending into the near future?",
@@ -4921,9 +4921,9 @@
   },
   {
     "question": "In the given passage, what is the most likely interpretation of the phrase \"throw a pallet at her\" in relation to Jean Clark?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following statements best describes the recommended action for the 'light' tag on StackOverflow, according to the discussion?",
@@ -4933,9 +4933,9 @@
   },
   {
     "question": "When creating custom description environments in Beamer presentations, which of the following approaches is recommended?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Consider a sequence of functions fn:[0,1] \u2192 \u211d\u00b3 such that ||fn|| \u2264 5 for all n. Which of the following statements is necessarily true?",
@@ -4969,9 +4969,9 @@
   },
   {
     "question": "A GIS analyst is working with 14 polygon layers representing a river channel at different time periods. After overlaying these layers, gaps appear between the polygons. The analyst needs to fill these gaps while preserving the original properties of each layer for further analysis. Which of the following methods would be most appropriate to achieve this goal?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In Counter-Strike: Global Offensive (CS:GO), weapon skins come in different qualities. Which of the following statements is true regarding the \"Factory New\" quality of weapon skins?",
@@ -4981,7 +4981,7 @@
   },
   {
     "question": "You are developing a custom module for Magento 2 that adds a new column to the admin sales order grid. The column should display the attribute set name of the first product in each order. You've implemented the code, but you're encountering an error when trying to place an order. What is the most likely cause of this issue?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false
   },
@@ -5077,9 +5077,9 @@
   },
   {
     "question": "You're a system administrator for a company that uses Macs. A user reports that Spotlight stops responding to keyboard input periodically. Which of the following solutions would you recommend to resolve this issue without rebooting the system?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following statements best describes the relationship between angular momentum and rotations in quantum mechanics, as derived from the given explanation?",
@@ -5089,9 +5089,9 @@
   },
   {
     "question": "A homeowner notices their toilet cistern is taking much longer to fill after flushing (about 15 minutes instead of less than 1 minute) and producing a loud hissing sound. What is the most likely cause of this problem and the recommended solution?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following statements best explains why black holes cannot be directly observed using conventional electromagnetic imaging techniques?",
@@ -5107,9 +5107,9 @@
   },
   {
     "question": "You are experiencing frequent crashes in QGIS and want to investigate the cause. Which of the following approaches is most likely to provide useful debugging information for identifying the source of the crashes?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following statements most accurately reflects the linguistic interpretation of the phrase \"teleport anywhere in the world\" according to the StackExchange explanation?",
@@ -5137,15 +5137,15 @@
   },
   {
     "question": "When attempting to clip two SpatialPolygons objects in R using gIntersection(), you encounter a TopologyException error indicating a self-intersection issue. Which of the following approaches is most likely to resolve this problem while maintaining the integrity of the original polygons?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "When creating a navigation menu with a hover effect that adds a bottom border, what CSS property can be used to prevent the text from shifting upwards when the border appears?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Consider the sum S(x) = \u2211(p\u2264x) 1/ordp(2)^2, where ordp(2) is the multiplicative order of 2 modulo p, and the sum is over primes p not exceeding x. Based on the given inequality for a related sum, which of the following statements is most likely to be true?",
@@ -5173,7 +5173,7 @@
   },
   {
     "question": "The TeX.SX logo on StackExchange was adjusted to address a kerning issue. What specific changes were made to improve its appearance and make it more \"TeX-like\"?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -5185,9 +5185,9 @@
   },
   {
     "question": "You need to create a full static copy of a WordPress website for offline browsing. Which of the following wget commands would be most appropriate, and why?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "In the sentence \"These six categories are also consistent with those used to group the multiple-choice questions included in this chapter,\" what is the most accurate grammatical analysis of the phrase \"used to group the multiple-choice questions included in this chapter\"?",
@@ -5221,9 +5221,9 @@
   },
   {
     "question": "In a stealth-based video game, you've accidentally fired your weapon, triggering a police response. The exit is now blocked by officers who will shoot on sight. Which of the following strategies is most likely to allow you to complete the level successfully?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Consider a graph Laplacian L = UVU\u1d40 for a weighted, undirected graph on n vertices. Which of the following statements is true regarding the transformation of a signal on vertices into frequency space without computing the entire spectrum of L?",
@@ -5245,9 +5245,9 @@
   },
   {
     "question": "Which of the following regular expressions correctly matches valid city names according to the given criteria, allowing for names like \"Coeur d'Alene\" and \"St. Thomas-Vincent\" while rejecting invalid formats like \"San. Tan. Valley\" and \"St.. Thomas\"?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A college lab administrator wants to install the 'Spyder' software on all computers connected to the LAN. Which of the following approaches is most suitable for managing this task efficiently across multiple machines, especially if similar tasks may need to be performed in the future?",
@@ -5257,7 +5257,7 @@
   },
   {
     "question": "Consider the volume of revolution formed by rotating the region bounded by y = x\u00b3, y = 0, and x = 1 about the line x = 2. Which of the following statements is correct regarding the calculation of this volume?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -5281,7 +5281,7 @@
   },
   {
     "question": "An outdoor circuit is being planned for two bird bath heaters (60W and 80W) and a light fixture. The circuit is on a 15-amp breaker. What is the maximum wattage light fixture that can be safely added to this circuit, assuming no other loads and using a 16-gauge extension cord?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false
   },
@@ -5299,9 +5299,9 @@
   },
   {
     "question": "In a domestic water system with a backflow prevention device, where should an expansion tank be installed, and why is it necessary?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the context of political campaigns, what is the official term for a dedicated bank account used to manage funds raised for election-related expenses such as advertising, campaign materials, and transportation costs?",
@@ -5323,9 +5323,9 @@
   },
   {
     "question": "A wildlife biologist is analyzing aerial survey data of animal populations in QGIS. They want to visually separate the observations made from the left and right sides of the aircraft by shifting the point data 100 meters in opposite directions. Which QGIS tool and settings should they use to accomplish this task?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a LaTeX document using the svmono class and babel package, an error occurs: \"Missing \\begin{document}. \\newlabel{Einleitung}{{1}{1}}\". To resolve this issue while using pgfplots to create a horizontal bar chart with symbolic y-coordinates, which of the following modifications should be made to the axispower style?",
@@ -5335,9 +5335,9 @@
   },
   {
     "question": "A researcher is analyzing survey data with 18 questions and 472 respondents, where each question has three possible responses: \"Agree,\" \"Neutral,\" or \"Disagree.\" The researcher wants to assess the association between responses across different questions. Which of the following approaches is most appropriate for this analysis?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following statements accurately describes the behavior of temporary variable assignment in Bash when used with functions?",
@@ -5353,7 +5353,7 @@
   },
   {
     "question": "An engineer is attempting to dim LEDs using PWM on an Arduino. They want to achieve the maximum dimming range possible. Which of the following approaches would be most effective for increasing the dimming range beyond the standard 8-bit (0-255) PWM resolution?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false
   },
@@ -5365,15 +5365,15 @@
   },
   {
     "question": "A home network is set up with Cat6 cabling (rated at 10 Gbps) throughout the house, but the modem/router only supports 1 Gbps Ethernet. What is the most effective way to maximize network performance for network-attached storage and other high-bandwidth applications within the local network?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A DIY enthusiast has created custom hooks using galvanized steel wire for various household purposes. Which of the following commercially available hooks most closely resembles the third hook described, which was used for hanging a coat rack?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "When using BibTeX for references in LaTeX, which of the following sequences is the correct order of commands to properly compile a document with citations?",
@@ -5449,13 +5449,13 @@
   },
   {
     "question": "A developer is tasked with implementing a round-robin email system for 5 users. The system should send an email to one user at a time, cycling through the list in order. Which of the following approaches is the most appropriate for tracking which user should receive the next email?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In Cookie Clicker's Pantheon, which configuration of Spirits would be most beneficial for an AFK (away-from-keyboard) playstyle that occasionally pops Wrinklers?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false
   },
@@ -5485,9 +5485,9 @@
   },
   {
     "question": "Based on the anecdote shared in the StackExchange post, what primary lesson can be derived about online usernames and real-life interactions?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A user with an iPhone X running iOS 13.2 is experiencing high cellular data usage, particularly from \"System Services\" and \"Documents & Sync\". Which of the following settings is most likely contributing to this issue, even when iCloud Drive syncing over cellular network is turned off?",
@@ -5521,9 +5521,9 @@
   },
   {
     "question": "In the Shangri La levels of a particular game, players can interact with entities called \"seekers.\" What is the primary gameplay benefit of finding these seekers during a mission?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In a home automation system using relays to emulate 4-way switches, which of the following statements is correct regarding the relay configuration and wiring?",
@@ -5533,9 +5533,9 @@
   },
   {
     "question": "A homeowner is trying to replace old kitchen cabinet hinges. Based on the images and description provided, which of the following best describes the type of hinge being replaced?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Let A be an \ud835\udc05p-algebra such that \u03a9_{A/\ud835\udc05p} = 0. Which of the following statements is true?",
@@ -5557,21 +5557,21 @@
   },
   {
     "question": "A web developer is trying to optimize the database connection for a Joomla application by using a UNIX socket instead of TCP/IP. Which of the following configurations in Joomla's database connection settings would correctly implement this change?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You are a developer using IntelliJ IDEA on Arch Linux and encounter a startup warning about JetBrains Runtime. Which sequence of steps would most effectively resolve this issue?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You are developing a new Linux desktop environment and want to integrate it with the existing `xdg-open` utility. Which of the following steps would be the most appropriate approach to ensure that `xdg-open` uses your custom `ts-open` utility when your desktop environment is detected?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An engineer is designing a circuit to power a 4V device from a 5V source, with the ability to switch the device on and off using a digital signal. Which of the following solutions would be most appropriate and cost-effective for this application?",
@@ -5593,9 +5593,9 @@
   },
   {
     "question": "In Lubuntu 11.10, a user wants to bind the main menu to the Windows key alone. Which of the following key bindings in the ~/.config/openbox/lubuntu-rc.xml file would correctly achieve this?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following best describes the usage and meaning of the idiomatic expression \"You the man!\"?",
@@ -5617,15 +5617,15 @@
   },
   {
     "question": "A graduate student in topology is seeking to bridge the gap between abstract algebra concepts and geometric intuition in the context of manifolds and homotopy groups. Which of the following books would be most suitable for addressing this specific need?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Consider a vertical strip in the complex plane with an angle \u03b1 where 0 < \u03b1 < \u03c0/2. A harmonic function f(z) is defined on this strip such that f = 0 on the left boundary and f = 1 on the right boundary. Which of the following statements is correct regarding the explicit form of this harmonic function?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "When using JavaFX version 2.2.60-ea-b15, a developer encounters an error while trying to create a new PerspectiveCamera object with the following code:\n\n```java\nPerspectiveCamera camera = new PerspectiveCamera(false);\n```\n\nThe error message states: \"constructor PerspectiveCamera in class PerspectiveCamera cannot be applied to given types;\"\n\nWhat is the most likely cause of this error?",
@@ -5635,15 +5635,15 @@
   },
   {
     "question": "An IT administrator is running their own email server (Postfix) and DNS servers (BIND) on openSUSE 11.2. They're experiencing issues sending emails to Comcast users due to reverse DNS lookup failures. What is the most likely cause and solution for this problem?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following statements best explains the difference in electrical safety practices between the UK and the USA regarding the use of yellow sleeves on earth wires in junction boxes?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In financial reporting, the phrase \"market rally peters out\" is commonly used. What does this expression mean?",
@@ -5695,9 +5695,9 @@
   },
   {
     "question": "Consider a continuous function f:[0,1] \u2192 [0,1]. Which of the following statements is true regarding the Hausdorff dimension of the inverse image f^(-1)(x) for x in [0,1]?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Given the NP-hardness proof for maximizing the real part of the product of a subset of complex numbers on the unit circle, which of the following statements is correct?",
@@ -5719,9 +5719,9 @@
   },
   {
     "question": "You've recently switched from a PC to a Mac and want to manage your photos efficiently. Which of the following approaches best addresses the concerns of avoiding duplicates, maintaining an organized folder structure, and allowing manipulation through iPhoto?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An embedded systems engineer is designing a frequency detection system using an ATmega328P microcontroller. The system currently detects square wave frequencies and lights up LEDs based on specific frequency thresholds. The engineer now wants to add a feature to indicate when no signal is being received. Which of the following approaches would be the most efficient and reliable way to implement this \"no signal\" detection?",
@@ -5749,9 +5749,9 @@
   },
   {
     "question": "A developer is experiencing issues with speech synthesis in Chromium browser on Ubuntu 16.04.2. Which combination of steps is most likely to resolve the problem?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You are using rsync to synchronize files from a remote machine to a local network drive. You want the copied files to adopt the default permissions of the destination folder, rather than preserving the source permissions. Which of the following rsync command options would you use to achieve this?",
@@ -5767,9 +5767,9 @@
   },
   {
     "question": "When upgrading package A from version 1.0.0 to 1.0.1, where package B depends on A, and A's prerm script fails during the upgrade process, what is the most likely outcome?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Based on the StackExchange discussion about answer acceptance, which of the following statements most accurately reflects the perspective presented in the top answer?",
@@ -5785,9 +5785,9 @@
   },
   {
     "question": "Which of the following statements most accurately and clearly expresses the idea of completing homework assignments six times over three days?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false
+    "is_correct": true
   },
   {
     "question": "A user's computer crashed, forcing a reboot. They had important text copied to their clipboard before the crash. Which of the following statements is most accurate regarding clipboard data recovery and future prevention of such losses?",
@@ -5797,9 +5797,9 @@
   },
   {
     "question": "In a linear regression model, you have centered both the feature X (height of newborn babies) and the label Y (weight of newborn babies). What does the intercept (b) of the resulting linear equation y' = mx' + b represent?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A researcher has performed k-means clustering on a dataset and wants to validate the results. They are considering using ANOVA to test for significant differences between the clusters. Which of the following statements is most accurate regarding this approach?",
@@ -5815,9 +5815,9 @@
   },
   {
     "question": "In LaTeX, you're trying to create a figure that combines a rectangle and a circle, where the circle partially overlaps the rectangle, but you only want to see the outer edges of both shapes. Which of the following approaches is the correct way to achieve this effect?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following statements best describes the usage and meaning of \"showing\" in the context of pregnancy?",
@@ -5827,15 +5827,15 @@
   },
   {
     "question": "A developer has created a custom file system in Linux and wants to share it over NFS without modifying the local NFS server. Which of the following statements best describes the feasibility and requirements of this scenario?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You want to enable Power Nap functionality on your Mac while it's connected to AC power. Which of the following command-line options would correctly accomplish this task?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "An aspiring science fiction writer is crafting a scene where their protagonist must navigate through an asteroid field. Based on scientific understanding, which of the following descriptions would be most accurate for a realistic asteroid field?",
@@ -5857,9 +5857,9 @@
   },
   {
     "question": "You need to set up a cron job to backup a MySQL database daily, with each backup file named using the current date. Which of the following cron job commands would correctly accomplish this task?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following idiomatic expressions best conveys the idea that a particular thought or concept is causing persistent worry or concern?",
@@ -5875,9 +5875,9 @@
   },
   {
     "question": "Which of the following statements best describes the phrase \"let go your hand\" in modern English usage?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "In the context of the Coordinator pattern in iOS development, which of the following statements is most accurate regarding the use of Storyboards?",
@@ -5905,9 +5905,9 @@
   },
   {
     "question": "A teacher is creating a test where students must match proverbs to ten different situations. Which of the following instructions most clearly and accurately conveys that each situation should be represented by exactly one proverb?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "Which of the following statements best reflects the distinction between \"expert in\" and \"expert on\" as described in the passage?",
@@ -5923,9 +5923,9 @@
   },
   {
     "question": "An iPhone user wants to open street addresses from Messages and Calendar in Google Maps instead of Apple Maps. Which of the following statements is true regarding this functionality on iOS?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A GIS analyst is working with two different GeoTIFF maps for a maritime distance calculation project. The first map uses WGS 84 coordinates, while the second uses WGS 84 / UTM zone 33N. The analyst needs to crop both maps using GPS coordinates, but encounters an error when trying to crop the second map. Which of the following approaches would most likely resolve this issue?",
@@ -5953,15 +5953,15 @@
   },
   {
     "question": "In The Witcher 2, what specific actions must be taken to ensure the in-game map properly updates and displays the player's position after reloading the game?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A user is experiencing an issue in Microsoft Outlook where the previous line of text is hidden after pressing enter, and the cursor becomes stuck. What is the most likely cause and solution for this problem?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "A researcher is conducting a Wilcoxon signed-rank test on paired before-and-after data. The data is highly skewed. Which of the following statements is most accurate regarding the use of this test in this situation?",
@@ -5989,14 +5989,14 @@
   },
   {
     "question": "When using the `extract()` function in R to calculate mean pixel values from a RasterStack over polygons, which of the following is most likely causing the error \"unable to find an inherited method for function 'extract' for signature 'numeric', 'SpatialPolygonsDataFrame'\"?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   },
   {
     "question": "You have a comma-separated file with 5 fields per line. You need to extract lines where the 3rd field is 'c' and the 5th field is not empty. Which of the following awk commands will correctly accomplish this task?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true
+    "is_correct": false
   }
 ]
