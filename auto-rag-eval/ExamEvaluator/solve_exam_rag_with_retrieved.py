@@ -6,6 +6,7 @@ from typing import List, Dict
 from LLMServer.llama.llama_instant import LlamaModel
 from LLMServer.llama_gcp.llama_gcp_instant import LlamaGcpModel
 from LLMServer.gcp.claude_instant import ClaudeGcp
+from LLMServer.gcp.gemini_instant import GeminiGcp
 from tqdm import tqdm
 
 model_config = {
@@ -121,16 +122,10 @@ def evaluate_performance(exam: List[Dict], results: List[str]) -> float:
 # Main function to run the exam
 def run_rag_exam(model_device, model_path: str, model_name: str, task_name: str, exam_file: str, retriever: str):
     exam = load_exam(exam_file)
-    if model_device == "GCP":
-        print("Using transformer")
-        model = LlamaGcpModel(
-            model_size="70B",
-            use_gpu=True,
-            model_config=model_config,
-            # load_in_4bit=True,
-            )
+    if model_device == "gemini":
+        model = GeminiGcp(model_name=model_name)
     elif model_device == "claude":
-        model = ClaudeGcp()
+        model = ClaudeGcp(model_name=model_name)
     else:
         print("Using Llama-cpp")
         model = LlamaModel(model_path=model_path)
@@ -165,10 +160,12 @@ def run_rag_exam(model_device, model_path: str, model_name: str, task_name: str,
 
 if __name__ == "__main__":
     # model_device = "GCP"
-    model_device = "claude"
+    # model_device = "claude"
+    model_device = "gemini"
     model_path = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF"
     # model_name = "llamav2"
-    model_name = "claude"
+    # model_name = "claude"
+    # model_name = "claude-3-5-haiku@20241022"
     # model_name = "llama3_70b"
     # task_name = "StackExchange"
     # folder_name = "claude_gcp_2024103016"
@@ -183,15 +180,18 @@ if __name__ == "__main__":
     folder_name = "claude_gcp_2024110616"
     retrievers = ["BM25", "DPR", "SIAMESE", "MultiQA", "DPR:MultiQA:BM25"]
     task_names = ["Arxiv", "LawStackExchange", "SecFilings", "StackExchange"]
+    model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
     
-    for task_name in task_names:
-        print(f"Processing {task_name}")
-        exam_file = f"Data/{task_name}/ExamData/{folder_name}/exam_1000_42.json"
-        # Create the full directory path
-        directory = f"Data/{task_name}/ExamResults"
-        os.makedirs(directory, exist_ok=True)
-        
-        for retriever in retrievers:
-            print(f"Retriever: {retriever}")
-            torch.cuda.empty_cache()
-            run_rag_exam(model_device, model_path, model_name, task_name, exam_file, retriever)
+    for model_name in model_names:
+        for task_name in task_names:
+            exam_file = f"Data/{task_name}/ExamData/{folder_name}/exam_1000_42.json"
+            # Create the full directory path
+            directory = f"Data/{task_name}/ExamResults"
+            os.makedirs(directory, exist_ok=True)
+            
+            for retriever in retrievers:
+                print(f"Model: {model_name}")
+                print(f"Processing {task_name}")
+                print(f"Retriever: {retriever}")
+                torch.cuda.empty_cache()
+                run_rag_exam(model_device, model_path, model_name, task_name, exam_file, retriever)
