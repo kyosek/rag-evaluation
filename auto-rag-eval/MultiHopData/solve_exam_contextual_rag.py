@@ -322,19 +322,20 @@ def main(task_domain: str, retriever_type: str, model_type: str, model_name: str
 
 if __name__ == "__main__":
     # Model family
-    model_type = "gemini"
-    # model_type = "claude"
+    # model_type = "gemini"
+    model_type = "claude"
     
     # Task domain
     task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     
     # Retriever type
-    # retriever_types = ["Dense", "Sparse", "Hybrid"]
-    retriever_types = ["Sparse"]
+    retriever_types = ["Dense", "Sparse", "Hybrid"]
+    # retriever_types = ["Sparse"]
     
     # Model name
-    model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
-    # model_names = ["claude-3-5-haiku@20241022", "claude-3-5-sonnet@20240620"]
+    # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
+    # model_names = ["claude-3-5-sonnet@20240620", "claude-3-5-haiku@20241022"]
+    model_names = ["claude-3-5-haiku@20241022"]
     
     # Reranker flag
     # rerank_flags = [False, True]
