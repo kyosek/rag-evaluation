@@ -98,7 +98,6 @@ class ExamSolver:
         for question in tqdm(questions):
             predicted_answer = self.solve_question(question, model)
             
-                
             question_result = {
             "question": question.question,
             "model_answer": predicted_answer,
@@ -145,7 +144,7 @@ def main(task_domain: str, model_type: str, model_name: str):
 
 if __name__ == "__main__":
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    task_domains = ["gov_report"]
+    task_domains = ["hotpotqa"]
     model_type = "claude"
     # model_type = "gemini"
     # model_name = "claude-3-5-haiku@20241022"

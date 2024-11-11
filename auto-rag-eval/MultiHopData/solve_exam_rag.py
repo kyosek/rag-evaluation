@@ -255,16 +255,16 @@ if __name__ == "__main__":
     
     # Task domain
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    task_domains = ["SecFilings"]
+    task_domains = ["wiki"]
     
     # Retriever type
-    # retriever_types = ["Dense", "Sparse", "Hybrid"]
-    retriever_types = ["Dense", "Hybrid"]
+    retriever_types = ["Dense", "Sparse", "Hybrid"]
+    # retriever_types = ["Dense", "Hybrid"]
     
     # Model name
     # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
     # model_names = ["claude-3-5-sonnet@20240620", "claude-3-5-haiku@20241022"]
-    model_names = ["gemini-1.5-flash-002"]
+    model_names = ["gemini-1.5-pro-002"]
     
     # Reranker flag
     # rerank_flags = [True, False]
