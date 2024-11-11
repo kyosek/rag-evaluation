@@ -9,7 +9,7 @@ import nltk
 from nltk.tokenize import word_tokenize
 from tqdm import tqdm
 
-from MultiHopData.retriever import Chunk, ChunkRetriever
+from MultiHopData.retriever import BaseRetriever, Chunk, ChunkRetriever, RerankingRetriever
 from LLMServer.llama_gcp.llama_gcp_instant import LlamaGcpModel
 from LLMServer.gcp.claude_instant import ClaudeGcp
 from LLMServer.gcp.gemini_instant import GeminiGcp
@@ -23,14 +23,6 @@ class ExamQuestion:
     choices: List[str]
     correct_answer: str
     documentation: List[str]
-
-
-class BaseRetriever(ABC):
-    """Abstract base class for different retrieval methods."""
-    @abstractmethod
-    def retrieve(self, query: str, k: int = 5) -> List[Tuple[str, float]]:
-        """Retrieve relevant documents for a query."""
-        pass
 
 
 class FAISSRetriever(BaseRetriever):
@@ -51,6 +43,7 @@ class FAISSRetriever(BaseRetriever):
         similar_chunks = self.chunk_retriever.find_similar_chunks(
             query_chunk,
             k=k,
+            similarity_threshold=0.5,
             exclude_same_doc=False
         )
         
@@ -123,14 +116,11 @@ class ExamSolver:
     
     def solve_question(self, question: ExamQuestion, model) -> str:
         """Solve a single exam question using RAG with LLM."""
-        # Retrieve relevant documents
         retrieved_docs = self.retriever.retrieve(question.question, k=self.n_documents)
         
-        # Prepare context
-        context = "\n".join([doc for doc, _ in retrieved_docs])
+        context = "\n".join([f"{i+1}) {doc}" for i, (doc, _) in enumerate(retrieved_docs)])
         
-        # Use LLM to generate answer
-        formatted_choices = "\n".join(f"{chr(65+i)}. {choice}" for i, choice in enumerate(question.choices))
+        formatted_choices = "\n".join(f"{choice}" for choice in question.choices)
     
         # Construct a more structured prompt with system and user roles
         prompt = f"""[INST] <<SYS>>
@@ -146,7 +136,7 @@ class ExamSolver:
         Choices:
         {formatted_choices}
         
-        Supporting document:
+        Supporting documents:
         {context}
 
         Instructions:
@@ -160,7 +150,8 @@ class ExamSolver:
         C
         D
 
-        Your answer (one letter only): [/INST]"""
+        Your answer (one letter only): [/INST]
+        """
 
         # Get model response
         try:
@@ -196,7 +187,7 @@ class ExamSolver:
         return metrics
 
 
-def main(task_domain: str, retriever_type: str, model_type: str, model_name: str):
+def main(task_domain: str, retriever_type: str, model_type: str, model_name: str, reranking: bool = False):
     chunk_retriever = ChunkRetriever(task_domain, random_seed=42)
     
     chunk_retriever = chunk_retriever.load_database(f"MultiHopData/{task_domain}/chunk_database", task_domain)
@@ -213,11 +204,16 @@ def main(task_domain: str, retriever_type: str, model_type: str, model_name: str
     
     # Initialize solver with chosen retriever
     if retriever_type == "Dense":
-        solver = ExamSolver(faiss_retriever)
+        retriever = faiss_retriever
     elif retriever_type == "Sparse":
-        solver = ExamSolver(bm25_retriever)
+        retriever = bm25_retriever
     elif retriever_type == "Hybrid":
-        solver = ExamSolver(hybrid_retriever)
+        retriever = hybrid_retriever
+    
+    if reranking:
+        retriever = RerankingRetriever(retriever)
+        
+    solver = ExamSolver(retriever)
     
     # Load and solve exam
     if model_type == "gemini":
@@ -237,21 +233,31 @@ def main(task_domain: str, retriever_type: str, model_type: str, model_name: str
 
 
 if __name__ == "__main__":
-    task_domain = "SecFilings"
-    # retriever_type = "Dense"
-    # retriever_type = "Sparse"
-    # retriever_type = "Hybrid"
+    # Model family
     model_type = "gemini"
     # model_type = "claude"
-    # model_name = "claude-3-5-haiku@20241022"
-    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    retriever_types = ["Dense", "Sparse", "Hybrid"]
-    model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
     
-    for model_name in model_names:
-        for task_domain in task_domains:
-            for retriever_type in retriever_types:
-                print(f"Using {model_name}")            
-                print(f"Processing {task_domain}")
-                print(f"Retriever: {retriever_type}")
-                main(task_domain, retriever_type, model_type, model_name)
+    # Task domain
+    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    
+    # Retriever type
+    # retriever_types = ["Dense", "Sparse", "Hybrid"]
+    retriever_types = ["Sparse"]
+    
+    # Model name
+    model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
+    # model_names = ["claude-3-5-sonnet@20240620", "claude-3-5-haiku@20241022"]
+    
+    # Reranker flag
+    # rerank_flags = [True, False]
+    rerank_flags = [True]
+    
+    for rerank_flag in rerank_flags:
+        for model_name in model_names:
+            for task_domain in task_domains:
+                for retriever_type in retriever_types:
+                    print(f"Using {model_name}")            
+                    print(f"Processing {task_domain}")
+                    print(f"Retriever: {retriever_type}")
+                    print(f"Rerank: {rerank_flag}")
+                    main(task_domain, retriever_type, model_type, model_name, reranking=rerank_flag)
