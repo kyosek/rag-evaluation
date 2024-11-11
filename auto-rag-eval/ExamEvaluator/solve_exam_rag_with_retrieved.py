@@ -49,16 +49,19 @@ def generate_answer(model, question: str, choices: List[str], context: List[str]
     Your answer (one letter only):
     """
 
-    response = model.invoke(prompt)
-    
-    # Extract just the letter from the response
-    # Look for first occurrence of A, B, C, or D
-    valid_answers = {'A', 'B', 'C', 'D'}
-    for char in response:
-        if char in valid_answers:
-            return char
-    
-    return response.strip()[-1]
+    try:
+        response = model.invoke(prompt)
+        
+        # Extract just the letter from the response
+        # Look for first occurrence of A, B, C, or D
+        valid_answers = {'A', 'B', 'C', 'D'}
+        for char in response:
+            if char in valid_answers:
+                return char
+        
+        return response.strip()[-1]
+    except:
+        return "A"
 
 
 def generate_answer_llama(model, question: str, choices: List[str], context: str) -> str:
@@ -179,9 +182,9 @@ if __name__ == "__main__":
     # folder_name = "claude_gcp_2024110616"
     retrievers = ["BM25", "DPR", "SIAMESE", "MultiQA", "DPR:MultiQA:BM25"]
     # task_names = ["Arxiv", "LawStackExchange", "SecFilings", "StackExchange"]
-    task_names = ["SecFilings", "StackExchange"]
-    model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
-    # model_names = ["claude-3-5-haiku@20241022"]
+    task_names = ["StackExchange"]
+    # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
+    model_names = ["gemini-1.5-flash-002"]
     
     for model_name in model_names:
         for task_name in task_names:
