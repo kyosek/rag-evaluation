@@ -7,22 +7,24 @@ from MultiHopData.solve_exam_rag import BM25Retriever, ExamQuestion, FAISSRetrie
 
 def load_exam(exam_file: str) -> List[ExamQuestion]:
     """Load exam questions from JSON file."""
-    with open(exam_file, 'r') as f:
+    with open(exam_file, "r") as f:
         data = json.load(f)
-        
+
     questions = []
     for item in data:
         question = ExamQuestion(
-            question=item['question'],
-            choices=item['choices'],
-            correct_answer=item['correct_answer'],
-            documentation=item.get('documentation', [])
+            question=item["question"],
+            choices=item["choices"],
+            correct_answer=item["correct_answer"],
+            documentation=item.get("documentation", []),
         )
         questions.append(question)
     return questions
 
 
-def evaluate_retrieval(data: List[Dict[str, Any]], retriever: BaseRetriever, k: int = 5) -> Dict[str, float]:
+def evaluate_retrieval(
+    data: List[Dict[str, Any]], retriever: BaseRetriever, k: int = 5
+) -> Dict[str, float]:
     total_queries = len(data)
     total_score = 0
     pass_at_n = 0
@@ -46,17 +48,20 @@ def evaluate_retrieval(data: List[Dict[str, Any]], retriever: BaseRetriever, k: 
             pass_at_n += 1
 
     results = {
-        'average_score': total_score / total_queries,
-        'pass_at_n': (pass_at_n / total_queries) * 100,
-        'total_queries': total_queries
+        "average_score": total_score / total_queries,
+        "pass_at_n": (pass_at_n / total_queries) * 100,
+        "total_queries": total_queries,
     }
 
     return results
 
+
 def main(task_domain: str, retriever_type: str):
     # Load the chunk database
     chunk_retriever = ChunkRetriever(task_domain)
-    chunk_retriever = chunk_retriever.load_database(f"MultiHopData/{task_domain}/chunk_database", task_domain)
+    chunk_retriever = chunk_retriever.load_database(
+        f"MultiHopData/{task_domain}/chunk_database", task_domain
+    )
 
     # Initialize the appropriate retriever
     if retriever_type == "Dense":
@@ -89,6 +94,6 @@ if __name__ == "__main__":
 
     for task_domain in task_domains:
         for retriever_type in retriever_types:
-                print(f"\nEvaluating {task_domain}")
-                print(f"Retriever: {retriever_type}")
-                main(task_domain, retriever_type)
+            print(f"\nEvaluating {task_domain}")
+            print(f"Retriever: {retriever_type}")
+            main(task_domain, retriever_type)

@@ -17,6 +17,7 @@ def delayed_text_generator(text: str, delay: float = 0.2):
         time.sleep(delay)
         yield " ".join(tokens[:i])
 
+
 class LlamaGcpModel(BaseLLM):
     AVAILABLE_MODELS = {
         "3B": {
@@ -25,9 +26,7 @@ class LlamaGcpModel(BaseLLM):
         "70B": {
             "model_id": "meta-llama/Llama-3.1-70B-Instruct",
         },
-        "Ministral-8B": {
-            "model_id": "bartowski/Ministral-8B-Instruct-2410-GGUF"
-        }
+        "Ministral-8B": {"model_id": "bartowski/Ministral-8B-Instruct-2410-GGUF"},
     }
 
     def __init__(
@@ -44,7 +43,7 @@ class LlamaGcpModel(BaseLLM):
     ):
         """
         Initialize the Llama model with Hugging Face implementation.
-        
+
         Args:
             model_size: Size of the model ("3B", "70B", etc.)
             model_id: Optional custom model ID from Hugging Face
@@ -57,11 +56,11 @@ class LlamaGcpModel(BaseLLM):
             torch_dtype: Data type for model weights
         """
         self.inference_params = {
-        "max_new_tokens": 2048,
-        "temperature": 0.1,
-        "top_p": 0.9,
-        "do_sample": True,
-    }
+            "max_new_tokens": 2048,
+            "temperature": 0.1,
+            "top_p": 0.9,
+            "do_sample": True,
+        }
         if inference_params:
             self.inference_params.update(inference_params)
 
@@ -70,9 +69,11 @@ class LlamaGcpModel(BaseLLM):
             self.model_id = model_id
         else:
             if model_size not in self.AVAILABLE_MODELS:
-                raise ValueError(f"Model size {model_size} not available. Choose from {list(self.AVAILABLE_MODELS.keys())}")
+                raise ValueError(
+                    f"Model size {model_size} not available. Choose from {list(self.AVAILABLE_MODELS.keys())}"
+                )
             self.model_id = self.AVAILABLE_MODELS[model_size]["model_id"]
-        
+
         self.model_size = model_size
 
         try:
@@ -84,13 +85,13 @@ class LlamaGcpModel(BaseLLM):
                     bnb_4bit_compute_dtype=torch.float16,
                     bnb_4bit_use_double_quant=True,
                     bnb_4bit_quant_type="nf4",
-                    llm_int8_enable_fp32_cpu_offload=True
+                    llm_int8_enable_fp32_cpu_offload=True,
                 )
             elif load_in_8bit:
                 quantization_config = BitsAndBytesConfig(
                     load_in_8bit=True,
                     bnb_8bit_compute_dtype=torch.float16,
-                    llm_int8_enable_fp32_cpu_offload=True
+                    llm_int8_enable_fp32_cpu_offload=True,
                 )
 
             # Set device configuration
@@ -121,26 +122,22 @@ class LlamaGcpModel(BaseLLM):
             # Update with any additional model config
             if model_config:
                 # Remove device_map from model_config if it exists to avoid conflict
-                model_config.pop('device_map', None)
+                model_config.pop("device_map", None)
                 base_model_config.update(model_config)
 
             # Initialize tokenizer and model
-            self.tokenizer = AutoTokenizer.from_pretrained(
-                self.model_id,
-                trust_remote_code=True
-            )
-            
-            self.model = AutoModelForCausalLM.from_pretrained(
-                self.model_id,
-                **base_model_config
-            )
+            self.tokenizer = AutoTokenizer.from_pretrained(self.model_id, trust_remote_code=True)
+
+            self.model = AutoModelForCausalLM.from_pretrained(self.model_id, **base_model_config)
 
             # Log configuration
             print(f"Model initialized with configuration:")
             print(f"- Model: {self.model_id}")
             print(f"- Device: {device}")
             print(f"- Device Map: {device_map}")
-            print(f"- Quantization: {'4-bit' if load_in_4bit else '8-bit' if load_in_8bit else 'None'}")
+            print(
+                f"- Quantization: {'4-bit' if load_in_4bit else '8-bit' if load_in_8bit else 'None'}"
+            )
             print(f"- Torch dtype: {torch_dtype}")
 
         except Exception as e:
@@ -155,7 +152,6 @@ class LlamaGcpModel(BaseLLM):
         else:
             return prompt  # For custom models, use raw prompt
 
-
     @retry(
         stop=stop_after_attempt(STOP_AFTER_ATTEMPT),
         wait=wait_exponential(min=WAIT_EXPONENTIAL_MIN, max=WAIT_EXPONENTIAL_MAX),
@@ -165,16 +161,14 @@ class LlamaGcpModel(BaseLLM):
             formatted_prompt = self._format_chat_prompt(prompt)
             inputs = self.tokenizer(formatted_prompt, return_tensors="pt")
             inputs = inputs.to(self.model.device)
-            
+
             outputs = self.model.generate(
-                **inputs,
-                pad_token_id=self.tokenizer.eos_token_id,
-                **self.inference_params
+                **inputs, pad_token_id=self.tokenizer.eos_token_id, **self.inference_params
             )
-            
+
             response = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
             # Remove the original prompt from the response
-            response = response[len(formatted_prompt):].strip()
+            response = response[len(formatted_prompt) :].strip()
             return response
         except Exception as e:
             raise ValueError(f"Incorrect Generation: {str(e)}")
@@ -188,16 +182,16 @@ class LlamaGcpModel(BaseLLM):
             formatted_prompt = self._format_chat_prompt(prompt)
             inputs = self.tokenizer(formatted_prompt, return_tensors="pt")
             inputs = inputs.to(self.model.device)
-            
+
             # Get the length of input tokens to skip them in the output
             input_length = inputs["input_ids"].shape[1]
-            
+
             streamer = TextIteratorStreamer(self.tokenizer, skip_prompt=True)
             generation_kwargs = dict(
                 **inputs,
                 streamer=streamer,
                 pad_token_id=self.tokenizer.eos_token_id,
-                **self.inference_params
+                **self.inference_params,
             )
 
             # Create a thread to run the generation

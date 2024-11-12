@@ -11,21 +11,21 @@ def update_json_files(directory_path):
     """
     # Iterate through all files in the directory
     for filename in os.listdir(directory_path):
-        if filename.endswith('.json'):
+        if filename.endswith(".json"):
             file_path = os.path.join(directory_path, filename)
 
             try:
                 # Read the JSON file
-                with open(file_path, 'r', encoding='utf-8') as file:
+                with open(file_path, "r", encoding="utf-8") as file:
                     data = json.load(file)
 
                 # Update each numbered key's documentation section
                 for key in data:
-                    if 'documentation' in data[key]:
-                        data[key]['documentation']['date'] = "N/A"
+                    if "documentation" in data[key]:
+                        data[key]["documentation"]["date"] = "N/A"
 
                 # Write the updated data back to the file
-                with open(file_path, 'w', encoding='utf-8') as file:
+                with open(file_path, "w", encoding="utf-8") as file:
                     json.dump(data, file, indent=4)
 
                 print(f"Successfully updated {filename}")
@@ -45,12 +45,12 @@ def update_knowledge_corpus_json_file(directory_path):
     """
     # Iterate through all files in the directory
     for filename in os.listdir(directory_path):
-        if filename.endswith('.json'):
+        if filename.endswith(".json"):
             file_path = os.path.join(directory_path, filename)
 
             try:
                 # Read the JSON file
-                with open(file_path, 'r', encoding='utf-8') as file:
+                with open(file_path, "r", encoding="utf-8") as file:
                     data = json.load(file)
 
                 # Check if the data is a list
@@ -58,10 +58,10 @@ def update_knowledge_corpus_json_file(directory_path):
                     # Update each object in the array
                     for item in data:
                         if isinstance(item, dict):
-                            item['date'] = "N/A"
+                            item["date"] = "N/A"
 
                 # Write the updated data back to the file
-                with open(file_path, 'w', encoding='utf-8') as file:
+                with open(file_path, "w", encoding="utf-8") as file:
                     json.dump(data, file, indent=4)
 
                 print(f"Successfully updated {filename}")

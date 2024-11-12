@@ -20,10 +20,10 @@ class LawStackExchangeDataLoader:
         """Return the best answer, that is, the one with the highest positive score"""
         if not answers:
             return None
-        positive_answers = [a for a in answers if int(a['score']) > 0]
+        positive_answers = [a for a in answers if int(a["score"]) > 0]
         if not positive_answers:
             return None
-        return max(positive_answers, key=lambda x: int(x['score']))['body']
+        return max(positive_answers, key=lambda x: int(x["score"]))["body"]
 
     def lang_callback(self, el):
         lang = el["class"][0] if el.has_attr("class") else None
@@ -54,12 +54,23 @@ class LawStackExchangeDataLoader:
 
         funcs = [
             # Select subset of data and preprocess to keep only top answer
-            lambda data: data.shuffle(seed=42).select(range(min(len(data), self.n_samples))).map(
+            lambda data: data.shuffle(seed=42)
+            .select(range(min(len(data), self.n_samples)))
+            .map(
                 self.process_qna,
-                remove_columns=['question_id', 'link', 'question_title', 'question_body', 'answers', 'license', 'tags', 'score']
+                remove_columns=[
+                    "question_id",
+                    "link",
+                    "question_title",
+                    "question_body",
+                    "answers",
+                    "license",
+                    "tags",
+                    "score",
+                ],
             ),
             # Remove too lengthy answers
-            lambda data: data.filter(lambda x: len(x['text']) <= self.max_char_length)
+            lambda data: data.filter(lambda x: len(x["text"]) <= self.max_char_length),
         ]
 
         filtered_dataset = reduce(lambda res, f: f(res), funcs, dataset)
@@ -67,7 +78,7 @@ class LawStackExchangeDataLoader:
         # Save the processed dataset
         filtered_dataset.to_json(
             f"{ROOTPATH}/LawStackExchange/KnowledgeCorpus/main/data_{datetime.fromtimestamp(time.time()).strftime('%Y%m%d%H')}.json",
-            lines=False
+            lines=False,
         )
 
 

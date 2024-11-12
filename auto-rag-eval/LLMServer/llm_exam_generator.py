@@ -74,7 +74,7 @@ class ClaudeExamGenerator(LLMExamGenerator):
             "Explanation: [Detailed explanation of why the correct answer is right and why others are wrong]\n\n"
             "Assistant:"
         )
-    
+
     def make_l3_question_prompt(self, documentation: str) -> str:
         return f"""
         <<SYS>>
@@ -126,7 +126,7 @@ class ClaudeExamGenerator(LLMExamGenerator):
         Correct Answer: [Letter]
         Explanation: [Detailed explanation]
         """
-    
+
     def generate_exam(self, data: List[Dict[str, str]]) -> Dict[int, Dict[str, str]]:
 
         generated_questions = {}
@@ -151,10 +151,9 @@ class LlamaExamGenerator(LLMExamGenerator):
             " 1 correct answer and explanations. Syntax should be Question: {question}\nA){candidate A}\n"
             "B){candidate B}\nC){candidate C}\nD){candidate D} Correct Answer: {correct answer}\n\nAssistant:"
         )
-        
+
     def make_l3_question_prompt(self, documentation: str) -> str:
-        return (
-            f"""\n\n
+        return f"""\n\n
             <<SYS>>
             You are an AI assistant to generate a difficult multiple choice question that are
             necessitate external data to furnish rationales for its resolution.
@@ -188,7 +187,6 @@ class LlamaExamGenerator(LLMExamGenerator):
 
             Your answer:
             """
-        )
 
     def generate_exam(self, data: List[Dict[str, str]]) -> Dict[int, Dict[str, str]]:
 

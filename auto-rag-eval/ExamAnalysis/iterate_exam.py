@@ -32,7 +32,7 @@ def load_exam_settings(base_path: str) -> List[ExamSetting]:
                             llm=llm,
                             retrieval=retrieval,
                             icl=icl,
-                            path_pattern=data_path
+                            path_pattern=data_path,
                         )
                     )
     return exam_settings
@@ -54,8 +54,7 @@ def main(task_domain: str):
 
     # Initialize and fit the model
     model = IterativeHierarchicalItemResponseModel(
-        students=exam_settings,
-        irt_model_type=irt_model_type
+        students=exam_settings, irt_model_type=irt_model_type
     )
 
     # Fit the model and get estimators for each iteration
@@ -66,7 +65,7 @@ def main(task_domain: str):
         estimator_dict=estimator_dict,
         exam_model="Your Exam Name",
         save_path="exam_information_curve.png",
-        font_size=14
+        font_size=14,
     )
 
     # Print statistics for each iteration
@@ -76,16 +75,17 @@ def main(task_domain: str):
 
         print(f"Number of questions: {len(estimator['discrimination'])}")
         print(
-            f"Mean exam accuracy: {stats['Mean Exam accuracy']['mean']:.2f}% (±{stats['Mean Exam accuracy']['std']:.2f}%)")
+            f"Mean exam accuracy: {stats['Mean Exam accuracy']['mean']:.2f}% (±{stats['Mean Exam accuracy']['std']:.2f}%)"
+        )
         print("\nEstimator Statistics:")
-        for param, values in stats['Estimators'].items():
+        for param, values in stats["Estimators"].items():
             print(f"{param}: {values['mean']:.3f} (±{values['std']:.3f})")
 
         # Save the iterated exam for each configuration
         if step > 0:  # Skip saving for initial step
             # Calculate indices of questions to keep
-            sorted_indices = np.argsort(estimator['discrimination'])
-            kept_indices = sorted_indices[int(len(sorted_indices) * drop_ratio):]
+            sorted_indices = np.argsort(estimator["discrimination"])
+            kept_indices = sorted_indices[int(len(sorted_indices) * drop_ratio) :]
             model.save_iterated_exam(step, kept_indices)
 
     print("\nExam iteration completed. Check the 'Data/IteratedExams' directory for the results.")

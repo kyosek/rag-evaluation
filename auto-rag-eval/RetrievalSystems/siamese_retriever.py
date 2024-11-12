@@ -32,10 +32,11 @@ class SiameseContextProvider(ContextProvider):
         self.min_snippet_length = 20
 
         try:
-            self.docs_data = load_dataset(data_folder,
-                                     split="train",
-                                     # field="data" # To be removed for BH data template, which differs from others
-                                     )
+            self.docs_data = load_dataset(
+                data_folder,
+                split="train",
+                # field="data" # To be removed for BH data template, which differs from others
+            )
 
         except:
             print("Using flattened data")

@@ -13,7 +13,7 @@ model_config = {
     "bnb_4bit_compute_dtype": torch.float16,
     "bnb_4bit_use_double_quant": True,
     "bnb_4bit_quant_type": "nf4",
-    "device_map": "auto"
+    "device_map": "auto",
 }
 
 
@@ -43,7 +43,7 @@ def generate_answer(model: LlamaModel, question: str, choices: List[str]) -> str
 def generate_answer_llama(model, question: str, choices: List[str]) -> str:
     # Format choices with letters for clear instruction
     formatted_choices = "\n".join(f"{chr(65+i)}. {choice}" for i, choice in enumerate(choices))
-    
+
     # Construct a more structured prompt with system and user roles
     prompt = f"""[INST] <<SYS>>
     You are an AI assistant taking a multiple choice exam. Your task is to:
@@ -73,14 +73,14 @@ def generate_answer_llama(model, question: str, choices: List[str]) -> str:
 
     # Get model response
     response = model.invoke(prompt)
-    
+
     # Extract just the letter from the response
     # Look for first occurrence of A, B, C, or D
-    valid_answers = {'A', 'B', 'C', 'D'}
+    valid_answers = {"A", "B", "C", "D"}
     for char in response:
         if char in valid_answers:
             return char
-            
+
     # If no valid letter found, return the last character as fallback
     try:
         return response.strip()[-1]
@@ -95,9 +95,11 @@ def evaluate_performance(exam: List[Dict], results: List[str]) -> float:
 
 
 # Main function to run the exam
-def run_closed_book_exam(model_device: str, model_path: str, model_name: str, task_name: str, exam_file: str):
+def run_closed_book_exam(
+    model_device: str, model_path: str, model_name: str, task_name: str, exam_file: str
+):
     exam = load_exam(exam_file)
-    
+
     if model_device == "GCP":
         print("Using transformer")
         model = LlamaGcpModel(
@@ -105,7 +107,7 @@ def run_closed_book_exam(model_device: str, model_path: str, model_name: str, ta
             use_gpu=True,
             model_config=model_config,
             # load_in_4bit=True,
-            )
+        )
     elif model_device == "claude":
         model = ClaudeGcp()
     else:
@@ -133,7 +135,9 @@ def run_closed_book_exam(model_device: str, model_path: str, model_name: str, ta
             }
         )
 
-    with open(f"Data/{task_name}/ExamResults/l3_exam_results_{model_name}_{task_name}.json", "w") as f:
+    with open(
+        f"Data/{task_name}/ExamResults/l3_exam_results_{model_name}_{task_name}.json", "w"
+    ) as f:
         json.dump(output, f, indent=2)
 
     print(f"Exam completed. Accuracy: {accuracy:.2%}")
@@ -151,9 +155,9 @@ if __name__ == "__main__":
     task_name = "LawStackExchange"
     # task_name = "StackExchange"
     exam_file = f"Data/{task_name}/ExamData/ClaudeGcp_2024103117/exam_1000_42.json"
-    
+
     # Create the full directory path
     directory = f"Data/{task_name}/ExamResults"
     os.makedirs(directory, exist_ok=True)
-    
+
     run_closed_book_exam(model_device, model_path, model_name, task_name, exam_file)

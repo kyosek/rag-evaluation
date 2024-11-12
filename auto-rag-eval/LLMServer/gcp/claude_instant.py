@@ -30,26 +30,22 @@ class ClaudeGcp(BaseLLM):
         self,
         model_name: str = "claude-3-5-sonnet@20240620",
         project_id: str = "rag-evaluation-437417",
-        region: str = None
+        region: str = None,
     ):
         # Determine the appropriate region for the model
         self.model_name = model_name
         self.project_id = project_id
-        
+
         # If region is not specified, use the region from the mapping
         if region is None:
             self.region = MODEL_REGION_MAPPING.get(
-                model_name,
-                "europe-west1"  # Default to europe-west1 if model not found in mapping
+                model_name, "europe-west1"  # Default to europe-west1 if model not found in mapping
             )
         else:
             self.region = region
 
         # Initialize the client with the appropriate region
-        self.client = AnthropicVertex(
-            project_id=self.project_id,
-            region=self.region
-        )
+        self.client = AnthropicVertex(project_id=self.project_id, region=self.region)
 
         self.inference_params = {
             "max_tokens_to_sample": 4096,
