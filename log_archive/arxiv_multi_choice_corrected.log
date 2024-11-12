@@ -1,0 +1,47 @@
+nohup: ignoring input
+[nltk_data] Downloading package punkt to /home/kyosuke/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package punkt_tab to
+[nltk_data]     /home/kyosuke/nltk_data...
+[nltk_data]   Package punkt_tab is already up-to-date!
+Some weights of the model checkpoint at vblagoje/dpr-question_encoder-single-lfqa-base were not used when initializing DPRQuestionEncoder: ['question_encoder.bert_model.pooler.dense.bias', 'question_encoder.bert_model.pooler.dense.weight']
+- This IS expected if you are initializing DPRQuestionEncoder from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DPRQuestionEncoder from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/home/kyosuke/auto-rag-eval/venv/lib/python3.11/site-packages/transformers/tokenization_utils_base.py:1617: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be deprecated in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Generating train split: 0 examples [00:00, ? examples/s]Failed to load JSON from file '/home/kyosuke/auto-rag-eval/auto-rag-eval/Data/Arxiv/KnowledgeCorpus/main/data_2024100123.json' with error <class 'pyarrow.lib.ArrowInvalid'>: JSON parse error: Column() changed from object to array in row 0
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 0 examples [00:00, ? examples/s]
+Some weights of the model checkpoint at vblagoje/dpr-ctx_encoder-single-lfqa-base were not used when initializing DPRContextEncoder: ['ctx_encoder.bert_model.pooler.dense.bias', 'ctx_encoder.bert_model.pooler.dense.weight']
+- This IS expected if you are initializing DPRContextEncoder from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DPRContextEncoder from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Generating train split: 0 examples [00:00, ? examples/s]Failed to load JSON from file '/home/kyosuke/auto-rag-eval/auto-rag-eval/Data/Arxiv/KnowledgeCorpus/main/data_2024100123.json' with error <class 'pyarrow.lib.ArrowInvalid'>: JSON parse error: Column() changed from object to array in row 0
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 0 examples [00:00, ? examples/s]
+Creating faiss index:   0%|          | 0/13000 [00:00<?, ? examples/s]Creating faiss index:   4%|▍         | 512/13000 [00:49<20:07, 10.34 examples/s]Creating faiss index:   4%|▍         | 512/13000 [01:07<20:07, 10.34 examples/s]Creating faiss index:   8%|▊         | 1024/13000 [01:37<18:58, 10.52 examples/s]Creating faiss index:   8%|▊         | 1024/13000 [01:57<18:58, 10.52 examples/s]Creating faiss index:  12%|█▏        | 1536/13000 [02:25<17:58, 10.63 examples/s]Creating faiss index:  12%|█▏        | 1536/13000 [02:37<17:58, 10.63 examples/s]Creating faiss index:  16%|█▌        | 2048/13000 [03:12<17:03, 10.70 examples/s]Creating faiss index:  16%|█▌        | 2048/13000 [03:27<17:03, 10.70 examples/s]Creating faiss index:  20%|█▉        | 2560/13000 [03:59<16:09, 10.77 examples/s]Creating faiss index:  20%|█▉        | 2560/13000 [04:17<16:09, 10.77 examples/s]Creating faiss index:  24%|██▎       | 3072/13000 [04:46<15:19, 10.80 examples/s]Creating faiss index:  24%|██▎       | 3072/13000 [04:57<15:19, 10.80 examples/s]Creating faiss index:  28%|██▊       | 3584/13000 [05:34<14:33, 10.78 examples/s]Creating faiss index:  28%|██▊       | 3584/13000 [05:47<14:33, 10.78 examples/s]Creating faiss index:  32%|███▏      | 4096/13000 [06:21<13:46, 10.77 examples/s]Creating faiss index:  32%|███▏      | 4096/13000 [06:37<13:46, 10.77 examples/s]Creating faiss index:  35%|███▌      | 4608/13000 [07:09<12:59, 10.77 examples/s]Creating faiss index:  35%|███▌      | 4608/13000 [07:27<12:59, 10.77 examples/s]Creating faiss index:  39%|███▉      | 5120/13000 [07:57<12:11, 10.77 examples/s]Creating faiss index:  39%|███▉      | 5120/13000 [08:07<12:11, 10.77 examples/s]Creating faiss index:  43%|████▎     | 5632/13000 [08:44<11:25, 10.75 examples/s]Creating faiss index:  43%|████▎     | 5632/13000 [08:57<11:25, 10.75 examples/s]Creating faiss index:  47%|████▋     | 6144/13000 [09:32<10:37, 10.76 examples/s]Creating faiss index:  47%|████▋     | 6144/13000 [09:47<10:37, 10.76 examples/s]Creating faiss index:  51%|█████     | 6656/13000 [10:20<09:50, 10.75 examples/s]Creating faiss index:  51%|█████     | 6656/13000 [10:37<09:50, 10.75 examples/s]Creating faiss index:  55%|█████▌    | 7168/13000 [11:06<08:59, 10.82 examples/s]Creating faiss index:  55%|█████▌    | 7168/13000 [11:17<08:59, 10.82 examples/s]Creating faiss index:  59%|█████▉    | 7680/13000 [11:53<08:08, 10.88 examples/s]Creating faiss index:  59%|█████▉    | 7680/13000 [12:07<08:08, 10.88 examples/s]Creating faiss index:  63%|██████▎   | 8192/13000 [12:39<07:20, 10.92 examples/s]Creating faiss index:  63%|██████▎   | 8192/13000 [12:57<07:20, 10.92 examples/s]Creating faiss index:  67%|██████▋   | 8704/13000 [13:25<06:31, 10.96 examples/s]Creating faiss index:  67%|██████▋   | 8704/13000 [13:37<06:31, 10.96 examples/s]Creating faiss index:  71%|███████   | 9216/13000 [14:11<05:42, 11.05 examples/s]Creating faiss index:  71%|███████   | 9216/13000 [14:27<05:42, 11.05 examples/s]Creating faiss index:  75%|███████▍  | 9728/13000 [14:56<04:54, 11.13 examples/s]Creating faiss index:  75%|███████▍  | 9728/13000 [15:07<04:54, 11.13 examples/s]Creating faiss index:  79%|███████▉  | 10240/13000 [15:41<04:06, 11.20 examples/s]Creating faiss index:  79%|███████▉  | 10240/13000 [15:57<04:06, 11.20 examples/s]Creating faiss index:  83%|████████▎ | 10752/13000 [16:26<03:19, 11.28 examples/s]Creating faiss index:  83%|████████▎ | 10752/13000 [16:37<03:19, 11.28 examples/s]Creating faiss index:  87%|████████▋ | 11264/13000 [17:10<02:32, 11.35 examples/s]Creating faiss index:  87%|████████▋ | 11264/13000 [17:27<02:32, 11.35 examples/s]Creating faiss index:  91%|█████████ | 11776/13000 [17:54<01:47, 11.42 examples/s]Creating faiss index:  91%|█████████ | 11776/13000 [18:07<01:47, 11.42 examples/s]Creating faiss index:  95%|█████████▍| 12288/13000 [18:39<01:02, 11.45 examples/s]Creating faiss index:  95%|█████████▍| 12288/13000 [18:57<01:02, 11.45 examples/s]Creating faiss index:  98%|█████████▊| 12800/13000 [19:23<00:17, 11.46 examples/s]Creating faiss index:  98%|█████████▊| 12800/13000 [19:37<00:17, 11.46 examples/s]Creating faiss index: 100%|██████████| 13000/13000 [19:41<00:00, 11.45 examples/s]Creating faiss index: 100%|██████████| 13000/13000 [19:41<00:00, 11.00 examples/s]
+  0%|          | 0/13 [00:00<?, ?it/s]100%|██████████| 13/13 [00:00<00:00, 607.31it/s]
+Faiss index successfully created
+Traceback (most recent call last):
+  File "/home/kyosuke/auto-rag-eval/auto-rag-eval/RetrievalSystems/bm25.py", line 249, in __init__
+    self.corpus = json.load(f)
+                  ^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 1612312)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/kyosuke/auto-rag-eval/auto-rag-eval/ExamGenerator/multi_choice_exam.py", line 488, in <module>
+    "BM25": BM25ContextProvider(
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/auto-rag-eval/auto-rag-eval/RetrievalSystems/bm25.py", line 251, in __init__
+    self.corpus = read_jsonl(os.path.join(data_folder, filename))
+                                                       ^^^^^^^^
+NameError: name 'filename' is not defined

@@ -6,6 +6,7 @@ from typing import List, Dict
 from LLMServer.llama.llama_instant import LlamaModel
 from LLMServer.llama_gcp.llama_gcp_instant import LlamaGcpModel
 from LLMServer.gcp.claude_instant import ClaudeGcp
+from LLMServer.gcp.gemini_instant import GeminiGcp
 from tqdm import tqdm
 
 model_config = {
@@ -32,12 +33,29 @@ def generate_answer(model: LlamaModel, question: str, choices: List[str]) -> str
     \nYou are a student that is solving the exam.
     Please provide the letter (A, B, C, or D) only of the correct answer.
     The response must follow the response format:
-    Response format example:
+    - Return only one letter (A, B, C, or D)
+    - No period or anything else at the end of the sentence\n
+    Response format example 1:
     A
+    Response format example 2:
+    C
+    Response format example 3:
+    D
     """
 
-    response = model.invoke(prompt)
-    return response.strip()[-1]
+    try:
+        response = model.invoke(prompt)
+        
+        # Extract just the letter from the response
+        # Look for first occurrence of A, B, C, or D
+        valid_answers = {'A', 'B', 'C', 'D'}
+        for char in response:
+            if char in valid_answers:
+                return char            
+        # If no valid letter found, return the last character as fallback
+        return response.strip()[-1]
+    except:
+        return "A"
 
 
 def generate_answer_llama(model, question: str, choices: List[str]) -> str:
@@ -99,15 +117,9 @@ def run_closed_book_exam(
     model_device: str, model_path: str, model_name: str, task_name: str, exam_file: str
 ):
     exam = load_exam(exam_file)
-
-    if model_device == "GCP":
-        print("Using transformer")
-        model = LlamaGcpModel(
-            model_size="70B",
-            use_gpu=True,
-            model_config=model_config,
-            # load_in_4bit=True,
-        )
+    
+    if model_device == "gemini":
+        model = GeminiGcp(model_name=model_name)
     elif model_device == "claude":
         model = ClaudeGcp()
     else:
@@ -145,19 +157,28 @@ def run_closed_book_exam(
 
 
 if __name__ == "__main__":
-    model_device = "GCP"
     # model_device = "claude"
+    model_device = "gemini"
     model_path = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF"
-    model_name = "llama3-70b"
-    # model_name = "claude"
-    # task_name = "Arxiv"
+    # model_path = "Meta-Llama-3.1-70B-Instruct-Q4_K_S.gguf"
+    # model_name = "llamav2"
+    # model_name = "llama3-B70"
+    # model_name = "claude-3-5-haiku@20241022"
+    model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
+    # model_names = ["gemini-1.5-flash-002"]
     # task_name = "SecFilings"
-    task_name = "LawStackExchange"
     # task_name = "StackExchange"
-    exam_file = f"Data/{task_name}/ExamData/ClaudeGcp_2024103117/exam_1000_42.json"
+    # task_name = "Arxiv"
+    # task_name = "LawStackExchange"
+    task_names = ["Arxiv", "LawStackExchange", "SecFilings", "StackExchange"]
 
-    # Create the full directory path
-    directory = f"Data/{task_name}/ExamResults"
-    os.makedirs(directory, exist_ok=True)
-
-    run_closed_book_exam(model_device, model_path, model_name, task_name, exam_file)
+    for model_name in model_names:
+        for task_name in task_names:
+            print(f"Processing {task_name}")
+            exam_file = f"Data/{task_name}/ExamData/claude_gcp_2024103108/exam_1000_42.json"
+        
+            # Create the full directory path
+            directory = f"Data/{task_name}/ExamResults"
+            os.makedirs(directory, exist_ok=True)
+            
+            run_closed_book_exam(model_device, model_path, model_name, task_name, exam_file)
