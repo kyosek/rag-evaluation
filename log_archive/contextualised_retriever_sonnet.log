@@ -1,0 +1,66 @@
+Processing gov_report
+Processing documents:   0%|          | 0/200 [00:00<?, ?it/s]Processing documents:   0%|          | 1/200 [01:11<3:58:22, 71.87s/it]Processing documents:   1%|          | 2/200 [02:15<3:41:47, 67.21s/it]Processing documents:   2%|▏         | 3/200 [02:36<2:30:13, 45.75s/it]Processing documents:   2%|▏         | 4/200 [03:10<2:15:26, 41.46s/it]Processing documents:   2%|▏         | 4/200 [25:12<20:34:56, 378.04s/it]
+Traceback (most recent call last):
+  File "/home/kyosuke/rag-evaluation/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/rag-evaluation/auto-rag-eval/LLMServer/gcp/claude_instant.py", line 90, in invoke
+    raise e
+  File "/home/kyosuke/rag-evaluation/auto-rag-eval/LLMServer/gcp/claude_instant.py", line 69, in invoke
+    response = self.client.messages.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/rag-evaluation/venv/lib/python3.11/site-packages/anthropic/_utils/_utils.py", line 274, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/rag-evaluation/venv/lib/python3.11/site-packages/anthropic/resources/messages.py", line 878, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/home/kyosuke/rag-evaluation/venv/lib/python3.11/site-packages/anthropic/_base_client.py", line 1260, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/rag-evaluation/venv/lib/python3.11/site-packages/anthropic/_base_client.py", line 937, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/home/kyosuke/rag-evaluation/venv/lib/python3.11/site-packages/anthropic/_base_client.py", line 1026, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/rag-evaluation/venv/lib/python3.11/site-packages/anthropic/_base_client.py", line 1075, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/home/kyosuke/rag-evaluation/venv/lib/python3.11/site-packages/anthropic/_base_client.py", line 1026, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/rag-evaluation/venv/lib/python3.11/site-packages/anthropic/_base_client.py", line 1075, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/home/kyosuke/rag-evaluation/venv/lib/python3.11/site-packages/anthropic/_base_client.py", line 1041, in _request
+    raise self._make_status_error_from_response(err.response) from None
+anthropic.InternalServerError: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/kyosuke/rag-evaluation/auto-rag-eval/MultiHopData/contextualised_retriever.py", line 167, in <module>
+    main(task_domain)
+  File "/home/kyosuke/rag-evaluation/auto-rag-eval/MultiHopData/contextualised_retriever.py", line 159, in main
+    chunk_retriever.load_documents(f"MultiHopData/{task_domain}/docs_chunk.json")
+  File "/home/kyosuke/rag-evaluation/auto-rag-eval/MultiHopData/contextualised_retriever.py", line 71, in load_documents
+    context = self.generate_context(doc_content, chunk['content'])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/rag-evaluation/auto-rag-eval/MultiHopData/contextualised_retriever.py", line 59, in generate_context
+    response = self.llm.invoke(prompt)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/rag-evaluation/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/rag-evaluation/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/rag-evaluation/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/rag-evaluation/venv/lib/python3.11/site-packages/tenacity/__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x7f85b76d2050 state=finished raised InternalServerError>]
