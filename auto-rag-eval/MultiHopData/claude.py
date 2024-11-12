@@ -43,7 +43,7 @@ Your task is:
 # 4. How easy is to solve this question with documentation?
 
 # Could you make a multiple choice question and answer with 1 correct and 3 distractors.
-# The question must be very difficult and aim for L3 or 4 of Bloom's taxonomy. 
+# The question must be very difficult and aim for L3 or 4 of Bloom's taxonomy.
 # Also the answer is should very difficult to derive without those documentations.
 
 # "documentation": [

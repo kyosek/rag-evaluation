@@ -21,8 +21,14 @@ class Chunk:
     original_index: int
     context: str = ""
 
+
 class ContextualChunkRetriever:
-    def __init__(self, task_domain: str, model_name: str = 'all-MiniLM-L6-v2', random_seed: Optional[int] = None):
+    def __init__(
+        self,
+        task_domain: str,
+        model_name: str = "all-MiniLM-L6-v2",
+        random_seed: Optional[int] = None,
+    ):
         self.model = SentenceTransformer(model_name)
         self.task_domain = task_domain
         self.index = None
@@ -30,12 +36,12 @@ class ContextualChunkRetriever:
         self.random_seed = random_seed
         if random_seed is not None:
             random.seed(random_seed)
-        
+
         self.claude = ClaudeGcp(model_name="claude-3-5-haiku@20241022")
         self.gemini = GeminiGcp(model_name="gemini-1.5-flash-002")
 
     def generate_context(self, doc_content: str, chunk_content: str, model_name) -> str:
-        prompt = f'''
+        prompt = f"""
         <document>
         {doc_content}
         </document>
@@ -56,43 +62,45 @@ class ContextualChunkRetriever:
         Avoid generic descriptions. Include technical terms that someone might search for.
 
         Output only the contextual summary, with no additional text or explanations.
-        '''
+        """
         llm = model_name
 
         response = llm.invoke(prompt)
         return response.strip()
 
     def load_documents(self, json_file: str) -> None:
-        with open(json_file, 'r') as f:
+        with open(json_file, "r") as f:
             data = json.load(f)
-        
+
         for doc in tqdm(data, desc="Processing documents"):
-            doc_id = doc['doc_id']
-            doc_content = "\n".join([chunk['content'] for chunk in doc['chunks']])
-            
-            for chunk in doc['chunks']:
+            doc_id = doc["doc_id"]
+            doc_content = "\n".join([chunk["content"] for chunk in doc["chunks"]])
+
+            for chunk in doc["chunks"]:
                 try:
-                    context = self.generate_context(doc_content, chunk['content'], self.gemini)
+                    context = self.generate_context(doc_content, chunk["content"], self.gemini)
                 except:
                     print("Generating with Claude")
-                    context = self.generate_context(doc_content, chunk['content'], self.claude)
+                    context = self.generate_context(doc_content, chunk["content"], self.claude)
                 chunk_obj = Chunk(
-                    chunk_id=chunk['chunk_id'],
+                    chunk_id=chunk["chunk_id"],
                     doc_id=doc_id,
-                    content=chunk['content'],
-                    original_index=chunk['original_index'],
-                    context=context
+                    content=chunk["content"],
+                    original_index=chunk["original_index"],
+                    context=context,
                 )
                 self.chunks.append(chunk_obj)
-        
+
         self._build_index()
 
     def _build_index(self) -> None:
-        embeddings = self.model.encode([f"{chunk.content}\n\nContext: {chunk.context}" for chunk in self.chunks])
-        
+        embeddings = self.model.encode(
+            [f"{chunk.content}\n\nContext: {chunk.context}" for chunk in self.chunks]
+        )
+
         dimension = embeddings.shape[1]
         self.index = faiss.IndexFlatIP(dimension)
-        
+
         faiss.normalize_L2(embeddings)
         self.index.add(embeddings)
 
@@ -106,60 +114,62 @@ class ContextualChunkRetriever:
         return random.sample(self.chunks, min(n, len(self.chunks)))
 
     def find_similar_chunks(
-        self, 
-        query_chunk: Chunk, 
-        k: int = 4, 
+        self,
+        query_chunk: Chunk,
+        k: int = 4,
         similarity_threshold: float = 0.9,
-        exclude_same_doc: bool = True
+        exclude_same_doc: bool = True,
     ) -> List[tuple[Chunk, float]]:
-        query_embedding = self.model.encode([f"{query_chunk.content}\n\nContext: {query_chunk.context}"])
+        query_embedding = self.model.encode(
+            [f"{query_chunk.content}\n\nContext: {query_chunk.context}"]
+        )
         faiss.normalize_L2(query_embedding)
-        
+
         scores, indices = self.index.search(query_embedding, k * 2)
-        
+
         similar_chunks = []
         for score, idx in zip(scores[0], indices[0]):
             if score < similarity_threshold:
                 continue
-            
+
             chunk = self.chunks[idx]
             if exclude_same_doc and chunk.doc_id == query_chunk.doc_id:
                 continue
-            
+
             if chunk.chunk_id != query_chunk.chunk_id:
                 similar_chunks.append((chunk, float(score)))
-            
+
             if len(similar_chunks) >= k:
                 break
-        
+
         return similar_chunks
 
     def save_database(self, directory: str) -> None:
         os.makedirs(directory, exist_ok=True)
-        
+
         faiss.write_index(self.index, os.path.join(directory, "faiss_index.bin"))
-        
-        metadata = {
-            'chunks': self.chunks,
-            'random_seed': self.random_seed
-        }
-        with open(os.path.join(directory, "metadata.pkl"), 'wb') as f:
+
+        metadata = {"chunks": self.chunks, "random_seed": self.random_seed}
+        with open(os.path.join(directory, "metadata.pkl"), "wb") as f:
             pickle.dump(metadata, f)
 
     @classmethod
-    def load_database(cls, directory: str, task_domain: str, model_name: str = 'all-MiniLM-L6-v2') -> 'ContextualChunkRetriever':
-        with open(os.path.join(directory, "metadata.pkl"), 'rb') as f:
+    def load_database(
+        cls, directory: str, task_domain: str, model_name: str = "all-MiniLM-L6-v2"
+    ) -> "ContextualChunkRetriever":
+        with open(os.path.join(directory, "metadata.pkl"), "rb") as f:
             metadata = pickle.load(f)
-        
-        instance = cls(task_domain, model_name=model_name, random_seed=metadata['random_seed'])
-        instance.chunks = metadata['chunks']
-        
+
+        instance = cls(task_domain, model_name=model_name, random_seed=metadata["random_seed"])
+        instance.chunks = metadata["chunks"]
+
         instance.index = faiss.read_index(os.path.join(directory, "faiss_index.bin"))
-        
+
         if instance.index is None:
             instance._build_index()
-        
+
         return instance
+
 
 def main(task_domain: str):
     chunk_retriever = ContextualChunkRetriever(task_domain, random_seed=42)

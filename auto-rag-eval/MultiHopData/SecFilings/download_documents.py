@@ -15,12 +15,16 @@ class SecFillingsData:
         self.max_char_length = max_char_length
         self.min_char_length = min_char_length
         self.sections = [
-            'section_2',
+            "section_2",
         ]
 
     def process_section(self, row: Dict, section: str) -> Dict:
         content = row[section]
-        if not content or len(content) < self.min_char_length or len(content) > self.max_char_length:
+        if (
+            not content
+            or len(content) < self.min_char_length
+            or len(content) > self.max_char_length
+        ):
             return None
 
         return {

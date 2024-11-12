@@ -13,11 +13,15 @@ class SecFillingsData:
     def __init__(self, max_char_length: int, min_char_length: int):
         self.max_char_length = max_char_length
         self.min_char_length = min_char_length
-        self.sections = ['section_1', 'section_2', 'section_8']
+        self.sections = ["section_1", "section_2", "section_8"]
 
     def process_section(self, row: Dict, section: str) -> Dict:
         content = row[section]
-        if not content or len(content) < self.min_char_length or len(content) > self.max_char_length:
+        if (
+            not content
+            or len(content) < self.min_char_length
+            or len(content) > self.max_char_length
+        ):
             return None
 
         return {
@@ -49,7 +53,7 @@ class SecFillingsData:
         logger.info(f"Processed {len(processed_data)} sections from {len(dataset)} documents.")
 
         output_filename = f"KnowledgeCorpus/main/data_{datetime.now().strftime('%Y%m%d%H')}.json"
-        with open(output_filename, 'w') as f:
+        with open(output_filename, "w") as f:
             json.dump(processed_data, f, indent=2)
 
         logger.info(f"Saved processed data to {output_filename}")

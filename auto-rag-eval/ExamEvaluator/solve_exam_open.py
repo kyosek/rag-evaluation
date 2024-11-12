@@ -13,7 +13,7 @@ model_config = {
     "bnb_4bit_compute_dtype": torch.float16,
     "bnb_4bit_use_double_quant": True,
     "bnb_4bit_quant_type": "nf4",
-    "device_map": "auto"
+    "device_map": "auto",
 }
 
 
@@ -52,7 +52,7 @@ def generate_answer(model, question: str, choices: List[str], document) -> str:
 def generate_answer_llama(model, question: str, choices: List[str], document: str) -> str:
     # Format choices with letters for clear instruction
     formatted_choices = "\n".join(f"{chr(65+i)}. {choice}" for i, choice in enumerate(choices))
-    
+
     # Construct a more structured prompt with system and user roles
     prompt = f"""[INST] <<SYS>>
     You are an AI assistant taking a multiple choice exam. Your task is to:
@@ -85,14 +85,14 @@ def generate_answer_llama(model, question: str, choices: List[str], document: st
 
     # Get model response
     response = model.invoke(prompt)
-    
+
     # Extract just the letter from the response
     # Look for first occurrence of A, B, C, or D
-    valid_answers = {'A', 'B', 'C', 'D'}
+    valid_answers = {"A", "B", "C", "D"}
     for char in response:
         if char in valid_answers:
             return char
-            
+
     # If no valid letter found, return the last character as fallback
     try:
         return response.strip()[-1]
@@ -107,7 +107,9 @@ def evaluate_performance(exam: List[Dict], results: List[str]) -> float:
 
 
 # Main function to run the exam
-def run_open_book_exam(model_device: str, model_path: str, model_name: str, task_name: str, exam_file: str):
+def run_open_book_exam(
+    model_device: str, model_path: str, model_name: str, task_name: str, exam_file: str
+):
     exam = load_exam(exam_file)
     if model_device == "GCP":
         print("Using transformer")
@@ -116,7 +118,7 @@ def run_open_book_exam(model_device: str, model_path: str, model_name: str, task
             use_gpu=True,
             model_config=model_config,
             # load_in_4bit=True,
-            )
+        )
     elif model_device == "claude":
         model = ClaudeGcp()
     else:
@@ -126,9 +128,13 @@ def run_open_book_exam(model_device: str, model_path: str, model_name: str, task
     results = []
     for question in tqdm(exam, desc="Processing questions", unit="question"):
         if model_device == "GCP":
-            answer = generate_answer_llama(model, question["question"], question["choices"], question["documentation"])
+            answer = generate_answer_llama(
+                model, question["question"], question["choices"], question["documentation"]
+            )
         else:
-            answer = generate_answer(model, question["question"], question["choices"], question["documentation"])
+            answer = generate_answer(
+                model, question["question"], question["choices"], question["documentation"]
+            )
         results.append(answer)
 
     accuracy = evaluate_performance(exam, results)
@@ -144,7 +150,9 @@ def run_open_book_exam(model_device: str, model_path: str, model_name: str, task
             }
         )
 
-    with open(f"Data/{task_name}/ExamResults/l3_open_exam_results_{model_name}_{task_name}.json", "w") as f:
+    with open(
+        f"Data/{task_name}/ExamResults/l3_open_exam_results_{model_name}_{task_name}.json", "w"
+    ) as f:
         json.dump(output, f, indent=2)
 
     print(f"Exam completed. Accuracy: {accuracy:.2%}")

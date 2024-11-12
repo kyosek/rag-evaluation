@@ -21,10 +21,11 @@ class EmbeddingContextProvider(ContextProvider):
         self.min_snippet_length = 20
 
         try:
-            self.docs_data = load_dataset(data_folder,
-                                          split="train",
-                                          # field="data" Old artifact from BH Template
-                                          )
+            self.docs_data = load_dataset(
+                data_folder,
+                split="train",
+                # field="data" Old artifact from BH Template
+            )
         except:
             all_data = flatten_data(data_folder)
 

@@ -5,7 +5,7 @@ from tqdm import tqdm
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import Chroma
-from langchain.retrievers import BM25Retriever  #, DPRRetriever, MultiQueryRetriever
+from langchain.retrievers import BM25Retriever  # , DPRRetriever, MultiQueryRetriever
 from langchain.document_loaders import JSONLoader
 from typing import Dict, List
 
@@ -23,10 +23,10 @@ def extract_text(data: Dict) -> List[str]:
 def load_corpus(data_path: str):
     loader = JSONLoader(
         file_path=data_path,
-        jq_schema='.[]',
+        jq_schema=".[]",
         content_key="text",
         text_content=False,
-        json_lines=True
+        json_lines=True,
     )
     return loader.load()
 
@@ -43,10 +43,7 @@ def get_retriever(retriever_type):
         return bm25_retriever
     vectorstore = Chroma.from_documents(texts, EMBEDDINGS)
     if retriever_type == "dpr":
-        dpr_retriever = DPRRetriever(
-            retriever=vectorstore.as_retriever(),
-            embeddings=EMBEDDINGS
-        )
+        dpr_retriever = DPRRetriever(retriever=vectorstore.as_retriever(), embeddings=EMBEDDINGS)
         return dpr_retriever
     elif retriever_type == "multiqa":
         multiqa_retriever = MultiQueryRetriever.from_llm(
@@ -60,13 +57,9 @@ def get_retriever(retriever_type):
 def retrieve_context(question: str, retriever):
     docs = retriever.invoke(question)
 
-    retrieved_docs_text = [
-        doc.page_content for doc in docs
-    ]
+    retrieved_docs_text = [doc.page_content for doc in docs]
     context = "\nRetrieved contexts:\n"
-    context += "".join(
-        [f"Context {i}:::\n{doc}" for i, doc in enumerate(retrieved_docs_text)]
-    )
+    context += "".join([f"Context {i}:::\n{doc}" for i, doc in enumerate(retrieved_docs_text)])
 
     return context, retrieved_docs_text
 
@@ -125,7 +118,9 @@ def run_rag_exam(model_name: str, task_name: str, exam_file: str, retriever):
             }
         )
 
-    with open(f"Data/{task_name}/ExamResults/exam_results_{model_name}_{task_name}_{retriever}.json", "w") as f:
+    with open(
+        f"Data/{task_name}/ExamResults/exam_results_{model_name}_{task_name}_{retriever}.json", "w"
+    ) as f:
         json.dump(output, f, indent=2)
 
     print(f"Exam completed. Accuracy: {accuracy:.2%}")

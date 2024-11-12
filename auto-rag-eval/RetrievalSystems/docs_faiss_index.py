@@ -30,10 +30,11 @@ class FaissIndex:
         cache_file_name = f"{index_folder}/data_kilt_embedded.arrow"
 
         try:
-            docs_data = load_dataset(data_folder,
-                                     split="train",
-                                     # field="data" # To be removed for BH data template, which differs from others
-                                     )
+            docs_data = load_dataset(
+                data_folder,
+                split="train",
+                # field="data" # To be removed for BH data template, which differs from others
+            )
 
         except:
             all_data = flatten_data(data_folder)
