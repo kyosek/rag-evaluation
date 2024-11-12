@@ -6,6 +6,7 @@ from typing import List, Dict
 from LLMServer.llama.llama_instant import LlamaModel
 from LLMServer.llama_gcp.llama_gcp_instant import LlamaGcpModel
 from LLMServer.gcp.claude_instant import ClaudeGcp
+from LLMServer.gcp.gemini_instant import GeminiGcp
 from tqdm import tqdm
 
 model_config = {
@@ -44,9 +45,19 @@ def generate_answer(model, question: str, choices: List[str], document) -> str:
     D
     """
 
-    response = model.invoke(prompt)
-    print(f"response: {response}")
-    return response.strip()[-1]
+    try:
+        response = model.invoke(prompt)
+        
+        # Extract just the letter from the response
+        # Look for first occurrence of A, B, C, or D
+        valid_answers = {'A', 'B', 'C', 'D'}
+        for char in response:
+            if char in valid_answers:
+                return char            
+        # If no valid letter found, return the last character as fallback
+        return response.strip()[-1]
+    except:
+        return "A"
 
 
 def generate_answer_llama(model, question: str, choices: List[str], document: str) -> str:
@@ -84,17 +95,16 @@ def generate_answer_llama(model, question: str, choices: List[str], document: st
     Your answer (one letter only): [/INST]"""
 
     # Get model response
-    response = model.invoke(prompt)
-    
-    # Extract just the letter from the response
-    # Look for first occurrence of A, B, C, or D
-    valid_answers = {'A', 'B', 'C', 'D'}
-    for char in response:
-        if char in valid_answers:
-            return char
-            
-    # If no valid letter found, return the last character as fallback
     try:
+        response = model.invoke(prompt)
+        
+        # Extract just the letter from the response
+        # Look for first occurrence of A, B, C, or D
+        valid_answers = {'A', 'B', 'C', 'D'}
+        for char in response:
+            if char in valid_answers:
+                return char            
+        # If no valid letter found, return the last character as fallback
         return response.strip()[-1]
     except:
         return "A"
@@ -109,16 +119,10 @@ def evaluate_performance(exam: List[Dict], results: List[str]) -> float:
 # Main function to run the exam
 def run_open_book_exam(model_device: str, model_path: str, model_name: str, task_name: str, exam_file: str):
     exam = load_exam(exam_file)
-    if model_device == "GCP":
-        print("Using transformer")
-        model = LlamaGcpModel(
-            model_size="70B",
-            use_gpu=True,
-            model_config=model_config,
-            # load_in_4bit=True,
-            )
+    if model_device == "gemini":
+        model = GeminiGcp(model_name=model_name)
     elif model_device == "claude":
-        model = ClaudeGcp()
+        model = ClaudeGcp(model_name=model_name)
     else:
         print("Using Llama-cpp")
         model = LlamaModel(model_path=model_path)
@@ -153,20 +157,28 @@ def run_open_book_exam(model_device: str, model_path: str, model_name: str, task
 
 if __name__ == "__main__":
     model_device = "claude"
-    # model_device = "GCP"
+    # model_device = "gemini"
     model_path = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF"
     # model_path = "Meta-Llama-3.1-70B-Instruct-Q4_K_S.gguf"
     # model_name = "llamav2"
     # model_name = "llama3-B70"
-    model_name = "claude"
-    task_name = "SecFilings"
+    model_names = ["claude-3-5-haiku@20241022"]
+    # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
+    # model_names = ["gemini-1.5-flash-002"]
+    # task_name = "SecFilings"
     # task_name = "StackExchange"
     # task_name = "Arxiv"
     # task_name = "LawStackExchange"
-    exam_file = f"Data/{task_name}/ExamData/ClaudeGcp_2024103117/exam_1000_42.json"
+    # task_names = ["Arxiv", "LawStackExchange", "SecFilings", "StackExchange"]
+    task_names = ["SecFilings", "StackExchange"]
+    
+    for model_name in model_names:
+        for task_name in task_names:
+            print(f"Processing {task_name}")
+            exam_file = f"Data/{task_name}/ExamData/claude_gcp_2024103108/exam_1000_42.json"
 
-    # Create the full directory path
-    directory = f"Data/{task_name}/ExamResults"
-    os.makedirs(directory, exist_ok=True)
+            # Create the full directory path
+            directory = f"Data/{task_name}/ExamResults"
+            os.makedirs(directory, exist_ok=True)
 
-    run_open_book_exam(model_device, model_path, model_name, task_name, exam_file)
+            run_open_book_exam(model_device, model_path, model_name, task_name, exam_file)
