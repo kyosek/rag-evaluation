@@ -1,0 +1,88 @@
+nohup: ignoring input
+[nltk_data] Downloading package punkt to /home/kyosuke/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package punkt_tab to
+[nltk_data]     /home/kyosuke/nltk_data...
+[nltk_data]   Package punkt_tab is already up-to-date!
+Some weights of the model checkpoint at vblagoje/dpr-question_encoder-single-lfqa-base were not used when initializing DPRQuestionEncoder: ['question_encoder.bert_model.pooler.dense.bias', 'question_encoder.bert_model.pooler.dense.weight']
+- This IS expected if you are initializing DPRQuestionEncoder from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DPRQuestionEncoder from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+/home/kyosuke/auto-rag-eval/venv/lib/python3.11/site-packages/transformers/tokenization_utils_base.py:1617: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be deprecated in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+SiameseContextProvider
+Generating train split: 0 examples [00:00, ? examples/s]Failed to load JSON from file '/home/kyosuke/auto-rag-eval/auto-rag-eval/Data/StackExchange/KnowledgeCorpus/main/data_2024092613.json' with error <class 'pyarrow.lib.ArrowInvalid'>: JSON parse error: Column() changed from object to array in row 0
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 0 examples [00:00, ? examples/s]
+Traceback (most recent call last):
+  File "/home/kyosuke/auto-rag-eval/venv/lib/python3.11/site-packages/datasets/packaged_modules/json/json.py", line 160, in _generate_tables
+    df = pandas_read_json(f)
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/auto-rag-eval/venv/lib/python3.11/site-packages/datasets/packaged_modules/json/json.py", line 38, in pandas_read_json
+    return pd.read_json(path_or_buf, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/auto-rag-eval/venv/lib/python3.11/site-packages/pandas/io/json/_json.py", line 815, in read_json
+    return json_reader.read()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/auto-rag-eval/venv/lib/python3.11/site-packages/pandas/io/json/_json.py", line 1025, in read
+    obj = self._get_object_parser(self.data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/auto-rag-eval/venv/lib/python3.11/site-packages/pandas/io/json/_json.py", line 1051, in _get_object_parser
+    obj = FrameParser(json, **kwargs).parse()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/auto-rag-eval/venv/lib/python3.11/site-packages/pandas/io/json/_json.py", line 1187, in parse
+    self._parse()
+  File "/home/kyosuke/auto-rag-eval/venv/lib/python3.11/site-packages/pandas/io/json/_json.py", line 1403, in _parse
+    ujson_loads(json, precise_float=self.precise_float), dtype=None
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Trailing data
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/kyosuke/auto-rag-eval/venv/lib/python3.11/site-packages/datasets/builder.py", line 1853, in _prepare_split_single
+    for _, table in generator:
+  File "/home/kyosuke/auto-rag-eval/venv/lib/python3.11/site-packages/datasets/packaged_modules/json/json.py", line 163, in _generate_tables
+    raise e
+  File "/home/kyosuke/auto-rag-eval/venv/lib/python3.11/site-packages/datasets/packaged_modules/json/json.py", line 137, in _generate_tables
+    pa_table = paj.read_json(
+               ^^^^^^^^^^^^^^
+  File "pyarrow/_json.pyx", line 308, in pyarrow._json.read_json
+  File "pyarrow/error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowInvalid: JSON parse error: Column() changed from object to array in row 0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kyosuke/auto-rag-eval/auto-rag-eval/RetrievalSystems/siamese_retriever.py", line 35, in __init__
+    self.docs_data = load_dataset(data_folder,
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/auto-rag-eval/venv/lib/python3.11/site-packages/datasets/load.py", line 2096, in load_dataset
+    builder_instance.download_and_prepare(
+  File "/home/kyosuke/auto-rag-eval/venv/lib/python3.11/site-packages/datasets/builder.py", line 924, in download_and_prepare
+    self._download_and_prepare(
+  File "/home/kyosuke/auto-rag-eval/venv/lib/python3.11/site-packages/datasets/builder.py", line 999, in _download_and_prepare
+    self._prepare_split(split_generator, **prepare_split_kwargs)
+  File "/home/kyosuke/auto-rag-eval/venv/lib/python3.11/site-packages/datasets/builder.py", line 1740, in _prepare_split
+    for job_id, done, content in self._prepare_split_single(
+  File "/home/kyosuke/auto-rag-eval/venv/lib/python3.11/site-packages/datasets/builder.py", line 1896, in _prepare_split_single
+    raise DatasetGenerationError("An error occurred while generating the dataset") from e
+datasets.exceptions.DatasetGenerationError: An error occurred while generating the dataset
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/kyosuke/auto-rag-eval/auto-rag-eval/ExamGenerator/multi_choice_exam.py", line 483, in <module>
+    "SIAMESE": SiameseContextProvider(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/auto-rag-eval/auto-rag-eval/RetrievalSystems/siamese_retriever.py", line 42, in __init__
+    all_data = flatten_data(data_folder)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kyosuke/auto-rag-eval/auto-rag-eval/ExamGenerator/utils.py", line 162, in flatten_data
+    "title": item["title"],
+             ~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+Using flattened data
+Initial JSON loading failed: Extra data: line 2 column 1 (char 2390518)
+Detected encoding: None

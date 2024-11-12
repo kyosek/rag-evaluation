@@ -264,7 +264,7 @@ if __name__ == "__main__":
     # Model name
     # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
     # model_names = ["claude-3-5-sonnet@20240620", "claude-3-5-haiku@20241022"]
-    model_names = ["claude-3-5-sonnet@20240620"]
+    model_names = ["claude-3-5-haiku@20241022"]
     
     # Reranker flag
     # rerank_flags = [True, False]
