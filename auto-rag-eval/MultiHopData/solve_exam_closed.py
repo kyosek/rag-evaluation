@@ -190,7 +190,7 @@ class ExamSolver:
 
         metrics = {"accuracy": correct / total, "correct": correct, "total": total}
 
-        with open(f"MultiHopData/{task_domain}/{model_name}_exam_results.json", "w") as json_file:
+        with open(f"MultiHopData/{task_domain}/{model_name}_closed_exam_results.json", "w") as json_file:
             json.dump(results, json_file, indent=2)
 
         return metrics
