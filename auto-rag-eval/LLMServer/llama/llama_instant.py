@@ -20,11 +20,11 @@ def delayed_text_generator(text: str, delay: float = 0.2):
 class LlamaModel(BaseLLM):
     def __init__(
         self,
-        model_path: str = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF",
+        model_name: str = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF",
         filename: str = "*q8_0.gguf",
     ):
         self.llm = Llama.from_pretrained(
-            repo_id=model_path,
+            repo_id=model_name,
             filename=filename,
             n_gpu_layers=-1,
             n_ctx=16384,
@@ -33,7 +33,7 @@ class LlamaModel(BaseLLM):
         self.inference_params = {
             "max_tokens": 16384,
             "temperature": 0,
-            "top_p": 0.9,
+            # "top_p": 0.9,
         }
 
     @retry(
