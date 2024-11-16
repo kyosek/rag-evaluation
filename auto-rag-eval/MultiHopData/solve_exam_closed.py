@@ -1,3 +1,5 @@
+import re
+import os
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
 from typing import List, Dict, Any, Tuple, Optional
@@ -11,10 +13,10 @@ import nltk
 from nltk.tokenize import word_tokenize
 
 from MultiHopData.retriever import Chunk, ChunkRetriever
-from LLMServer.llama.llama_instant import LlamaModel
 from LLMServer.llama_gcp.llama_gcp_instant import LlamaGcpModel
 from LLMServer.gcp.claude_instant import ClaudeGcp
 from LLMServer.gcp.gemini_instant import GeminiGcp
+from LLMServer.llama.llama_instant import LlamaModel
 
 
 @dataclass
@@ -163,6 +165,13 @@ class ExamSolver:
             return response.strip()[-1]
         except:
             return "A"
+    
+    def sanitize_filename(self, filename: str) -> str:
+        """Sanitize the model name for use in filenames."""
+        # Replace forward slashes with underscores
+        # Remove or replace other potentially problematic characters
+        sanitized = re.sub(r'[/\\:*?"<>|]', '_', filename)
+        return sanitized
 
     def evaluate_performance(
         self, questions: List[ExamQuestion], model, task_domain, model_name
@@ -180,6 +189,7 @@ class ExamSolver:
                 "model_answer": predicted_answer,
                 "correct_answer": question.correct_answer,
                 "is_correct": predicted_answer == question.correct_answer,
+                "number_of_hops": len(question.documentation)
             }
 
             # Add the question result to the list
@@ -190,7 +200,13 @@ class ExamSolver:
 
         metrics = {"accuracy": correct / total, "correct": correct, "total": total}
 
-        with open(f"MultiHopData/{task_domain}/{model_name}_closed_exam_results.json", "w") as json_file:
+        results_dir = os.path.join("MultiHopData", task_domain)
+        os.makedirs(results_dir, exist_ok=True)
+
+        # Sanitize the model name for the filename
+        safe_model_name = self.sanitize_filename(model_name)
+        results_file = os.path.join(results_dir, f"{safe_model_name}_closed_exam_results.json")
+        with open(results_file, "w") as json_file:
             json.dump(results, json_file, indent=2)
 
         return metrics
@@ -202,9 +218,10 @@ def main(task_domain: str, model_type: str, model_name: str):
 
     elif model_type == "claude":
         model = ClaudeGcp(model_name=model_name)
+    elif model_type == "cpp":
+        model = LlamaModel(model_name=model_name)
     else:
-        print("Using Llama-cpp")
-        # model = LlamaModel(model_path=model_path)
+        print("Invalid model name")
 
     print("Solving the exam")
     solver = ExamSolver()
@@ -217,16 +234,18 @@ def main(task_domain: str, model_type: str, model_name: str):
 
 
 if __name__ == "__main__":
-    # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    task_domains = ["wiki"]
-    model_type = "claude"
+    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    # task_domains = ["wiki"]
+    # model_type = "claude"
     # model_type = "gemini"
+    model_type = "cpp"
     # model_name = "claude-3-5-haiku@20241022"
     # model_name = "claude-3-5-sonnet@20240620"
     # model_name = "gemini-1.5-pro-002"
     # model_name = "gemini-1.5-flash-002"
+    model_name = "Meta-Llama-3-8B-Instruct.Q4_K_M.gguf"
 
-    model_names = ["claude-3-5-sonnet@20240620"]
+    model_names = ["hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF"]
     # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
 
     for model_name in model_names:
