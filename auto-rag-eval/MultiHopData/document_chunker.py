@@ -309,7 +309,8 @@ def main(task_name: str, strategy_name: str = "recursive"):
     print(f"Output saved to {output_path}")
 
 if __name__ == "__main__":
-    task_names = ["gov_report", "hotpotqa", "multifieldqa_en", "wiki"]
+    # task_names = ["gov_report", "hotpotqa", "multifieldqa_en", "wiki"]
+    task_names = ["SecFilings"]
     chunk_strategy = "semantic"
     
     for task_name in task_names:
