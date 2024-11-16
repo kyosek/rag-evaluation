@@ -209,6 +209,123 @@ class ChunkRetriever:
         return instance
 
 
+class HybridChunkRetriever(ChunkRetriever):
+    def __init__(
+        self,
+        task_domain: str,
+        bi_encoder_name: str = "all-MiniLM-L6-v2",
+        cross_encoder_name: str = "cross-encoder/ms-marco-MiniLM-L-6-v2",
+        random_seed: Optional[int] = None,
+    ):
+        """
+        Initialize the hybrid chunk retriever with both bi-encoder and cross-encoder models.
+
+        Args:
+            task_domain: Domain of the task
+            bi_encoder_name: Name of the sentence transformer model for initial retrieval
+            cross_encoder_name: Name of the cross-encoder model for re-ranking
+            random_seed: Seed for random operations
+        """
+        super().__init__(task_domain, model_name=bi_encoder_name, random_seed=random_seed)
+        self.cross_encoder = CrossEncoder(cross_encoder_name)
+        
+    def find_similar_chunks(
+        self,
+        query_chunk: Chunk,
+        k: int = 4,
+        initial_k: int = 20,  # Retrieve more candidates initially
+        similarity_threshold: float = 0.1,
+        exclude_same_doc: bool = True,
+    ) -> List[Tuple[Chunk, float]]:
+        """
+        Find similar chunks using a hybrid approach:
+        1. First retrieve candidates using bi-encoder (FAISS)
+        2. Then re-rank using cross-encoder
+
+        Args:
+            query_chunk: The chunk to find similar chunks for
+            k: Final number of similar chunks to return
+            initial_k: Number of candidates to retrieve with bi-encoder
+            similarity_threshold: Minimum similarity score threshold
+            exclude_same_doc: Whether to exclude chunks from the same document
+
+        Returns:
+            List of tuples containing similar chunks and their similarity scores
+        """
+        # Step 1: Initial retrieval with bi-encoder (FAISS)
+        query_embedding = self.model.encode([query_chunk.content])
+        faiss.normalize_L2(query_embedding)
+        
+        scores, indices = self.index.search(query_embedding, initial_k)
+        
+        # Prepare candidates for cross-encoder
+        candidates = []
+        for score, idx in zip(scores[0], indices[0]):
+            chunk = self.chunks[idx]
+            if exclude_same_doc and chunk.doc_id == query_chunk.doc_id:
+                continue
+            if chunk.chunk_id != query_chunk.chunk_id:
+                candidates.append((chunk, float(score)))
+        
+        if not candidates:
+            return []
+            
+        # Step 2: Re-rank with cross-encoder
+        candidate_chunks = [c[0] for c in candidates]
+        
+        # Prepare pairs for cross-encoder
+        pairs = [(query_chunk.content, chunk.content) for chunk in candidate_chunks]
+        
+        # Get cross-encoder scores
+        cross_scores = self.cross_encoder.predict(pairs)
+        
+        # Combine results
+        reranked_results = list(zip(candidate_chunks, cross_scores))
+        reranked_results.sort(key=lambda x: x[1], reverse=True)
+        
+        # Filter by threshold and take top k
+        final_results = [
+            (chunk, score) 
+            for chunk, score in reranked_results 
+            if score >= similarity_threshold
+        ][:k]
+        
+        return final_results
+
+    def save_database(self, directory: str) -> None:
+        """
+        Save the database including both encoder models.
+        """
+        super().save_database(directory)
+        # Save cross-encoder configuration
+        metadata = {
+            "cross_encoder_name": self.cross_encoder.model_name
+        }
+        with open(os.path.join(directory, "hybrid_metadata.json"), "w") as f:
+            json.dump(metadata, f)
+
+    @classmethod
+    def load_database(
+        cls,
+        directory: str,
+        task_domain: str,
+        bi_encoder_name: str = "all-MiniLM-L6-v2",
+        cross_encoder_name: str = "cross-encoder/ms-marco-MiniLM-L-6-v2"
+    ) -> "HybridChunkRetriever":
+        """
+        Load a previously saved database.
+        """
+        # Load cross-encoder configuration
+        with open(os.path.join(directory, "hybrid_metadata.json"), "r") as f:
+            hybrid_metadata = json.load(f)
+            cross_encoder_name = hybrid_metadata.get("cross_encoder_name", cross_encoder_name)
+        
+        instance = super().load_database(directory, task_domain, bi_encoder_name)
+        instance.cross_encoder = CrossEncoder(cross_encoder_name)
+        
+        return instance
+
+
 class RerankingRetriever(BaseRetriever):
     def __init__(
         self,
