@@ -5,7 +5,7 @@ import faiss
 import random
 import os
 import logging
-from typing import List, Dict, Tuple, Optional, Union
+from typing import List, Dict, Tuple, Optional, Union, Any
 from sentence_transformers import SentenceTransformer
 from dataclasses import dataclass
 import pickle
@@ -17,41 +17,25 @@ import threading
 
 from MultiHopData.retriever import Chunk, ChunkRetriever, HybridChunkRetriever
 from LLMServer.gcp.claude_instant import ClaudeGcp
-from LLMServer.llama.llama_instant import CppModel
+from LLMServer.llama.llama_instant import ModelFactory, ModelType
 
-
-
-
-class LLMManager:
-    _instances = {}
-    _lock = threading.Lock()
-    
-    @classmethod
-    def get_instance(cls, model_type: ModelType, model_path: str) -> Llama:
-        """Get or create a singleton instance of LlamaCpp model."""
-        with cls._lock:
-            if model_type not in cls._instances:
-                cls._instances[model_type] = Llama(
-                    model_path=os.path.join(model_path, model_type.value),
-                    n_ctx=8192,  # Adjust based on your needs
-                    n_threads=8   # Adjust based on your hardware
-                )
-            return cls._instances[model_type]
 
 class ChunkAnalyser:
-    def __init__(self, model_path: str):
+    def __init__(self):
         """Initialise with Mistral 7B for chunk analysis."""
-        self.llm = LLMManager.get_instance(ModelType.MISTRAL_7B, model_path)
+        self.llm = ModelFactory.create_model(ModelType.MISTRAL_7B)
         
     def analyse_chunk_relationships(self, chunks: List[Dict[str, str]]) -> Dict[str, bool]:
         """Analyse relationships between chunks using Mistral 7B."""
         chunks_text = "\n\n".join([chunk["text"] for chunk in chunks])
         
-        prompt = f"""Analyse the relationships between the following text chunks and identify the presence of these relationship types:
+        prompt = f"""
+        Analyse the relationships between the following text chunks and identify the presence of these relationship types:
         1. Temporal sequence (events or concepts that follow a time order)
         2. Cause and effect (one concept leads to or influences another)
         3. Compare and contrast (similarities and differences between concepts)
         4. Prerequisite knowledge (one concept is required to understand another)
+        5. Other
 
         Text chunks:
         {chunks_text}
@@ -60,21 +44,19 @@ class ChunkAnalyser:
         {{"temporal_sequence": true/false,
         "cause_effect": true/false,
         "compare_contrast": true/false,
-        "prerequisite_knowledge": true/false}}
+        "prerequisite_knowledge": true/false,
+        "other": true/false}}
 
         Only respond with the JSON object, no other text.
         """
         
-        response = self.llm(
-            prompt,
-            max_tokens=100,
-            temperature=0,
-            stop=["}"]
-        )
+        response = self.llm.invoke(prompt)
         
         try:
             # Extract the JSON string and ensure it ends with }
-            json_str = response['choices'][0]['text'].strip() + "}"
+            json_str = response.strip() + "}"
+            extract_index = json_str.find("}\n")
+            json_str = json_str[:extract_index + 1]
             return json.loads(json_str)
         except:
             # Fallback to default values if parsing fails
@@ -82,7 +64,8 @@ class ChunkAnalyser:
                 "temporal_sequence": False,
                 "cause_effect": False,
                 "compare_contrast": False,
-                "prerequisite_knowledge": False
+                "prerequisite_knowledge": False,
+                "other": False
             }
     
     def identify_reasoning_type(self, chunks: List[Dict[str, str]]) -> str:
@@ -95,6 +78,7 @@ class ChunkAnalyser:
         3. temporal_reasoning (understanding time-based relationships)
         4. causal_reasoning (understanding cause and effect)
         5. comparative_analysis (comparing and contrasting concepts)
+        6. other
 
         Text chunks:
         {chunks_text}
@@ -102,29 +86,27 @@ class ChunkAnalyser:
         Respond with only one of the five reasoning types listed above, no other text.
         """
         
-        response = self.llm(
-            prompt,
-            max_tokens=20,
-            temperature=0
-        )
+        response = self.llm.invoke(prompt)
         
-        reasoning_type = response['choices'][0]['text'].strip()
+        reasoning_type = response.strip()
         valid_types = [
             "bridging_inference",
             "multi_constraint_satisfaction",
             "temporal_reasoning",
             "causal_reasoning",
-            "comparative_analysis"
+            "comparative_analysis",
+            "other",
         ]
         
         return reasoning_type if reasoning_type in valid_types else random.choice(valid_types)
 
+
 class MCQGenerator:
-    def __init__(self, model_path: str, use_mixtral_22b: bool = False):
+    def __init__(self, use_mixtral_22b: bool = False):
         """Initialise with either Mixtral 8x22B or 8x7B based on preference."""
         self.model_type = ModelType.MIXTRAL_8_22B if use_mixtral_22b else ModelType.MIXTRAL_8_7B
-        self.llm = LLMManager.get_instance(self.model_type, model_path)
-        self.chunk_analyser = ChunkAnalyser(model_path)
+        self.llm = ModelFactory.create_model(self.model_type)
+        self.chunk_analyser = ChunkAnalyser()
         
     def _verify_format(self, response: str) -> Tuple[bool, Dict[str, Any]]:
         """Verify the format of generated question and parse it."""
@@ -175,14 +157,10 @@ class MCQGenerator:
             relationships=relationships
         )
         
-        response = self.llm(
-            prompt,
-            max_tokens=1000,
-            temperature=0.0
-        )
+        response = self.llm.invoke(prompt)
         
         # Verify and parse response
-        is_valid, parsed_question = self._verify_format(response['choices'][0]['text'])
+        is_valid, parsed_question = self._verify_format(response)
         
         if not is_valid:
             logging.warning("Generated question failed format verification")
@@ -197,27 +175,74 @@ class MCQGenerator:
         
         return parsed_question
 
+
+def make_enhanced_question_prompt(
+    task_domain: str,
+    chunks: List[Dict[str, str]],
+    reasoning_type: str,
+    relationships: Dict[str, bool]
+) -> str:
+    documentation = "\n\n".join([f"Chunk{i}: {chunk['text']}" for i, chunk in enumerate(chunks)])
+    
+    return f"""
+    <<SYS>>
+    You are an expert exam question generator specializing in creating challenging multiple-choice questions that require complex reasoning across multiple pieces of information.
+    
+    Required reasoning type: {reasoning_type}
+    Identified relationships between chunks: {relationships}
+    
+    Core requirements:
+    1. Question MUST require synthesizing information from at least {len(chunks)} different chunks
+    2. Distractors must be highly plausible and based on common misconceptions or partial understanding
+    3. The correct answer should not be obvious without carefully analyzing all chunks
+    4. Each distractor should represent a different type of reasoning error
+    
+    Question Design Principles:
+    1. Incorporate subtle dependencies between chunks
+    2. Require careful analysis of conditional statements
+    3. Include scenarios where surface-level reading might lead to wrong conclusions
+    4. Design distractors that would be chosen if key information from certain chunks is missed
+    
+    Format Requirements:
+    - Question text should be clear but complex
+    - Each option must start with A), B), C), or D)
+    - Include detailed explanation of why each distractor is incorrect
+    <</SYS>>
+
+    Domain: {task_domain}
+    Documentation: {documentation}
+
+    Generate a question following this format:
+    Question: [Complex question requiring multi-hop reasoning]
+    A) [Option incorporating some but not all key information]
+    B) [Option based on common misinterpretation]
+    C) [Option that would be correct if one crucial detail is missed]
+    D) [Correct option requiring synthesis of all chunks]
+    Correct Answer: [Letter]
+    Explanation: [Detailed explanation of why the answer is correct AND why each distractor is incorrect]
+    Reasoning Steps: [Step-by-step breakdown of how to arrive at the correct answer]
+    """
+
+
 def generate_exam(
     data: List[Dict[str, str]],
-    step_size: int,
     task_domain: str,
     retriever: ChunkRetriever,
-    model_path: str,
     use_mixtral_22b: bool = False
 ) -> List[Dict[str, str]]:
     """
     Generate an exam with multiple-choice questions from the given data.
     """
-    mcq_generator = MCQGenerator(model_path, use_mixtral_22b)
+    mcq_generator = MCQGenerator(use_mixtral_22b)
     exam = []
 
-    for k in tqdm(range(0, len(data), step_size)):
+    for k in tqdm(range(0, len(data))):
         # Get the current chunk and its similar chunks
         current_chunk = data[k]
         chunk_data = Chunk(
-            chunk_id=current_chunk["chunk_id"],
-            doc_id=current_chunk["doc_id"],
-            content=current_chunk["content"],
+            chunk_id=current_chunk.chunk_id,
+            doc_id=current_chunk.doc_id,
+            content=current_chunk.content,
             original_index=k,
         )
         similar_chunks = retriever.find_similar_chunks(
@@ -231,9 +256,9 @@ def generate_exam(
 
         chunk_dict = [
             {
-                "chunk_id": current_chunk["chunk_id"],
-                "doc_id": current_chunk["doc_id"],
-                "text": current_chunk["content"],
+                "chunk_id": current_chunk.chunk_id,
+                "doc_id": current_chunk.doc_id,
+                "text": current_chunk.content,
             }
         ]
         chunk_dict += [
@@ -251,12 +276,12 @@ def generate_exam(
 
     return exam
 
+
 def main(
     data_path: str,
     output_path: str,
     task_domain: str,
     sample_size: int,
-    model_path: str,
     use_mixtral_22b: bool = False
 ):
     logging.info("Start processing")
@@ -280,10 +305,8 @@ def main(
     print("Start generating exam")
     exam = generate_exam(
         sampled_chunks,
-        step_size,
         task_domain,
         retriever,
-        model_path,
         use_mixtral_22b
     )
 
@@ -291,12 +314,12 @@ def main(
     with open(output_path, "w") as f:
         json.dump(exam, f, indent=2)
 
+
 if __name__ == "__main__":
-    task_domain = "SecFilings"
+    task_domain = "gov_report"
     data_path = f"MultiHopData/{task_domain}/chunks/docs_chunk_semantic.json"
     output_path = f"MultiHopData/{task_domain}/exams/exam_new.json"
-    model_path = "path/to/your/models"  # Update with your model path
-    sample_size = 1500
+    sample_size = 10
     use_mixtral_22b = False  # Set to True if you want to use 22B model
 
     main(
@@ -304,6 +327,5 @@ if __name__ == "__main__":
         output_path,
         task_domain,
         sample_size,
-        model_path=model_path,
         use_mixtral_22b=use_mixtral_22b
     )
