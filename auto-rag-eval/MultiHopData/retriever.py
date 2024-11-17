@@ -314,6 +314,8 @@ class HybridChunkRetriever(ChunkRetriever):
             chunk = self.chunks[idx]
             if exclude_same_doc and chunk.doc_id == query_chunk.doc_id:
                 continue
+            if chunk.chunk_id == query_chunk.chunk_id:
+                continue
             candidates.append((chunk, float(score)))
         
         if not candidates:
@@ -394,7 +396,7 @@ class HybridChunkRetriever(ChunkRetriever):
             cross_encoder_name = hybrid_metadata.get("cross_encoder_name", cross_encoder_name)
         
         # Create instance
-        print("Initializing models...")
+        print("Initialising models...")
         instance = cls(
             task_domain=task_domain,
             bi_encoder_name=bi_encoder_name,
