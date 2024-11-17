@@ -12,6 +12,10 @@ def needs_cleaning(question):
     Returns:
         bool: True if question needs cleaning, False otherwise
     """
+    # Check if question is None or empty
+    if not question:
+        return True
+
     if "choices" not in question:
         return True
 
@@ -24,11 +28,15 @@ def needs_cleaning(question):
 
     # Check if all choices start with correct prefixes
     for i, choice in enumerate(choices):
+        if not choice or not isinstance(choice, str):  # Check for None or non-string values
+            return True
         if not choice.startswith(valid_options[i]):
             return True
 
     # Check if correct_answer needs cleaning
     if "correct_answer" in question:
+        if question["correct_answer"] is None:  # Check for None value
+            return True
         answer = question["correct_answer"].strip().upper()
         if len(answer) > 1 or answer not in ["A", "B", "C", "D"]:
             return True
@@ -39,61 +47,84 @@ def needs_cleaning(question):
 def clean_question_choices(data):
     """
     Clean question data while maintaining the original format.
+    Remove any invalid questions that cannot be cleaned.
 
     Args:
         data (list): List of question dictionaries
 
     Returns:
-        list: List of cleaned and unmodified questions in original order
+        tuple: (List of cleaned questions, Number of questions cleaned, Number of questions removed)
     """
     cleaned_data = []
     questions_cleaned = 0
+    questions_removed = 0
 
     for question in data:
-        if needs_cleaning(question):
-            # Create a clean copy of the question
-            cleaned_question = deepcopy(question)
+        # Skip None or empty questions
+        if not question:
+            questions_removed += 1
+            continue
 
-            # Ensure choices list exists
-            if "choices" not in cleaned_question:
-                cleaned_question["choices"] = []
+        try:
+            if needs_cleaning(question):
+                # Create a clean copy of the question
+                cleaned_question = deepcopy(question)
 
-            # Get current choices
-            choices = cleaned_question["choices"]
+                # Ensure choices list exists
+                if "choices" not in cleaned_question:
+                    cleaned_question["choices"] = []
 
-            # Clean and standardize the choices
-            cleaned_choices = []
-            valid_options = ["A) ", "B) ", "C) ", "D) "]
+                # Get current choices
+                choices = cleaned_question["choices"]
 
-            # Keep only the first 4 choices and ensure they match the format
-            for i, choice in enumerate(choices[:4]):
-                if i < len(valid_options):
-                    # If the choice doesn't start with the correct prefix, add it
-                    if not choice.startswith(valid_options[i]):
-                        choice = valid_options[i] + choice.lstrip("ABCD) ")
-                    cleaned_choices.append(choice)
+                # Clean and standardize the choices
+                cleaned_choices = []
+                valid_options = ["A) ", "B) ", "C) ", "D) "]
 
-            # If we have fewer than 4 choices, add empty ones
-            while len(cleaned_choices) < 4:
-                cleaned_choices.append(valid_options[len(cleaned_choices)])
+                # Keep only the first 4 choices and ensure they match the format
+                for i, choice in enumerate(choices[:4]):
+                    if i < len(valid_options):
+                        # Skip None or non-string choices
+                        if choice is None or not isinstance(choice, str):
+                            continue
+                        # If the choice doesn't start with the correct prefix, add it
+                        if not choice.startswith(valid_options[i]):
+                            choice = valid_options[i] + choice.lstrip("ABCD) ")
+                        cleaned_choices.append(choice)
 
-            # Update the choices in the cleaned question
-            cleaned_question["choices"] = cleaned_choices
+                # If we have fewer than 4 choices, add empty ones
+                while len(cleaned_choices) < 4:
+                    cleaned_choices.append(valid_options[len(cleaned_choices)])
 
-            # Clean the correct answer format if needed
-            if "correct_answer" in cleaned_question:
-                answer = cleaned_question["correct_answer"].strip().upper()
-                # Extract just the letter if it includes more
-                answer = answer[0] if answer else ""
-                cleaned_question["correct_answer"] = answer
+                # Update the choices in the cleaned question
+                cleaned_question["choices"] = cleaned_choices
 
-            cleaned_data.append(cleaned_question)
-            questions_cleaned += 1
-        else:
-            # Keep the original question unchanged
-            cleaned_data.append(question)
+                # Clean the correct answer format if needed
+                if "correct_answer" in cleaned_question:
+                    # Remove questions with None correct_answer
+                    if cleaned_question["correct_answer"] is None:
+                        questions_removed += 1
+                        continue
+                    
+                    answer = cleaned_question["correct_answer"].strip().upper()
+                    # Extract just the letter if it includes more
+                    answer = answer[0] if answer else ""
+                    if answer not in ["A", "B", "C", "D"]:
+                        questions_removed += 1
+                        continue
+                    cleaned_question["correct_answer"] = answer
 
-    return cleaned_data, questions_cleaned
+                cleaned_data.append(cleaned_question)
+                questions_cleaned += 1
+            else:
+                # Keep the original question unchanged
+                cleaned_data.append(question)
+        except Exception as e:
+            # If any error occurs while cleaning a question, skip it
+            questions_removed += 1
+            continue
+
+    return cleaned_data, questions_cleaned, questions_removed
 
 
 def process_json_file(input_path, output_path):
@@ -110,7 +141,7 @@ def process_json_file(input_path, output_path):
             data = json.load(f)
 
         # Clean the data and get statistics
-        cleaned_data, questions_cleaned = clean_question_choices(data)
+        cleaned_data, questions_cleaned, questions_removed = clean_question_choices(data)
 
         # Save the cleaned data to a new JSON file
         with open(output_path, "w", encoding="utf-8") as f:
@@ -119,7 +150,8 @@ def process_json_file(input_path, output_path):
         print(f"Successfully processed {input_path}")
         print(f"- Total questions: {len(data)}")
         print(f"- Questions cleaned: {questions_cleaned}")
-        print(f"- Questions unmodified: {len(data) - questions_cleaned}")
+        print(f"- Questions removed: {questions_removed}")
+        print(f"- Questions unmodified: {len(data) - questions_cleaned - questions_removed}")
         print(f"Results saved to {output_path}")
 
     except FileNotFoundError:
@@ -131,6 +163,8 @@ def process_json_file(input_path, output_path):
 
 
 if __name__ == "__main__":
-    input_file = "MultiHopData/gov_report/exams/exam_new.json"
-    output_file = "MultiHopData/gov_report/exams/exam_new_cleaned.json"
+    input_file = "auto-rag-eval/MultiHopData/gov_report/exams/exam_new.json"
+    output_file = "auto-rag-eval/MultiHopData/gov_report/exams/exam_new_cleaned.json"
+
     process_json_file(input_file, output_file)
+    
