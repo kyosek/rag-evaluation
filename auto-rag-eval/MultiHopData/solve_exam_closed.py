@@ -16,7 +16,7 @@ from MultiHopData.retriever import Chunk, ChunkRetriever
 from LLMServer.llama_gcp.llama_gcp_instant import LlamaGcpModel
 from LLMServer.gcp.claude_instant import ClaudeGcp
 from LLMServer.gcp.gemini_instant import GeminiGcp
-from LLMServer.llama.llama_instant import LlamaModel
+from LLMServer.llama.llama_instant import ModelFactory, ModelType
 
 
 @dataclass
@@ -219,13 +219,14 @@ def main(task_domain: str, model_type: str, model_name: str):
     elif model_type == "claude":
         model = ClaudeGcp(model_name=model_name)
     elif model_type == "cpp":
-        model = LlamaModel(model_name=model_name)
+        # model = ModelFactory.create_model(ModelType.LLAMA_3_2)
+        model = ModelFactory.create_model(ModelType.MISTRAL_7B)
     else:
         print("Invalid model name")
 
     print("Solving the exam")
     solver = ExamSolver()
-    questions = solver.load_exam(f"MultiHopData/{task_domain}/exam_cleaned_1000_42.json")
+    questions = solver.load_exam(f"MultiHopData/{task_domain}/exams/exam_new_cleaned_1000_42_llama3_2b.json")
     metrics = solver.evaluate_performance(questions, model, task_domain, model_name)
 
     print(f"Exam Performance:")
@@ -234,8 +235,8 @@ def main(task_domain: str, model_type: str, model_name: str):
 
 
 if __name__ == "__main__":
-    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    # task_domains = ["wiki"]
+    # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    task_domains = ["gov_report"]
     # model_type = "claude"
     # model_type = "gemini"
     model_type = "cpp"
@@ -245,7 +246,7 @@ if __name__ == "__main__":
     # model_name = "gemini-1.5-flash-002"
     model_name = "Meta-Llama-3-8B-Instruct.Q4_K_M.gguf"
 
-    model_names = ["hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF"]
+    model_names = ["MISTRAL_7B"]
     # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
 
     for model_name in model_names:

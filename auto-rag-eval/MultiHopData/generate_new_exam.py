@@ -107,8 +107,8 @@ class MCQGenerator:
     def __init__(self, use_mixtral_22b: bool = False):
         """Initialise with either Mixtral 8x22B or 8x7B based on preference."""
         # self.model_type = ModelType.MIXTRAL_8_22B if use_mixtral_22b else ModelType.MIXTRAL_8_7B
-        # self.model_type = ModelType.MISTRAL_7B
-        self.model_type = ModelType.LLAMA_3_2
+        self.model_type = ModelType.MISTRAL_7B
+        # self.model_type = ModelType.LLAMA_3_2
         # self.model_type = ModelType.PHI_2
         self.llm = ModelFactory.create_model(self.model_type)
         # self.chunk_analyser = ChunkAnalyser()
@@ -375,20 +375,24 @@ def main(
 
 
 if __name__ == "__main__":
-    task_domain = "gov_report"
-    data_path = f"MultiHopData/{task_domain}/chunks/docs_chunk_semantic.json"
-    output_path = f"MultiHopData/{task_domain}/exams/exam_new.json"
     sample_size = 1200
     use_mixtral_22b = False  # Set to True if you want to use 22B model
     target_hop_number = 301
     
     assert sample_size < target_hop_number * 4
+    
+    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en"]
+    
+    # task_domain = "gov_report"
+    for task_domain in task_domains:
+        data_path = f"MultiHopData/{task_domain}/chunks/docs_chunk_semantic.json"
+        output_path = f"MultiHopData/{task_domain}/exams/exam_new.json"
 
-    main(
-        data_path,
-        output_path,
-        task_domain,
-        sample_size,
-        use_mixtral_22b=use_mixtral_22b,
-        target_hop_number=target_hop_number
-    )
+        main(
+            data_path,
+            output_path,
+            task_domain,
+            sample_size,
+            use_mixtral_22b=use_mixtral_22b,
+            target_hop_number=target_hop_number
+        )
