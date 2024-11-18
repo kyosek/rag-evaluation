@@ -220,7 +220,7 @@ def main(exam_path: str, task_domain: str):
 
 
 if __name__ == "__main__":
-    exam_path = "MultiHopData/SecFilings/exam_cleaned.json"
-    task_domain = "SecFilings"
+    exam_path = "auto-rag-eval/MultiHopData/hotpotqa/exams/exam_new_cleaned_1000_42_llama3_2b.json"
+    task_domain = "hotpotqa"
 
     main(exam_path, task_domain)
