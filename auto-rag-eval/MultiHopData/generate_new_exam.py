@@ -25,7 +25,7 @@ class ChunkAnalyser:
     def __init__(self):
         """Initialise with Mistral 7B for chunk analysis."""
         # self.llm = ModelFactory.create_model(ModelType.MISTRAL_7B)
-        self.llm = ModelFactory.create_model(ModelType.LLAMA_3_2)
+        self.llm = ModelFactory.create_model(ModelType.LLAMA_3_2_3B)
         # self.llm = ModelFactory.create_model(ModelType.PHI_2)
         
     def analyse_chunk_relationships(self, chunks: List[Dict[str, str]]) -> Dict[str, bool]:
@@ -109,8 +109,8 @@ class MCQGenerator:
         """Initialise with either Mixtral 8x22B or 8x7B based on preference."""
         # self.model_type = ModelType.MIXTRAL_8_22B if use_mixtral_22b else ModelType.MIXTRAL_8_7B
         # self.model_type = ModelType.MISTRAL_7B
-        self.model_type = ModelType.MINISTRAL_8B
-        # self.model_type = ModelType.LLAMA_3_2
+        # self.model_type = ModelType.MINISTRAL_8B
+        self.model_type = ModelType.LLAMA_3_2_3B
         # self.model_type = ModelType.PHI_2
         self.llm = ModelFactory.create_model(self.model_type)
         # self.chunk_analyser = ChunkAnalyser()
@@ -124,7 +124,7 @@ class MCQGenerator:
 
     def _extract_choices(self, response: str) -> Optional[List[str]]:
         """Extract and validate choices with robust pattern matching."""
-       # Match choices including possible line breaks but excluding explanation sections
+        # Match choices including possible line breaks but excluding explanation sections
         choice_pattern = r"([A-D]\)(?:(?![A-D]\)|Correct Answer:|Explanation:|Reasoning Steps:).)*)"
         choices = re.findall(choice_pattern, response, re.DOTALL)
         
@@ -169,7 +169,7 @@ class MCQGenerator:
         """Create a prompt using the appropriate template for the specified model."""
         documentation = "\n\n".join([f"Chunk{i}: {chunk['text']}" for i, chunk in enumerate(chunks)])
         
-        template = PromptTemplate.get_prompt_template(self.model_type, chunks, task_domain, documentation)
+        template = PromptTemplate.get_question_generation_prompt_template(self.model_type, chunks, task_domain, documentation)
         return template
         
     def generate_question(self, chunks: List[Dict[str, str]], task_domain: str) -> Optional[Dict]:
@@ -321,13 +321,13 @@ def main(
 
 
 if __name__ == "__main__":
-    sample_size = 3
+    sample_size = 1200
     use_mixtral_22b = False  # Set to True if you want to use 22B model
-    target_hop_number = 3
+    target_hop_number = 301
     
     assert sample_size < target_hop_number * 4
     
-    task_domains = ["gov_report", "hotpotqa"]
+    task_domains = ["hotpotqa", "multifieldqa_en"]
     
     # task_domain = "gov_report"
     for task_domain in task_domains:

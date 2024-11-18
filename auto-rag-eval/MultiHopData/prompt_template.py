@@ -5,11 +5,11 @@ from LLMServer.llama.llama_instant import ModelType
 
 class PromptTemplate:
     @staticmethod
-    def get_prompt_template(model_type: ModelType, chunks: List[Dict[str, str]], task_domain, documentation) -> str:
+    def get_question_generation_prompt_template(model_type: ModelType, chunks: List[Dict[str, str]], task_domain, documentation) -> str:
         """Return the appropriate prompt template based on model type."""
         num_chunks = len(chunks)
         prompts = {
-            ModelType.LLAMA_3_2: f"""
+            ModelType.LLAMA_3_2_3B: f"""
             <<SYS>>
             You are an expert exam question generator specialising in creating challenging multihop multiple-choice questions (1 correct answer and 3 distractors) that require complex reasoning across multiple pieces of information.
             
@@ -78,7 +78,7 @@ class PromptTemplate:
             You are an expert exam question generator specializing in creating challenging multihop multiple-choice questions (1 correct answer and 3 distractors) that require complex reasoning across multiple pieces of information.
 
             **Core requirements:**
-            1. Question MUST require synthesizing information from at least {len(chunks)} different chunks
+            1. Question MUST require synthesizing information from at least {num_chunks} different chunks
             2. Distractors must be highly plausible and based on common misconceptions or partial understanding
             3. The correct answer should not be obvious without carefully analyzing all chunks
             4. Each distractor should represent a different type of reasoning error
@@ -109,7 +109,7 @@ class PromptTemplate:
             <|eot_id|>
             """,
     }
-        return prompts.get(model_type, prompts[ModelType.LLAMA_3_2])
+        return prompts.get(model_type, prompts[ModelType.LLAMA_3_2_3B])
 
 
 # return f"""

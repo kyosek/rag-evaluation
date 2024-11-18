@@ -42,8 +42,7 @@ def calculate_accuracy_by_hops(data):
 
 # Example usage:
 if __name__ == "__main__":
-    # Read JSON file
-    with open('auto-rag-eval/MultiHopData/gov_report/MISTRAL_7B_closed_exam_results.json', 'r') as f:
+    with open('auto-rag-eval/MultiHopData/gov_report/MINISTRAL_8B_closed_exam_results.json', 'r') as f:
         data = json.load(f)
     
     # Calculate accuracies
