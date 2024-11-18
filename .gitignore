@@ -6,6 +6,7 @@ auto-rag-eval/Data/Arxiv/ExamData/claude_gcp_2024103108/exam.json
 auto-rag-eval/Data/LawStackExchange/ExamData/claude_gcp_2024103117/exam.json
 auto-rag-eval/Data/SecFilings/ExamData/claude_gcp_2024103117/exam.json
 auto-rag-eval/MultiHopData/SecFilings/chunks/docs_chunk_semantic.json
+auto-rag-eval/MultiHopData/SecFilings/chunks/docs_chunk_semantic_cleaned.json
 
 *.out
 
