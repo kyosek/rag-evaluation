@@ -117,12 +117,14 @@ class MCQGenerator:
 
     def _extract_question(self, response: str) -> Optional[str]:
         """Extract question from response with improved pattern matching."""
-        question_match = re.search(r"Question:\s*(.*?)(?=\s*A\))", response, re.DOTALL)
-        return question_match.group(1).strip() if question_match else None
+        question_match = re.search(r"Question:\s*(.*?)(?=\s*A\))", response, re.DOTALL | re.IGNORECASE)
+        if question_match:
+            return re.sub(r'\*', '', question_match.group(1).strip())
+        return None
 
     def _extract_choices(self, response: str) -> Optional[List[str]]:
         """Extract and validate choices with robust pattern matching."""
-        # Match choices including possible line breaks but excluding explanation sections
+       # Match choices including possible line breaks but excluding explanation sections
         choice_pattern = r"([A-D]\)(?:(?![A-D]\)|Correct Answer:|Explanation:|Reasoning Steps:).)*)"
         choices = re.findall(choice_pattern, response, re.DOTALL)
         
@@ -132,18 +134,30 @@ class MCQGenerator:
             for choice in choices:
                 # Remove any trailing explanation text that might have been captured
                 choice = re.sub(r'\n.*?(?:Reasoning Steps:|Explanation:).*', '', choice, flags=re.DOTALL)
+                # Remove asterisks
+                choice = re.sub(r'\*', '', choice)
                 cleaned_choices.append(choice.strip())
             
-            # Ensure we have exactly 4 choices
-            # if len(cleaned_choices) == 4:
             return cleaned_choices
         return None
 
     def _extract_correct_answer(self, response: str) -> Optional[str]:
         """Extract correct answer with validation."""
-        correct_answer_match = re.search(r"Correct Answer:\s*([A-D])\)?", response)
+        # Try first with full pattern including 'Correct Answer:'
+        correct_answer_match = re.search(r"Correct Answer:\s*([A-D])\)?", response, re.IGNORECASE)
+        
+        # If first method fails, try a more lenient approach
+        if not correct_answer_match:
+            correct_answer_match = re.search(r"\*\*Correct Answer:\*\*\s*([A-D])\)?", response, re.IGNORECASE)
+        
+        # If still no match, try finding a lone capital letter at the end
+        if not correct_answer_match:
+            correct_answer_match = re.search(r"([A-D])$", response.split('\n')[-1].strip(), re.IGNORECASE)
+        
+        # Return the correct answer if found
         if correct_answer_match:
             return f"{correct_answer_match.group(1)})"
+        
         return None
 
     def _extract_reasoning_steps(self, response: str) -> Optional[str]:
@@ -307,7 +321,7 @@ def main(
 
 
 if __name__ == "__main__":
-    sample_size = 10
+    sample_size = 3
     use_mixtral_22b = False  # Set to True if you want to use 22B model
     target_hop_number = 3
     

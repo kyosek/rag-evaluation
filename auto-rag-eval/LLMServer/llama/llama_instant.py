@@ -26,7 +26,8 @@ class ModelType(Enum):
     MINISTRAL_8B = "ministral-8b"
     MIXTRAL_8_7B = "mixtral-8-7b"
     MIXTRAL_8_22B = "mixtral-8-22b"
-    LLAMA_3_2 = "llama-3-2"
+    LLAMA_3_2_3B = "llama-3-2-3b"
+    LLAMA_3_1_8B = "llama-3-1-8b"
     FALCON_7B = "falcon-7b"
     FALCON_40B = "falcon-40b"
     YI_6B = "yi-6b"
@@ -162,11 +163,27 @@ class Mixtral8x22BModel(BaseQuantizedModel):
     def get_id(self):
         return "Mixtral8x7BModel:8x7B"
 
-class LlamaModel(BaseQuantizedModel):
+class Llama3_2_3BModel(BaseQuantizedModel):
     def __init__(
         self,
         model_path: str = "hugging-quants/Llama-3.2-3B-Instruct-Q8_0-GGUF",
         filename: str = "*q8_0.gguf",
+        n_ctx: int = 16384
+    ):
+        super().__init__(
+            model_path=model_path,
+            filename=filename,
+            n_ctx=n_ctx
+        )
+
+    def get_id(self):
+        return "LlamaModel:3.2-3B"
+
+class Llama3_1_8BModel(BaseQuantizedModel):
+    def __init__(
+        self,
+        model_path: str = "bartowski/Meta-Llama-3-8B-Instruct-GGUF",
+        filename: str = "Meta-Llama-3-8B-Instruct-Q4_K_M.gguf",
         n_ctx: int = 16384
     ):
         super().__init__(
@@ -429,7 +446,8 @@ class ModelFactory:
             ModelType.MINISTRAL_8B: Ministral8BModel,
             ModelType.MIXTRAL_8_7B: Mixtral8x7BModel,
             ModelType.MIXTRAL_8_22B: Mixtral8x22BModel,
-            ModelType.LLAMA_3_2: LlamaModel,
+            ModelType.LLAMA_3_2_3B: Llama3_2_3BModel,
+            ModelType.LLAMA_3_1_8B: Llama3_1_8BModel,
             ModelType.FALCON_7B: Falcon7BModel,
             ModelType.FALCON_40B: Falcon40BModel,
             ModelType.YI_6B: Yi6BModel,

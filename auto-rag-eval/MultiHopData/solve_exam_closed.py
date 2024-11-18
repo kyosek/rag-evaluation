@@ -124,7 +124,7 @@ class ExamSolver:
         )
 
         # Construct a more structured prompt with system and user roles
-        prompt = f"""[INST] <<SYS>>
+        prompt = f"""<s>[INST] <<SYS>>
         You are an AI assistant taking a multiple choice exam. Your task is to:
         1. Read the question and choices carefully
         2. Analyze the choices
@@ -148,7 +148,7 @@ class ExamSolver:
         C
         D
 
-        Your answer (one letter only): [/INST]"""
+        Your answer (one letter only): [/INST]</s>"""
 
         # Get model response
         try:
@@ -164,7 +164,7 @@ class ExamSolver:
             # If no valid letter found, return the last character as fallback
             return response.strip()[-1]
         except:
-            return "A"
+            return "NA"
     
     def sanitize_filename(self, filename: str) -> str:
         """Sanitize the model name for use in filenames."""
@@ -219,8 +219,9 @@ def main(task_domain: str, model_type: str, model_name: str):
     elif model_type == "claude":
         model = ClaudeGcp(model_name=model_name)
     elif model_type == "cpp":
-        # model = ModelFactory.create_model(ModelType.LLAMA_3_2)
-        model = ModelFactory.create_model(ModelType.MISTRAL_7B)
+        model = ModelFactory.create_model(ModelType.LLAMA_3_2_3B)
+        # model = ModelFactory.create_model(ModelType.MINISTRAL_8B)
+        # model = ModelFactory.create_model(ModelType.LLAMA_3_1_8B)
     else:
         print("Invalid model name")
 
@@ -246,7 +247,8 @@ if __name__ == "__main__":
     # model_name = "gemini-1.5-flash-002"
     model_name = "Meta-Llama-3-8B-Instruct.Q4_K_M.gguf"
 
-    model_names = ["MISTRAL_7B"]
+    # model_names = ["MINISTRAL_8B"]
+    model_names = ["LLAMA_3_2_3B"]
     # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
 
     for model_name in model_names:
