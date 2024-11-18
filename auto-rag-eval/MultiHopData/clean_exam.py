@@ -2,6 +2,23 @@ import json
 from copy import deepcopy
 
 
+def has_null_values(question):
+    """
+    Check if a question dictionary has any null values in its main fields.
+
+    Args:
+        question (dict): Question dictionary
+
+    Returns:
+        bool: True if any main field has a null value, False otherwise
+    """
+    if not isinstance(question, dict):
+        return True
+    
+    main_fields = ["question", "choices", "correct_answer"]
+    return any(question.get(field) is None for field in main_fields)
+
+
 def needs_cleaning(question):
     """
     Check if a question needs cleaning based on its choices.
@@ -47,7 +64,7 @@ def needs_cleaning(question):
 def clean_question_choices(data):
     """
     Clean question data while maintaining the original format.
-    Remove any invalid questions that cannot be cleaned.
+    Remove any invalid questions that cannot be cleaned or contain null values.
 
     Args:
         data (list): List of question dictionaries
@@ -60,8 +77,8 @@ def clean_question_choices(data):
     questions_removed = 0
 
     for question in data:
-        # Skip None or empty questions
-        if not question:
+        # Skip None, empty questions, or questions with null values
+        if not question or has_null_values(question):
             questions_removed += 1
             continue
 
@@ -163,8 +180,8 @@ def process_json_file(input_path, output_path):
 
 
 if __name__ == "__main__":
-    input_file = "auto-rag-eval/MultiHopData/gov_report/exams/exam_new.json"
-    output_file = "auto-rag-eval/MultiHopData/gov_report/exams/exam_new_cleaned.json"
+    input_file = "auto-rag-eval/MultiHopData/hotpotqa/exams/exam_new.json"
+    output_file = "auto-rag-eval/MultiHopData/hotpotqa/exams/exam_new_cleaned.json"
 
     process_json_file(input_file, output_file)
     
