@@ -23,6 +23,7 @@ def delayed_text_generator(text: str, delay: float = 0.2):
 
 class ModelType(Enum):
     MISTRAL_7B = "mistral-7b"
+    MINISTRAL_8B = "ministral-8b"
     MIXTRAL_8_7B = "mixtral-8-7b"
     MIXTRAL_8_22B = "mixtral-8-22b"
     LLAMA_3_2 = "llama-3-2"
@@ -113,6 +114,22 @@ class Mistral7BModel(BaseQuantizedModel):
 
     def get_id(self):
         return "Mistral7BModel:7B"
+
+class Ministral8BModel(BaseQuantizedModel):
+    def __init__(
+        self,
+        model_path: str = "bartowski/Ministral-8B-Instruct-2410-GGUF",
+        filename: str = "Ministral-8B-Instruct-2410-Q4_K_M.gguf",
+        n_ctx: int = 16384
+    ):
+        super().__init__(
+            model_path=model_path,
+            filename=filename,
+            n_ctx=n_ctx
+        )
+
+    def get_id(self):
+        return "Ministral8BModel:8B"
 
 class Mixtral8x7BModel(BaseQuantizedModel):
     def __init__(
@@ -409,6 +426,7 @@ class ModelFactory:
         model_map = {
             # Existing larger models
             ModelType.MISTRAL_7B: Mistral7BModel,
+            ModelType.MINISTRAL_8B: Ministral8BModel,
             ModelType.MIXTRAL_8_7B: Mixtral8x7BModel,
             ModelType.MIXTRAL_8_22B: Mixtral8x22BModel,
             ModelType.LLAMA_3_2: LlamaModel,

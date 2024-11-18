@@ -15,6 +15,7 @@ from llama_cpp import Llama
 from concurrent.futures import ThreadPoolExecutor
 import threading
 
+from MultiHopData.prompt_template import PromptTemplate
 from MultiHopData.retriever import Chunk, ChunkRetriever, HybridChunkRetriever
 from LLMServer.gcp.claude_instant import ClaudeGcp
 from LLMServer.llama.llama_instant import ModelFactory, ModelType
@@ -107,7 +108,8 @@ class MCQGenerator:
     def __init__(self, use_mixtral_22b: bool = False):
         """Initialise with either Mixtral 8x22B or 8x7B based on preference."""
         # self.model_type = ModelType.MIXTRAL_8_22B if use_mixtral_22b else ModelType.MIXTRAL_8_7B
-        self.model_type = ModelType.MISTRAL_7B
+        # self.model_type = ModelType.MISTRAL_7B
+        self.model_type = ModelType.MINISTRAL_8B
         # self.model_type = ModelType.LLAMA_3_2
         # self.model_type = ModelType.PHI_2
         self.llm = ModelFactory.create_model(self.model_type)
@@ -148,6 +150,13 @@ class MCQGenerator:
         """Extract reasoning steps if available."""
         reasoning_match = re.search(r"Reasoning Steps:\s*(.*?)(?=(?:\n\s*[A-D]\)|\Z))", response, re.DOTALL)
         return reasoning_match.group(1).strip() if reasoning_match else None
+    
+    def _make_enhanced_question_prompt(self, task_domain: str, chunks: List[Dict[str, str]]) -> str:
+        """Create a prompt using the appropriate template for the specified model."""
+        documentation = "\n\n".join([f"Chunk{i}: {chunk['text']}" for i, chunk in enumerate(chunks)])
+        
+        template = PromptTemplate.get_prompt_template(self.model_type, chunks, task_domain, documentation)
+        return template
         
     def generate_question(self, chunks: List[Dict[str, str]], task_domain: str) -> Optional[Dict]:
         """Generate a multiple-choice question with documentation included."""
@@ -156,7 +165,7 @@ class MCQGenerator:
         # reasoning_type = self.chunk_analyser.identify_reasoning_type(chunks)
         
         # Generate question with enhanced prompt
-        prompt = make_enhanced_question_prompt(
+        prompt = self._make_enhanced_question_prompt(
             task_domain=task_domain,
             chunks=chunks,
             # reasoning_type=reasoning_type,
@@ -188,83 +197,6 @@ class MCQGenerator:
         except Exception as e:
             logging.error(f"Error parsing question format: {e}")
             return None
-
-
-def make_enhanced_question_prompt(
-    task_domain: str,
-    chunks: List[Dict[str, str]]
-) -> str:
-    documentation = "\n\n".join([f"Chunk{i}: {chunk['text']}" for i, chunk in enumerate(chunks)])
-    
-    return f"""
-    <<SYS>>
-    You are an expert exam question generator specialising in creating challenging multihop multiple-choice questions (1 correct answer and 3 distractors) that require complex reasoning across multiple pieces of information.
-    
-    Core requirements:
-    1. Question MUST require synthesising information from at least {len(chunks)} different chunks
-    2. Distractors must be highly plausible and based on common misconceptions or partial understanding
-    3. The correct answer should not be obvious without carefully analysing all chunks
-    4. Each distractor should represent a different type of reasoning error
-    
-    Question Design Principles:
-    1. Incorporate subtle dependencies between chunks
-    2. Require careful analysis of conditional statements
-    3. Include scenarios where surface-level reading might lead to wrong conclusions
-    4. Design distractors that would be chosen if key information from certain chunks is missed
-    
-    Format Requirements:
-    - Question text should be clear but complex
-    - Each option must start with A), B), C), or D)
-    <</SYS>>
-
-    Domain: {task_domain}
-    Documentation: {documentation}
-
-    Generate a question following this format:
-    Question: [Complex question requiring multi-hop reasoning]
-    A) [Option incorporating some but not all key information]
-    B) [Option based on common misinterpretation]
-    C) [Option that would be correct if one crucial detail is missed]
-    D) [Correct option requiring synthesis of all chunks]
-    Correct Answer: [Letter one of "A", "B", "C" or "D"]
-    Reasoning Steps: [Step-by-step breakdown of how to arrive at the correct answer]
-    """
-    # return f"""
-    # <<SYS>>
-    # You are an expert exam question generator specializing in creating challenging multiple-choice questions that require complex reasoning across multiple pieces of information.
-    
-    # Required reasoning type: {reasoning_type}
-    # Identified relationships between chunks: {relationships}
-    
-    # Core requirements:
-    # 1. Question MUST require synthesizing information from at least {len(chunks)} different chunks
-    # 2. Distractors must be highly plausible and based on common misconceptions or partial understanding
-    # 3. The correct answer should not be obvious without carefully analyzing all chunks
-    # 4. Each distractor should represent a different type of reasoning error
-    
-    # Question Design Principles:
-    # 1. Incorporate subtle dependencies between chunks
-    # 2. Require careful analysis of conditional statements
-    # 3. Include scenarios where surface-level reading might lead to wrong conclusions
-    # 4. Design distractors that would be chosen if key information from certain chunks is missed
-    
-    # Format Requirements:
-    # - Question text should be clear but complex
-    # - Each option must start with A), B), C), or D)
-    # <</SYS>>
-
-    # Domain: {task_domain}
-    # Documentation: {documentation}
-
-    # Generate a question following this format:
-    # Question: [Complex question requiring multi-hop reasoning]
-    # A) [Option incorporating some but not all key information]
-    # B) [Option based on common misinterpretation]
-    # C) [Option that would be correct if one crucial detail is missed]
-    # D) [Correct option requiring synthesis of all chunks]
-    # Correct Answer: [Letter one of "A", "B", "C" or "D"]
-    # Reasoning Steps: [Step-by-step breakdown of how to arrive at the correct answer]
-    # """
 
 
 def generate_exam(
@@ -375,13 +307,13 @@ def main(
 
 
 if __name__ == "__main__":
-    sample_size = 1200
+    sample_size = 10
     use_mixtral_22b = False  # Set to True if you want to use 22B model
-    target_hop_number = 301
+    target_hop_number = 3
     
     assert sample_size < target_hop_number * 4
     
-    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en"]
+    task_domains = ["gov_report", "hotpotqa"]
     
     # task_domain = "gov_report"
     for task_domain in task_domains:
