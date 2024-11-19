@@ -180,8 +180,8 @@ def process_json_file(input_path, output_path):
 
 
 if __name__ == "__main__":
-    input_file = "auto-rag-eval/MultiHopData/hotpotqa/exams/exam_new.json"
-    output_file = "auto-rag-eval/MultiHopData/hotpotqa/exams/exam_new_cleaned.json"
+    input_file = "auto-rag-eval/MultiHopData/gov_report/exams/exam_new_llama3_8b.json"
+    output_file = "auto-rag-eval/MultiHopData/gov_report/exams/exam_new_llama3_8b_cleaned.json"
 
     process_json_file(input_file, output_file)
     

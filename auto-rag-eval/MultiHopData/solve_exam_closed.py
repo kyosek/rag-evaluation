@@ -227,7 +227,7 @@ def main(task_domain: str, model_type: str, model_name: str):
 
     print("Solving the exam")
     solver = ExamSolver()
-    questions = solver.load_exam(f"MultiHopData/{task_domain}/exams/exam_new_cleaned_1000_42_llama3_2b.json")
+    questions = solver.load_exam(f"MultiHopData/{task_domain}/exams/exam_new_cleaned_1000_42_llama3_3b.json")
     metrics = solver.evaluate_performance(questions, model, task_domain, model_name)
 
     print(f"Exam Performance:")
