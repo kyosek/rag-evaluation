@@ -65,9 +65,9 @@ def generate_exam(
 def main(
     data_path: str,
     output_path: str,
+    model_name: str,
     task_domain: str,
     sample_size: int,
-    use_mixtral_22b: bool = False,
 ):
     logging.info("Start processing")
     retriever = HybridChunkRetriever(task_domain, random_seed=42)
@@ -91,7 +91,7 @@ def main(
     exam = generate_exam(
         sampled_chunks,
         task_domain,
-        use_mixtral_22b
+        model_name,
     )
 
     # Save the exam to a JSON file
@@ -100,20 +100,21 @@ def main(
 
 
 if __name__ == "__main__":
-    sample_size = 1200
-    use_mixtral_22b = False  # Set to True if you want to use 22B model
+    sample_size = 300
     
     task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    model_names = ['llama_3_2_3b', 'llama_3_1_8b']
     
     # task_domain = "gov_report"
-    for task_domain in task_domains:
-        data_path = f"MultiHopData/{task_domain}/chunks/docs_chunk_semantic_cleaned.json"
-        output_path = f"MultiHopData/{task_domain}/exams/exam_new.json"
+    for model_name in model_names:
+        for task_domain in task_domains:
+            data_path = f"MultiHopData/{task_domain}/chunks/docs_chunk_semantic_cleaned.json"
+            output_path = f"MultiHopData/{task_domain}/exams/{model_name}_single_hop_exam.json"
 
-        main(
-            data_path,
-            output_path,
-            task_domain,
-            sample_size,
-            use_mixtral_22b=use_mixtral_22b,
-        )
+            main(
+                data_path,
+                output_path,
+                model_name,
+                task_domain,
+                sample_size,
+            )

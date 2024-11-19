@@ -105,13 +105,35 @@ class ChunkAnalyser:
 
 
 class MCQGenerator:
-    def __init__(self, use_mixtral_22b: bool = False):
-        """Initialise with either Mixtral 8x22B or 8x7B based on preference."""
-        # self.model_type = ModelType.MIXTRAL_8_22B if use_mixtral_22b else ModelType.MIXTRAL_8_7B
-        # self.model_type = ModelType.MISTRAL_7B
-        # self.model_type = ModelType.MINISTRAL_8B
-        # self.model_type = ModelType.LLAMA_3_2_3B
-        self.model_type = ModelType.LLAMA_3_1_8B
+    def __init__(self, model_name: str = None):
+        """
+        Initialise the MCQ Generator with a specific model.
+        
+        Args:
+            model_name (str, optional): Name of the model to use.
+            If None, uses a default model.
+        """
+        # Mapping of model names to ModelType enums
+        self.model_mapping = {
+            'llama_3_1_8b': ModelType.LLAMA_3_1_8B,
+            'llama_3_2_3b': ModelType.LLAMA_3_2_3B,
+            'mistral_7b': ModelType.MISTRAL_7B,
+        }
+        
+        # Select model based on input or use default
+        if model_name:
+            # Convert to lowercase to handle case-insensitive input
+            model_name = model_name.lower()
+            
+            if model_name not in self.model_mapping:
+                raise ValueError(f"Unsupported model: {model_name}. "
+                                 f"Supported models: {list(self.model_mapping.keys())}")
+            
+            self.model_type = self.model_mapping[model_name]
+        else:
+            # Default model if no name provided
+            self.model_type = ModelType.LLAMA_3_2_3B
+        
         self.llm = ModelFactory.create_model(self.model_type)
         # self.chunk_analyser = ChunkAnalyser()
     
@@ -128,10 +150,18 @@ class MCQGenerator:
 
     def _extract_question(self, response: str) -> Optional[str]:
         """Extract question from response with improved pattern matching."""
-        question_match = re.search(r"Question:\s*(.*?)(?=\s*A\))", response, re.DOTALL | re.IGNORECASE)
-        if question_match:
-            return re.sub(r'\*', '', question_match.group(1).strip())
-        return None
+        question_patterns = [
+            r"Question:(.*?)(?:\n[a-dA-D1-4]\)|\n\n[a-dA-D1-4]\))",
+            r"Question 1:(.*?)(?:\n[a-dA-D1-4]\)|\n\n[a-dA-D1-4]\))",
+            r"question:(.*?)(?:\n[a-dA-D1-4]\)|\n\n[a-dA-D1-4]\))",
+            r"question 1:(.*?)(?:\n[a-dA-D1-4]\)|\n\n[a-dA-D1-4]\))",
+            r"documentation:(.*?)(?:\n[a-dA-D1-4]\)|\n\n[a-dA-D1-4]\))",  # for ClaudeV2 mostly
+            r"### Assistant: (.*?)\n",
+        ]
+        # Extract the question
+        question_matches = self.extract_with_patterns(response, question_patterns)
+        question = question_matches[0].strip() if question_matches else None
+        return question
 
     def _extract_choices(self, response: str) -> Optional[List[str]]:
         """Extract and validate choices with robust pattern matching."""
@@ -241,14 +271,14 @@ class MCQGenerator:
 def generate_exam(
     data: List[Dict[str, str]],
     task_domain: str,
+    model_name: str,
     retriever: ChunkRetriever,
-    use_mixtral_22b: bool = False,
     target_hop_number: int = 250,
 ) -> List[Dict[str, str]]:
     """
     Generate an exam with multiple-choice questions from the given data.
     """
-    mcq_generator = MCQGenerator(use_mixtral_22b)
+    mcq_generator = MCQGenerator(model_name)
     exam = []
     hop_counts = {
         "1": 0,
@@ -308,9 +338,9 @@ def generate_exam(
 def main(
     data_path: str,
     output_path: str,
+    model_name: str,
     task_domain: str,
     sample_size: int,
-    use_mixtral_22b: bool = False,
     target_hop_number: int = 250
 ):
     logging.info("Start processing")
@@ -335,8 +365,8 @@ def main(
     exam = generate_exam(
         sampled_chunks,
         task_domain,
+        model_name,
         retriever,
-        use_mixtral_22b,
         target_hop_number
     )
 
@@ -346,8 +376,7 @@ def main(
 
 
 if __name__ == "__main__":
-    sample_size = 1200
-    use_mixtral_22b = False  # Set to True if you want to use 22B model
+    sample_size = 3
     target_hop_number = 301
     
     assert sample_size < target_hop_number * 4
@@ -355,16 +384,19 @@ if __name__ == "__main__":
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     task_domains = ["gov_report", "hotpotqa", "multifieldqa_en"]
     
+    model_names = ['llama_3_2_3b', 'llama_3_1_8b']
+    
     # task_domain = "gov_report"
-    for task_domain in task_domains:
-        data_path = f"MultiHopData/{task_domain}/chunks/docs_chunk_semantic_cleaned.json"
-        output_path = f"MultiHopData/{task_domain}/exams/exam_new.json"
+    for model_name in model_names:
+        for task_domain in task_domains:
+            data_path = f"MultiHopData/{task_domain}/chunks/docs_chunk_semantic_cleaned.json"
+            output_path = f"MultiHopData/{task_domain}/exams/exam_new_{model_name}.json"
 
-        main(
-            data_path,
-            output_path,
-            task_domain,
-            sample_size,
-            use_mixtral_22b=use_mixtral_22b,
-            target_hop_number=target_hop_number
-        )
+            main(
+                data_path,
+                output_path,
+                model_name,
+                task_domain,
+                sample_size,
+                target_hop_number=target_hop_number
+            )
