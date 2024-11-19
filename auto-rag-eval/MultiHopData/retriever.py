@@ -314,6 +314,8 @@ class HybridChunkRetriever(ChunkRetriever):
             chunk = self.chunks[idx]
             if exclude_same_doc and chunk.doc_id == query_chunk.doc_id:
                 continue
+            if chunk.content == query_chunk.content:
+                continue
             if chunk.chunk_id == query_chunk.chunk_id:
                 continue
             candidates.append((chunk, float(score)))
