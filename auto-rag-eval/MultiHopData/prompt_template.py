@@ -18,6 +18,7 @@ class PromptTemplate:
             2. Distractors must be highly plausible and based on common misconceptions or partial understanding
             3. The correct answer should not be obvious without carefully analysing all chunks
             4. Each distractor should represent a different type of reasoning error
+            5. As students do not have an access to the chunk information, do not mention chunks in the question
             
             Question Design Principles:
             1. Incorporate subtle dependencies between chunks
@@ -50,6 +51,7 @@ class PromptTemplate:
             2. Distractors must be highly plausible and based on common misconceptions or partial understanding
             3. The correct answer should not be obvious without carefully analysing all chunks
             4. Each distractor should represent a different type of reasoning error
+            5. As students do not have an access to the chunk information, do not mention chunks in the question
             
             Question Design Principles:
             1. Incorporate subtle dependencies between chunks
@@ -75,13 +77,14 @@ class PromptTemplate:
             """,
             ModelType.LLAMA_3_1_8B: f"""
             <|begin_of_text|><|start_header_id|>system<|end_header_id|>
-            You are an expert exam question generator specializing in creating challenging multihop multiple-choice questions (1 correct answer and 3 distractors) that require complex reasoning across multiple pieces of information.
+            You are an expert exam question generator specialising in creating challenging multihop multiple-choice questions (1 correct answer and 3 distractors) that require complex reasoning across multiple pieces of information.
 
             **Core requirements:**
             1. Question MUST require synthesizing information from at least {num_chunks} different chunks
             2. Distractors must be highly plausible and based on common misconceptions or partial understanding
-            3. The correct answer should not be obvious without carefully analyzing all chunks
+            3. The correct answer should not be obvious without carefully analysing all chunks
             4. Each distractor should represent a different type of reasoning error
+            5. As students do not have an access to the chunk information, do not mention chunks in the question
 
             **Question Design Principles:**
             1. Incorporate subtle dependencies between chunks
