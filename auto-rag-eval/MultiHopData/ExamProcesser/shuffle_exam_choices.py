@@ -47,7 +47,7 @@ def shuffle_exam_questions(input_file: str, output_file: str) -> None:
         # Update the question with new choices and correct answer
         new_question = question.copy()
         new_question['choices'] = new_choices
-        new_question['correct_answer'] = f"{chr(65 + position)})"  # Convert 0-3 to A)-D)
+        new_question['correct_answer'] = f"{chr(65 + position)}"  # Convert 0-3 to A)-D)
         
         shuffled_questions.append(new_question)
         current_distribution[new_question['correct_answer']] += 1
@@ -82,7 +82,7 @@ def print_distribution_stats(distribution: Counter) -> None:
 
 
 if __name__ == "__main__":
-    input_file = "auto-rag-eval/MultiHopData/gov_report/exams/exam_new_llama3_3b_cleaned_1000_42.json"
-    output_file = "auto-rag-eval/MultiHopData/gov_report/exams/exam_new_llama3_3b_shuffled_1000_42.json"
+    input_file = "auto-rag-eval/MultiHopData/hotpotqa/exams/llama_3_2_3b_single_hop_exam_cleaned_1000_42.json"
+    output_file = "auto-rag-eval/MultiHopData/hotpotqa/exams/llama_3_2_3b_single_hop_exam_cleaned_shuffled_1000_42.json"
     
     shuffle_exam_questions(input_file, output_file)

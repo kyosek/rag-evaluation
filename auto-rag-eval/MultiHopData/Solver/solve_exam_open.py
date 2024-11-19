@@ -117,7 +117,7 @@ class ExamSolver:
 
         metrics = {"accuracy": correct / total, "correct": correct, "total": total}
 
-        with open(f"MultiHopData/{task_domain}/{model_name}_open_exam_results.json", "w") as json_file:
+        with open(f"MultiHopData/{task_domain}/{model_name}_open_exam_{exam_file}_results.json", "w") as json_file:
             json.dump(results, json_file, indent=2)
 
         return metrics
@@ -129,7 +129,14 @@ def main(task_domain: str, model_type: str, model_name: str, exam_file: str):
     elif model_type == "claude":
         model = ClaudeGcp(model_name=model_name)
     elif model_type == "cpp":
-        model = ModelFactory.create_model(ModelType.LLAMA_3_2_3B)
+        model_mapping = {
+            'llama_3_1_8b': ModelType.LLAMA_3_1_8B,
+            'llama_3_2_3b': ModelType.LLAMA_3_2_3B,
+            'mistral_7b': ModelType.MISTRAL_7B,
+        }
+        
+        print(f"Using {model_mapping[model_name]}")
+        model = ModelFactory.create_model(model_mapping[model_name])
     else:
         print("Using Llama-cpp")
         # model = LlamaModel(model_path=model_path)
@@ -158,12 +165,13 @@ if __name__ == "__main__":
     # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
     # model_names = ["claude-3-5-sonnet@20240620", "claude-3-5-haiku@20241022"]
     # model_names = ["claude-3-5-sonnet@20240620"]
-    model_names = ["LLAMA_3_2_3B", "LLAMA_3_1_8B"]
+    model_names = ['llama_3_2_3b', 'llama_3_1_8b']
     
-    exam_file = "exam_new_llama3_8b_cleaned_1000_42.json"
+    # exam_file = "exam_new_llama3_8b_cleaned_1000_42.json"
+    exam_file = "llama_3_1_8b_single_hop_exam_cleaned_shuffled_1000_42.json"
 
     for model_name in model_names:
         for task_domain in task_domains:
             print(f"Using {model_name}")
-            print(f"Solving {task_domain}")
+            print(f"Solving {exam_file} on {task_domain}")
             main(task_domain, model_type, model_name, exam_file)

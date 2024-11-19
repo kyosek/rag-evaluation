@@ -1,11 +1,9 @@
 import json
-from collections import defaultdict
-
+from collections import defaultdict, OrderedDict
 
 def deduplicate_json(input_file, output_file):
     """
-    Detect, count and remove duplicate content entries from JSON file.
-    Keeps the first occurrence of each duplicate.
+    Comprehensively detect and remove duplicate documents based on content.
     
     Args:
         input_file (str): Path to input JSON file
@@ -20,47 +18,42 @@ def deduplicate_json(input_file, output_file):
     
     # Track duplicates
     content_seen = {}  # Store first occurrence of each content
+    unique_documents = []
     duplicate_count = 0
     duplicate_stats = defaultdict(int)
     
     # Process each document
     for doc in data:
-        # Check document level content
-        doc_content = doc['content']
-        if doc_content in content_seen:
-            duplicate_count += 1
-            duplicate_stats['document_level'] += 1
-            doc['content'] = content_seen[doc_content]
-        else:
-            content_seen[doc_content] = doc_content
+        # Create a hashable representation of the document's content
+        # We'll exclude doc_id and original_uuid to identify true content duplicates
+        doc_content_key = json.dumps({
+            'content': doc['content'],
+            'chunks': [
+                {k: v for k, v in chunk.items() if k != 'chunk_id' and k != 'original_index'}
+                for chunk in doc.get('chunks', [])
+            ]
+        }, sort_keys=True)
         
-        # Process chunks
-        if 'chunks' in doc:
-            seen_chunks = {}
-            filtered_chunks = []
+        # Check if this document content has been seen before
+        if doc_content_key in content_seen:
+            duplicate_count += 1
+            duplicate_stats['total_document_duplicates'] += 1
             
-            for chunk in doc['chunks']:
-                chunk_content = chunk['content']
-                if chunk_content in seen_chunks:
-                    duplicate_count += 1
-                    duplicate_stats['chunk_level'] += 1
-                    continue
-                else:
-                    seen_chunks[chunk_content] = True
-                    filtered_chunks.append(chunk)
-            
-            # Update chunks with deduplicated list
-            doc['chunks'] = filtered_chunks
+            # Optionally, you can choose which document to keep based on some criteria
+            # Here we're keeping the first occurrence
+            continue
+        
+        # Mark this content as seen and add to unique documents
+        content_seen[doc_content_key] = True
+        unique_documents.append(doc)
     
     # Save cleaned data
     with open(output_file, 'w') as f:
-        json.dump(data, f, indent=2)
+        json.dump(unique_documents, f, indent=2)
     
     return duplicate_count, dict(duplicate_stats)
 
-
 def main(input_file, output_file):
-    
     try:
         total_dupes, stats = deduplicate_json(input_file, output_file)
         
@@ -74,9 +67,8 @@ def main(input_file, output_file):
     except Exception as e:
         print(f"Error: {str(e)}")
 
-
 if __name__ == "__main__":
-    input_file = "auto-rag-eval/MultiHopData/wiki/chunks/docs_chunk_semantic.json"
-    output_file = "auto-rag-eval/MultiHopData/wiki/chunks/docs_chunk_semantic_cleaned.json"
+    input_file = "auto-rag-eval/MultiHopData/multifieldqa_en/chunks/docs_chunk_semantic.json"
+    output_file = "auto-rag-eval/MultiHopData/multifieldqa_en/chunks/docs_chunk_semantic_cleaned.json"
     
     main(input_file, output_file)

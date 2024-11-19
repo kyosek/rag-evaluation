@@ -134,6 +134,7 @@ class MCQGenerator:
             # Default model if no name provided
             self.model_type = ModelType.LLAMA_3_2_3B
         
+        print(f"Using {self.model_type}")
         self.llm = ModelFactory.create_model(self.model_type)
         # self.chunk_analyser = ChunkAnalyser()
     
@@ -376,13 +377,13 @@ def main(
 
 
 if __name__ == "__main__":
-    sample_size = 3
+    sample_size = 5
     target_hop_number = 301
     
     assert sample_size < target_hop_number * 4
     
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en"]
+    task_domains = ["multifieldqa_en"]
     
     model_names = ['llama_3_2_3b', 'llama_3_1_8b']
     
