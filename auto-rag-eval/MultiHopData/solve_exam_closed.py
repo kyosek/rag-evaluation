@@ -212,7 +212,7 @@ class ExamSolver:
         return metrics
 
 
-def main(task_domain: str, model_type: str, model_name: str):
+def main(task_domain: str, model_type: str, model_name: str, exam_file: str):
     if model_type == "gemini":
         model = GeminiGcp(model_name=model_name)
 
@@ -227,7 +227,7 @@ def main(task_domain: str, model_type: str, model_name: str):
 
     print("Solving the exam")
     solver = ExamSolver()
-    questions = solver.load_exam(f"MultiHopData/{task_domain}/exams/exam_new_cleaned_1000_42_llama3_3b.json")
+    questions = solver.load_exam(f"MultiHopData/{task_domain}/exams/{exam_file}")
     metrics = solver.evaluate_performance(questions, model, task_domain, model_name)
 
     print(f"Exam Performance:")
@@ -237,7 +237,7 @@ def main(task_domain: str, model_type: str, model_name: str):
 
 if __name__ == "__main__":
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    task_domains = ["gov_report"]
+    task_domains = ["hotpotqa"]
     # model_type = "claude"
     # model_type = "gemini"
     model_type = "cpp"
@@ -250,9 +250,11 @@ if __name__ == "__main__":
     # model_names = ["MINISTRAL_8B"]
     model_names = ["LLAMA_3_2_3B"]
     # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
+    
+    exam_file = "exam_new_llama3_8b_cleaned_1000_42.json"
 
     for model_name in model_names:
         for task_domain in task_domains:
             print(f"Using {model_name}")
             print(f"Solving {task_domain}")
-            main(task_domain, model_type, model_name)
+            main(task_domain, model_type, model_name, exam_file)

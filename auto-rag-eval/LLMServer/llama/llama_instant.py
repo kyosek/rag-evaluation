@@ -193,7 +193,7 @@ class Llama3_1_8BModel(BaseQuantizedModel):
         )
 
     def get_id(self):
-        return "LlamaModel:3.2-3B"
+        return "LlamaModel:3.1-8B"
 
 class Falcon7BModel(BaseQuantizedModel):
     def __init__(

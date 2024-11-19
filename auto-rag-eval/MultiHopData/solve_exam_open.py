@@ -160,7 +160,7 @@ if __name__ == "__main__":
     # model_names = ["claude-3-5-sonnet@20240620"]
     model_names = ["LLAMA_3_2_3B", "LLAMA_3_1_8B"]
     
-    exam_file = "exam_new_cleaned_1000_42_llama3_8b.json"
+    exam_file = "exam_new_llama3_8b_cleaned_1000_42.json"
 
     for model_name in model_names:
         for task_domain in task_domains:

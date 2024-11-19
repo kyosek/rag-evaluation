@@ -114,6 +114,17 @@ class MCQGenerator:
         self.model_type = ModelType.LLAMA_3_1_8B
         self.llm = ModelFactory.create_model(self.model_type)
         # self.chunk_analyser = ChunkAnalyser()
+    
+    def extract_with_patterns(self, text: str, patterns: List) -> List[str]:
+
+        for pattern in patterns:
+            try:
+                matches = re.findall(pattern, text, re.DOTALL)
+                if matches:
+                    return matches
+            except re.error:
+                continue
+        return None
 
     def _extract_question(self, response: str) -> Optional[str]:
         """Extract question from response with improved pattern matching."""
@@ -125,21 +136,35 @@ class MCQGenerator:
     def _extract_choices(self, response: str) -> Optional[List[str]]:
         """Extract and validate choices with robust pattern matching."""
         # Match choices including possible line breaks but excluding explanation sections
-        choice_pattern = r"([A-D]\)(?:(?![A-D]\)|Correct Answer:|Explanation:|Reasoning Steps:).)*)"
-        choices = re.findall(choice_pattern, response, re.DOTALL)
+        choices_patterns = [
+            r"([A-D]\) .*?)(?=$|\n[A-D]\)|\n\n)",
+            r"([A-D]\)(?:.|\n)*?)(?=$|\n[A-D]\)|\n\n)",
+            r"([A-D]\. .*?)(?=$|\n[A-D]\.|\n\n)",
+            r"([A-D]\.)(?:.|\n)*?)(?=$|\n[A-D]\.|\n\n)",
+            r"([1-4]\) .*?)(?=$|\n[1-4]\)|\n\n)",
+            r"([1-4]\)(?:.|\n)*?)(?=$|\n[1-4]\)|\n\n)",
+            r"([1-4]\. .*?)(?=$|\n[1-4]\.|\n\n)",
+            r"([1-4]\.)(?:.|\n)*?)(?=$|\n[1-4]\.|\n\n)",
+            r"([a-d]\) .*?)(?=$|\n[a-d]\)|\n\n)",
+            r"([a-d]\)(?:.|\n)*?)(?=$|\n[a-d]\)|\n\n)",
+            r"([a-d]\. .*?)(?=$|\n[a-d]\.|\n\n)",
+            r"([a-d]\.)(?:.|\n)*?)(?=$|\n[a-d]\.|\n\n)",
+        ]
+        choices_matches = self.extract_with_patterns(response, choices_patterns)
+        choices = [match.strip() for match in choices_matches] if choices_matches else None
         
-        # Clean and validate choices
-        if choices:
-            cleaned_choices = []
-            for choice in choices:
-                # Remove any trailing explanation text that might have been captured
-                choice = re.sub(r'\n.*?(?:Reasoning Steps:|Explanation:).*', '', choice, flags=re.DOTALL)
-                # Remove asterisks
-                choice = re.sub(r'\*', '', choice)
-                cleaned_choices.append(choice.strip())
-            
-            return cleaned_choices
-        return None
+        # Only keep first 4 answers
+        choices = (
+            choices[:4]
+            if choices
+            and len(choices) >= 4
+            and len(set([choice[0] for choice in choices[:4]])) == 4
+            else None
+        )
+        
+        # Remove scenarios with empty answers ['A)], 'B)', 'C)', 'D)']
+        choices = choices if choices and min([len(choice) for choice in choices]) > 2 else None
+        return choices
 
     def _extract_correct_answer(self, response: str) -> Optional[str]:
         """Extract correct answer with validation."""
