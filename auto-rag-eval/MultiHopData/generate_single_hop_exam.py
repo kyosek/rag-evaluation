@@ -102,11 +102,8 @@ def main(
 if __name__ == "__main__":
     sample_size = 1200
     use_mixtral_22b = False  # Set to True if you want to use 22B model
-    target_hop_number = 301
     
-    assert sample_size < target_hop_number * 4
-    
-    task_domains = ["hotpotqa", "multifieldqa_en"]
+    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     
     # task_domain = "gov_report"
     for task_domain in task_domains:

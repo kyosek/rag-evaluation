@@ -110,8 +110,8 @@ class MCQGenerator:
         # self.model_type = ModelType.MIXTRAL_8_22B if use_mixtral_22b else ModelType.MIXTRAL_8_7B
         # self.model_type = ModelType.MISTRAL_7B
         # self.model_type = ModelType.MINISTRAL_8B
-        self.model_type = ModelType.LLAMA_3_2_3B
-        # self.model_type = ModelType.PHI_2
+        # self.model_type = ModelType.LLAMA_3_2_3B
+        self.model_type = ModelType.LLAMA_3_1_8B
         self.llm = ModelFactory.create_model(self.model_type)
         # self.chunk_analyser = ChunkAnalyser()
 
@@ -327,7 +327,8 @@ if __name__ == "__main__":
     
     assert sample_size < target_hop_number * 4
     
-    task_domains = ["hotpotqa", "multifieldqa_en"]
+    # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en"]
     
     # task_domain = "gov_report"
     for task_domain in task_domains:
