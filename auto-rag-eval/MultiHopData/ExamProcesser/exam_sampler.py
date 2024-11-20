@@ -41,7 +41,7 @@ if __name__ == "__main__":
     seed = 42
     # input_file = "Data/hotpotqa/ExamData/claude_gcp_2024103117/exam.json"
     # output_file = f"Data/hotpotqa/ExamData/claude_gcp_2024103117/exam_{sample_size}_{seed}.json"
-    input_file = "auto-rag-eval/MultiHopData/hotpotqa/exams/llama_3_2_3b_single_hop_exam_cleaned.json"
-    output_file = f"auto-rag-eval/MultiHopData/hotpotqa/exams/llama_3_2_3b_single_hop_exam_cleaned_{sample_size}_{seed}.json"
+    input_file = "auto-rag-eval/MultiHopData/hotpotqa/exams/exam_new_llama_3_2_3b_cleaned.json"
+    output_file = f"auto-rag-eval/MultiHopData/hotpotqa/exams/llama_3_2_3b_exam_cleaned_{sample_size}_{seed}.json"
 
     sample_json_entries(input_file, output_file, sample_size)

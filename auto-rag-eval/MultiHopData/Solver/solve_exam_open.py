@@ -48,10 +48,11 @@ class ExamSolver:
         # Construct a more structured prompt with system and user roles
         prompt = f"""<s>[INST] <<SYS>>
         You are an AI assistant taking a multiple choice exam. Your task is to:
-        1. Read the question and provided choices and documents carefully
+        1. Read the question, provided choices and documents carefully
         2. Analyze the choices
-        3. Select the most appropriate answer
-        4. Respond with ONLY the letter (A, B, C, or D) of the correct answer
+        3. The correct answer must be found in the given documents
+        4. Select the most appropriate answer
+        5. Respond with ONLY the letter (A, B, C, or D) of the correct answer
         <</SYS>>
 
         Question: {question.question}
@@ -117,7 +118,7 @@ class ExamSolver:
 
         metrics = {"accuracy": correct / total, "correct": correct, "total": total}
 
-        with open(f"MultiHopData/{task_domain}/exam_results/{model_name}_open_exam_{exam_file}_results.json", "w") as json_file:
+        with open(f"MultiHopData/{task_domain}/exam_results/{model_name}_open_{exam_file}.json", "w") as json_file:
             json.dump(results, json_file, indent=2)
 
         return metrics
@@ -132,7 +133,10 @@ def main(task_domain: str, model_type: str, model_name: str, exam_file: str):
         model_mapping = {
             'llama_3_1_8b': ModelType.LLAMA_3_1_8B,
             'llama_3_2_3b': ModelType.LLAMA_3_2_3B,
-            'mistral_7b': ModelType.MISTRAL_7B,
+            'ministral-8b': ModelType.MINISTRAL_8B,
+            'mistral-small': ModelType.MISTRAL_SMALL,
+            'mixtral-8-7b': ModelType.MIXTRAL_8_7B,
+            "gemma2-9b": ModelType.GEMMA2_9B
         }
         
         print(f"Using {model_mapping[model_name]}")
@@ -144,7 +148,7 @@ def main(task_domain: str, model_type: str, model_name: str, exam_file: str):
     print("Solving the exam")
     solver = ExamSolver()
     questions = solver.load_exam(f"MultiHopData/{task_domain}/exams/{exam_file}")
-    metrics = solver.evaluate_performance(questions, model, task_domain, model_name)
+    metrics = solver.evaluate_performance(questions, model, task_domain, model_name, exam_file)
 
     print(f"Exam Performance:")
     print(f"Accuracy: {metrics['accuracy']:.2%}")
@@ -165,13 +169,17 @@ if __name__ == "__main__":
     # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
     # model_names = ["claude-3-5-sonnet@20240620", "claude-3-5-haiku@20241022"]
     # model_names = ["claude-3-5-sonnet@20240620"]
-    model_names = ['llama_3_2_3b', 'llama_3_1_8b']
+    model_names = ['llama_3_2_3b', 'llama_3_1_8b', "ministral-8b", "gemma2-9b"]
     
-    # exam_file = "exam_new_llama3_8b_cleaned_1000_42.json"
-    exam_file = "llama_3_1_8b_single_hop_exam_cleaned_shuffled_1000_42.json"
+    exam_files = [
+        "llama_3_1_8b_single_hop_exam_cleaned_shuffled_1000_42.json",
+        "llama_3_2_3b_single_hop_exam_cleaned_shuffled_1000_42.json",
+        "llama_3_2_3b_exam_cleaned_shuffled_1000_42.json",
+        ]
 
-    for model_name in model_names:
-        for task_domain in task_domains:
-            print(f"Using {model_name}")
-            print(f"Solving {exam_file} on {task_domain}")
-            main(task_domain, model_type, model_name, exam_file)
+    for exam_file in exam_files:
+        for model_name in model_names:
+            for task_domain in task_domains:
+                print(f"Using {model_name}")
+                print(f"Solving {exam_file} on {task_domain}")
+                main(task_domain, model_type, model_name, exam_file)

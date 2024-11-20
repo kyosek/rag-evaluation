@@ -205,7 +205,7 @@ class ExamSolver:
 
         # Sanitize the model name for the filename
         safe_model_name = self.sanitize_filename(model_name)
-        results_file = os.path.join(results_dir, f"{safe_model_name}_closed_exam_{exam_file}_results.json")
+        results_file = os.path.join(results_dir, f"{safe_model_name}_closed_{exam_file}.json")
         with open(results_file, "w") as json_file:
             json.dump(results, json_file, indent=2)
 
@@ -222,7 +222,8 @@ def main(task_domain: str, model_type: str, model_name: str, exam_file: str):
         model_mapping = {
             'llama_3_1_8b': ModelType.LLAMA_3_1_8B,
             'llama_3_2_3b': ModelType.LLAMA_3_2_3B,
-            'mistral_7b': ModelType.MISTRAL_7B,
+            'ministral-8b': ModelType.MINISTRAL_8B,
+            'mistral-small': ModelType.MISTRAL_SMALL,
         }
         
         print(f"Using {model_mapping[model_name]}")
@@ -250,18 +251,21 @@ if __name__ == "__main__":
     # model_name = "claude-3-5-sonnet@20240620"
     # model_name = "gemini-1.5-pro-002"
     # model_name = "gemini-1.5-flash-002"
-    model_name = "Meta-Llama-3-8B-Instruct.Q4_K_M.gguf"
 
     # model_names = ["MINISTRAL_8B"]
-    model_names = ['llama_3_2_3b', 'llama_3_1_8b']
+    model_names = ['llama_3_2_3b', 'llama_3_1_8b', "ministral-8b", "mistral-small"]
     # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
     
     # exam_file = "exam_new_llama3_8b_cleaned_1000_42.json"
-    # exam_file = "llama_3_1_8b_single_hop_exam_cleaned_shuffled_1000_42.json"
-    exam_file = "llama_3_2_3b_single_hop_exam_cleaned_shuffled_1000_42.json"
+    exam_files = [
+        "llama_3_1_8b_single_hop_exam_cleaned_shuffled_1000_42.json",
+        "llama_3_2_3b_single_hop_exam_cleaned_shuffled_1000_42.json",
+        "llama_3_2_3b_exam_cleaned_shuffled_1000_42.json",
+        ]
 
-    for model_name in model_names:
-        for task_domain in task_domains:
-            print(f"Using {model_name}")
-            print(f"Solving {exam_file} on {task_domain}")
-            main(task_domain, model_type, model_name, exam_file)
+    for exam_file in exam_files:
+        for model_name in model_names:
+            for task_domain in task_domains:
+                print(f"Using {model_name}")
+                print(f"Solving {exam_file} on {task_domain}")
+                main(task_domain, model_type, model_name, exam_file)

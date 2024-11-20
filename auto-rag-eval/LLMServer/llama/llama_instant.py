@@ -24,6 +24,7 @@ def delayed_text_generator(text: str, delay: float = 0.2):
 class ModelType(Enum):
     MISTRAL_7B = "mistral-7b"
     MINISTRAL_8B = "ministral-8b"
+    MISTRAL_SMALL = "mistral-small"
     MIXTRAL_8_7B = "mixtral-8-7b"
     MIXTRAL_8_22B = "mixtral-8-22b"
     LLAMA_3_2_3B = "llama-3-2-3b"
@@ -36,6 +37,7 @@ class ModelType(Enum):
     QWEN_14B = "qwen-14b"
     GEMMA_2B = "gemma-2b"
     GEMMA_7B = "gemma-7b"
+    GEMMA2_9B = "gemma2-9b"
     GROK_1 = "grok-1"
     TINY_LLAMA_1_1B = "tiny-llama-1.1b"
     PHI_2 = "phi-2"
@@ -116,6 +118,22 @@ class Mistral7BModel(BaseQuantizedModel):
     def get_id(self):
         return "Mistral7BModel:7B"
 
+class MistralSmallModel(BaseQuantizedModel):
+    def __init__(
+        self,
+        model_path: str = "bartowski/Mistral-Small-Instruct-2409-GGUF",
+        filename: str = "Mistral-Small-Instruct-2409-Q4_K_M.gguf",
+        n_ctx: int = 16384
+    ):
+        super().__init__(
+            model_path=model_path,
+            filename=filename,
+            n_ctx=n_ctx
+        )
+
+    def get_id(self):
+        return "MistralSmallModel"
+
 class Ministral8BModel(BaseQuantizedModel):
     def __init__(
         self,
@@ -144,7 +162,6 @@ class Mixtral8x7BModel(BaseQuantizedModel):
             filename=filename,
             n_ctx=n_ctx
         )
-
 
 class Mixtral8x22BModel(BaseQuantizedModel):
     def __init__(
@@ -334,6 +351,24 @@ class Gemma7BModel(BaseQuantizedModel):
         return "Gemma7BModel:7B"
 
 
+class Gemma2_9BModel(BaseQuantizedModel):
+    def __init__(
+        self,
+        model_path: str = "bartowski/gemma-2-9b-it-GGUF",
+        # filename: str = "gemma-2-9b-it-Q4_K_M.gguf",
+        filename: str = "gemma-2-9b-it-Q6_K.gguf",
+        n_ctx: int = 16384
+    ):
+        super().__init__(
+            model_path=model_path,
+            filename=filename,
+            n_ctx=n_ctx
+        )
+
+    def get_id(self):
+        return "Gemma7BModel:7B"
+
+
 # Grok model class (Note: This is a placeholder as Grok's availability might be limited)
 class GrokModel(BaseQuantizedModel):
     def __init__(
@@ -444,6 +479,7 @@ class ModelFactory:
             # Existing larger models
             ModelType.MISTRAL_7B: Mistral7BModel,
             ModelType.MINISTRAL_8B: Ministral8BModel,
+            ModelType.MISTRAL_SMALL: MistralSmallModel,
             ModelType.MIXTRAL_8_7B: Mixtral8x7BModel,
             ModelType.MIXTRAL_8_22B: Mixtral8x22BModel,
             ModelType.LLAMA_3_2_3B: Llama3_2_3BModel,
@@ -456,6 +492,7 @@ class ModelFactory:
             ModelType.QWEN_14B: Qwen14BModel,
             ModelType.GEMMA_2B: Gemma2BModel,
             ModelType.GEMMA_7B: Gemma7BModel,
+            ModelType.GEMMA2_9B: Gemma2_9BModel,
             ModelType.GROK_1: GrokModel,
             
             # New smaller models

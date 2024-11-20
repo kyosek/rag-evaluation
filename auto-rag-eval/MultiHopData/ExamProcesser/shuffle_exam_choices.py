@@ -3,6 +3,7 @@ import random
 from collections import Counter
 from typing import List, Dict
 
+
 def shuffle_exam_questions(input_file: str, output_file: str) -> None:
     """
     Reads exam questions from a JSON file, shuffles the choices to achieve even distribution
@@ -82,7 +83,7 @@ def print_distribution_stats(distribution: Counter) -> None:
 
 
 if __name__ == "__main__":
-    input_file = "auto-rag-eval/MultiHopData/hotpotqa/exams/llama_3_2_3b_single_hop_exam_cleaned_1000_42.json"
-    output_file = "auto-rag-eval/MultiHopData/hotpotqa/exams/llama_3_2_3b_single_hop_exam_cleaned_shuffled_1000_42.json"
+    input_file = "auto-rag-eval/MultiHopData/hotpotqa/exams/llama_3_2_3b_exam_cleaned_1000_42.json"
+    output_file = "auto-rag-eval/MultiHopData/hotpotqa/exams/llama_3_2_3b_exam_cleaned_shuffled_1000_42.json"
     
     shuffle_exam_questions(input_file, output_file)
