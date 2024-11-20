@@ -377,15 +377,16 @@ def main(
 
 
 if __name__ == "__main__":
-    sample_size = 5
+    sample_size = 1200
     target_hop_number = 301
     
     assert sample_size < target_hop_number * 4
     
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    task_domains = ["multifieldqa_en"]
+    task_domains = ["gov_report", "multifieldqa_en", "SecFilings"]
     
-    model_names = ['llama_3_2_3b', 'llama_3_1_8b']
+    # model_names = ['llama_3_2_3b', 'llama_3_1_8b']
+    model_names = ['llama_3_1_8b']
     
     # task_domain = "gov_report"
     for model_name in model_names:
