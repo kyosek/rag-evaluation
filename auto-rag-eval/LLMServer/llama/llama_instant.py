@@ -56,7 +56,7 @@ class BaseQuantizedModel(ABC):
         n_ctx: int = 16384,
         n_gpu_layers: int = -1,
         # n_gpu_layers: int = 16,
-        verbose: bool = True
+        verbose: bool = False
     ):
         self.llm = Llama.from_pretrained(
             repo_id=model_path,
