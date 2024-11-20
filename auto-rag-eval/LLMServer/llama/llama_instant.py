@@ -39,6 +39,7 @@ class ModelType(Enum):
     GEMMA_2B = "gemma-2b"
     GEMMA_7B = "gemma-7b"
     GEMMA2_9B = "gemma2-9b"
+    GEMMA2_27B = "gemma2-27b"
     GROK_1 = "grok-1"
     TINY_LLAMA_1_1B = "tiny-llama-1.1b"
     PHI_2 = "phi-2"
@@ -55,7 +56,7 @@ class BaseQuantizedModel(ABC):
         n_ctx: int = 16384,
         n_gpu_layers: int = -1,
         # n_gpu_layers: int = 16,
-        verbose: bool = False
+        verbose: bool = True
     ):
         self.llm = Llama.from_pretrained(
             repo_id=model_path,
@@ -383,7 +384,23 @@ class Gemma2_9BModel(BaseQuantizedModel):
         )
 
     def get_id(self):
-        return "Gemma7BModel:7B"
+        return "Gemma2_9BModel:9B"
+
+class Gemma2_27BModel(BaseQuantizedModel):
+    def __init__(
+        self,
+        model_path: str = "bartowski/gemma-2-27b-it-GGUF",
+        filename: str = "gemma-2-27b-it-IQ4_XS.gguf",
+        n_ctx: int = 16384
+    ):
+        super().__init__(
+            model_path=model_path,
+            filename=filename,
+            n_ctx=n_ctx
+        )
+
+    def get_id(self):
+        return "Gemma2_27BModel:27B"
 
 
 # Grok model class (Note: This is a placeholder as Grok's availability might be limited)
@@ -511,6 +528,7 @@ class ModelFactory:
             ModelType.GEMMA_2B: Gemma2BModel,
             ModelType.GEMMA_7B: Gemma7BModel,
             ModelType.GEMMA2_9B: Gemma2_9BModel,
+            ModelType.GEMMA2_27B: Gemma2_27BModel,
             ModelType.GROK_1: GrokModel,
             
             # New smaller models

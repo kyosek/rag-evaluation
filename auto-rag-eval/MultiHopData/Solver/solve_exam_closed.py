@@ -225,6 +225,7 @@ def main(task_domain: str, model_type: str, model_name: str, exam_file: str):
             'ministral-8b': ModelType.MINISTRAL_8B,
             'mistral-small': ModelType.MISTRAL_SMALL,
             "gemma2-9b": ModelType.GEMMA2_9B,
+            "gemma2-27b": ModelType.GEMMA2_27B,
             "qwen-72b": ModelType.QWEN_72B,
         }
         
@@ -260,7 +261,8 @@ if __name__ == "__main__":
         # 'llama_3_1_8b',
         # "ministral-8b",
         # "gemma2-9b",
-        "qwen-72b",
+        "gemma2-27b",
+        # "qwen-72b",
         ]
     
     exam_files = [
