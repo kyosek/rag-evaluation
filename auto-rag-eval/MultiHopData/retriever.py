@@ -300,7 +300,7 @@ class HybridChunkRetriever(ChunkRetriever):
         batch_size: int = 32,
     ) -> List[Tuple[Chunk, float]]:
         """
-        Find similar chunks using a hybrid approach with batched processing.
+        Find similar chunks using a hybrid approach with batched processing and deduplication.
         """
         # Step 1: Initial retrieval with bi-encoder (FAISS)
         query_embedding = self.model.encode([query_chunk.content])
@@ -308,16 +308,40 @@ class HybridChunkRetriever(ChunkRetriever):
         
         scores, indices = self.index.search(query_embedding, initial_k)
         
-        # Prepare candidates for cross-encoder
+        # Prepare candidates for cross-encoder with deduplication
         candidates = []
+        seen_contents = set()
+        seen_chunk_ids = set()
+        
         for score, idx in zip(scores[0], indices[0]):
             chunk = self.chunks[idx]
+            
+            # Multiple deduplication checks
+            # 1. Exclude same document
             if exclude_same_doc and chunk.doc_id == query_chunk.doc_id:
                 continue
+            
+            # 2. Exclude exact same chunk
             if chunk.content == query_chunk.content:
                 continue
+            
+            # 3. Exclude same chunk_id
             if chunk.chunk_id == query_chunk.chunk_id:
                 continue
+            
+            # 4. Deduplicate by content
+            if chunk.content in seen_contents:
+                continue
+            
+            # 5. Deduplicate by chunk_id
+            if chunk.chunk_id in seen_chunk_ids:
+                continue
+            
+            # Add to seen sets
+            seen_contents.add(chunk.content)
+            seen_chunk_ids.add(chunk.chunk_id)
+            
+            # Add to candidates
             candidates.append((chunk, float(score)))
         
         if not candidates:
@@ -342,12 +366,23 @@ class HybridChunkRetriever(ChunkRetriever):
         reranked_results = list(zip(candidate_chunks, cross_scores))
         reranked_results.sort(key=lambda x: x[1], reverse=True)
         
-        # Filter by threshold and take top k
-        final_results = [
-            (chunk, score) 
-            for chunk, score in reranked_results 
-            # if score >= similarity_threshold
-        ][:k]
+        # Final deduplication and filtering
+        final_results = []
+        final_contents = set()
+        final_chunk_ids = set()
+        
+        for chunk, score in reranked_results:
+            # Additional deduplication in final results
+            if chunk.content in final_contents or chunk.chunk_id in final_chunk_ids:
+                continue
+            
+            final_contents.add(chunk.content)
+            final_chunk_ids.add(chunk.chunk_id)
+            final_results.append((chunk, score))
+            
+            # Stop when we have k unique results
+            if len(final_results) == k:
+                break
         
         return final_results
 
