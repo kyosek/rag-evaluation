@@ -13,6 +13,7 @@ from MultiHopData.retriever import BaseRetriever, Chunk, ChunkRetriever, Reranki
 from LLMServer.llama_gcp.llama_gcp_instant import LlamaGcpModel
 from LLMServer.gcp.claude_instant import ClaudeGcp
 from LLMServer.gcp.gemini_instant import GeminiGcp
+from LLMServer.llama.llama_instant import ModelFactory, ModelType
 
 nltk.download("punkt_tab")
 
@@ -118,7 +119,7 @@ class ExamSolver:
         formatted_choices = "\n".join(f"{choice}" for choice in question.choices)
 
         # Construct a more structured prompt with system and user roles
-        prompt = f"""[INST] <<SYS>>
+        prompt = f"""<s>[INST] <<SYS>>
         You are an AI assistant taking a multiple choice exam. Your task is to:
         1. Read the given question and supporting document carefully
         2. Analyze the choices
@@ -145,7 +146,7 @@ class ExamSolver:
         C
         D
 
-        Your answer (one letter only): [/INST]
+        Your answer (one letter only): [/INST]</s>
         """
 
         # Get model response
@@ -161,10 +162,10 @@ class ExamSolver:
 
             return response.strip()[-1]
         except:
-            return "A"
+            return "NA"
 
     def evaluate_performance(
-        self, questions: List[ExamQuestion], model, task_domain, retriever_type, model_name
+        self, questions: List[ExamQuestion], model, task_domain, retriever_type, model_name, exam_file
     ) -> Dict[str, float]:
         """Evaluate the solver's performance on a set of questions."""
         correct = 0
@@ -191,7 +192,7 @@ class ExamSolver:
         metrics = {"accuracy": correct / total, "correct": correct, "total": total}
 
         with open(
-            f"MultiHopData/{task_domain}/{model_name}_{retriever_type}_exam_results.json", "w"
+            f"MultiHopData/{task_domain}/exam_results/{model_name}_{retriever_type}_{exam_file}_results.json", "w"
         ) as json_file:
             json.dump(results, json_file, indent=2)
 
@@ -199,7 +200,7 @@ class ExamSolver:
 
 
 def main(
-    task_domain: str, retriever_type: str, model_type: str, model_name: str, reranking: bool = False
+    task_domain: str, retriever_type: str, model_type: str, model_name: str, exam_file: str, reranking: bool = False
 ):
     chunk_retriever = ChunkRetriever(task_domain, random_seed=42)
 
@@ -232,12 +233,21 @@ def main(
         model = GeminiGcp(model_name=model_name)
     elif model_type == "claude":
         model = ClaudeGcp(model_name=model_name)
+    elif model_type == "cpp":
+        model_mapping = {
+            'llama_3_1_8b': ModelType.LLAMA_3_1_8B,
+            'llama_3_2_3b': ModelType.LLAMA_3_2_3B,
+            'mistral_7b': ModelType.MISTRAL_7B,
+        }
+        
+        print(f"Using {model_mapping[model_name]}")
+        model = ModelFactory.create_model(model_mapping[model_name])
     else:
         print("Using Llama-cpp")
         # model = LlamaModel(model_path=model_path)
 
-    questions = solver.load_exam(f"MultiHopData/{task_domain}/exam_cleaned_1000_42.json")
-    metrics = solver.evaluate_performance(questions, model, task_domain, retriever_type, model_name)
+    questions = solver.load_exam(f"MultiHopData/{task_domain}/exams/{exam_file}")
+    metrics = solver.evaluate_performance(questions, model, task_domain, retriever_type, model_name, exam_file)
 
     print(f"Exam Performance:")
     print(f"Accuracy: {metrics['accuracy']:.2%}")
@@ -247,7 +257,8 @@ def main(
 if __name__ == "__main__":
     # Model family
     # model_type = "gemini"
-    model_type = "claude"
+    # model_type = "claude"
+    model_type = "cpp"
 
     # Task domain
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
@@ -260,18 +271,26 @@ if __name__ == "__main__":
     # Model name
     # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
     # model_names = ["claude-3-5-sonnet@20240620", "claude-3-5-haiku@20241022"]
-    model_names = ["claude-3-5-haiku@20241022"]
+    # model_names = ["claude-3-5-haiku@20241022"]
+    model_names = ['llama_3_2_3b', 'llama_3_1_8b']
+    
+    # Exam file
+    exam_files = [
+        "llama_3_1_8b_single_hop_exam_cleaned_shuffled_1000_42.json",
+        "llama_3_2_3b_single_hop_exam_cleaned_shuffled_1000_42.json"
+        ]
     
     # Reranker flag
     # rerank_flags = [True, False]
     rerank_flags = [False]
 
-    for rerank_flag in rerank_flags:
-        for model_name in model_names:
-            for task_domain in task_domains:
-                for retriever_type in retriever_types:
-                    print(f"Using {model_name}")
-                    print(f"Processing {task_domain}")
-                    print(f"Retriever: {retriever_type}")
-                    print(f"Rerank: {rerank_flag}")
-                    main(task_domain, retriever_type, model_type, model_name, reranking=rerank_flag)
+    for exam_file in exam_files:
+        for rerank_flag in rerank_flags:
+            for model_name in model_names:
+                for task_domain in task_domains:
+                    for retriever_type in retriever_types:
+                        print(f"Using {model_name}")
+                        print(f"Solving {exam_file} of {task_domain}")
+                        print(f"Retriever: {retriever_type}")
+                        print(f"Rerank: {rerank_flag}")
+                        main(task_domain, retriever_type, model_type, model_name, reranking=rerank_flag)

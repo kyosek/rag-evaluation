@@ -92,7 +92,7 @@ class ExamSolver:
             return "NA"
 
     def evaluate_performance(
-        self, questions: List[ExamQuestion], model, task_domain, model_name
+        self, questions: List[ExamQuestion], model, task_domain, model_name, exam_file
     ) -> Dict[str, float]:
         """Evaluate the solver's performance on a set of questions."""
         correct = 0
@@ -117,7 +117,7 @@ class ExamSolver:
 
         metrics = {"accuracy": correct / total, "correct": correct, "total": total}
 
-        with open(f"MultiHopData/{task_domain}/{model_name}_open_exam_{exam_file}_results.json", "w") as json_file:
+        with open(f"MultiHopData/{task_domain}/exam_results/{model_name}_open_exam_{exam_file}_results.json", "w") as json_file:
             json.dump(results, json_file, indent=2)
 
         return metrics
