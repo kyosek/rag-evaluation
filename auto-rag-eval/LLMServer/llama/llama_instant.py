@@ -35,6 +35,7 @@ class ModelType(Enum):
     YI_34B = "yi-34b"
     QWEN_7B = "qwen-7b"
     QWEN_14B = "qwen-14b"
+    QWEN_72B = "qwen-72b"
     GEMMA_2B = "gemma-2b"
     GEMMA_7B = "gemma-7b"
     GEMMA2_9B = "gemma2-9b"
@@ -315,6 +316,22 @@ class Qwen14BModel(BaseQuantizedModel):
     def get_id(self):
         return "Qwen14BModel:14B"
 
+class Qwen72BModel(BaseQuantizedModel):
+    def __init__(
+        self,
+        model_path: str = "bartowski/Qwen2.5-72B-0.6x-Instruct-GGUF",
+        filename: str = "Qwen2.5-72B-0.6x-Instruct-IQ4_XS.gguf",
+        n_ctx: int = 16384
+    ):
+        super().__init__(
+            model_path=model_path,
+            filename=filename,
+            n_ctx=n_ctx
+        )
+
+    def get_id(self):
+        return "Qwen72BModel:72B"
+
 
 # Gemma model classes
 class Gemma2BModel(BaseQuantizedModel):
@@ -355,8 +372,8 @@ class Gemma2_9BModel(BaseQuantizedModel):
     def __init__(
         self,
         model_path: str = "bartowski/gemma-2-9b-it-GGUF",
-        # filename: str = "gemma-2-9b-it-Q4_K_M.gguf",
-        filename: str = "gemma-2-9b-it-Q6_K.gguf",
+        filename: str = "gemma-2-9b-it-Q4_K_M.gguf",
+        # filename: str = "gemma-2-9b-it-Q6_K.gguf",
         n_ctx: int = 16384
     ):
         super().__init__(
@@ -490,6 +507,7 @@ class ModelFactory:
             ModelType.YI_34B: Yi34BModel,
             ModelType.QWEN_7B: Qwen7BModel,
             ModelType.QWEN_14B: Qwen14BModel,
+            ModelType.QWEN_72B: Qwen72BModel,
             ModelType.GEMMA_2B: Gemma2BModel,
             ModelType.GEMMA_7B: Gemma7BModel,
             ModelType.GEMMA2_9B: Gemma2_9BModel,

@@ -224,6 +224,8 @@ def main(task_domain: str, model_type: str, model_name: str, exam_file: str):
             'llama_3_2_3b': ModelType.LLAMA_3_2_3B,
             'ministral-8b': ModelType.MINISTRAL_8B,
             'mistral-small': ModelType.MISTRAL_SMALL,
+            "gemma2-9b": ModelType.GEMMA2_9B,
+            "qwen-72b": ModelType.QWEN_72B,
         }
         
         print(f"Using {model_mapping[model_name]}")
@@ -254,16 +256,17 @@ if __name__ == "__main__":
 
     # model_names = ["MINISTRAL_8B"]
     model_names = [
-        'llama_3_2_3b',
-        'llama_3_1_8b',
-        "ministral-8b",
-        "gemma2-9b"
+        # 'llama_3_2_3b',
+        # 'llama_3_1_8b',
+        # "ministral-8b",
+        # "gemma2-9b",
+        "qwen-72b",
         ]
     
     exam_files = [
         "llama_3_1_8b_single_hop_exam_cleaned_1000_42.json",
-        "llama_3_2_3b_single_hop_exam_cleaned_1000_42.json",
-        "llama_3_2_3b_exam_cleaned_1000_42.json",
+        # "llama_3_2_3b_single_hop_exam_cleaned_1000_42.json",
+        # "llama_3_2_3b_exam_cleaned_1000_42.json",
         ]
 
     for exam_file in exam_files:
