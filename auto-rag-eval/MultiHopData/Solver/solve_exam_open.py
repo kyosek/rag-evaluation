@@ -169,12 +169,17 @@ if __name__ == "__main__":
     # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
     # model_names = ["claude-3-5-sonnet@20240620", "claude-3-5-haiku@20241022"]
     # model_names = ["claude-3-5-sonnet@20240620"]
-    model_names = ['llama_3_2_3b', 'llama_3_1_8b', "ministral-8b", "gemma2-9b"]
+    model_names = [
+        'llama_3_2_3b',
+        'llama_3_1_8b',
+        "ministral-8b",
+        "gemma2-9b"
+        ]
     
     exam_files = [
-        "llama_3_1_8b_single_hop_exam_cleaned_shuffled_1000_42.json",
-        "llama_3_2_3b_single_hop_exam_cleaned_shuffled_1000_42.json",
-        "llama_3_2_3b_exam_cleaned_shuffled_1000_42.json",
+        "llama_3_1_8b_single_hop_exam_cleaned_1000_42.json",
+        "llama_3_2_3b_single_hop_exam_cleaned_1000_42.json",
+        "llama_3_2_3b_exam_cleaned_1000_42.json",
         ]
 
     for exam_file in exam_files:
