@@ -118,6 +118,7 @@ class MCQGenerator:
             'llama_3_1_8b': ModelType.LLAMA_3_1_8B,
             'llama_3_2_3b': ModelType.LLAMA_3_2_3B,
             'mistral_7b': ModelType.MISTRAL_7B,
+            "gemma2_9b": ModelType.GEMMAL2_9B,
         }
         
         # Select model based on input or use default
@@ -383,9 +384,9 @@ if __name__ == "__main__":
     assert sample_size < target_hop_number * 4
     
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    task_domains = ["multifieldqa_en", "SecFilings", "wiki"]
+    task_domains = ["gov_report"]
     
-    model_names = ['llama_3_2_3b', 'llama_3_1_8b']
+    model_names = ['llama_3_2_3b', 'llama_3_1_8b', "gemma2_9b"]
     # model_names = ['llama_3_2_3b']
     
     # task_domain = "gov_report"
