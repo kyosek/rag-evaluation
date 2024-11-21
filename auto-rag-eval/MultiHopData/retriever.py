@@ -214,7 +214,7 @@ class HybridChunkRetriever(ChunkRetriever):
         self,
         task_domain: str,
         bi_encoder_name: str = "BAAI/bge-large-en-v1.5",
-        cross_encoder_name: str = "cross-encoder/ms-marco-MiniLM-L-6-v2",
+        cross_encoder_name: str = "cross-encoder/ms-marco-MiniLM-L-2-v2",
         random_seed: Optional[int] = None,
     ):
         """
@@ -418,7 +418,7 @@ class HybridChunkRetriever(ChunkRetriever):
         directory: str,
         task_domain: str,
         bi_encoder_name: str = "BAAI/bge-large-en-v1.5",
-        cross_encoder_name: str = "cross-encoder/ms-marco-MiniLM-L-6-v2"
+        cross_encoder_name: str = "cross-encoder/ms-marco-MiniLM-L-2-v2"
     ) -> "HybridChunkRetriever":
         """
         Load a previously saved database.
@@ -456,7 +456,7 @@ class RerankingRetriever(BaseRetriever):
     def __init__(
         self,
         base_retriever: BaseRetriever,
-        rerank_model_name: str = "cross-encoder/ms-marco-MiniLM-L-6-v2",
+        rerank_model_name: str = "cross-encoder/ms-marco-MiniLM-L-2-v2",
     ):
         self.base_retriever = base_retriever
         self.rerank_model = CrossEncoder(rerank_model_name)
