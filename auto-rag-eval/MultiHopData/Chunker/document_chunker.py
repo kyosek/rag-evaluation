@@ -290,7 +290,7 @@ def main(task_name: str, strategy_name: str = "recursive"):
     # Choose chunking strategy
     strategies = {
         "recursive": RecursiveChunkStrategy(chunk_size=4000, chunk_overlap=200),
-        "semantic": SemanticChunkStrategy(target_chunk_size=2000),
+        "semantic": SemanticChunkStrategy(target_chunk_size=4000),
         "topic": TopicBasedChunkStrategy(min_chunk_size=2000, max_chunk_size=6000)
     }
     

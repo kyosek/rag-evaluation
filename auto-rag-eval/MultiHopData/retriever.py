@@ -34,7 +34,8 @@ class ChunkRetriever:
     def __init__(
         self,
         task_domain: str,
-        model_name: str = "all-MiniLM-L6-v2",
+        # model_name: str = "all-MiniLM-L6-v2",
+        model_name: str = "BAAI/bge-large-en-v1.5",
         random_seed: Optional[int] = None,
     ):
         """
@@ -80,16 +81,13 @@ class ChunkRetriever:
     def _build_index(self) -> None:
         """Build FAISS index from chunks."""
         # Generate embeddings for all chunks
-        embeddings = self.model.encode([chunk.content for chunk in self.chunks])
+        embeddings = self.model.encode([chunk.content for chunk in self.chunks], normalize_embeddings=True)
 
         # Initialize FAISS index
         dimension = embeddings.shape[1]
         self.index = faiss.IndexFlatIP(
             dimension
         )  # Inner product is equivalent to cosine similarity for normalized vectors
-
-        # Normalize vectors for cosine similarity
-        faiss.normalize_L2(embeddings)
 
         # Add vectors to the index
         self.index.add(embeddings)
@@ -118,7 +116,7 @@ class ChunkRetriever:
         self,
         query_chunk: Chunk,
         k: int = 4,
-        similarity_threshold: float = 0.9,
+        similarity_threshold: float = 0.01,
         exclude_same_doc: bool = True,
     ) -> List[Tuple[Chunk, float]]:
         """
@@ -134,8 +132,8 @@ class ChunkRetriever:
             List of tuples containing similar chunks and their similarity scores
         """
         # Generate embedding for query chunk
-        query_embedding = self.model.encode([query_chunk.content])
-        faiss.normalize_L2(query_embedding)
+        query_embedding = self.model.encode([query_chunk.content], normalize_embeddings=True)
+        # faiss.normalize_L2(query_embedding)
 
         # Search in the index
         scores, indices = self.index.search(
@@ -179,7 +177,7 @@ class ChunkRetriever:
 
     @classmethod
     def load_database(
-        cls, directory: str, task_domain: str, model_name: str = "all-MiniLM-L6-v2"
+        cls, directory: str, task_domain: str, model_name: str = "BAAI/bge-large-en-v1.5"
     ) -> "ChunkRetriever":
         """
         Load a previously saved database.
@@ -215,7 +213,7 @@ class HybridChunkRetriever(ChunkRetriever):
     def __init__(
         self,
         task_domain: str,
-        bi_encoder_name: str = "all-MiniLM-L6-v2",
+        bi_encoder_name: str = "BAAI/bge-large-en-v1.5",
         cross_encoder_name: str = "cross-encoder/ms-marco-MiniLM-L-6-v2",
         random_seed: Optional[int] = None,
     ):
@@ -419,7 +417,7 @@ class HybridChunkRetriever(ChunkRetriever):
         cls,
         directory: str,
         task_domain: str,
-        bi_encoder_name: str = "all-MiniLM-L6-v2",
+        bi_encoder_name: str = "BAAI/bge-large-en-v1.5",
         cross_encoder_name: str = "cross-encoder/ms-marco-MiniLM-L-6-v2"
     ) -> "HybridChunkRetriever":
         """
