@@ -109,7 +109,7 @@ class SemanticChunkStrategy(ChunkStrategy):
     
     def __init__(
         self, 
-        target_chunk_size: int = 4000,
+        target_chunk_size: int = 2000,
         similarity_threshold: float = 0.5,
         model_name: str = "sentence-transformers/all-MiniLM-L6-v2"
     ):
@@ -290,7 +290,7 @@ def main(task_name: str, strategy_name: str = "recursive"):
     # Choose chunking strategy
     strategies = {
         "recursive": RecursiveChunkStrategy(chunk_size=4000, chunk_overlap=200),
-        "semantic": SemanticChunkStrategy(target_chunk_size=4000),
+        "semantic": SemanticChunkStrategy(target_chunk_size=2000),
         "topic": TopicBasedChunkStrategy(min_chunk_size=2000, max_chunk_size=6000)
     }
     
@@ -309,8 +309,8 @@ def main(task_name: str, strategy_name: str = "recursive"):
     print(f"Output saved to {output_path}")
 
 if __name__ == "__main__":
-    # task_names = ["gov_report", "hotpotqa", "multifieldqa_en", "wiki"]
-    task_names = ["SecFilings"]
+    task_names = ["gov_report", "hotpotqa", "multifieldqa_en", "wiki"]
+    # task_names = ["SecFilings"]
     chunk_strategy = "semantic"
     
     for task_name in task_names:
