@@ -21,25 +21,30 @@ class PromptTemplate:
             5. As students do not have an access to the chunk information, do not mention chunks in the question
             
             Question Design Principles:
-            1. Incorporate subtle dependencies between chunks
+            1. Incorporate subtle dependencies among chunks
             2. Require careful analysis of conditional statements
             3. Include scenarios where surface-level reading might lead to wrong conclusions
             4. Design distractors that would be chosen if key information from certain chunks is missed
+                4.1. One distractor should incorporate some but not all key information
+                4.2. One distractor should be based on common misinterpretation
+                4.3. One distractor would be correct if one crucial detail is missed
+            5. Correct option requires synthesis of all chunks
             
             Format Requirements:
             - Question text should be clear but complex
             - Each option must start with A), B), C), or D)
+            
             <</SYS>>
 
             Domain: {task_domain}
             Documentation: {documentation}
 
             Generate a question following this format:
-            Question: [Complex question requiring multi-hop reasoning]
-            A) [Option incorporating some but not all key information]
-            B) [Option based on common misinterpretation]
-            C) [Option that would be correct if one crucial detail is missed]
-            D) [Correct option requiring synthesis of all chunks]
+            Question: <Question>
+            A) [Choice A]
+            B) [Choice B]
+            C) [Choice C]
+            D) [Choice D]
             Correct Answer: [Letter one of "A", "B", "C" or "D"]
             """,
             ModelType.MINISTRAL_8B: f"""
@@ -58,6 +63,10 @@ class PromptTemplate:
             2. Require careful analysis of conditional statements
             3. Include scenarios where surface-level reading might lead to wrong conclusions
             4. Design distractors that would be chosen if key information from certain chunks is missed
+                4.1. One distractor should incorporate some but not all key information
+                4.2. One distractor should be based on common misinterpretation
+                4.3. One distractor would be correct if one crucial detail is missed
+            5. Correct option requires synthesis of all chunks
             
             Format Requirements:
             - Question text should be clear but complex
@@ -67,11 +76,11 @@ class PromptTemplate:
             Documentation: {documentation}
 
             Generate a question following this format:
-            Question: [Complex question requiring multi-hop reasoning]
-            A) [Option incorporating some but not all key information]
-            B) [Option based on common misinterpretation]
-            C) [Option that would be correct if one crucial detail is missed]
-            D) [Correct option requiring synthesis of all chunks]
+            Question: <Question>
+            A) [Choice A]
+            B) [Choice B]
+            C) [Choice C]
+            D) [Choice D]
             Correct Answer: [Letter one of "A", "B", "C" or "D"]
             [/INST]</s>
             """,
@@ -91,6 +100,10 @@ class PromptTemplate:
             2. Require careful analysis of conditional statements
             3. Include scenarios where surface-level reading might lead to wrong conclusions
             4. Design distractors that would be chosen if key information from certain chunks is missed
+                4.1. One distractor should incorporate some but not all key information
+                4.2. One distractor should be based on common misinterpretation
+                4.3. One distractor would be correct if one crucial detail is missed
+            5. Correct option requires synthesis of all chunks
 
             **Format Requirements:**
             - Question text should be clear but complex
@@ -111,7 +124,7 @@ class PromptTemplate:
             Generate a question.
             <|eot_id|>
             """,
-            ModelType.GEMMA2_9BB: f"""
+            ModelType.GEMMA2_9B: f"""
             <start_of_turn>user
             You are an expert exam question generator specialising in creating challenging multihop multiple-choice questions (1 correct answer and 3 distractors) that require complex reasoning across multiple pieces of information.
 
@@ -127,6 +140,10 @@ class PromptTemplate:
             2. Require careful analysis of conditional statements
             3. Include scenarios where surface-level reading might lead to wrong conclusions
             4. Design distractors that would be chosen if key information from certain chunks is missed
+                4.1. One distractor should incorporate some but not all key information
+                4.2. One distractor should be based on common misinterpretation
+                4.3. One distractor would be correct if one crucial detail is missed
+            5. Correct option requires synthesis of all chunks
 
             Format Requirements:
             - Question text should be clear but complex
@@ -136,11 +153,11 @@ class PromptTemplate:
             Documentation: {documentation}
 
             Generate a question following this format:
-            Question: [Complex question requiring multi-hop reasoning]
-            A) [Option incorporating some but not all key information]
-            B) [Option based on common misinterpretation]
-            C) [Option that would be correct if one crucial detail is missed]
-            D) [Correct option requiring synthesis of all chunks]
+            Question: <Question>
+            A) [Choice A]
+            B) [Choice B]
+            C) [Choice C]
+            D) [Choice D]
             Correct Answer: [Letter one of "A", "B", "C" or "D"]<end_of_turn>
             <start_of_turn>model
             """,
@@ -164,7 +181,11 @@ class PromptTemplate:
             **Question Design Principles:**
             1. Require careful analysis of conditional statements
             2. Include scenarios where surface-level reading might lead to wrong conclusions
-            3. Design distractors that would be chosen if key information from certain part of information is missed
+            3. Design distractors that would be chosen if key information from certain chunks is missed
+                3.1. One distractor should incorporate some but not all key information
+                3.2. One distractor should be based on common misinterpretation
+                3.3. One distractor would be correct if one crucial detail is missed
+            4. Correct option requires synthesis of all key information
             
             Format Requirements:
             - Question text should be clear but complex
@@ -175,11 +196,11 @@ class PromptTemplate:
             Documentation: {documentation}
 
             Generate a question following this format:
-            Question: [Complex question requiring deep reasoning]
-            A) [Option incorporating some but not all key information]
-            B) [Option based on common misinterpretation]
-            C) [Option that would be correct if one crucial detail is missed]
-            D) [Correct option requiring synthesis of all chunks]
+            Question: <Question>
+            A) [Choice A]
+            B) [Choice B]
+            C) [Choice C]
+            D) [Choice D]
             Correct Answer: [Letter one of "A", "B", "C" or "D"]
             """,
             ModelType.LLAMA_3_1_8B: f"""
@@ -196,7 +217,11 @@ class PromptTemplate:
             **Question Design Principles:**
             1. Require careful analysis of conditional statements
             2. Include scenarios where surface-level reading might lead to wrong conclusions
-            3. Design distractors that would be chosen if key information from certain part of information is missed
+            3. Design distractors that would be chosen if key information from certain chunks is missed
+                3.1. One distractor should incorporate some but not all key information
+                3.2. One distractor should be based on common misinterpretation
+                3.3. One distractor would be correct if one crucial detail is missed
+            4. Correct option requires synthesis of all key information
 
             **Format Requirements:**
             - Question text should be clear but complex
@@ -206,12 +231,11 @@ class PromptTemplate:
             **Documentation:** {documentation}
 
             **Generate a question following this format:**
-            Generate a question following this format:
-            Question: [Complex question requiring deep reasoning]
-            A) [Option incorporating some but not all key information]
-            B) [Option based on common misinterpretation]
-            C) [Option that would be correct if one crucial detail is missed]
-            D) [Correct option requiring synthesis of all chunks]
+            Question: <Question>
+            A) [Choice A]
+            B) [Choice B]
+            C) [Choice C]
+            D) [Choice D]
             Correct Answer: [Letter one of "A", "B", "C" or "D"]
             <|eot_id|><|start_header_id|>user<|end_header_id|>
             Generate a question.

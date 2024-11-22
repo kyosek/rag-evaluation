@@ -268,7 +268,7 @@ class HybridChunkRetriever(ChunkRetriever):
         
         for i in tqdm(range(0, len(self.chunks), batch_size), desc="Encoding chunks"):
             batch = self.chunks[i:i + batch_size]
-            batch_embeddings = self.model.encode([chunk.content for chunk in batch])
+            batch_embeddings = self.model.encode([chunk.content for chunk in batch], normalize_embeddings=True)
             embeddings.append(batch_embeddings)
         
         embeddings = np.vstack(embeddings)
@@ -280,7 +280,7 @@ class HybridChunkRetriever(ChunkRetriever):
         
         # Normalize vectors for cosine similarity
         print("Normalizing vectors...")
-        faiss.normalize_L2(embeddings)
+        # faiss.normalize_L2(embeddings)
         
         # Add vectors to the index
         print("Adding vectors to index...")
@@ -301,8 +301,7 @@ class HybridChunkRetriever(ChunkRetriever):
         Find similar chunks using a hybrid approach with batched processing and deduplication.
         """
         # Step 1: Initial retrieval with bi-encoder (FAISS)
-        query_embedding = self.model.encode([query_chunk.content])
-        faiss.normalize_L2(query_embedding)
+        query_embedding = self.model.encode([query_chunk.content], normalize_embeddings=True)
         
         scores, indices = self.index.search(query_embedding, initial_k)
         

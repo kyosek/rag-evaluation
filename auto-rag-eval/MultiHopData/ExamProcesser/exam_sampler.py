@@ -39,9 +39,9 @@ def sample_json_entries(input_file, output_file, sample_size=1000, random_seed=4
 if __name__ == "__main__":
     sample_size = 1000
     seed = 42
-    # input_file = "Data/hotpotqa/ExamData/claude_gcp_2024103117/exam.json"
-    # output_file = f"Data/hotpotqa/ExamData/claude_gcp_2024103117/exam_{sample_size}_{seed}.json"
-    input_file = "auto-rag-eval/MultiHopData/hotpotqa/exams/exam_new_llama_3_2_3b_cleaned.json"
-    output_file = f"auto-rag-eval/MultiHopData/hotpotqa/exams/llama_3_2_3b_exam_cleaned_{sample_size}_{seed}.json"
+    # input_file = "Data/gov_report/ExamData/claude_gcp_2024103117/exam.json"
+    # output_file = f"Data/gov_report/ExamData/claude_gcp_2024103117/exam_{sample_size}_{seed}.json"
+    input_file = "auto-rag-eval/MultiHopData/gov_report/exams/exam_new_gemma2_9b_cleaned.json"
+    output_file = f"auto-rag-eval/MultiHopData/gov_report/exams/gemma2_9b_exam_cleaned_{sample_size}_{seed}.json"
 
     sample_json_entries(input_file, output_file, sample_size)

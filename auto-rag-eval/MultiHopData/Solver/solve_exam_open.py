@@ -157,7 +157,7 @@ def main(task_domain: str, model_type: str, model_name: str, exam_file: str):
 
 if __name__ == "__main__":
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    task_domains = ["hotpotqa"]
+    task_domains = ["gov_report"]
     # model_type = "claude"
     # model_type = "gemini"
     model_type = "cpp"
@@ -170,16 +170,18 @@ if __name__ == "__main__":
     # model_names = ["claude-3-5-sonnet@20240620", "claude-3-5-haiku@20241022"]
     # model_names = ["claude-3-5-sonnet@20240620"]
     model_names = [
-        'llama_3_2_3b',
+        # 'llama_3_2_3b',
         'llama_3_1_8b',
         "ministral-8b",
         "gemma2-9b"
         ]
     
     exam_files = [
-        "llama_3_1_8b_single_hop_exam_cleaned_1000_42.json",
-        "llama_3_2_3b_single_hop_exam_cleaned_1000_42.json",
+        # "llama_3_1_8b_single_hop_exam_cleaned_1000_42.json",
+        # "llama_3_2_3b_single_hop_exam_cleaned_1000_42.json",
         "llama_3_2_3b_exam_cleaned_1000_42.json",
+        "llama_3_1_8b_exam_cleaned_1000_42.json",
+        "gemma2_9b_exam_cleaned_1000_42.json",
         ]
 
     for exam_file in exam_files:
