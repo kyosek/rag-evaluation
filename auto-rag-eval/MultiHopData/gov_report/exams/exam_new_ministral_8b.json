@@ -1,31 +1,21 @@
 [
   {
-    "question": "What are some potential drawbacks of treating infants with NAS in non-hospital settings, as suggested by stakeholders and literature reviewed?",
+    "question": "Based on the information provided, which of the following statements is true about the treatment of infants with NAS in non-hospital settings?",
     "choices": [
-      "A) The lack of access to specialized medical equipment and personnel in non-hospital settings may lead to inadequate treatment and increased risk of complications.",
-      "B) The absence of a structured environment in non-hospital settings may facilitate bonding between mother and infant, but also increases the risk of infant abandonment.",
-      "C) The reduced stimulation and noise levels in non-hospital settings may improve infant outcomes, but also increases the risk of delayed diagnosis and treatment.",
-      "D) The flexibility and autonomy of non-hospital settings may allow for more family-centered care, but also increases the risk of inconsistent treatment and medication management."
+      "A) Neonatal withdrawal centers are the best environment for treating infants with NAS because they are quieter and less stimulating than hospital settings.",
+      "B) The Vermont hospital is the only one in the state that allows infants with NAS to complete pharmacologic treatment through the Vermont outpatient clinic.",
+      "C) Neonatal withdrawal centers are not the best environment for treating infants with NAS because they may limit a mother's access to her infant.",
+      "D) The information obtained from stakeholders is generalizable to other states or other hospital and non-hospital settings."
     ],
-    "correct_answer": "B)",
+    "correct_answer": "C)",
     "documentation": [
       "In addition to our site visits, we selected 12 additional stakeholders that included health care providers or administrators in non-hospital settings across the United States; officials from medical specialty societies; and experts. Specifically, we spoke with (1) health care providers (including physicians or nurses) or administrators from four non-hospital settings in Arizona, Ohio, Washington, and West Virginia, which were selected based on recommendations from stakeholders we interviewed and on the availability of such settings and their experience treating NAS; (2) health care providers from five medical specialty societies, including the American Academy of Pediatrics, the American College of Obstetricians and Gynecologists, the American Society of Addiction Medicine, MedNAX (a network of physicians that specialize in neonatal care, including NAS treatment), and the National Association of Neonatal Nurses; and (3) three experts, including the authors of published literature we reviewed. We interviewed each of these 32 stakeholders and requested information from stakeholders about treating infants with NAS, including the utilization of available hospital and non-hospital care settings and associated costs of treatment services. For example, we requested protocols for screening and treating infants with NAS from hospital and non-hospital care settings. We reviewed available protocols provided by hospitals and a non-hospital care setting. We also reviewed available information reported by state officials, hospital and non-hospital providers, and state perinatal collaboratives on the utilization of hospital and non-hospital care settings, the facilities\u2019 cost of treating NAS in hospital and non-hospital settings, the lengths of stay for treating infants with NAS, or the amount of Medicaid payments for treating infants with NAS. We discussed the information provided by stakeholders and examined the information for obvious errors. The information obtained from these stakeholders is not generalizable to other states or other hospital and non-hospital settings.",
       "Figure 2 depicts nursery rooms in the neonatal withdrawal center in West Virginia. Efforts are also underway to open a neonatal withdrawal center in Arizona and Ohio, according to stakeholders we interviewed. Stakeholders we interviewed and the literature we reviewed suggest some limitations as well as benefits of treating infants with NAS in non- hospital settings, including factors to consider in these settings. Health care providers from one of the hospitals we visited in Vermont told us that their hospital is the only one in the state that allows infants with NAS to complete pharmacologic treatment through the Vermont outpatient clinic because they have established the necessary infrastructure to ensure families\u2019 compliance and safe practices at home. These providers said that they worked with one local pharmacy to ensure proper dispensing of the medication. Additionally, these providers measured the amount of medication left over at each follow- up visit with the families. Some state and perinatal collaborative officials told us that neonatal withdrawal centers may not be the best environment to treat infants with NAS because these settings may limit a mother\u2019s access to her infant, since she may not always be allowed to reside with the infant. Such limits, according to officials, do not facilitate bonding between mother and infant. Another state perinatal collaborative official, as well as health care providers and staff, told us that neonatal withdrawal centers may be better for treating infants with NAS because the environment is quieter and less stimulating than hospital settings, such as NICUs. Several studies we reviewed also emphasized that the inpatient-to- outpatient approach requires ongoing coordination, communication, and commitment from multidisciplinary providers, as well as the families. These studies highlighted instances in which these approaches reduced the length of the infants\u2019 stay in a hospital, though the studies emphasized that more work needs to be done to determine whether these are the optimal approaches for infants with NAS, as well as the potential long-term benefits of such approaches."
     ],
     "metadata": {
       "num_chunks_used": 2,
-      "verification_attempts": 1,
+      "verification_attempts": 0,
       "verification_verdicts": [
-        {
-          "single_chunk_answerable": false,
-          "required_chunks": [
-            1
-          ],
-          "synthesis_required": true,
-          "reasoning": "Answering this question requires combining information across chunks to understand the benefits of treating infants with NAS in non-hospital settings, such as community-based clinics or home-based care, as suggested by stakeholders and literature reviewed.",
-          "missing_information": "None",
-          "confidence": 5
-        },
         {
           "single_chunk_answerable": false,
           "required_chunks": [
@@ -33,8 +23,8 @@
             2
           ],
           "synthesis_required": true,
-          "reasoning": "The question requires combining information across chunks to identify potential drawbacks of treating infants with NAS in non-hospital settings.",
-          "missing_information": null,
+          "reasoning": "The correct answer (C) requires combining information from both chunks. Chunk 1 provides information about the limitations of neonatal withdrawal centers, while Chunk 2 provides specific examples of these limitations, such as the potential for limiting a mother's access to her infant.",
+          "missing_information": "None",
           "confidence": 5
         }
       ],
@@ -45,22 +35,22 @@
           2
         ],
         "synthesis_required": true,
-        "reasoning": "The question requires combining information across chunks to identify potential drawbacks of treating infants with NAS in non-hospital settings.",
-        "missing_information": null,
+        "reasoning": "The correct answer (C) requires combining information from both chunks. Chunk 1 provides information about the limitations of neonatal withdrawal centers, while Chunk 2 provides specific examples of these limitations, such as the potential for limiting a mother's access to her infant.",
+        "missing_information": "None",
         "confidence": 5
       },
       "meets_hop_requirement": true
     }
   },
   {
-    "question": "What is the correct interpretation of the impact of the 0.5% increase in GS base pay on the maximum potential Member pay adjustment, given that Member pay adjustments cannot be higher than GS pay adjustments?",
+    "question": "Which of the following statements is true about the impact of the executive order on the pay adjustment for Members of Congress in 2013?",
     "choices": [
-      "A) The maximum potential Member pay adjustment would be capped at 0.5% due to the GS base pay increase.",
-      "B) The maximum potential Member pay adjustment would be capped at 1.1% due to the GS base pay increase, as the GS base pay adjustment would automatically limit the salary adjustment for Members of Congress to 1.0%.",
-      "C) The maximum potential Member pay adjustment would be capped at 1.0% due to the GS base pay increase, as the GS base pay adjustment would automatically limit the salary adjustment for Members of Congress to 1.0%.",
-      "D) The maximum potential Member pay adjustment would be capped at 1.1% due to the GS base pay increase, as the GS base pay adjustment would automatically limit the salary adjustment for Members of Congress to 1.1%."
+      "A) The executive order increased the maximum potential Member pay adjustment from 1.1% to 0.5%.",
+      "B) The executive order froze Member pay at the 2009 level for 2013.",
+      "C) The executive order automatically lowered the Member pay adjustment rate to 1.0%.",
+      "D) The executive order increased the GS base pay by 0.5%, which automatically lowered the Member pay adjustment rate to 0.5%."
     ],
-    "correct_answer": "C)",
+    "correct_answer": "D)",
     "documentation": [
       "The executive order included a 0.5% increase for GS base pay, which automatically lowered the maximum potential Member pay adjustment from 1.1% to 0.5%. As in prior years, schedule 6 of the 2012 executive order listed the pay rate for Members of Congress for the upcoming year. This executive order indicated that an annual adjustment would take effect after the expiration of the freeze included in P.L. 112-175 . As stated above, the annual adjustments take effect automatically if legislation is not enacted preventing them. The executive order, however, by establishing the GS pay adjustment at a lower rate than the scheduled Member pay adjustment, automatically lowered the Member pay adjustment rate since by law Member pay adjustments cannot be higher than GS pay adjustments. Subsequently, a provision in H.R. 8 , the American Taxpayer Relief Act of 2012, which was enacted on January 2, 2013 ( P.L. 112-240 ), froze Member pay at the 2009 level for 2013. The language was included in S.Amdt. 3448 , a substitute amendment agreed to by unanimous consent. The bill, as amended, passed the Senate (89-8, vote #251) and the House (257-167, roll call #659) on January 1, 2013. This freeze was subsequently reflected in Executive Order 13641, which was signed April 5, 2013. This represented the second time, the first being in 2006, that Member pay was statutorily frozen for only a portion of the following year at the time of the issuance of the executive order. In both instances, the executive order listed new pay rates and indicated an effective date following the expiration of the statutory freeze. Pay adjustments in both years were further frozen pursuant to subsequent laws. As stated above, projected Member pay adjustments are calculated based on changes in the ECI. The projected 2011 adjustment of 0.9% was known when the BLS released data for the ECI change during the 12-month period from December 2008 to December 2009 on January 29, 2010. This adjustment would have equaled a $1,600 increase, resulting in a salary of $175,600.",
       "The President issued an alternate pay plan for civilian federal employees on August 30, 2013. This plan called for a January 2014 across-the-board pay increase of 1.0% for federal civilian employees, the same percentage as proposed in the President's FY2014 budget. Legislation was not enacted to prohibit or alter the GS adjustment, and Executive Order 13655, issued on December 23, 2013, implemented a 1.0% increase for GS employees. Had the Member pay adjustment not been prohibited by law, the GS base pay adjustment would have automatically limited a salary adjustment for Members of Congress to 1.0% ($1,700). The maximum potential 2013 pay adjustment of 1.1%, or $1,900, was known when the BLS released data for the change in the ECI during the 12-month period from December 2010 to December 2011 on January 31, 2012. The adjustment takes effect automatically unless (1) denied statutorily by Congress or (2) limited by the GS base pay adjustment, since the percentage increase in Member pay is limited by law to the GS base pay percentage increase. The President's budget, submitted on February 13, 2012, proposed an average (i.e., base and locality) 0.5% adjustment for GS employees. President Obama later stated in a letter to congressional leadership on August 21, 2012, that the current federal pay freeze should extend until FY2013 budget negotiations are finalized. Section 114 of H.J.Res. 117 , the Continuing Appropriations Resolution, 2013, which was introduced on September 10, 2012, extended the freeze enacted by P.L. 111-322 through the duration of this continuing resolution. H.J.Res. 117 was passed by the House on September 13 and the Senate on September 22. It was signed by the President on September 28, 2012 ( P.L. 112-175 ). A delay in the implementation of pay adjustments for GS employees automatically delays any scheduled Member pay adjustment. On December 27, 2012, President Obama issued Executive Order 13635, which listed the rates of pay for various categories of officers and employees that would be effective after the expiration of the freeze extended by P.L. 112-175 ."
@@ -76,8 +66,8 @@
             2
           ],
           "synthesis_required": true,
-          "reasoning": "To answer this question, the information from both Chunk1 and Chunk2 needs to be combined to understand the impact of the 0.5% increase in GS base pay on the maximum potential Member pay adjustment.",
-          "missing_information": null,
+          "reasoning": "The correct answer requires understanding the impact of the executive order on Member pay adjustments in 2013. Chunk1 provides information about the executive order and the initial pay adjustment, while Chunk2 provides information about the subsequent pay increase for GS employees and the impact on Member pay adjustments. Combining information from both chunks is necessary to determine the correct answer.",
+          "missing_information": "None",
           "confidence": 5
         }
       ],
@@ -88,22 +78,22 @@
           2
         ],
         "synthesis_required": true,
-        "reasoning": "To answer this question, the information from both Chunk1 and Chunk2 needs to be combined to understand the impact of the 0.5% increase in GS base pay on the maximum potential Member pay adjustment.",
-        "missing_information": null,
+        "reasoning": "The correct answer requires understanding the impact of the executive order on Member pay adjustments in 2013. Chunk1 provides information about the executive order and the initial pay adjustment, while Chunk2 provides information about the subsequent pay increase for GS employees and the impact on Member pay adjustments. Combining information from both chunks is necessary to determine the correct answer.",
+        "missing_information": "None",
         "confidence": 5
       },
       "meets_hop_requirement": true
     }
   },
   {
-    "question": "What is a critical consideration for states seeking to develop their own coal reclamation programs under SMCRA, given the potential for long-term water pollution and the need for adequate financial assurances?",
+    "question": "According to the Surface Mining Control and Reclamation Act (SMCRA), what is the role of the regulatory authority in adjusting financial assurances for coal mines?",
     "choices": [
-      "A) The ability to self-bond for reclamation costs, as allowed under SMCRA.",
-      "B) The requirement to obtain a variance from the regulatory authority to return mine sites to their approximate original contour.",
-      "C) The need to demonstrate successful revegetation of the mine site for a minimum of 10 years in drier areas.",
-      "D) The potential for OSMRE to withdraw approval for a state's primacy program if the state regulatory authority fails to take corrective action to address issues with the program."
+      "A) The regulatory authority is responsible for ensuring that the financial assurances cover only the immediate costs of mining and reclamation, without considering long-term water pollution.",
+      "B) The regulatory authority must adjust the financial assurances if it determines that long-term water treatment is needed, but this adjustment can only be made after the mine has been operating for a certain period.",
+      "C) The regulatory authority is not allowed to adjust financial assurances once they have been approved, as this would be a violation of SMCRA.",
+      "D) The regulatory authority is required to approve a permit for a coal mine only if the operator provides sufficient financial assurances to cover all anticipated costs, including long-term water pollution."
     ],
-    "correct_answer": "D)",
+    "correct_answer": "B)",
     "documentation": [
       "SMCRA allows an individual state or Indian tribe to develop its own program to implement the act if the Secretary of the Interior finds that the program is in accordance with federal law. A state with an approved program is said to have \u201cprimacy\u201d for that program. To obtain primacy, a state or Indian tribe submits to the Secretary of the Interior for approval a program that demonstrates that the state or tribe has the capability of carrying out the requirements of SMCRA. The program must demonstrate that the state or Indian tribe has, among other things, a law that provides for the regulation of the surface effects of coal mining and reclamation in accordance with the requirements of SMCRA, and a regulatory authority with sufficient personnel and funding to do so. Of the 25 states and four Indian tribes that OSMRE identified as having active coal mining in 2017, 23 states had primacy, and OSMRE manages the coal program in 2 states and for the four Indian tribes. SMCRA requires a mine operator to obtain a permit before starting to mine. The permit process requires operators to submit plans describing the extent of proposed mining operations and how and on what timeline the mine sites will be reclaimed. In general, an operator must reclaim the land to a use it was capable of supporting before mining or to an alternative postmining land use that OSMRE or the state regulatory authority deems higher or better than the premining land use. In reclaiming the mine site, operators must comply with regulatory standards that govern, among other things, how the reclaimed area is regraded, replanting of the site, and the quality of water flowing from the site. Specifically: Operators are generally required to return mine sites to their approximate original contour unless the operator receives a variance from the regulatory authority. To return to this contour, the surface configuration achieved by backfilling and grading of the mined area must closely resemble the general surface configuration of the land before mining and blend into and complement the drainage pattern of the surrounding terrain, with all highwalls and spoil piles eliminated.",
       "Under SMCRA, OSMRE is required to evaluate each primacy state\u2019s coal program annually to ensure that it complies with SMCRA. SMCRA includes a requirement that the regulatory authority secure necessary financial assurances to assure the reclamation of each permitted mine site. While OSMRE\u2019s directive on oversight of state and tribal regulatory programs does not instruct the agency to review state regulatory authority calculations of financial assurance amounts, it instructs OSMRE to focus on the state programs\u2019 success in achieving the overall purposes of SMCRA. For example, OSMRE, in conducting its oversight, is to evaluate the states\u2019 effectiveness in successfully reclaiming lands affected by mining and in avoiding negative effects outside of areas authorized for mining activities. If OSMRE\u2019s review of a state program identifies an issue that could result in the state not effectively implementing, administering, enforcing, or maintaining all or any portion of its approved coal program, OSMRE can work with the state regulatory authority to develop an action plan to correct the issue. If a state regulatory authority does not take the necessary corrective action, OSMRE may begin the process of withdrawing approval for a part or all of the state\u2019s primacy. In addition to annually evaluating state programs, OSMRE can conduct national or regional reviews on specific topics. For example, OSMRE conducted a national review in 2010 that examined how state regulatory authorities calculated the required amount of financial assurances for coal mine reclamation. The review examined financial assurance practices in 23 states and reported that on the basis of the sample of mining permits reviewed, OSMRE was unable to determine if the amount of financial assurances was adequate for at least one of the permits it reviewed in 10 of the 23 states. Among the potential issues OSMRE identified were errors in the methods state regulatory authorities used to calculate financial assurance amounts and insufficient information in the reclamation plan upon which to calculate reclamation costs.",
@@ -113,8 +103,56 @@
     "metadata": {
       "num_chunks_used": 4,
       "verification_attempts": 3,
-      "verification_verdicts": [],
-      "final_verdict": null,
+      "verification_verdicts": [
+        {
+          "single_chunk_answerable": false,
+          "required_chunks": [
+            1,
+            2,
+            4
+          ],
+          "synthesis_required": true,
+          "reasoning": "The correct answer (D) requires understanding that the regulatory authority must adjust the amount of financial assurance if long-term water pollution is anticipated. This information is not explicitly stated in any single chunk but is implied across multiple chunks. Chunk 1 discusses the regulatory authority's role and the need for financial assurances, Chunk 2 provides details on OSMRE's oversight and the review of financial assurance amounts, and Chunk 4 discusses the potential for unanticipated reclamation costs and the need for adjustments to financial assurances.",
+          "missing_information": "None",
+          "confidence": 5
+        },
+        {
+          "single_chunk_answerable": false,
+          "required_chunks": [
+            1,
+            2,
+            4
+          ],
+          "synthesis_required": true,
+          "reasoning": "The correct answer requires understanding the regulatory authority's role in adjusting financial assurances (Chunk 2), the requirement for financial assurances to cover long-term water pollution (Chunk 4), and the general process of permit approval and financial assurance (Chunk 1).",
+          "missing_information": "None",
+          "confidence": 5
+        },
+        {
+          "single_chunk_answerable": false,
+          "required_chunks": [
+            1,
+            2,
+            4
+          ],
+          "synthesis_required": true,
+          "reasoning": "The correct answer (B) requires understanding that the regulatory authority can adjust financial assurances if long-term water treatment is needed, but this adjustment can only be made after the mine has been operating for a certain period. This information is spread across Chunk1 (mentions regulatory authority and financial assurances), Chunk2 (discusses OSMRE's oversight and financial assurances), and Chunk4 (mentions long-term water pollution and adjustments to financial assurances).",
+          "missing_information": "None",
+          "confidence": 5
+        }
+      ],
+      "final_verdict": {
+        "single_chunk_answerable": false,
+        "required_chunks": [
+          1,
+          2,
+          4
+        ],
+        "synthesis_required": true,
+        "reasoning": "The correct answer (B) requires understanding that the regulatory authority can adjust financial assurances if long-term water treatment is needed, but this adjustment can only be made after the mine has been operating for a certain period. This information is spread across Chunk1 (mentions regulatory authority and financial assurances), Chunk2 (discusses OSMRE's oversight and financial assurances), and Chunk4 (mentions long-term water pollution and adjustments to financial assurances).",
+        "missing_information": "None",
+        "confidence": 5
+      },
       "meets_hop_requirement": false
     }
   }

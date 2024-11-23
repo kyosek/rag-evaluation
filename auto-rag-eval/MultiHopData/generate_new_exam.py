@@ -118,6 +118,7 @@ class MCQGenerator:
             'llama_3_1_8b': ModelType.LLAMA_3_1_8B,
             'llama_3_2_3b': ModelType.LLAMA_3_2_3B,
             'mistral_7b': ModelType.MISTRAL_7B,
+            'ministral_8b': ModelType.MINISTRAL_8B,
             "gemma2_9b": ModelType.GEMMA2_9B,
         }
         
@@ -216,6 +217,111 @@ class MCQGenerator:
             return f"{correct_answer_match.group(1)})"
         
         return None
+    
+    def _extract_single_chunk_answerable(self, response: str) -> Optional[bool]:
+        """Extract single_chunk_answerable from verdict response."""
+        patterns = [
+            r"\"single_chunk_answerable\":\s*(true|false)",
+            r"single_chunk_answerable:\s*(true|false)",
+            r"Single chunk answerable:\s*(true|false)",
+            r"Can be answered with single chunk:\s*(yes|no|true|false)",
+        ]
+        matches = self.extract_with_patterns(response, patterns)
+        if matches:
+            value = matches[0].lower()
+            return value in ['true', 'yes']
+        return None
+
+    def _extract_required_chunks(self, response: str) -> Optional[List[int]]:
+        """Extract required_chunks from verdict response."""
+        patterns = [
+            r"\"required_chunks\":\s*\[([\d\s,]+)\]",
+            r"required_chunks:\s*\[([\d\s,]+)\]",
+            r"Required chunks:\s*\[([\d\s,]+)\]",
+            r"Chunks needed:\s*\[([\d\s,]+)\]",
+            r"Required chunks:[\s\n]*(\d+(?:,\s*\d+)*)",
+            r"Chunks needed:[\s\n]*(\d+(?:,\s*\d+)*)",
+        ]
+        matches = self.extract_with_patterns(response, patterns)
+        if matches:
+            # Clean and parse the matched string
+            chunk_str = matches[0].strip('[]').replace(' ', '')
+            try:
+                return [int(x) for x in chunk_str.split(',') if x]
+            except ValueError:
+                return None
+        return None
+
+    def _extract_synthesis_required(self, response: str) -> Optional[bool]:
+        """Extract synthesis_required from verdict response."""
+        patterns = [
+            r"\"synthesis_required\":\s*(true|false)",
+            r"synthesis_required:\s*(true|false)",
+            r"Synthesis required:\s*(true|false)",
+            r"Requires synthesis:\s*(yes|no|true|false)",
+        ]
+        matches = self.extract_with_patterns(response, patterns)
+        if matches:
+            value = matches[0].lower()
+            return value in ['true', 'yes']
+        return None
+
+    def _extract_reasoning(self, response: str) -> Optional[str]:
+        """Extract reasoning from verdict response."""
+        patterns = [
+            r"\"reasoning\":\s*\"(.*?)\"(?=,|\})",
+            r"reasoning:\s*(.*?)(?=\n|$)",
+            r"Reasoning:\s*(.*?)(?=\n|$)",
+            r"Explanation:\s*(.*?)(?=\n|$)",
+        ]
+        matches = self.extract_with_patterns(response, patterns)
+        return matches[0].strip() if matches else None
+
+    def _extract_missing_information(self, response: str) -> Optional[str]:
+        """Extract missing_information from verdict response."""
+        patterns = [
+            r"\"missing_information\":\s*\"(.*?)\"(?=,|\})",
+            r"missing_information:\s*(.*?)(?=\n|$)",
+            r"Missing information:\s*(.*?)(?=\n|$)",
+            r"Missing:\s*(.*?)(?=\n|$)",
+        ]
+        matches = self.extract_with_patterns(response, patterns)
+        return matches[0].strip() if matches else None
+
+    def _extract_confidence(self, response: str) -> Optional[int]:
+        """Extract confidence score from verdict response."""
+        patterns = [
+            r"\"confidence\":\s*(\d+)",
+            r"confidence:\s*(\d+)",
+            r"Confidence:\s*(\d+)",
+            r"Confidence level:\s*(\d+)",
+        ]
+        matches = self.extract_with_patterns(response, patterns)
+        if matches:
+            try:
+                confidence = int(matches[0])
+                return confidence if 1 <= confidence <= 5 else None
+            except ValueError:
+                return None
+        return None
+
+    def _extract_verdict(self, response: str) -> Dict:
+        """Extract all verdict components using pattern matching."""
+        verdict = {
+            "single_chunk_answerable": self._extract_single_chunk_answerable(response),
+            "required_chunks": self._extract_required_chunks(response),
+            "synthesis_required": self._extract_synthesis_required(response),
+            "reasoning": self._extract_reasoning(response),
+            "missing_information": self._extract_missing_information(response),
+            "confidence": self._extract_confidence(response)
+        }
+        
+        # Validate that we have at least the critical fields
+        if (verdict["required_chunks"] is not None and 
+            verdict["synthesis_required"] is not None and 
+            verdict["reasoning"] is not None):
+            return verdict
+        return None
 
     def _extract_reasoning_steps(self, response: str) -> Optional[str]:
         """Extract reasoning steps if available."""
@@ -268,6 +374,90 @@ class MCQGenerator:
         except Exception as e:
             logging.error(f"Error parsing question format: {e}")
             return None
+
+    def _regenerate_question_with_feedback(
+        self,
+        chunks: List[Dict[str, str]],
+        task_domain: str,
+        feedback: str
+        ) -> Optional[Dict]:
+        """Regenerate question using verification feedback."""
+        enhanced_prompt = self._make_enhanced_question_prompt(
+            task_domain=task_domain,
+            chunks=chunks,
+        ) + f"\n\nPrevious attempt feedback: {feedback}\nPlease ensure the question requires synthesizing information across multiple chunks."
+        
+        response = self.llm.invoke(enhanced_prompt)
+        
+        try:
+            return {
+                "question": self._extract_question(response),
+                "choices": self._extract_choices(response),
+                "correct_answer": self._extract_correct_answer(response),
+                "documentation": [chunk["text"] for chunk in chunks],
+                "metadata": {
+                    "num_chunks_used": len(chunks)
+                }
+            }
+        except Exception as e:
+            logging.error(f"Error parsing regenerated question: {e}")
+            return None
+
+    def call_verification_agent(self, question_data: dict, chunks: List[Dict[str, str]], 
+                    task_domain: str, target_hops: int, max_attempts: int = 3) -> Dict:
+        """
+        Verify and potentially regenerate the question to ensure it requires the target number of hops.
+        
+        Args:
+            question_data: The generated question data
+            chunks: List of document chunks
+            task_domain: Domain of the task
+            target_hops: Target number of hops required
+            
+        Returns:
+            Dict containing the final question data with verification metadata
+        """
+        verification_attempts = 0
+        current_question = question_data
+        verdicts = []
+        
+        while verification_attempts < max_attempts:
+            # Generate verification prompt
+            verification_prompt = PromptTemplate.get_verification_prompt(current_question, chunks)
+            
+            # Get verdict from LLM
+            verdict_response = self.llm.invoke(verification_prompt)
+            verdict = self._extract_verdict(verdict_response)
+            if verdict:
+                verdicts.append(verdict)
+                
+                # Check if the question meets the hop requirement
+                if len(verdict['required_chunks']) == target_hops:
+                    break
+                
+                # Regenerate question with feedback
+                verification_attempts += 1
+                if verification_attempts < max_attempts:
+                    regenerated_question = self._regenerate_question_with_feedback(
+                        chunks=chunks,
+                        task_domain=task_domain,
+                        feedback=verdict['reasoning']
+                    )
+                    if regenerated_question:
+                        current_question = regenerated_question
+            else:
+                verification_attempts += 1
+                logging.error("Failed to extract verdict from response")
+        
+        # Add verification metadata to the final question
+        current_question['metadata'].update({
+            'verification_attempts': verification_attempts,
+            'verification_verdicts': verdicts,
+            'final_verdict': verdicts[-1] if verdicts else None,
+            'meets_hop_requirement': (len(verdicts[-1]['required_chunks']) == target_hops) if verdicts else False
+        })
+        
+        return current_question
 
 
 def generate_exam(
@@ -329,6 +519,12 @@ def generate_exam(
         try:
             question_data = mcq_generator.generate_question(chunk_dict, task_domain)
             if question_data:
+                question_data = mcq_generator.call_verification_agent(
+                    question_data=question_data,
+                    chunks=chunk_dict,
+                    task_domain=task_domain,
+                    target_hops=len(similar_chunks) + 1  # +1 because we include the original chunk
+                    )
                 exam.append(question_data)
         except Exception as e:
             logging.error(f"Error generating question: {e}")
@@ -378,7 +574,7 @@ def main(
 
 
 if __name__ == "__main__":
-    sample_size = 1200
+    sample_size = 3
     target_hop_number = 301
     
     assert sample_size < target_hop_number * 4
@@ -386,8 +582,9 @@ if __name__ == "__main__":
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     task_domains = ["gov_report"]
     
-    model_names = ['llama_3_2_3b', 'llama_3_1_8b', "gemma2_9b"]
-    # model_names = ['llama_3_2_3b']
+    # model_names = ['llama_3_2_3b', 'llama_3_1_8b', "gemma2_9b"]
+    model_names = ['llama_3_2_3b', "gemma2_9b", 'ministral_8b']
+    # model_names = ['ministral_8b']
     
     # task_domain = "gov_report"
     for model_name in model_names:
