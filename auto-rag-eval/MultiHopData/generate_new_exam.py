@@ -574,7 +574,7 @@ def main(
 
 
 if __name__ == "__main__":
-    sample_size = 3
+    sample_size = 1200
     target_hop_number = 301
     
     assert sample_size < target_hop_number * 4
