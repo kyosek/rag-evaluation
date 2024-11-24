@@ -327,30 +327,26 @@ class PromptTemplate:
             
         prompt = f"""<s>[INST]  
             You are an expert exam question verifier.     
-            Analyse if this question requires synthesising information across multiple document chunks to be correctly answered.          
+            Analyse the following question-options-answer triplet.          
             
-            Task:     
-            1. Evaluate if the question can be answered using a single chunk or requires multiple chunks     
-            2. Identify which specific chunks contain relevant information     
-            3. Verify if the answer requires combining information across chunks     
-            4. Check if any crucial information is missing from the provided chunks
+            Task:
+            1. Examine if question and choices make sense compared to the given documents
+            2. Examine if the "correct_answer" actually correct
+            3. Examine if all the chunks are necessary to answer the question correctly
+            4. Give a feedback to improve the exam quality
             
             Output instruction:
             The output must follow the output format with the following entities and do not need to add anything else:
-            - single_chunk_answerable: Can the question be answered using only one chunk?
             - required_chunks: List of chunk numbers needed to answer, e.g., [1, 3] means chunks 1 and 3 are needed
-            - synthesis_required: Does answering require combining info across chunks?
-            - reasoning: Explanation of how the information needs to be combined
-            - missing_information: Optional: Note any missing crucial information
+            - synthesis_feedback: Explanation of how the information needs to be combined
+            - quality_feedback: Feedback to improve the exam quality and difficulty
             - confidence: 1-5 scale of confidence in this assessment
             
             Output format:     
             {{
-                "single_chunk_answerable": boolean,
                 "required_chunks": [int],
-                "synthesis_required": boolean,
-                "reasoning": string,
-                "missing_information": string,
+                "synthesis_feedback": string,
+                "quality_feedback": string,
                 "confidence": int
             }}
             [/INST]
