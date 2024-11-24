@@ -278,7 +278,7 @@ class PromptTemplate:
         correct_answer=question_data['correct_answer'],
         chunk_text=chunk_text
             
-        prompt = f"""<SYS>     
+        prompt = f"""<s>[INST]  
             You are an expert exam question verifier.     
             Analyse if this question requires synthesising information across multiple document chunks to be correctly answered.          
             
@@ -286,20 +286,27 @@ class PromptTemplate:
             1. Evaluate if the question can be answered using a single chunk or requires multiple chunks     
             2. Identify which specific chunks contain relevant information     
             3. Verify if the answer requires combining information across chunks     
-            4. Check if any crucial information is missing from the provided chunks      
+            4. Check if any crucial information is missing from the provided chunks
+            
+            Output instruction:
+            The output must follow the output format with the following entities and do not need to add anything else:
+            - single_chunk_answerable: Can the question be answered using only one chunk?
+            - required_chunks: List of chunk numbers needed to answer, e.g., [1, 3] means chunks 1 and 3 are needed
+            - synthesis_required: Does answering require combining info across chunks?
+            - reasoning: Explanation of how the information needs to be combined
+            - missing_information: Optional: Note any missing crucial information
+            - confidence: 1-5 scale of confidence in this assessment
             
             Output format:     
-            {{     
-                "single_chunk_answerable": boolean,  # Can the question be answered using only one chunk?     
-                "required_chunks": [                 # List of chunk numbers needed to answer     
-                    int,                            # e.g., [1, 3] means chunks 1 and 3 are needed     
-                ],     
-                "synthesis_required": boolean,       # Does answering require combining info across chunks?     
-                "reasoning": string,                # Explanation of how the information needs to be combined     
-                "missing_information": string,      # Optional: Note any missing crucial information     
-                "confidence": int                   # 1-5 scale of confidence in this assessment     
-            }}   
-            </SYS>
+            {{
+                "single_chunk_answerable": boolean,
+                "required_chunks": [int],
+                "synthesis_required": boolean,
+                "reasoning": string,
+                "missing_information": string,
+                "confidence": int
+            }}
+            [/INST]
             
             Question: {question}
             Options:
@@ -309,6 +316,7 @@ class PromptTemplate:
             D) {option_d}
             Correct Answer: {correct_answer}
             Documents: {chunk_text}
+            </s>
             """
         return prompt
 

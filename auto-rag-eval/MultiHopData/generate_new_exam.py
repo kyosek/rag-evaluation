@@ -158,7 +158,7 @@ class MCQGenerator:
             r"Question 1:(.*?)(?:\n[a-dA-D1-4]\)|\n\n[a-dA-D1-4]\))",
             r"question:(.*?)(?:\n[a-dA-D1-4]\)|\n\n[a-dA-D1-4]\))",
             r"question 1:(.*?)(?:\n[a-dA-D1-4]\)|\n\n[a-dA-D1-4]\))",
-            r"documentation:(.*?)(?:\n[a-dA-D1-4]\)|\n\n[a-dA-D1-4]\))",  # for ClaudeV2 mostly
+            r"documentation:(.*?)(?:\n[a-dA-D1-4]\)|\n\n[a-dA-D1-4]\))",
             r"### Assistant: (.*?)\n",
         ]
         # Extract the question
@@ -167,37 +167,92 @@ class MCQGenerator:
         return question
 
     def _extract_choices(self, response: str) -> Optional[List[str]]:
-        """Extract and validate choices with robust pattern matching."""
-        # Match choices including possible line breaks but excluding explanation sections
-        choices_patterns = [
-            r"([A-D]\) .*?)(?=$|\n[A-D]\)|\n\n)",
-            r"([A-D]\)(?:.|\n)*?)(?=$|\n[A-D]\)|\n\n)",
-            r"([A-D]\. .*?)(?=$|\n[A-D]\.|\n\n)",
-            r"([A-D]\.)(?:.|\n)*?)(?=$|\n[A-D]\.|\n\n)",
-            r"([1-4]\) .*?)(?=$|\n[1-4]\)|\n\n)",
-            r"([1-4]\)(?:.|\n)*?)(?=$|\n[1-4]\)|\n\n)",
-            r"([1-4]\. .*?)(?=$|\n[1-4]\.|\n\n)",
-            r"([1-4]\.)(?:.|\n)*?)(?=$|\n[1-4]\.|\n\n)",
-            r"([a-d]\) .*?)(?=$|\n[a-d]\)|\n\n)",
-            r"([a-d]\)(?:.|\n)*?)(?=$|\n[a-d]\)|\n\n)",
-            r"([a-d]\. .*?)(?=$|\n[a-d]\.|\n\n)",
-            r"([a-d]\.)(?:.|\n)*?)(?=$|\n[a-d]\.|\n\n)",
+        """
+        Extract and validate multiple choice answers with improved multi-line handling.
+        
+        Args:
+            response (str): The raw response text containing the MCQ
+            
+        Returns:
+            Optional[List[str]]: List of choices if found and valid, None otherwise
+        """
+        # Split the response into sections
+        sections = re.split(r'\n\nCorrect Answer:|\n\nDistractor|\n\nNote:', response, flags=re.IGNORECASE)[0]
+        
+        # Try different patterns in order of specificity
+        patterns = [
+            # Pattern 1: Double newlines with full content
+            r'\n\n([A-D]\))(.*?)(?=\n\n[A-D]\)|\n\nCorrect Answer:|\n\nDistractor|\Z)',
+            
+            # Pattern 2: Single newlines with brief content
+            r'\n([A-D]\))(.*?)(?=\n[A-D]\)|\n\nCorrect Answer:|\n\nDistractor|\Z)',
+            
+            # Pattern 3: Alternative format with single newlines
+            r'\n([A-D]\)) ([^\n]+)',
+            
+            # Pattern 4: Most lenient pattern
+            r'([A-D]\)) ([^\n]+)'
         ]
-        choices_matches = self.extract_with_patterns(response, choices_patterns)
-        choices = [match.strip() for match in choices_matches] if choices_matches else None
         
-        # Only keep first 4 answers
-        choices = (
-            choices[:4]
-            if choices
-            and len(choices) >= 4
-            and len(set([choice[0] for choice in choices[:4]])) == 4
-            else None
-        )
+        for pattern in patterns:
+            matches = re.finditer(pattern, sections, re.DOTALL)
+            choices = []
+            
+            for match in matches:
+                identifier = match.group(1)
+                content = match.group(2).strip() if len(match.groups()) > 1 else ''
+                full_choice = f"{identifier} {content}"
+                # Clean up any extra whitespace
+                full_choice = ' '.join(full_choice.split())
+                choices.append(full_choice)
+            
+            # Validate we have exactly 4 choices
+            if len(choices) == 4 and len(set([c[0] for c in choices])) == 4:
+                return choices
         
-        # Remove scenarios with empty answers ['A)], 'B)', 'C)', 'D)']
-        choices = choices if choices and min([len(choice) for choice in choices]) > 2 else None
-        return choices
+        # If no patterns worked, try splitting by newlines and finding lines starting with A), B), etc.
+        if not choices:
+            lines = sections.split('\n')
+            choices = []
+            for line in lines:
+                if re.match(r'^[A-D]\)', line.strip()):
+                    choices.append(line.strip())
+            
+            if len(choices) == 4 and len(set([c[0] for c in choices])) == 4:
+                return choices
+        
+        return None
+        # """Extract and validate choices with robust pattern matching."""
+        # # Match choices including possible line breaks but excluding explanation sections
+        # choices_patterns = [
+        #     r"([A-D]\) .*?)(?=$|\n[A-D]\)|\n\n)",
+        #     r"([A-D]\)(?:.|\n)*?)(?=$|\n[A-D]\)|\n\n)",
+        #     r"([A-D]\. .*?)(?=$|\n[A-D]\.|\n\n)",
+        #     r"([A-D]\.)(?:.|\n)*?)(?=$|\n[A-D]\.|\n\n)",
+        #     r"([1-4]\) .*?)(?=$|\n[1-4]\)|\n\n)",
+        #     r"([1-4]\)(?:.|\n)*?)(?=$|\n[1-4]\)|\n\n)",
+        #     r"([1-4]\. .*?)(?=$|\n[1-4]\.|\n\n)",
+        #     r"([1-4]\.)(?:.|\n)*?)(?=$|\n[1-4]\.|\n\n)",
+        #     r"([a-d]\) .*?)(?=$|\n[a-d]\)|\n\n)",
+        #     r"([a-d]\)(?:.|\n)*?)(?=$|\n[a-d]\)|\n\n)",
+        #     r"([a-d]\. .*?)(?=$|\n[a-d]\.|\n\n)",
+        #     r"([a-d]\.)(?:.|\n)*?)(?=$|\n[a-d]\.|\n\n)",
+        # ]
+        # choices_matches = self.extract_with_patterns(response, choices_patterns)
+        # choices = [match.strip() for match in choices_matches] if choices_matches else None
+        
+        # # Only keep first 4 answers
+        # choices = (
+        #     choices[:4]
+        #     if choices
+        #     and len(choices) >= 4
+        #     and len(set([choice[0] for choice in choices[:4]])) == 4
+        #     else None
+        # )
+        
+        # # Remove scenarios with empty answers ['A)], 'B)', 'C)', 'D)']
+        # choices = choices if choices and min([len(choice) for choice in choices]) > 2 else None
+        # return choices
 
     def _extract_correct_answer(self, response: str) -> Optional[str]:
         """Extract correct answer with validation."""
@@ -269,13 +324,27 @@ class MCQGenerator:
     def _extract_reasoning(self, response: str) -> Optional[str]:
         """Extract reasoning from verdict response."""
         patterns = [
-            r"\"reasoning\":\s*\"(.*?)\"(?=,|\})",
-            r"reasoning:\s*(.*?)(?=\n|$)",
-            r"Reasoning:\s*(.*?)(?=\n|$)",
-            r"Explanation:\s*(.*?)(?=\n|$)",
-        ]
+        # Handle JSON-style with quotes
+        r'\"reasoning\":\s*\"((?:[^\"\\]|\\.)*)\"',  # Matches JSON format with escaped quotes
+        r'"reasoning":\s*"([^"]*)"',  # Simple JSON quoted format
+        # Handle JSON-style without quotes
+        r'"reasoning":\s*(.*?)(?=\s*[,}\n])',  # Unquoted JSON format
+        r'reasoning":\s*(.*?)(?=\s*[,}\n])',   # Alternative unquoted format
+        # Handle plain text formats
+        r'reasoning:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',  # Matches until next field or end
+        r'Reasoning:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',
+        r'Explanation:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',
+    ]
         matches = self.extract_with_patterns(response, patterns)
-        return matches[0].strip() if matches else None
+        if matches:
+            # Clean up the extracted reasoning
+            reasoning = matches[0].strip()
+            # Handle escaped quotes if present
+            reasoning = reasoning.replace('\\"', '"').replace('\\\\', '\\')
+            # Remove any trailing commas or syntax artifacts
+            reasoning = re.sub(r'[,\s]+$', '', reasoning)
+            return reasoning
+        return None
 
     def _extract_missing_information(self, response: str) -> Optional[str]:
         """Extract missing_information from verdict response."""
@@ -317,8 +386,7 @@ class MCQGenerator:
         }
         
         # Validate that we have at least the critical fields
-        if (verdict["required_chunks"] is not None and 
-            verdict["synthesis_required"] is not None and 
+        if (verdict["required_chunks"] is not None and
             verdict["reasoning"] is not None):
             return verdict
         return None
@@ -385,7 +453,7 @@ class MCQGenerator:
         enhanced_prompt = self._make_enhanced_question_prompt(
             task_domain=task_domain,
             chunks=chunks,
-        ) + f"\n\nPrevious attempt feedback: {feedback}\nPlease ensure the question requires synthesizing information across multiple chunks."
+        ) + f"\n\nPrevious attempt feedback: {feedback}\nPlease ensure the question requires synthesising information across multiple chunks."
         
         response = self.llm.invoke(enhanced_prompt)
         
@@ -471,6 +539,7 @@ def generate_exam(
     Generate an exam with multiple-choice questions from the given data.
     """
     mcq_generator = MCQGenerator(model_name)
+    num_questions = len(data)
     exam = []
     hop_counts = {
         "1": 0,
@@ -479,14 +548,14 @@ def generate_exam(
         "4": 0,
     }
 
-    for k in tqdm(range(0, len(data))):
+    for ith_question in tqdm(range(0, num_questions)):
         # Get the current chunk and its similar chunks
-        current_chunk = data[k]
+        current_chunk = data[ith_question]
         chunk_data = Chunk(
             chunk_id=current_chunk.chunk_id,
             doc_id=current_chunk.doc_id,
             content=current_chunk.content,
-            original_index=k,
+            original_index=ith_question,
         )
         
         hop_try_count = 0
@@ -559,7 +628,7 @@ def main(
     sampled_chunks = retriever.sample_chunks(sample_size, seed=42)
 
     # Generate the exam
-    print("Start generating exam")
+    print("Start generating the exam")
     exam = generate_exam(
         sampled_chunks,
         task_domain,
@@ -582,9 +651,8 @@ if __name__ == "__main__":
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     task_domains = ["gov_report"]
     
-    # model_names = ['llama_3_2_3b', 'llama_3_1_8b', "gemma2_9b"]
-    model_names = ['llama_3_2_3b', "gemma2_9b", 'ministral_8b']
-    # model_names = ['ministral_8b']
+    # model_names = ['llama_3_2_3b', "gemma2_9b", 'ministral_8b']
+    model_names = ['llama_3_2_3b']
     
     # task_domain = "gov_report"
     for model_name in model_names:
