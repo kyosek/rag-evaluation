@@ -235,20 +235,6 @@ class MCQGenerator:
             return f"{correct_answer_match.group(1)})"
         
         return None
-    
-    def _extract_single_chunk_answerable(self, response: str) -> Optional[bool]:
-        """Extract single_chunk_answerable from verdict response."""
-        patterns = [
-            r"\"single_chunk_answerable\":\s*(true|false)",
-            r"single_chunk_answerable:\s*(true|false)",
-            r"Single chunk answerable:\s*(true|false)",
-            r"Can be answered with single chunk:\s*(yes|no|true|false)",
-        ]
-        matches = self.extract_with_patterns(response, patterns)
-        if matches:
-            value = matches[0].lower()
-            return value in ['true', 'yes']
-        return None
 
     def _extract_required_chunks(self, response: str) -> Optional[List[int]]:
         """Extract required_chunks from verdict response."""
@@ -270,52 +256,37 @@ class MCQGenerator:
                 return None
         return None
 
-    def _extract_synthesis_required(self, response: str) -> Optional[bool]:
-        """Extract synthesis_required from verdict response."""
-        patterns = [
-            r"\"synthesis_required\":\s*(true|false)",
-            r"synthesis_required:\s*(true|false)",
-            r"Synthesis required:\s*(true|false)",
-            r"Requires synthesis:\s*(yes|no|true|false)",
-        ]
-        matches = self.extract_with_patterns(response, patterns)
-        if matches:
-            value = matches[0].lower()
-            return value in ['true', 'yes']
-        return None
-
-    def _extract_reasoning(self, response: str) -> Optional[str]:
-        """Extract reasoning from verdict response."""
+    def _extract_synthesis_feedback(self, response: str) -> Optional[str]:
+        """Extract synthesis_feedback from verdict response."""
         patterns = [
         # Handle JSON-style with quotes
-        r'\"reasoning\":\s*\"((?:[^\"\\]|\\.)*)\"',  # Matches JSON format with escaped quotes
-        r'"reasoning":\s*"([^"]*)"',  # Simple JSON quoted format
+        r'\"synthesis_feedback\":\s*\"((?:[^\"\\]|\\.)*)\"',  # Matches JSON format with escaped quotes
+        r'"synthesis_feedback":\s*"([^"]*)"',  # Simple JSON quoted format
         # Handle JSON-style without quotes
-        r'"reasoning":\s*(.*?)(?=\s*[,}\n])',  # Unquoted JSON format
-        r'reasoning":\s*(.*?)(?=\s*[,}\n])',   # Alternative unquoted format
+        r'"synthesis_feedback":\s*(.*?)(?=\s*[,}\n])',  # Unquoted JSON format
+        r'synthesis_feedback":\s*(.*?)(?=\s*[,}\n])',   # Alternative unquoted format
         # Handle plain text formats
-        r'reasoning:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',  # Matches until next field or end
-        r'Reasoning:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',
-        r'Explanation:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',
+        r'synthesis_feedback:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',  # Matches until next field or end
+        r'synthesis_feedback:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',
     ]
         matches = self.extract_with_patterns(response, patterns)
         if matches:
-            # Clean up the extracted reasoning
-            reasoning = matches[0].strip()
+            # Clean up the extracted synthesis_feedback
+            synthesis_feedback = matches[0].strip()
             # Handle escaped quotes if present
-            reasoning = reasoning.replace('\\"', '"').replace('\\\\', '\\')
+            synthesis_feedback = synthesis_feedback.replace('\\"', '"').replace('\\\\', '\\')
             # Remove any trailing commas or syntax artifacts
-            reasoning = re.sub(r'[,\s]+$', '', reasoning)
-            return reasoning
+            synthesis_feedback = re.sub(r'[,\s]+$', '', synthesis_feedback)
+            return synthesis_feedback
         return None
 
-    def _extract_missing_information(self, response: str) -> Optional[str]:
-        """Extract missing_information from verdict response."""
+    def _extract_quality_feedback(self, response: str) -> Optional[str]:
+        """Extract quality_feedback from verdict response."""
         patterns = [
-            r"\"missing_information\":\s*\"(.*?)\"(?=,|\})",
-            r"missing_information:\s*(.*?)(?=\n|$)",
-            r"Missing information:\s*(.*?)(?=\n|$)",
-            r"Missing:\s*(.*?)(?=\n|$)",
+            r"\"quality_feedback\":\s*\"(.*?)\"(?=,|\})",
+            r"quality_feedback:\s*(.*?)(?=\n|$)",
+            r"Quality feedback:\s*(.*?)(?=\n|$)",
+            r"Quality Feedback:\s*(.*?)(?=\n|$)",
         ]
         matches = self.extract_with_patterns(response, patterns)
         return matches[0].strip() if matches else None
@@ -340,17 +311,16 @@ class MCQGenerator:
     def _extract_verdict(self, response: str) -> Dict:
         """Extract all verdict components using pattern matching."""
         verdict = {
-            "single_chunk_answerable": self._extract_single_chunk_answerable(response),
             "required_chunks": self._extract_required_chunks(response),
-            "synthesis_required": self._extract_synthesis_required(response),
-            "reasoning": self._extract_reasoning(response),
-            "missing_information": self._extract_missing_information(response),
+            "synthesis_feedback": self._extract_synthesis_feedback(response),
+            "quality_feedback": self._extract_quality_feedback(response),
             "confidence": self._extract_confidence(response)
         }
         
         # Validate that we have at least the critical fields
         if (verdict["required_chunks"] is not None and
-            verdict["reasoning"] is not None):
+            verdict["synthesis_feedback"] is not None and
+            verdict["quality_feedback"] is not None):
             return verdict
         return None
 
@@ -406,13 +376,19 @@ class MCQGenerator:
         self,
         chunks: List[Dict[str, str]],
         task_domain: str,
-        feedback: str
+        synthesis_feedback: str,
+        quality_feedback: str
         ) -> Optional[Dict]:
         """Regenerate question using verification feedback."""
         enhanced_prompt = self._make_enhanced_question_prompt(
             task_domain=task_domain,
             chunks=chunks,
-        ) + f"\n\nPrevious attempt feedback: {feedback}\nPlease ensure the question requires synthesising information across multiple chunks."
+        ) + f"""\n\nPrevious attempt feedbacks:
+        Synthesis feedback: {synthesis_feedback}\n
+        Please ensure the question requires synthesising information across multiple chunks.\n\n
+        Quality feedback: {quality_feedback}\n
+        Please ensure the quality of the exam is high.
+        """
         
         response = self.llm.invoke(enhanced_prompt)
         
@@ -468,7 +444,8 @@ class MCQGenerator:
                     regenerated_question = self._regenerate_question_with_feedback(
                         chunks=chunks,
                         task_domain=task_domain,
-                        feedback=verdict['reasoning']
+                        synthesis_feedback=verdict['synthesis_feedback'],
+                        quality_feedback=verdict["quality_feedback"]
                     )
                     if regenerated_question:
                         current_question = regenerated_question
