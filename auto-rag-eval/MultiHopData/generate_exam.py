@@ -11,8 +11,88 @@ from dataclasses import dataclass
 import pickle
 from tqdm import tqdm
 
-from MultiHopData.retriever import Chunk, ChunkRetriever
+from MultiHopData.retriever import Chunk, ChunkRetriever, HybridChunkRetriever
 from LLMServer.gcp.claude_instant import ClaudeGcp
+from LLMServer.llama.llama_instant import CppModel
+
+
+class MCQGenerator:
+    def __init__(self, llm_model):
+        self.llm = llm_model
+        
+    def generate_question(self, chunks: List[Dict[str, str]], task_domain: str) -> Dict:
+        """Generate a difficult multiple-choice question using multiple chunks."""
+        
+        # 1. Analyze relationships between chunks
+        chunk_relationships = self._analyze_chunk_relationships(chunks)
+        
+        # 2. Identify potential reasoning types
+        reasoning_type = self._identify_reasoning_type(chunks)
+        
+        # 3. Generate question with specific reasoning type
+        question_prompt = self._create_targeted_prompt(
+            chunks, 
+            task_domain,
+            reasoning_type,
+            chunk_relationships
+        )
+        
+        # 4. Generate initial response
+        response = self.llm.invoke(prompt=question_prompt, params={})
+        
+        # 5. Validate and enhance distractors
+        validated_response = self._validate_and_enhance(response, chunks)
+        
+        # 6. Verify format
+        if not self._verify_format(validated_response):
+            raise ValueError("Generated question format is invalid")
+            
+        return validated_response
+    
+    def _analyze_chunk_relationships(self, chunks: List[Dict[str, str]]) -> Dict:
+        """Analyze how chunks relate to each other."""
+        relationships = {
+            "temporal_sequence": False,
+            "cause_effect": False,
+            "compare_contrast": False,
+            "prerequisite_knowledge": False
+        }
+        
+        # Add logic to detect relationships between chunks
+        return relationships
+        
+    def _identify_reasoning_type(self, chunks: List[Dict[str, str]]) -> str:
+        """Identify potential reasoning types based on chunk content."""
+        reasoning_types = [
+            "bridging_inference",
+            "multi_constraint_satisfaction",
+            "temporal_reasoning",
+            "causal_reasoning",
+            "comparative_analysis"
+        ]
+        # Add logic to select appropriate reasoning type
+        return random.choice(reasoning_types)
+    
+    def _verify_format(self, response: Dict) -> bool:
+        """Verify the format of generated question."""
+        required_fields = ['question', 'choices', 'correct_answer', 'explanation']
+        if not all(field in response for field in required_fields):
+            return False
+            
+        # Verify choices format
+        if len(response['choices']) != 4:
+            return False
+            
+        # Verify each choice starts with A), B), C), or D)
+        choice_pattern = re.compile(r'^[A-D]\)')
+        if not all(choice_pattern.match(choice) for choice in response['choices']):
+            return False
+            
+        # Verify correct answer is one of A, B, C, or D
+        if not response['correct_answer'][0] in ['A', 'B', 'C', 'D']:
+            return False
+            
+        return True
 
 
 def generate_exam(
@@ -46,7 +126,7 @@ def generate_exam(
             original_index=k,
         )
         similar_chunks = retriever.find_similar_chunks(
-            chunk_data, k=4, similarity_threshold=0.9, exclude_same_doc=False
+            chunk_data, k=4, similarity_threshold=0.01, exclude_same_doc=False
         )
 
         if not similar_chunks:
@@ -67,8 +147,8 @@ def generate_exam(
         ]
 
         try:
-            # Generate a high-level (L3) question
-            question_prompt = make_l3_question_prompt(task_domain, chunk_dict)
+            # question_prompt = make_l3_question_prompt(task_domain, chunk_dict)
+            question_prompt = make_enhanced_question_prompt(task_domain, chunk_dict)
             answer = llm_model.invoke(prompt=question_prompt, params={})
 
             # Extract question, choices, correct answer, and explanation
@@ -150,10 +230,59 @@ def make_l3_question_prompt(task_domain: str, chunks: List[Dict[str, str]]) -> s
     """
 
 
-def main(data_path: str, output_path: str, task_domain: str, sample_size: int, step_size: int):
+def make_enhanced_question_prompt(
+    task_domain: str,
+    chunks: List[Dict[str, str]],
+    reasoning_type: str,
+    relationships: Dict[str, bool]
+) -> str:
+    documentation = "\n\n".join([f"Chunk{i}: {chunk['text']}" for i, chunk in enumerate(chunks)])
+    
+    return f"""
+    <<SYS>>
+    You are an expert exam question generator specializing in creating challenging multiple-choice questions that require complex reasoning across multiple pieces of information.
+    
+    Required reasoning type: {reasoning_type}
+    Identified relationships between chunks: {relationships}
+    
+    Core requirements:
+    1. Question MUST require synthesizing information from at least {len(chunks)} different chunks
+    2. Distractors must be highly plausible and based on common misconceptions or partial understanding
+    3. The correct answer should not be obvious without carefully analyzing all chunks
+    4. Each distractor should represent a different type of reasoning error
+    
+    Question Design Principles:
+    1. Incorporate subtle dependencies between chunks
+    2. Require careful analysis of conditional statements
+    3. Include scenarios where surface-level reading might lead to wrong conclusions
+    4. Design distractors that would be chosen if key information from certain chunks is missed
+    
+    Format Requirements:
+    - Question text should be clear but complex
+    - Each option must start with A), B), C), or D)
+    - Include detailed explanation of why each distractor is incorrect
+    <</SYS>>
+
+    Domain: {task_domain}
+    Documentation: {documentation}
+
+    Generate a question following this format:
+    Question: [Complex question requiring multi-hop reasoning]
+    A) [Option incorporating some but not all key information]
+    B) [Option based on common misinterpretation]
+    C) [Option that would be correct if one crucial detail is missed]
+    D) [Correct option requiring synthesis of all chunks]
+    Correct Answer: [Letter]
+    Explanation: [Detailed explanation of why the answer is correct AND why each distractor is incorrect]
+    Reasoning Steps: [Step-by-step breakdown of how to arrive at the correct answer]
+    """
+
+
+def main(data_path: str, output_path: str, task_domain: str, sample_size: int, model_name: str):
     logging.info("Start processing")
-    retriever = ChunkRetriever(task_domain, random_seed=42)
-    model = ClaudeGcp()
+    retriever = HybridChunkRetriever(task_domain, random_seed=42)
+    model = CppModel(model_name=model_name)
+    exam_generator = MCQGenerator(model)
 
     if not os.path.exists(f"MultiHopData/{task_domain}/chunk_database"):
         logging.info("Load documents")
@@ -163,7 +292,7 @@ def main(data_path: str, output_path: str, task_domain: str, sample_size: int, s
         retriever.save_database(f"MultiHopData/{task_domain}/chunk_database", task_domain)
     else:
         logging.info("Loading database from file")
-        retriever = ChunkRetriever.load_database(
+        retriever = HybridChunkRetriever.load_database(
             f"MultiHopData/{task_domain}/chunk_database", task_domain
         )
 
@@ -181,8 +310,9 @@ def main(data_path: str, output_path: str, task_domain: str, sample_size: int, s
 
 if __name__ == "__main__":
     task_domain = "SecFilings"
-    data_path = f"MultiHopData/{task_domain}/docs_chunk.json"
-    output_path = f"MultiHopData/{task_domain}/exam_new.json"
-    sample_size = 1100
+    data_path = f"MultiHopData/{task_domain}/chunks/docs_chunk_semantic.json"
+    output_path = f"MultiHopData/{task_domain}/exams/exam_new.json"
+    sample_size = 1500
+    model_name = ""
 
-    main(data_path, output_path, task_domain, sample_size, step_size=1)
+    main(data_path, output_path, task_domain, sample_size, model_name)

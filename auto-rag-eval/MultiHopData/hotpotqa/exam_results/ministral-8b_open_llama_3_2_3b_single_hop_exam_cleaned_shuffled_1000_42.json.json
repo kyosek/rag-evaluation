@@ -1,0 +1,1742 @@
+[
+  {
+    "question": "What can be inferred about the relationship between Wanxiang Group and Fisker Automotive based on the information provided?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "According to the Billboard charts, what was the peak position of Ashanti's album Chapter II on the Top R&B/Hip-Hop Albums chart?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "The production of the TV drama \"Kiss of Death\" was affected by several factors, including changes in the original script and the decision to shorten the running time. What was the primary reason for the decision to broadcast the drama in a single instalment instead of as a two-part series?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary consequence of the Centaur-G upper stage cancellation on the Ulysses mission's launch date?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "A borrower is facing foreclosure and has been in contact with their lender to discuss possible modifications to their mortgage. The lender has informed the borrower that they are eligible for Fannie Mae's foreclosure prevention efforts, but only if they demonstrate a reasonable likelihood of default. However, the borrower is concerned that the lender's new guidance allows for foreclosure prevention tools to be used on borrowers who are still current in their payments, but whose default is reasonably foreseeable. What is the key factor that determines whether the borrower is eligible for Fannie Mae's foreclosure prevention efforts?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "The Forests of Mara and Mondrem were created by Hugh d'Avranches, Earl of Chester, in what year, and what was the primary purpose of these forests?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "The Chicago Department of Aviation Police's downgrade to a security force status was a result of the investigation into the incident involving the four officers. What was a key factor in the Illinois Law Enforcement Training and Standards Board's decision to decertify the Chicago Department of Aviation Police?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Which team won the most prestigious award in the QMJHL, considering the award is given to the team that scored the most goals in a season, and the award is named after a legendary player who played for the team that won the Jean B\u00e9liveau Trophy?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "A multinational corporation, XYZ Inc., has a subsidiary in the United Kingdom that has incurred significant losses in the past few years. The UK subsidiary is part of a larger group of companies that includes a US-based parent company. The US parent company has already filed a consolidated Federal income tax return with the US government. What is the minimum percentage of ownership required by the US parent company to ensure that the UK subsidiary is included in the consolidated return?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary factor that contributed to Joseph Glidden's success in patenting his barbed wire invention, despite the fact that he was not the first to file for a similar invention?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "A researcher studying the ecology of Akbesia davidi, the pistacia hawkmoth, in Iran observes that the larvae feed on Pistacia atlantica and terebinth (Pistacia terebinthus) in the wild. However, when reared in a laboratory setting, the larvae are unable to complete their life cycle without being supplemented with a diet of Cotinus coggygria. What is the most likely reason for this discrepancy?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "A recent study found that the Southern District of Florida Bankruptcy Court's LMM program has resulted in a significant increase in the number of successful loan modifications. However, critics argue that the program's requirement for debtors to pay 31% of their gross monthly income as an \"adequate protection\" payment may be too onerous. Which of the following statements best summarizes the potential impact of this requirement on the success of the LMM program?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "What is the primary reason for the reinstatement of the Oregon Ducks baseball program in 2009?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following authors is NOT primarily known for their essays on Austrian and European topics, on history and philosophy, as well as on religion and literature?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "A local art gallery in Seoul is known for its unique facade, which resembles a pair of stereo speakers. What is the name of this art gallery, based on the fact that the word \"Kring\" is a Dutch word meaning \"circle\"?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "A university's athletic teams have a long history of competing in various divisions, including NCAA Division II and Division III. In 1968, the university's baseball team won a national title, but it wasn't until 2019 that they won another one. What is the significance of the university's transition from NCAA Division II to Division III in the context of their baseball program?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason for Madonna's initial hesitation to work with Nile Rodgers on the album \"Like a Virgin\"?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "A study conducted by Dr. Alesia Montgomery at Michigan State University found that the Cass Corridor in Detroit has undergone significant transformations since the 2000s, with several buildings renovated and remodelled by Joel Landy's construction company. However, the study also revealed that the area's revitalization efforts have been hindered by the presence of a certain type of roller coaster at Dorney Park & Wildwater Kingdom. Which of the following statements best summarizes the impact of this roller coaster on the Cass Corridor's revitalization efforts?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "A historian is researching the publication history of a collection of war letters. The collection was first published in 2001 under the title \"War letters\" by Scribner, with an ISBN of 0-7432-5616-6. However, the same collection was later re-published in 2005 under the title \"Behind the lines\" by Scribner, with a different ISBN. Which of the following statements is true about the publication history of this collection?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "A TV show's writers often use historical reenactments to add authenticity to their scripts. In the case of a web series that features a slave's experiences on a plantation, what is a potential benefit of the show's creator, Dungey, performing the lead role and staying in character while answering tourists' questions about slavery?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "In the context of ancient hunting practices, what can be inferred about the relationship between the moose's resting behavior and the hunting strategy employed by early humans?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary reason for Delta Air Lines's decision to discontinue its direct flights from Portland to Tokyo and Nagoya in March 2001?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "In the context of the bear game, what is the significance of the optional rule that allows the bear to win if the hunters cannot stalemate it in a given number of moves?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "What is the primary reason for the war that begins to emerge between the two packs in Alpha and Omega?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "The pre-Socratic philosopher Thales is said to have been inspired by the mythological account of the origin of the world in Homer's Theogony. However, his own cosmogony, as described by Pherecydes, differs significantly from this mythological narrative. What is the primary reason for this difference?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "In the novel, Connie's actions and decisions are crucial in determining the course of history. However, the utopian society of Luciente's community is not without its limitations. What is a potential consequence of the community's emphasis on individual freedom, particularly in regards to the use of psychotropic drugs?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Michelle Thomas's early exposure to the entertainment industry was largely due to her mother's influence, but she also gained valuable experience through her participation in a prestigious pageant. Which of the following best describes the significance of Michelle Thomas's win in the Miss Talented Teen International pageant?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Piercy's novel \"Woman on the Edge of Time\" is often credited as a pioneering work in the Cyberpunk genre. What is the significance of the main character's attempts to regain custody of her young son in the context of Piercy's broader thematic concerns with social change and the repair of the world?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What is the most likely explanation for the discrepancy in attendance records between the 2006 USC football media guide and the 2006 UCLA football media guide?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "The Glidden barn's unique design features can be attributed to its construction method and the materials used. What is the primary reason for the barn's open second-floor hayloft space?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Aristotle's discussion of the pre-Socratics in Metaphysics can be seen as a critique of their failure to identify a final cause, a concept central to Aristotelian metaphysics. However, some scholars argue that Aristotle's views on the pre-Socratics were influenced by his own philosophical agenda, particularly his anti-Aristotelianism towards Democritus' atomist theory. Which of the following statements best captures the essence of Aristotle's critique of the pre-Socratics?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason for the establishment of the Traverse City Railroad Company spur in 1872?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Bill Bryson's travels in Europe in 1990 were influenced by his earlier experiences in which two summer tours he made in his college days. During these tours, he traveled with a friend who would later become a prominent figure in his later writing. Bryson's trip began in the winter, in a city in Norway, where he aimed to witness the Northern Lights. He eventually reached a city in Turkey, looking out at the Bosphorus to Asia, and considered continuing his tour. What was the approximate population of the city where Bryson's trip began, according to the 2020 census?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary consequence of Gort's decision to abandon the southward attack in May 1940, as opposed to following the orders received from the British Government?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "If a sequel to the Justice League Dark film is in development, and Keanu Reeves has expressed interest in reprising his role as John Constantine, what can be inferred about the potential tone of the film?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "The pre-Socratic philosopher Xenophanes argued that the universe is governed by a single, underlying principle that explains both the diversity of phenomena and the unity of the cosmos. According to Xenophanes, this principle is not a direct action of the gods, but rather a natural process that can be understood through reason and observation. However, some of his contemporaries, such as Heraclitus, believed that the universe is in a state of constant flux and change, and that this flux is the fundamental principle that governs the cosmos. Which of the following statements best captures the essence of Xenophanes' philosophical position?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What is the primary reason for the cancellation of the Robotech II: The Sentinels project, despite Capizzi's involvement as a writer and story editor?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "The Hunger Games film series has received widespread critical acclaim, with all its films receiving a \"Fresh Rating\" on Rotten Tomatoes. However, the series' overall critical reception is not uniform across all its installments. Which of the following statements best describes the critical response to the last two films in the series?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "A historian studying the development of the American West notes that the formation of stockgrowers' associations in Montana Territory was a response to the widespread theft of livestock. However, they also observe that the creation of a board of livestock commissioners and inspectors was a key component of the legislation that was ultimately vetoed by Governor John Schuyler Crosby. Which of the following statements best explains why the ranchers felt they had no alternative but to take the law into their own hands?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Jane's decision to leave Thornfield Hall and travel to Moor House was motivated by her desire to escape the societal pressures of her impending marriage to Mr. Rochester. However, her decision was also influenced by her desire to preserve her independence and autonomy. Which of the following best describes the primary reason for Jane's decision to share her inheritance with her cousins, Diana and Mary?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "A study on the demographics of West Sand Lake found that the town has a relatively high percentage of households with children under the age of 18. However, the same study revealed that the population density of the town is significantly higher than the national average. Which of the following statements can be inferred from this information?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "The genetic studies on the origins of the Celtic-speaking populations in Europe suggest that the majority of modern Europeans are descended from a group of tribes that arrived from Iberia around 5000 BC. However, these studies also reveal that the genetic component of modern Europeans, labelled as \"Yamnaya\", is not a direct result of the initial migration, but rather a result of the mixing of this component with earlier Mesolithic hunter-gatherer or Neolithic farmer populations. Which of the following statements best describes the implications of this finding for our understanding of the origins of the Celtic-speaking populations in Europe?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "The Alannah and Madeline Foundation's efforts to combat bullying and support child victims of violence are likely to be hindered by the fact that the foundation's founder, Dr. Phil West, had a personal connection to the victims of the Port Arthur massacre. This connection is likely to have influenced his views on the causes of the massacre, which in turn may have shaped the foundation's approach to addressing the issue. However, some critics argue that the foundation's focus on bullying and child victims of violence may not be directly related to the root causes of the Port Arthur massacre. Furthermore, the foundation's efforts may be hindered by the fact that the massacre occurred in a town that had recently experienced a similar event, the Dunblane school massacre. Which of the following statements best summarizes the likely impact of these factors on the Alannah and Madeline Foundation's efforts?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "A community garden in a urban area can be an effective way to reduce household food costs, but it also requires careful consideration of the energy efficiency of the garden's operations. What is a key factor that gardeners should consider when designing their garden to minimize energy consumption?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "A resident of Lincoln County is involved in a serious car accident on a highway that is not part of the county's jurisdiction. The accident occurs near the Arkansas Children's Hospital, which is a Level 4 Trauma Center. The nearest Level 1 Trauma Center is the University of Arkansas for Medical Sciences (UAMS). The Lincoln County Sheriff's Office is the primary law enforcement agency in the county, and the county government is responsible for funding the local highway maintenance. However, the highway is maintained by the state, and the state's funding is controlled by the quorum court. Which of the following is a likely outcome of the accident?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "The Declaration of Right and the Coronation Oath Act 1688 had significant implications for the relationship between the monarchy and Parliament in Scotland. What was a likely consequence of the 1689-1691 Jacobite Rising, which forced William to make concessions to the Presbyterians?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What is a likely explanation for Summer's increased risk of developing lung cancer, considering her nonsmoking habit and her exposure to toxic fumes and dust from the September 11 attacks?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary motivation behind the Blacktown Shire Council's decision to establish a free public library in 1947?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What is the primary reason for the transfer of the primary ambulance service from North Flight EMS to Mobile Medical Response in Manistee County?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "A study published in 2010 found that the Albany Medical Center's affiliation with the medical school led to a significant increase in the station's listenership among medical professionals. However, this affiliation was terminated in 1981, and the station has since become a producer of information-based programming. What is the most likely reason for the decline in the station's listenership among medical professionals?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "A music critic from a prominent publication in the Twin Cities recently praised YourClassical MPR's morning show for its diverse programming, citing the show's ability to seamlessly transition between classical music pieces and contemporary artists. However, this critic also mentioned that the show's format has undergone significant changes since its inception, with some arguing that the show's eclectic mix of music has compromised its classical music focus. Which of the following statements best summarizes the impact of these changes on YourClassical MPR's morning show?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "The development of Roe Green Park in the early 1930s was influenced by the rapid growth of suburban housing in the area, which led to increased pressure from local residents to create a public green space. However, the initial plans for the park were subject to controversy due to the involvement of a developer who had previously been involved in a scandalous business deal. In 1935, the local Council negotiated with the developer to purchase some of his land for the park, but this deal was only made possible due to the financial support of a neighboring council. What was the primary reason for the developer's involvement in the park's development?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "A new oral vaccine delivery system is being developed, which uses a microneedle approach to deliver vaccines through the skin. This technology has the potential to increase the effectiveness of vaccination while reducing the need for a \"cold chain\". However, the development of this system is hindered by the need for large-scale animal testing to ensure its safety and efficacy. Which of the following statements best describes the advantages of oral vaccine delivery systems like this one?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "The Dutch invasion of England in 1688 was motivated by a desire to prevent the French from gaining control of the English Parliament, which would have allowed them to appoint Catholic bishops and clergy. However, the Dutch were also concerned about the potential for French expansion into the Rhineland, which had been a long-standing threat to Habsburg dominance. In order to address this concern, the Dutch government hired 13,616 German mercenaries to man Dutch border fortresses, freeing up elite units like the Scots Brigade for use in England. Which of the following best explains the Dutch decision to invade England?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about Zooey Deschanel's film career is most consistent with her early work in the romantic drama All the Real Girls (2003)?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Fran\u00e7ois-Beno\u00eet Hoffman's opera \"La mort d'Abel\" was heavily influenced by the works of his contemporaries, including Luigi Cherubini. However, the opera's dramatic style and musical composition were also shaped by the composer's own experiences with the French Revolution. What is the primary reason for the opera's focus on the themes of betrayal and revenge?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "The controversy surrounding the third episode of Unbreakable Kimmy Schmidt's second season, \"Kimmy Goes to a Play!\", can be attributed to the show's handling of cultural sensitivity. What is a key factor that contributed to the backlash against the episode?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Hallie Rodgers' career trajectory can be attributed to her ability to adapt to changing musical trends. What factor contributed to her initial success on the TV show Whizbang, which ultimately led to her being fired by the producer?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "According to historical accounts, what was the primary motivation behind Robert the Bruce's decision to plan a revolt against the English in 1314?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "According to the special's television rights, what is the current distribution method for Rankin/Bass Productions' library, including The Year Without a Santa Claus?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "What can be inferred about Mick Jagger's relationship with his children, particularly his youngest son Deveraux, based on his past relationships and family dynamics?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "The US War Department's decision to withdraw \"The Real Glory\" from circulation in 1942 can be attributed to the film's portrayal of the Moro Rebellion, which was a complex and multifaceted conflict. The film's depiction of the Moros as fanatical and violent, as seen in the scene where Alipang threatens a Muslim prisoner with burial wrapped in a pig skin, was likely a major factor in the decision. However, it is also possible that the film's portrayal of the US military's tactics, such as the use of native Philippine Constabulary and the reliance on a handful of officers to train the natives, was seen as insensitive or even racist. Furthermore, the film's historical context, including the American occupation of the Philippines at the beginning of the 20th century, may have contributed to the decision. What was the primary reason for the US War Department's decision to withdraw \"The Real Glory\" from circulation in 1942?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What can be inferred about the relationship between the L.L. Berger company and the Evergreen Plaza mall, based on the information provided?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What is the primary function of the ribosomal subunits in protein synthesis, and how do they differ in their functions between prokaryotes and eukaryotes?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "If Sonic and his friends are trying to stop Dr. Eggman from using the Phantom Ruby's power to retake control of Little Planet, what is the most likely outcome if they fail to collect all seven Chaos Emeralds before facing Eggman?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "A local business owner in Traverse City is considering hosting a large-scale hockey tournament at the Centre Ice Arena, which is also the home of the Traverse City North Stars hockey team. The tournament would attract teams from around the league, including the Detroit Red Wings, Toronto Maple Leafs, Columbus Blue Jackets, Dallas Stars, and St. Louis Blues. However, the owner is concerned about the potential impact on the local economy, as the city's small business community is a significant contributor to the local economy. What is the most likely outcome of hosting a large-scale hockey tournament in Traverse City?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What can be inferred about Bud Leavitt's relationship with the State of Maine, based on the fact that the Bud Leavitt Wildlife Management Area was named in his honor, and considering the context of his career as a sportswriter and conservation advocate?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Reilly's promotional appearances as Dewey Cox in the weeks prior to the film's release date were likely intended to generate buzz and excitement among fans, but they also raised questions about the authenticity of his character. Which of the following statements best summarizes the impact of these appearances on the film's marketing strategy?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Niven's writing style was characterized by a tendency to embellish his personal experiences. Which of the following best describes the relationship between Niven's autobiographical novel, The Moon's a Balloon, and his actual experiences during the war?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What is the most likely reason for Knut's decision to leave peacefully, despite having captured Gudmund, and his subsequent return the next morning to slay Bengt?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "The Blade Runner film's influence on popular culture can be seen in various aspects of society. What is a common misconception about the film's production that has been perpetuated by its influence on other creators?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "A film composer, known for his work on Blade Runner, was initially hesitant to release his score due to concerns about the film's commercial success. However, he eventually decided to release the soundtrack, which was later adapted into an orchestral version by a different group. This decision was influenced by the composer's experience with the film's producer, who had previously worked with him on a project that was initially met with negative reviews. Which of the following best describes the composer's motivation for releasing the soundtrack?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "If Zinke's past criticism of politicized investigations and his current role as a managing director of a cryptocurrency investment firm are considered, what can be inferred about his stance on the use of personal email for official business?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "H\u00e4kkinen's decision to retire from Formula One in 2005 was influenced by his experience in the Deutsche Tourenwagen Masters (DTM) series. Which of the following statements best describes the primary reason for his decision?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What is the primary reason why ER's DVD box sets are released in anamorphic widescreen format, despite the show's original broadcast in a standard 4:3 format?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Kimmy's decision to attend college at Columbia University is influenced by her desire to escape her past, but she struggles to find her place among the rich and elitist students. What is a likely reason for Kimmy's poor academic performance at Columbia?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "A pharmaceutical company, similar to Merck & Co., has been accused of using a manufacturing process that involves the use of a solvent that is listed as a carcinogen by the Environmental Protection Agency. However, the company has since replaced the solvent with a safer alternative and implemented new equipment to minimize environmental impact. The company is now seeking to expand its operations into a new market, but is concerned about the potential backlash from environmental groups. What is the most likely reason for the company's decision to expand its operations?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Russell Kane's comedy series \"Live at the Electric\" was broadcast on BBC Three from 2012 to 2014. During this time, the company Start-rite, which was granted a royal warrant by Queen Elizabeth II in 1955, began to focus on exporting its children's shoes to other countries. What was the primary reason for Start-rite's decision to outsource its production to India and Portugal in 2003?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What is the primary reason for the high micro-topographical variation in Birgunj, despite the relatively small range of altitude variation?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "The Han Dynasty's annexation of Dongyue can be seen as a strategic move to secure its borders, given the historical records of the Minyue region being emptied of people and its residents being deported to other territories. However, some historians argue that the deportation of an entire kingdom is implausible, and that the assimilation of Minyue into Han Chinese culture through Han conquest happened later in the dynasty. Which of the following statements best summarizes the likely motivations behind the Han Dynasty's actions in the Minyue region?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Adam Cooper's choreography for the musical \"Sunny Afternoon\" was notable for its use of continuous tango elements, which were a departure from his usual style. However, Cooper had previously worked with a choreographer who was known for his use of tango in his work. This choreographer had also worked with Cooper on a previous project, which was a musical adaptation of a novel. What was the title of this novel, which was adapted into a musical by Cooper and his collaborator Josef E. K\u00f6pplinger in 2015?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "A power supply manufacturer claims that their 80 Plus certified power supply can achieve a power factor of 0.95 or higher, which is sufficient to meet the requirements of most modern computers. However, the manufacturer also mentions that the power supply's harmonic current is significantly reduced due to the use of a valley-fill circuit. Which of the following statements is most consistent with this information?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "The 3rd Marine Division's operations in the DMZ area during the 1967-1968 period were marked by a significant increase in enemy casualties. What was the primary reason for this escalation?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Kimmy's decision to start a new life in New York City after being rescued is motivated by a desire to escape her past and create a new identity for herself. However, her new life is complicated by her relationships with her employers, particularly Jacqueline Voorhees. What is the most likely reason why Kimmy's relationship with Jacqueline is problematic?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "A utility company is considering installing a new power substation to improve the power factor of a large industrial customer. The customer's current power factor is 0.4, which is lower than the industry average. The utility company estimates that the new substation will cost $1 million to install and will reduce the energy losses in the distribution system by 15%. However, the company also expects to increase the customer's electricity bill by 5% due to the additional equipment required to support the new substation. Which of the following statements best describes the expected outcome of installing the new substation?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Harriet McDougal's initial statement about the film rights to The Wheel of Time was a significant factor in the development of the TV series. What can be inferred about the production timeline of the show based on the following information?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "What can be inferred about the population growth of the City of Blacktown between the 2001 and 2011 censuses, based on the information provided?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Mika's song \"Grace Kelly\" was a commercial success in the UK, but its chart performance was affected by a specific event that occurred just one week after its initial release. What was the reason for this sudden drop in sales?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about the player's career is most consistent with the information provided?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the development of Celtic studies in Germany is most accurate?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "A study on the economic impact of the Des Moines Arts Festival found that the event attracts a significant number of visitors from surrounding cities, resulting in increased spending on local hotels and restaurants. However, the study also noted that the festival's organizers have been criticized for their lack of transparency in allocating funds to local artists. Which of the following statements best summarizes the implications of this study for the city's economic development?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "The terebinth tree's ability to thrive in degraded areas can be attributed to its unique characteristics, which allow it to survive in environments where other species have been eliminated. What is the primary reason for the terebinth's resistance to cold temperatures, which is a key factor in its ability to survive in these areas?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "What is the primary reason for the high yield rate of the Class of 2025 at Purdue University-West Lafayette?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "A company's CEO, who was initially released on June 20, 2011, later announced that the initial release date was incorrect due to a miscommunication with the marketing team. However, the company's financial reports from the previous quarter showed a significant increase in revenue, which was attributed to the CEO's efforts to expand the company's product line. Which of the following statements best summarizes the CEO's actions?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary motivation behind Fine Gael's decision to support the Haughey government's economic policies in 1987?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "The NHL's decision to reinstate Marc Bertuzzi was influenced by the emotional toll his suspension took on his family, as well as the significant financial losses he incurred due to lost endorsements. However, some critics argue that the league's decision was motivated by a desire to avoid a lengthy and costly lawsuit. What is the primary reason behind the NHL's decision to reinstate Bertuzzi?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Del's career transition from antitrust litigation to entertainment law can be attributed to his work with which of the following companies?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What is the primary reason for the change in the grade levels served by Patrick Henry High School in 1988?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Antony Cotton's role in Coronation Street has been a long-standing one, but what is notable about his character's profession, which he has played since 2003?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "A radio station in the United States has a long-standing relationship with a Chinese music festival, resulting in the broadcast of concerts by several prominent orchestras to a global audience. This collaboration has been facilitated by a prominent American radio host who has a deep understanding of classical music. The host's efforts have helped to promote cultural exchange between the two countries. What is the primary reason for the success of this cross-cultural broadcast relationship?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "What is a notable consequence of the Les Schwab Invitational's partnership with Nike?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "The Young and the Restless has been criticized for its portrayal of Fenmore's family, with some arguing that the show's rapid aging of the characters is a form of \"Soap Opera Rapid Aging Syndrome.\" However, others have praised the show's decision to age Fenmore, citing the complexity of the character's storyline and the talented performance of Max Ehrich. According to an interview with Michael Fairman, the show's producers chose to age Fenmore to \"beef up\" the summer storylines, but this decision has also raised questions about the character's mental health and relationships with his parents. What is a potential consequence of Fenmore's rapid aging, according to the show's producers?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "A new university in Japan is considering adopting a unique approach to awarding doctoral degrees. Currently, most doctoral degrees are awarded based on a dissertation, but the university is exploring the possibility of awarding degrees to researchers who have completed a certain number of years of research in industrial laboratories. This approach is similar to the traditional ronbun hakase program, but with a key difference. The university is also considering providing additional support to promising researchers through a program called JSPS RONPAKU. What are the potential advantages and disadvantages of this approach?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about the 1940 Boston College football team's national championship claim is most accurate?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "George Smiley's decision to let his wife Ann continue to use their finances while he remained at home in Bywater Street can be seen as a demonstration of his:",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Elle King's musical style is a fusion of country, rock, and blues. Which of the following statements best describes her early exposure to music?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Mariah Carey's song \"Oh Santa!\" was a commercial success, but its critical reception was mixed. According to a Rolling Stone writer, the song's composition was compared to a \"schoolyard-chant beat\", which is also characteristic of a certain pop-punk band. However, a critic from The Village Voice described the song as an \"antique kitchen-sink replica\" that failed to evoke a cheerleading squad, similar to a 90s girl-group. Which of the following statements best summarizes the overall reception of \"Oh Santa!\"?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason for the relocation of the Birgunj Bazar market from Raxaul to Birgunj in 1959?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "A recent controversy in the scientific community has highlighted the importance of transparency in research publication. In a study published in PLOS One, a researcher claimed to have observed a phenomenon of rapid-onset gender dysphoria among young people, which was met with widespread criticism and calls for retraction. The journal's editors subsequently initiated a reevaluation of the article, citing concerns about the methodology and potential biases in the data. However, some experts have argued that the retraction was premature, and that the study's findings should be given more time to be verified. What is the most likely reason for the journal's decision to reevaluate the article?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary reason for Charles Haughey's decision to appoint Mara as his press secretary in 1982, despite Mara having no prior experience in public relations?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Christine White's cannabis line, ItsPurpl, features the Purple Urkle strain, which is a variation of the Grape Ape strain. However, Grape Ape is known to have a higher THC content than Purple Urkle. What is a potential concern for White's customers who may be sensitive to high THC levels?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "A proposed natural gas pipeline is expected to be completed by June 2017, despite concerns from local communities about its environmental impact. What is a key factor that led to the Federal Energy Regulatory Commission's approval of the pipeline's route in February 2016?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What is a key factor in the creation of the aquatic theater-in-the-round stage of Le R\u00eave, considering the show's water capacity and the need for performers to become SCUBA-certified?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Robot Jones's creator, Greg Miller, initially pitched the show as a series of animated shorts to be aired on Cartoon Network. However, the network's executives were concerned that the show's themes of social awkwardness and technological anxiety might be too complex for younger viewers. As a result, the show's format was modified to include more comedic elements and a greater emphasis on Robot's interactions with his human classmates. This change was likely influenced by the network's desire to appeal to a broader audience, including parents who might be hesitant to watch a show about a socially awkward robot. What was the primary motivation behind this change in format?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What can be inferred about Mirtemir's translation of Nikolay Nekrasov's \"Who is Happy in Russia?\" based on the fact that he translated it into Uzbek, and that Mirtemir was a National Poet of the Uzbek SSR?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "In the town, the median household income is $77,372, and the median income for White households is $75,474. However, the per capita income for the town is $36,103, which is lower than the median income for White households. What can be inferred about the income distribution of Asian and African American households in the town?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "The Freelance Police's DeSoto Adventurer is equipped with a feature that allows Sam to use his gun to distract other drivers during high-speed chases. However, this feature is not available during driving sequences that take place in areas with heavy traffic. What is the primary reason for this limitation?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "What can be inferred about the social status of women in ancient Greek literature, based on the fact that the Odyssey features a prominent female character in Penelope, who is the wife of Odysseus and the mother of Telemachus?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "What is a likely reason for the relatively high percentage of households in the Miami metropolitan area receiving Social Security, given the median household income and the prevalence of industries such as educational services and health care?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason for the Japanese naval commander, Rear Admiral Minoru \u014cta, to underestimate the number of US divisions expected to land during the invasion?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "A researcher is studying the mechanism of a self-cleaving ribozyme that catalyzes the cleavage of a phosphodiester backbone in the presence of metal ions. The ribozyme is composed of four monomer units, and its structure and mechanism are similar to those of protein enzymes. The researcher wants to understand why the smallest ribozyme, UUU, is more efficient at catalyzing this reaction than larger ribozymes. Which of the following is the most likely reason for this difference?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What can be inferred about the economic diversity of Hollywood based on the information provided?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "An elephant is using its trunk to grasp a peanut shell to crack it open. What is the primary reason why the Asian elephant's trunk is better suited for this task compared to the African elephant's trunk?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Beautycounter's business model is most consistent with the company's founding principles?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What can be inferred about the relationship between Donna Summer and Chaka Khan based on their statements about her?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Gianforte's decision to lift Montana's statewide mask mandate during the COVID-19 pandemic was influenced by his experience as a businessman, but critics argued that his actions were motivated by a desire to appease his corporate donors. Which of the following best explains Gianforte's stance on this issue?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "A German beverage manufacturer is considering introducing a new product line that combines apple juice with a sweetener to create a refreshing summer drink. The manufacturer wants to position this new product as a healthier alternative to traditional soda. However, the manufacturer is concerned that the sweetener may not be suitable for all consumers, particularly those with dietary restrictions. What is the most likely reason why the manufacturer might choose to use a sweetener that is commonly used in German beverages, such as stevia or erythritol, rather than a sugar substitute like aspartame or sucralose?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "A researcher is studying the effectiveness of a new treatment for borderline personality disorder. The treatment involves a combination of psychotherapy and medication. According to the literature, what is a key limitation of traditional psychotherapy for borderline personality disorder?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "The Continental Celtic languages are often considered a distinct branch of the Celtic language family, but some researchers argue that they are actually a subgroup of the P-Celtic languages. If we consider the influence of Continental Celtic languages on the Romance languages, and the fact that Celtiberian is a distinct Q-Celtic language, what can be inferred about the relationship between Continental Celtic and P-Celtic?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "In the context of chess composition, what is the primary characteristic of a pure mate, as described by Glen Downey in his dissertation?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "A company is designing a new high-performance computing system that requires a high-speed interconnect. The system's designers have chosen to use a VHDCI connector to connect the motherboard to the graphics card. However, the graphics card also needs to support multiple display outputs, including DVI and VGA. Which of the following is a likely reason why the graphics card manufacturer chose to use a VHDCI connector that can support both DVI and VGA signals?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What can be inferred about Buck's behavior after his release from San Quentin in 1882, based on the fact that he returned to Middletown and continued to engage in robbery and violence?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "The Northwest Territories government's decision to move its seat of government from Ottawa to Yellowknife in 1967 was likely influenced by the community's unique geographical location and access to the vast waterways in the territory. However, some historians argue that the move was primarily driven by the need to distance the government from the influence of the Ottawa-based council, which had grown sensitive to the needs of the territory residents. Which of the following best explains the significance of Fort Smith's role in the government's decision-making process?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "In Socratic moral philosophy, what is the primary role of the intellect in guiding human behavior?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "A Mexican company, FEMSA, is the largest independent Coca-Cola bottling group in the world. It operates a convenience store chain called Oxxo, which is well-known in Mexico. FEMSA also owns a football team, C.F. Monterrey, and has a significant presence in the US market. What is the primary reason for FEMSA's success in the Latin American market?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Rankin/Bass' Christmas specials have been a staple of holiday programming for decades. Which of the following statements about the current ownership and distribution of Rankin/Bass' films is true?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "The film Clouds of Sils Maria is often praised for its nuanced portrayal of the complex relationship between two women. What can be inferred about the director's intentions in depicting the character of Valentine, played by Kristen Stewart?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary motivation behind James II's decision to seek William of Orange's backing for repealing the Test Acts in 1687?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "The Nanyue rulers' policy of \"Harmonizing and Gathering the Hundred Yue tribes\" can be seen as a form of cultural assimilation, where the Yue and Han cultures were encouraged to blend together. However, this policy also had significant implications for the indigenous peoples of the region, including the Minyue and other tribes that were displaced or assimilated. What was the primary motivation behind the Nanyue rulers' decision to establish the Minzhong Commandery in the Lingnan region?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What can be inferred about the character of Audrey from the information provided about the reception of the series premiere and the events that unfold in the episode?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "A video game developer, known for his work in the Mass Effect series, has recently been involved in a high-profile lawsuit over a character's voice. The lawsuit claims that the character's voice was not properly cleared for use in the game. Which of the following statements best describes the developer's background and experience that may be relevant to this lawsuit?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "A team's chances of winning the championship are affected by their performance in the regular season, as well as their performance in the playoffs. However, a team's performance in the playoffs is also influenced by their performance in the regular season. Which of the following statements is true?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Elizabeth Halsey's new position as guidance counselor is likely to impact her relationships with her co-workers, given her history of being kind to them. However, her personal life has also been subject to scrutiny in the past. Which of the following statements best describes the likely outcome of her new role?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary motivation behind Joseph F. Glidden's decision to patent the barbed wire fence in 1874?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Luther's fifth series premiered in the United States on BBC America in June 2019, but what is notable about the show's broadcast schedule in the US during that time?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "The Clancy Act's impact on urban social housing in Ireland can be understood by considering the broader context of Home Rule and the role of the Irish Party in shaping the Government of Ireland Act 1914. What was a key factor in the Irish Party's decision to support the Act, despite its potential to exacerbate tensions with the Unionist community in Ulster?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "What can be inferred about the flood control measures in place for the Des Moines River based on the fact that the river overtopped the Saylorville Reservoir spillway in both 1993 and 2008, and that the city has implemented a regional plan focused on sustainable growth and resource consumption?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Brian Boru's marriage to Gormlaith was a crucial factor in his war against M\u00e1el M\u00f3rda and Sihtric, but it was also influenced by her previous marriage to Amla\u00edb Cuar\u00e1n, king of Dublin and York. What was the primary reason for Amla\u00edb's involvement in the conflict between Brian and his enemies?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "A researcher observes an Asian elephant using a combination of vocalizations and seismic signals to communicate with a distant group. The elephant produces a low-frequency rumble that lasts for 10 seconds, which is audible at a distance of up to 10 km. However, the researcher notes that the elephant's trunk is not visible during the entire duration of the rumble. What is the most likely explanation for the elephant's use of seismic signals in this situation?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "The proposed Garden Bridge project in London is expected to attract a significant number of visitors, but critics have raised concerns about the potential impact on the city's infrastructure. What is a key consideration for the bridge's private owners, given the projected increase in visitor numbers?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "A recent survey found that the popularity of breeds from the Terrier Group has been declining over the past few decades. Which of the following statements best explains this trend?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What is the primary eligibility criterion for a borrower to be considered for a loan modification under the Making Home Affordable Program?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "The Oklahoma Sooners' success during Barry Switzer's tenure can be attributed to their ability to adapt to the changing landscape of college football. What factor contributed to their ability to maintain a high level of performance despite the two-year bowl ban and television appearance ban imposed by the Big Eight Conference?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "The Broncos' home stadium has undergone several name changes over the years, with the most recent one being Empower Field at Mile High. What is the primary reason for the team's decision to change the stadium's name, despite the team's long-standing association with the \"Mile High\" moniker?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary factor that contributed to Connecticut's decision to hire Randy Edsall as their new head coach, despite the team's strong regular season performance?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What can be inferred about the original purpose of John Moore's land grant in Avoca Beach, based on the fact that he planted vines, cereals, and fruit trees, and left the area in 1857 for the Victorian goldfields?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following contestants hosted Nach Baliye 4, initially, but were replaced by Sara Khan and Ali Merchant in Week 5?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary factor that contributed to the Sooners' success in the 2000 season, despite the departure of John Blake's recruiting classes?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "A Minnesota resident living in the Twin Cities area has access to several music services on HD Radio, including The Current, Local Current, and Purple Current. Which of the following is a characteristic of the Purple Current service?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "The show's creator, Rob McElhenney, has stated that the show's success can be attributed to its ability to tackle complex social issues, such as racism and sexism, in a humorous and irreverent way. However, some critics have argued that the show's portrayal of these issues is often superficial and lacking in depth. Which of the following statements best summarizes the show's approach to addressing these issues?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Ana's decision to accept Christian's marriage proposal is influenced by her concerns about his past relationships, particularly his friendship with Elena Lincoln. However, Christian's actions towards Ana's ex-boyfriend, Jack, suggest that he is capable of protecting her from harm. Which of the following best explains Ana's potential reservations about marrying Christian?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "The Purdue University campus is home to a variety of iconic landmarks, including the Engineering Fountain and the Bell Tower. However, the university's administration has been considering repurposing the Armory Building, which is located near the Memorial Mall. According to a recent proposal, the Armory Building may be used for residential dining, retail, or classrooms. However, university president Mitch Daniels later stated that no changes would be made to the building. What is the most likely reason for the initial proposal to repurpose the Armory Building?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about Phil Ginther's racing career is most consistent with the information provided?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "A researcher studying the linguistic heritage of the Celtic nations notes that while Irish is no longer a spoken language in Newfoundland, there are still some words in Newfoundland English that reflect its influence. What is the most likely reason for the persistence of Irish loanwords in Newfoundland English?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "If Edward I of England had not invaded Scotland in 1296, it is likely that the Scottish nobles would have continued to recognize John Balliol as their king. However, some historians argue that the Scottish nobles were already planning to overthrow Balliol due to his ineffective leadership and the English influence on the Scottish court. Which of the following statements best describes the likely outcome of this scenario?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What can be inferred about Cat Stevens' career trajectory after his contract with Wonderful Radio London?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "A philosopher argues that Locke's associationism is incompatible with the Augustinian view of man as originally sinful because it implies that our moral character is shaped by our experiences and associations. However, this philosopher also claims that the associationism is not a sufficient explanation for the persistence of moral evil in the world. What is the primary limitation of associationism in addressing the problem of moral evil?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Plok's journey to reclaim his island is motivated by the theft of his flag, which was a decoy to lure him away from Akrillic. However, the true reason behind the infestation of fleas on the island is not directly related to the theft of the flag. What is the most likely explanation for the flea infestation, based on the events that unfolded during Plok's journey?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Aitken's claim that he had found God was met with some scepticism, and The Guardian might insist that he demonstrate the sincerity of repentance by repaying the legal bill of one-and-half-million pounds he landed on them by his dishonest libel action. However, Aitken escaped from the liability when he declared himself bankrupt and revealed that most of his apparent assets turn out to be conveniently owned by other people. Which of the following statements best explains why Aitken's bankruptcy might not necessarily be a sign of genuine repentance?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Northwest Plaza's decline can be attributed to several factors, including the shift in focus by Westfield Corporation and the rise of crime within the mall. What was the primary reason for the decline of Northwest Plaza's occupancy rate, which had dropped to 79% by the end of 2004?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary motivation behind Rabi's involvement in the formation of the first conference on software engineering?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What is a significant consequence of the Boardman River's designation as a \"Natural River\" in terms of its watershed's contribution to the Grand Traverse Bay?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "A university in Germany awards a doctoral degree in medicine (Dr. med.) alongside undergraduate study, but the European Research Council has deemed this not to meet international standards for a Ph.D. research degree. Which of the following statements is true about the use of the title \"Dr.\" in Germany?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "In the film \"Alice in Wonderland\", the character of the Red Queen is portrayed as a tyrannical ruler who is easily irritated and quick to anger. However, her sister, the White Queen, is depicted as a calm and caring character who is the rightful ruler of Underland. Which of the following statements best describes the relationship between the Red Queen's appearance and her personality?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "A new vaccine is being developed to protect against two strains of the same microorganism. The vaccine is designed to be monovalent, but the manufacturer is considering adding an adjuvant to boost the immune response. However, the adjuvant used in the pertussis vaccine has been shown to suppress the immune response to certain serotypes of the target microorganism. Which of the following is a potential consequence of using this adjuvant in the new vaccine?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Bryson's approach to exploring the United States in \"The Lost Continent\" can be seen as a form of cultural critique, but it also raises questions about the role of nostalgia in shaping our perceptions of the past. What is a potential consequence of relying on personal anecdotes and humorous observations to understand the complexities of American culture?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Liz's investment in real estate is rejected by the cooperative board due to her behavior during the meeting. What is a likely reason for Jack's struggles to balance his job and relationship with C.C.?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "A historian is researching the life of Holberg and comes across a letter where Holberg mentions that he was willing to use his money to support the academy at Sor\u00f8, but only if it was put to good use. However, the historian also finds a statement from the king's superintendent that Holberg was given a large sum of money by the king to support the academy, which was not explicitly stated to be for a specific purpose. Which of the following statements best summarizes Holberg's attitude towards using his money to support the academy?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Lewis Mumford's biographer, Donald Miller, described the Mumford's home as a place that \"became like a person to them\" over time. What can be inferred about the Mumfords' relationship with their home, based on Mumford's own account of how they fell in love with it?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "A renowned actress's early career was marked by a series of short-term roles, including a brief stint as an assistant stage manager at the Oxford Playhouse. She eventually found steady work with the Guild Players Repertory Company in Bangor, Northern Ireland, where she appeared in a production of Harvey. However, her breakthrough role came when she played the lead in a production of Love's Labour's Lost at the Regent's Park Open Air Theatre. What was the name of the holiday camp where she met her future partner?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Mike Leach's coaching career was marked by his innovative approach to offense, which he developed in collaboration with Hal Mumme. However, his success was not limited to his time at Texas Tech, where he became the winningest coach in school history. What is notable about Leach's coaching record at Washington State University, where he recorded the third-most wins of any coach in school history?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "The Barbie Doll's impact on societal expectations of women can be understood through its influence on the way girls are socialized to view their roles in the household. This, in turn, is shaped by the cultural context in which the doll was created. What is a key factor that contributed to the doll's design, which has been both celebrated and criticized for its perceived effects on women's self-image?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Aitken's decision to support the UKIP in 2004 was likely influenced by his desire to distance himself from the Conservative Party, but it is also possible that he genuinely believed in the party's platform. Which of the following statements best summarizes Aitken's motivations for supporting the UKIP?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "A film adaptation of Fifty Shades of Grey was released in 2013, but it was not a direct adaptation of the book. Instead, it was a parody of the book, titled Scary Movie 5. Which of the following statements about the film adaptation is true?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "A study analyzing the impact of the Cloward-Piven strategy on the Democratic Party's coalition found that the strategy's proponents underestimated the party's ability to adapt to the crisis. Which of the following best describes the likely outcome of this underestimation?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary reason for the establishment of the Zion Evangelical Lutheran Church in 1816, and how did this relate to the town's growth and development?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "A new study suggests that the Miami-Fort Lauderdale television market is the largest in South Florida, with a combined population of over 5 million viewers. However, some critics argue that this is not entirely accurate, as the West Palm Beach market is actually larger in terms of radio listenership. Which of the following statements best summarizes the implications of this study?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Ralston's score for The Receipt was recognized with multiple awards, but what is notable about the award he received at the Park City Film Music Festival in 2005?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "The production team of the BBC series \"Egypt\" had to navigate several challenges while filming at actual archaeological sites. One of the most significant challenges was ensuring that the sites remained untouched by other productions. However, the team's efforts were hindered by the fact that some of the sites were already popular tourist destinations. As a result, the team had to develop a strategy to minimize disruptions to the sites. What was the primary reason for the team's decision to film early in the day?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "The Hong Kong government's decision to introduce \"Patriotic education\" in primary and high schools has been met with criticism from various groups. One of the concerns is that it may lead to a loss of autonomy for Hong Kong. However, some argue that the education system is not the primary source of influence on the city's politics. Others point out that the introduction of \"Patriotic education\" is not a new concept, and that it has been a part of Hong Kong's education system since the 1990s. In fact, the education system has undergone significant changes since the handover of Hong Kong to China in 1997. What is the primary reason for the introduction of \"Patriotic education\" in Hong Kong?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What can be inferred about the production schedule of the show based on the changes in cast roles over the seasons?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "The Black Liberation Army's actions in 1972 can be understood as a response to the following events: Huey Newton's visit to China, the shutdown of Black Panther chapters, and the assassinations of police officers Gregory Foster and Rocco Laurie. Which of the following best describes the motivations behind the BLA's decision to shut down many Black Panther chapters in 1972?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Thales' philosophical contribution can be understood as a shift from a polytheistic worldview to a more unified understanding of the world. This change is reflected in his concept of the \"cosmos\", which implies a single, overarching principle governing the universe. However, some scholars argue that Thales' notion of the \"arche\" (origin) is more nuanced, and can be interpreted as a reference to a specific element, such as water, rather than a universal principle. What is the primary implication of Thales' concept of the cosmos, and how does it relate to his notion of the arche?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Elena Sinkevitch's elimination from the game was a result of her performance in the final challenge, which was a one-on-one duel against Mira Jantunen. However, some fans have speculated that her elimination was also influenced by her decision to switch tribes from \"Goal\" to \"Texas\" earlier in the game. Which of the following statements best explains why Elena's elimination was likely a result of her performance in the final challenge?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "A student from Lincoln County is eligible for Medicaid and ARKids First. What is a likely reason for the high Medicaid eligibility rate in Lincoln County?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "The Bonus Army's occupation of Anacostia Flats was notable for its self-sufficiency, with the veterans establishing their own sanitation facilities and internal police force. However, the War Department's refusal to provide official recognition of the camps led to tensions between the veterans and local authorities. What was a key factor in the Bonus Army's decision to establish a makeshift post office in the Salvation Army lending library?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "What can be inferred about the population dynamics of Troy based on the information provided?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Ronald Reagan's early life experiences had a significant impact on his later views on social issues. What can be inferred about Reagan's views on racial segregation during his time at Dixon High School?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "The Allegoria Sacra's use of recognizable motifs from art-history and pop-culture, such as allusions to Stanley Kubrick's film 2001: A Space Odyssey, can be seen as a commentary on the human condition. However, the artist's decision to depict the airport and the aircraft undergoing metamorphoses may also be interpreted as a reflection of the transience of modern life. What is the primary purpose of this visual representation?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "After the Golem's defeat, the Dragon Guardians realize that they must intercept the Destroyer before it completes the Ring of Annihilation. However, the Destroyer's path is unpredictable, and the Dragon Guardians need to find a way to slow it down. What is the most likely reason why Ignitus orders everyone to stay underground while he escorts Spyro and Cynder through the Belt of Fire?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What can be inferred about the production style of \"We Found Love\" based on the lyrics and instrumentation described?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the SMU Mustangs' upcoming game against the Marshall Thundering Herd is most likely true?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary reason for the Sydney Opera House's design process being awarded to Melbourne design studio FHA Image Design, despite the bid logo being designed by Michael Bryce?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "The decline of Asian elephant populations in Sri Lanka and the stabilization of numbers in the Western Ghats can be attributed to the following factors. Which of the following statements is most likely true?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "A researcher studying the effects of war on women's health might conclude that obstetricians and gynecologists are more likely to prioritize military personnel's medical needs over those of civilians. Which of the following statements is most consistent with this conclusion?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "A genetic study of the United Kingdom found that the 'Celtic' areas of Scotland, Northern Ireland, Wales, and Cornwall show the most genetic differences among each other. However, the study also revealed that the Cornish population shares greater genetic similarity with the English than it does with other 'Celtic' populations. Which of the following statements best describes the implications of this finding?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "A researcher studying the relationship between eonism and sexuality notes that Ellis's concept of eonism is closely tied to his views on the role of the mother in shaping a person's sexual identity. However, Ellis also believed that eonism was a common anomaly among individuals who were not closely attached to their mothers. Which of the following statements best summarizes Ellis's views on the relationship between eonism and maternal attachment?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "The Center for Jewish History's decision to establish a reference services division was influenced by its financial struggles in the early 2000s. What was a key factor in the center's ability to raise $30 million to retire its construction debt in 2010?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Schneider's views on childhood vaccinations have been widely criticized, but what is the underlying motivation behind his stance, considering his past involvement with the Democratic Party and his criticism of government overreach?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Hava Shapiro's work as a spiritual leader and writer has been recognized through various publications. What is a notable aspect of her writing career that is reflected in her co-edited book \"To Reveal Our Hearts: Jewish Women Writers in Tsarist Russia\"?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "The Broncos' decision to wear their white jerseys in Super Bowl 50 was influenced by their previous Super Bowl performances. Which of the following statements best explains why the Broncos chose to wear their white jerseys as the designated \"home\" team?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What can be inferred about the character of Steve Urkel's relationship with his neighbor Laura Winslow, based on the fact that he professes love for her, but she is initially uninterested and only accepts him over time?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Yusuf's decision to drop the surname \"Islam\" from his album cover art in 2006 was likely motivated by a desire to distance himself from his past associations with the fatwa, but this move also raised questions about the authenticity of his newfound commitment to peace and humanitarianism. What can be inferred about Yusuf's personal values and artistic evolution?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "A historian researching the evolution of street names in Paris might argue that the street's current name, rue Lhomond, is a direct result of its historical association with the Catholic Church. However, this interpretation overlooks the fact that the street was also home to a British seminary established by Louis XIV in the 17th century. Which of the following statements best reflects the historian's incomplete understanding of the street's history?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "A study on the impact of the 1920 Politics on Hawaii's social dynamics suggests that the events surrounding the Massie Affair led to a significant increase in tensions between the white and non-white populations. However, some historians argue that the true extent of the violence and its aftermath is often exaggerated. Which of the following statements best summarizes the underlying reasons for the increased tensions?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "A researcher from the National Tourism Service Sernatur is planning to conduct a whale watching tour on Isla Cha\u00f1aral. The island's unique geography, with two plateau levels, poses a challenge for the tour operators. What is the primary concern for the tour operators regarding the high plateau (>100 m)?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Fogg's journey is often described as a test of his endurance and determination. However, some critics argue that his actions throughout the journey demonstrate a more nuanced motivation. What is the primary reason behind Fogg's decision to bribe the captain of the cargo steamship to alter its course?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "The poem suggests that the girl's negative self-image is a result of societal expectations, but it also implies that she internalized these expectations from a young age. What is the primary reason for the girl's inability to see her own positive qualities?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "According to the temple's history, what is the significance of the temple's name \"Avoor Pasupatheeswaram\"?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What is the primary reason for the unique design of the front porch at the Glidden House, which deviates from the traditional French Colonial style?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "A prominent Baptist theologian and New Testament scholar, known for his work on the Holy Spirit and the early Christian church, wrote a book titled \"The Book of Acts: The Early Struggle for an Unhindered Gospel.\" Which of the following best describes the main focus of his book \"Exploring the New Testament\"?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "A city council is considering implementing a phytoremediation program to clean up a vacant urban lot contaminated with heavy metals and inorganic compounds. The city's environmental department has identified a suitable plant species, but the council is concerned about the potential impact on the local water table. Which of the following statements best addresses the council's concerns?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Browne's work with 54-40 and The Prettys can be characterized as a continuation of his musical style established with Matthew Good Band. What is a notable aspect of Browne's production work on 54-40's album \"Yes to Everything\"?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "In the 1993 film version of George Balanchine's The Nutcracker, what is the primary reason for the rearrangement of the musical structure, specifically the placement of the Dance Of The Sugar Plum Fairy?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "The West Coast Express's dominance in the mid-1990s can be attributed to the team's emphasis on a specific defensive strategy. Which of the following factors contributed most to the line's ability to consistently produce high-scoring games?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "The Lives of a Bengal Lancer was widely praised for its portrayal of British colonial policy, but some critics argued that it perpetuated a romanticized view of imperialism. Which of the following statements best summarizes the film's impact on the British Empire?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Ezra's restaurant, \"Homesick\", is a symbol of his desire to reconnect with his family. What is the underlying reason for Cody's continued resentment towards Ezra, despite their seemingly amicable relationship?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "The Ballaios' coinage had a significant impact on the trade activity in the region, as evidenced by its widespread distribution along both Adriatic coasts. This suggests that Ballaios' trade network extended beyond the traditional control of Issa. What can be inferred about the geographical extent of Ballaios' trade activity, based on the fact that his coins were found in the broad area of Narona, which maintained commercial and other contacts with the interior regions of Illyricum?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Ara Parseghian's decision to run the ball on five of six plays in the last one-and-a-half minutes of the game was widely criticized by fans and sportswriters. What was the primary motivation behind Parseghian's strategy, according to his own account?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "A street punk band from the 1990s and 2000s is known for its energetic sound, which was characterized by fast drumbeats and aggressive distorted guitar riffs. This sound was influenced by both British and American punk bands, with the latter's influence being particularly evident in the band's use of communal vocals and sing-along choruses. However, some critics have argued that the band's music was not as \"raw\" or \"unpolished\" as it was made out to be, and that its production values were actually quite high. Which of the following statements best describes the band's musical style?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Switchfoot's album Vice Verses was released in 2011, and it debuted at No. 8 on the Billboard 200. According to the band's bassist, Tim Foreman, the core of the record rests thematically in the idea of the polarity of life. However, the album's lead singer, Jon Foreman's, brother, has stated that the album is not a sequel to their last album, Hello Hurricane, but rather a cousin to it. Which of the following statements best summarizes the relationship between Vice Verses and Hello Hurricane?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Elle King's musical journey was influenced by her exposure to the banjo in two distinct ways. Firstly, her interest in the country and bluegrass of Hank Williams and Earl Scruggs inspired her to learn the instrument. Secondly, a pivotal moment during her college years, where she saw a live show featuring a banjo used solely for accompaniment, led her to experiment with the instrument as a compositional tool. Which of the following statements best summarizes the impact of these two experiences on her music?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "The Purdue University system's expansion during World War II was driven by the need to train skilled workers for defense industries. However, the university's decision to establish degree-granting regional campuses in the state of Indiana was also influenced by the growing demand for on-campus housing. What was a likely consequence of this decision?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What can be inferred about the mining industry's environmental impact based on the methane leakage rates reported at the Raspadskaya Mine and the Salmita Mine?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What is the primary reason for Duke Energy's decision to spin off its gas business to form Spectra Energy in 2007?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason for Dave Hockaday's dismissal as head coach of Leeds United in October 2014?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "A university in the UK awards a doctorate to a student who has completed a research project on the impact of climate change on local ecosystems. The student's thesis is examined by an expert panel, and the university is recognized for its high-quality research. Which of the following statements is true about the UK doctorate system?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Deftones' early sound was heavily influenced by the post-punk and new wave bands of the 1980s, as evident in their name, which is a play on the term \"tone deaf.\" However, when the band recruited Chi Cheng as their bassist, they began to incorporate more elements of hip-hop into their music. This shift in sound was likely influenced by Moreno's interest in hardcore punk bands, which often incorporated elements of hip-hop and electronic music. What is the most likely reason for Deftones' decision to record a four-track demo with Chi Cheng on bass, rather than continuing to use Dominic Garcia on bass?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Christian's decision to let Amira and Yasmin stay with him and Syed after the paternity test results was influenced by which of the following factors?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "A philosopher argues that social atomism is a form of utilitarianism because it prioritizes the individual's happiness above all else. However, critics of social atomism point out that this view neglects the unique qualities of individual persons. Which of the following best captures the essence of this critique?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "The NHLPA's decision to introduce a fantasy draft format for selecting All-Star teams was likely influenced by the desire to increase fan engagement and create a more dynamic event. However, the new format also introduced some logistical challenges, such as the need to ensure that teams had a balanced roster composition. Which of the following statements best summarizes the potential drawbacks of the fantasy draft format?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "The show's format has undergone significant changes over the years, with the host and regulars being replaced. What is the only year in which the show was broadcast at 9 pm, and what is notable about the episode that aired on that date?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What can be inferred about the relationship between John Franks' appointment as a judge of the Supreme Court at Calcutta and his later decision to resign due to health reasons?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "According to the information provided, what can be inferred about the tone of the live-action series based on Dora and the Lost City of Gold, which is being developed by Paramount+?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "What can be inferred about the relationship between the Heart and Stroke Foundation of Canada and the margarine company Becel, based on the statement by Andrea Polley regarding her film \"The Heart\"?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Which artist's music career was significantly impacted by the fact that their hit song \"Safe and Sound\" was initially rejected by several record labels before being released as a single in 2011?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "The documentary film \"Death of a River\" is based on the 1999 incident in which a large number of labourers from the Tea estates of Manjolai congregated in Tirunelveli and marched towards the Collectorate demanding better wages and other rights. However, the film's focus on the incident has led some to overlook the fact that the labourers' demands were not limited to the Manjolai estate alone, but also extended to the broader tea industry in Tamil Nadu. In fact, the labourers' demands were part of a larger movement that was sparked by the 1957 Ramnad riots and the 1999 Paramakudi riots. Which of the following statements best captures the essence of the labourers' demands and the broader context of the movement?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary motivation behind William's decision to land in Torbay, given the circumstances of the time?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "A study found that companies in the UK and Ireland that received funding from the Business Growth Fund (BGF) were more likely to achieve growth and create jobs compared to those that did not receive funding. However, the study also found that the majority of BGF's investments were made in companies based outside London and South East England. Which of the following statements best explains why BGF's funding may have contributed to the growth and job creation of these companies?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Cat Stevens' lawsuit against News UK was largely successful due to the publication of a story that claimed he refused to speak to unveiled women. However, the lawsuit also involved allegations that he had supported terrorism, which were later dropped after a settlement was reached. The settlement was seen as a vindication of Stevens' character and good name, and he intended to donate the financial award to help orphans of the 2004 Indian Ocean earthquake and tsunami. What was a key factor in the settlement, according to Stevens' statement, that helped to \"vindicate my character and good name\"?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "A new Cryptocoryne species is discovered in a remote region of New Guinea, and it is found to thrive in a stream with a pH of 7.5, which is significantly higher than the typical range for most Cryptocoryne species. What is the most likely reason for this species' ability to tolerate such high pH levels?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "The New York Botanical Garden has a long history of presenting exhibitions that showcase the beauty of nature. Which of the following statements best describes the Garden's approach to exhibition curation?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Anar's use of Ottoman and folk terminology in his Turkish writings is notable for its cultural significance. However, some critics have argued that his portrayal of historical figures, such as Sokrates, is overly simplistic and lacks nuance. What is the primary reason for Anar's decision to focus on the mythological aspects of Turkish folklore, rather than exploring the complexities of historical figures like Sokrates?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "A researcher studying the relationship between climate and human behavior notes that in warmer climates, people are more likely to engage in activities that promote social and economic mobility. This, in turn, leads to an increase in the number of women who choose partners based on their intellectual abilities. However, this does not necessarily mean that women in warmer climates are more likely to use birth control. In fact, some researchers argue that the increased social and economic mobility in warmer climates may actually lead to a decrease in the use of birth control among women who are already educated and have access to resources. Which of the following statements best summarizes the relationship between climate, social and economic mobility, and birth control use among women?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "A demographic analysis of the township suggests that the population is aging, with a significant proportion of residents over 65 years old. However, the church's construction date and architectural style suggest that it may have been built during a time when the population was younger. Which of the following statements best describes the likely relationship between the township's population demographics and the construction date of the Sand Lake Baptist Church?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "What is a likely consequence of Fenmore's infatuation with Summer, given his history of being bullied as a child?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "A study found that the average lifespan of a Welsh Springer Spaniel is 10 years, which is significantly shorter than that of the English Springer Spaniel. However, the study also revealed that the Welsh Springer Spaniel is more prone to hip dysplasia than the English Springer Spaniel. Which of the following statements best explains why the Welsh Springer Spaniel's lifespan is shorter?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Saif Ali Khan's film career has been marked by his versatility as an actor. What is notable about his collaboration with Hrithik Roshan in the 2022 film Vikram Vedha?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "In the given musical composition, the recapitulation section is characterized by a shift in key signature to C major, which is a departure from the exposition's key signature of C minor. However, the music also retains some elements from the exposition, such as the use of broken octaves in triplets by the piano. Which of the following statements best describes the relationship between the recapitulation and the exposition in terms of thematic development?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "What can be inferred about Arcade's approach to killing his targets, based on his statement about leaving them a \"small chance of survival\"?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "The Victor Mine's 17-year project life is expected to be divided into three phases: construction, operation, and closure. What is the primary reason for the mine's expected 12-year operational life, despite the total project life being 17 years?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements best describes the impact of Madonna's album \"Like a Virgin\" on the music industry and popular culture?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "A medical student in Egypt is considering applying for a master's degree in a specialty before completing their M.D. degree. According to the regulations, what is the primary requirement for a student to be eligible for a doctoral program in Finland?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What can be inferred about Bryan Singer's casting decision for the role of Superman in Superman Returns?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "A study on the impact of technological advancements on job creation in the United States found that while technological progress has led to the creation of new job opportunities, it has also led to significant job displacement in certain sectors. However, the study also noted that the benefits of technological progress can be unevenly distributed, with some individuals and communities experiencing significant economic gains while others are left behind. What is a key factor that Purdue University's leaders have considered in their efforts to promote economic development and job creation in the region?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "A two-state system with a Hamiltonian given by\n\nH = (a0 + a3) |0\u232a\u23290| + (a1 - ia2) |1\u232a\u23291| + (a1 + ia2) |0\u232a\u23291| + (a0 - a3) |1\u232a\u23290|\n\nis in a state described by the wave function \u03c8 = (c1 |0\u232a + c2 |1\u232a), where c1 and c2 are complex coefficients satisfying the normalization condition |c1|^2 + |c2|^2 = 1. If the system is initially in the state \u03c8 and evolves according to the time-dependent Schr\u00f6dinger equation, what is the probability that it will be found in the state |0\u232a after a time t?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Arcade's Murderworld is often criticized for its lack of originality, with some arguing that he relies too heavily on rehashed concepts from other villains. However, a closer examination of his past attempts reveals a more nuanced approach. Which of the following best describes Arcade's motivations for creating Murderworld?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the song \"To Hell and Back\" by Example is most accurate?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "In the context of the nursery rhyme \"Billy Boy\", what can be inferred about the societal expectations surrounding courtship and marriage, based on the song's narrative and its relation to other folk songs?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "The American Legion's campaign for a bonus was ultimately successful due to the efforts of which of the following groups?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Fitz and the Tantrums' early career is most accurate?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about Spider-Man's rogues gallery is most accurate?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "A study found that the increased speed limits on Wright Street in Marquette County led to a significant reduction in traffic congestion, but also resulted in an increase in the number of accidents involving pedestrians. Which of the following conclusions can be drawn from this information?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Atom Egoyan's film \"Chloe\" (2009) is notable for its non-linear narrative structure, which features events out of chronological order. This technique is reminiscent of Egoyan's earlier film \"Exotica\" (1994), which also employs a non-linear structure. However, while \"Exotica\" is set primarily in a strip club, \"Chloe\" is a more conventional drama. What is a key reason why Egoyan's use of non-linear narrative structure in \"Chloe\" may be effective in eliciting a specific emotional response from the audience?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "The Girls und Panzer series was initially planned to be a three-part story, but due to production delays, the final two episodes were postponed and replaced with recap episodes. This change affected the reception of the episode, with some critics feeling that the climax didn't tie together the various storylines. However, the episode still received positive reviews from some critics, who praised its unique blend of humor and social commentary. Which of the following statements best summarizes the impact of the production delays on the Girls und Panzer series?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "3OH!3's album \"Streets of Gold\" received mixed reviews from most music critics, with some praising its eclectic style and others criticizing its loud and shameless approach. Which of the following statements best summarizes the critical reception of the album?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "If Philanthropy and Awards and honors are considered, which of the following can be inferred about the Denver Outlaws' ownership structure?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What is the primary reason for the offset feed of the S-band antenna on the Ulysses spacecraft?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary goal of the Town Tenants (Ireland) Act of 1906, as promoted by John Clancy?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What is the significance of Manchester United's 2008 FIFA Club World Cup victory, considering their previous Champions League wins in 1999 and 2008?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Woods' college career is most consistent with the information provided?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "According to the accounts of Paula Jean Welden's disappearance, what was the primary reason for her vanishing while on a hunting trip with her son-in-law Joe Lauzon?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Deftones' album Gore was released in 2016, and it featured a guitar solo by Alice in Chains guitarist Jerry Cantrell. The album's sound was characterized by its emphasis on experimentation and ambiance, with Chino Moreno's \"soulful\" vocals and Stephen Carpenter's \"pile-driving\" guitar riffs. However, the band's subsequent album was expected to be significantly heavier, with Chino stating that the new material was \"considerably heavier\" than Gore. Which of the following statements about Deftones' new album is most consistent with the band's stated goals and musical direction?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the recent conference realignment in college football is most consistent with the actions of Oklahoma and Texas?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "A physician is treating a patient with epilepsy, a condition that has been described as a divine intervention in popular religion. However, the physician's approach is based on the idea that epilepsy is a natural phenomenon that can be understood through the study of anatomy, physiology, and illnesses. Which of the following statements best reflects the physician's understanding of the underlying causes of epilepsy?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Gilles and Christine's decision to escape to the countryside and search for a commune is motivated by a desire to escape the societal pressures of their unstable home lives. However, their actions also reflect a deeper desire to escape the consequences of Gilles' past mistakes. What is the most likely reason why Gilles' father, L\u00e1szl\u00f3 Szab\u00f3, is not present at the party where Gilles and Christine meet?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "The DVD release of the film features a special featurette that showcases the film's animation process, including a comparison between the film's animation and that of Disney's golden age. However, the featurette also mentions that the film's animation was influenced by the work of a specific artist who was known for his use of watercolor techniques. Which of the following statements about the film's animation is most consistent with the information provided?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "In Plato's Symposium, Socrates argues that children offer a false impression of immortality to their parents, which yields a form of unity among them. However, this idea is not necessarily in conflict with his claim that love is rational. Which of the following statements best captures the essence of Socrates' view on love?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary reason for the halt of O'Connor's advance on Tripoli after the capture of Beda Fomm?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "A study analyzing the impact of Marion Stoddart's campaign on the Nashua River watershed found that the majority of the river's tributaries, including the Squannacook and Nissitissit rivers, experienced significant improvements in water quality. However, the study also noted that the river's flow rate remained relatively constant throughout the study period. Which of the following statements best describes the overall effect of Stoddart's campaign on the Nashua River watershed?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  }
+]
