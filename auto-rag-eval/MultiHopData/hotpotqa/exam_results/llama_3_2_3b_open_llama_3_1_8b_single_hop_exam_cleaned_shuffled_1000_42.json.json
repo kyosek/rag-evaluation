@@ -1,0 +1,1796 @@
+[
+  {
+    "question": "Which of the following statements accurately describes the characteristics of street punk music?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Ashanti's album \"Chapter II\" is true?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements is most accurate regarding the benefits of urban agriculture?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason behind the relocation of the YIVO's headquarters in the late 1980s?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the relationship between Austrian literature and Nobel Prizes is accurate?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What is the primary reason why Spyro and Cynder are unable to catch up with the Destroyer as it circles back?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements is true about the road construction project in Marquette County?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following events was NOT a response to the 1971 Attica prison riot?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Williams' college football career is true?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason Ara Parseghian chose to run the ball on five of six plays in the last one-and-a-half minutes of the game, according to his own defense of his strategy?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What is a common characteristic shared by the Akbesia davidi moth and the Dracula wallisii orchid?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following is a consequence of electing to participate in the loss mitigation mediation (LMM) program in the Southern District of Florida Bankruptcy Court?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "What is the primary purpose of the poem, according to the author's analysis?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements is true about the relationship between Kieran and the Lakewood Slasher?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Ryan Zinke's career is true?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements accurately describes the Japanese military strategy during the Battle of Okinawa?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary reason why Madonna chose Nile Rodgers as the producer of her album \"Like a Virgin\"?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the characters in the film \"Alice in Wonderland\" is true?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following philosophers is most likely to have criticized the pre-Socratics for not identifying a purpose as a final cause, a fundamental idea in their metaphysics?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about the show's broadcasting schedule is true?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What is a common characteristic of Schorle that sets it apart from its original beverage?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "According to Ellis, what is the primary mechanism by which birth control contributes to the elevation of the human race?",
+    "model_answer": "?",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements is true about the healthcare services in Lincoln County?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the game of Tapa is true?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Elle King's musical influences is true?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What is the primary reason why the Nashua River's water quality improved significantly by the early 1990s?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about Donna Summer's legacy is supported by the quotes provided?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about the investigation into the murders of the two victims is most accurate?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Sarah Polley's involvement with the Heart and Stroke Foundation of Canada is accurate?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following regions has a unique linguistic heritage that is not directly related to the Celtic languages spoken in Wales, Ireland, or Scotland?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following philosophical schools is characterized by its focus on the individual's unique qualities and experiences, rather than their shared characteristics with others?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What is a common feature of the Voight-Kampff machine and the Blade Runner soundtrack?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements accurately describes the outcome of Lawrence M. Judd's handling of the Massie Affair?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following companies uses VHDCI connectors for a specific purpose that is different from its original standardized use with the SCSI interface?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Sir John Franks is true?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason for the 3rd Marine Division's repeated operations along the Vietnamese Demilitarized Zone (DMZ) in 1967 and early 1968?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What is the primary reason why the Glidden barn's exterior roof is fully supported by the brick walls?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What is a common theme that can be observed in Bill Bryson's writing style, as evident in both \"The Lost Continent\" and \"The Mother Tongue\"?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about Rihanna's song \"We Found Love\" is accurate?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary strategy used by Norwegian hunters to guide moose towards trapping pits?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary reason for halting the British advance on Tripoli after the victory in Operation Compass?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What is the primary reason why Liz's purchase offer for the apartment is rejected by the cooperative board?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary reason behind William's decision to invade England in 1688?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What can be inferred about Tina Fey's approach to controversy and apologies in the context of Unbreakable Kimmy Schmidt?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary focus of Thales' philosophical inquiry?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements is true about the West Coast Express line's impact on the Vancouver Canucks franchise?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason for the establishment of the first library in Blacktown?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following is a notable characteristic of Zooey Deschanel's early career?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "What is the primary reason why Purdue University-West Lafayette extended its test-optional admissions policy beyond the Fall 2023 semester?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about the song \"To Hell and Back\" is true?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason Cat Stevens chose his stage name?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "What is the typical duration of a doctorate in medicine, and how does it differ from other fields?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason for the consolidation of Beaverdam, Henry Clay, Montpelier, and Rockville high schools in 1959?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What is the name of the production company that currently distributes the special \"The Year Without a Santa Claus\" through their ownership of the post-1974 Rankin/Bass Productions library?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary concern of the Cedar Springs residents regarding the proposed school consolidation with Sand Lake and Howard City?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What is the primary reason why electrical utilities charge a higher cost to industrial or commercial customers with a low power factor?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary goal of Lawrence Robinson's initiative to export concerts from the Shanghai Spring International Music Festival and the Shanghai Symphony Orchestra to the West?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about Frank Stagg's contributions to biblical scholarship is accurate?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following is a primary advantage of using urban agriculture as a method to mediate chemical pollution in vacant lots?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary reason why Aitken's claim of finding God was met with skepticism by some?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about the TV show ER is accurate?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements is true about the acquisition of Fisker Automotive?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary factor that contributed to Joseph F. Glidden's success as an entrepreneur?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about Arcade's approach to villainy is most accurate?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements is true about the TV series \"South Park\"?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following is a common musical project that Dave Genn, the guitarist of 54-40, was a part of before joining the band?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the coinage of Ballaios is most accurate?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about oral vaccines is most accurate?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary reason behind the relocation of the Birgunj Bazaar from its original location?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following composers was known for his operas and sacred music, and was regarded by Beethoven as the greatest of his contemporaries?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary goal of the Qin dynasty's southern expansion campaign led by General Tu Sui in 218 BC?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "What is the primary reason why Kimmy's children's book becomes successful?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary theme that Switchfoot's eighth studio album, Vice Verses, explored?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "What is a common theme that can be observed in the professional and personal life of Carole B. Balin?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "What is a common theme that Robot Jones often struggles with in his interactions with humans?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about Cat Stevens' life and career is true?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements is true about the Les Schwab Invitational?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following best describes the approach of pre-Socratic philosophers in their search for the ultimate basis and essential nature of the external world?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements is true about the production team behind the 2019 film \"Dora and the Lost City of Gold\"?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What was the outcome of the trial for the individual who pleaded guilty to \"one count of sexual activity with a child and one count of grooming\"?",
+    "model_answer": "?",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements accurately describes the outcome of Cloward and Piven's strategy?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about doctorates in the United Kingdom is true?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Who was the first manager to leave Leeds United after Massimo Cellino's takeover in 2014?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What is the primary factor that determines the expected life of the Victor Mine?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following breeds is NOT considered to be part of the \"Viable\" category, as classified by the Kennel Club, and has a unique historical connection to a specific historical figure?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Aryanto Yuniawan's career is most accurate?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Atom Egoyan's filmmaking style is true?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary agency responsible for designing the visual identity of the 2000 Summer Olympics, including the official logo and mascots?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary motivation behind Buck's decision to rob the stagecoach at the foot of Mount Saint Helena, near the summer home of the mayor of San Francisco?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following best describes the primary motivation behind the formation of the \"Stuart's Stranglers\" vigilante group in Montana?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "What is a common theme that is explored in the book \"American Nerd\" and the TV show \"Family Matters\"?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the relationship between Continental Celtic languages and the Romance languages is most accurate?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What is the primary reason Kimmy decides to start a new life in New York City after being rescued?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary reason for Mara's shift from his entrepreneurial career to politics?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following is a notable achievement of Adam Cooper's choreography career?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements accurately describes the structure and progression of the musical piece described in the passage?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What is a common theme that can be observed in Bear Grylls' personal life and professional career?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What is the primary theme or message conveyed through the lyrics of the traditional folk song \"Billy Boy\"?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What is a common characteristic of professional doctorates in Japan and the Netherlands?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following was a consequence of the 1689-1691 Jacobite Rising in Scotland?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What is the primary reason why George Smiley is summoned to the Circus in the early hours of the morning?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Marge Piercy's literary work is accurate?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the cast changes in the TV show is true?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Bud Leavitt's legacy is most accurate?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements accurately describes the relationship between Greek mythology and the development of pre-Socratic philosophy?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following was a direct consequence of the investigation into the incident involving the Chicago Department of Aviation Police?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following airlines was NOT responsible for discontinuing a direct flight from Portland to Tokyo?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What is a common characteristic shared by the bespoke tailor Leonard Logsdail and the fictional character Hallie Rodgers?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What is the primary reason why Plok's big square flag was stolen from his house's rooftop?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What is the underlying reason for Ezra's sadness and inability to recover after his engagement to Ruth is broken off?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following individuals has had a career that spans both the entertainment industry and the video game industry?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "What can be inferred about the demographics of the township in 2000?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary factor that contributed to the commercial success of Deftones' debut album Adrenaline?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the development of Roe Green Park is accurate?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Under the Hope for Homeowners Plan (H4H), what is the maximum loan-to-value (LTV) ratio that lenders are willing to accept for a loan modification?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about ribozymes is true?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary motivation behind Purdue University's decision to acquire Kaplan University in 2017?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Who is responsible for the paternity test results that suggest Syed is not the father of Yasmin?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason for Joseph F. Glidden's decision to deed his Frying Pan Ranch in Texas to his son-in-law, W. H. Bush, in 1898?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "What is the primary reason why the crime investigation team in \"Kiss of Death\" is unable to work out the motive behind the killer's actions?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "What is a common characteristic of the Welsh Springer Spaniel breed that sets it apart from other breeds?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following is a characteristic that Saif Ali Khan has demonstrated in his acting career, but not in his personal life?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason Bryan Singer insisted on casting an unknown actor as Superman in the film Superman Returns?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary purpose of the task force on prison reform led by Aitken in 2007?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary reason for the veterans' decision to set up Camp Marks in the Anacostia Flats area?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about the ribosomal subunits is accurate?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements is true about the city of Traverse City and its relationship with the Old Mission Peninsula?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements is true about the Raspadskaya coal mine in Russia?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about Dr. Mickal's career is accurate?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about Mirtemir's translation work is true?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements is most accurate regarding the impact of the ivory trade ban on elephant populations?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the exhibitions at The New York Botanical Garden is true?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Which company currently owns the rights to the majority of Rankin/Bass' pre-1974 library of Christmas specials?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What is the primary purpose of the Purdue Memorial Mall, located south of the Purdue Mall?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following was a key area of focus for Clancy in the early 20th century, building on his work in the Land Acts and Local Government (Ireland) Act 1898?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements is true about the magazine \"Gruner + Jahr\" and its circulation numbers?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about Mick Jagger's family life is true?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Schneider's political views and activism is accurate?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Greg Gianforte's political career is accurate?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following is a unique feature of the Sala and Aron Samueli Holocaust Memorial Library at Chapman University?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about Donna Summer's life is true?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Minnesota Public Radio's services is true?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What is a common theme that runs throughout Arcade's methods of murder?",
+    "model_answer": "?",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "What was the outcome of the head coach's decision to leave the team after the Fiesta Bowl?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary inspiration behind Mika's song \"Grace Kelly\"?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Pistacia terebinthus is true?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about Justin Woods' college football career is true?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the novel \"Lion of Ireland\" and the fantasy series \"The Wheel of Time\" is true?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about the film \"Clouds of Sils Maria\" is supported by the majority of critics' reviews?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "In the described utopian society, what is the primary mechanism for ensuring individual freedom and autonomy?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What was the duration of time it took for Atkins to work steadily in the entertainment industry after graduating from Guildhall?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Deftones' album \"Gore\" is true?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "What is the primary reason why the girl in the poem struggles with her self-body image?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What is the primary reason why Sonic and his allies are sent to different zones in the game?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary factor that contributed to the major commercial growth of Traverse City in the late 19th century?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about American Public Media's classical music platforms is true?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason for William's decision to invade England in 1688?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements is true about the 2000 Oklahoma Sooners football team?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following is a key assumption that Eric Plakun has criticized in his work on \"Psychiatry's False Assumptions\"?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason for the delay in the launch of the Ulysses spacecraft?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements is true about the tax implications of a company acquiring a subsidiary with tax losses in the United States?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "According to Socrates, what is the primary role of irrational desires in decision-making?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason behind the demand for wage settlement by the tea plantation workers of Manjolai estate?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary reason for WAMC's transformation from a classical music radio station to an information-based station?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason for the change in the name of the company founded by James Blaney in 1917?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements accurately describes the outcome of David Lloyd George's 1917 Alexandretta project and its relevance to the British military strategy during World War II?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following is a common characteristic that can be inferred about the actor's career trajectory?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What is a key factor in creating a sustainable career for farmers in urban agriculture?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "What is a significant difference between the Odyssey and the Iliad, according to scholars?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements is true about the Oklahoma Sooners' performance during Barry Switzer's tenure as head coach?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What is the primary reason why Humphrey and Kate, the two young Rocky Mountain wolves, embark on a journey together in the film Alpha and Omega?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the authors' backgrounds and works is true?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements is true about Manchester United's European football history?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What was the outcome of the film \"Bad Teacher\" in terms of its box office performance in Germany?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What is the primary reason why Jane decides to leave Thornfield Hall and travel to the south of France with Mr. Rochester?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following best describes Christian's motivations for freezing the company's accounts and preventing Ana from going on an overnight business trip to New York with Jack?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary reason behind Cat Stevens' decision to donate the financial award he received from the court to a specific cause?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary motivation behind the class action lawsuit filed on February 8, 1971?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What is a common feature shared by the Cass Corridor in Detroit and the location of the roller coaster \"Possessed\"?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary reason for the delay in the launch of the Ulysses spacecraft?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What is a primary way that elephants use to communicate with each other over long distances?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the newspaper industry in South Florida is true?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the album \"Streets of Gold\" is true?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "What is a common theme that can be observed in the cultural programs offered at the Kring art gallery, as well as in the format of the TV show \"Song Ji-hyo's Beauty View\"?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary purpose of the Forests of Mara and Mondrem, created by Hugh d'Avranches in 1071?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary concern of the protesters who participated in the 2011 protest in Hong Kong?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "What is the largest attendance recorded at the Los Angeles Memorial Coliseum for a sporting event that is not a college football game between USC and UCLA?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "What is a common characteristic shared by the Bennington Triangle and the Bridgewater Triangle?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What is the primary reason why Traverse City's downtown district is divided into two parts by the Boardman River?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Mariah Carey's song \"Oh Santa!\" is true?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following best describes Socrates' view on the nature of love?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the Hunger Games film franchise is true?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Jaleel White's personal life is true?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What is the primary factor that contributes to the unique vegetation patterns on Chanaral Island?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about BNC connectors is true?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements accurately describes the outcome of the 1924 World War Adjusted Compensation Act?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary reason for the decision to age the characters of Fenmore and Summer Newman at the same time on the soap opera \"The Young and the Restless\"?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about the L. L. Berger department store is true?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason for Todd Bertuzzi's reinstatement to the NHL in August 2005?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary reason for the construction of the extensions to the Blacktown Civic Centre in 1984?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary focus of Purdue University's decade-long construction program initiated by President Frederick L. Hovde after World War II?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "What is the primary reason why Fogg and Passepartout are unable to reach London on time, despite their efforts to travel around the globe?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Phil Hill's racing career is true?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the South Park episode \"#REHASH\" is true?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Madonna's album \"Like a Virgin\" is most accurate?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What is the significance of the American rock music played at the party in the abandoned house?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements is true about the Home Affordable Modification Program (HAMP)?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason why William brought British exiles and Huguenots to England, despite having a large army already?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Which artist is associated with the song \"Safe and Sound\" and has also won a Premio del Pueblo award in a specific music category?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason behind the high number of civilian casualties during the Battle of Okinawa?",
+    "model_answer": ".",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Ronald Reagan's early life is most accurate?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "What was the significance of the Mumford family's home in Amenia, as described by Lewis Mumford's biographer Donald Miller?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about Fitz and the Tantrums' early career is true?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about Murray's views on foreign policy is most accurate?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason for the Irish Party's finance spokesman, Clancy, to deal with the problem of the 1909 budget in Ireland?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the street \"Rue Lhomond\" is true?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following teams won the most prestigious award for their goalie's performance during the 2006-2007 season?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary factor that contributed to the growth of the town's economy in the late 19th and early 20th centuries?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the elephant trunk is most accurate?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about the term \"Celtic\" is most accurate?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What was the likely motivation behind William de Heselrig's murder by William Wallace in May 1297?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "What is a distinctive feature of the driving sequences in Sam & Max Save the World?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the film \"The Lives of a Bengal Lancer\" is true?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements is true about the Saints' performance in the 2014 season?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Des Moines' cultural events is true?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the genetic origins of the Celtic nations is most accurate?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following is a common issue that can arise when multiple vaccines are combined in the same formulation?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Darci Kistler's ballet career is true?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What was the significance of the phrase \"Bas Agus Buaidh\" in the context of William Wallace's life?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What is the significance of the White Queen's statement \"jam tomorrow and jam yesterday\u2014but never jam to-day\" in Lewis Carroll's novel \"Alice's Adventures in Wonderland\"?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What is a notable achievement that Antony Cotton has shared with his mother, Enid Dunn?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Elle King's early career is true?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following is a consequence of Merck & Co.'s failure to include the risks of Propecia on its label?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about O'Rourke's football career is accurate?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about the worship practices at Avoor Pasupatheeswaram temple is true?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary concern of the critics who campaigned against the Garden Bridge project in 2014?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary reason for the US War Department's decision to withdraw \"The Real Glory\" film in 1942?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What is the primary motivation behind Fenmore's actions in the storyline involving Summer and Jamie Vernon?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason for the decline of Northwest Plaza, a Westfield mall, in the early 2000s?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements is true about the teams mentioned in the passage?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What was the significance of June 20, 2011, in the context of a notable historical event?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements is true about the Denver Broncos' uniform choices in a specific game?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary purpose of the grindstone in the restoration process of the Glidden House?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about Mike Leach's coaching career is true?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary reason for the Han government's decision to deport the residents of Minyue and Dongyue?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about the 2011 NHL All-Star Game is true?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the development of Celtic studies in Germany is accurate?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary reason for the relocation of the Northwest Territories government from Fort Smith to Yellowknife in 1967?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following was a key economic policy implemented by the Fine Gael party during Haughey's term as Taoiseach?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Who is ultimately responsible for Bengt Gauteson's death?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Mika H\u00e4kkinen's 2005 Deutsche Tourenwagen Masters (DTM) season is true?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about the Business Growth Fund (BGF) is true?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements is true about the relationship between Lincoln Riley and the University of Oklahoma?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about the critical reception of \"The Great Mouse Detective\" is accurate?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary reason why David Niven's voice was inaudible in the raw footage of his last film appearance?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "In a two-state system, if the Hamiltonian is given by the matrix equation:\n\nH = \u239b\u239da0+a3a1\u2212ia2a1+ia2a0\u2212a3\u239e\u23a0\n\nwhere a0, a1, a2, and a3 are real numbers, what can be concluded about the system's behavior if the initial state is not an eigenstate of the Hamiltonian?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about the retraction of the \"rapid-onset gender dysphoria\" article is most accurate?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason for the construction of the Saylorville Reservoir?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements is true about the county of Manistee, Michigan?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about Michelle Thomas' early life is true?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Traverse City's economy is true?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary motivation behind Holberg's decision to leave his estate to Sor\u00f8 Academy?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What is the primary reason for the high micro-topographical variation in Birgunj, despite its relatively small range of altitude variation?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about the film Blade Runner is accurate?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "What is the primary requirement for entering a doctoral program in Finland?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What was Havelock Ellis's primary concern when studying eonism, a phenomenon he coined in 1920?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following coaches is credited with bringing the Olympic Trials and NCAA Championships to Hayward Field?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements is true about the jurisdiction of the Lincoln County District Court?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "What is the most likely reason why the city of Troy has a high frequency of flooding?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements is true about the development of a Constantine sequel?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following is a common activity that Ralston, the composer and producer, is involved in, but not a typical activity of Franz Walz, the military officer?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What is the most likely demographic characteristic of the town's population that is associated with a higher median household income?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following Spider-Man villains has a complex moral identity, struggling between good and evil, and is often portrayed as an antiheroine?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What is the primary reason why Bill Bryson's travelogue \"Neither Here nor There: Travels in Europe\" does not include a visit to Des Moines, Iowa?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Which season of Nach Baliye did not have Sanjeeda Sheikh and Aamir Ali as the hosts?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What is the primary reason why John Moore left the Avoca Beach area in 1857?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about the British comedy series \"Live at the Electric\" is true?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following companies has a significant presence in the theme park industry, but does not have a direct sponsorship agreement with Coca-Cola?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following is a characteristic that is NOT shared by the TV series \"Carmen Sandiego\" and \"Hawaii Five-0\"?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "question": "What is the primary reason for the variation in the median income of households in the Miami metropolitan area?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Pat Bowlen's legacy is accurate?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Rabi's honors and awards is true?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about the representation of black women in popular culture is most accurate?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "According to John Locke's philosophical views, what is the primary factor that shapes the human mind and influences an individual's behavior?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "question": "What is the primary reason why the Denver Broncos' home stadium has undergone multiple name changes since its inception?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What was the total revenue generated by DVD sales as of May 2010, considering the revenue from the opening weekend and the total revenue generated by DVD sales up to that point?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason for the delay in the production of the TV series adaptation of The Wheel of Time?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about Robinne Lee's career is true?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements is true about the Cirque du Soleil shows mentioned in the text?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements is true about the Sabal Trail Transmission Pipeline?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the city of Hollywood is true?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements is true about the TV series \"Luther\"?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following is a common theme present in both Tracy Jordan's behavior in \"Operation Righteous Cowboy Lightning\" and Lizzie Mae's experiences as a slave in the web series \"Ask a Slave\"?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary reason for the delay in the production of the 10th season of It's Always Sunny in Philadelphia?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "question": "What was the primary factor that contributed to Martin Bryant's decision to commit the Port Arthur massacre?",
+    "model_answer": "?",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following statements about the correspondence between American soldiers and their families during wartime is most accurate?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "question": "Which of the following philosophical ideas about the nature of the world was NOT incorporated into the theoretical framework of physicians in ancient Greece?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "What was the primary goal of the filmmakers when shooting on location at the actual archaeological sites referenced in the BBC docudrama series \"Egypt\"?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "question": "Which of the following statements about Cryptocoryne plants is most accurate?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  }
+]

@@ -4,7 +4,9 @@ import faiss
 import random
 import os
 import pickle
+import numpy as np
 
+from tqdm import tqdm
 from typing import List, Dict, Tuple, Optional
 from sentence_transformers import SentenceTransformer
 from dataclasses import dataclass
@@ -32,7 +34,8 @@ class ChunkRetriever:
     def __init__(
         self,
         task_domain: str,
-        model_name: str = "all-MiniLM-L6-v2",
+        # model_name: str = "all-MiniLM-L6-v2",
+        model_name: str = "BAAI/bge-large-en-v1.5",
         random_seed: Optional[int] = None,
     ):
         """
@@ -78,16 +81,13 @@ class ChunkRetriever:
     def _build_index(self) -> None:
         """Build FAISS index from chunks."""
         # Generate embeddings for all chunks
-        embeddings = self.model.encode([chunk.content for chunk in self.chunks])
+        embeddings = self.model.encode([chunk.content for chunk in self.chunks], normalize_embeddings=True)
 
         # Initialize FAISS index
         dimension = embeddings.shape[1]
         self.index = faiss.IndexFlatIP(
             dimension
         )  # Inner product is equivalent to cosine similarity for normalized vectors
-
-        # Normalize vectors for cosine similarity
-        faiss.normalize_L2(embeddings)
 
         # Add vectors to the index
         self.index.add(embeddings)
@@ -116,7 +116,7 @@ class ChunkRetriever:
         self,
         query_chunk: Chunk,
         k: int = 4,
-        similarity_threshold: float = 0.9,
+        similarity_threshold: float = 0.01,
         exclude_same_doc: bool = True,
     ) -> List[Tuple[Chunk, float]]:
         """
@@ -132,8 +132,8 @@ class ChunkRetriever:
             List of tuples containing similar chunks and their similarity scores
         """
         # Generate embedding for query chunk
-        query_embedding = self.model.encode([query_chunk.content])
-        faiss.normalize_L2(query_embedding)
+        query_embedding = self.model.encode([query_chunk.content], normalize_embeddings=True)
+        # faiss.normalize_L2(query_embedding)
 
         # Search in the index
         scores, indices = self.index.search(
@@ -177,7 +177,7 @@ class ChunkRetriever:
 
     @classmethod
     def load_database(
-        cls, directory: str, task_domain: str, model_name: str = "all-MiniLM-L6-v2"
+        cls, directory: str, task_domain: str, model_name: str = "BAAI/bge-large-en-v1.5"
     ) -> "ChunkRetriever":
         """
         Load a previously saved database.
@@ -209,11 +209,253 @@ class ChunkRetriever:
         return instance
 
 
+class HybridChunkRetriever(ChunkRetriever):
+    def __init__(
+        self,
+        task_domain: str,
+        bi_encoder_name: str = "BAAI/bge-large-en-v1.5",
+        cross_encoder_name: str = "cross-encoder/ms-marco-MiniLM-L-2-v2",
+        random_seed: Optional[int] = None,
+    ):
+        """
+        Initialize the hybrid chunk retriever with both bi-encoder and cross-encoder models.
+        """
+        super().__init__(task_domain, model_name=bi_encoder_name, random_seed=random_seed)
+        self.cross_encoder = CrossEncoder(cross_encoder_name)
+        self.cross_encoder_name = cross_encoder_name
+
+    def load_documents(self, json_file: str) -> None:
+        """
+        Load documents from JSON file and store chunks.
+
+        Args:
+            json_file: Path to the JSON file containing documents
+        """
+        print(f"Loading documents from {json_file}")
+        with open(json_file, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        
+        print(f"Found {len(data)} documents")
+        
+        # Clear existing chunks if any
+        self.chunks = []
+        
+        # Extract all chunks from the documents
+        total_chunks = sum(len(doc["chunks"]) for doc in data)
+        print(f"Processing {total_chunks} chunks...")
+        
+        for doc in tqdm(data, desc="Processing documents"):
+            doc_id = doc["doc_id"]
+            for chunk in doc["chunks"]:
+                chunk_obj = Chunk(
+                    chunk_id=chunk["chunk_id"],
+                    doc_id=doc_id,
+                    content=chunk["content"],
+                    original_index=chunk["original_index"],
+                )
+                self.chunks.append(chunk_obj)
+        
+        print("Building FAISS index...")
+        self._build_index()
+        print("Finished loading documents and building index")
+
+    def _build_index(self) -> None:
+        """Build FAISS index from chunks with progress bar."""
+        # Generate embeddings for all chunks with progress bar
+        print("Generating embeddings...")
+        embeddings = []
+        batch_size = 32  # Adjust based on your memory constraints
+        
+        for i in tqdm(range(0, len(self.chunks), batch_size), desc="Encoding chunks"):
+            batch = self.chunks[i:i + batch_size]
+            batch_embeddings = self.model.encode([chunk.content for chunk in batch], normalize_embeddings=True)
+            embeddings.append(batch_embeddings)
+        
+        embeddings = np.vstack(embeddings)
+        
+        # Initialize FAISS index
+        print("Initializing FAISS index...")
+        dimension = embeddings.shape[1]
+        self.index = faiss.IndexFlatIP(dimension)
+        
+        # Normalize vectors for cosine similarity
+        print("Normalizing vectors...")
+        # faiss.normalize_L2(embeddings)
+        
+        # Add vectors to the index
+        print("Adding vectors to index...")
+        self.index.add(embeddings)
+        
+        print(f"Index built successfully with {len(self.chunks)} vectors")
+        
+    def find_similar_chunks(
+        self,
+        query_chunk: Chunk,
+        k: int = 4,
+        initial_k: int = 20,
+        similarity_threshold: float = 0.5,
+        exclude_same_doc: bool = True,
+        batch_size: int = 32,
+    ) -> List[Tuple[Chunk, float]]:
+        """
+        Find similar chunks using a hybrid approach with batched processing and deduplication.
+        """
+        # Step 1: Initial retrieval with bi-encoder (FAISS)
+        query_embedding = self.model.encode([query_chunk.content], normalize_embeddings=True)
+        
+        scores, indices = self.index.search(query_embedding, initial_k)
+        
+        # Prepare candidates for cross-encoder with deduplication
+        candidates = []
+        seen_contents = set()
+        seen_chunk_ids = set()
+        
+        for score, idx in zip(scores[0], indices[0]):
+            chunk = self.chunks[idx]
+            
+            # Multiple deduplication checks
+            # 1. Exclude same document
+            if exclude_same_doc and chunk.doc_id == query_chunk.doc_id:
+                continue
+            
+            # 2. Exclude exact same chunk
+            if chunk.content == query_chunk.content:
+                continue
+            
+            # 3. Exclude same chunk_id
+            if chunk.chunk_id == query_chunk.chunk_id:
+                continue
+            
+            # 4. Deduplicate by content
+            if chunk.content in seen_contents:
+                continue
+            
+            # 5. Deduplicate by chunk_id
+            if chunk.chunk_id in seen_chunk_ids:
+                continue
+            
+            # Add to seen sets
+            seen_contents.add(chunk.content)
+            seen_chunk_ids.add(chunk.chunk_id)
+            
+            # Add to candidates
+            candidates.append((chunk, float(score)))
+        
+        if not candidates:
+            return []
+            
+        # Step 2: Re-rank with cross-encoder using batched processing
+        candidate_chunks = [c[0] for c in candidates]
+        
+        # Prepare pairs for cross-encoder
+        pairs = [(query_chunk.content, chunk.content) for chunk in candidate_chunks]
+        
+        # Process in batches
+        cross_scores = []
+        for i in range(0, len(pairs), batch_size):
+            batch = pairs[i:i + batch_size]
+            batch_scores = self.cross_encoder.predict(batch)
+            if isinstance(batch_scores, (float, np.float32, np.float64)):
+                batch_scores = [batch_scores]
+            cross_scores.extend(batch_scores)
+        
+        # Combine results
+        reranked_results = list(zip(candidate_chunks, cross_scores))
+        reranked_results.sort(key=lambda x: x[1], reverse=True)
+        
+        # Final deduplication and filtering
+        final_results = []
+        final_contents = set()
+        final_chunk_ids = set()
+        
+        for chunk, score in reranked_results:
+            # Additional deduplication in final results
+            if chunk.content in final_contents or chunk.chunk_id in final_chunk_ids:
+                continue
+            
+            final_contents.add(chunk.content)
+            final_chunk_ids.add(chunk.chunk_id)
+            final_results.append((chunk, score))
+            
+            # Stop when we have k unique results
+            if len(final_results) == k:
+                break
+        
+        return final_results
+
+    def save_database(self, directory: str) -> None:
+        """
+        Save the database including both encoder models.
+        """
+        os.makedirs(directory, exist_ok=True)
+        
+        # Save FAISS index
+        print(f"Saving FAISS index to {directory}...")
+        faiss.write_index(self.index, os.path.join(directory, "faiss_index.bin"))
+        
+        # Save chunks and other metadata
+        print("Saving metadata...")
+        metadata = {
+            "chunks": self.chunks,
+            "random_seed": self.random_seed
+        }
+        with open(os.path.join(directory, "metadata.pkl"), "wb") as f:
+            pickle.dump(metadata, f)
+            
+        # Save cross-encoder configuration
+        hybrid_metadata = {
+            "cross_encoder_name": self.cross_encoder_name
+        }
+        with open(os.path.join(directory, "hybrid_metadata.json"), "w") as f:
+            json.dump(hybrid_metadata, f)
+            
+        print(f"Database saved successfully to {directory}")
+
+    @classmethod
+    def load_database(
+        cls,
+        directory: str,
+        task_domain: str,
+        bi_encoder_name: str = "BAAI/bge-large-en-v1.5",
+        cross_encoder_name: str = "cross-encoder/ms-marco-MiniLM-L-2-v2"
+    ) -> "HybridChunkRetriever":
+        """
+        Load a previously saved database.
+        """
+        print(f"Loading database from {directory}...")
+        
+        # Load cross-encoder configuration
+        with open(os.path.join(directory, "hybrid_metadata.json"), "r") as f:
+            hybrid_metadata = json.load(f)
+            cross_encoder_name = hybrid_metadata.get("cross_encoder_name", cross_encoder_name)
+        
+        # Create instance
+        print("Initialising models...")
+        instance = cls(
+            task_domain=task_domain,
+            bi_encoder_name=bi_encoder_name,
+            cross_encoder_name=cross_encoder_name
+        )
+        
+        # Load metadata
+        print("Loading metadata...")
+        with open(os.path.join(directory, "metadata.pkl"), "rb") as f:
+            metadata = pickle.load(f)
+        instance.chunks = metadata["chunks"]
+        
+        # Load FAISS index
+        print("Loading FAISS index...")
+        instance.index = faiss.read_index(os.path.join(directory, "faiss_index.bin"))
+        
+        print(f"Database loaded successfully with {len(instance.chunks)} chunks")
+        return instance
+
+
 class RerankingRetriever(BaseRetriever):
     def __init__(
         self,
         base_retriever: BaseRetriever,
-        rerank_model_name: str = "cross-encoder/ms-marco-MiniLM-L-6-v2",
+        rerank_model_name: str = "cross-encoder/ms-marco-MiniLM-L-2-v2",
     ):
         self.base_retriever = base_retriever
         self.rerank_model = CrossEncoder(rerank_model_name)
