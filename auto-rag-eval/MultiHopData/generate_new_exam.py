@@ -154,6 +154,7 @@ class MCQGenerator:
     def _extract_question(self, response: str) -> Optional[str]:
         """Extract question from response with improved pattern matching."""
         question_patterns = [
+            r"\*\*Question\*\*\n\n(.*?)(?:\n[a-dA-D1-4]\)|\n\n[a-dA-D1-4]\))",
             r"Question:(.*?)(?:\n[a-dA-D1-4]\)|\n\n[a-dA-D1-4]\))",
             r"Question 1:(.*?)(?:\n[a-dA-D1-4]\)|\n\n[a-dA-D1-4]\))",
             r"question:(.*?)(?:\n[a-dA-D1-4]\)|\n\n[a-dA-D1-4]\))",
@@ -176,26 +177,23 @@ class MCQGenerator:
         Returns:
             Optional[List[str]]: List of choices if found and valid, None otherwise
         """
-        # Split the response into sections
-        sections = re.split(r'\n\nCorrect Answer:|\n\nDistractor|\n\nNote:', response, flags=re.IGNORECASE)[0]
-        
         # Try different patterns in order of specificity
         patterns = [
-            # Pattern 1: Double newlines with full content
-            r'\n\n([A-D]\))(.*?)(?=\n\n[A-D]\)|\n\nCorrect Answer:|\n\nDistractor|\Z)',
+            # Basic pattern for lettered choices with parentheses
+            r'(?:^|\n)([A-D]\))\s*(.*?)(?=\n[A-D]\)|$)',
             
-            # Pattern 2: Single newlines with brief content
-            r'\n([A-D]\))(.*?)(?=\n[A-D]\)|\n\nCorrect Answer:|\n\nDistractor|\Z)',
+            # Pattern for choices with newlines and content
+            r'\n([A-D]\))\s*((?:(?!\n[A-D]\)).)*)',
             
-            # Pattern 3: Alternative format with single newlines
-            r'\n([A-D]\)) ([^\n]+)',
+            # Pattern for full answers with possible multiline content
+            r'(?:^|\n)([A-D]\))\s*((?:(?!\n[A-D]\)|Correct Answer:|Distractors:).)*)',
             
-            # Pattern 4: Most lenient pattern
-            r'([A-D]\)) ([^\n]+)'
+            # Fallback pattern for simple format
+            r'([A-D]\))\s*([^\n]+)'
         ]
         
         for pattern in patterns:
-            matches = re.finditer(pattern, sections, re.DOTALL)
+            matches = re.finditer(pattern, response, re.MULTILINE | re.DOTALL)
             choices = []
             
             for match in matches:
@@ -206,53 +204,18 @@ class MCQGenerator:
                 full_choice = ' '.join(full_choice.split())
                 choices.append(full_choice)
             
+            choices = (
+                choices[:4]
+                if choices
+                and len(choices) >= 4
+                and len(set([choice[0] for choice in choices[:4]])) == 4
+                else None
+            )
             # Validate we have exactly 4 choices
             if len(choices) == 4 and len(set([c[0] for c in choices])) == 4:
                 return choices
         
-        # If no patterns worked, try splitting by newlines and finding lines starting with A), B), etc.
-        if not choices:
-            lines = sections.split('\n')
-            choices = []
-            for line in lines:
-                if re.match(r'^[A-D]\)', line.strip()):
-                    choices.append(line.strip())
-            
-            if len(choices) == 4 and len(set([c[0] for c in choices])) == 4:
-                return choices
-        
         return None
-        # """Extract and validate choices with robust pattern matching."""
-        # # Match choices including possible line breaks but excluding explanation sections
-        # choices_patterns = [
-        #     r"([A-D]\) .*?)(?=$|\n[A-D]\)|\n\n)",
-        #     r"([A-D]\)(?:.|\n)*?)(?=$|\n[A-D]\)|\n\n)",
-        #     r"([A-D]\. .*?)(?=$|\n[A-D]\.|\n\n)",
-        #     r"([A-D]\.)(?:.|\n)*?)(?=$|\n[A-D]\.|\n\n)",
-        #     r"([1-4]\) .*?)(?=$|\n[1-4]\)|\n\n)",
-        #     r"([1-4]\)(?:.|\n)*?)(?=$|\n[1-4]\)|\n\n)",
-        #     r"([1-4]\. .*?)(?=$|\n[1-4]\.|\n\n)",
-        #     r"([1-4]\.)(?:.|\n)*?)(?=$|\n[1-4]\.|\n\n)",
-        #     r"([a-d]\) .*?)(?=$|\n[a-d]\)|\n\n)",
-        #     r"([a-d]\)(?:.|\n)*?)(?=$|\n[a-d]\)|\n\n)",
-        #     r"([a-d]\. .*?)(?=$|\n[a-d]\.|\n\n)",
-        #     r"([a-d]\.)(?:.|\n)*?)(?=$|\n[a-d]\.|\n\n)",
-        # ]
-        # choices_matches = self.extract_with_patterns(response, choices_patterns)
-        # choices = [match.strip() for match in choices_matches] if choices_matches else None
-        
-        # # Only keep first 4 answers
-        # choices = (
-        #     choices[:4]
-        #     if choices
-        #     and len(choices) >= 4
-        #     and len(set([choice[0] for choice in choices[:4]])) == 4
-        #     else None
-        # )
-        
-        # # Remove scenarios with empty answers ['A)], 'B)', 'C)', 'D)']
-        # choices = choices if choices and min([len(choice) for choice in choices]) > 2 else None
-        # return choices
 
     def _extract_correct_answer(self, response: str) -> Optional[str]:
         """Extract correct answer with validation."""
@@ -426,11 +389,7 @@ class MCQGenerator:
                 "choices": self._extract_choices(response),
                 "correct_answer": self._extract_correct_answer(response),
                 "documentation": [chunk["text"] for chunk in chunks],
-                "metadata": {
-                    # "reasoning_type": reasoning_type,
-                    # "relationships": relationships,
-                    "num_chunks_used": len(chunks)
-                }
+                "metadata": {"num_chunks_used": len(chunks)}
             }
             
             # Add reasoning steps if available
@@ -643,7 +602,7 @@ def main(
 
 
 if __name__ == "__main__":
-    sample_size = 1200
+    sample_size = 700
     target_hop_number = 301
     
     assert sample_size < target_hop_number * 4

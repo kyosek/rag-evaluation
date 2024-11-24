@@ -41,11 +41,12 @@ class PromptTemplate:
             Format Requirements:
             Question: Clear but complex question text that demands multi-chunk synthesis
             Options:
-
-            Each option must start with A), B), C), or D)
-            One correct answer integrating all chunk information
-            Three distractors following the design principles above
+            - Each option must start with A), B), C), or D)
+            - One correct answer integrating all chunk information
+            - Three distractors following the design principles above
             Correct Answer: [Letter one of "A", "B", "C" or "D"]
+            
+            You do not need to generate anything else other
             
             Format example:
             Question: [Question]
