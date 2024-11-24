@@ -136,7 +136,8 @@ def main(task_domain: str, model_type: str, model_name: str, exam_file: str):
             'ministral-8b': ModelType.MINISTRAL_8B,
             'mistral-small': ModelType.MISTRAL_SMALL,
             'mixtral-8-7b': ModelType.MIXTRAL_8_7B,
-            "gemma2-9b": ModelType.GEMMA2_9B
+            "gemma2-9b": ModelType.GEMMA2_9B,
+            "gemma2-27b": ModelType.GEMMA2_27B
         }
         
         print(f"Using {model_mapping[model_name]}")

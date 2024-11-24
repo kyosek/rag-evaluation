@@ -588,7 +588,7 @@ if __name__ == "__main__":
     task_domains = ["gov_report"]
     
     # model_names = ['llama_3_2_3b', "gemma2_9b", 'ministral_8b']
-    model_names = ["gemma2_9b", 'ministral_8b']
+    model_names = ["llama_3_2_3b", "gemma2_9b", 'ministral_8b']
     
     # task_domain = "gov_report"
     for model_name in model_names:
