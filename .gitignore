@@ -5,8 +5,11 @@ auto-rag-eval/Data/StackExchange/ExamData/claude_gcp_2024103016/exam.json
 auto-rag-eval/Data/Arxiv/ExamData/claude_gcp_2024103108/exam.json
 auto-rag-eval/Data/LawStackExchange/ExamData/claude_gcp_2024103117/exam.json
 auto-rag-eval/Data/SecFilings/ExamData/claude_gcp_2024103117/exam.json
+<<<<<<< HEAD
 auto-rag-eval/MultiHopData/SecFilings/chunks/docs_chunk_semantic.json
 auto-rag-eval/MultiHopData/SecFilings/chunks/docs_chunk_semantic_cleaned.json
+=======
+>>>>>>> f649fd822effee27e4bf82a55c198cc41d7ea99f
 
 *.out
 
