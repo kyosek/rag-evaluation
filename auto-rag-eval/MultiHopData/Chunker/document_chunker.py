@@ -111,11 +111,9 @@ class SemanticChunkStrategy(ChunkStrategy):
         self, 
         target_chunk_size: int = 2000,
         similarity_threshold: float = 0.5,
-        model_name: str = "sentence-transformers/all-MiniLM-L6-v2"
     ):
         self.target_chunk_size = target_chunk_size
         self.similarity_threshold = similarity_threshold
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
         self.nlp = spacy.load("en_core_web_sm")
         
     def split_text(self, text: str) -> List[str]:
