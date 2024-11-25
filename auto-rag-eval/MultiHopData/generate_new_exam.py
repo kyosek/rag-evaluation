@@ -374,32 +374,23 @@ class MCQGenerator:
 
     def _regenerate_question_with_feedback(
         self,
-        chunks: List[Dict[str, str]],
-        task_domain: str,
+        question_data: dict,
         synthesis_feedback: str,
         quality_feedback: str
         ) -> Optional[Dict]:
         """Regenerate question using verification feedback."""
-        enhanced_prompt = self._make_enhanced_question_prompt(
-            task_domain=task_domain,
-            chunks=chunks,
-        ) + f"""\n\nPrevious attempt feedbacks:
-        Synthesis feedback: {synthesis_feedback}\n
-        Please ensure the question requires synthesising information across multiple chunks.\n\n
-        Quality feedback: {quality_feedback}\n
-        Please ensure the quality of the exam is high.
-        """
+        prompt = PromptTemplate.get_regenerate_question_prompt(question_data, synthesis_feedback, quality_feedback)
         
-        response = self.llm.invoke(enhanced_prompt)
+        response = self.llm.invoke(prompt)
         
         try:
             return {
                 "question": self._extract_question(response),
                 "choices": self._extract_choices(response),
                 "correct_answer": self._extract_correct_answer(response),
-                "documentation": [chunk["text"] for chunk in chunks],
+                "documentation": question_data["documentation"],
                 "metadata": {
-                    "num_chunks_used": len(chunks)
+                    "num_chunks_used": len(question_data["documentation"])
                 }
             }
         except Exception as e:
@@ -442,8 +433,7 @@ class MCQGenerator:
                 verification_attempts += 1
                 if verification_attempts < max_attempts:
                     regenerated_question = self._regenerate_question_with_feedback(
-                        chunks=chunks,
-                        task_domain=task_domain,
+                        question_data=question_data,
                         synthesis_feedback=verdict['synthesis_feedback'],
                         quality_feedback=verdict["quality_feedback"]
                     )
@@ -484,7 +474,7 @@ def generate_exam(
         "4": 0,
     }
 
-    for ith_question in tqdm(range(0, num_questions)):
+    for ith_question in tqdm(range(14, num_questions)):
         # Get the current chunk and its similar chunks
         current_chunk = data[ith_question]
         chunk_data = Chunk(
