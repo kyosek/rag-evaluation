@@ -155,6 +155,9 @@ class MCQGenerator:
         """Extract question from response with improved pattern matching."""
         question_patterns = [
             r"\*\*Question\*\*\n\n(.*?)(?:\n[a-dA-D1-4]\)|\n\n[a-dA-D1-4]\))",
+            r"Question:\s*(.*?)(?=\nChoices:|\n[A-D]\)|\n\n[a-dA-D1-4]\))",
+            r"Question:\s*(.*?)(?=\n\n|\n[A-D]\)|\Z)",
+            r"Question:\s*(.+?)(?=\n|$)",
             r"Question:(.*?)(?:\n[a-dA-D1-4]\)|\n\n[a-dA-D1-4]\))",
             r"Question 1:(.*?)(?:\n[a-dA-D1-4]\)|\n\n[a-dA-D1-4]\))",
             r"question:(.*?)(?:\n[a-dA-D1-4]\)|\n\n[a-dA-D1-4]\))",
@@ -177,6 +180,22 @@ class MCQGenerator:
         Returns:
             Optional[List[str]]: List of choices if found and valid, None otherwise
         """
+        list_match = re.search(r"Choices:\s*(\[.*?\])", response, re.DOTALL)
+    
+        if list_match:
+            try:
+                # Use ast.literal_eval to safely parse the list string
+                import ast
+                choices_list = ast.literal_eval(list_match.group(1))
+                
+                # Validate the choices
+                if (len(choices_list) == 4 and 
+                    all(isinstance(choice, str) and choice.startswith(letter+')') 
+                        for choice, letter in zip(choices_list, ['A', 'B', 'C', 'D']))):
+                    return choices_list
+            except (ValueError, SyntaxError):
+                pass
+
         # Try different patterns in order of specificity
         patterns = [
             # Basic pattern for lettered choices with parentheses
@@ -585,9 +604,8 @@ if __name__ == "__main__":
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     task_domains = ["gov_report"]
     
-    # model_names = ['llama_3_2_3b', "gemma2_9b", 'ministral_8b']
-    # model_names = ["llama_3_2_3b", "gemma2_9b", 'ministral_8b']
-    model_names = ["llama_3_2_3b"]
+    model_names = ["llama_3_2_3b", "gemma2_9b", 'ministral_8b']
+    # model_names = ["llama_3_2_3b"]
     
     # task_domain = "gov_report"
     for model_name in model_names:

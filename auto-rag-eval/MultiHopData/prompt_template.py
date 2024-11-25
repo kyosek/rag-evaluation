@@ -378,6 +378,7 @@ class PromptTemplate:
         - Iterate the exam to:
             - ensure the question requires synthesising information across all chunks
             - ensure to generate the high quality exam
+        - Return the iterated exam following the output format example but do not add anything else
         
         Output format example:
             Question: [Question]
