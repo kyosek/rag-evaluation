@@ -338,7 +338,7 @@ class PromptTemplate:
             Output instruction:
             The output must follow the output format with the following entities and do not need to add anything else:
             - required_chunks: List of chunk numbers needed to answer, e.g., [1, 3] means chunks 1 and 3 are needed
-            - synthesis_feedback: Explanation of how the information needs to be combined
+            - synthesis_feedback: Feedback in terms of synthesising all the chunks and explanation of how the information needs to be combined
             - quality_feedback: Feedback to improve the exam quality and difficulty
             - confidence: 1-5 scale of confidence in this assessment
             
