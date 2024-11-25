@@ -287,6 +287,14 @@ class MCQGenerator:
             r"quality_feedback:\s*(.*?)(?=\n|$)",
             r"Quality feedback:\s*(.*?)(?=\n|$)",
             r"Quality Feedback:\s*(.*?)(?=\n|$)",
+            r'\"quality_feedback\":\s*\"((?:[^\"\\]|\\.)*)\"',  # Matches JSON format with escaped quotes
+            r'"quality_feedback":\s*"([^"]*)"',  # Simple JSON quoted format
+            # Handle JSON-style without quotes
+            r'"quality_feedback":\s*(.*?)(?=\s*[,}\n])',  # Unquoted JSON format
+            r'quality_feedback":\s*(.*?)(?=\s*[,}\n])',   # Alternative unquoted format
+            # Handle plain text formats
+            r'quality_feedback:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',  # Matches until next field or end
+            r'quality_feedback:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',
         ]
         matches = self.extract_with_patterns(response, patterns)
         return matches[0].strip() if matches else None
@@ -474,7 +482,7 @@ def generate_exam(
         "4": 0,
     }
 
-    for ith_question in tqdm(range(14, num_questions)):
+    for ith_question in tqdm(range(0, num_questions)):
         # Get the current chunk and its similar chunks
         current_chunk = data[ith_question]
         chunk_data = Chunk(
@@ -578,7 +586,8 @@ if __name__ == "__main__":
     task_domains = ["gov_report"]
     
     # model_names = ['llama_3_2_3b', "gemma2_9b", 'ministral_8b']
-    model_names = ["llama_3_2_3b", "gemma2_9b", 'ministral_8b']
+    # model_names = ["llama_3_2_3b", "gemma2_9b", 'ministral_8b']
+    model_names = ["llama_3_2_3b"]
     
     # task_domain = "gov_report"
     for model_name in model_names:
