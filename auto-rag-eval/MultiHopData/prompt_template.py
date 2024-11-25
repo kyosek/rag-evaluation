@@ -342,7 +342,7 @@ class PromptTemplate:
             - quality_feedback: Feedback to improve the exam quality and difficulty
             - confidence: 1-5 scale of confidence in this assessment
             
-            Output format:     
+            Output format:
             {{
                 "required_chunks": [int],
                 "synthesis_feedback": string,
@@ -362,6 +362,45 @@ class PromptTemplate:
             </s>
             """
         return prompt
+    
+    @staticmethod
+    def get_regenerate_question_prompt(question_data: dict, synthesis_feedback: str, quality_feedback: str):
+        question = question_data["question"]
+        choices = question_data["choices"]
+        correct_answer = question_data["correct_answer"]
+        chunks = question_data["documentation"]
+        
+        return f"""<s><<SYS>>[INST]
+        You have generated a multi-hop multiple choice question-options-answer triplets from given multiple chunks.
+        However, there was an issue(s) with the either or both synthesis requirement and/or exam quality. Thus, you are asked to modify it by incorporating the feedbacks.
+        
+        Your task is:
+        - Iterate the exam to:
+            - ensure the question requires synthesising information across all chunks
+            - ensure to generate the high quality exam
+        
+        Output format example:
+            Question: [Question]
+            A) [Option A]
+            B) [Option B]
+            C) [Option C]
+            D) [Option D]
+            Correct Answer: [Letter one of "A", "B", "C" or "D"]
+        [/INST]
+        <</SYS>>
+        
+        Generated exam question and the original chunks:
+        Question: {question}
+        Choices: {choices}
+        Correct answer: {correct_answer}
+        Chunks: {chunks}
+        
+        Feedbacks:
+        Synthesis feedback: {synthesis_feedback}
+        Quality feedback: {quality_feedback}
+        </s>
+        """
+        
 
 # return f"""
     # <<SYS>>
