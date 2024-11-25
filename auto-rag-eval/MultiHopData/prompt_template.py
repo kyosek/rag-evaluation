@@ -227,32 +227,27 @@ class PromptTemplate:
     def get_single_hop_question_generation_prompt_template(model_type: ModelType, chunks: List[Dict[str, str]], task_domain, documentation) -> str:
         prompts = {
             ModelType.LLAMA_3_2_3B: f"""
-            <<SYS>>
+            <s>[INST]
             You are an expert exam question generator specialising in creating challenging multiple-choice questions (1 correct answer and 3 distractors) that require complex reasoning across multiple pieces of information.
 
-            **Core requirements:**
+            Core requirements:
             1. Question MUST require synthesizing information from the given chunk
             2. Distractors must be highly plausible and based on common misconceptions or partial understanding
             3. The correct answer should not be obvious without carefully analysing the given chunk
             4. Each distractor should represent a different type of reasoning error
             5. As students do not have an access to the chunk information, do not mention chunks in the question
 
-            **Question Design Principles:**
+            Question Design Principles:
             1. Require careful analysis of conditional statements
             2. Include scenarios where surface-level reading might lead to wrong conclusions
             3. Design distractors that would be chosen if key information from certain chunks is missed
                 3.1. One distractor should incorporate some but not all key information
                 3.2. One distractor should be based on common misinterpretation
                 3.3. One distractor would be correct if one crucial detail is missed
-            4. Correct option requires synthesis of all key information
             
             Format Requirements:
             - Question text should be clear but complex
             - Each option must start with A), B), C), or D)
-            <</SYS>>
-
-            Domain: {task_domain}
-            Documentation: {documentation}
 
             Generate a question following this format:
             Question: <Question>
@@ -261,19 +256,24 @@ class PromptTemplate:
             C) [Choice C]
             D) [Choice D]
             Correct Answer: [Letter one of "A", "B", "C" or "D"]
+            [/INST]
+
+            Domain: {task_domain}
+            Documentation: {documentation}
+            </s>
             """,
             ModelType.LLAMA_3_1_8B: f"""
             <|begin_of_text|><|start_header_id|>system<|end_header_id|>
             You are an expert exam question generator specialising in creating challenging multiple-choice questions (1 correct answer and 3 distractors) that require complex reasoning across multiple pieces of information.
 
-            **Core requirements:**
+            Core requirements:
             1. Question MUST require synthesizing information from the given chunk
             2. Distractors must be highly plausible and based on common misconceptions or partial understanding
             3. The correct answer should not be obvious without carefully analysing the given chunk
             4. Each distractor should represent a different type of reasoning error
             5. As students do not have an access to the chunk information, do not mention chunks in the question
 
-            **Question Design Principles:**
+            Question Design Principles:
             1. Require careful analysis of conditional statements
             2. Include scenarios where surface-level reading might lead to wrong conclusions
             3. Design distractors that would be chosen if key information from certain chunks is missed
@@ -282,14 +282,14 @@ class PromptTemplate:
                 3.3. One distractor would be correct if one crucial detail is missed
             4. Correct option requires synthesis of all key information
 
-            **Format Requirements:**
+            Format Requirements:
             - Question text should be clear but complex
             - Each option must start with A), B), C), or D)
 
-            **Domain:** {task_domain}
-            **Documentation:** {documentation}
+            Domain: {task_domain}
+            Documentation: {documentation}
 
-            **Generate a question following this format:**
+            Generate a question following this format:
             Question: <Question>
             A) [Choice A]
             B) [Choice B]

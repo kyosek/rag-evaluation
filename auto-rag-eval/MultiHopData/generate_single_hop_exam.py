@@ -100,10 +100,10 @@ def main(
 
 
 if __name__ == "__main__":
-    sample_size = 300
+    sample_size = 150
     
     task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    model_names = ['llama_3_2_3b', 'llama_3_1_8b']
+    model_names = ["llama_3_2_3b", "gemma2_9b", 'ministral_8b']
     
     # task_domain = "gov_report"
     for model_name in model_names:
