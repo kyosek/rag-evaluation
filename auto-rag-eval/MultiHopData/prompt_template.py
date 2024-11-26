@@ -326,29 +326,54 @@ class PromptTemplate:
             
         prompts = {
             ModelType.LLAMA_3_2_3B: f"""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
-            You are an expert exam question verifier.     
-            Analyse if this question requires synthesising information across multiple document chunks to be correctly answered.          
-            
-            Task:     
-            1. Examine if question and choices make sense compared to the given documents
-            2. Examine if the "correct_answer" actually correct
-            3. Examine if all the chunks are necessary to answer the question correctly
-            4. Give a feedback to improve the exam quality by advising how to incorporate all the information from all the chunks
-            
-            Output instruction:
-            The output must follow the output format with the following entities and do not need to add anything else:
-            - required_chunks: List of chunk numbers needed to answer, e.g., [1, 3] means chunks 1 and 3 are needed
-            - reasoning: Feedback to improve the exam quality by advising how to incorporate all the information from all the chunks
-            - confidence: 1-5 scale of confidence in this assessment
-            
-            Output format:     
+            You are an advanced exam question verifier specializing in multi-hop reasoning and comprehensive document analysis.
+
+            Verification Objectives:
+            1. Multi-Hop Reasoning Verification
+            - Determine if the question requires synthesizing information across multiple document chunks
+            - Identify all necessary chunks for a comprehensive answer
+            - Detect and prevent "shortcut reasoning" that bypasses critical information
+
+            2. Question-Answer Integrity Assessment
+            - Evaluate the coherence and correctness of the question and all options
+            - Verify that the correct answer is truly supported by the given documents
+            - Assess the depth and complexity of reasoning required
+
+            3. Chunk Utilization Analysis
+            - Confirm whether all provided document chunks are essential
+            - Identify any unused or potentially relevant chunks
+            - Recommend strategies to incorporate underutilized information
+
+            Output Instructions:
+            Generate a comprehensive JSON response with the following mandatory entities:
+            - required_chunks: List of chunk indices essential for answering
+            - reasoning:
+                - shortcut_reasoning_risk: Indicates if the question can be answered via shortcuts
+                - "unused_chunks": List of chunks not utilized in the answer
+                - improvement_suggestions: Recommendations for exam enhancement
+            - confidence: 1-5 confidence scale in the assessment
+            You do not need to add anything else other than the JSON response
+
             {{
                 "required_chunks": [int],
-                "reasoning": string,
+                "reasoning": dict {{
+                    "shortcut_reasoning_risk": bool,
+                    "unused_chunks": [int],
+                    "improvement_suggestions": str
+                }},
                 "confidence": int
             }}
+
+            Specific Verification Criteria:
+            - Multi-Hop Complexity: Assess if answering requires integrating information from multiple sources
+            - Information Completeness: Evaluate whether all relevant document information is meaningfully incorporated
+            - Reasoning Depth: Determine the level of analytical thinking needed to derive the correct answer
+
+            Guidance for Analysis:
+            - Critically examine each document chunk's contribution
+            - Highlight potential ambiguities or gaps in the question-answer construct
+            - Provide constructive feedback for improving exam quality and multi-hop reasoning challenge
             <|eot_id|><|start_header_id|>user<|end_header_id|>
-            
             Question: {question}
             Options:
             A) {option_a}
@@ -358,81 +383,117 @@ class PromptTemplate:
             Correct Answer: {correct_answer}
             Documents: {chunk_text}
             <|eot_id|><|start_header_id|>assistant<|end_header_id|>
-            Generate feedbacks
+            Perform comprehensive multi-hop reasoning verification
             """,
             ModelType.GEMMA2_9B: f"""<start_of_turn>user
-            You are an expert exam question verifier.     
-            Analyse if this question requires synthesising information across multiple document chunks to be correctly answered.          
-            
-            Task:     
-            1. Examine if question and choices make sense compared to the given documents
-            2. Examine if the "correct_answer" actually correct
-            3. Examine if all the chunks are necessary to answer the question correctly
-            4. Give a feedback to improve the exam quality by advising how to incorporate all the information from all the chunks
-            
-            Output instruction:
-            The output must follow the output format with the following entities and do not need to add anything else:
-            - required_chunks: List of chunk numbers needed to answer, e.g., [1, 3] means chunks 1 and 3 are needed
-            - reasoning: Feedback to improve the exam quality by advising how to incorporate all the information from all the chunks
-            - confidence: 1-5 scale of confidence in this assessment
-            
-            Output format:     
+            You are an advanced exam question verifier specializing in multi-hop reasoning and comprehensive document analysis.
+
+            Verification Objectives:
+            1. Multi-Hop Reasoning Verification
+            - Determine if the question requires synthesizing information across multiple document chunks
+            - Identify all necessary chunks for a comprehensive answer
+            - Detect and prevent "shortcut reasoning" that bypasses critical information
+
+            2. Question-Answer Integrity Assessment
+            - Evaluate the coherence and correctness of the question and all options
+            - Verify that the correct answer is truly supported by the given documents
+            - Assess the depth and complexity of reasoning required
+
+            3. Chunk Utilization Analysis
+            - Confirm whether all provided document chunks are essential
+            - Identify any unused or potentially relevant chunks
+            - Recommend strategies to incorporate underutilized information
+
+            Output Instructions:
+            Generate a comprehensive JSON response with the following mandatory entities:
+            - required_chunks: List of chunk indices essential for answering
+            - reasoning:
+                - shortcut_reasoning_risk: Indicates if the question can be answered via shortcuts
+                - "unused_chunks": List of chunks not utilized in the answer
+                - improvement_suggestions: Recommendations for exam enhancement
+            - confidence: 1-5 confidence scale in the assessment
+            You do not need to add anything else other than the JSON response
+
             {{
                 "required_chunks": [int],
-                "reasoning": string,
+                "reasoning": dict {{
+                    "shortcut_reasoning_risk": bool,
+                    "unused_chunks": [int],
+                    "improvement_suggestions": str
+                }},
                 "confidence": int
             }}
-            
-            Question: {question}
-            Options:
-            A) {option_a}
-            B) {option_b}
-            C) {option_c}
-            D) {option_d}
-            Correct Answer: {correct_answer}
-            Documents: {chunk_text}
+
+            Specific Verification Criteria:
+            - Multi-Hop Complexity: Assess if answering requires integrating information from multiple sources
+            - Information Completeness: Evaluate whether all relevant document information is meaningfully incorporated
+            - Reasoning Depth: Determine the level of analytical thinking needed to derive the correct answer
+
+            Guidance for Analysis:
+            - Critically examine each document chunk's contribution
+            - Highlight potential ambiguities or gaps in the question-answer construct
+            - Provide constructive feedback for improving exam quality and multi-hop reasoning challenge
             <end_of_turn>
             <start_of_turn>model
+            Perform comprehensive multi-hop reasoning verification
             """,
             ModelType.MINISTRAL_8B: f"""<s>[INST]  
-            You are an expert exam question verifier.     
-            Analyse if this question requires synthesising information across multiple document chunks to be correctly answered.          
-            
-            Task:     
-            1. Examine if question and choices make sense compared to the given documents
-            2. Examine if the "correct_answer" actually correct
-            3. Examine if all the chunks are necessary to answer the question correctly
-            4. Give a feedback to improve the exam quality by advising how to incorporate all the information from all the chunks
-            
-            Output instruction:
-            The output must follow the output format with the following entities and do not need to add anything else:
-            - required_chunks: List of chunk numbers needed to answer, e.g., [1, 3] means chunks 1 and 3 are needed
-            - reasoning: Feedback to improve the exam quality by advising how to incorporate all the information from all the chunks
-            - confidence: 1-5 scale of confidence in this assessment
-            
-            Output format:     
+            You are an advanced exam question verifier specializing in multi-hop reasoning and comprehensive document analysis.
+
+            Verification Objectives:
+            1. Multi-Hop Reasoning Verification
+            - Determine if the question requires synthesizing information across multiple document chunks
+            - Identify all necessary chunks for a comprehensive answer
+            - Detect and prevent "shortcut reasoning" that bypasses critical information
+
+            2. Question-Answer Integrity Assessment
+            - Evaluate the coherence and correctness of the question and all options
+            - Verify that the correct answer is truly supported by the given documents
+            - Assess the depth and complexity of reasoning required
+
+            3. Chunk Utilization Analysis
+            - Confirm whether all provided document chunks are essential
+            - Identify any unused or potentially relevant chunks
+            - Recommend strategies to incorporate underutilized information
+
+            Output Instructions:
+            Generate a comprehensive JSON response with the following mandatory entities:
+            - required_chunks: List of chunk indices essential for answering
+            - reasoning:
+                - shortcut_reasoning_risk: Indicates if the question can be answered via shortcuts
+                - "unused_chunks": List of chunks not utilized in the answer
+                - improvement_suggestions: Recommendations for exam enhancement
+            - confidence: 1-5 confidence scale in the assessment
+            You do not need to add anything else other than the JSON response
+
             {{
                 "required_chunks": [int],
-                "reasoning": string,
+                "reasoning": dict {{
+                    "shortcut_reasoning_risk": bool,
+                    "unused_chunks": [int],
+                    "improvement_suggestions": str
+                }},
                 "confidence": int
             }}
-            [/INST]
+
+            Specific Verification Criteria:
+            - Multi-Hop Complexity: Assess if answering requires integrating information from multiple sources
+            - Information Completeness: Evaluate whether all relevant document information is meaningfully incorporated
+            - Reasoning Depth: Determine the level of analytical thinking needed to derive the correct answer
+
+            Guidance for Analysis:
+            - Critically examine each document chunk's contribution
+            - Highlight potential ambiguities or gaps in the question-answer construct
+            - Provide constructive feedback for improving exam quality and multi-hop reasoning challenge
             
-            Question: {question}
-            Options:
-            A) {option_a}
-            B) {option_b}
-            C) {option_c}
-            D) {option_d}
-            Correct Answer: {correct_answer}
-            Documents: {chunk_text}
+            Perform comprehensive multi-hop reasoning verification
             </s>
             """,
         }
         return prompts.get(model_type, prompts[ModelType.LLAMA_3_2_3B])
     
     @staticmethod
-    def get_regenerate_question_prompt(model_type: ModelType, question_data: dict, synthesis_feedback: str, quality_feedback: str):
+    def get_regenerate_question_prompt(model_type: ModelType, question_data: dict, feedback: str):
         question = question_data["question"]
         choices = question_data["choices"]
         correct_answer = question_data["correct_answer"]
@@ -465,9 +526,8 @@ class PromptTemplate:
             Correct answer: {correct_answer}
             Chunks: {chunks}
             
-            Feedbacks:
-            Synthesis feedback: {synthesis_feedback}
-            Quality feedback: {quality_feedback}
+            Feedback:
+            {feedback}
             <|eot_id|><|start_header_id|>assistant<|end_header_id|>
             Generate a question
             """,
@@ -496,9 +556,8 @@ class PromptTemplate:
             Correct answer: {correct_answer}
             Chunks: {chunks}
             
-            Feedbacks:
-            Synthesis feedback: {synthesis_feedback}
-            Quality feedback: {quality_feedback}
+            Feedback:
+            {feedback}
             <end_of_turn>
             <start_of_turn>model
             Generate a question
@@ -529,9 +588,8 @@ class PromptTemplate:
             Correct answer: {correct_answer}
             Chunks: {chunks}
             
-            Feedbacks:
-            Synthesis feedback: {synthesis_feedback}
-            Quality feedback: {quality_feedback}
+            Feedback:
+            {feedback}
             """,
         }
         

@@ -278,28 +278,65 @@ class MCQGenerator:
 
     def _extract_reasoning(self, response: str) -> Optional[str]:
         """Extract reasoning from verdict response."""
-        patterns = [
-        # Handle JSON-style with quotes
-        r'\"reasoning\":\s*\"((?:[^\"\\]|\\.)*)\"',  # Matches JSON format with escaped quotes
-        r'"reasoning":\s*"([^"]*)"',  # Simple JSON quoted format
-        # Handle JSON-style without quotes
-        r'"reasoning":\s*(.*?)(?=\s*[,}\n])',  # Unquoted JSON format
-        r'reasoning":\s*(.*?)(?=\s*[,}\n])',   # Alternative unquoted format
-        # Handle plain text formats
-        r'reasoning:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',  # Matches until next field or end
-        r'Reasoning:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',
-        r'Explanation:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',
-        r'Feedback:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',
-    ]
-        matches = self.extract_with_patterns(response, patterns)
-        if matches:
-            # Clean up the extracted reasoning
-            reasoning = matches[0].strip()
-            # Handle escaped quotes if present
-            reasoning = reasoning.replace('\\"', '"').replace('\\\\', '\\')
-            # Remove any trailing commas or syntax artifacts
-            reasoning = re.sub(r'[,\s]+$', '', reasoning)
-            return reasoning
+        try:
+        # First, try to parse as JSON
+            try:
+                # Try to parse the entire response as JSON
+                json_data = json.loads(response)
+                
+                # Extract reasoning if it exists in a nested JSON structure
+                if isinstance(json_data, dict):
+                    # Check for 'reasoning' key at different levels
+                    reasoning = json_data.get('reasoning')
+                    if reasoning:
+                        # If reasoning is a dictionary, convert to string
+                        if isinstance(reasoning, dict):
+                            return json.dumps(reasoning)
+                        # If reasoning is already a string, return it
+                        return str(reasoning)
+            except json.JSONDecodeError:
+                # If full JSON parsing fails, continue to regex methods
+                pass
+
+            # Define more comprehensive regex patterns
+            patterns = [
+                # JSON-style reasoning extraction
+                r'"reasoning":\s*({[^}]+})',  # Capture full JSON object
+                r'"reasoning":\s*"([^"]*)"',  # Quoted string reasoning
+                r'"reasoning":\s*(\{[^}]+\})',  # Capture reasoning as JSON object
+                
+                # Plain text reasoning extraction
+                r'Reasoning:\s*(.*?)(?=\n\s*[A-Z]|\n\s*\{|$)',
+                r'reasoning:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)'
+            ]
+            
+            # Try each pattern
+            for pattern in patterns:
+                matches = re.findall(pattern, response, re.DOTALL | re.MULTILINE)
+                if matches:
+                    reasoning = matches[0]
+                    
+                    # Clean up the extracted reasoning
+                    reasoning = reasoning.strip()
+                    
+                    # Remove surrounding quotes if present
+                    reasoning = reasoning.strip('"')
+                    
+                    # Handle escaped characters
+                    reasoning = reasoning.replace('\\"', '"').replace('\\\\', '\\')
+                    
+                    # If it looks like a JSON object, try to parse and reformat
+                    try:
+                        parsed_reasoning = json.loads(reasoning)
+                        return json.dumps(parsed_reasoning, indent=2)
+                    except (json.JSONDecodeError, TypeError):
+                        # If not a valid JSON, return as-is
+                        return reasoning
+
+        except Exception as e:
+            # Log the error or handle it as appropriate
+            print(f"Error extracting reasoning: {e}")
+        
         return None
 
     def _extract_confidence(self, response: str) -> Optional[int]:
@@ -332,11 +369,6 @@ class MCQGenerator:
             verdict["reasoning"] is not None):
             return verdict
         return None
-
-    def _extract_reasoning_steps(self, response: str) -> Optional[str]:
-        """Extract reasoning steps if available."""
-        reasoning_match = re.search(r"Reasoning Steps:\s*(.*?)(?=(?:\n\s*[A-D]\)|\Z))", response, re.DOTALL)
-        return reasoning_match.group(1).strip() if reasoning_match else None
     
     def _make_enhanced_question_prompt(self, task_domain: str, chunks: List[Dict[str, str]]) -> str:
         """Create a prompt using the appropriate template for the specified model."""
@@ -384,10 +416,10 @@ class MCQGenerator:
     def _regenerate_question_with_feedback(
         self,
         question_data: dict,
-        synthesis_feedback: str,
+        feedback: str,
         ) -> Optional[Dict]:
         """Regenerate question using verification feedback."""
-        prompt = PromptTemplate.get_regenerate_question_prompt(self.model_type, question_data, synthesis_feedback)
+        prompt = PromptTemplate.get_regenerate_question_prompt(self.model_type, question_data, feedback)
         
         response = self.llm.invoke(prompt)
         
