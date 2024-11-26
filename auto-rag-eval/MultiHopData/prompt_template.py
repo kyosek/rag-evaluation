@@ -280,7 +280,6 @@ class PromptTemplate:
                 3.1. One distractor should incorporate some but not all key information
                 3.2. One distractor should be based on common misinterpretation
                 3.3. One distractor would be correct if one crucial detail is missed
-            4. Correct option requires synthesis of all key information
 
             Format Requirements:
             - Question text should be clear but complex
@@ -325,9 +324,9 @@ class PromptTemplate:
         correct_answer=question_data['correct_answer'],
         chunk_text=chunk_text
             
-        prompt = f"""<s>[INST]  
-            You are an expert exam question verifier.     
-            Analyse the following question-options-answer triplet.          
+        prompt = f"""<s>[INST]
+            You are an expert exam question verifier.
+            Analyse the following question-options-answer triplet.
             
             Task:
             1. Examine if question and choices make sense compared to the given documents
@@ -338,7 +337,7 @@ class PromptTemplate:
             Output instruction:
             The output must follow the output format with the following entities and do not need to add anything else:
             - required_chunks: List of chunk numbers needed to answer, e.g., [1, 3] means chunks 1 and 3 are needed
-            - synthesis_feedback: Feedback in terms of synthesising all the chunks and explanation of how the information needs to be combined
+            - synthesis_feedback: Feedback in terms of synthesis requirement - show which chunks' information are needed be added to generate a multi-hop exam
             - quality_feedback: Feedback to improve the exam quality and difficulty
             - confidence: 1-5 scale of confidence in this assessment
             
@@ -370,13 +369,13 @@ class PromptTemplate:
         correct_answer = question_data["correct_answer"]
         chunks = question_data["documentation"]
         
-        return f"""<s><<SYS>>[INST]
+        return f"""<s>[INST]
         You have generated a multi-hop multiple choice question-options-answer triplets from given multiple chunks.
-        However, there was an issue(s) with the either or both synthesis requirement and/or exam quality. Thus, you are asked to modify it by incorporating the feedbacks.
+        However, there was an issue(s) with the synthesis requirement. Thus, you are asked to modify it by incorporating the feedbacks.
         
         Your task is:
         - Iterate the exam to:
-            - ensure the question requires synthesising information across all chunks
+            - ensure the question requires synthesising information across all chunks to answer correctly
             - ensure to generate the high quality exam
         - Return the iterated exam following the output format example but do not add anything else
         
@@ -388,7 +387,6 @@ class PromptTemplate:
             D) [Option D]
             Correct Answer: [Letter one of "A", "B", "C" or "D"]
         [/INST]
-        <</SYS>>
         
         Generated exam question and the original chunks:
         Question: {question}

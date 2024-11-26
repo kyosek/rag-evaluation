@@ -501,7 +501,7 @@ def generate_exam(
         "4": 0,
     }
 
-    for ith_question in tqdm(range(0, num_questions)):
+    for ith_question in tqdm(range(431, num_questions)):
         # Get the current chunk and its similar chunks
         current_chunk = data[ith_question]
         chunk_data = Chunk(
