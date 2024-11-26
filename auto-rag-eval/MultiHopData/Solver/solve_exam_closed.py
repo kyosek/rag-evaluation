@@ -264,7 +264,7 @@ if __name__ == "__main__":
         ]
     
     exam_files = [
-        "exam_new_llama_3_2_3b_processed.json",
+        "llama_3_2_3b_single_hop_exam_processed.json"
         ]
 
     for exam_file in exam_files:

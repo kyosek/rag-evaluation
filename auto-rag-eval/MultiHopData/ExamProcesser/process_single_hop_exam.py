@@ -1,4 +1,5 @@
 import json
+import random
 from copy import deepcopy
 
 
@@ -144,7 +145,7 @@ def clean_question_choices(data):
     return cleaned_data, questions_cleaned, questions_removed
 
 
-def process_json_file(input_path, output_path):
+def process_json_file(input_path, output_path, sample_size=1000, random_seed=42):
     """
     Read JSON file, clean the data, and save it back to a new JSON file.
 
@@ -152,13 +153,23 @@ def process_json_file(input_path, output_path):
         input_path (str): Path to the input JSON file
         output_path (str): Path where the cleaned JSON file will be saved
     """
+    random.seed(random_seed)
+
     try:
         # Read the input JSON file
         with open(input_path, "r", encoding="utf-8") as f:
             data = json.load(f)
+        
+        # Ensure the sample size isn't larger than the dataset
+        if sample_size > len(data):
+            print(f"Warning: Sample size ({sample_size}) is larger than the dataset size ({len(data)})")
+            sample_size = len(data)
 
+        # Randomly sample entries
+        sampled_data = random.sample(data, sample_size)
+        
         # Clean the data and get statistics
-        cleaned_data, questions_cleaned, questions_removed = clean_question_choices(data)
+        cleaned_data, questions_cleaned, questions_removed = clean_question_choices(sampled_data)
 
         # Save the cleaned data to a new JSON file
         with open(output_path, "w", encoding="utf-8") as f:
@@ -180,8 +191,11 @@ def process_json_file(input_path, output_path):
 
 
 if __name__ == "__main__":
-    input_file = "auto-rag-eval/MultiHopData/gov_report/exams/exam_new_gemma2_9b.json"
-    output_file = "auto-rag-eval/MultiHopData/gov_report/exams/exam_new_gemma2_9b_cleaned.json"
+    task_domain = "gov_report"
+    exam_file_name = "llama_3_2_3b_single_hop_exam"
+    
+    input_file = f"auto-rag-eval/MultiHopData/{task_domain}/exams/{exam_file_name}.json"
+    output_file = f"auto-rag-eval/MultiHopData/{task_domain}/exams/{exam_file_name}_processed.json"
 
     process_json_file(input_file, output_file)
     
