@@ -8,7 +8,7 @@ import logging
 from typing import List, Dict, Tuple, Optional, Union, Any
 from sentence_transformers import SentenceTransformer
 from dataclasses import dataclass
-import pickle
+import ast
 from tqdm import tqdm
 from llama_cpp import Llama
 
@@ -180,12 +180,12 @@ class MCQGenerator:
         Returns:
             Optional[List[str]]: List of choices if found and valid, None otherwise
         """
+        response = response.replace('<s>', '').replace('</s>', '').replace('[INST]', '').strip()
         list_match = re.search(r"Choices:\s*(\[.*?\])", response, re.DOTALL)
     
         if list_match:
             try:
                 # Use ast.literal_eval to safely parse the list string
-                import ast
                 choices_list = ast.literal_eval(list_match.group(1))
                 
                 # Validate the choices
@@ -205,7 +205,9 @@ class MCQGenerator:
             r'\n([A-D]\))\s*((?:(?!\n[A-D]\)).)*)',
             
             # Pattern for full answers with possible multiline content
-            r'(?:^|\n)([A-D]\))\s*((?:(?!\n[A-D]\)|Correct Answer:|Distractors:).)*)',
+            r'(?:^|\n)([A-D]\))\s*((?:(?!\n[A-D]\)|Correct Answer:).)*)',
+            r'([A-D])\)\s*(.*?)(?=\n[A-D]\)|Correct Answer:|\Z)',
+            r'([A-D])\)\s*((?:(?!\n[A-D]\)|Correct Answer:).)*)',
             
             # Fallback pattern for simple format
             r'([A-D]\))\s*([^\n]+)'
@@ -406,7 +408,7 @@ class MCQGenerator:
         quality_feedback: str
         ) -> Optional[Dict]:
         """Regenerate question using verification feedback."""
-        prompt = PromptTemplate.get_regenerate_question_prompt(question_data, synthesis_feedback, quality_feedback)
+        prompt = PromptTemplate.get_regenerate_question_prompt(self.model_type, question_data, synthesis_feedback, quality_feedback)
         
         response = self.llm.invoke(prompt)
         
@@ -444,7 +446,7 @@ class MCQGenerator:
         
         while verification_attempts < max_attempts:
             # Generate verification prompt
-            verification_prompt = PromptTemplate.get_verification_prompt(current_question, chunks)
+            verification_prompt = PromptTemplate.get_verification_prompt(self.model_type, current_question, chunks)
             
             # Get verdict from LLM
             verdict_response = self.llm.invoke(verification_prompt)
@@ -501,7 +503,7 @@ def generate_exam(
         "4": 0,
     }
 
-    for ith_question in tqdm(range(431, num_questions)):
+    for ith_question in tqdm(range(0, num_questions)):
         # Get the current chunk and its similar chunks
         current_chunk = data[ith_question]
         chunk_data = Chunk(

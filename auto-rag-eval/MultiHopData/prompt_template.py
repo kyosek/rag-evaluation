@@ -303,7 +303,7 @@ class PromptTemplate:
         return prompts.get(model_type, prompts[ModelType.LLAMA_3_2_3B])
     
     @staticmethod
-    def get_verification_prompt(question_data: dict, chunks: List[Dict[str, str]]) -> str:
+    def get_verification_prompt(model_type: ModelType, question_data: dict, chunks: List[Dict[str, str]]) -> str:
         """Format the verification prompt with the question data and chunks."""
         # Extract options from choices
         options = [choice.split(') ')[1] for choice in question_data['choices']]
@@ -312,10 +312,10 @@ class PromptTemplate:
         chunk_text = '\n'.join([f"Chunk{i+1}: {chunk['text']}" 
                                for i, chunk in enumerate(chunks)])
         
-        return PromptTemplate.verification_prompt_template(question_data, options, chunk_text)
+        return PromptTemplate.verification_prompt_template(model_type, question_data, options, chunk_text)
 
     @staticmethod
-    def verification_prompt_template(question_data: dict, options: List[str], chunk_text: List[str]):
+    def verification_prompt_template(model_type: ModelType, question_data: dict, options: List[str], chunk_text: List[str]):
         question=question_data['question'],
         option_a=options[0],
         option_b=options[1],
@@ -324,7 +324,81 @@ class PromptTemplate:
         correct_answer=question_data['correct_answer'],
         chunk_text=chunk_text
             
-        prompt = f"""<s>[INST]
+        prompts = {
+            ModelType.LLAMA_3_2_3B: f"""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+            You are an expert exam question verifier.
+            Analyse the following question-options-answer triplet.
+            
+            Task:
+            1. Examine if question and choices make sense compared to the given documents
+            2. Examine if the "correct_answer" actually correct
+            3. Examine if all the chunks are necessary to answer the question correctly
+            4. Give a feedback to improve the exam quality
+            
+            Output instruction:
+            The output must follow the output format with the following entities and do not need to add anything else:
+            - required_chunks: List of chunk numbers needed to answer, e.g., [1, 3] means chunks 1 and 3 are needed
+            - synthesis_feedback: Feedback in terms of synthesis requirement - show which chunks' information are needed be added to generate a multi-hop exam
+            - quality_feedback: Feedback to improve the exam quality and difficulty
+            - confidence: 1-5 scale of confidence in this assessment
+            
+            Output format:
+            {{
+                "required_chunks": [int],
+                "synthesis_feedback": string,
+                "quality_feedback": string,
+                "confidence": int
+            }}
+            <|eot_id|><|start_header_id|>user<|end_header_id|>
+            
+            Question: {question}
+            Options:
+            A) {option_a}
+            B) {option_b}
+            C) {option_c}
+            D) {option_d}
+            Correct Answer: {correct_answer}
+            Documents: {chunk_text}
+            <|eot_id|><|start_header_id|>assistant<|end_header_id|>
+            Generate feedbacks
+            """,
+            ModelType.GEMMA2_9B: f"""<start_of_turn>user
+            You are an expert exam question verifier.
+            Analyse the following question-options-answer triplet.
+            
+            Task:
+            1. Examine if question and choices make sense compared to the given documents
+            2. Examine if the "correct_answer" actually correct
+            3. Examine if all the chunks are necessary to answer the question correctly
+            4. Give a feedback to improve the exam quality
+            
+            Output instruction:
+            The output must follow the output format with the following entities and do not need to add anything else:
+            - required_chunks: List of chunk numbers needed to answer, e.g., [1, 3] means chunks 1 and 3 are needed
+            - synthesis_feedback: Feedback in terms of synthesis requirement - show which chunks' information are needed be added to generate a multi-hop exam
+            - quality_feedback: Feedback to improve the exam quality and difficulty
+            - confidence: 1-5 scale of confidence in this assessment
+            
+            Output format:
+            {{
+                "required_chunks": [int],
+                "synthesis_feedback": string,
+                "quality_feedback": string,
+                "confidence": int
+            }}
+            
+            Question: {question}
+            Options:
+            A) {option_a}
+            B) {option_b}
+            C) {option_c}
+            D) {option_d}
+            Correct Answer: {correct_answer}
+            Documents: {chunk_text}
+            <end_of_turn>
+            <start_of_turn>model
+            """,
+            ModelType.MINISTRAL_8B: f"""<s>[INST]
             You are an expert exam question verifier.
             Analyse the following question-options-answer triplet.
             
@@ -359,46 +433,115 @@ class PromptTemplate:
             Correct Answer: {correct_answer}
             Documents: {chunk_text}
             </s>
-            """
-        return prompt
+            """,
+        }
+        return prompts.get(model_type, prompts[ModelType.LLAMA_3_2_3B])
     
     @staticmethod
-    def get_regenerate_question_prompt(question_data: dict, synthesis_feedback: str, quality_feedback: str):
+    def get_regenerate_question_prompt(model_type: ModelType, question_data: dict, synthesis_feedback: str, quality_feedback: str):
         question = question_data["question"]
         choices = question_data["choices"]
         correct_answer = question_data["correct_answer"]
         chunks = question_data["documentation"]
         
-        return f"""<s>[INST]
-        You have generated a multi-hop multiple choice question-options-answer triplets from given multiple chunks.
-        However, there was an issue(s) with the synthesis requirement. Thus, you are asked to modify it by incorporating the feedbacks.
+        prompts = {
+            ModelType.LLAMA_3_2_3B: f"""
+            <|begin_of_text|><|start_header_id|>system<|end_header_id|>
+            You have generated a multi-hop multiple choice question-options-answer triplets from given multiple chunks.
+            However, there was an issue(s) with the synthesis requirement. Thus, you are asked to modify it by incorporating the feedbacks.
+            
+            Your task is:
+            - Iterate the exam to:
+                - ensure the question requires synthesising information across all chunks to answer correctly
+                - ensure to generate the high quality exam
+            - Return the iterated exam following the output format example but do not add anything else
+            
+            Output format example:
+                Question: [Question]
+                A) [Option A]
+                B) [Option B]
+                C) [Option C]
+                D) [Option D]
+                Correct Answer: [Letter one of "A", "B", "C" or "D"]
+            <|eot_id|><|start_header_id|>user<|end_header_id|>
+            
+            Generated exam question and the original chunks:
+            Question: {question}
+            Choices: {choices}
+            Correct answer: {correct_answer}
+            Chunks: {chunks}
+            
+            Feedbacks:
+            Synthesis feedback: {synthesis_feedback}
+            Quality feedback: {quality_feedback}
+            <|eot_id|><|start_header_id|>assistant<|end_header_id|>
+            Generate a question
+            """,
+            ModelType.GEMMA2_9B: f"""
+            <start_of_turn>user
+            You have generated a multi-hop multiple choice question-options-answer triplets from given multiple chunks.
+            However, there was an issue(s) with the synthesis requirement. Thus, you are asked to modify it by incorporating the feedbacks.
+            
+            Your task is:
+            - Iterate the exam to:
+                - ensure the question requires synthesising information across all chunks to answer correctly
+                - ensure to generate the high quality exam
+            - Return the iterated exam following the output format example but do not add anything else
+            
+            Output format example:
+                Question: [Question]
+                A) [Option A]
+                B) [Option B]
+                C) [Option C]
+                D) [Option D]
+                Correct Answer: [Letter one of "A", "B", "C" or "D"]
+            
+            Generated exam question and the original chunks:
+            Question: {question}
+            Choices: {choices}
+            Correct answer: {correct_answer}
+            Chunks: {chunks}
+            
+            Feedbacks:
+            Synthesis feedback: {synthesis_feedback}
+            Quality feedback: {quality_feedback}
+            <end_of_turn>
+            <start_of_turn>model
+            Generate a question
+            """,
+            ModelType.MINISTRAL_8B: f"""
+            <s>[INST]
+            You have generated a multi-hop multiple choice question-options-answer triplets from given multiple chunks.
+            However, there was an issue(s) with the synthesis requirement. Thus, you are asked to modify it by incorporating the feedbacks.
+            
+            Your task is:
+            - Iterate the exam to:
+                - ensure the question requires synthesising information across all chunks to answer correctly
+                - ensure to generate the high quality exam
+            - Return the iterated exam following the output format example but do not add anything else
+            
+            Output format example:
+                Question: [Question]
+                A) [Option A]
+                B) [Option B]
+                C) [Option C]
+                D) [Option D]
+                Correct Answer: [Letter one of "A", "B", "C" or "D"]
+            [/INST]
+            
+            Generated exam question and the original chunks:
+            Question: {question}
+            Choices: {choices}
+            Correct answer: {correct_answer}
+            Chunks: {chunks}
+            
+            Feedbacks:
+            Synthesis feedback: {synthesis_feedback}
+            Quality feedback: {quality_feedback}
+            """,
+        }
         
-        Your task is:
-        - Iterate the exam to:
-            - ensure the question requires synthesising information across all chunks to answer correctly
-            - ensure to generate the high quality exam
-        - Return the iterated exam following the output format example but do not add anything else
-        
-        Output format example:
-            Question: [Question]
-            A) [Option A]
-            B) [Option B]
-            C) [Option C]
-            D) [Option D]
-            Correct Answer: [Letter one of "A", "B", "C" or "D"]
-        [/INST]
-        
-        Generated exam question and the original chunks:
-        Question: {question}
-        Choices: {choices}
-        Correct answer: {correct_answer}
-        Chunks: {chunks}
-        
-        Feedbacks:
-        Synthesis feedback: {synthesis_feedback}
-        Quality feedback: {quality_feedback}
-        </s>
-        """
+        return prompts.get(model_type, prompts[ModelType.LLAMA_3_2_3B])
         
 
 # return f"""
