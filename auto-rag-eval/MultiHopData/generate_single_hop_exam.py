@@ -100,7 +100,7 @@ def main(
 
 
 if __name__ == "__main__":
-    sample_size = 150
+    sample_size = 175
     
     task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     model_names = ["llama_3_2_3b", "gemma2_9b", 'ministral_8b']
