@@ -180,7 +180,6 @@ class MCQGenerator:
         Returns:
             Optional[List[str]]: List of choices if found and valid, None otherwise
         """
-        response = response.replace('<s>', '').replace('</s>', '').replace('[INST]', '').strip()
         list_match = re.search(r"Choices:\s*(\[.*?\])", response, re.DOTALL)
     
         if list_match:
@@ -277,48 +276,31 @@ class MCQGenerator:
                 return None
         return None
 
-    def _extract_synthesis_feedback(self, response: str) -> Optional[str]:
-        """Extract synthesis_feedback from verdict response."""
+    def _extract_reasoning(self, response: str) -> Optional[str]:
+        """Extract reasoning from verdict response."""
         patterns = [
         # Handle JSON-style with quotes
-        r'\"synthesis_feedback\":\s*\"((?:[^\"\\]|\\.)*)\"',  # Matches JSON format with escaped quotes
-        r'"synthesis_feedback":\s*"([^"]*)"',  # Simple JSON quoted format
+        r'\"reasoning\":\s*\"((?:[^\"\\]|\\.)*)\"',  # Matches JSON format with escaped quotes
+        r'"reasoning":\s*"([^"]*)"',  # Simple JSON quoted format
         # Handle JSON-style without quotes
-        r'"synthesis_feedback":\s*(.*?)(?=\s*[,}\n])',  # Unquoted JSON format
-        r'synthesis_feedback":\s*(.*?)(?=\s*[,}\n])',   # Alternative unquoted format
+        r'"reasoning":\s*(.*?)(?=\s*[,}\n])',  # Unquoted JSON format
+        r'reasoning":\s*(.*?)(?=\s*[,}\n])',   # Alternative unquoted format
         # Handle plain text formats
-        r'synthesis_feedback:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',  # Matches until next field or end
-        r'synthesis_feedback:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',
+        r'reasoning:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',  # Matches until next field or end
+        r'Reasoning:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',
+        r'Explanation:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',
+        r'Feedback:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',
     ]
         matches = self.extract_with_patterns(response, patterns)
         if matches:
-            # Clean up the extracted synthesis_feedback
-            synthesis_feedback = matches[0].strip()
+            # Clean up the extracted reasoning
+            reasoning = matches[0].strip()
             # Handle escaped quotes if present
-            synthesis_feedback = synthesis_feedback.replace('\\"', '"').replace('\\\\', '\\')
+            reasoning = reasoning.replace('\\"', '"').replace('\\\\', '\\')
             # Remove any trailing commas or syntax artifacts
-            synthesis_feedback = re.sub(r'[,\s]+$', '', synthesis_feedback)
-            return synthesis_feedback
+            reasoning = re.sub(r'[,\s]+$', '', reasoning)
+            return reasoning
         return None
-
-    def _extract_quality_feedback(self, response: str) -> Optional[str]:
-        """Extract quality_feedback from verdict response."""
-        patterns = [
-            r"\"quality_feedback\":\s*\"(.*?)\"(?=,|\})",
-            r"quality_feedback:\s*(.*?)(?=\n|$)",
-            r"Quality feedback:\s*(.*?)(?=\n|$)",
-            r"Quality Feedback:\s*(.*?)(?=\n|$)",
-            r'\"quality_feedback\":\s*\"((?:[^\"\\]|\\.)*)\"',  # Matches JSON format with escaped quotes
-            r'"quality_feedback":\s*"([^"]*)"',  # Simple JSON quoted format
-            # Handle JSON-style without quotes
-            r'"quality_feedback":\s*(.*?)(?=\s*[,}\n])',  # Unquoted JSON format
-            r'quality_feedback":\s*(.*?)(?=\s*[,}\n])',   # Alternative unquoted format
-            # Handle plain text formats
-            r'quality_feedback:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',  # Matches until next field or end
-            r'quality_feedback:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',
-        ]
-        matches = self.extract_with_patterns(response, patterns)
-        return matches[0].strip() if matches else None
 
     def _extract_confidence(self, response: str) -> Optional[int]:
         """Extract confidence score from verdict response."""
@@ -341,15 +323,13 @@ class MCQGenerator:
         """Extract all verdict components using pattern matching."""
         verdict = {
             "required_chunks": self._extract_required_chunks(response),
-            "synthesis_feedback": self._extract_synthesis_feedback(response),
-            "quality_feedback": self._extract_quality_feedback(response),
+            "reasoning": self._extract_reasoning(response),
             "confidence": self._extract_confidence(response)
         }
         
         # Validate that we have at least the critical fields
         if (verdict["required_chunks"] is not None and
-            verdict["synthesis_feedback"] is not None and
-            verdict["quality_feedback"] is not None):
+            verdict["reasoning"] is not None):
             return verdict
         return None
 
@@ -405,10 +385,9 @@ class MCQGenerator:
         self,
         question_data: dict,
         synthesis_feedback: str,
-        quality_feedback: str
         ) -> Optional[Dict]:
         """Regenerate question using verification feedback."""
-        prompt = PromptTemplate.get_regenerate_question_prompt(self.model_type, question_data, synthesis_feedback, quality_feedback)
+        prompt = PromptTemplate.get_regenerate_question_prompt(self.model_type, question_data, synthesis_feedback)
         
         response = self.llm.invoke(prompt)
         
@@ -463,8 +442,7 @@ class MCQGenerator:
                 if verification_attempts < max_attempts:
                     regenerated_question = self._regenerate_question_with_feedback(
                         question_data=question_data,
-                        synthesis_feedback=verdict['synthesis_feedback'],
-                        quality_feedback=verdict["quality_feedback"]
+                        feedback=verdict['reasoning']
                     )
                     if regenerated_question:
                         current_question = regenerated_question
@@ -481,7 +459,6 @@ class MCQGenerator:
         })
         
         return current_question
-
 
 def generate_exam(
     data: List[Dict[str, str]],

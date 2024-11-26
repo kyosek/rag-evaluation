@@ -326,27 +326,25 @@ class PromptTemplate:
             
         prompts = {
             ModelType.LLAMA_3_2_3B: f"""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
-            You are an expert exam question verifier.
-            Analyse the following question-options-answer triplet.
+            You are an expert exam question verifier.     
+            Analyse if this question requires synthesising information across multiple document chunks to be correctly answered.          
             
-            Task:
+            Task:     
             1. Examine if question and choices make sense compared to the given documents
             2. Examine if the "correct_answer" actually correct
             3. Examine if all the chunks are necessary to answer the question correctly
-            4. Give a feedback to improve the exam quality
+            4. Give a feedback to improve the exam quality by advising how to incorporate all the information from all the chunks
             
             Output instruction:
             The output must follow the output format with the following entities and do not need to add anything else:
             - required_chunks: List of chunk numbers needed to answer, e.g., [1, 3] means chunks 1 and 3 are needed
-            - synthesis_feedback: Feedback in terms of synthesis requirement - show which chunks' information are needed be added to generate a multi-hop exam
-            - quality_feedback: Feedback to improve the exam quality and difficulty
+            - reasoning: Feedback to improve the exam quality by advising how to incorporate all the information from all the chunks
             - confidence: 1-5 scale of confidence in this assessment
             
-            Output format:
+            Output format:     
             {{
                 "required_chunks": [int],
-                "synthesis_feedback": string,
-                "quality_feedback": string,
+                "reasoning": string,
                 "confidence": int
             }}
             <|eot_id|><|start_header_id|>user<|end_header_id|>
@@ -363,27 +361,25 @@ class PromptTemplate:
             Generate feedbacks
             """,
             ModelType.GEMMA2_9B: f"""<start_of_turn>user
-            You are an expert exam question verifier.
-            Analyse the following question-options-answer triplet.
+            You are an expert exam question verifier.     
+            Analyse if this question requires synthesising information across multiple document chunks to be correctly answered.          
             
-            Task:
+            Task:     
             1. Examine if question and choices make sense compared to the given documents
             2. Examine if the "correct_answer" actually correct
             3. Examine if all the chunks are necessary to answer the question correctly
-            4. Give a feedback to improve the exam quality
+            4. Give a feedback to improve the exam quality by advising how to incorporate all the information from all the chunks
             
             Output instruction:
             The output must follow the output format with the following entities and do not need to add anything else:
             - required_chunks: List of chunk numbers needed to answer, e.g., [1, 3] means chunks 1 and 3 are needed
-            - synthesis_feedback: Feedback in terms of synthesis requirement - show which chunks' information are needed be added to generate a multi-hop exam
-            - quality_feedback: Feedback to improve the exam quality and difficulty
+            - reasoning: Feedback to improve the exam quality by advising how to incorporate all the information from all the chunks
             - confidence: 1-5 scale of confidence in this assessment
             
-            Output format:
+            Output format:     
             {{
                 "required_chunks": [int],
-                "synthesis_feedback": string,
-                "quality_feedback": string,
+                "reasoning": string,
                 "confidence": int
             }}
             
@@ -398,28 +394,26 @@ class PromptTemplate:
             <end_of_turn>
             <start_of_turn>model
             """,
-            ModelType.MINISTRAL_8B: f"""<s>[INST]
-            You are an expert exam question verifier.
-            Analyse the following question-options-answer triplet.
+            ModelType.MINISTRAL_8B: f"""<s>[INST]  
+            You are an expert exam question verifier.     
+            Analyse if this question requires synthesising information across multiple document chunks to be correctly answered.          
             
-            Task:
+            Task:     
             1. Examine if question and choices make sense compared to the given documents
             2. Examine if the "correct_answer" actually correct
             3. Examine if all the chunks are necessary to answer the question correctly
-            4. Give a feedback to improve the exam quality
+            4. Give a feedback to improve the exam quality by advising how to incorporate all the information from all the chunks
             
             Output instruction:
             The output must follow the output format with the following entities and do not need to add anything else:
             - required_chunks: List of chunk numbers needed to answer, e.g., [1, 3] means chunks 1 and 3 are needed
-            - synthesis_feedback: Feedback in terms of synthesis requirement - show which chunks' information are needed be added to generate a multi-hop exam
-            - quality_feedback: Feedback to improve the exam quality and difficulty
+            - reasoning: Feedback to improve the exam quality by advising how to incorporate all the information from all the chunks
             - confidence: 1-5 scale of confidence in this assessment
             
-            Output format:
+            Output format:     
             {{
                 "required_chunks": [int],
-                "synthesis_feedback": string,
-                "quality_feedback": string,
+                "reasoning": string,
                 "confidence": int
             }}
             [/INST]
