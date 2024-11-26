@@ -565,96 +565,211 @@ class PromptTemplate:
         chunks = question_data["documentation"]
         
         prompts = {
-            ModelType.LLAMA_3_2_3B: f"""
-            <|begin_of_text|><|start_header_id|>system<|end_header_id|>
-            You have generated a multi-hop multiple choice question-options-answer triplets from given multiple chunks.
-            However, there was an issue(s) with the synthesis requirement. Thus, you are asked to modify it by incorporating the feedbacks.
-            
-            Your task is:
-            - Iterate the exam to:
-                - ensure the question requires synthesising information across all chunks to answer correctly
-                - ensure to generate the high quality exam
-            - Return the iterated exam following the output format example but do not add anything else
-            
-            Output format example:
-                Question: [Question]
-                A) [Option A]
-                B) [Option B]
-                C) [Option C]
-                D) [Option D]
-                Correct Answer: [Letter one of "A", "B", "C" or "D"]
+            ModelType.LLAMA_3_2_3B: f"""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+            Advanced Multi-Hop Question Iteration Methodology
+
+            Objective:
+            Systematically enhance the generated multi-hop multiple-choice question to ensure:
+            - Comprehensive information synthesis across ALL document chunks
+            - Elimination of potential reasoning shortcuts
+            - Increased cognitive complexity and challenge
+
+            Iteration Strategy:
+            1. Comprehensive Chunk Integration Analysis
+            - Rigorously examine the feedback from the verification process
+            - Identify specific gaps in chunk utilization
+            - Develop a strategic approach to incorporate underutilized information
+
+            2. Reasoning Complexity Enhancement
+            - Restructure the question to mandate full chunk integration
+            - Create more sophisticated logical dependencies
+            - Introduce additional layers of cognitive challenge
+
+            3. Distractor Refinement
+            - Redesign distractors to exploit more nuanced reasoning vulnerabilities
+            - Ensure distractors require careful analysis of all chunks
+            - Eliminate options that can be resolved through partial information
+
+            Iteration Principles:
+            - Mandatory full documentation utilization
+            - Zero single-chunk solution pathways
+            - Maximized cognitive engagement
+            - Maintained academic rigor
+
+            Output Instruction:
+            CRITICAL: Your entire response MUST start with "Question:" followed by the completely redesigned question. Ensure the new question:
+            CRITICAL: All the options MUST start with the corresponding letter such as "A)", "B)", "C)" or "D)".
+            CRITICAL: The Correct Answer MUST start with "Correct Answer".
+            - Addresses all verification feedback
+            - Requires synthesising information from ALL chunks
+            - Presents a more challenging reasoning scenario
+
+            Output Format:
+            Question: [Sophisticated multi-hop reasoning challenge]
+            A) [Option A]
+            B) [Option B]
+            C) [Option C]
+            D) [Option D]
+            Correct Answer: [Letter one of "A", "B", "C" or "D"]
+            * Do not generate anything else other than the above output format
+
+            Guidance for Iteration:
+            - Deconstruct the original question's reasoning framework
+            - Identify and eliminate any identified shortcut reasoning paths
+            - Reconstruct the question to create a more intricate reasoning challenge
+            - Ensure the new question is substantially more complex than the original
+
             <|eot_id|><|start_header_id|>user<|end_header_id|>
-            
-            Generated exam question and the original chunks:
+            Generated Exam Question:
             Question: {question}
             Choices: {choices}
-            Correct answer: {correct_answer}
-            Chunks: {chunks}
-            
-            Feedback:
-            {feedback}
+            Correct Answer: {correct_answer}
+
+            Original Chunks: {chunks}
+
+            Verification Feedback: {feedback}
             <|eot_id|><|start_header_id|>assistant<|end_header_id|>
-            Generate a question
+            Generate an enhanced multi-hop reasoning question
             """,
             ModelType.GEMMA2_9B: f"""
             <start_of_turn>user
-            You have generated a multi-hop multiple choice question-options-answer triplets from given multiple chunks.
-            However, there was an issue(s) with the synthesis requirement. Thus, you are asked to modify it by incorporating the feedbacks.
+            Advanced Multi-Hop Question Iteration Methodology
+
+            Objective:
+            Systematically enhance the generated multi-hop multiple-choice question to ensure:
+            - Comprehensive information synthesis across ALL document chunks
+            - Elimination of potential reasoning shortcuts
+            - Increased cognitive complexity and challenge
+
+            Iteration Strategy:
+            1. Comprehensive Chunk Integration Analysis
+            - Rigorously examine the feedback from the verification process
+            - Identify specific gaps in chunk utilization
+            - Develop a strategic approach to incorporate underutilized information
+
+            2. Reasoning Complexity Enhancement
+            - Restructure the question to mandate full chunk integration
+            - Create more sophisticated logical dependencies
+            - Introduce additional layers of cognitive challenge
+
+            3. Distractor Refinement
+            - Redesign distractors to exploit more nuanced reasoning vulnerabilities
+            - Ensure distractors require careful analysis of all chunks
+            - Eliminate options that can be resolved through partial information
+
+            Iteration Principles:
+            - Mandatory full documentation utilization
+            - Zero single-chunk solution pathways
+            - Maximized cognitive engagement
+            - Maintained academic rigor
+
+            Output Instruction:
+            CRITICAL: Your entire response MUST start with "Question:" followed by the completely redesigned question. Ensure the new question:
+            CRITICAL: All the options MUST start with the corresponding letter such as "A)", "B)", "C)" or "D)".
+            CRITICAL: The Correct Answer MUST start with "Correct Answer".
+            - Addresses all verification feedback
+            - Requires synthesising information from ALL chunks
+            - Presents a more challenging reasoning scenario
+
+            Output Format:
+            Question: [Sophisticated multi-hop reasoning challenge]
+            A) [Option A]
+            B) [Option B]
+            C) [Option C]
+            D) [Option D]
+            Correct Answer: [Letter one of "A", "B", "C" or "D"]
+            * Do not generate anything else other than the above output format
+
+            Guidance for Iteration:
+            - Deconstruct the original question's reasoning framework
+            - Identify and eliminate any identified shortcut reasoning paths
+            - Reconstruct the question to create a more intricate reasoning challenge
+            - Ensure the new question is substantially more complex than the original
+
+            <end_of_turn>
+            <start_of_turn>user
             
-            Your task is:
-            - Iterate the exam to:
-                - ensure the question requires synthesising information across all chunks to answer correctly
-                - ensure to generate the high quality exam
-            - Return the iterated exam following the output format example but do not add anything else
-            
-            Output format example:
-                Question: [Question]
-                A) [Option A]
-                B) [Option B]
-                C) [Option C]
-                D) [Option D]
-                Correct Answer: [Letter one of "A", "B", "C" or "D"]
-            
-            Generated exam question and the original chunks:
+            Generated Exam Question:
             Question: {question}
             Choices: {choices}
-            Correct answer: {correct_answer}
-            Chunks: {chunks}
+            Correct Answer: {correct_answer}
+
+            Original Chunks: {chunks}
+
+            Verification Feedback: {feedback}
             
-            Feedback:
-            {feedback}
             <end_of_turn>
             <start_of_turn>model
-            Generate a question
+            Generate an enhanced multi-hop reasoning question
             """,
             ModelType.MINISTRAL_8B: f"""
             <s>[INST]
-            You have generated a multi-hop multiple choice question-options-answer triplets from given multiple chunks.
-            However, there was an issue(s) with the synthesis requirement. Thus, you are asked to modify it by incorporating the feedbacks.
-            
-            Your task is:
-            - Iterate the exam to:
-                - ensure the question requires synthesising information across all chunks to answer correctly
-                - ensure to generate the high quality exam
-            - Return the iterated exam following the output format example but do not add anything else
-            
-            Output format example:
-                Question: [Question]
-                A) [Option A]
-                B) [Option B]
-                C) [Option C]
-                D) [Option D]
-                Correct Answer: [Letter one of "A", "B", "C" or "D"]
+            Advanced Multi-Hop Question Iteration Methodology
+
+            Objective:
+            Systematically enhance the generated multi-hop multiple-choice question to ensure:
+            - Comprehensive information synthesis across ALL document chunks
+            - Elimination of potential reasoning shortcuts
+            - Increased cognitive complexity and challenge
+
+            Iteration Strategy:
+            1. Comprehensive Chunk Integration Analysis
+            - Rigorously examine the feedback from the verification process
+            - Identify specific gaps in chunk utilization
+            - Develop a strategic approach to incorporate underutilized information
+
+            2. Reasoning Complexity Enhancement
+            - Restructure the question to mandate full chunk integration
+            - Create more sophisticated logical dependencies
+            - Introduce additional layers of cognitive challenge
+
+            3. Distractor Refinement
+            - Redesign distractors to exploit more nuanced reasoning vulnerabilities
+            - Ensure distractors require careful analysis of all chunks
+            - Eliminate options that can be resolved through partial information
+
+            Iteration Principles:
+            - Mandatory full documentation utilization
+            - Zero single-chunk solution pathways
+            - Maximized cognitive engagement
+            - Maintained academic rigor
+
+            Output Instruction:
+            CRITICAL: Your entire response MUST start with "Question:" followed by the completely redesigned question. Ensure the new question:
+            CRITICAL: All the options MUST start with the corresponding letter such as "A)", "B)", "C)" or "D)".
+            CRITICAL: The Correct Answer MUST start with "Correct Answer".
+            - Addresses all verification feedback
+            - Requires synthesising information from ALL chunks
+            - Presents a more challenging reasoning scenario
+
+            Output Format:
+            Question: [Sophisticated multi-hop reasoning challenge]
+            A) [Option A]
+            B) [Option B]
+            C) [Option C]
+            D) [Option D]
+            Correct Answer: [Letter one of "A", "B", "C" or "D"]
+            * Do not generate anything else other than the above output format
+
+            Guidance for Iteration:
+            - Deconstruct the original question's reasoning framework
+            - Identify and eliminate any identified shortcut reasoning paths
+            - Reconstruct the question to create a more intricate reasoning challenge
+            - Ensure the new question is substantially more complex than the original
+
             [/INST]
             
-            Generated exam question and the original chunks:
+            Generated Exam Question:
             Question: {question}
             Choices: {choices}
-            Correct answer: {correct_answer}
-            Chunks: {chunks}
+            Correct Answer: {correct_answer}
+
+            Original Chunks: {chunks}
+
+            Verification Feedback: {feedback}
             
-            Feedback:
-            {feedback}
+            Generate an enhanced multi-hop reasoning question
+            </s>
             """,
         }
         
