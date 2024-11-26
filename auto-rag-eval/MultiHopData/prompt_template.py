@@ -418,6 +418,7 @@ class PromptTemplate:
             - Highlight potential ambiguities or gaps in the question-answer construct
             - Provide constructive feedback for improving exam quality and multi-hop reasoning challenge
             <|eot_id|><|start_header_id|>user<|end_header_id|>
+
             Question: {question}
             Options:
             A) {option_a}
@@ -477,11 +478,21 @@ class PromptTemplate:
             - Critically examine each document chunk's contribution
             - Highlight potential ambiguities or gaps in the question-answer construct
             - Provide constructive feedback for improving exam quality and multi-hop reasoning challenge
+            
+            Question: {question}
+            Options:
+            A) {option_a}
+            B) {option_b}
+            C) {option_c}
+            D) {option_d}
+            Correct Answer: {correct_answer}
+            Documents: {chunk_text}
+            
             <end_of_turn>
             <start_of_turn>model
             Perform comprehensive multi-hop reasoning verification
             """,
-            ModelType.MINISTRAL_8B: f"""<s>[INST]  
+            ModelType.MINISTRAL_8B: f"""<s>[INST]
             You are an advanced exam question verifier specializing in multi-hop reasoning and comprehensive document analysis.
 
             Verification Objectives:
@@ -529,6 +540,16 @@ class PromptTemplate:
             - Critically examine each document chunk's contribution
             - Highlight potential ambiguities or gaps in the question-answer construct
             - Provide constructive feedback for improving exam quality and multi-hop reasoning challenge
+            [/INST]
+            
+            Question: {question}
+            Options:
+            A) {option_a}
+            B) {option_b}
+            C) {option_c}
+            D) {option_d}
+            Correct Answer: {correct_answer}
+            Documents: {chunk_text}
             
             Perform comprehensive multi-hop reasoning verification
             </s>
