@@ -171,8 +171,8 @@ if __name__ == "__main__":
     # model_names = ["claude-3-5-sonnet@20240620", "claude-3-5-haiku@20241022"]
     # model_names = ["claude-3-5-sonnet@20240620"]
     model_names = [
-        'llama_3_2_3b',
-        # 'llama_3_1_8b',
+        # 'llama_3_2_3b',
+        'llama_3_1_8b',
         "ministral-8b",
         # "gemma2-9b",
         "gemma2-27b",
