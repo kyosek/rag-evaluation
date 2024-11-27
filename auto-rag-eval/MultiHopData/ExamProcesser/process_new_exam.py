@@ -31,7 +31,10 @@ def process_json_data(input_file, sample_size, random_seed=42):
     # 2. Clean correct_answer by removing ")"
     for entry in filtered_data:
         if 'correct_answer' in entry:
-            entry['correct_answer'] = entry['correct_answer'].replace(')', '')
+            try:
+                entry['correct_answer'] = entry['correct_answer'].replace(')', '')
+            except:
+                pass
     
     # 3. Balanced sampling based on num_chunks_used
     # Get distribution of num_chunks_used
@@ -96,8 +99,9 @@ def print_distribution(data):
 
 if __name__ == "__main__":
     task_domain = "gov_report"
+    file_name = "exam_new_gemma2_9b"
     
-    input_file = f"auto-rag-eval/MultiHopData/{task_domain}/exams/exam_new_llama_3_2_3b.json"  # Replace with your file path
+    input_file = f"auto-rag-eval/MultiHopData/{task_domain}/exams/{file_name}.json"  # Replace with your file path
     sample_size = 600  # Replace with desired sample size
     
     # Process the data
@@ -108,5 +112,5 @@ if __name__ == "__main__":
     print_distribution(processed_data)
     
     # Optionally save processed data
-    with open(f"auto-rag-eval/MultiHopData/{task_domain}/exams/exam_new_llama_3_2_3b_processed.json", 'w') as f:
+    with open(f"auto-rag-eval/MultiHopData/{task_domain}/exams/{file_name}_processed_v2_unfiltered.json", 'w') as f:
         json.dump(processed_data, f, indent=2)
