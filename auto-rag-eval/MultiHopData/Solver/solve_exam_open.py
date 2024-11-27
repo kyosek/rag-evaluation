@@ -180,11 +180,11 @@ if __name__ == "__main__":
     
     exam_files = [
         # "exam_new_llama_3_2_3b_processed.json",
-        # "llama_3_2_3b_single_hop_exam_processed.json",
-        "exam_new_llama_3_2_3b_processed_v2.json",
-        "exam_new_llama_3_2_3b_processed_v2_unfiltered.json",
-        "exam_new_gemma2_9b_processed_v2.json",
-        "exam_new_gemma2_9b_processed_v2_unfiltered.json"
+        "llama_3_2_3b_single_hop_exam_processed.json",
+        # "exam_new_llama_3_2_3b_processed_v2.json",
+        # "exam_new_gemma2_9b_processed_v2.json",
+        # "exam_new_llama_3_2_3b_processed_v2_unfiltered.json",
+        # "exam_new_gemma2_9b_processed_v2_unfiltered.json"
         ]
 
     for exam_file in exam_files:
