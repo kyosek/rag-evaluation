@@ -191,11 +191,14 @@ def process_json_file(input_path, output_path, sample_size=1000, random_seed=42)
 
 
 if __name__ == "__main__":
-    task_domain = "gov_report"
-    exam_file_name = "llama_3_2_3b_single_hop_exam"
+    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    # exam_file_name = "llama_3_2_3b_single_hop_exam"
+    exam_file_names = ["llama_3_2_3b_single_hop_exam", "gemma2_9b_single_hop_exam", "ministral_8b_single_hop_exam"]
     
-    input_file = f"auto-rag-eval/MultiHopData/{task_domain}/exams/{exam_file_name}.json"
-    output_file = f"auto-rag-eval/MultiHopData/{task_domain}/exams/{exam_file_name}_processed.json"
+    for exam_file_name in exam_file_names:
+        for task_domain in task_domains:
+            input_file = f"auto-rag-eval/MultiHopData/{task_domain}/exams/{exam_file_name}.json"
+            output_file = f"auto-rag-eval/MultiHopData/{task_domain}/exams/{exam_file_name}_processed.json"
 
-    process_json_file(input_file, output_file)
+            process_json_file(input_file, output_file, sample_size=150)
     
