@@ -56,6 +56,7 @@ class BaseQuantizedModel(ABC):
         n_ctx: int = 16384,
         n_gpu_layers: int = -1,
         # n_gpu_layers: int = 16,
+        max_output_length: int = 1024,
         verbose: bool = False
     ):
         self.llm = Llama.from_pretrained(
@@ -66,7 +67,7 @@ class BaseQuantizedModel(ABC):
             verbose=verbose,
         )
         self.inference_params = {
-            "max_tokens": n_ctx,
+            "max_tokens": max_output_length,
             "temperature": 0,
             "top_p": 0.9,
         }

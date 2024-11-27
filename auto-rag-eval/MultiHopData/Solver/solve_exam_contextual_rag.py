@@ -119,9 +119,8 @@ class ContextualChunkRetriever:
         exclude_same_doc: bool = True,
     ) -> List[Tuple[ContextualChunk, float]]:
         query_embedding = self.model.encode(
-            [f"{query_chunk.content}\n\nContext: {query_chunk.context}"]
+            [f"{query_chunk.content}\n\nContext: {query_chunk.context}"], normalize_embeddings=True
         )
-        faiss.normalize_L2(query_embedding)
 
         scores, indices = self.index.search(query_embedding, k * 2)
 
@@ -295,7 +294,7 @@ class ContextualExamSolver(ExamSolver):
 
             return response.strip()[-1]
         except:
-            return "A"
+            return "NA"
 
 
 def main(

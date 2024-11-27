@@ -237,7 +237,11 @@ def main(
         model_mapping = {
             'llama_3_1_8b': ModelType.LLAMA_3_1_8B,
             'llama_3_2_3b': ModelType.LLAMA_3_2_3B,
-            'mistral_7b': ModelType.MISTRAL_7B,
+            'ministral-8b': ModelType.MINISTRAL_8B,
+            'mistral-small': ModelType.MISTRAL_SMALL,
+            'mixtral-8-7b': ModelType.MIXTRAL_8_7B,
+            "gemma2-9b": ModelType.GEMMA2_9B,
+            "gemma2-27b": ModelType.GEMMA2_27B
         }
         
         print(f"Using {model_mapping[model_name]}")
@@ -272,7 +276,13 @@ if __name__ == "__main__":
     # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
     # model_names = ["claude-3-5-sonnet@20240620", "claude-3-5-haiku@20241022"]
     # model_names = ["claude-3-5-haiku@20241022"]
-    model_names = ['llama_3_2_3b', 'llama_3_1_8b']
+    model_names = [
+        'llama_3_2_3b',
+        # 'llama_3_1_8b',
+        "ministral-8b",
+        # "gemma2-9b",
+        "gemma2-27b",
+        ]
     
     # Exam file
     exam_files = [
