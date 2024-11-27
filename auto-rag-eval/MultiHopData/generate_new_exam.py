@@ -8,7 +8,7 @@ import logging
 from typing import List, Dict, Tuple, Optional, Union, Any
 from sentence_transformers import SentenceTransformer
 from dataclasses import dataclass
-import pickle
+import ast
 from tqdm import tqdm
 from llama_cpp import Llama
 
@@ -155,6 +155,9 @@ class MCQGenerator:
         """Extract question from response with improved pattern matching."""
         question_patterns = [
             r"\*\*Question\*\*\n\n(.*?)(?:\n[a-dA-D1-4]\)|\n\n[a-dA-D1-4]\))",
+            r"Question:\s*(.*?)(?=\nChoices:|\n[A-D]\)|\n\n[a-dA-D1-4]\))",
+            r"Question:\s*(.*?)(?=\n\n|\n[A-D]\)|\Z)",
+            r"Question:\s*(.+?)(?=\n|$)",
             r"Question:(.*?)(?:\n[a-dA-D1-4]\)|\n\n[a-dA-D1-4]\))",
             r"Question 1:(.*?)(?:\n[a-dA-D1-4]\)|\n\n[a-dA-D1-4]\))",
             r"question:(.*?)(?:\n[a-dA-D1-4]\)|\n\n[a-dA-D1-4]\))",
@@ -177,6 +180,21 @@ class MCQGenerator:
         Returns:
             Optional[List[str]]: List of choices if found and valid, None otherwise
         """
+        list_match = re.search(r"Choices:\s*(\[.*?\])", response, re.DOTALL)
+    
+        if list_match:
+            try:
+                # Use ast.literal_eval to safely parse the list string
+                choices_list = ast.literal_eval(list_match.group(1))
+                
+                # Validate the choices
+                if (len(choices_list) == 4 and 
+                    all(isinstance(choice, str) and choice.startswith(letter+')') 
+                        for choice, letter in zip(choices_list, ['A', 'B', 'C', 'D']))):
+                    return choices_list
+            except (ValueError, SyntaxError):
+                pass
+
         # Try different patterns in order of specificity
         patterns = [
             # Basic pattern for lettered choices with parentheses
@@ -186,7 +204,9 @@ class MCQGenerator:
             r'\n([A-D]\))\s*((?:(?!\n[A-D]\)).)*)',
             
             # Pattern for full answers with possible multiline content
-            r'(?:^|\n)([A-D]\))\s*((?:(?!\n[A-D]\)|Correct Answer:|Distractors:).)*)',
+            r'(?:^|\n)([A-D]\))\s*((?:(?!\n[A-D]\)|Correct Answer:).)*)',
+            r'([A-D])\)\s*(.*?)(?=\n[A-D]\)|Correct Answer:|\Z)',
+            r'([A-D])\)\s*((?:(?!\n[A-D]\)|Correct Answer:).)*)',
             
             # Fallback pattern for simple format
             r'([A-D]\))\s*([^\n]+)'
@@ -235,20 +255,6 @@ class MCQGenerator:
             return f"{correct_answer_match.group(1)})"
         
         return None
-    
-    def _extract_single_chunk_answerable(self, response: str) -> Optional[bool]:
-        """Extract single_chunk_answerable from verdict response."""
-        patterns = [
-            r"\"single_chunk_answerable\":\s*(true|false)",
-            r"single_chunk_answerable:\s*(true|false)",
-            r"Single chunk answerable:\s*(true|false)",
-            r"Can be answered with single chunk:\s*(yes|no|true|false)",
-        ]
-        matches = self.extract_with_patterns(response, patterns)
-        if matches:
-            value = matches[0].lower()
-            return value in ['true', 'yes']
-        return None
 
     def _extract_required_chunks(self, response: str) -> Optional[List[int]]:
         """Extract required_chunks from verdict response."""
@@ -270,55 +276,68 @@ class MCQGenerator:
                 return None
         return None
 
-    def _extract_synthesis_required(self, response: str) -> Optional[bool]:
-        """Extract synthesis_required from verdict response."""
-        patterns = [
-            r"\"synthesis_required\":\s*(true|false)",
-            r"synthesis_required:\s*(true|false)",
-            r"Synthesis required:\s*(true|false)",
-            r"Requires synthesis:\s*(yes|no|true|false)",
-        ]
-        matches = self.extract_with_patterns(response, patterns)
-        if matches:
-            value = matches[0].lower()
-            return value in ['true', 'yes']
-        return None
-
     def _extract_reasoning(self, response: str) -> Optional[str]:
         """Extract reasoning from verdict response."""
-        patterns = [
-        # Handle JSON-style with quotes
-        r'\"reasoning\":\s*\"((?:[^\"\\]|\\.)*)\"',  # Matches JSON format with escaped quotes
-        r'"reasoning":\s*"([^"]*)"',  # Simple JSON quoted format
-        # Handle JSON-style without quotes
-        r'"reasoning":\s*(.*?)(?=\s*[,}\n])',  # Unquoted JSON format
-        r'reasoning":\s*(.*?)(?=\s*[,}\n])',   # Alternative unquoted format
-        # Handle plain text formats
-        r'reasoning:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',  # Matches until next field or end
-        r'Reasoning:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',
-        r'Explanation:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)',
-    ]
-        matches = self.extract_with_patterns(response, patterns)
-        if matches:
-            # Clean up the extracted reasoning
-            reasoning = matches[0].strip()
-            # Handle escaped quotes if present
-            reasoning = reasoning.replace('\\"', '"').replace('\\\\', '\\')
-            # Remove any trailing commas or syntax artifacts
-            reasoning = re.sub(r'[,\s]+$', '', reasoning)
-            return reasoning
-        return None
+        try:
+        # First, try to parse as JSON
+            try:
+                # Try to parse the entire response as JSON
+                json_data = json.loads(response)
+                
+                # Extract reasoning if it exists in a nested JSON structure
+                if isinstance(json_data, dict):
+                    # Check for 'reasoning' key at different levels
+                    reasoning = json_data.get('reasoning')
+                    if reasoning:
+                        # If reasoning is a dictionary, convert to string
+                        if isinstance(reasoning, dict):
+                            return json.dumps(reasoning)
+                        # If reasoning is already a string, return it
+                        return str(reasoning)
+            except json.JSONDecodeError:
+                # If full JSON parsing fails, continue to regex methods
+                pass
 
-    def _extract_missing_information(self, response: str) -> Optional[str]:
-        """Extract missing_information from verdict response."""
-        patterns = [
-            r"\"missing_information\":\s*\"(.*?)\"(?=,|\})",
-            r"missing_information:\s*(.*?)(?=\n|$)",
-            r"Missing information:\s*(.*?)(?=\n|$)",
-            r"Missing:\s*(.*?)(?=\n|$)",
-        ]
-        matches = self.extract_with_patterns(response, patterns)
-        return matches[0].strip() if matches else None
+            # Define more comprehensive regex patterns
+            patterns = [
+                # JSON-style reasoning extraction
+                r'"reasoning":\s*({[^}]+})',  # Capture full JSON object
+                r'"reasoning":\s*"([^"]*)"',  # Quoted string reasoning
+                r'"reasoning":\s*(\{[^}]+\})',  # Capture reasoning as JSON object
+                
+                # Plain text reasoning extraction
+                r'Reasoning:\s*(.*?)(?=\n\s*[A-Z]|\n\s*\{|$)',
+                r'reasoning:\s*(.*?)(?=\n\s*[a-z_"]+:|\n\s*\{|\n\s*\}|$)'
+            ]
+            
+            # Try each pattern
+            for pattern in patterns:
+                matches = re.findall(pattern, response, re.DOTALL | re.MULTILINE)
+                if matches:
+                    reasoning = matches[0]
+                    
+                    # Clean up the extracted reasoning
+                    reasoning = reasoning.strip()
+                    
+                    # Remove surrounding quotes if present
+                    reasoning = reasoning.strip('"')
+                    
+                    # Handle escaped characters
+                    reasoning = reasoning.replace('\\"', '"').replace('\\\\', '\\')
+                    
+                    # If it looks like a JSON object, try to parse and reformat
+                    try:
+                        parsed_reasoning = json.loads(reasoning)
+                        return json.dumps(parsed_reasoning, indent=2)
+                    except (json.JSONDecodeError, TypeError):
+                        # If not a valid JSON, return as-is
+                        return reasoning
+
+        except Exception as e:
+            # Log the error or handle it as appropriate
+            print(f"Error extracting reasoning: {e}")
+        
+        return None
 
     def _extract_confidence(self, response: str) -> Optional[int]:
         """Extract confidence score from verdict response."""
@@ -340,11 +359,8 @@ class MCQGenerator:
     def _extract_verdict(self, response: str) -> Dict:
         """Extract all verdict components using pattern matching."""
         verdict = {
-            "single_chunk_answerable": self._extract_single_chunk_answerable(response),
             "required_chunks": self._extract_required_chunks(response),
-            "synthesis_required": self._extract_synthesis_required(response),
             "reasoning": self._extract_reasoning(response),
-            "missing_information": self._extract_missing_information(response),
             "confidence": self._extract_confidence(response)
         }
         
@@ -353,11 +369,6 @@ class MCQGenerator:
             verdict["reasoning"] is not None):
             return verdict
         return None
-
-    def _extract_reasoning_steps(self, response: str) -> Optional[str]:
-        """Extract reasoning steps if available."""
-        reasoning_match = re.search(r"Reasoning Steps:\s*(.*?)(?=(?:\n\s*[A-D]\)|\Z))", response, re.DOTALL)
-        return reasoning_match.group(1).strip() if reasoning_match else None
     
     def _make_enhanced_question_prompt(self, task_domain: str, chunks: List[Dict[str, str]]) -> str:
         """Create a prompt using the appropriate template for the specified model."""
@@ -404,26 +415,22 @@ class MCQGenerator:
 
     def _regenerate_question_with_feedback(
         self,
-        chunks: List[Dict[str, str]],
-        task_domain: str,
-        feedback: str
+        question_data: dict,
+        feedback: str,
         ) -> Optional[Dict]:
         """Regenerate question using verification feedback."""
-        enhanced_prompt = self._make_enhanced_question_prompt(
-            task_domain=task_domain,
-            chunks=chunks,
-        ) + f"\n\nPrevious attempt feedback: {feedback}\nPlease ensure the question requires synthesising information across multiple chunks."
+        prompt = PromptTemplate.get_regenerate_question_prompt(self.model_type, question_data, feedback)
         
-        response = self.llm.invoke(enhanced_prompt)
+        response = self.llm.invoke(prompt)
         
         try:
             return {
                 "question": self._extract_question(response),
                 "choices": self._extract_choices(response),
                 "correct_answer": self._extract_correct_answer(response),
-                "documentation": [chunk["text"] for chunk in chunks],
+                "documentation": question_data["documentation"],
                 "metadata": {
-                    "num_chunks_used": len(chunks)
+                    "num_chunks_used": len(question_data["documentation"])
                 }
             }
         except Exception as e:
@@ -450,7 +457,7 @@ class MCQGenerator:
         
         while verification_attempts < max_attempts:
             # Generate verification prompt
-            verification_prompt = PromptTemplate.get_verification_prompt(current_question, chunks)
+            verification_prompt = PromptTemplate.get_verification_prompt(self.model_type, current_question, chunks)
             
             # Get verdict from LLM
             verdict_response = self.llm.invoke(verification_prompt)
@@ -466,8 +473,7 @@ class MCQGenerator:
                 verification_attempts += 1
                 if verification_attempts < max_attempts:
                     regenerated_question = self._regenerate_question_with_feedback(
-                        chunks=chunks,
-                        task_domain=task_domain,
+                        question_data=question_data,
                         feedback=verdict['reasoning']
                     )
                     if regenerated_question:
@@ -485,7 +491,6 @@ class MCQGenerator:
         })
         
         return current_question
-
 
 def generate_exam(
     data: List[Dict[str, str]],
@@ -610,8 +615,8 @@ if __name__ == "__main__":
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     task_domains = ["gov_report"]
     
-    # model_names = ['llama_3_2_3b', "gemma2_9b", 'ministral_8b']
-    model_names = ['llama_3_2_3b']
+    model_names = ["llama_3_2_3b", "gemma2_9b", 'ministral_8b']
+    # model_names = ["ministral_8b"]
     
     # task_domain = "gov_report"
     for model_name in model_names:
