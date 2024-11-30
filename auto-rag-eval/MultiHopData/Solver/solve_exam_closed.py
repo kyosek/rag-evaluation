@@ -200,7 +200,7 @@ class ExamSolver:
 
         metrics = {"accuracy": correct / total, "correct": correct, "total": total}
 
-        results_dir = os.path.join("MultiHopData", task_domain)
+        results_dir = os.path.join("MultiHopData/exam_results/", task_domain)
         os.makedirs(results_dir, exist_ok=True)
 
         # Sanitize the model name for the filename
@@ -244,8 +244,8 @@ def main(task_domain: str, model_type: str, model_name: str, exam_file: str):
 
 
 if __name__ == "__main__":
-    # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    task_domains = ["hotpotqa", "multifieldqa_en", "SecFilings"]
+    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    # task_domains = ["hotpotqa", "multifieldqa_en", "SecFilings"]
     # model_type = "claude"
     # model_type = "gemini"
     model_type = "cpp"
@@ -264,9 +264,11 @@ if __name__ == "__main__":
         ]
     
     exam_files = [
-        # "llama_3_2_3b_single_hop_exam_processed.json"
-        "exam_new_llama_3_2_3b_processed_v2.json",
-        "exam_new_gemma2_9b_processed_v2.json",
+        "llama_3_2_3b_single_hop_exam_processed.json",
+        # "gemma2_9b_single_hop_exam_processed.json",
+        "exam_new_ministral_8b_processed_v2.json",
+        # "exam_new_llama_3_2_3b_processed_v2.json",
+        # "exam_new_gemma2_9b_processed_v2.json",
         # "exam_new_llama_3_2_3b_processed_v2_unfiltered.json",
         # "exam_new_gemma2_9b_processed_v2_unfiltered.json",
         
