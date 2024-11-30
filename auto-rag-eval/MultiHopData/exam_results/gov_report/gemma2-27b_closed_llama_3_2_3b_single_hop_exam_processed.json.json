@@ -1,0 +1,1052 @@
+[
+  {
+    "question": "Analyzing the data on revenue reported by facilities, what can be inferred about the concentration of revenue in facilities retained for a given specialty?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The Commercial Space Launch Act Amendments of 1988 established the foundation for the current U.S. policy to potentially provide federal payment for a portion of claims by third parties for injury, damage, or loss that results from a commercial launch or reentry accident. A stated goal of the act was to provide a competitive environment for the U.S. commercial space launch industry. The act also provided for, among other things, government protection against some losses\u2014referred to as indemnification\u2014while still minimizing the cost to taxpayers. All FAA-licensed commercial launches and reentries by U.S. companies, whether unmanned or manned and from the United States or overseas, are covered by federal indemnification for third-party damages that result from the launch or reentry. According to agency officials, in 2016 FAA issued five active licenses, which had an average third-party MPL of about $51 million and ranged from $10 million to $99 million. The amount of insurance coverage that FAA requires launch companies to purchase\u2014the MPL value\u2014is intended to reflect the greatest dollar amount of loss to third parties and the federal government for bodily injury and property damage that can be reasonably expected to result from a launch or reentry accident. FAA calculates separate MPL values for potential damages to third parties and the federal government. For each launch license that it issues, FAA determines MPL values for third parties with the intent of estimating the greatest dollar amount of losses that reasonably could be expected from a launch or reentry accident, which have no less than a 1 in 10 million chance of occurring. For damages to the federal government, FAA determines MPL values with the intent of estimating the greatest dollar amount of losses that reasonably could be expected from a launch or reentry accident, which have no less than a 1 in 100,000 chance of occurring.",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical characteristic of effective governance structures for emergency communications, as identified in the 2015 guide issued by DHS and the National Council of Statewide Interoperability Coordinators?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a likely outcome if Congress decides to repeal the Budget Control Act (BCA) and use less Overseas Contingency Operations (OCO) funding?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of government regulations on commercial speech, what is the primary difference between the Central Hudson and Zauderer standards, and how does this difference impact the scrutiny of government actions?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a potential consequence of NASA's decision to refine the remaining Soyuz launch schedule to allow for a return in January 2020, rather than November 2019?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical factor that state and local governments must consider when planning to transition to NG911 equipment and infrastructure, according to the National Highway Traffic Safety Administration's (NHTSA) National 911 Program?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyzing the trend in visa adjudications for F visas for Chinese nationals from fiscal year 2014 to fiscal year 2017, what can be inferred about the shift in the geographic distribution of NIV adjudications worldwide?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical consideration for individuals seeking Disaster Unemployment Assistance (DUA) benefits, given the 26-week time limit for receiving these benefits?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the scope of Education and Justice's efforts to address discipline disparities and discrimination based on the data provided from 2011 to August 2017?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The U.S. government has identified opportunities to better manage fragmentation, overlap, and duplication across various federal agencies. According to the Fish and Wildlife Service's guidance, awarding offices are now instructed to perform a potential overlap and duplication review of all selected applicants prior to award. Which of the following best describes the outcome of this new policy?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "By 2020, what percentage of the costs for brand-name and generic drugs in the coverage gap will Part D enrollees be responsible for, assuming most plans offer actuarially equivalent benefits?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The FY2020 budget request for the National Nuclear Security Administration (NNSA) includes significant funding increases for various nuclear warhead life-extension programs (LEPs). However, the increase in funding for the W80-4 LEP is attributed to a new budget estimate, which is not related to the acceleration of development for the new long-range standoff weapon. What is the primary reason for the increase in funding for the W80-4 LEP?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A federal district court ruled that a university's failure to provide adequate notice to an accused student of the scope of charges against him, as well as other procedural issues in the school's investigation and decision, deprived the student of a liberty interest without due process of law. Which of the following best describes the court's reasoning in this case?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical oversight in State's efforts to address persistent overseas Foreign Service vacancies, as identified by the 2017 High-Risk Series report?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical consideration for states to ensure that families with substance use disorders receive adequate support during the postpartum period, and how might this impact the development of plans of safe care?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical oversight in the implementation of funding restrictions on promoting tobacco exports overseas, as revealed by the review of guidance issued by the Departments of State and Commerce?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a potential consequence of the lack of clear guidance and limited engagement between FCC and tribal governments, as described in the report?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The SBA's Surety Bond Guarantee Program aims to address the challenges faced by smaller contracting firms, particularly minority-owned and women-owned small business contracting firms, in accessing surety bonds in the private marketplace. However, some argue that providing additional authority to sureties to approve and monitor bonds could increase the risk of defaults and program losses. What is a key finding from GAO examinations that suggests the need for a program like the SBA's Surety Bond Guarantee Program, despite the potential risks?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical factor in understanding the complex relationship between remittances and economic stability in Somalia and Haiti?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of affirmative action policies, what is the significance of the Bakke decision's emphasis on the \"right to select those students who will contribute the most to the robust exchange of ideas\"?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The distribution of election administration duties between states and localities can impact the effectiveness of federal information sharing with states and localities. What is a potential consequence of directing HAVA funding to states, rather than local officials, on the timeliness of federal information sharing?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical consideration for the Small Business Administration (SBA) when guaranteeing a surety bond for a small business, given the SBA's guarantee not exceeding 90% of the loss incurred by the surety in the event of a breach of the bond's terms and conditions?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the distribution of Foreign Service employees between overseas and domestic positions based on the data presented in figures 1 and 2?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a potential limitation of the current sexual harassment policies in the DOD, according to the provided information?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary motivation behind the continued use of the Trading with the Enemy Act (TWEA) by the United States government after the end of World War II?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary purpose of the suspension of the rules procedure in the House of Representatives, as depicted in Figure A-1?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the correct interpretation of the impact of the 2012 executive order on the annual pay adjustment for Members of Congress?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary reason for the USPS's missed payments to the fund, as reported in the GAO's end-of-year net funded status report?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary change in the earmarking of special project water infrastructure grants by Congress between FY2004 and FY2011?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What criteria must a program meet to qualify for MYP, according to 10 U.S.C. 2306b, in order to ensure that the minimum need for the items to be purchased remains substantially unchanged during the contract?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary reason for the delay in achieving full operational capability (FOC) for the LSCMS program, according to FEMA officials?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical consideration for DHS contracting officers when awarding contracts for end products subject to the Buy American Act requirements, based on the training and tools they received?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What would be a significant challenge for USDA in controlling and containing an FMD outbreak, according to the USDA documents and industry representative?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a key implication of the Trump Administration's budget requests for the Entrepreneurial Development Initiative and the HUBZone program, considering the SBA's expenditures for the initiative have often been less than the amount appropriated?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical factor in determining whether a family's plan of safe care should include referrals to substance use treatment programs, as reported by CPS officials in the three states visited?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "According to Table 5, which of the following individuals, in addition to Will Simerl, made significant contributions to the report?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary motivation behind President Trump's proclamation recognizing the Golan Heights as part of the State of Israel?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The Federal Trade Commission (FTC) has the authority to impose civil monetary penalties for violations of certain privacy statutes and regulations, but it has not promulgated trade regulation rules under section 5 specific to privacy. What is the typical process by which federal agencies, like the FTC, develop and issue regulations to implement statutory authorities?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The Department of Defense is required to ensure that management, technical, and contracting personnel involved in the award or administration of transactions under section 2371b are afforded opportunities for adequate education and training. However, the Department is also authorized to carry out prototype projects that may involve the use of sensitive information, including technical information submitted on a confidential basis. Which of the following is a potential consequence of the Department's obligation to provide education and training to personnel involved in the administration of transactions, while also carrying out prototype projects that may involve the use of sensitive information?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The Department of Defense's (DOD) use of Overseas Contingency Operations (OCO) funding has been subject to various changes and guidance over the years. What is a key aspect of the DOD's OCO funding that was clarified in 2009, according to the Office of Management and Budget (OMB)?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the most accurate way to measure FHA's market share, considering the different time periods and types of mortgages involved?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the regulatory burden faced by community banks and credit unions compared to larger banks, based on the criteria developed by the FDIC, officials from the Independent Community Bankers Association, and the Office of the Comptroller of the Currency?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a key factor in determining the type of disaster assistance provided by the Department of Defense (DOD) to overseas disasters?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the trend in NIV adjudications for temporary workers and tourist/business visitors from fiscal years 2012 to 2017, based on the information provided?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical factor that explains why VA's progress toward closing data centers and realizing associated cost savings has lagged behind other covered agencies, according to the reports issued by the department?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyzing the USAID's Global Climate Change Initiative adaptation funding activities, what can be inferred about the relationship between climate change and migration in the region of Africa, where most of the activities were located?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A company offers two versions of a deodorant, one with a floral scent and the other with a masculine scent. The company charges $5 for the floral-scented deodorant and $7 for the masculine-scented deodorant. The company expects that women will be willing to pay more for the floral-scented deodorant than men will be willing to pay for the masculine-scented deodorant. However, the company also offers a \"unisex\" version of the deodorant that is priced at $6. Which of the following statements is most consistent with the company's pricing strategy?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The majority opinion in NIFLA v. Sebelius suggests that content neutrality principles may be relevant in the commercial sphere, but this view is challenged by Justice Breyer's dissent. Which of the following statements best captures the implications of the majority's position on content neutrality in the commercial sphere?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was a key factor in USDA's shift from relying solely on stamping out to including vaccination strategies in its FMD response plan?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a potential consequence of President Duque's authorization of police to confiscate and destroy any quantity of drugs found on persons in possession of them, given the 1994 Colombian Constitutional Court ruling on personal use of drugs?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary purpose of the regulatory action that restricts certain techniques used in inversion transactions, such as \"decontrolling\"?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a key benefit of the \"rooming-in\" practice in a neonatal withdrawal center, as described by health care providers?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary reason why DHS's corrective actions to address the nine previously reported recommendations related to NCPS were deemed effective?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The Supreme Court's decision in Zauderer v. American Booksellers Association, Inc. established that commercial speech is protected by the First Amendment, but what is the key distinction between the requirements for \"factual\" and \"uncontroversial\" information in this context?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a likely consequence of the 2019 proposed rule on the number of employees currently exempt under the EAP exemptions who would no longer be exempt?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the net effect on the Department of Homeland Security's (DHS) budget authority for FY2019, considering the Senate Appropriations Committee's reported bill and the House Appropriations Committee's marked-up bill?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the Navy's efforts to update its sustainment strategies for legacy aircraft, and the Air Force's regular review of sustainment metrics for fixed-wing aircraft, what can be inferred about the current state of aircraft availability for both services?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was a significant consequence of the 2007 UPS withdrawal from the CSPF, which ultimately affected the plan's ability to recover from the 2008 market downturn?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a key factor in determining the salary range for Commissioned Corps officers working at IHS facilities?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a potential drawback of the dual-hatted safety technical authority in the Commercial Crew Program, according to the provided information?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a key implication of the Department of State's (State) discussion of climate change on migration in its regional bureau strategies, as described in the report?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary purpose of the $3 billion allocated to the Department of Homeland Security (DHS) and Coast Guard in the FY2001 emergency funding?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A state's lead testing program is considered successful if it meets the following criteria: (1) the state has a comprehensive plan in place for testing and remediation of lead in school drinking water, (2) the state has communicated with all affected school districts and notified the public about testing and remediation efforts, and (3) the state has taken corrective action to address any lead contamination found in school drinking water.\n\nWhich of the following statements best describes the implications of a state's EPA regional office being located in a city that has a high rate of lead contamination in its drinking water?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a likely consequence of the humanitarian crisis in Venezuela, given the country's refusal of most international humanitarian assistance, and the subsequent mass exodus of migrants to Colombia?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical step that the Coast Guard can take to ensure compliance with VOW Act requirements and improve the effectiveness of the Transition Assistance Program (TAP)?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a likely outcome of the regulators' decision to reduce the frequency of safety-and-soundness examinations for institutions that qualify for less frequent examinations?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a likely consequence of the Colombian government's decision to shift back to a stricter counterdrug approach, as recommended by President Duque and his vice president, Marta Luc\u00eda Ram\u00edrez?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was a significant challenge faced by DHS in migrating the TRIO components to IBC, according to DHS officials and TRIO project documentation?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the monitoring documentation practices of USDA and USAID based on the information provided?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a significant challenge for the U.S. Department of State in filling vacant specialist positions at overseas posts?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The United States has taken steps to ensure that Japan and the Philippines share a common understanding of potential U.S. actions under Article IV of the U.S.-Japan Treaty on Mutual Cooperation and Security and the 1951 U.S.-Philippines mutual defense treaty in the event of a crisis or conflict over the Senkaku Islands and maritime territories in the South China Sea (SCS) and East China Sea (ECS). However, the extent to which these steps have been successful in balancing ambiguity and explicitness in communications to various parties regarding potential U.S. actions remains unclear. What is the primary concern for the United States in its communications to China regarding potential U.S. actions under the two treaties in connection with maritime territorial disputes in the SCS and ECS?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical factor that contributed to the challenges regarding availability of primary traveler screening applications at the US border, as identified by the DHS Office of Inspector General (OIG)?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the consistency of tobacco promotion guidance across USDA and Commerce agencies, given that officials in 21 of 24 offices overseas were aware of the restrictions, but two State offices were not aware of the restrictions despite never providing services to U.S. tobacco companies?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a potential challenge to the long-term success of the National Popular Vote (NPV) initiative, given the current dynamics in Republican-controlled state legislatures?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical factor that agencies should consider when designing performance information systems to ensure that performance data is both useful and used?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for revising the selection criteria for the first focus group of community banks, according to the report?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a significant challenge faced by OFCCP in its efforts to hold federal technology contractors responsible for affirmative action and non-discrimination, based on the information provided?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the reliability of data on RAD-converted properties from the HUD public housing and Section 8 household data?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a key implication of the State Department's funding discretion for the Rangel and Pickering programs, as outlined in the Department of State Authorities Act, 2017, and the subsequent legislation P.L. 116-6?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The proposed exemption for \"low profit\" firms in the UK DST could create equity concerns for foreign MNCs, as they would not be eligible for the exemption if they are not subject to the UK corporate income tax. However, if the exemption is based on global consolidated profits, it could create administrative issues for the private sector, as it may require digital service providers to collect and report data on their customers' jurisdictions. Which of the following statements best summarizes the potential impact of the UK DST on the private sector?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyzing China's approach to maritime disputes in the South China Sea (SCS) and East China Sea (ECS), what can be inferred about the significance of the EEZ dispute from the U.S. perspective?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the outcome for federal agencies and activities funded in the seven regular appropriations bills that were not funded under a continuing resolution (CR) at the end of FY2018?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical factor that could lead to an increase in black lung beneficiaries in the near term, according to HHS officials?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of public university disciplinary procedures, a student who has been found responsible for sexual misconduct under Title IX may argue that the university's handling of their case violates the Due Process Clause of the Fourteenth Amendment. What is the minimum procedural requirement that the university must meet to avoid a constitutional challenge, according to the Supreme Court's balancing test in Mathews v. Eldridge?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary mechanism by which FERC ensures dam safety during relicensing, given the frequency of inspections and the likelihood of identifying previously unknown major safety issues?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical consideration for NASA to ensure that its prioritization of scarce fiscal resources does not lead to a loss of capacity, capability, and human resources in scientific disciplines and technological areas?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a necessary step in the process of discharging a committee from consideration of an unreported nomination, according to Senate Rule XVII?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A study published in the American Journal on Addictions found that the Neonatal Abstinence Scoring System (NAS) and the MOTHER NAS Scale are effective in assessing neonatal abstinence syndrome (NAS). However, another study published in the Journal of Perinatal and Neonatal Nursing found that the NAS is not a reliable predictor of NAS in infants born to mothers who received methadone treatment. Which of the following conclusions can be drawn from these studies?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical oversight in FNS's approach to identifying and targeting high-risk retailers, as recommended in the 2006 report, and how has FNS addressed this issue since then?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was a key factor in OJP's decision to consolidate their space, and how did it impact their utilization rate?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical step that the Pipeline Security Branch should take to ensure it is using its limited resources to review pipeline systems with greater risk, according to the revised Pipeline Security Guidelines?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyze the impact of the surcharge on the railroad unemployment insurance account's interest income and the employer tax rate.",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical oversight that the covered agencies must address to effectively implement the cybersecurity requirements outlined in Executive Order 13833, as highlighted in the February 2017 update to the high-risk series?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A recent report by the National Interest suggests that the US needs to step up its game in the South China Sea to counter China's growing military presence. According to the report, the US should consider a \"White Hull Approach\" to counter China's fortified islands in the region. However, this approach would require significant changes to the US Coast Guard's current operations. What is a key consideration for the US to consider when implementing a White Hull Approach?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical factor that the Navy's readiness recovery efforts are likely to miss, given the significant challenges it faced in achieving its goals for carrier strike groups and amphibious ready groups?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The Supreme Court's interpretation of the \"at pleasure\" provision in federal banking statutes has led to a significant expansion of the preemptive scope of these laws. However, this expansion has also been limited by the recognition of certain general limits on the preemptive scope of federal banking statutes and regulations. In Gutierrez v. Wells Fargo Bank, NA, the Ninth Circuit held that federal banking regulations did not preempt a generally applicable state law prohibiting certain types of fraud. What is the primary reason why the Ninth Circuit's decision in Gutierrez v. Wells Fargo Bank, NA, did not preempt the state law claim?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyzing the budget execution data for the active component's MILCON appropriations, what can be inferred about the Army's spending patterns for fiscal years 2010 through 2016, considering the unexpended and unobligated balances reported in Tables 10 through 12?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical factor in the development of connected vehicle technologies that will enable crossing infrastructure or trains to communicate wirelessly with vehicles, according to FRA officials?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a key objective of WMATA's new capital planning process, which is expected to be adopted and implemented by June 30, 2019?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the funding of the Small Business Administration's (SBA) Advocacy office from the information provided about the SBA's entrepreneurial development (ED) noncredit programs and the congressional appropriations for these programs?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a potential consequence of the Air Force Research Laboratory not being able to fully utilize the laboratory initiated research authority due to service-specific obstacles?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a key consideration for the Director of OMB when revising and publicly issuing guidance to implement the federal program inventory, as recommended in this report?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical factor in determining the key factors, metrics, and processes used by the TRIO components in developing and evaluating DHS's alternative solutions and final choice for financial system modernization?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical oversight in the current system for collecting and analyzing information on reasons why restitution is not ordered, as revealed by the analysis of USSC data from fiscal years 2014 through 2016?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the impact of the extended validity period of tourist and business visitor visas on Chinese economic growth, based on the data provided?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical consideration for the exercise of authority under Section 1702(c) of Title 41, as outlined in the provided text, particularly when exceeding the $500,000,000 budget threshold?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary concern regarding the cost estimate for the second Ford-Class aircraft carrier, CVN 79, as stated in the June 2017 GAO report?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a significant challenge faced by community banks and credit unions in complying with the HMDA regulations, according to the representatives of these institutions?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What might be a potential reason why some U.S. persons may have filed Forms 8938 unnecessarily, based on the information provided about the confusion among focus group participants?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The U.S. Navy's approach to the Spratly Islands is best described as a case of \"excessive claims\" because it:",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The WTO's dispute settlement system is considered a key success of the multilateral trading system, but it has been criticized for its limitations. What is a potential drawback of the DSU's reliance on panel recommendations, which can be adopted by the DSB unless all parties agree to block them?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary purpose of the additional $58.0 million allocated in Title IV of P.L. 116-6 for WIFIA, as compared to the amount allocated in Title II?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a potential benefit of procuring aircraft carriers on 3- or 3.5-year centers, as opposed to the current 10-year centers, according to the October 2018 CBO report?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a key requirement for practitioners who reach the 275-patient level under a Drug Addiction Treatment Act of 2000 (DATA 2000) waiver?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical oversight in the current system for monitoring beneficiary health and welfare in HCBS programs, according to CMS's 2014 requirements?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a likely consequence of the United States facing adverse decisions in WTO disputes, particularly if it has a high chance of winning the cases it initiates?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the most likely outcome for the VA's records management program if the Department Records Office fails to update and maintain the VACO handbook and the Records Control Schedule, as recommended by NARA?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical factor that has contributed to the decrease in total operating and support (O&S) costs for the C-2A aircraft from fiscal year 2011 to fiscal year 2016?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the testing practices of charter school districts in the District of Columbia, based on the information provided about the DC Public Charter School Board's (DC PCSB) testing program?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What strategic implications would Chinese control of the South China Sea (SCS) have for the United States, assuming a non-conflictual scenario?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The Small Business Administration's (SBA) definition of small business is not absolute, but rather varies from industry to industry. According to the House Committee on Banking and Currency's report accompanying H.R. 5141, the Small Business Act of 1953, what is the primary reason for this variation in definition?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical consideration for IRS officials when consolidating data from various databases, such as IMF, IRTF, MTRDB, ICMM-FIR, and IPM, for analysis and report preparation?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical consideration for airports that are eligible for the 95% federal share of project costs under the 2018 FAA reauthorization act?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The Trump Administration's decision to impose new sanctions on Venezuela's state-owned oil company, Petr\u00f3leos de Venezuela (Pdvsa), under the International Emergency Economic Powers Act (IEEPA), was motivated by a desire to:",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the most likely outcome for the Trust Fund's debt repayment schedule between fiscal years 2020 and 2040, given the projected decline in domestic coal production and the scheduled 2019 tax rate decrease?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical consideration for FEMA when managing its disaster and non-disaster grant programs, given the agency's complex grant management environment and the varying processes for these different types of grants?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the outcome for the clean water SRF program in the FY2007 budget request, considering the President's proposed funding levels and the congressional actions on H.R. 5386?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A state's executive branch is responsible for administering federal elections, but the state's local election systems have varying levels of autonomy. According to the report, what is a key consideration for Members interested in election administration when dealing with these varying levels of autonomy?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A federal agency has submitted a notice-and-comment rulemaking for a general policy statement that lacks legal force. However, the agency has not submitted the statement to Congress as required by the CRA. According to a GAO opinion, what is the likely outcome for the agency's actions, given that the agency has failed to comply with the CRA's submission requirement?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The Air Force and Navy have established goals for aircraft availability, which are measured by calculating the availability of their fleets' aircraft. However, the reasons for aircraft not being available or able to conduct missions are tracked separately by each service. What is a key difference in how the Air Force and Navy track the reasons for aircraft unavailability?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a crucial step in reducing the risk of unintentional conflict between Chinese and U.S. maritime vessels, as suggested by the growing use of maritime law enforcement vessels to enforce disputed maritime claims?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical factor in determining the total amount of funding allocated to states for the Fresh Fruit and Vegetable Program (FFVP) in a given year, considering the mandatory transfer of funds from USDA's Section 32 program and the inflation-indexed funding?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What type of information does the California Consumer Privacy Act (CCPA) regulate, and how does it differ from the federal patchwork provisions?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the net effect on the FY2007 EPA water infrastructure programs and projects budget due to the rescissions resulting from P.L. 109-54 and P.L. 109-148, as well as the President's request to rescind $2.3 billion from 55 \"lower-priority federal programs and excess funds\"?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What implications does the FAA's failure to reevaluate the probability thresholds upon implementing the revised MPL methodology have for the balance of costs between launch companies and the federal government?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a likely consequence of the Administration's decision to withdraw the proposal to retire the aircraft carrier CVN-75 (Harry S. Truman) and deactivate one of the Navy's carrier air wings around FY2024?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What are the potential implications of the projected increase in LNG demand for bunkering in the maritime sector, and how might this impact the development of new LNG supply and bunkering infrastructure?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a primary factor contributing to the lack of development in northern Sinai, according to Bedouin claims?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The allocation of funds to primary airports under the AIP program is based on the number of passenger boardings during the prior calendar year. However, the allocation formula also takes into account the total landed weight of all-cargo aircraft at cargo service airports. Which of the following statements best describes the relationship between the number of passenger boardings and the total landed weight of all-cargo aircraft in determining the allocation of funds to primary airports?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the utilization of hospital and non-hospital care settings for treating infants with NAS, based on the information provided by stakeholders?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a potential consequence of the FCC's current reliance on Form 477 data for evaluating broadband coverage on tribal lands, given the limitations of this data?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the scope of HHS's efforts to address NAS based on the comprehensive literature review and interviews with agency officials?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a potential consequence of agencies not fully assessing their processes for estimating improper payments, and not following OMB guidance on testing to identify improper payments?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The continuous U-shape boundary line recommended by the project team as a replacement for the nine-dash line in the South China Sea is likely to have a significant impact on the territorial claims of which countries?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A worker who loses both hands and is unable to perform any work that requires manual dexterity is considered totally disabled under the LHWCA. However, if the worker is able to adapt to a job that requires only verbal communication, such as a customer service representative, would the worker still be considered totally disabled?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the role of the GAO in advising Congress on the applicability of the CRA, based on the information provided?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary reason why the Trust Fund would need an additional cash inflow in addition to debt forgiveness, assuming the amount of debt forgiveness is greater than the amount of debt outstanding?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The Navy's procurement of DDG-51s and DDG-1000s has implications for the development of the Aegis BMD system. What is a key difference between the two ship classes in terms of their BMD capabilities?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The Supreme Court's analysis of the unlicensed notice in NIFLA involved a heightened standard of review, which is typically applied when a regulation unduly burdens protected speech. However, the Court also recognized that a provision may not qualify for Zauderer's reasonableness review, in which case a court may review the challenged regulation under Central Hudson. In this scenario, the provision in question would likely be subject to a more stringent standard of review, as it does not qualify for Zauderer's reasonableness review. What is the most likely standard of review to be applied to the provision in question?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  }
+]

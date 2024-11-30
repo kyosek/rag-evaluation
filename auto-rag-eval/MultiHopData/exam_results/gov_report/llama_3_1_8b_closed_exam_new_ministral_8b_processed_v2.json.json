@@ -1,0 +1,16 @@
+[
+  {
+    "question": "Based on the information provided, which of the following statements is true about the treatment of infants with NAS in non-hospital settings?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the impact of the executive order on the pay adjustment for Members of Congress in 2013?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  }
+]
