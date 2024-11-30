@@ -108,6 +108,7 @@ class ExamSolver:
                 "model_answer": predicted_answer,
                 "correct_answer": question.correct_answer,
                 "is_correct": predicted_answer == question.correct_answer,
+                "number_of_hops": len(question.documentation)
             }
 
             # Add the question result to the list
