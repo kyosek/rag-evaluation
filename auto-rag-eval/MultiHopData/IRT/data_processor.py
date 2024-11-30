@@ -7,12 +7,13 @@ from py_irt.training import IrtModelTrainer
 
 
 # Load your exam results from JSON
-with open('auto-rag-eval/MultiHopData/gov_report/exam_results/gemma2-27b_open_gemma2_9b_single_hop_exam_processed.json.json', 'r') as f:
+with open('auto-rag-eval/MultiHopData/gov_report/exam_results/llama_3_1_8b_open_gemma2_9b_single_hop_exam_processed.json.json', 'r') as f:
     data_single = json.load(f)
-with open('auto-rag-eval/MultiHopData/gov_report/exam_results/gemma2-27b_closed_exam_new_gemma2_9b_processed_v2.json.json', 'r') as f:
+with open('auto-rag-eval/MultiHopData/gov_report/exam_results/llama_3_1_8b_open_exam_new_gemma2_9b_processed_v2.json.json', 'r') as f:
     data_multi = json.load(f)
 
-exam_data = data_multi + data_single
+# exam_data = data_multi + data_single
+exam_data = data_multi
 
 # Step 2: Transform data into py-irt format
 responses = {}
