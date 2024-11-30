@@ -7,12 +7,12 @@ from py_irt.training import IrtModelTrainer
 
 
 # Load your exam results from JSON
-with open('auto-rag-eval/MultiHopData/gov_report/exam_results/gemma2-27b_closed_exam_new_gemma2_9b_processed_v2_unfiltered.json.json', 'r') as f:
-    data_single = json.load(f)
 with open('auto-rag-eval/MultiHopData/gov_report/exam_results/gemma2-27b_open_gemma2_9b_single_hop_exam_processed.json.json', 'r') as f:
+    data_single = json.load(f)
+with open('auto-rag-eval/MultiHopData/gov_report/exam_results/gemma2-27b_closed_exam_new_gemma2_9b_processed_v2.json.json', 'r') as f:
     data_multi = json.load(f)
 
-exam_data = data_multi.append(data_single, ignore_index=True)
+exam_data = data_multi + data_single
 
 # Step 2: Transform data into py-irt format
 responses = {}
@@ -21,7 +21,10 @@ for idx, entry in enumerate(exam_data):
     item_id = f"item_{idx}"
     is_correct = int(entry["is_correct"])  # Convert boolean to int
     responses[item_id] = is_correct
-    item_hops[item_id] = entry["number_of_hops"]  # Store number_of_hops
+    try:
+        item_hops[item_id] = entry["number_of_hops"]
+    except:
+        item_hops[item_id] = 1
 
 # Wrap in a subject response dictionary
 dataset = [{"subject_id": "LLM_1", "responses": responses}]
@@ -57,4 +60,12 @@ for idx, diff in enumerate(item_difficulties):
 print("\nDifficulty Analysis by Number of Hops:")
 for num_hops, difficulties in sorted(hops_difficulty.items()):
     avg_difficulty = sum(difficulties) / len(difficulties)
-    print(f"Number of Hops: {num_hops}, Average Difficulty: {avg_difficulty:.3f}, Samples: {len(difficulties)}")
+    min_difficulty = min(difficulties)
+    max_difficulty = max(difficulties)
+    print(f"""
+        Number of Hops: {num_hops},
+        Average Difficulty: {avg_difficulty:.3f},
+        Min Difficulty: {min_difficulty:.3f},
+        Max Difficulty: {max_difficulty:.3f}, 
+        Samples: {len(difficulties)}"""
+        )
