@@ -98,19 +98,25 @@ def print_distribution(data):
 
 
 if __name__ == "__main__":
-    task_domain = "gov_report"
-    file_name = "exam_new_gemma2_9b"
+    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    exam_file_names = ["exam_new_llama_3_2_3b", "exam_new_gemma2_9b", "exam_new_ministral_8b"]
     
-    input_file = f"auto-rag-eval/MultiHopData/{task_domain}/exams/{file_name}.json"  # Replace with your file path
-    sample_size = 600  # Replace with desired sample size
-    
-    # Process the data
-    processed_data = process_json_data(input_file, sample_size)
-    
-    # Print results
-    print(f"Total entries after processing: {len(processed_data)}")
-    print_distribution(processed_data)
-    
-    # Optionally save processed data
-    with open(f"auto-rag-eval/MultiHopData/{task_domain}/exams/{file_name}_processed_v2_unfiltered.json", 'w') as f:
-        json.dump(processed_data, f, indent=2)
+    for task_domain in task_domains:
+        for exam_file_name in exam_file_names:
+            try:
+                print(f"Processing {task_domain} - {exam_file_name}")
+                input_file = f"auto-rag-eval/MultiHopData/{task_domain}/exams/{exam_file_name}.json"
+                sample_size = 600
+                
+                # Process the data
+                processed_data = process_json_data(input_file, sample_size)
+                
+                # Print results
+                print(f"Total entries after processing: {len(processed_data)}")
+                print_distribution(processed_data)
+                
+                # Optionally save processed data
+                with open(f"auto-rag-eval/MultiHopData/{task_domain}/exams/{exam_file_name}_processed_v2.json", 'w') as f:
+                    json.dump(processed_data, f, indent=2)
+            except:
+                pass
