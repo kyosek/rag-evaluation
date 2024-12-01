@@ -125,16 +125,7 @@ class ExamSolver:
         2. Analyze the choices
         3. Select the most appropriate answer
         4. Respond with ONLY the letter (A, B, C, or D) of the correct answer
-        <</SYS>>
-
-        Question: {question.question}
-
-        Choices:
-        {formatted_choices}
         
-        Supporting documents:
-        {context}
-
         Instructions:
         - You must respond with exactly one letter: A, B, C, or D
         - Do not include any explanation, period, or additional text
@@ -146,7 +137,17 @@ class ExamSolver:
         C
         D
 
-        Your answer (one letter only): [/INST]</s>
+        Your answer (one letter only): [/INST]
+        <</SYS>>
+
+        Question: {question.question}
+
+        Choices:
+        {formatted_choices}
+        
+        Supporting documents:
+        {context}
+        </s>
         """
 
         # Get model response
