@@ -466,7 +466,7 @@ class MCQGenerator:
                 verdicts.append(verdict)
                 
                 # Check if the question meets the hop requirement
-                if len(verdict['required_chunks']) == target_hops:
+                if len(verdict['required_chunks']) >= target_hops:
                     break
                 
                 # Regenerate question with feedback
@@ -487,7 +487,7 @@ class MCQGenerator:
             'verification_attempts': verification_attempts,
             'verification_verdicts': verdicts,
             'final_verdict': verdicts[-1] if verdicts else None,
-            'meets_hop_requirement': (len(verdicts[-1]['required_chunks']) == target_hops) if verdicts else False
+            'meets_hop_requirement': (len(verdicts[-1]['required_chunks']) >= target_hops) if verdicts else False
         })
         
         return current_question
@@ -613,10 +613,10 @@ if __name__ == "__main__":
     assert sample_size < target_hop_number * 4
     
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    task_domains = ["wiki"]
+    task_domains = ["gov_report", "hotpotqa"]
     
-    model_names = ["llama_3_2_3b", "gemma2_9b", 'ministral_8b']
-    # model_names = ["ministral_8b"]
+    # model_names = ["llama_3_2_3b", "gemma2_9b", 'ministral_8b']
+    model_names = ["ministral_8b"]
     
     # task_domain = "gov_report"
     for model_name in model_names:
