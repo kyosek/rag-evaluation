@@ -1,10 +1,13 @@
 import numpy as np
 from scipy.optimize import minimize
 from dataclasses import dataclass
-from typing import List, Dict, Optional, Union
+from typing import List, Dict, Optional, Union, Tuple
 import json
 from scipy.stats import norm
 import matplotlib.pyplot as plt
+import seaborn as sns
+from pathlib import Path
+
 
 @dataclass
 class ExamResult:
@@ -194,6 +197,12 @@ class MultihopIRTModel:
         self.num_llms = len(self.llm_map)
         self.num_retrievers = len(self.retriever_map)
         self.num_models = len(exam_results)
+        self.model_colors = {}
+        
+        colors = plt.cm.tab20(np.linspace(0, 1, len(exam_results)))
+        for i, result in enumerate(exam_results):
+            key = f"{result.llm_name}_{result.retriever_name}"
+            self.model_colors[key] = colors[i]
         
     def compute_theta(self, theta_params: np.array) -> np.array:
         """Compute ability parameters for each model"""
@@ -280,78 +289,398 @@ class MultihopIRTModel:
             
         return information
     
-    def plot_results(self, params: Dict[str, np.array], save_path: Optional[str] = None):
-        """Plot IRT analysis results"""
+    def save_analysis(self, params: Dict[str, np.array], output_path: str):
+        """Save analysis results to a JSON file"""
+        # Get unique hop counts
+        unique_hops = sorted(list(set(hop for result in self.exam_results for hop in result.num_hops)))
+        
+        # Calculate average difficulty and discrimination by hop count
+        hop_stats = {}
+        for hop_count in unique_hops:
+            # Get indices for questions with this hop count
+            indices = [i for i, hops in enumerate(self.exam_results[0].num_hops) if hops == hop_count]
+            
+            hop_stats[str(hop_count)] = {
+                "avg_difficulty": float(np.mean(params['difficulty'][indices])),
+                "avg_discrimination": float(np.mean(params['discrimination'][indices])),
+                "num_questions": len(indices)
+            }
+        
+        # Prepare model ability results
+        model_abilities = {}
+        for result in self.exam_results:
+            model_key = f"{result.llm_name}"
+            if result.retriever_name:
+                model_key += f"_{result.retriever_name}"
+            
+            idx = self.exam_results.index(result)
+            model_abilities[model_key] = float(params['theta'][idx])
+        
+        # Prepare component abilities
+        component_abilities = {
+            "llms": {
+                llm: float(params['theta_params'][idx])
+                for llm, idx in self.llm_map.items()
+            },
+            "retrievers": {
+                ret: float(params['theta_params'][self.num_llms + idx])
+                for ret, idx in self.retriever_map.items()
+            } if self.retriever_map else {}
+        }
+        
+        # Overall exam statistics
+        overall_stats = {
+            "avg_difficulty": float(np.mean(params['difficulty'])),
+            "avg_discrimination": float(np.mean(params['discrimination'])),
+            "total_questions": self.num_questions
+        }
+        
+        analysis_results = {
+            "overall_stats": overall_stats,
+            "hop_analysis": hop_stats,
+            "model_abilities": model_abilities,
+            "component_abilities": component_abilities,
+        }
+        
+        # Create directory if it doesn't exist
+        Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+        
+        with open(output_path, 'w') as f:
+            json.dump(analysis_results, f, indent=2)
+    
+    def plot_results(self, params: Dict[str, np.array], save_path: Optional[str] = None, title_prefix: str = ""):
+        """Enhanced plot_results with new visualization functions"""
         theta_range = np.linspace(-3, 3, 100)
         
+        plt.style.use('seaborn-v0_8-poster')
         fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(20, 16))
         
         # Item characteristic curves
         for i in range(self.num_questions):
-            p = self.irt_3pl(
-                theta=theta_range, 
-                a=params['discrimination'][i], 
-                b=params['difficulty'][i]
-            )
-            ax1.plot(theta_range, p, alpha=0.3)
-            
-        # Mark model abilities
-        for i, theta in enumerate(params['theta']):
-            ax1.scatter(theta, 0, marker='x', color='red')
-            
-        ax1.set_title('Item Characteristic Curves')
-        ax1.set_xlabel('Ability (θ)')
-        ax1.set_ylabel('P(correct)')
+            p = self.irt_3pl(theta=theta_range, a=params['discrimination'][i], b=params['difficulty'][i])
+            ax1.plot(theta_range, p, alpha=0.3, color='gray')
+        
+        # Use new plot_model_abilities for enhanced visualization
+        self.plot_model_abilities(ax1, theta_range, params, self.model_colors)
+        ax1.set_title(f'{title_prefix}Item Characteristic Curves\nProbability of Correct Response vs. Ability')
+        ax1.set_xlabel('Model Ability (θ)')
+        ax1.set_ylabel('Probability of Correct Response')
         
         # Information curves
         info = self.compute_information(params, theta_range)
         for i in range(self.num_questions):
-            ax2.plot(theta_range, info[i], alpha=0.3)
-            
-        # Mark model abilities
-        for theta in params['theta']:
-            ax2.scatter(theta, 0, marker='x', color='red')
-            
-        ax2.set_title('Item Information Curves')
-        ax2.set_xlabel('Ability (θ)')
-        ax2.set_ylabel('Information')
+            ax2.plot(theta_range, info[i], alpha=0.3, color='gray')
         
-        # Average information by number of hops
-        unique_hops = np.unique(self.exam_results[0].num_hops)
-        for hops in unique_hops:
-            # Get indices for questions with this hop count
-            hop_indices = [i for i, h in enumerate(self.exam_results[0].num_hops) if h == hops]
-            if hop_indices:
-                mean_info = info[hop_indices].mean(axis=0)
-                ax3.plot(theta_range, mean_info, label=f'{hops} hops')
-            
-        ax3.set_title('Average Information by Hop Count')
-        ax3.set_xlabel('Ability (θ)')
-        ax3.set_ylabel('Information')
-        ax3.legend()
+        # Use plot_model_abilities again for information curves
+        self.plot_model_abilities(ax2, theta_range, params, self.model_colors)
+        ax2.set_title(f'{title_prefix}Item Information Curves\nMeasurement Precision Across Ability Levels')
+        ax2.set_xlabel('Model Ability (θ)')
+        ax2.set_ylabel('Information (Measurement Precision)')
         
-        # Ability components
-        llm_abilities = params['theta_params'][:self.num_llms]
-        ret_abilities = params['theta_params'][self.num_llms:]
+        # Average information by hop count
+        self.plot_hop_information(ax3, info, theta_range)
         
-        ax4.bar(range(self.num_llms), llm_abilities, label='LLM')
-        if self.num_retrievers > 0:
-            ax4.bar(
-                range(self.num_retrievers), 
-                ret_abilities,
-                label='Retriever',
-                alpha=0.5
-            )
-            
-        ax4.set_title('Model Component Abilities')
-        ax4.set_xlabel('Model Index')
-        ax4.set_ylabel('Ability Parameter')
-        ax4.legend()
+        # Use new plot_component_abilities for enhanced visualization
+        self.plot_component_abilities(ax4, params)
         
         plt.tight_layout()
         if save_path:
-            plt.savefig(save_path)
+            plt.savefig(save_path, dpi=300, bbox_inches='tight')
         plt.show()
+
+    def plot_model_abilities(self, ax, theta_range, params, model_colors):
+        """Plot model abilities with distinct colors"""
+        for i, (result, theta) in enumerate(zip(self.exam_results, params['theta'])):
+            label = f"{result.llm_name}"
+            if result.retriever_name:
+                label += f" ({result.retriever_name})"
+            
+            key = f"{result.llm_name}_{result.retriever_name}"
+            ax.scatter(theta, 0, marker='x', color=model_colors[key], 
+                      s=100, label=label)
+        
+        ax.legend(bbox_to_anchor=(1.05, 1), loc='upper left', borderaxespad=0)
+
+    def plot_component_abilities(self, ax, params):
+        """Plot component abilities with stacked bars"""
+        llm_abilities = params['theta_params'][:self.num_llms]
+        ret_abilities = params['theta_params'][self.num_llms:]
+        
+        x = np.arange(self.num_llms)
+        width = 0.35
+        
+        # Create mapping of LLM names to their results
+        llm_results = {}
+        for result in self.exam_results:
+            if result.llm_name not in llm_results:
+                llm_results[result.llm_name] = []
+            llm_results[result.llm_name].append(result)
+        
+        # Plot LLM abilities
+        llm_bars = ax.bar(x, llm_abilities, width, label='LLM Base Ability',
+                        color='skyblue')
+        
+        # Plot retriever abilities as stacked bars
+        if self.num_retrievers > 0:
+            for llm_idx, (llm_name, results) in enumerate(llm_results.items()):
+                for result in results:
+                    if result.retriever_name:
+                        ret_idx = self.retriever_map[result.retriever_name]
+                        ax.bar(x[llm_idx], ret_abilities[ret_idx], width,
+                            bottom=llm_abilities[llm_idx],
+                            label=f'Retriever: {result.retriever_name}',
+                            color='lightgreen', alpha=0.7)
+        
+        ax.set_xticks(x)
+        ax.set_xticklabels([llm for llm in self.llm_map.keys()], rotation=45)
+        ax.set_title('Model Component Abilities')
+        ax.set_xlabel('Language Models')
+        ax.set_ylabel('Ability Parameter')
+        
+        # Remove duplicate labels in legend
+        handles, labels = ax.get_legend_handles_labels()
+        by_label = dict(zip(labels, handles))
+        ax.legend(by_label.values(), by_label.keys())
+    
+    def plot_hop_information(self, ax, info, theta_range):
+        """Plot average information by hop count"""
+        unique_hops = np.unique(self.exam_results[0].num_hops)
+        colors = plt.cm.viridis(np.linspace(0, 1, len(unique_hops)))
+        
+        for hop_num, color in zip(unique_hops, colors):
+            hop_indices = [i for i, h in enumerate(self.exam_results[0].num_hops) 
+                         if h == hop_num]
+            if hop_indices:
+                mean_info = info[hop_indices].mean(axis=0)
+                ax.plot(theta_range, mean_info, label=f'{hop_num} hops',
+                       color=color, linewidth=2)
+        
+        ax.set_title('Average Information by Hop Count')
+        ax.set_xlabel('Model Ability (θ)')
+        ax.set_ylabel('Average Information')
+        ax.legend(title='Number of Hops')
+    
+    def compare_hop_difficulties(self, other_model: 'MultihopIRTModel', 
+                               params: Dict[str, np.array], 
+                               other_params: Dict[str, np.array],
+                               save_path: Optional[str] = None):
+        """Compare difficulties between two exam sets (e.g., multihop vs single-hop)"""
+        # Create comparison plot
+        plt.figure(figsize=(12, 8))
+        
+        # Calculate statistics for both models
+        def get_hop_stats(model, params):
+            unique_hops = np.unique(model.exam_results[0].num_hops)
+            stats = {}
+            for hops in unique_hops:
+                indices = [i for i, h in enumerate(model.exam_results[0].num_hops) if h == hops]
+                stats[hops] = {
+                    'difficulty': np.mean(params['difficulty'][indices]),
+                    'std': np.std(params['difficulty'][indices]),
+                    'count': len(indices)
+                }
+            return stats
+        
+        stats1 = get_hop_stats(self, params)
+        stats2 = get_hop_stats(other_model, other_params)
+        
+        # Plot difficulties
+        x = np.arange(max(len(stats1), len(stats2)))
+        width = 0.35
+        
+        plt.bar(x - width/2, [stats1[h]['difficulty'] for h in stats1], 
+                width, label='Exam Set 1', color='skyblue')
+        plt.bar(x + width/2, [stats2[h]['difficulty'] for h in stats2], 
+                width, label='Exam Set 2', color='lightgreen')
+        
+        plt.xlabel('Number of Hops')
+        plt.ylabel('Average Difficulty')
+        plt.title('Comparison of Question Difficulties by Hop Count')
+        plt.xticks(x, list(stats1.keys()))
+        plt.legend()
+        
+        if save_path:
+            plt.savefig(save_path, dpi=300, bbox_inches='tight')
+        plt.show()
+        
+        # Return statistical comparison
+        return stats1, stats2
+
+
+def compare_exam_sets(model1: MultihopIRTModel, model2: MultihopIRTModel,
+                     save_path: Optional[str] = None):
+    """Compare two exam sets and visualize results"""
+    # Fit models separately
+    params1 = model1.fit()
+    params2 = model2.fit()
+    
+    # Calculate statistics for each exam set
+    def get_exam_stats(model, params):
+        difficulties = params['difficulty']
+        discriminations = params['discrimination']
+        
+        # Calculate statistics by hop count
+        hop_stats = {}
+        unique_hops = np.unique(model.exam_results[0].num_hops)
+        
+        for hop_num in unique_hops:
+            hop_indices = [i for i, h in enumerate(model.exam_results[0].num_hops) 
+                         if h == hop_num]
+            
+            if hop_indices:
+                hop_stats[int(hop_num)] = {
+                    'mean_difficulty': float(np.mean(difficulties[hop_indices])),
+                    'std_difficulty': float(np.std(difficulties[hop_indices])),
+                    'mean_discrimination': float(np.mean(discriminations[hop_indices])),
+                    'num_questions': len(hop_indices)
+                }
+        
+        return {
+            'overall_difficulty': float(np.mean(difficulties)),
+            'overall_discrimination': float(np.mean(discriminations)),
+            'num_questions': len(difficulties),
+            'hop_stats': hop_stats
+        }
+    
+    stats1 = get_exam_stats(model1, params1)
+    stats2 = get_exam_stats(model2, params2)
+    
+    # Create visualization
+    plt.figure(figsize=(15, 10))
+    
+    # Plot 1: Overall difficulty comparison
+    plt.subplot(2, 1, 1)
+    labels = ['Exam Set 1', 'Exam Set 2']
+    difficulties = [stats1['overall_difficulty'], stats2['overall_difficulty']]
+    
+    plt.bar(labels, difficulties, color=['skyblue', 'lightgreen'])
+    plt.title('Overall Difficulty Comparison')
+    plt.ylabel('Mean Difficulty Parameter')
+    
+    # Add value labels on bars
+    for i, v in enumerate(difficulties):
+        plt.text(i, v, f'{v:.3f}', ha='center', va='bottom')
+    
+    # Plot 2: Difficulty by hop count
+    plt.subplot(2, 1, 2)
+    
+    # Get all unique hop counts
+    all_hops = sorted(set(list(stats1['hop_stats'].keys()) + 
+                         list(stats2['hop_stats'].keys())))
+    
+    x = np.arange(len(all_hops))
+    width = 0.35
+    
+    # Plot bars for each exam set
+    difficulties1 = [stats1['hop_stats'].get(h, {'mean_difficulty': 0})['mean_difficulty'] 
+                    for h in all_hops]
+    difficulties2 = [stats2['hop_stats'].get(h, {'mean_difficulty': 0})['mean_difficulty'] 
+                    for h in all_hops]
+    
+    plt.bar(x - width/2, difficulties1, width, label='Exam Set 1', color='skyblue')
+    plt.bar(x + width/2, difficulties2, width, label='Exam Set 2', color='lightgreen')
+    
+    plt.xlabel('Number of Hops')
+    plt.ylabel('Mean Difficulty Parameter')
+    plt.title('Difficulty Comparison by Hop Count')
+    plt.xticks(x, all_hops)
+    plt.legend()
+    
+    plt.tight_layout()
+    
+    if save_path:
+        plt.savefig(save_path, dpi=300, bbox_inches='tight')
+    plt.show()
+    
+    return {
+        'exam_set1': stats1,
+        'exam_set2': stats2,
+        'comparison_summary': {
+            'difficulty_difference': stats1['overall_difficulty'] - stats2['overall_difficulty'],
+            'discrimination_difference': stats1['overall_discrimination'] - stats2['overall_discrimination'],
+            'question_count_difference': stats1['num_questions'] - stats2['num_questions']
+        }
+    }
+
+# def load_and_compare_exams(multihop_filepaths: Dict[str, Dict[str, str]], 
+#                           singlehop_filepaths: Dict[str, Dict[str, str]],
+#                           output_dir: str):
+#     """Load and compare multiple exam sets"""
+#     # Load exam results
+#     multihop_results = ExamResult.from_json_files(multihop_filepaths)
+#     singlehop_results = ExamResult.from_json_files(singlehop_filepaths)
+    
+#     # Initialize models
+#     multihop_model = MultihopIRTModel(multihop_results, 
+#                                      num_questions=len(multihop_results[0].responses))
+#     singlehop_model = MultihopIRTModel(singlehop_results, 
+#                                       num_questions=len(singlehop_results[0].responses))
+    
+#     # Fit models
+#     multihop_params = multihop_model.fit()
+#     singlehop_params = singlehop_model.fit()
+    
+#     # Create output directory
+#     Path(output_dir).mkdir(parents=True, exist_ok=True)
+    
+#     # Generate and save individual analyses
+#     multihop_model.plot_results(multihop_params, 
+#                                save_path=f"{output_dir}/multihop_analysis.png",
+#                                title_prefix="Multihop Exam: ")
+#     singlehop_model.plot_results(singlehop_params, 
+#                                 save_path=f"{output_dir}/singlehop_analysis.png",
+#                                 title_prefix="Single-hop Exam: ")
+    
+#     # Compare difficulties
+#     stats1, stats2 = multihop_model.compare_hop_difficulties(
+#         singlehop_model, 
+#         multihop_params, 
+#         singlehop_params,
+#         save_path=f"{output_dir}/difficulty_comparison.png"
+#     )
+    
+#     # Save analyses
+#     multihop_model.save_analysis(multihop_params, f"{output_dir}/multihop_analysis.json")
+#     singlehop_model.save_analysis(singlehop_params, f"{output_dir}/singlehop_analysis.json")
+    
+#     return multihop_model, singlehop_model, multihop_params, singlehop_params
+
+
+def compare_multi_single(multihop_filepaths, singlehop_filepaths):
+    # Load exam results as before
+    multihop_results = ExamResult.from_json_files(multihop_filepaths)
+    singlehop_results = ExamResult.from_json_files(singlehop_filepaths)
+
+    # Initialize models
+    multihop_model = MultihopIRTModel(multihop_results, 
+                                    num_questions=len(multihop_results[0].responses))
+    singlehop_model = MultihopIRTModel(singlehop_results, 
+                                    num_questions=len(singlehop_results[0].responses))
+
+    # Fit models
+    multihop_params = multihop_model.fit()
+    singlehop_params = singlehop_model.fit()
+
+    # Generate enhanced visualizations
+    multihop_model.plot_results(multihop_params, 
+                            save_path="multihop_analysis.png",
+                            title_prefix="Multihop Exam: ")
+
+    singlehop_model.plot_results(singlehop_params,
+                                save_path="singlehop_analysis.png",
+                                title_prefix="Single-hop Exam: ")
+
+    # Compare exam sets
+    comparison_results = compare_exam_sets(
+        multihop_model, 
+        singlehop_model,
+        save_path="exam_comparison.png"
+    )
+
+    print("\nComparison Summary:")
+    print(f"Difficulty Difference: {comparison_results['comparison_summary']['difficulty_difference']:.3f}")
+    print(f"Discrimination Difference: {comparison_results['comparison_summary']['discrimination_difference']:.3f}")
+    print(f"Question Count Difference: {comparison_results['comparison_summary']['question_count_difference']}")
 
 
 if __name__ == "__main__":
@@ -360,7 +689,7 @@ if __name__ == "__main__":
     # filepath='auto-rag-eval/MultiHopData/gov_report/exam_results/llama_3_1_8b_closed_exam_new_llama_3_2_3b_processed_v2.json.json',
     # llm_name='llama3-8b',
     # retriever_name='closed_book'
-# )
+    # )
 
 # Load multiple exam results
     filepaths = {
@@ -377,13 +706,31 @@ if __name__ == "__main__":
             'open_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/gemma2-27b_open_exam_new_llama_3_2_3b_processed_v2.json.json'
         }
     }
-
-    exam_results = ExamResult.from_json_files(filepaths)
-
-    # Initialize and fit the model with loaded results
-    model = MultihopIRTModel(exam_results, num_questions=len(exam_results[0].responses))
-    # model = MultihopIRTModel(single_result, num_questions=len(single_result.responses))
-    params = model.fit()
     
-    # Plot results
-    model.plot_results(params, save_path="irt_analysis.png")
+    singlehop_filepaths = {
+        'llama3-8b': {
+            # 'closed_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/llama_3_1_8b_closed_llama_3_2_3b_single_hop_exam_processed.json.json',
+            'open_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/llama_3_1_8b_open_llama_3_2_3b_single_hop_exam_processed.json.json'
+        },
+        'mistral-8b': {
+            # 'closed_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/ministral-8b_closed_llama_3_2_3b_single_hop_exam_processed.json.json',
+            'open_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/ministral-8b_open_llama_3_2_3b_single_hop_exam_processed.json.json'
+        },
+        'gemma2-27b': {
+            # 'closed_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/gemma2-27b_closed_llama_3_2_3b_single_hop_exam_processed.json.json',
+            'open_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/gemma2-27b_open_llama_3_2_3b_single_hop_exam_processed.json.json'
+        }
+    }
+
+    # exam_results = ExamResult.from_json_files(filepaths)
+
+    # # Initialize and fit the model with loaded results
+    # model = MultihopIRTModel(exam_results, num_questions=len(exam_results[0].responses))
+    # # model = MultihopIRTModel(single_result, num_questions=len(single_result.responses))
+    # params = model.fit()
+    
+    # # Plot results
+    # model.plot_results(params, save_path="irt_analysis.png")
+    
+    # Compare exam sets
+    compare_multi_single(filepaths, singlehop_filepaths)
