@@ -1,7 +1,5 @@
 import json
 from typing import List, Dict, Any
-import argparse
-from pathlib import Path
 
 
 def load_json_file(file_path: str) -> List[Dict[str, Any]]:
@@ -22,17 +20,25 @@ def load_json_file(file_path: str) -> List[Dict[str, Any]]:
         return json.load(f)
 
 
-def create_question_hop_mapping(correct_data: List[Dict[str, Any]]) -> Dict[str, int]:
+def create_question_hop_mapping(reference_data: List[Dict[str, Any]]) -> Dict[str, int]:
     """
-    Create a mapping of questions to their number of hops.
+    Create a mapping of questions to their number of hops using num_chunks_used.
     
     Args:
-        correct_data: List of dictionaries containing the correct data with number_of_hops
+        reference_data: List of dictionaries containing the reference data with metadata
         
     Returns:
-        Dictionary mapping questions to their number of hops
+        Dictionary mapping questions to their number of hops (num_chunks_used)
     """
-    return {item['question']: item['number_of_hops'] for item in correct_data}
+    mapping = {}
+    for item in reference_data:
+        try:
+            question = item['question']
+            num_chunks = item['metadata']['num_chunks_used']
+            mapping[question] = num_chunks
+        except KeyError as e:
+            print(f"Warning: Missing required field in reference data: {e}")
+    return mapping
 
 
 def update_json_with_hops(target_data: List[Dict[str, Any]], 
@@ -81,24 +87,24 @@ def save_json_file(data: List[Dict[str, Any]], output_path: str) -> None:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
-def main(correct_file: str, target_file: str, output_file: str) -> None:
+def main(reference_file: str, target_file: str, output_file: str) -> None:
     """
     Main function to process the JSON files.
     
     Args:
-        correct_file: Path to the JSON file with correct number_of_hops
+        reference_file: Path to the reference JSON file with metadata containing num_chunks_used
         target_file: Path to the JSON file needing number_of_hops
         output_file: Path where to save the updated JSON file
     """
     try:
         # Load both JSON files
         print(f"Loading files...")
-        correct_data = load_json_file(correct_file)
+        reference_data = load_json_file(reference_file)
         target_data = load_json_file(target_file)
         
         # Create mapping of questions to number of hops
-        print("Creating question-hop mapping...")
-        question_hop_mapping = create_question_hop_mapping(correct_data)
+        print("Creating question-hop mapping from num_chunks_used...")
+        question_hop_mapping = create_question_hop_mapping(reference_data)
         
         # Update target data with number_of_hops
         print("Updating target data with number_of_hops...")
@@ -114,7 +120,7 @@ def main(correct_file: str, target_file: str, output_file: str) -> None:
         
     except Exception as e:
         print(f"Error: {str(e)}")
-        raise
+        pass
 
 
 if __name__ == "__main__":
@@ -125,7 +131,9 @@ if __name__ == "__main__":
     for task_domain in task_domains:
         for model_name in model_names:
             for exam_model_name in exam_model_names:
-                correct_file = f"auto-rag-eval/MultiHopData/{task_domain}/exam_results/{model_name}_closed_exam_new_{exam_model_name}_processed_v2_unfiltered.json.json"
+                # correct_file = f"auto-rag-eval/MultiHopData/{task_domain}/exams/exam_new_{exam_model_name}_processed_v2.json"
+                correct_file = f"auto-rag-eval/MultiHopData/{task_domain}/exams/exam_new_{exam_model_name}_processed_v2_unfiltered.json"
                 target_file = f"auto-rag-eval/MultiHopData/{task_domain}/exam_results/{model_name}_open_exam_new_{exam_model_name}_processed_v2.json.json"
+                # output_file = f"auto-rag-eval/MultiHopData/{task_domain}/exam_results/{model_name}_open_exam_new_{exam_model_name}_processed_v2.json.json"
                 
                 main(correct_file, target_file, target_file)
