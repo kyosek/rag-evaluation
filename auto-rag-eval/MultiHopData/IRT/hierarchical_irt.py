@@ -34,7 +34,63 @@ class ExamResult:
                             try:
                                 data.append(json.loads(line))
                             except json.JSONDecodeError as e:
-                                continue
+                                print(f"Warning: Skipping invalid JSON line in {filepath}")
+    
+    # def save_analysis(self, params: Dict[str, np.array], output_path: str):
+    #     """Save analysis results to a JSON file"""
+    #     # Get unique hop counts
+    #     unique_hops = sorted(list(set(hop for result in self.exam_results for hop in result.num_hops)))
+        
+    #     # Calculate average difficulty and discrimination by hop count
+    #     hop_stats = {}
+    #     for hop_count in unique_hops:
+    #         # Get indices for questions with this hop count
+    #         indices = [i for i, hops in enumerate(self.exam_results[0].num_hops) if hops == hop_count]
+            
+    #         hop_stats[str(hop_count)] = {
+    #             "avg_difficulty": float(np.mean(params['difficulty'][indices])),
+    #             "avg_discrimination": float(np.mean(params['discrimination'][indices])),
+    #             "num_questions": len(indices)
+    #         }
+        
+    #     # Prepare model ability results
+    #     model_abilities = {}
+    #     for result in self.exam_results:
+    #         model_key = f"{result.llm_name}"
+    #         if result.retriever_name:
+    #             model_key += f"_{result.retriever_name}"
+            
+    #         idx = self.exam_results.index(result)
+    #         model_abilities[model_key] = float(params['theta'][idx])
+        
+    #     # Prepare component abilities
+    #     component_abilities = {
+    #         "llms": {
+    #             llm: float(params['theta_params'][idx])
+    #             for llm, idx in self.llm_map.items()
+    #         },
+    #         "retrievers": {
+    #             ret: float(params['theta_params'][self.num_llms + idx])
+    #             for ret, idx in self.retriever_map.items()
+    #         } if self.retriever_map else {}
+    #     }
+        
+    #     # Overall exam statistics
+    #     overall_stats = {
+    #         "avg_difficulty": float(np.mean(params['difficulty'])),
+    #         "avg_discrimination": float(np.mean(params['discrimination'])),
+    #         "total_questions": self.num_questions
+    #     }
+        
+    #     analysis_results = {
+    #         "overall_stats": overall_stats,
+    #         "hop_analysis": hop_stats,
+    #         "model_abilities": model_abilities,
+    #         "component_abilities": component_abilities,
+    #     }
+        
+    #     with open(output_path, 'w') as f:
+    #         json.dump(analysis_results, f, indent=2)
             
             if not data:
                 raise ValueError(f"No valid JSON data found in {filepath}")
@@ -261,11 +317,13 @@ class MultihopIRTModel:
         ax2.set_ylabel('Information')
         
         # Average information by number of hops
-        unique_hops = np.unique(self.num_hops)
+        unique_hops = np.unique(self.exam_results[0].num_hops)
         for hops in unique_hops:
-            mask = self.num_hops == hops
-            mean_info = info[mask].mean(axis=0)
-            ax3.plot(theta_range, mean_info, label=f'{hops} hops')
+            # Get indices for questions with this hop count
+            hop_indices = [i for i, h in enumerate(self.exam_results[0].num_hops) if h == hops]
+            if hop_indices:
+                mean_info = info[hop_indices].mean(axis=0)
+                ax3.plot(theta_range, mean_info, label=f'{hops} hops')
             
         ax3.set_title('Average Information by Hop Count')
         ax3.set_xlabel('Ability (θ)')
@@ -298,29 +356,33 @@ class MultihopIRTModel:
 
 if __name__ == "__main__":
     # Load a single exam result
-    single_result = ExamResult.from_json_file(
-    filepath='auto-rag-eval/MultiHopData/gov_report/exam_results/llama_3_1_8b_closed_exam_new_llama_3_2_3b_processed_v2.json.json',
-    llm_name='llama3-8b',
-    retriever_name='closed_book'
-)
+    # single_result = ExamResult.from_json_file(
+    # filepath='auto-rag-eval/MultiHopData/gov_report/exam_results/llama_3_1_8b_closed_exam_new_llama_3_2_3b_processed_v2.json.json',
+    # llm_name='llama3-8b',
+    # retriever_name='closed_book'
+# )
 
 # Load multiple exam results
-    # filepaths = {
-    #     'llama3-8b': {
-    #         'closed_book': 'llama_3_1_8b_closed_exam_new_llama3_2_3b_processed_v2.json.json',
-    #         'open_book': 'llama_3_1_8b_open_exam_new_llama_3_2_3b_processed_v2.json.json'
-    #     },
-    #     'mistral-8b': {
-    #         'closed_book': 'path/to/mistral_closed.json',
-    #         'open_book': 'path/to/mistral_hybrid.json'
-    #     }
-    # }
+    filepaths = {
+        'llama3-8b': {
+            'closed_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/llama_3_1_8b_closed_exam_new_llama_3_2_3b_processed_v2.json.json',
+            'open_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/llama_3_1_8b_open_exam_new_llama_3_2_3b_processed_v2.json.json'
+        },
+        'mistral-8b': {
+            'closed_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/ministral-8b_closed_exam_new_llama_3_2_3b_processed_v2.json.json',
+            'open_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/ministral-8b_open_exam_new_llama_3_2_3b_processed_v2.json.json'
+        },
+        'gemma2-27b': {
+            'closed_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/gemma2-27b_closed_exam_new_llama_3_2_3b_processed_v2.json.json',
+            'open_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/gemma2-27b_open_exam_new_llama_3_2_3b_processed_v2.json.json'
+        }
+    }
 
-    # exam_results = ExamResult.from_json_files(filepaths)
+    exam_results = ExamResult.from_json_files(filepaths)
 
     # Initialize and fit the model with loaded results
-    # model = MultihopIRTModel(exam_results, num_questions=len(exam_results[0].responses))
-    model = MultihopIRTModel(single_result, num_questions=len(single_result.responses))
+    model = MultihopIRTModel(exam_results, num_questions=len(exam_results[0].responses))
+    # model = MultihopIRTModel(single_result, num_questions=len(single_result.responses))
     params = model.fit()
     
     # Plot results
