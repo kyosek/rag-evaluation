@@ -4,18 +4,12 @@ from typing import List, Dict, Any, Tuple, Optional
 import json
 import faiss
 import numpy as np
-from rank_bm25 import BM25Okapi
-import nltk
-from nltk.tokenize import word_tokenize
 from tqdm import tqdm
 
-from MultiHopData.retriever import BaseRetriever, Chunk, ChunkRetriever, RerankingRetriever
-from LLMServer.llama_gcp.llama_gcp_instant import LlamaGcpModel
+from MultiHopData.retriever import BaseRetriever, BM25Retriever, Chunk, ChunkRetriever, FAISSRetriever, HybridRetriever, RerankingRetriever
 from LLMServer.gcp.claude_instant import ClaudeGcp
 from LLMServer.gcp.gemini_instant import GeminiGcp
 from LLMServer.llama.llama_instant import ModelFactory, ModelType
-
-nltk.download("punkt_tab")
 
 
 @dataclass
@@ -24,69 +18,6 @@ class ExamQuestion:
     choices: List[str]
     correct_answer: str
     documentation: List[str]
-
-
-class FAISSRetriever(BaseRetriever):
-    """Dense retrieval using FAISS."""
-
-    def __init__(self, chunk_retriever: "ChunkRetriever"):
-        self.chunk_retriever = chunk_retriever
-
-    def retrieve(self, query: str, k: int = 5) -> List[Tuple[str, float]]:
-        # Create a temporary chunk for the query
-        query_chunk = Chunk(chunk_id="query", doc_id="query", content=query, original_index=-1)
-
-        # Use the existing chunk retriever to find similar chunks
-        similar_chunks = self.chunk_retriever.find_similar_chunks(
-            query_chunk, k=k, similarity_threshold=0.5, exclude_same_doc=False
-        )
-
-        return [(chunk.content, score) for chunk, score in similar_chunks]
-
-
-class BM25Retriever(BaseRetriever):
-    """Sparse retrieval using BM25."""
-
-    def __init__(self, documents: List[str]):
-        # Tokenize documents
-        tokenized_docs = [word_tokenize(doc.lower()) for doc in documents]
-        self.bm25 = BM25Okapi(tokenized_docs)
-        self.documents = documents
-
-    def retrieve(self, query: str, k: int = 5) -> List[Tuple[str, float]]:
-        tokenized_query = word_tokenize(query.lower())
-        scores = self.bm25.get_scores(tokenized_query)
-        top_k_indices = np.argsort(scores)[-k:][::-1]
-
-        return [(self.documents[i], scores[i]) for i in top_k_indices]
-
-
-class HybridRetriever(BaseRetriever):
-    """Combines multiple retrievers with optional weights."""
-
-    def __init__(self, retrievers: List[Tuple[BaseRetriever, float]]):
-        self.retrievers = retrievers  # List of (retriever, weight) tuples
-
-    def retrieve(self, query: str, k: int = 5) -> List[Tuple[str, float]]:
-        all_results = []
-
-        # Get results from each retriever
-        for retriever, weight in self.retrievers:
-            results = retriever.retrieve(query, k=k)
-            weighted_results = [(doc, score * weight) for doc, score in results]
-            all_results.extend(weighted_results)
-
-        # Combine and deduplicate results
-        unique_results = {}
-        for doc, score in all_results:
-            if doc in unique_results:
-                unique_results[doc] = max(unique_results[doc], score)
-            else:
-                unique_results[doc] = score
-
-        # Sort by score and return top k
-        sorted_results = sorted(unique_results.items(), key=lambda x: x[1], reverse=True)
-        return sorted_results[:k]
 
 
 class ExamSolver:
@@ -125,16 +56,7 @@ class ExamSolver:
         2. Analyze the choices
         3. Select the most appropriate answer
         4. Respond with ONLY the letter (A, B, C, or D) of the correct answer
-        <</SYS>>
-
-        Question: {question.question}
-
-        Choices:
-        {formatted_choices}
         
-        Supporting documents:
-        {context}
-
         Instructions:
         - You must respond with exactly one letter: A, B, C, or D
         - Do not include any explanation, period, or additional text
@@ -146,7 +68,17 @@ class ExamSolver:
         C
         D
 
-        Your answer (one letter only): [/INST]</s>
+        Your answer (one letter only): [/INST]
+        <</SYS>>
+
+        Question: {question.question}
+
+        Choices:
+        {formatted_choices}
+        
+        Supporting documents:
+        {context}
+        </s>
         """
 
         # Get model response
@@ -304,4 +236,4 @@ if __name__ == "__main__":
                         print(f"Solving {exam_file} of {task_domain}")
                         print(f"Retriever: {retriever_type}")
                         print(f"Rerank: {rerank_flag}")
-                        main(task_domain, retriever_type, model_type, model_name, reranking=rerank_flag)
+                        main(task_domain, retriever_type, model_type, model_name, exam_file, reranking=rerank_flag)
