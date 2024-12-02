@@ -78,21 +78,22 @@ def add_retrieved_chunks_to_exam(
 
 
 if __name__ == "__main__":
-    # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    task_domains = ["gov_report"]
+    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    # task_domains = ["gov_report"]
     exam_files = [
         "llama_3_2_3b_single_hop_exam_processed.json",
-        # "gemma2_9b_single_hop_exam_processed.json",
-        # "ministral_8b_single_hop_exam_processed.json",
-        # "exam_new_llama_3_2_3b_processed_v2.json",
-        # "exam_new_gemma2_9b_processed_v2.json",
-        # "exam_new_ministral_8b_processed_v2.json",
+        "gemma2_9b_single_hop_exam_processed.json",
+        "ministral_8b_single_hop_exam_processed.json",
+        "exam_new_llama_3_2_3b_processed_v2.json",
+        "exam_new_gemma2_9b_processed_v2.json",
+        "exam_new_ministral_8b_processed_v2.json",
         # "exam_new_llama_3_2_3b_processed_v2_unfiltered.json",
         # "exam_new_gemma2_9b_processed_v2_unfiltered.json"
         ]
     
     for task_domain in task_domains:
         for exam_file in exam_files:
+            print(f"Starting {task_domain} - {exam_file}")
             database_dir = f"MultiHopData/{task_domain}/chunk_database"
             exam_path = f"MultiHopData/{task_domain}/exams/{exam_file}"
             # output_path = "path/to/exam_with_retrievals.json"
