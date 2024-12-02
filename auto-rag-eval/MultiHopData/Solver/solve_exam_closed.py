@@ -245,7 +245,7 @@ def main(task_domain: str, model_type: str, model_name: str, exam_file: str):
 
 if __name__ == "__main__":
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    task_domains = ["hotpotqa", "multifieldqa_en"]
+    task_domains = ["gov_report", "SecFilings", "wiki"]
     # model_type = "claude"
     # model_type = "gemini"
     model_type = "cpp"
