@@ -8,16 +8,16 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the effectiveness of the Federal Cybersecurity Enhancement Act of 2015 in ensuring that OMB and DHS fulfill their requirements for intrusion detection and prevention capabilities?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the sample selection process for the interviews and focus groups conducted with community banks and credit unions?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -50,14 +50,14 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the Navy's current approach to managing the cost of aircraft carriers?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "**\n\nIn fiscal year 2016, the total O&S costs for the seven Navy fixed-wing aircraft were approximately $7.7 billion. Given that the F/A-18E-F fleet accounted for about 40 percent of the total O&S cost, and the E-2C's average cost per aircraft accounted for about 19 percent of the total average cost per aircraft, what was the approximate O&S cost for the E-2C fleet in fiscal year 2016?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -78,21 +78,21 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the enforcement actions taken by the USAO for non-compliance with LD-203 reporting requirements?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
-    "number_of_hops": 2
-  },
-  {
-    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the Logistics Supply Chain Management System (LSCMS) program?",
-    "model_answer": "D",
-    "correct_answer": "D",
     "is_correct": true,
     "number_of_hops": 2
   },
   {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the Logistics Supply Chain Management System (LSCMS) program?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
     "question": "**\n\nWhich of the following databases is the primary repository for storing data from the International Compliance Management Model (ICMM)-FATCA International Returns (ICMM-FIR)?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -106,9 +106,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the USAID's debt relief payments to the PA creditors?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -127,9 +127,9 @@
   },
   {
     "question": "Which of the following statements best describes the primary challenge faced by regulatory authorities in managing financial assurances for coal mine reclamation, as highlighted in the provided documentation?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -176,16 +176,16 @@
   },
   {
     "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the Supreme Court's approach to commercial disclosure requirements under the Zauderer standard?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the impact of the executive order on Member pay adjustments?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -197,9 +197,9 @@
   },
   {
     "question": "**\n\nIn the context of the Temporary Assistance for Needy Families (TANF) program, which of the following statements is true regarding the work participation standards for two-parent families in FY2017?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -232,9 +232,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the space utilization strategies employed by the Centers for Disease Control and Prevention (CDC) and the Fiscal Service?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -246,7 +246,7 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the funding structure of the defense labs?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -260,7 +260,7 @@
   },
   {
     "question": "Based on the provided document chunks, which of the following statements is most likely to be true regarding the strategic implications of the U.S. recognition of the Golan Heights as part of Israel?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -274,9 +274,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is most accurate regarding the concerns raised by stakeholders about the proposed changes to the Form 477 data collection process?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -379,7 +379,7 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the cost differences between the U.S. and the UN for the hypothetical operation in CAR?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -428,7 +428,7 @@
   },
   {
     "question": "**\n\nIn the context of USAID's climate change adaptation activities, which of the following statements is most accurate regarding the relationship between climate change and migration?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 2
@@ -442,9 +442,9 @@
   },
   {
     "question": "**\n\nIn the context of neonatal withdrawal centers, which of the following statements is most accurate regarding the treatment of infants with neonatal abstinence syndrome (NAS)?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -463,7 +463,7 @@
   },
   {
     "question": "Which of the following statements is true about the creditworthiness of borrowers in the Accommodation and Food Services sector compared to the Retail Trade sector in fiscal year 2016?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -477,9 +477,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided document chunks, which of the following statements is most consistent with the Supreme Court's decision in NIFLA and the subsequent interpretation of commercial disclosure requirements by lower courts?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -512,7 +512,7 @@
   },
   {
     "question": "**\n\nIn fiscal year 2017, the RSA conducted monitoring visits to 14 VR agencies in 10 states. In fiscal year 2018, the RSA plans to visit 15 VR agencies in 12 states. Given that the RSA follows a 5-year monitoring cycle, how many states will be visited in total by the end of fiscal year 2021?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -540,9 +540,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the proposed anti-inversion rules and their impact on corporate inversions?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -554,9 +554,9 @@
   },
   {
     "question": "**\n\nIn the context of tribal broadband deployment, which of the following statements is most likely to be true based on the provided document chunks?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -568,14 +568,14 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate assessment of the current state of the shipbuilding industry's ability to support an increase in production, considering both the suppliers' capacity and the potential impact of related industries?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
     "question": "**\n\nConsider the following information from the provided document chunks:\n\n- Chunk0: USPS lacks detailed and up-to-date standard operating procedures for how managers should use reports to efficiently investigate and resolve scanning issues.\n- Chunk1: Some post office managers use Report 3 to locate lost packages, while others do not have access to it. USPS management discontinued the report due to misuse but recently made it available again with changes to reduce misuse.\n\nWhich of the following statements is the most accurate conclusion based on the provided information?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -589,9 +589,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the impact of DOD initiatives on sexual assault reporting?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -617,16 +617,16 @@
   },
   {
     "question": "**\n\nIn the context of China's maritime claims in the South China Sea, which of the following statements is the most accurate and legally sound assessment of China's actions?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
     "question": "**\n\nIn the context of the Office of Surface Mining Reclamation and Enforcement (OSMRE) and the Surface Mining Control and Reclamation Act (SMCRA), which of the following statements is most accurate regarding the current status of self-bonding regulations and their potential impact on the government's financial risk?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -638,23 +638,23 @@
   },
   {
     "question": "**\n\nThe Navy's FY2020 budget submission proposed to decommission the aircraft carrier CVN-75 (Harry S. Truman) and deactivate one of the Navy's carrier air wings. This proposal was withdrawn by the Administration in April 2019. Given the information provided, what is the estimated net savings from not funding the RCOH for CVN-75 and decommissioning the ship, and how does this compare to the estimated annual savings from avoiding O&S costs for CVN-75 and its deactivated carrier air wing?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the funding gaps that occurred in FY1996?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate assessment of the current state of cost-sharing requirements for traditional and nontraditional defense contractors in the context of OTs?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -673,7 +673,7 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the policies and procedures of CPS agencies in the United States regarding the investigation of substance-affected infants?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -701,9 +701,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate assessment of the impact of vacancies on the security and information management at overseas posts?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -736,9 +736,9 @@
   },
   {
     "question": "**\n\nIn the context of the FY2020 budget proposal for the U.S. Department of Housing and Urban Development (HUD), which of the following statements is true regarding the proposed changes to the Moving to Work (MTW) program?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -785,23 +785,23 @@
   },
   {
     "question": "**\n\nIn the context of the Improper Payments Information Act (IPIA) and the OMB-approved PERM methodology, which of the following statements is true regarding the HHS-OIG's approach to reviewing the estimation methodology for high-priority programs, including Medicaid?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
     "question": "Which of the following statements is the most accurate representation of the Colombian government's approach to drug policy under President Duque, considering the information provided in the document?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the Lead Office's role in enforcing lead paint regulations in HUD-assisted housing?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -813,30 +813,30 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the oversight of HCBS waivers by CMS?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "**\n\nIn the context of the Small Business Lending Fund (SBLF) program, which of the following statements is most accurate regarding the program's cost and potential savings?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the USDA's approach to risk assessment and security measures?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate description of the methodology used to select the 20 plans for comparison with CSPF?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -855,9 +855,9 @@
   },
   {
     "question": "**\n\nIn the context of the U.S. Department of Agriculture's Food and Nutrition Service (USDA-FNS) programs, which of the following statements is true regarding the National School Lunch Program (NSLP) and the School Breakfast Program (SBP)?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -869,7 +869,7 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the efforts made by private health insurers to expand access to Medication-Assisted Treatment (MAT) for opioid use disorders?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -890,23 +890,23 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate interpretation of the legal standard for preemption as established by the Supreme Court in the case of Barnett Bank of Marion County, N.A. v. Nelson?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the role of the CIO in the certification of incremental development practices?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
     "question": "Which of the following statements best describes the U.S. policy on the use of precision-guided munitions in Yemen, as discussed in the provided documents?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -932,16 +932,16 @@
   },
   {
     "question": "**\n\nIn the context of the Summer Food Service Program (SFSP), which of the following statements is most accurate regarding the challenges faced by states and SFSP providers in attracting children and teens to meal sites?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the impact of maintenance delays on the Navy's attack submarines?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -953,9 +953,9 @@
   },
   {
     "question": "Which of the following best explains the primary reason for the significant decline in the number of active participants in the trucking industry's multiemployer plans between 1980 and 2014?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -967,16 +967,16 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the steps Education is taking to implement pre-employment transition services and the challenges they face?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the sustainment of fixed-wing aircraft in the U.S. Air Force and Navy?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -988,14 +988,14 @@
   },
   {
     "question": "Which of the following statements is the most accurate assessment of the security risks associated with LNG bunkering operations in the United States, considering the information provided in the document chunks?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following individuals made key contributions to the report, but are not listed in the same section as the Assistant Director?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -1009,9 +1009,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the treatment of infants with Neonatal Abstinence Syndrome (NAS) in non-hospital settings?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1044,30 +1044,30 @@
   },
   {
     "question": "**\n\nIn the context of the PA program, which of the following statements is true based on the provided documentation?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
     "question": "**\n\nThe Navy's ship naming policies have evolved over time, with a notable shift in the 1970s. Given the information provided, which of the following statements is true about the naming of the aircraft carrier CVN-70?",
-    "model_answer": "A",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the current state of cross-agency collaboration in the federal government, based on the information presented?",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 5
   },
   {
-    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the current state of cross-agency collaboration in the federal government, based on the information presented?",
-    "model_answer": "D",
-    "correct_answer": "D",
-    "is_correct": true,
-    "number_of_hops": 5
-  },
-  {
     "question": "**\n\nIn the context of the Airport Improvement Program (AIP), which of the following statements is true regarding the allocation of funds to airports based on passenger boardings?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1093,9 +1093,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate assessment of the current state of performance management training within the PIC?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1114,14 +1114,14 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the total obligations for printing and reproduction activities reported by the military services to Congress in fiscal year 2016?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
     "question": "**\n\nIn the context of the South China Sea, China's stance on freedom of navigation is nuanced and multifaceted. According to the provided documentation, China's definition of freedom of navigation is narrower than the U.S./Western definition, which includes operations by military ships and aircraft. China has been accused of interfering with commercial fishing operations by non-Chinese vessels, which some observers interpret as a form of interfering with freedom of navigation. Additionally, China has warned foreign military aircraft and ships to stay away from its claimed territories, citing the need to maintain peace and stability in the region. Given these points, which of the following statements best describes China's approach to freedom of navigation in the South China Sea?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -1142,9 +1142,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the pay adjustments for Members of Congress in 2014?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1198,9 +1198,9 @@
   },
   {
     "question": "**\n\nThe U.S. Navy's Gerald R. Ford aircraft carrier has faced several technical issues since its delivery in May 2017. These issues include problems with the propulsion system and the Advanced Weapons Elevators. The propulsion system issues were caused by machining errors during manufacturing, while the elevator issues were due to uncommanded movements. The Navy has requested additional funding to address these issues and extend the carrier's post-delivery repair phase. Given the information provided, which of the following statements is most accurate regarding the current status of the Gerald R. Ford aircraft carrier?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1212,14 +1212,14 @@
   },
   {
     "question": "**\n\nWhich of the following statements is the most accurate representation of the current state of the Airport Improvement Program (AIP) and its potential future changes, based on the provided documentation?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
     "question": "**\n\nA state governor has requested an FMAG declaration due to an out-of-control wildfire that threatens to become a major disaster. The request includes a detailed report on the fire's size, population at risk, and the degree to which state and local resources are committed. The request is evaluated by FEMA using criteria such as the threat to lives and property, availability of local resources, high fire danger conditions, and potential economic impacts. The state's request is approved, and the FMAG declaration is issued. The state is responsible for 25% of the expenses, and FEMA provides the remaining 75%. The state submits its grant application within 90 days of the FMAG declaration, and FEMA has 45 days to approve or deny the application. The state's grant application includes a detailed cost estimate and information about the fire. The application is approved, and the state receives the funds to fight the fire. The state uses the funds to purchase equipment, supplies, and to reimburse overtime expenses for firefighters. The state also uses the funds to pay for the mobilization and demobilization of resources, and for emergency work such as evacuations and sheltering. The state uses the funds to pay for personal comfort and safety items for firefighters, and for field camps and meals in lieu of per diem. The state uses the funds to mitigate, manage, and control the fire on federal land. The state also uses the funds to pay for the mitigation, management, and control of declared fires burning on comingled federal land, when such costs are not reimbursable by another federal agency.\n\nWhich of the following statements is true about the FMAG declaration and the state's use of the funds?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": null,
     "is_correct": false,
     "number_of_hops": 5
@@ -1233,7 +1233,7 @@
   },
   {
     "question": "**\n\nIn the context of the U.S. Senate's nomination process, which of the following statements is true regarding the handling of nominations that are not confirmed or rejected?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 5
@@ -1268,30 +1268,30 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the funding for the Special Technology Assistance Grants (STAG) account in the FY2003 appropriations bill?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
     "question": "**\n\nIn the context of the FY2019 budget for humanitarian assistance, which of the following statements is true based on the provided document chunks?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 5
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the challenges faced in defining data standards for government-wide reporting of fees, fines, and penalties?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
   },
   {
     "question": "**\n\nIn the context of the Colorado River Basin, which of the following statements is most likely to be true given the current environmental, legal, and economic conditions?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1317,7 +1317,7 @@
   },
   {
     "question": "**\n\nThe SBA's HUBZone program has been in operation since 1994, with its funding appropriations increasing from $1.0 million in FY2004 to $3.0 million in FY2015. This increase has exceeded inflation. The HUBZone program's expenditures in FY2000-FY2018 and anticipated expenditures in FY2019 are presented in the table's last column. The SBA's Entrepreneurial Development Initiative (Regional Innovation Clusters) has seen its recommended appropriation decrease from $10.0 million in FY2010 to $5.0 million in FY2019. The SBDC program's appropriations have increased from $84.179 million in FY2000 to $131.000 million in FY2019, with an additional $50 million in temporary funding in FY2010. The SBDC expenditures in FY2000-FY2018 and anticipated expenditures in FY2019 are also presented in the table's last column. The SBA's Microloan Technical Assistance program has seen its appropriations increase from $23.112 million in FY2000 to $31.000 million in FY2019, with expenditures in FY2000-FY2018 and anticipated expenditures in FY2019 presented in the table's last column. Given this information, which of the following statements is true?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 5
@@ -1338,9 +1338,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following countries has received the highest amount of humanitarian assistance from the United States since 2012, considering the data from the United Nations Office for the Coordination of Humanitarian Affairs?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1352,9 +1352,9 @@
   },
   {
     "question": "Which of the following statements is true regarding the Colorado River Compact and its implementation?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1443,7 +1443,7 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the data reliability and reporting requirements for Forms 8938 and FBAR filings?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -1471,16 +1471,16 @@
   },
   {
     "question": "In the context of the provided documentation, which of the following statements is the most accurate regarding the impact of the new CCB requirement on large banks?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the handling of whistle-blower disclosures by the Office of the Secretary (OSC) and the Office of Inspector General (OIG) within the Department of Veterans Affairs (VA)?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1499,9 +1499,9 @@
   },
   {
     "question": "**\n\nIn the context of U.S. foreign aid, which of the following statements is most accurate regarding the distribution of assistance across different objectives and sectors?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1520,9 +1520,9 @@
   },
   {
     "question": "**\n\nWhich of the following statements is the most accurate interpretation of the provided documentation regarding the Navy's sustainment strategies for legacy aircraft?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1534,9 +1534,9 @@
   },
   {
     "question": "**\n\nIn the context of the FAC-Trax program, which of the following statements is true based on the provided documentation?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1562,9 +1562,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate interpretation of the challenges faced by states in implementing CAPTA requirements, particularly regarding the development of plans of safe care for substance-affected infants?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1576,7 +1576,7 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the relationship between the Federal Railroad Administration (FRA) and the Federal Transit Administration (FTA) in terms of safety oversight and enforcement?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 5
@@ -1604,23 +1604,23 @@
   },
   {
     "question": "**\n\nIn the context of the MINUSCA operation in CAR, which of the following statements is the most accurate regarding the cost comparison between the U.S. and the UN?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
     "question": "The Small Business Administration (SBA) administers several programs to support small businesses, including loan guaranty programs to enhance small business access to capital. The SBA's Surety Bond Guarantee Program has been operational since April 1971 and guarantees bid, performance, payment, and specified ancillary bonds for small and emerging contractors who cannot obtain bonding through regular commercial channels. The program guarantees individual contracts of up to $6.5 million, and up to $10 million if a federal contracting officer certifies that such a guarantee is necessary. The SBA's guarantee currently ranges from 80% to 90% of the surety's loss if a default occurs. In FY2018, the SBA guaranteed 10,800 bid and final surety bonds with a total contract value of nearly $6.5 billion.\n\nGiven the information above, which of the following statements is true about the SBA's Surety Bond Guarantee Program?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
   },
   {
     "question": "**\n\nIn the context of the Summer Food Service Program (SFSP), which of the following statements is most likely to be true based on the provided documentation?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1646,9 +1646,9 @@
   },
   {
     "question": "**\n\nWMATA's new capital planning process aims to address several weaknesses in its previous process. According to the documentation, which of the following statements is NOT a weakness that the new process aims to rectify?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1660,9 +1660,9 @@
   },
   {
     "question": "**\n\nWhich of the following statements is the most accurate representation of the U.S. government's response to climate change as a driver of migration, based on the provided documentation?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1681,16 +1681,16 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the use of Overseas Contingency Operations (OCO) funding for the Department of State and USAID?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 5
   },
   {
     "question": "**\n\nIn the context of the International Emergency Economic Powers Act (IEEPA), which of the following statements is true regarding the evolution of its use by U.S. Presidents?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1723,9 +1723,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate description of the nature of a national emergency, as defined by the political scientist Edward S. Corwin?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1751,7 +1751,7 @@
   },
   {
     "question": "**\n\nIn the context of corporate inversions, which of the following statements is true based on the provided documentation?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 5
@@ -1786,16 +1786,16 @@
   },
   {
     "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the Supreme Court's approach to commercial speech regulations, particularly in relation to the Central Hudson and Zauderer standards?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 5
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the naming of the next nuclear-powered submarine of the United States Navy?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1807,9 +1807,9 @@
   },
   {
     "question": "**\n\nIn the context of the South China Sea (SCS) disputes, which of the following statements is most likely to be true based on the provided document chunks?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1842,21 +1842,21 @@
   },
   {
     "question": "In the context of the provided documentation, which of the following statements is true regarding the FY1998 funding for the STAG account, considering the funding trends over time and the specific allocations for clean water SRF grants, drinking water SRF grants, state environmental assistance grants, and special projects?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the compliance of lobbying firms with the Lobbying Disclosure Act (LDA) in 2017?",
-    "model_answer": "C",
+    "model_answer": ".",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the challenges faced by the Summer Food Service Program (SFSP) in rural areas?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
@@ -1877,14 +1877,14 @@
   },
   {
     "question": "**\n\nIn the context of federal government operations, which of the following statements is most accurate regarding the use of user fees and charges?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
     "question": "**\n\nBased on the provided document chunks, which of the following statements is the most accurate representation of the Trust Fund's financial situation in fiscal year 2050, considering the scheduled 2019 tax rate decrease and the projected decline in coal production?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -1898,23 +1898,23 @@
   },
   {
     "question": "**\n\nConsider the following statements about the banking industry and its regulations:\n\n1. Community banks are exempted from many regulations aimed at systemic risk.\n2. The 2007-2009 financial crisis highlighted the need for more stringent prudential regulations.\n3. Community banks are less likely to pose systemic risk than large banks.\n4. The number of FDIC-insured institutions has declined significantly over the past three decades.\n5. The Dodd-Frank Act was implemented to strengthen financial regulation and address risks.\n\nBased on the provided information, which of the following statements is true?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
     "question": "**\n\nIn the context of U.S. foreign policy towards Egypt, which of the following statements is most likely to be true based on the provided document chunks?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
     "question": "**\n\nIn the context of the CRA (Congressional Review Act), GAO's role in determining whether an agency action is a \"rule\" is not explicitly outlined in the statute. However, GAO has issued 21 opinions on the applicability of the CRA since 1996, with 11 of these opinions concluding that the agency action in question was a rule under the CRA. The Senate has considered publication in the Congressional Record of a GAO opinion classifying an agency action as a rule as the trigger date for the initiation period to submit a disapproval resolution and for the action period during which such a joint resolution qualifies for expedited consideration in the Senate. Given this information, which of the following statements is most accurate regarding GAO's role in the CRA process?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1940,7 +1940,7 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the funding for the Clean Water State Revolving Fund (CWSRF) and Drinking Water State Revolving Fund (DWSRF) programs over the years?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -1961,9 +1961,9 @@
   },
   {
     "question": "Which of the following statements is the most accurate representation of the California Consumer Privacy Act (CCPA) in relation to the Federal Trade Commission (FTC) and the General Data Protection Regulation (GDPR)?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2038,16 +2038,16 @@
   },
   {
     "question": "In the context of the provided documentation, which of the following statements is the most accurate assessment of the challenges faced by the IBC during the TRIO project?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 3
   },
   {
     "question": "**\n\nConsider the following information from the provided document chunks:\n\n- Chunk0: The 90/10 rule applies to proprietary institutions, requiring them to derive at least 10% of their revenues from non-Title IV funds.\n- Chunk1: The 90/10 rule also applies to institutions that violate it for two consecutive years, leading to a loss of Title IV eligibility for at least two years.\n- Chunk2: A Program Participation Agreement (PPA) is required for institutions to participate in Title IV programs, and it includes provisions related to incentive compensation and campus crime reporting requirements.\n\nWhich of the following statements is true regarding the 90/10 rule and the PPA?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -2101,14 +2101,14 @@
   },
   {
     "question": "**\n\nIn the context of Egypt's political history and recent developments, which of the following statements is most accurate regarding the implications of the 2018 constitutional amendments proposed by President Sisi's supporters?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate assessment of the challenges faced by state DOTs in implementing the Section 130 Program?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -2136,9 +2136,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate assessment of the impact of scrubber adoption on the market dynamics of high-sulfur fuel?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -2185,9 +2185,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the challenges faced by the USDA in managing an FMD outbreak?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -2199,9 +2199,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the current state of CMS's approach to fraud risk management?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2227,9 +2227,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the current state of the CTR reporting threshold and its potential adjustments?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2262,9 +2262,9 @@
   },
   {
     "question": "**\n\nThe Navy's FY2020 budget submission proposed to not fund the mid-life nuclear refueling overhaul (RCOH) for the aircraft carrier CVN-75 (Harry S. Truman) and to retire the ship around FY2024. However, the Administration withdrew this proposal on April 30, 2019, and now supports funding the CVN-75 RCOH and keeping CVN-75 in service past FY2024. Given this information, which of the following statements is true?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2276,7 +2276,7 @@
   },
   {
     "question": "**\n\nIn the context of university disciplinary proceedings, which of the following statements is most likely to be considered a due process violation by a court, given the provided document chunks?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 3
@@ -2318,7 +2318,7 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the use of Other Transaction (OT) authority by the Department of Defense (DoD) for prototype projects?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -2332,9 +2332,9 @@
   },
   {
     "question": "**\n\nIn the context of the Secret Service's workforce planning and management, which of the following statements is true based on the provided documentation?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2388,9 +2388,9 @@
   },
   {
     "question": "**\n\nIn the context of the Commercial Crew Program, which of the following statements is the most accurate assessment of the potential gaps in access to the ISS based on the contractors' current schedules and NASA's schedule risk analysis?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2402,9 +2402,9 @@
   },
   {
     "question": "**\n\nConsider the following information from the provided document chunks:\n\n1. The UK Digital Services Tax (DST) is proposed to be a gross receipts tax, not an income tax.\n2. The UK DST's proposed exemption for \"low profit\" firms could create equity concerns.\n3. An exemption based on low UK-source profits could have unintended consequences for proponents of the DST.\n4. The UK DST could raise little to no revenue if MNCs establish low-profit subsidiaries in the UK to claim the exemption.\n5. DSTs are structured as \"turnover taxes\" that apply to the revenue generated from taxable activities regardless of costs incurred to a firm.\n\nWhich of the following statements is the most accurate representation of the potential impact of the UK DST on multinational corporations (MNCs)?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -2437,7 +2437,7 @@
   },
   {
     "question": "**\n\nWhich of the following is the most significant challenge faced by the National 911 Program in achieving its mission of transitioning to an interconnected national NG911 system?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 3
@@ -2493,9 +2493,9 @@
   },
   {
     "question": "Based on the provided document chunks, which of the following statements is true regarding the funding for clean water SRF grants in the FY2004 budget request, considering the funding trends over the previous years?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -2521,9 +2521,9 @@
   },
   {
     "question": "Which of the following statements is NOT true about the GDPR's impact on U.S. companies?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2549,9 +2549,9 @@
   },
   {
     "question": "**\n\nWhich of the following statements is the most accurate representation of the regulatory plans proposed by the Federal Reserve, FDIC, and OCC to enhance the EGRPRA process, based on the provided documentation?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -2563,9 +2563,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the relationship between Colombia and Venezuela in the context of the FARC and ELN insurgencies?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -2584,9 +2584,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the current state of family support services for families with special needs across the military services?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2598,16 +2598,16 @@
   },
   {
     "question": "**\n\nIn the context of the CRA, which of the following statements is most likely to be considered a rule, based on the provided documentation?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
     "question": "**\n\nWhich of the following statements is the most accurate description of the key differences between Enhanced 911 and NG911 systems, considering the information provided in the document chunks?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -2640,23 +2640,23 @@
   },
   {
     "question": "Based on the provided documentation, which of the following statements is the most accurate regarding the timeline for the acquisition of land for the urban initiative site in Chicago, Illinois?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
   },
   {
     "question": "Which of the following statements is the most accurate representation of the impact of the aerial eradication program on Colombia's coca cultivation, considering the information provided in the document chunks?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 3
   },
   {
     "question": "**\n\nIn fiscal years 2011 through 2016, which of the following aircraft experienced the most significant decrease in maintenance costs?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2668,7 +2668,7 @@
   },
   {
     "question": "**\n\nThe James Webb Space Telescope (JWST) project experienced significant delays due to various technical and workmanship issues. By November 2018, the project had used 4.5 weeks of schedule reserves to address membrane cover assembly repairs, including fixing tears and pin holes, and installing protective bumpers. This pushed the restart of spacecraft element integration and test activities out by a week. Additionally, the project had to address a design issue on the sunshield's frill connections, which required a combination of modeling and inspections to resolve. The project also faced challenges with the membrane tensioning system, which experienced a snag during folding and deployment exercises. Given this information, which of the following statements is true?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 4
@@ -2703,9 +2703,9 @@
   },
   {
     "question": "**\n\nIn FY2019, the Administration requested $90.6 million for the Enforcement and Compliance unit at ITA, an increase of $3.1 million (3.6%) from the FY2018-enacted amount. The House Appropriations Committee proposed $85.5 million for Enforcement and Compliance, which was $2.1 million less than the Administration's request. The Senate Committee on Appropriations recommended $91.5 million, which was $0.9 million more than the Administration's request. The final funding for Enforcement and Compliance in the Consolidated Appropriations Act, 2019, was $88.5 million. Given this information, which of the following statements is true?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -2766,14 +2766,14 @@
   },
   {
     "question": "Based on the provided document chunks, which of the following statements is true about the representation of Asian workers in the technology sector compared to other sectors?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the DHS's adherence to GAO-identified best practices for conducting an AOA process?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 4
@@ -2808,9 +2808,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the role of CPS in managing substance-affected infants?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -2836,9 +2836,9 @@
   },
   {
     "question": "**\n\nThe James Webb Space Telescope (JWST) project has faced significant cost overruns and schedule delays. Given the information from the provided chunks, which of the following statements is the most accurate assessment of the current state of the JWST project?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -2857,9 +2857,9 @@
   },
   {
     "question": "**\n\nThe Navy's FY2020 budget submission includes a request for funding to procure 12 new ships, including one Gerald R. Ford (CVN-78) class aircraft carrier, three Virginia-class attack submarines, three DDG-51 class Aegis destroyers, one FFG(X) frigate, two John Lewis (TAO-205) class oilers, and two TATS towing, salvage, and rescue ships. According to the FY2020 five-year shipbuilding plan, the Navy plans to procure 55 new ships over the period FY2020-FY2024, with an average of 11 ships per year. However, the FY2019 budget submission included a total of 55 ships in the period FY2020-FY2024, with a different mix of ships. The FY2020 submission also makes changes within the five-year period to annual procurement quantities for DDG-51 destroyers, ESBs, and TAO-205s without changing the five-year totals for these programs. The FY2020 submission also accelerates the procurement of CVN-81 from FY2023 to FY2020, adds a third attack submarine, accelerates a third DDG-51 from FY2021 to FY2020, defers an LPD-17 Flight II amphibious ship from FY2020 to FY2021, defers an ESB ship from FY2020 to FY2023, and accelerates a second TAO-205 class oiler from FY2021 to FY2020.\n\nGiven the information above, which of the following statements is true?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -2871,30 +2871,30 @@
   },
   {
     "question": "**\n\nIn FY2017, the U.S. Congress approved a total of $391.3 million for the Peace Colombia program. This funding was allocated across several accounts, including the Economic Support Fund (ESF) and the International Narcotics Control and Law Enforcement (INCLE) account. The ESF account received $187 million, while the INCLE account received $143 million. However, the actual allocation for the ESF account was $180 million, which was $7 million less than the approved amount. The INCLE account received $143 million, which was the same as the approved amount. In FY2018, the Trump Administration proposed a reduction in assistance to Colombia to $251 million, but Congress approved $391.3 million again. In FY2019, the Trump Administration requested $265 million, which was a 32% reduction from the FY2018 funding level. However, the House and Senate appropriations bills proposed to maintain the funding level at $391.3 million.\n\nGiven the above information, which of the following statements is true?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
     "question": "**\n\nIn the context of the NASA Commercial Crew Program, which of the following statements is most accurate regarding the dual-hatted role of the safety technical authority?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
     "question": "Which of the following statements is the most accurate representation of the current status of the EU's Digital Services Tax (DST) proposal, considering the information provided in the document chunks?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
     "question": "**\n\nIn the context of the legislative process described in the provided document chunks, which of the following statements is true regarding the role of the Speaker of the House in the resolution of differences between the House and Senate versions of a bill?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -2920,9 +2920,9 @@
   },
   {
     "question": "**\n\nConsider the following information from the provided document chunks:\n\n1. Community banks receive special regulatory consideration to minimize their regulatory burden.\n2. Regulations aimed at improving systemic stability may have relatively small benefits for community banks compared to large banks.\n3. The Dodd-Frank Act includes exemptions for community banks or raises the thresholds for existing exemptions.\n4. The Regulatory Flexibility Act and the Riegle Community Development and Regulatory Improvement Act require regulators to consider the effect of rules on community banks.\n5. Some argue that regulatory compliance costs may be subject to economies of scale, meaning compliance costs may increase as bank size does but decrease as a percentage of overall costs or revenues.\n6. The Dodd-Frank Act provisions have resulted in both increased and decreased costs for community banks.\n\nGiven the above information, which of the following statements is most accurate regarding the regulatory burden on community banks?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -2941,9 +2941,9 @@
   },
   {
     "question": "**\n\nIn the context of the Secret Service's Information Integration and Technology Transformation (IITT) investment, which of the following statements is true regarding the implementation of agile methodologies for the Uniformed Division Resource Management System (UDRS) and Events Management projects?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -2969,14 +2969,14 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the reporting of fees, fines, and penalties in the U.S. government's budgetary data?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
   },
   {
     "question": "Which of the following statements is the most accurate regarding the current state of LNG bunkering in the United States, considering the information provided in the document?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -3025,7 +3025,7 @@
   },
   {
     "question": "**\n\nFEMA's Public Assistance (PA) program is a critical component of the agency's mission to support disaster recovery. Given the complexity of the PA program, FEMA has implemented a new delivery model to address various challenges. This new model includes changes in workforce management, information sharing, and hazard mitigation integration. The new delivery model is being tested and refined through feedback and lessons learned from recent disasters, such as Hurricane Harvey in 2017. The PA program is funded through the Disaster Relief Fund (DRF), which is a no-year account with two categories: disaster relief costs associated with major disasters under the Stafford Act and base funding for activities not tied to major disasters. FMAGs (Federal Management Assistance Grants) are funded through the DRF's base funding category and are not contingent on the DRF balance. FMAGs are typically used for urgent needs and are subject to a cost-share of 75% federal and 25% grantee and subgrantee costs.\n\nWhich of the following statements is NOT true about the new delivery model of the FEMA Public Assistance program?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 4
@@ -3039,23 +3039,23 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the impact of the Centers for Medicare & Medicaid Services (CMS) changes on laboratory testing payment rates?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4
   },
   {
     "question": "**\n\nWhich of the following statements is the most accurate representation of the current state of the Unified Facilities Criteria (UFC) and the Army's approach to cost estimating for military construction projects, based on the provided document chunks?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
     "question": "**\n\nIn fiscal year 2017, DOD revised its methodology for establishing foreign currency budget rates. This change was implemented to address the anticipated $1 billion in projected gains if the prior methodology had been used. What was the primary reason for this change in methodology, and how did it impact DOD's projected funding needs for planned overseas expenditures?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -3067,9 +3067,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the findings from the usability testing sessions conducted by the researchers?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -3081,23 +3081,23 @@
   },
   {
     "question": "In the context of the provided documentation, which of the following statements is the most accurate representation of the auditing standards applied by the General Accounting Office (GAO) in their performance audits?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
     "question": "**\n\nWhich of the following statements best describes the primary challenge faced by the U.S. government in implementing the Government Performance and Results Act (GPRA) as highlighted in the provided documents?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
     "question": "In fiscal year 2016, what was the proportion of the total value of 7(a) loans approved that went to minority borrowers, and how did this proportion compare to the proportion of loans approved to businesses located in economically distressed areas? Additionally, how did the proportion of loans to minority borrowers in 2016 compare to the proportion in 2015, and what was the average predictive score for minority borrowers in 2016?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -3158,9 +3158,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the changes in CSPF's investment policy over the middle period (1993-2010)?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -3179,16 +3179,16 @@
   },
   {
     "question": "**\n\nWhich of the following statements is the most accurate representation of the current state of the Leveraging Data as a Strategic Asset CAP Goal, based on the provided document chunks?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
     "question": "**\n\nWhich of the following statements is the most accurate representation of the challenges faced by the Office of Federal Contract Compliance Programs (OFCCP) in obtaining complete and accurate information from federal contractors, including technology companies, as part of the compliance review process?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -3200,23 +3200,23 @@
   },
   {
     "question": "**\n\nConsider the following information from the provided document chunks:\n\n1. **Chunk0**: Postmasters use reports to monitor scanning performance and investigate scanning issues. Report 1 identifies competitive products with missing scans, Report 2 identifies scanning irregularities, and Report 3 monitors scanning status for items with arrival scans but no delivery scans.\n\n2. **Chunk1**: Postmasters use stand-up talks to introduce new procedures and processes. District managers meet with underperforming post offices to improve scanning performance and conduct audits.\n\n3. **Chunk2**: USPS lacks detailed standard operating procedures for using reports to investigate and resolve scanning issues. This can lead to inefficiencies and inconsistencies in how managers address problems.\n\n4. **Chunk3**: Some postmasters use Report 3 to monitor scanning status, while others do not have access to it. USPS management recently made Report 3 available again but changed features to reduce misuse.\n\nGiven the above information, which of the following statements is true?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
     "question": "**\n\nA university is considering applying for Title IV eligibility. According to the provided documentation, which of the following statements is true regarding the institution's eligibility?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
     "question": "**\n\nIn the context of the Land and Water Conservation Fund (LWCF), which of the following statements is true regarding the funding of federal land acquisition and outdoor recreation grants to states?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -3228,9 +3228,9 @@
   },
   {
     "question": "**\n\nIn the context of USPS's competitive product scanning procedures, which of the following statements is most likely to be true based on the provided documentation?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -3312,7 +3312,7 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the current state of DLA Document Services' facility consolidations and their plans for the future?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -3333,9 +3333,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the heavy equipment acquisition practices of the U.S. Fish and Wildlife Service (FWS) and the National Park Service (NPS) from 2012 to 2016?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -3410,14 +3410,14 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the challenges faced by states in implementing the CAPTA requirements?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the Member pay adjustments in 2017 and 2016?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 2
@@ -3431,9 +3431,9 @@
   },
   {
     "question": "**\n\nIn the context of NASA's organizational structure, which of the following statements is true regarding the dual-hatted roles of the safety technical authority in the Commercial Crew Program?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -3445,9 +3445,9 @@
   },
   {
     "question": "Which of the following statements is true about the use of the Trading with the Enemy Act (TWEA) by U.S. Presidents during the Cold War?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
