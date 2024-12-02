@@ -1,0 +1,2949 @@
+[
+  {
+    "question": "**\n\nIn the context of Robert Jordan's \"The Wheel of Time\" series, which of the following statements is true regarding the publication of the series' companion book and the completion of the final book by Brandon Sanderson?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate description of the conditions at Parchman Farm during the 1960s and 1970s?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the population of West Sand Lake, New York, based on the provided documentation?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the circulation of Gruner + Jahr's Claudia magazine in Poland?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of Niven's early life experiences?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In the context of Socratic philosophy, which of the following statements is most consistent with the idea that Socrates' use of irony is a playful way to get the audience's attention?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following poets was NOT translated by Mirtemir into the Uzbek language?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the cast changes in the series \"Hawaii Five-0\" from the first season to the third season?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about Soldani Benzi's career and works?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the filming of the TV series \"Egypt\"?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about Jeremih's career progression based on the provided document chunks?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the events surrounding the Todd Bertuzzi incident, which of the following statements is true regarding the suspension of Bertuzzi and the subsequent actions taken by the NHL?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the timeline of events in the life of Jonathan Aitken?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn which country is the only professional doctorate, known as H\u014dmu Hakushi (\u6cd5\u52d9\u535a\u58eb), awarded, and what is the duration of this program?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following is the correct order of the release dates of the singles from Chapter II by Benga?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In which city did Bill Bryson begin his journey in \"The Lost Continent: Travels in Small-Town America\"?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following is the most accurate description of Bud Leavitt's career trajectory, based on the provided document chunks?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following is the correct sequence of events related to the establishment of the City of Blacktown?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the population of Sand Lake, Michigan, based on the 2020 census data?",
+    "model_answer": ".",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the population density of Kemmerer and Troy?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of ribosomal proteins, which of the following statements is true based on the provided documentation?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn which year did Dr. Mickal become the head professor of the LSU Medical School?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following directors has directed the most films, considering the number of films directed by each director mentioned in the provided documentation?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the events surrounding the crash of Flight 2415 at Pasco's Tri-Cities Airport?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the film \"Bad Teacher\"?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the Ulysses spacecraft's mission, which of the following statements is true regarding the spacecraft's communication capabilities and the impact of the X-band subsystem failure?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the Odyssey, which of the following statements is true regarding the poem's composition and transmission?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the Denver Broncos' history, considering their performance in the Arena Football League (AFL) and the National Football League (NFL)?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true about the political career of Governor Gianforte?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate assessment of the overall reception of the \"Luther\" series, considering the reviews from different sources and the ratings on Rotten Tomatoes and Metacritic?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document, which of the following statements is the most accurate description of the production challenges faced by the filmmakers of the series \"The Search for Tutankhamun\"?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true about the relationship between Lisa A. Callif and Michael C. Donaldson?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which season of \"Unbreakable Kimmy Schmidt\" received the highest approval rating on Rotten Tomatoes, and what was the average rating for that season?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following is the most accurate description of Robert Aldrich's role in the film \"The Southerner\"?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the political career of Greg Gianforte?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is NOT true about Mick Jagger's early career with the Rolling Stones?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the commercial performance of Madonna's \"Like a Virgin\" album?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the character Alice in the various adaptations of the Alice in Wonderland series?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following is the correct order of the premieres of the operas by Fran\u00e7ois-Beno\u00eet Hoffman, considering the information provided in the documentation?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the history of the roller coaster Steel Venom, now known as Possessed, at Dorney Park?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the nursery rhyme \"Aiken Drum\"?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following is NOT a feature of the Cirque du Soleil show \"O\"?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which hamlet in Sand Lake has the most residents and was originally known as Ulinesville?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of power supply systems, which of the following statements is true regarding the use of passive and active power factor correction (PFC)?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the relationship between the Dunblane massacre and the Port Arthur massacre, based on the provided documentation?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the evolution of proboscideans, based on the provided document chunks?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate representation of the critical reception of \"Clouds of Sils Maria\" based on the provided document chunks?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the relationship between Atari and Activision in the context of the \"Gang of Four\" and the acquisition of Infocom?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the history of the Northwest Territories government?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the 2006 Atlantic Championship, Simon Pagenaud won the title by a few points over Graham Rahal. In 2009, Pagenaud and de Ferran Motorsports took second place in the American Le Mans Series LMP1 class, only 17 points behind the champions Highcroft Racing. Given that Pagenaud won the 2014 Shell and Pennzoil Grand Prix of Houston, which race did he win in 2006?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the events surrounding the Massie Affair and the subsequent political climate in Hawaii, which of the following statements is most accurate regarding the actions taken by Governor Lawrence M. Judd?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the history of Traverse City, based on the provided document chunks?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the construction and maintenance of the public spaces at 55 Water Street?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the 2013 Preakness Stakes, which horse won the race and what was the winning time?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate description of the advantages of oral vaccines over injectable vaccines, based on the provided document chunks?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the novel \"Dinner at the Homesick Restaurant\" by Anne Tyler, which of the following statements is the most accurate representation of the relationship between Cody and Ezra?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the film \"Irma Vep,\" which director is mentioned as having been influenced by both Robert Bresson and Guy Debord, and who is also known for his collaboration with Claire Denis and Atom Egoyan?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the Cortina d'Ampezzo bobsleigh track, based on the provided documentation?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following is the correct order of the release of Angelspit's studio albums, considering the information provided in the documentation?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is the most accurate representation of the 2011 protest in Hong Kong, considering the information from both the provided chunks?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the Chiesa della Madonna della Difesa?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the relationship between Brandon James and Daisy, based on the provided document chunks?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn which year was the 6th National Hockey League All-Star Game played, and what was the format of the 2018 National Hockey League All-Star Game?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nAt the 1968 Summer Olympics, Tommie Smith won the 200m gold medal in a time of 19.83 seconds. This was the first time the 20-second barrier was officially broken. Smith's victory was significant for several reasons, including his world record time and the fact that he broke the record on a cinder track. Additionally, Smith's victory was part of a larger context involving his involvement in the Olympic Project for Human Rights (OPHR) and his protest against racism and injustice. Given this information, which of the following statements is true?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is the most accurate representation of the changes United Airlines implemented in response to the incident involving Dr. David Dao?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the \"Fifty Shades\" film series, which of the following statements is true about the relationship between Ana and Christian Grey?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided document chunks, which of the following statements is true about the relationship between Christian and Syed?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of Donna Summer's career trajectory, based on the provided documentation?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the historical and cultural significance of the YIVO Institute?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements about Thales' philosophy is most consistent with his claim that \"everything is full of gods\"?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the Nashua River's restoration efforts, which of the following statements is true about the timeline and impact of Marion Stoddart's campaign?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the 1976 Orange Bowl, which team won the game and secured Oklahoma's fifth national championship?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about Yusuf / Cat Stevens' career and awards?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the films \"The Real Glory\" and \"The Lives of a Bengal Lancer,\" which of the following statements is true about the directors of these films?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the Vancouver Canucks' history, which of the following statements is true about the West Coast Express line's performance during the 2005\u201306 season?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is NOT true about Des Moines, based on the provided document chunks?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the 2011 Alamo Bowl, which team was the offensive MVP and how many yards did they run for?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nThe Space Shuttle Discovery launched the Ulysses spacecraft on 6 October 1990. What was the primary purpose of the Ulysses spacecraft, and how did its launch trajectory differ from the original plan?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nConsider the following information about Mars exploration and planetary protection:\n\n1. **Chunk0**: \"Nevertheless, returned samples from Mars will be treated as potentially biohazardous until scientists can determine that the returned samples are safe. The goal is to reduce the probability of release of a Mars particle to less than one in a million.\"\n\n2. **Chunk1**: \"For restricted Category V missions, the current recommendation is that no uncontained samples should be returned unless sterilized. Since sterilization of the returned samples would destroy much of their science value, current proposals involve containment and quarantine procedures.\"\n\n3. **Chunk2**: \"A special region is a region classified by COSPAR where terrestrial organisms could readily propagate, or thought to have a high potential for existence of Martian life forms. This is understood to apply to any region on Mars where liquid water occurs, or can occasionally occur, based on the current understanding of requirements for life.\"\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about Bob's relationship with his wife Thelma and his friend Terry?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the events surrounding the retraction of the article by Lisa Littman on rapid-onset gender dysphoria?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the Purdue University campus, based on the provided document chunks?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the relationship between Fenmore and Summer?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements about Bill Bryson's books is true, based on the provided document chunks?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the power factor correction (PFC) in a switched-mode power supply (SMPS) with active PFC?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following individuals received the most prestigious award from the College Art Association?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the play \"Waterloo Bridge\" by Robert E. Sherwood, what is the primary reason why Myra Deauville is unable to return home to the United States?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about Leeds United's history, based on the provided document chunks?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the song \"We Found Love\" by Rihanna, which of the following statements is the most accurate representation of the song's critical acclaim and impact?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn which year did Aldrich Studios open, and what was the name of the first film produced there?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the Black Panther Party's activities in 1967?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the Redwood City Daily News?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn 1972, Donohue won the Indianapolis 500 in his McLaren-Offy, setting a record speed of over 162 mph (261 km/h). This victory was significant for Penske as it was their first win in the Indy 500. However, Donohue also raced in NASCAR and Can-Am series. In the 1972\u20131973 season, he won the season-opening event at Riverside in the Winston Cup Series. In the Can-Am series, Donohue was involved in a significant incident with the Porsche 917-10. What was the primary reason for the incident with the Porsche 917-10?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the 1991 Formula One season, which of the following cars was the last to win a World Championship using a manual transmission and the only F1 car to win the World Championship with a V12 engine?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document, which of the following statements best describes the primary objective of Cloward and Piven's strategy?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of Republic Airways' operations, which of the following statements is true regarding the Embraer E175 aircraft?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following teams is the most likely to have been awarded the \"All-Asia Executive Team\" title, given the information about the history of Northwest Territories capital cities and the economic characteristics of Hong Kong?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn George Balanchine's \"The Nutcracker,\" what is the significance of the Dance of the Sugar Plum Fairy being moved from near the end of Act II to near the beginning of the second act, just after the Sugar Plum Fairy makes her first appearance?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following is the correct sequence of events in the career of Jos\u00e9 Daniel Valencia?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following films did Saif Ali Khan perform in, where he played a character named Nikhil Arora, and was praised for his performance by Taran Adarsh and Khalid Mohamed?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the game Super Ghouls 'n Ghosts, which of the following statements is true regarding the Game Boy Advance version?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true about the political career of Charles Haughey?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following is the most accurate description of the location of the Cass Corridor in relation to the East Village and Adventureland Park?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is NOT supported by the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true regarding the inheritance of the estate?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the Boardman River and its relationship to Traverse City?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the Lewiston Maineiacs' history and their association with the Androscoggin Bank Colis\u00e9e?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about Jonathan Aitken's career and personal life?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following individuals is NOT related to the British Prime Minister Harold Macmillan?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the song \"House Party\" by 3OH!3, based on the provided documentation?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document, which of the following statements is true about the character Control in the 1965 film adaptation of \"The Spy Who Came In from the Cold\"?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of Leeds United's history, which of the following statements is true regarding the timeline of events and the ownership structure of the club?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the Reagan administration's response to the AIDS crisis?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the film \"Vera Cruz,\" which was directed by Robert Aldrich, what was the primary reason for the change in the female lead from Mari Blanchard to Denise Darcel?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following is the correct order of events in the life of Mick Jagger, based on the provided document chunks?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the 2008 season, the Texas Tech Red Raiders faced the North Dakota Fighting Sioux. The Red Raiders won the coin toss and elected to receive the opening kickoff. What was the final score of the game?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements best summarizes the core of Murray's views on the 2016 U.S. presidential election, based on the provided document chunks?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the Denver Broncos' quarterback situation in the 2019 season?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the Miami Gardens Police Department's operations and the number of stops they made between 2008 and 2013?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the fire safety measures in the mall?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true about the production of the \"The Cissy\" episode in the South Park series?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the Rabi cycle and its application in quantum computing?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about J.J. Clancy's role in the Irish Party after the 1900 general election?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the events surrounding Corliss Archer's late-night disappearance and the subsequent events involving the Marquis?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the Denver Broncos' uniform history?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the poem \"Three Little Kittens,\" which of the following statements is true about its publication history and authorship?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the Nanda Devi sanctuary, which of the following statements is true regarding the environmental impact and conservation efforts?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following is the correct order of the metropolitan divisions that make up the Miami-Fort Lauderdale-Miami Beach Metropolitan Statistical Area, as defined by the Census Bureau?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following authors is a winner of both the Booker Prize and the Costa Book Award, and also has a degree from the University of East Anglia?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the film \"Alice in Wonderland\" directed by Tim Burton, which of the following statements is true regarding the film's production and visual effects?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the chess composition described in the first chunk?",
+    "model_answer": ".",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, what is the most likely reason for Radar's decision to go home, considering the events and interactions described?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In the context of the provided documentation, which of the following statements is true about the song \"Billy Boy\"?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about Cat Stevens' career and his stage name?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nThe Great Mouse Detective was first released on VHS in the United Kingdom in 1992. Which of the following statements is true about the Blu-ray release of the film?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true about the CBS Block Party lineup and its impact on the shows involved?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following individuals was not evacuated from the island in the first episode of \"The Island\" series?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In the context of Kimmy's journey, what is the most significant change she experiences in her life after being rescued and starting her new life in New York City?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of Hong Kong's economic and transportation systems, which of the following statements is most accurate regarding the impact of COVID-19 and the closure of Russian airspace on the city's tourism and transport infrastructure?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following films was the most popular at the French box office in 1969, but not widely seen in English-speaking countries?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the Oklahoma Sooners' 2000 season, given the provided document chunks?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of coaxial connectors, which of the following statements is true about the BNC connector?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true about the episode \"Operation Righteous Cowboy Lightning\"?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following individuals was NOT associated with John Dicks' publishing firm?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In the context of the poem, what is the primary reason the girl's self-image is negatively impacted by the Barbie Doll?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the availability of \"It's Always Sunny in Philadelphia\" on streaming platforms in the UK?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the history of Patrick Henry High School and Chapman University?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the Oklahoma Sooners' performance during the Barry Switzer era?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following institutions was NOT part of Smith's academic journey?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following streaming services was NOT represented by Dave Becky as a manager until November 2017?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following series was the first to be retroactively labeled as a Cartoon Cartoon by Cartoon Network, despite being created before the introduction of the Cartoon Cartoon brand?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Consider the following information about a two-state quantum system described by a Hamiltonian matrix:\n\n**Chunk0:**\nThe most general form of the Hamiltonian of a two-state system is given by:\n\n\\[\n\\mathbf{H} = \\begin{pmatrix}\na_0 + a_3 & a_1 - i a_2 \\\\\na_1 + i a_2 & a_0 - a_3\n\\end{pmatrix}\n\\]\n\nwhere \\(a_0, a_1, a_2\\) and \\(a_3\\) are real numbers.\n\n**Chunk1:**\nThe basis vectors are represented as:\n\n\\[\n|0\\rangle = \\begin{pmatrix}1\\\\0\\end{pmatrix} \\quad \\text{and} \\quad |1\\rangle = \\begin{pmatrix}0\\\\1\\end{pmatrix}\n\\]\n\nAll observable physical quantities associated with this system are 2 \u00d7 2 Hermitian matrices. The probability \\(P(t)\\) that the system is in the state \\(|1\\rangle\\) after time \\(t\\) is given by:\n\n\\[\nP(t) = \\left|\\left\\langle 1|\\psi(t)\\right\\rangle\\right|^2\n\\]\n\nwhere \\(\\psi(t)\\) is the time-evolved state of the system.\n\n**Chunk2:**\nIn the degenerate case where \\(E_+ = E_-\\), the characteristic frequency is 0 and there is no oscillation. If the system is in an eigenstate of a given Hamiltonian, it remains in that state even for time-dependent Hamiltonians.\n\nGiven this information, which of the following statements is true?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following is the most accurate description of the relationship between the Iowa State Capitol and the Salisbury House?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about the relationship between the characters from Family Matters and Step by Step?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is the most accurate assessment of the reception of the second season of Outlander, based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the Marvel Universe, which of the following statements is true about the relationship between Spider-Man and his recurring villains?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following artists was not part of the band Capital Cities?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following individuals is NOT associated with Albert Park?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the relationship between Avoca Beach and Woy Woy Bay, considering their geographical locations and historical contexts?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about the city of Corbin, Kentucky, based on the provided documentation?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the Making Home Affordable Program (HAMP) and the Streamlined Modification Program (SMP)?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following is the most accurate description of the film \"The Cool Ones\" based on the provided document chunks?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements is NOT supported by the provided documentation?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the Sussex Spaniel, based on the provided document chunks?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about Rashaun Woods' career, based on the provided document chunks?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following authors is most likely to have been influenced by living in a country other than Austria, based on their literary works and the information provided in the given document chunks?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about the evolution of the SNICK block on Nickelodeon?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of protein synthesis, which of the following statements is true about the role of ribosomes in the process?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the Blade Runner universe, which of the following statements is true about the Voight-Kampff machine and its use in the film?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the Zumanity show, which of the following statements is true about the act \"Handbalancing\" and the performer Jonas?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following is the most accurate description of the plot of the 1974 Rankin/Bass special \"The Year Without a Santa Claus\"?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the evolution of the Brisbane punk rock scene?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the Arab Kingdom of Syria, which of the following statements is true regarding the relationship between the British and the French during the establishment of the kingdom?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about the development of the Blacktown City Libraries service?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about the game between Connecticut and Syracuse?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the relationship between the Omukama of Bunyoro and the Omukama of Tooro, based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about Mick Jagger's relationship with Jerry Hall?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the Arab Kingdom of Syria, which was established on 5 October 1918, and the subsequent events leading to its dissolution, consider the following:\n\n1. The Arab Kingdom of Syria was established with the permission of the British military.\n2. The Sykes\u2013Picot Agreement, signed between the British and French, divided the Middle East into spheres of influence.\n3. The Congress of Damascus, held in 1920, declared the independence of the Arab Kingdom of Syria, including Palestine and Lebanon.\n4. The Kingdom of Syria was led by Faisal bin Hussein, son of Sharif Hussein bin Ali.\n5. The Kingdom of Syria was dissolved on 25 July 1920 after Faisal surrendered to French forces.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about the career of Ryan Zinke after his tenure as Interior Secretary, considering his political positions, career history, and the investigations he faced?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following is the most accurate description of Arcade's primary method of engaging with his enemies, based on the provided document chunks?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about Ashrita Shetty's career in the film industry?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements best describes the primary strategy employed by the Japanese naval forces during the Battle of Okinawa, considering the integration of all available information from the provided document chunks?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following coaches has the highest winning percentage in the history of 1-A football, excluding the University of Oregon?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements about the Spider-Man rogues gallery is true, given the information from the provided document chunks?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about the Colorado Buffaloes' football program, considering their history of conference championships and head coaches?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the events leading up to the Glorious Revolution, which of the following statements is the most accurate assessment of the political climate in England and Scotland in 1688?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of international tax law, which of the following statements is true regarding the tax treatment of related corporations in the United States and the United Kingdom?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the growth and propagation of Cryptocoryne plants?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about the history of the Crossings at Northwest?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the Maseed tribe, which of the following statements is true regarding the historical resistance against British rule?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the historical and cultural evolution of the \"Jezebel\" stereotype for black women?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following pairs of contestants from the different seasons of \"Nach Baliye\" were the winners of their respective seasons?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about the events and activities in Traverse City, based on the provided document chunks?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements about the activities of Stuart's Stranglers is most accurate, given the information provided in the documentation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about the population of the city based on the 2020 census data?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following individuals was NOT a parishioner of Calvary Church, considering their historical significance and association with the church?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements is most accurate regarding the genetic origins of the Celtic nations, based on the provided documentation?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about the performance of Warren Weir at the 2013 World Championships in Athletics?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of Republic Airways' operations, which of the following statements is true regarding the Embraer E175 aircraft fleet?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the film \"Alpha and Omega,\" which of the following statements is true about the film's reception and its sequels?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about PenAir's operations in the year 2019?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "In the context of the \"Man and the Moon\" episode of Disneyland, which aired on December 28, 1955, and the subsequent article series in Collier's magazine, what is the significance of the \"rectangular double wall\" or ruins seen near the Moon's terminator, and how does this relate to the historical context of the episode's production, considering the involvement of Dr. Wernher von Braun and the Nazi rocket program?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following individuals is NOT a translator of German literature?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the Eureka Airport's history and operations, which of the following statements is true regarding the airport's expansion and the introduction of new technologies?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the differences between bacterial and eukaryotic ribosomes, and how these differences are exploited in antibiotic development?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the Atlanta child murders, which of the following statements is most likely to be true based on the provided documentation?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following is the correct order of the Deftones' albums based on their release dates?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about Graham Farmer's career and legacy?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the film \"Around the World in 80 Days,\" which of the following statements is true about the production and casting of the film?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn which of the following regions was the moose most likely to have been found during the Roman era, based on historical accounts and the current distribution of the species?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the relationship between Fenmore and Summer?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about the formation and early years of Deftones?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about the history of the West Perth Football Club, considering its formation, early captains, and the clubs that merged to form it?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is the most accurate representation of the benefits of urban agriculture, based on the provided document chunks?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following is the most accurate description of Bill Bryson's approach to writing about the United States in \"The Lost Continent: Travels in Small-Town America\"?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements best describes the core tenet of social atomism, as discussed in the provided documentation?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true about Shah Rukh Khan's career trajectory?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which team won the 2011 NHL All-Star Game and who was the Most Valuable Player (MVP) of the game?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the Blade Runner film, which of the following statements is the most accurate representation of the film's socio-political themes as discussed in the provided documentation?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of Marge Piercy's works, which of the following statements is true about the relationship between \"Woman on the Edge of Time\" and \"He, She and It\"?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of Morgan Llywelyn's works, which of the following statements is true about the relationship between her novels \"Grania: She-King of the Irish Seas\" and \"Pride of Lions\"?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following is NOT a notable holding of the Center for American War Letters (CAWL) at Chapman University?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about the development of the \"The Hunger Games\" film series?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about the production of Madonna's \"Like a Virgin\" album, considering the album's title, cover image, and the significance of the production process?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the relationship between the characters in the film \"Encounter with Werther\" and the musical composition \"Piano Quartet No. 3\" by Johannes Brahms?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about the career of Christine Hamilton, considering her extensive experience as a secretary to various Conservative MPs and her husband's political career?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nJean-Fran\u00e7ois Champollion's breakthrough in deciphering hieroglyphs was pivotal in understanding the Ancient Egyptian civilization. Which of the following statements is NOT true about Champollion's work and the Rosetta Stone?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate description of the 2004 film \"Around the World in 80 Days\" based on the provided document chunks?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about the behavior of moose in relation to their mating season and aggression?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following characters first appeared in the Ultimate Marvel Universe in the context of the \"Ultimate Marvel Team-Up\" series?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about the history of \"FM News 101.1\" and its subsequent transformations?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following is the most accurate description of the work of AES+F, based on the provided documentation?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the incident involving Dr. Dao and the Chicago Department of Aviation Police, which of the following statements is most accurate regarding the response of the Chicago Police Department (CPD) to the incident?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following is the most accurate description of Rob Schneider's career trajectory after leaving Saturday Night Live?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about the Glidden House and its historical significance?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn Santer\u00eda, what is the primary purpose of the toque de santo, and how does it relate to the concept of possession by an oricha? Additionally, what is the significance of the rogaci\u00f3n de la cabeza in the context of healing practices, and how does it differ from the use of omiero?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true about the episode \"Kidney Now!\" from the TV series \"30 Rock\"?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nWhich of the following statements is NOT supported by the provided documentation?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nThe Ulysses spacecraft was launched in 1990 and completed its mission in 2009. It was powered by a radioisotope thermoelectric generator (RTG) and studied the Sun at all latitudes. The spacecraft was originally named Odysseus and was launched from the Space Shuttle Discovery. During its mission, Ulysses encountered several comets, including Comet Shoemaker\u2013Levy 9, Comet C/1996 B2 (Hyakutake), and Comet C/1999 T1 (McNaught\u2013Hartley). Ulysses also performed a swing-by maneuver around Jupiter in 1992, which increased its inclination to the ecliptic by 80.2\u00b0. The spacecraft was spin-stabilized and used hydrazine monopropellant for course corrections. It was controlled by eight thrusters in two blocks and had a spin rate of 5 rpm. Ulysses was designed by ESA and built by Dornier Systems. The spacecraft was approximately 3.2 m \u00d7 3.3 m \u00d7 2.1 m in size and had a dish antenna and a GPHS-RTG power source. The spacecraft was deployed into low Earth orbit from the Space Shuttle Discovery and propelled on a trajectory to Jupiter by a combination of solid rocket motors. The mission was delayed due to the Challenger disaster in 1986.",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements is true about Noelle Scaggs' career with Fitz and the Tantrums, considering her contributions to their discography and collaborations?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of Santer\u00eda, which of the following statements is most accurate regarding the relationship between Santer\u00eda and other religions?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements is true about the highest attendance at Old Trafford, considering both its pre- and post-conversion to an all-seater stadium, and taking into account the impact of the stadium's history and the conversion process?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the New Jersey Network (NJN) and its subsequent transformation, which of the following statements is true regarding the television and radio networks' operations and funding?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the history of the Evergreen Plaza?",
+    "model_answer": ".",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn 1952, Jack Young became the first rider to win a second title (and the first to win two in a row) when he won his second straight World Championship after scoring 14 points. Given that Jack Young won the 1951 and 1952 World Championships, and that he was the first Australian to win two World Championships in any form of motorsport, what was the significance of his 1952 victory in the context of his career and the sport of speedway?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements is true about Richie Ginther's career in Formula One?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "In the context of quantum computing, consider a spin-1/2 system with magnetic moment \u03bc placed in a classical magnetic field B. The magnetic field is given by:\n\n\\[ \\mathbf{B} = B_0 \\mathbf{\\hat{z}} + B_1 (\\cos(\\omega t) \\mathbf{\\hat{x}} - \\sin(\\omega t) \\mathbf{\\hat{y}}) \\]\n\nwhere \\( \\mathbf{\\hat{x}}, \\mathbf{\\hat{y}}, \\mathbf{\\hat{z}} \\) are unit vectors along the x, y, and z axes respectively. The magnetic moment is given by:\n\n\\[ \\mathbf{\\mu} = \\frac{\\hbar}{2} \\gamma \\mathbf{\\sigma} \\]\n\nwhere \\( \\gamma \\) is the gyromagnetic ratio and \\( \\mathbf{\\sigma} \\) are the Pauli matrices. The Hamiltonian of the system is:\n\n\\[ \\mathbf{H} = -\\mathbf{\\mu} \\cdot \\mathbf{B} = -\\frac{\\hbar}{2} \\omega_0 \\sigma_z - \\frac{\\hbar}{2} \\omega_1 (\\sigma_x \\cos(\\omega t) - \\sigma_y \\sin(\\omega t)) \\]\n\nwhere \\( \\omega_0 = \\gamma B_0 \\) and \\( \\omega_1 = \\gamma B_1 \\).\n\nGiven that the system is initially in the state \\( |0\\rangle \\), what is the probability that it will be found in the state \\( |1\\rangle \\) after a time \\( t \\)?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn 1995, a prominent figure in Canadian politics lost two teeth after being struck by a riot police officer during a protest. This individual later became involved with the Ontario Coalition Against Poverty and was part of a group opposing the proposed Free Trade Area of the Americas in 2001. In 2003, she was part of a transition advisory team for former Toronto mayor David Miller. In 2009, she withdrew her association with a film due to its use as a marketing exercise for a corporate brand. In 2012, she endorsed a candidate in the New Democratic Party leadership race. In 2017, she wrote an op-ed piece detailing her experience with sexual harassment in Hollywood. Based on the provided information, which of the following is the most accurate description of this individual's political activism?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the live performance of \"Live Show\" from the fifth season of 30 Rock, which of the following statements is true regarding the handling of the blackface scene?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the history and rebranding of WKQX and Q101?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the history and development of Celtic studies, which of the following statements is the most accurate regarding the establishment of the field in the German-speaking world?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements about John Locke's library is true, given the information provided in the document chunks?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the films \"The Lives of a Bengal Lancer\" and \"The Real Glory,\" which of the following statements is true regarding the portrayal of the British Empire and its soldiers?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the evolution of Affiliated Managers Group (AMG) under the leadership of Sean Healey?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the film \"Udhayam NH4\", which of the following statements is true regarding the production and release of the film?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of Eric Plakun's views on the integration of psychotherapy and psychosocial treatments in primary care settings?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the film \"Irma Vep,\" which is a 1996 French comedy-drama directed by Olivier Assayas, how does the film's plot mirror the disorientation felt by director Ren\u00e9 Vidal during a troubled production of a film-within-a-film? Additionally, how does the film's theme of remembrance as an act of celebration relate to the film's exploration of the state of the French film industry? Furthermore, how does the film's use of a foreigner's perspective (Maggie Cheung) influence the narrative and its themes?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements is true about the relationship between the Kring art gallery and the history of the Joseon era, considering the architectural features and cultural programs it showcases?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "In the context of the events described in the provided documentation, which of the following statements is true about Eugene's relationship with Stephanie?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the history and evolution of Minnesota Public Radio (MPR) and its services?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements about the elephant's trunk is true, considering its unique structure and functions?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the character Vicki Fowler from the soap opera \"EastEnders,\" consider the following information:\n\n1. Vicki Fowler was born in 1986 and is the daughter of Michelle Fowler and Den Watts.\n2. In 2003, Vicki was reintroduced to the show as a rebellious teenager.\n3. In 2004, Vicki started a relationship with her 46-year-old college lecturer, Tommy Grant.\n4. Vicki's mother, Michelle, left the show in 1995 and returned in 2003.\n5. In 2014, Vicki and her partner, Spencer, were unable to attend Sharon's wedding to Phil Mitchell.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the history and current status of County Road 492 (CR 492) in Marquette County, Michigan?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate description of the commercial performance of Madonna's album \"Like a Virgin\"?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of Shah Rukh Khan's career, which of the following statements is true based on the provided document chunks?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of Anne Tyler's novels, which of the following statements is most accurate regarding her approach to character development and the role of family and marriage in her stories?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn Santer\u00eda, what is the primary reason why practitioners believe that the oricha can communicate with humans through divination, prayers, dreams, music, and dance? Additionally, how does this communication influence the practitioners' decision-making process?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the film \"The Gardener\" by Mohsen Makhmalbaf, which of the following statements is the most accurate representation of the film's reception and impact?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate regarding the role of ribozymes in the evolution of life?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nWhich of the following events took place at the Los Angeles Memorial Coliseum during the 1980s, and which specific band played at the stadium on October 9 and 11, 1981?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements is true regarding Jerry Garcia's involvement with the Grateful Dead and his musical instruments, considering his early influences and career evolution?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of John le Carr\u00e9's \"Call for the Dead,\" which of the following statements is true about the relationship between George Smiley and the Circus?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the North African campaign during World War II, which of the following statements is true regarding the strategic implications of the Battle of Beda Fomm?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements is true about the Swan Districts Football Club's performance in the 1960s, considering their wins, losses, and Grand Final appearances?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn which of the following countries is the study of Celtic languages and cultures most prevalent, considering both the number of universities offering these studies and the historical significance of the language in the country?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nJane Eyre, after leaving Thornfield Hall, encounters a series of events that lead her to the home of Diana and Mary Rivers. What is the most likely reason for Jane's decision to leave Thornfield Hall, and what specific event at Thornfield Hall might have influenced her decision?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn Anne Tyler's works, the theme of time and its impact on characters is a central element. According to the provided documentation, Tyler's novels often span decades and emphasize the role of small, seemingly insignificant events in shaping characters' lives. Given this, which of the following statements is the most accurate representation of Tyler's approach to time and character development?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the events that transpired involving Plok, the jade Buddha, and the Bobbins Brothers?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the role of Santa Claus in the film \"The Year Without a Santa Claus\"?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the Marvel Universe, which of the following statements about Arcade is true, given the information from the provided document chunks?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of Vinmonopolet's operations, which of the following statements is true regarding the company's handling of special release wines and their pricing strategies?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the spy film genre, which of the following statements is true about the evolution of the genre from the silent era to the present day?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the political career of Charles Haughey, consider the following information:\n\n1. When Haughey became Taoiseach in 1979, he faced a deep economic crisis due to the 1979 energy crisis.\n2. Haughey's government was marked by several controversies, including the phone-tapping scandal and the resignation of key ministers.\n3. In 1982, Haughey's government collapsed due to the withdrawal of support from the Workers' Party TDs and Tony Gregory over a policy document called \"The Way Forward.\"\n4. Despite facing multiple challenges, Haughey managed to survive several votes of no-confidence, including one in 1983.\n\nWhich of the following statements is the most accurate description of Haughey's political career during the 1980s?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the game between the Texas Tech Red Raiders and the Rice Owls, what was the final score of the game?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the history and current state of Celtic studies in Germany?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nThe Garden Bridge project, initially proposed to connect the South Bank with the north bank of the River Thames, faced numerous challenges and controversies throughout its planning and execution. The project was initially estimated to cost \u00a360 million but eventually ballooned to \u00a3185 million. The bridge was to feature trees and shrubs, with a design that required the felling of mature trees, including 28 plane trees planted in the 1960s. The bridge was also to have a restricted access policy, banning groups of eight or more people and cyclists, and was to be open for 18 hours a day. The project was opposed by critics who argued that it was a vanity project and that the funds could be better used elsewhere. Despite initial support from Boris Johnson, the project was eventually abandoned due to financial concerns and a lack of public support. The project's total public cost was \u00a343 million.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the game development history of Plok!, which of the following statements is the most accurate regarding the game's reception and commercial performance?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements is true about the University of Oregon's basketball program, considering the information from all document chunks?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the relationship between the Maseed tribesmen and the British forces during the period of Mulla Powinda's leadership?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the Bonus Army protests, which of the following statements is most accurate regarding the response of the U.S. government to the veterans' demands for immediate payment of their service certificates?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the Raspadskaya mine?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the expansion and renovation of Robinsons Novaliches?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements best describes the evolution of the Black Power movement in the context of the civil rights movement and the influence of Malcolm X, considering the integration of all provided document chunks?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nWhich of the following statements about the life and work of Frank Stagg is most accurate, given the provided documentation?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the relationship between George Smiley and Elsa Fennan?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of Manchester United's European football history, which of the following statements is true regarding their performance in the 1990s, 2000s, and early 2010s?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements is true about Yusuf Islam's (formerly known as Cat Stevens) musical career and humanitarian efforts?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements about Socrates' relationship with Plato is most accurate, given the information provided in the document chunks?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the Blade Runner franchise, which of the following statements is true about the relationship between the original film and the sequel Blade Runner 2049?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the distribution and ecological preferences of Mimosa invisa and Mimosa rubicaulis?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the distribution and habitat of Pistacia chinensis and Pistacia terebinthus?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nWhich of the following statements about N\u00e2z\u0131m Hikmet is true, given the provided document chunks?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the character Sinbad?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the 3rd Marine Division's operations in Vietnam, which of the following statements is true regarding the division's involvement in the Battle of Okinawa?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the 2016 campaign, which of the following statements is true regarding Francis Joyon's performance compared to Lo\u00efck Peyron's previous record?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements is true about Mick Jagger's solo career and his collaborations with other artists?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following airlines was the dominant carrier at PDX during the regulated era and through the 1980s, and what was the specific reason for the introduction of seasonal service to Honolulu by Delta Air Lines in 2015?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nThe Battle of Okinawa, fought between the United States and Japan, was one of the bloodiest battles of World War II. The battle involved significant civilian casualties, with the Japanese military using civilians as human shields and executing those who hid food. The US forces, despite their superior firepower, struggled to distinguish between civilians and soldiers, leading to indiscriminate shooting. The battle ended with the surrender of Japan on September 2, 1945. Given this information, which of the following statements is true?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements is true about the cancellation of the television series \"Speechless\" and its impact on Rob Schneider's career?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements is true about the Sooners' performance in the College Football Playoff era under Lincoln Riley?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the Insular Celtic languages, which of the following statements is true regarding the absolute and conjunct verb forms in Old Irish?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the song \"We Found Love\" by Rihanna, which of the following statements is the most accurate regarding its reception and impact?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following bands was the most influential in shaping the Brisbane punk scene during the 1980s, considering their impact on both the local and national levels?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements is the most accurate representation of the changes made by United Airlines in response to the incident involving Dr. David Dao?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the relationship between Mare and Maven?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of Lewis Mumford's analysis of technology and society, which of the following statements best encapsulates the essence of his vision for a biotechnic society?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following directors did Robert Aldrich work with as an assistant director during his time at RKO Pictures?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the Black Power movement, which of the following statements is most accurate regarding the evolution of the movement's philosophy and tactics?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements best describes the spread of Santer\u00eda in the United States, considering the information provided in the document, and taking into account the specific details about the religion's evolution and its spread to the U.S.?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the 2002 season, the Texas Tech Red Raiders played against a team that was led by a coach who was known for his innovative offensive strategies. This coach had previously been a two-time national coach of the year and three-time conference coach of the year. The coach was also known for developing the air raid offense, which broke numerous school and NCAA records. The coach's name was Mike Leach. The team played their home games at Jones SBC Stadium in Lubbock, Texas. The Red Raiders compiled a record of 9-5 in the regular season, with a mark of 5-3 in Big 12 play. They finished in a tie for third place in the Southern Division of the Big 12. The team defeated Clemson in the 2002 Tangerine Bowl. The quarterback for the team was Kliff Kingsbury, who totaled 5,017 passing yards and received the Sammy Baugh Trophy. Lawrence Flugence set the NCAA single-season record for most tackles. The team played their home games at Jones SBC Stadium in Lubbock, Texas. The team played against teams such as Ohio State, SMU, Ole Miss, NC State, New Mexico, Texas A&M, Iowa State, Missouri, Colorado, Baylor, Oklahoma State, and Oklahoma. The team also played against Clemson in the Tangerine Bowl. The team was led by tenth-year head coach Mike Leach during the regular season and, following Leach\u2019s dismissal, interim head coach Ruffin McNeill for the bowl game. The Red Raiders compiled an overall record of 9\u20134 with a mark of 5\u20133 in conference play, tying for third place in the Big 12's South Division. Texas Tech was invited to the Alamo Bowl, where they defeated Michigan State, 41\u201331. The Red Raiders played home games at Jones AT&T Stadium in Lubbock, Texas. On December 28, Leach was suspended by Texas Tech pending investigation of alleged inappropriate treatment of Adam James, a redshirt sophomore wide receiver, and the son of former SMU Mustangs and New England Patriots running back Craig James. The suspension came after allegations that Leach treated James unfairly following a mild concussion. Leach was terminated by the university on December 30. Ruffin McNeill, the team's defensive coordinator, was named interim head coach and led the team during their appearance in the Alamo Bowl. The 2003 team finished the season 8\u20135, 4\u20134 in Big 12 play, finishing in 4th place in the Southern Division. The team was invited to the Houston Bowl, defeating Navy 38\u201314. Quarterback B. J. Symons won the Sammy Baugh Trophy, while wide receiver Wes Welker won the Mosi Tatupu Award. NFL draftees\n\nWhich of the following statements is true about the 2002 Texas Tech Red Raiders team?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements is true about the Denver Broncos' quarterback situation in the 2020 season?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following is the most likely reason for the significant shift in Saginaw County's political landscape from a reliable Democratic stronghold to a competitive battleground in recent elections?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the Maseed tribe's history and their interactions with the British, which of the following statements is the most accurate representation of the events leading to the ceasefire in 1925?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of mountain bike orienteering, which of the following statements is true about the most successful mountain bike orienteer, Anton Foliforov?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is the most accurate representation of the events surrounding the Battle of Okinawa, considering the information provided in the document chunks?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is true about the Forests of Mara and Mondrem, based on the provided documentation?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which version of Blade Runner was released in 1992 and contained significant changes from the theatrical version, including the removal of Deckard's voice-over, the re-insertion of the unicorn sequence, and the removal of the studio-imposed happy ending?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements about General Glassford's career is true, given the provided document chunks?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nConsider a spin-1/2 system with magnetic moment $\\mu$ placed in a classical magnetic field $B = B_0 \\hat{z} + B_1 (\\cos(\\omega t) \\hat{x} - \\sin(\\omega t) \\hat{y})$. The Hamiltonian of this system is given by:\n\n\\[\n\\mathbf{H} = -\\mu \\cdot \\mathbf{B} = -\\frac{\\hbar}{2} \\omega_0 \\sigma_z - \\frac{\\hbar}{2} \\omega_1 (\\sigma_x \\cos \\omega t - \\sigma_y \\sin \\omega t)\n\\]\n\nwhere $\\omega_0 = \\gamma B_0$ and $\\omega_1 = \\gamma B_1$. The system is initially in the state $|0\\rangle$. At time $t$, the probability of finding the system in the state $|1\\rangle$ is given by:\n\n\\[\nP_{0 \\to 1}(t) = \\cos^2\\left(\\frac{\\gamma B_0}{2\\omega} \\cos(\\omega t)\\right)\n\\]\n\nGiven this information, which of the following statements is true?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the SNICK programming block's history and evolution?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the history and redevelopment of Northwest Plaza, which of the following statements is true regarding the timeline of events and the involvement of various entities?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of Brahms' Piano Quartet in C minor, Op. 60, which of the following statements is true regarding the Andante movement?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the D-Day operations in Normandy, which of the following statements is true regarding the role of the 6th Airborne Division and the 3rd Parachute Brigade?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is true regarding the attendance records at the Los Angeles Memorial Coliseum, considering the information about soccer, football, and baseball games?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the aftermath of the 2014 Sydney hostage crisis, which of the following statements is true regarding the memorialisation efforts and the impact on the Lindt Caf\u00e9?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is true about the evolution of WKQX and Q101, based on the provided documentation?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the impact of the Battle of Okinawa on the morale of the American forces?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the process of obtaining a doctoral degree in Brazil?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the Anglo-Irish Agreement and the subsequent political events in Ireland, which of the following statements is true regarding the political career of Charles Haughey?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the pre-Socratic philosophers, which of the following statements is the most accurate representation of the influence of the pre-Socratics on the development of Western civilization?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is true about the Des Moines Water Works and its impact on the city during the Great Flood of 1993, considering the \"City Beautiful\" project's timeline and the city's growth trajectory?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the career of Richard \"Torpedo\" Thompson?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is the most accurate representation of the relationship between Ana and Christian after she discovers his text message from Elena Lincoln?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is true about the New York Botanical Garden (NYBG) and its educational programs?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate representation of Graham Farmer's career trajectory, considering his experiences with both the East Perth and Geelong Football Clubs, as well as his coaching roles?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the Rankin/Bass Productions' animated specials, which of the following statements is true about the character of Santa Claus in the 1974 film \"The Year Without a Santa Claus\"?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the spread and evolution of Santer\u00eda, which of the following statements is most accurate regarding the impact of the Cuban Revolution on the practice of Santer\u00eda?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the Han Dynasty's expansion and the history of the Minyue and Nanyue kingdoms, which of the following statements is most accurate regarding the events of 135 BC?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following films, based on the provided document chunks, has the highest box office gross as of June 2012?",
+    "model_answer": "D",
+    "correct_answer": null,
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements about beagles is true, given the information provided in the document chunks?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is true about the character Liz Lemon in the context of the \"Operation Righteous Cowboy Lightning\" episode of 30 Rock?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the 55 Water Street building, which of the following statements is true regarding its construction and early years?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the relationship between the works of Felix Salten and the Siberian roe deer?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the events surrounding the disappearance and death of Charles Stephens, considering the time period and specific events leading up to his disappearance?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the conservation efforts and tourism on Isla Cha\u00f1aral, considering the information from all provided document chunks?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the history and services related to Old Trafford?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is true about Donna Summer's career and the albums she released in the 1980s?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the Glorious Revolution, which of the following statements is the most accurate regarding the actions of King James II and the subsequent events leading to his exile?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate description of the legal battle over the barbed wire patent between Joseph Glidden and Jacob Haish?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the Atherton Bridge, given the provided documentation?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the pre-Socratic philosophers, which of the following statements is the most accurate representation of the evolution of their thought from mythological to philosophical explanations?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the relationship between SINEs and the evolution of eukaryotic genomes?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is true about Yusuf / Cat Stevens' career and humanitarian efforts?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements best describes the Iran\u2013Contra affair, considering the information provided in the document chunks, and taking into account the complex interplay between the U.S. government's actions and the international context?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is true about the Port Mann Bridge project, considering the information from all provided document chunks?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate description of the relationship between Jean-Fran\u00e7ois Champollion and the discovery of the Rosetta Stone?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the Insular Celtic languages, which of the following statements is true regarding the evolution of the languages and their shared innovations?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements about Arnold Bennett's career is true, given the provided document chunks?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following players made their Twenty20 debut for Band-e-Amir Dragons in the 2017 Shpageeza Cricket League on 12 September 2017, and also made their first-class debut for Mis Ainak Region in the 2017 Ghazi Amanullah Khan Regional One Day Tournament on 10 August 2017?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn 2007, Cotton won the second series of ITV's Soapstar Superstar and donated his winning money to the Elton John AIDS Foundation. He also hosted his own talk show, That Antony Cotton Show, which was cancelled after one series. In 2008, Cotton appeared on Family Fortunes and Who Wants to Be a Millionaire?. He also participated in the eleventh series of I'm a Celebrity...Get Me Out of Here! in 2011. In 2013, Cotton won Let's Dance for Comic Relief. He has appeared in several shows at the Oldham Coliseum, including The Fifteen Streets and The Hobbit. Cotton has won numerous awards, including the 2005 National Television Award for Most Popular Newcomer and the 2007 British Soap Awards for Best Actor. He was appointed Member of the Order of the British Empire (MBE) in 2022 for services to the British Army, personnel, and veterans. Cotton is also known for his role as Sean Tully in Coronation Street.\n\nWhich of the following statements is true about Antony Cotton's career?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nThe Garden Bridge project, initially proposed by Boris Johnson, faced numerous challenges and ultimately collapsed. The project required significant funding and planning approvals from various authorities. Given the information provided, which of the following statements is the most accurate regarding the project's funding and planning process?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "In the context of the Nanyue Kingdom, which of the following statements is true regarding the relationship between Nanyue and the Han dynasty during the reign of Zhao Tuo?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements about Gloaming's career is true?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is true about Don Coleman's career and life?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "In the 1953 game between Notre Dame and Michigan State, which of the following statements is true about the game's outcome and the subsequent impact on the teams' seasons?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is NOT true about Don Coleman's career at Michigan State?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the 2011 season, Connecticut Huskies faced several challenges, including a close victory over Pittsburgh and a crucial game against Rutgers. Given the information from the provided document chunks, which of the following statements is true about the Huskies' performance in these games?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the Bertuzzi-Moore incident, which of the following statements is the most accurate reflection of the legal and emotional consequences faced by both parties?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the 2016 Honda Indy Grand Prix of Alabama, which of the following statements is true regarding the race's outcome and the subsequent championship standings?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nJean-Fran\u00e7ois Champollion's decipherment of hieroglyphs significantly impacted the understanding of Ancient Egyptian civilization. Which of the following statements is NOT true about Champollion's work and its implications?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the 58th National Hockey League All-Star Game, which team won the game and by what score?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nThe Ishtar Gate, a significant architectural marvel of the ancient world, was constructed by King Nebuchadnezzar II during the reign of the Neo-Babylonian Empire. The gate is renowned for its intricate design and the use of glazed bricks to create a vivid, jewel-like appearance. The gate's construction involved the use of a specific glazing technique that incorporated plant ash, sandstone conglomerates, and pebbles for silicates, with color-producing minerals like cobalt added in the final glaze formulations. The gate's design features a low-relief pattern of gods and mythical creatures, including lions, dragons, and bulls, which were made from bricks formed by pressing clay into reusable molds. The lions, in particular, were designed with variations in color and pose to enhance the gate's aesthetic appeal. The Processional Way, which ran through the gate, was lined with walls showing these same creatures and flowers, symbolizing the goddess Ishtar. The gate's construction was completed around 605\u2013562 BCE and was dedicated to the goddess Ishtar. The gate's inscription, written in Akkadian cuneiform, was created around the same time as the gate's construction and is a dedication by Nebuchadnezzar to explain the gate's purpose. The inscription is 15 meters tall by 10 meters wide and includes 60 lines of writing.\n\nGiven the above information, which of the following statements is true about the Ishtar Gate?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "In the poem \"Barbie Doll\" by Marge Piercy, what is the primary cause of the girl's death, and how does the poem critique societal expectations of women?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of World War I, what was the primary purpose of deploying concertina wire in the form of \"concertina craze\" and how did it differ from traditional barbed wire fences?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is true about the political career of Charles Haughey, based on the provided document chunks, considering the political climate and the significance of the 1997 general election?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the events surrounding the Lindt Caf\u00e9 siege, considering the information provided in the given document chunks?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn which year was the game \"Inkognito\" first published, and who were the designers of the game?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is true about the 2008 season of the Houston Cougars, considering their performance against Air Force in the Armed Forces Bowl, their conference standings, and their head coach's previous experience?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements accurately describes the transformation of the Evergreen Plaza (now known as Harbor Square) from its original opening in 1964 to its current state in 2023?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is true about the career of Brian Ralston, considering his work on the 2022 film \"Silent River\" and his involvement in the 2017 drama \"Being Rose\"?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate description of Fenmore Baldwin's relationship with Summer Newman?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements about Ryan Zinke's tenure as Secretary of the Interior is most accurate, given the provided document chunks?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the events surrounding the Glorious Revolution, which of the following statements is most accurate regarding the relationship between James II and William of Orange?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the Bennington Triangle, based on the provided documentation, considering the specific details about the region and the disappearances that occurred there?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is true about the casting of the seventh season of Outlander, considering the information from all document chunks?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is true about the Kentucky Derby, based on the provided document chunks?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following statements is NOT supported by the provided documentation?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is the most accurate representation of Cat Stevens' (Yusuf Islam) stance on the 9/11 attacks, based on his public statements and actions?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of celestial mechanics, consider the following information:\n\n1. The Roche limit is the distance from a celestial body within which a second celestial body, held together only by its own force of gravity, will disintegrate due to tidal forces exceeding its self-gravitation.\n2. The Roche limit is calculated based on the radius of the primary body and the ratio of the densities of the two bodies.\n3. The Roche limit is named after \u00c9douard Roche, who first calculated this theoretical limit in 1848.\n4. The Roche limit applies to a satellite's disintegrating due to tidal forces induced by its primary, the body around which it orbits.\n5. Some real satellites can orbit within their Roche limits because they are held together by forces other than gravitation.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the Business Growth Fund (BGF) and its operations?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following authors is NOT a representative of the Austrian essayism tradition, as described in the provided documentation?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the Fisker Automotive acquisition and subsequent events, which of the following statements is true regarding the Karma Revero's production and sales?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the film \"The Hunger Games: Mockingjay \u2013 Part 1\"?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the 2017 Skills Challenge Relay, which team won the competition and what was the final score?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the Miami Gardens city government and its relationship with the surrounding counties?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements best describes John Locke's views on the relationship between the state and religion, based on his writings and the historical context provided?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about Buck's criminal activities?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the career of John O'Rourke?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements best describes the primary goal of the Hawaii Medicaid Project?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following films did Emily Blakelock star in, and what was her role in it?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the 2006 Formula One season, which driver was the fastest in the second qualifying session but failed to make the cut for the race?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is NOT supported by the provided documentation?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of academic publishing, which of the following statements is true about the nature of scientific journals?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document, which of the following statements is true about the career of Scott McCord?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about Fisker Automotive's history and operations?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the career of Merlin Olsen?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the Rankin/Bass production history, which of the following statements is true regarding the distribution of their Christmas specials?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following is the most recent book published by Bear Grylls, based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the Murowa and Victor mines, which of the following statements is true regarding the timeline and production of the Murowa mine?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn which country was the first research doctorate, the PhD, introduced and what was the first university to award it?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements about Yusuf Islam's career and personal life is most accurate, given the provided document chunks?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  }
+]

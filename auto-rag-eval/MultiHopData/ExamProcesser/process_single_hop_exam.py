@@ -165,15 +165,15 @@ def process_json_file(input_path, output_path, sample_size=1000, random_seed=42)
             print(f"Warning: Sample size ({sample_size}) is larger than the dataset size ({len(data)})")
             sample_size = len(data)
 
-        # Randomly sample entries
-        sampled_data = random.sample(data, sample_size)
-        
         # Clean the data and get statistics
-        cleaned_data, questions_cleaned, questions_removed = clean_question_choices(sampled_data)
+        cleaned_data, questions_cleaned, questions_removed = clean_question_choices(data)
+
+        # Randomly sample entries
+        sampled_data = random.sample(cleaned_data, sample_size)
 
         # Save the cleaned data to a new JSON file
         with open(output_path, "w", encoding="utf-8") as f:
-            json.dump(cleaned_data, f, indent=2, ensure_ascii=False)
+            json.dump(sampled_data, f, indent=2, ensure_ascii=False)
 
         print(f"Successfully processed {input_path}")
         print(f"- Total questions: {len(data)}")
@@ -192,7 +192,6 @@ def process_json_file(input_path, output_path, sample_size=1000, random_seed=42)
 
 if __name__ == "__main__":
     task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    # exam_file_name = "llama_3_2_3b_single_hop_exam"
     exam_file_names = ["llama_3_2_3b_single_hop_exam", "gemma2_9b_single_hop_exam", "ministral_8b_single_hop_exam"]
     
     for exam_file_name in exam_file_names:
