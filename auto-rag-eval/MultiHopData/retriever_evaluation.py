@@ -2,7 +2,7 @@ import json
 from typing import List, Dict, Any
 from tqdm import tqdm
 from MultiHopData.retriever import BaseRetriever, Chunk, ChunkRetriever
-from MultiHopData.solve_exam_rag import BM25Retriever, ExamQuestion, FAISSRetriever, HybridRetriever
+from MultiHopData.Solver.solve_exam_rag import BM25Retriever, ExamQuestion, FAISSRetriever, HybridRetriever
 
 
 def load_exam(exam_file: str) -> List[ExamQuestion]:
