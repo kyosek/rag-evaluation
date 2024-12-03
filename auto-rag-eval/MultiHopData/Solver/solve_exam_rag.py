@@ -149,35 +149,28 @@ class ExamSolver:
 
 
 def main(
-    task_domain: str, retriever_type: str, model_type: str, model_name: str, exam_file: str, n_documents: int, reranking: bool = False
-):
-    chunk_retriever = ChunkRetriever(task_domain, random_seed=42)
+    task_domain: str,
+    retriever_type: str,
+    model_type: str,
+    model_name: str,
+    exam_file: str,
+    n_documents: int,
+) -> None:
+    """
+    Main function to solve exams using pre-retrieved chunks.
+    
+    Args:
+        task_domain: Domain of the task (e.g., "gov_report")
+        retriever_type: Type of retriever to use ("Dense", "Sparse", "Hybrid")
+        model_type: Type of model to use ("gemini", "claude", "cpp")
+        model_name: Name of the specific model
+        exam_file: Name of the exam file to solve
+        n_documents: Number of supporting documents to use
+    """
+    # Initialize exam solver without retriever since we're using pre-retrieved chunks
+    solver = ExamSolver(n_documents=n_documents)
 
-    chunk_retriever = chunk_retriever.load_database(
-        f"MultiHopData/{task_domain}/chunk_database", task_domain
-    )
-
-    # Initialize different retrievers
-    faiss_retriever = FAISSRetriever(chunk_retriever)
-    bm25_retriever = BM25Retriever([chunk.content for chunk in chunk_retriever.chunks])
-
-    # Create a hybrid retriever
-    hybrid_retriever = HybridRetriever([(faiss_retriever, 0.5), (bm25_retriever, 0.5)])
-
-    # Initialize solver with chosen retriever
-    if retriever_type == "Dense":
-        retriever = faiss_retriever
-    elif retriever_type == "Sparse":
-        retriever = bm25_retriever
-    elif retriever_type == "Hybrid":
-        retriever = hybrid_retriever
-
-    if reranking:
-        retriever = RerankingRetriever(retriever)
-
-    solver = ExamSolver(retriever, n_documents)
-
-    # Load and solve exam
+    # Initialize the appropriate model
     if model_type == "gemini":
         model = GeminiGcp(model_name=model_name)
     elif model_type == "claude":
@@ -192,56 +185,73 @@ def main(
             "gemma2-9b": ModelType.GEMMA2_9B,
             "gemma2-27b": ModelType.GEMMA2_27B
         }
-        
         print(f"Using {model_mapping[model_name]}")
         model = ModelFactory.create_model(model_mapping[model_name])
     else:
-        print("Using Llama-cpp")
-        # model = LlamaModel(model_path=model_path)
+        raise ValueError(f"Unsupported model type: {model_type}")
 
-    questions = solver.load_exam(f"MultiHopData/{task_domain}/exams/{exam_file}")
-    metrics = solver.evaluate_performance(questions, model, task_domain, retriever_type, model_name, exam_file)
+    # Construct the path to the exam file with retrieved chunks
+    exam_with_chunks = exam_file.replace('.json', '_with_retrievals.json')
+    exam_path = f"MultiHopData/{task_domain}/exams/{exam_with_chunks}"
+    
+    try:
+        # Load and solve exam using pre-retrieved chunks
+        questions = solver.load_exam(exam_path)
+        metrics = solver.evaluate_performance(
+            questions=questions,
+            model=model,
+            task_domain=task_domain,
+            retriever_type=retriever_type,
+            model_name=model_name,
+            exam_file=exam_file
+        )
 
-    print(f"Exam Performance:")
-    print(f"Accuracy: {metrics['accuracy']:.2%}")
-    print(f"Correct: {metrics['correct']}/{metrics['total']}")
+        print(f"\nExam Performance Summary:")
+        print(f"Model: {model_name}")
+        print(f"Task: {task_domain}")
+        print(f"Retriever: {retriever_type}")
+        print(f"Accuracy: {metrics['accuracy']:.2%}")
+        print(f"Correct: {metrics['correct']}/{metrics['total']}")
+        print("-" * 50)
+        
+    except FileNotFoundError:
+        print(f"Error: Could not find exam file with pre-retrieved chunks at {exam_path}")
+        print("Please ensure you have run the retrieval preparation step first.")
+        return
 
 
 if __name__ == "__main__":
-    # Model family
-    # model_type = "gemini"
-    # model_type = "claude"
+    # Configuration
     model_type = "cpp"
-
-    # Task domain
-    # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     task_domains = ["gov_report"]
-
-    # Retriever type
-    retriever_types = ["Dense", "Sparse", "Hybrid", "Rerank"]
-    # retriever_types = ["Dense", "Hybrid"]
-
-    # Model name
-    # model_names = ["gemini-1.5-pro-002", "gemini-1.5-flash-002"]
-    # model_names = ["claude-3-5-sonnet@20240620", "claude-3-5-haiku@20241022"]
-    # model_names = ["claude-3-5-haiku@20241022"]
+    retriever_types = ["Dense", "Sparse", "Hybrid"]
     model_names = [
         'llama_3_2_3b',
         "ministral-8b",
         "gemma2-27b",
-        ]
-    
-    # Exam file
+    ]
     exam_files = [
         "llama_3_1_8b_single_hop_exam_cleaned_shuffled_1000_42.json",
         "llama_3_2_3b_single_hop_exam_cleaned_shuffled_1000_42.json"
-        ]
+    ]
+    n_documents = 15
 
+    # Process all combinations
     for exam_file in exam_files:
         for model_name in model_names:
             for task_domain in task_domains:
                 for retriever_type in retriever_types:
-                    print(f"Using {model_name}")
-                    print(f"Solving {exam_file} of {task_domain}")
+                    print(f"\nProcessing:")
+                    print(f"Model: {model_name}")
+                    print(f"Exam: {exam_file}")
+                    print(f"Task: {task_domain}")
                     print(f"Retriever: {retriever_type}")
-                    main(task_domain, retriever_type, model_type, model_name, exam_file, n_documents=15)
+                    
+                    main(
+                        task_domain=task_domain,
+                        retriever_type=retriever_type,
+                        model_type=model_type,
+                        model_name=model_name,
+                        exam_file=exam_file,
+                        n_documents=n_documents
+                    )
