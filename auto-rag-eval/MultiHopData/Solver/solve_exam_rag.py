@@ -41,7 +41,7 @@ class ExamSolver:
             questions.append(question)
         return questions
 
-    def solve_question(self, question: ExamQuestion, model) -> str:
+    def solve_question(self, question: ExamQuestion, retriever_method: str, model) -> str:
         """Solve a single exam question using RAG with LLM."""
         retrieved_docs = self.retriever.retrieve(question.question, k=self.n_documents)
 
@@ -51,11 +51,11 @@ class ExamSolver:
 
         # Construct a more structured prompt with system and user roles
         prompt = f"""<s>[INST] <<SYS>>
-        You are an AI assistant taking a multiple choice exam. Your task is to:
-        1. Read the given question and supporting document carefully
-        2. Analyze the choices
-        3. Select the most appropriate answer
-        4. Respond with ONLY the letter (A, B, C, or D) of the correct answer
+        You are an AI assistant taking a multiple choice exam.
+        Your task is to:
+        1. Read the given question, choices and supporting document carefully
+        2. Select the most appropriate answer
+        3. Respond with ONLY one letter (A, B, C, or D) of the correct answer
         
         Instructions:
         - You must respond with exactly one letter: A, B, C, or D
@@ -68,8 +68,7 @@ class ExamSolver:
         C
         D
 
-        Your answer (one letter only): [/INST]
-        <</SYS>>
+        <</SYS>>[/INST]
 
         Question: {question.question}
 
@@ -78,6 +77,8 @@ class ExamSolver:
         
         Supporting documents:
         {context}
+        
+        Your answer (one letter only):
         </s>
         """
 
