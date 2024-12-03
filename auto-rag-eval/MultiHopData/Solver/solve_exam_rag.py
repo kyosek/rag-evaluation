@@ -231,8 +231,12 @@ if __name__ == "__main__":
         "gemma2-27b",
     ]
     exam_files = [
-        "llama_3_1_8b_single_hop_exam_cleaned_shuffled_1000_42.json",
-        "llama_3_2_3b_single_hop_exam_cleaned_shuffled_1000_42.json"
+        "llama_3_2_3b_single_hop_exam_processed.json",
+        "gemma2_9b_single_hop_exam_processed.json",
+        "ministral_8b_single_hop_exam_processed.json",
+        "exam_new_ministral_8b_processed_v2.json",
+        "exam_new_llama_3_2_3b_processed_v2.json",
+        "exam_new_gemma2_9b_processed_v2.json",
     ]
     n_documents = 15
 
