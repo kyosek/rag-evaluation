@@ -1,6 +1,7 @@
+import os
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
-from typing import List, Dict, Any, Tuple, Optional
+from typing import List, Dict, Any, Tuple, Optional, Union
 import json
 import faiss
 import numpy as np
@@ -18,15 +19,16 @@ class ExamQuestion:
     choices: List[str]
     correct_answer: str
     documentation: List[str]
+    retrieved_chunks: Optional[Dict[str, List[Dict[str, Union[str, float]]]]] = None
 
 
 class ExamSolver:
-    def __init__(self, retriever: BaseRetriever, n_documents: int = 5):
+    def __init__(self, retriever: Optional[BaseRetriever] = None, n_documents: int = 15):
         self.retriever = retriever
         self.n_documents = n_documents
 
     def load_exam(self, exam_file: str) -> List[ExamQuestion]:
-        """Load exam questions from JSON file."""
+        """Load exam questions from JSON file with pre-retrieved chunks."""
         with open(exam_file, "r") as f:
             data = json.load(f)
 
@@ -37,19 +39,28 @@ class ExamSolver:
                 choices=item["choices"],
                 correct_answer=item["correct_answer"],
                 documentation=item.get("documentation", []),
+                retrieved_chunks=item.get("retrieved_chunks", None)
             )
             questions.append(question)
         return questions
 
     def solve_question(self, question: ExamQuestion, retriever_method: str, model) -> str:
-        """Solve a single exam question using RAG with LLM."""
-        retrieved_docs = self.retriever.retrieve(question.question, k=self.n_documents)
-
-        context = "\n".join([f"{i+1}) {doc}" for i, (doc, _) in enumerate(retrieved_docs)])
+        """Solve a single exam question using either live retrieval or pre-retrieved chunks."""
+        if question.retrieved_chunks and retriever_method in question.retrieved_chunks:
+            # Use pre-retrieved chunks
+            retrieved_docs = question.retrieved_chunks[retriever_method]
+            # Sort by score in descending order and take top n_documents
+            sorted_docs = sorted(retrieved_docs, key=lambda x: x['score'], reverse=True)[:self.n_documents]
+            context = "\n".join([f"{i+1}) {doc['content']}" for i, doc in enumerate(sorted_docs)])
+        elif self.retriever:
+            # Fallback to live retrieval if no pre-retrieved chunks available
+            retrieved_docs = self.retriever.retrieve(question.question, k=self.n_documents)
+            context = "\n".join([f"{i+1}) {doc}" for i, (doc, _) in enumerate(retrieved_docs)])
+        else:
+            context = "No supporting documents available."
 
         formatted_choices = "\n".join(f"{choice}" for choice in question.choices)
 
-        # Construct a more structured prompt with system and user roles
         prompt = f"""<s>[INST] <<SYS>>
         You are an AI assistant taking a multiple choice exam.
         Your task is to:
@@ -82,17 +93,12 @@ class ExamSolver:
         </s>
         """
 
-        # Get model response
         try:
             response = model.invoke(prompt)
-
-            # Extract just the letter from the response
-            # Look for first occurrence of A, B, C, or D
             valid_answers = {"A", "B", "C", "D"}
             for char in response:
                 if char in valid_answers:
                     return char
-
             return response.strip()[-1]
         except:
             return "NA"
@@ -105,9 +111,12 @@ class ExamSolver:
         total = len(questions)
         results = []
 
-        print("Solving the exam")
+        print(f"Solving the exam using {retriever_type} retriever")
         for question in tqdm(questions):
-            predicted_answer = self.solve_question(question, model)
+            # Map retriever type to the corresponding key in retrieved_chunks
+            if retriever_type != "Rerank":
+                retriever_method = retriever_type.lower()  # 'Dense' -> 'dense', etc.
+            predicted_answer = self.solve_question(question, retriever_method, model)
 
             question_result = {
                 "question": question.question,
@@ -117,7 +126,6 @@ class ExamSolver:
                 "number_of_hops": len(question.documentation)
             }
 
-            # Add the question result to the list
             results.append(question_result)
 
             if predicted_answer == question.correct_answer:
@@ -125,16 +133,23 @@ class ExamSolver:
 
         metrics = {"accuracy": correct / total, "correct": correct, "total": total}
 
-        with open(
-            f"MultiHopData/{task_domain}/exam_results/{model_name}_{retriever_type}_{exam_file}_results.json", "w"
-        ) as json_file:
+        # Save results
+        results_dir = f"MultiHopData/{task_domain}/exam_results"
+        os.makedirs(results_dir, exist_ok=True)
+        
+        results_path = os.path.join(
+            results_dir,
+            f"{model_name}_{retriever_type}_{os.path.basename(exam_file)}_results.json"
+        )
+        
+        with open(results_path, "w") as json_file:
             json.dump(results, json_file, indent=2)
 
         return metrics
 
 
 def main(
-    task_domain: str, retriever_type: str, model_type: str, model_name: str, exam_file: str, reranking: bool = False
+    task_domain: str, retriever_type: str, model_type: str, model_name: str, exam_file: str, n_documents: int, reranking: bool = False
 ):
     chunk_retriever = ChunkRetriever(task_domain, random_seed=42)
 
@@ -160,7 +175,7 @@ def main(
     if reranking:
         retriever = RerankingRetriever(retriever)
 
-    solver = ExamSolver(retriever)
+    solver = ExamSolver(retriever, n_documents)
 
     # Load and solve exam
     if model_type == "gemini":
@@ -203,7 +218,7 @@ if __name__ == "__main__":
     task_domains = ["gov_report"]
 
     # Retriever type
-    retriever_types = ["Dense", "Sparse", "Hybrid"]
+    retriever_types = ["Dense", "Sparse", "Hybrid", "Rerank"]
     # retriever_types = ["Dense", "Hybrid"]
 
     # Model name
@@ -212,9 +227,7 @@ if __name__ == "__main__":
     # model_names = ["claude-3-5-haiku@20241022"]
     model_names = [
         'llama_3_2_3b',
-        # 'llama_3_1_8b',
         "ministral-8b",
-        # "gemma2-9b",
         "gemma2-27b",
         ]
     
@@ -223,18 +236,12 @@ if __name__ == "__main__":
         "llama_3_1_8b_single_hop_exam_cleaned_shuffled_1000_42.json",
         "llama_3_2_3b_single_hop_exam_cleaned_shuffled_1000_42.json"
         ]
-    
-    # Reranker flag
-    # rerank_flags = [True, False]
-    rerank_flags = [False]
 
     for exam_file in exam_files:
-        for rerank_flag in rerank_flags:
-            for model_name in model_names:
-                for task_domain in task_domains:
-                    for retriever_type in retriever_types:
-                        print(f"Using {model_name}")
-                        print(f"Solving {exam_file} of {task_domain}")
-                        print(f"Retriever: {retriever_type}")
-                        print(f"Rerank: {rerank_flag}")
-                        main(task_domain, retriever_type, model_type, model_name, exam_file, reranking=rerank_flag)
+        for model_name in model_names:
+            for task_domain in task_domains:
+                for retriever_type in retriever_types:
+                    print(f"Using {model_name}")
+                    print(f"Solving {exam_file} of {task_domain}")
+                    print(f"Retriever: {retriever_type}")
+                    main(task_domain, retriever_type, model_type, model_name, exam_file, n_documents=15)
