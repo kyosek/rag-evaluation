@@ -104,7 +104,7 @@ class ExamSolver:
             return "NA"
 
     def evaluate_performance(
-        self, questions: List[ExamQuestion], model, task_domain, retriever_type, model_name, exam_file
+        self, questions: List[ExamQuestion], model, task_domain, retriever_type, model_name, exam_file, n_documents,
     ) -> Dict[str, float]:
         """Evaluate the solver's performance on a set of questions."""
         correct = 0
@@ -114,7 +114,9 @@ class ExamSolver:
         print(f"Solving the exam using {retriever_type} retriever")
         for question in tqdm(questions):
             # Map retriever type to the corresponding key in retrieved_chunks
-            if retriever_type != "Rerank":
+            if retriever_type == "Rerank":
+                retriever_method = retriever_type
+            else:
                 retriever_method = retriever_type.lower()  # 'Dense' -> 'dense', etc.
             predicted_answer = self.solve_question(question, retriever_method, model)
 
@@ -139,7 +141,7 @@ class ExamSolver:
         
         results_path = os.path.join(
             results_dir,
-            f"{model_name}_{retriever_type}_{os.path.basename(exam_file)}_results.json"
+            f"{model_name}_{retriever_type}_{os.path.basename(exam_file)}_{n_documents}_results.json"
         )
         
         with open(results_path, "w") as json_file:
@@ -191,8 +193,8 @@ def main(
         raise ValueError(f"Unsupported model type: {model_type}")
 
     # Construct the path to the exam file with retrieved chunks
-    exam_with_chunks = exam_file.replace('.json', '_with_retrievals.json')
-    exam_path = f"MultiHopData/{task_domain}/exams/{exam_with_chunks}"
+    # exam_with_chunks = exam_file.replace('.json', '_with_retrievals.json')
+    exam_path = f"MultiHopData/{task_domain}/exams/{exam_file}"
     
     try:
         # Load and solve exam using pre-retrieved chunks
@@ -203,7 +205,8 @@ def main(
             task_domain=task_domain,
             retriever_type=retriever_type,
             model_name=model_name,
-            exam_file=exam_file
+            exam_file=exam_file,
+            n_documents=n_documents
         )
 
         print(f"\nExam Performance Summary:")
@@ -223,22 +226,24 @@ def main(
 if __name__ == "__main__":
     # Configuration
     model_type = "cpp"
-    task_domains = ["gov_report"]
-    retriever_types = ["Dense", "Sparse", "Hybrid"]
+    # task_domains = ["gov_report"]
+    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    retriever_types = ["Dense", "Sparse", "Hybrid", "Rerank"]
+    # retriever_types = ["Rerank"]
     model_names = [
-        'llama_3_2_3b',
+        'llama_3_1_8b',
         "ministral-8b",
         "gemma2-27b",
     ]
     exam_files = [
-        "llama_3_2_3b_single_hop_exam_processed.json",
-        "gemma2_9b_single_hop_exam_processed.json",
-        "ministral_8b_single_hop_exam_processed.json",
-        "exam_new_ministral_8b_processed_v2.json",
+        # "llama_3_2_3b_single_hop_exam_processed.json",
+        # "gemma2_9b_single_hop_exam_processed.json",
+        # "ministral_8b_single_hop_exam_processed.json",
         "exam_new_llama_3_2_3b_processed_v2.json",
+        "exam_new_ministral_8b_processed_v2.json",
         "exam_new_gemma2_9b_processed_v2.json",
     ]
-    n_documents = 15
+    n_documents = 5
 
     # Process all combinations
     for exam_file in exam_files:
