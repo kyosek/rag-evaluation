@@ -217,7 +217,7 @@
     "number_of_hops": 4
   },
   {
-    "question": "What is the primary reason for the San José mine's location in the District of Perito Moreno, in the province of Santa Cruz, Argentina, as stated in the documentation, considering the geographical and climatic characteristics of the region and the operational requirements of the mine?",
+    "question": "What is the primary reason for the San Jos\u00e9 mine's location in the District of Perito Moreno, in the province of Santa Cruz, Argentina, as stated in the documentation, considering the geographical and climatic characteristics of the region and the operational requirements of the mine?",
     "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
@@ -329,7 +329,7 @@
     "number_of_hops": 4
   },
   {
-    "question": "The geologic structure of the San Miguel project area is characterized by a complex interplay of tectonic forces, including compression, extension, and tilting. Which of the following statements best describes the relationship between the Late Tertiary ignimbrites (UVS) and the gold mineralization at San José de Gracia?",
+    "question": "The geologic structure of the San Miguel project area is characterized by a complex interplay of tectonic forces, including compression, extension, and tilting. Which of the following statements best describes the relationship between the Late Tertiary ignimbrites (UVS) and the gold mineralization at San Jos\u00e9 de Gracia?",
     "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
@@ -385,7 +385,7 @@
     "number_of_hops": 4
   },
   {
-    "question": "The Maji Moto Gold Project, located in the North Mara Greenstone Belt, has identified a number of artisanal workings and trenches across the BIF Hill area. According to the documentation, the BIF is intensely folded and sheared, with a NW-SE plunge to the SE. The artisanal activity is selectively mining the quartz veinlets within the shear zones. A follow-up trench programme was conducted, which included the re-opening of existing trenches and new trenches, totalling 342.7 meters. The results of the trench and pit sampling are summarized in Table 14.\n\nA recent acquisition to the North Mara group of licences is the Maji Moto licence, which was awarded to the Company by the Ministry of Mines through application and tender in April 2012. The licence is situated in the North Mara Greenstone Belt (Eastern Musoma Goldfields) approximately 28 kilometers to the SW of African Barrick’s North Mara Gold Mine.\n\nThe Company is considering developing a north-trending adit from the southern side at the base of the hill at a later date. Metallurgical test work is to be undertaken on the oxide rock material taken from artisanal workings and trenches on surface as part of the scoping study to determine the viability of commencing and open pit/underground small-scale mining operation at BIF Hill.\n\nWhich of the following statements is CORRECT?",
+    "question": "The Maji Moto Gold Project, located in the North Mara Greenstone Belt, has identified a number of artisanal workings and trenches across the BIF Hill area. According to the documentation, the BIF is intensely folded and sheared, with a NW-SE plunge to the SE. The artisanal activity is selectively mining the quartz veinlets within the shear zones. A follow-up trench programme was conducted, which included the re-opening of existing trenches and new trenches, totalling 342.7 meters. The results of the trench and pit sampling are summarized in Table 14.\n\nA recent acquisition to the North Mara group of licences is the Maji Moto licence, which was awarded to the Company by the Ministry of Mines through application and tender in April 2012. The licence is situated in the North Mara Greenstone Belt (Eastern Musoma Goldfields) approximately 28 kilometers to the SW of African Barrick\u2019s North Mara Gold Mine.\n\nThe Company is considering developing a north-trending adit from the southern side at the base of the hill at a later date. Metallurgical test work is to be undertaken on the oxide rock material taken from artisanal workings and trenches on surface as part of the scoping study to determine the viability of commencing and open pit/underground small-scale mining operation at BIF Hill.\n\nWhich of the following statements is CORRECT?",
     "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
@@ -1225,7 +1225,7 @@
     "number_of_hops": 2
   },
   {
-    "question": "What is the primary effect of the 2004 amendments to the crude oil valuation regulations, as stated by the Minerals Management Service of the United States Department of the Interior, on the valuation of crude oil not sold in an arm’s-length transaction?",
+    "question": "What is the primary effect of the 2004 amendments to the crude oil valuation regulations, as stated by the Minerals Management Service of the United States Department of the Interior, on the valuation of crude oil not sold in an arm\u2019s-length transaction?",
     "model_answer": "B",
     "correct_answer": "B",
     "is_correct": true,
@@ -1302,7 +1302,7 @@
     "number_of_hops": 2
   },
   {
-    "question": "In the Coeur d’Alene Mining District, the Sunshine Mine's primary silver mineralization is primarily found in a specific type of rock formation that has been subjected to compressional tectonics during the Cretaceous age. This process led to the formation of a unique geological structure that has resulted in the mineralization being faulted and folded, potentially moving the favorable host rocks deeper. The geology of the District is characterized by a complex sequence of clastic, argillites, siltites, and quartzites, which have been metamorphosed and strongly deformed by compressional tectonics. However, the specific type of rock formation most likely responsible for the Sunshine Mine's primary silver mineralization is not explicitly stated in the District's geology. What type of rock formation is most likely to have been subjected to compressional tectonics and subsequently faulted and folded, leading to the formation of a unique geological structure that has resulted in the mineralization being moved deeper?",
+    "question": "In the Coeur d\u2019Alene Mining District, the Sunshine Mine's primary silver mineralization is primarily found in a specific type of rock formation that has been subjected to compressional tectonics during the Cretaceous age. This process led to the formation of a unique geological structure that has resulted in the mineralization being faulted and folded, potentially moving the favorable host rocks deeper. The geology of the District is characterized by a complex sequence of clastic, argillites, siltites, and quartzites, which have been metamorphosed and strongly deformed by compressional tectonics. However, the specific type of rock formation most likely responsible for the Sunshine Mine's primary silver mineralization is not explicitly stated in the District's geology. What type of rock formation is most likely to have been subjected to compressional tectonics and subsequently faulted and folded, leading to the formation of a unique geological structure that has resulted in the mineralization being moved deeper?",
     "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
@@ -1365,7 +1365,7 @@
     "number_of_hops": 2
   },
   {
-    "question": "What is the primary effect of the 2004 amendments to the crude oil valuation regulations, as stated by the Minerals Management Service of the United States Department of the Interior, on the valuation of crude oil not sold in an arm’s-length transaction?",
+    "question": "What is the primary effect of the 2004 amendments to the crude oil valuation regulations, as stated by the Minerals Management Service of the United States Department of the Interior, on the valuation of crude oil not sold in an arm\u2019s-length transaction?",
     "model_answer": "B",
     "correct_answer": "B",
     "is_correct": true,
@@ -1652,7 +1652,7 @@
     "number_of_hops": 2
   },
   {
-    "question": "What is the primary reason for the steepening of bedding dip to 30° to 40° on the west side of Grassy Mountain, according to the provided documentation?",
+    "question": "What is the primary reason for the steepening of bedding dip to 30\u00b0 to 40\u00b0 on the west side of Grassy Mountain, according to the provided documentation?",
     "model_answer": "C",
     "correct_answer": "C",
     "is_correct": true,
@@ -2079,7 +2079,7 @@
     "number_of_hops": 3
   },
   {
-    "question": "BP Migas has the right to demand that 10% of C-G Bengara's undivided interest in the total rights and obligations under the Bengara II PSC be offered to itself or an entity owned by Indonesian nationals. However, this right is contingent upon the fulfillment of certain conditions, including the payment of a cash bonus and the provision of development loans. According to the terms of the agreement, the cash bonus is contingent upon the receipt of written approval from governmental authorities within fourteen business days of the first commercial oil or gas discovery within the Bengara II PSC contract area. Considering the following information:\n\n- BP Migas purchased 14,000 and 21,000 shares of C-G Bengara from us and Continental, respectively, at a cost of $1 per share.\n- The sum of $18.7 million (the “Earning Obligation”) was paid into a special joint venture account at a Hong Kong international bank to pay for exploration and/or appraisal drilling in the Bengara II PSC area.\n- Development loans were agreed to be provided to pay 100% of all C-G Bengara's exploitation, drilling, and development expenditures attributable to the Bengara II PSC, after the Earning Obligation funds are expended and a Plan of Development has been approved by BP Migas.\n- A cash bonus of $5,000,000 was agreed to be paid, in the proportions of $2,000,000 to us and $3,000,000 to Continental, contingent upon and within fourteen business days of the receipt by C-G Bengara of the written approval from governmental authorities approving the development of the first commercial oil or gas discovery within the Bengara II PSC contract area.\n\nWhich of the following statements is TRUE?",
+    "question": "BP Migas has the right to demand that 10% of C-G Bengara's undivided interest in the total rights and obligations under the Bengara II PSC be offered to itself or an entity owned by Indonesian nationals. However, this right is contingent upon the fulfillment of certain conditions, including the payment of a cash bonus and the provision of development loans. According to the terms of the agreement, the cash bonus is contingent upon the receipt of written approval from governmental authorities within fourteen business days of the first commercial oil or gas discovery within the Bengara II PSC contract area. Considering the following information:\n\n- BP Migas purchased 14,000 and 21,000 shares of C-G Bengara from us and Continental, respectively, at a cost of $1 per share.\n- The sum of $18.7 million (the \u201cEarning Obligation\u201d) was paid into a special joint venture account at a Hong Kong international bank to pay for exploration and/or appraisal drilling in the Bengara II PSC area.\n- Development loans were agreed to be provided to pay 100% of all C-G Bengara's exploitation, drilling, and development expenditures attributable to the Bengara II PSC, after the Earning Obligation funds are expended and a Plan of Development has been approved by BP Migas.\n- A cash bonus of $5,000,000 was agreed to be paid, in the proportions of $2,000,000 to us and $3,000,000 to Continental, contingent upon and within fourteen business days of the receipt by C-G Bengara of the written approval from governmental authorities approving the development of the first commercial oil or gas discovery within the Bengara II PSC contract area.\n\nWhich of the following statements is TRUE?",
     "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
@@ -2240,7 +2240,7 @@
     "number_of_hops": 3
   },
   {
-    "question": "Based on the provided documentation, what is the primary reason for the Samba Minerals Limited's 80% participating interest in the Săo Joăo project, and how does this interest change upon completion of a feasibility study?",
+    "question": "Based on the provided documentation, what is the primary reason for the Samba Minerals Limited's 80% participating interest in the S\u0103o Jo\u0103o project, and how does this interest change upon completion of a feasibility study?",
     "model_answer": "A",
     "correct_answer": "A",
     "is_correct": true,
@@ -2968,7 +2968,7 @@
     "number_of_hops": 5
   },
   {
-    "question": "The Fund acquired a 100% interest in a joint venture that owns a 254,000 square-foot, single-tenant industrial building in suburban Atlanta, Georgia, built in 1994 and expanded in 1996. The tenant’s lease expires in 2009. The joint venture placed a $5.4 million, 5.31% fixed-rate mortgage loan on this property, maturing in 2015, interest-only for five years. Additionally, the joint venture had a $0.8 million variable-rate loan at LIBOR plus 140 basis points (5.69% at December 31, 2005), maturing in 2010 with an option to extend the term two additional years at a market rate. The purchase price for the office building was $8.5 million. We invested $6,800,000 for our interest in the joint venture. At the time of the acquisition, the joint venture placed a $20,438,000 five-year mortgage loan on this property, bearing a variable interest rate of one month LIBOR plus 235 basis points. In February 2004, the promissory note related to this loan was sold to an unaffiliated third party lender and amended to reflect a variable interest rate of one month LIBOR plus 145 basis points, a maturity date of April 2007 and a payment guarantee from us of $5,500,000. Considering the above information, what is the expected interest rate on the $20,438,000 five-year mortgage loan at the end of the fifth year, assuming the variable interest rate is reset to a market rate?",
+    "question": "The Fund acquired a 100% interest in a joint venture that owns a 254,000 square-foot, single-tenant industrial building in suburban Atlanta, Georgia, built in 1994 and expanded in 1996. The tenant\u2019s lease expires in 2009. The joint venture placed a $5.4 million, 5.31% fixed-rate mortgage loan on this property, maturing in 2015, interest-only for five years. Additionally, the joint venture had a $0.8 million variable-rate loan at LIBOR plus 140 basis points (5.69% at December 31, 2005), maturing in 2010 with an option to extend the term two additional years at a market rate. The purchase price for the office building was $8.5 million. We invested $6,800,000 for our interest in the joint venture. At the time of the acquisition, the joint venture placed a $20,438,000 five-year mortgage loan on this property, bearing a variable interest rate of one month LIBOR plus 235 basis points. In February 2004, the promissory note related to this loan was sold to an unaffiliated third party lender and amended to reflect a variable interest rate of one month LIBOR plus 145 basis points, a maturity date of April 2007 and a payment guarantee from us of $5,500,000. Considering the above information, what is the expected interest rate on the $20,438,000 five-year mortgage loan at the end of the fifth year, assuming the variable interest rate is reset to a market rate?",
     "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
@@ -3437,7 +3437,7 @@
     "number_of_hops": 5
   },
   {
-    "question": "FREIT's management has determined that the carrying value of its long-lived assets may be impaired. However, the impairment measurement is based on a projected discounted cash flow method determined by FREIT's management. According to FREIT's annual report, the company has reclassified the net income (loss) from the operation of its Lakewood, NJ property as Discontinued Operations for all periods presented, in compliance with current accounting guidance (SFAS No. 144 - “Accounting for the Impairment or Disposal of Long-Lived Assets”).",
+    "question": "FREIT's management has determined that the carrying value of its long-lived assets may be impaired. However, the impairment measurement is based on a projected discounted cash flow method determined by FREIT's management. According to FREIT's annual report, the company has reclassified the net income (loss) from the operation of its Lakewood, NJ property as Discontinued Operations for all periods presented, in compliance with current accounting guidance (SFAS No. 144 - \u201cAccounting for the Impairment or Disposal of Long-Lived Assets\u201d).",
     "model_answer": "B",
     "correct_answer": "B",
     "is_correct": true,
@@ -3549,7 +3549,7 @@
     "number_of_hops": 5
   },
   {
-    "question": "The Lik deposit is a black shale-hosted stratiform zinc-lead-silver sedimentary-exhalitive (SEDEX) deposit. The mineralization is syngenetic with respect to sediment deposition. Silicification occurs within and peripheral to the main mass of sulfides. Major sulfides in decreasing order of abundance are pyrite-marcasite, sphalerite and galena. The ore textures are massive, fragmental, chaotic, and veined; they rarely show typical sedimentary layering. The portion of the ore body near the surface is oxidized. The deposit is continuous outside the Lik property onto the adjacent 100%-owned Teck property to the south. The southern continuation of the Lik deposit is referred to as the Su deposit, lying on Teck’s Su property. Within the Lik property, the deposit is divided into two parts by the Main Break Fault. The main part of the deposit within the existing claims is referred to as the Lik South deposit. As presently tested, the Lik South deposit has a surface footprint of about 3,600 feet long and about 2,000 feet wide. It has been tested down dip to a depth of about 650 feet. The Lik South deposit remains open down dip. North of the Main Break Fault, the Lik North deposit has a surface footprint of about 2,300 feet long and about 1,150 feet wide. It has been tested down dip to a depth of about 1,000 feet. The Lik North deposit remains strongly open down dip and to the north. The deposits strike northerly and dip westerly at about 25o to 40o. The mineralization comprises irregular, stratiform lenses. The mineralogy of the sulfides is simple and comprises pyrite, marcasite, sphalerite, and galena. Gangue minerals include quartz (as chert), clay minerals, carbonate and barite. Noranda recognized six different ore types in its logging of drill core. Previous work by GCO determined that sulfides were deposited in four distinct cycles.",
+    "question": "The Lik deposit is a black shale-hosted stratiform zinc-lead-silver sedimentary-exhalitive (SEDEX) deposit. The mineralization is syngenetic with respect to sediment deposition. Silicification occurs within and peripheral to the main mass of sulfides. Major sulfides in decreasing order of abundance are pyrite-marcasite, sphalerite and galena. The ore textures are massive, fragmental, chaotic, and veined; they rarely show typical sedimentary layering. The portion of the ore body near the surface is oxidized. The deposit is continuous outside the Lik property onto the adjacent 100%-owned Teck property to the south. The southern continuation of the Lik deposit is referred to as the Su deposit, lying on Teck\u2019s Su property. Within the Lik property, the deposit is divided into two parts by the Main Break Fault. The main part of the deposit within the existing claims is referred to as the Lik South deposit. As presently tested, the Lik South deposit has a surface footprint of about 3,600 feet long and about 2,000 feet wide. It has been tested down dip to a depth of about 650 feet. The Lik South deposit remains open down dip. North of the Main Break Fault, the Lik North deposit has a surface footprint of about 2,300 feet long and about 1,150 feet wide. It has been tested down dip to a depth of about 1,000 feet. The Lik North deposit remains strongly open down dip and to the north. The deposits strike northerly and dip westerly at about 25o to 40o. The mineralization comprises irregular, stratiform lenses. The mineralogy of the sulfides is simple and comprises pyrite, marcasite, sphalerite, and galena. Gangue minerals include quartz (as chert), clay minerals, carbonate and barite. Noranda recognized six different ore types in its logging of drill core. Previous work by GCO determined that sulfides were deposited in four distinct cycles.",
     "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
