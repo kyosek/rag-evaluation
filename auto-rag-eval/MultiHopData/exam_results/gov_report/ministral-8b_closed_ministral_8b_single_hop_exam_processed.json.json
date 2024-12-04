@@ -1,9 +1,9 @@
 [
   {
-    "question": "In which year did Congress first specify that the local share of project costs shall be not less than 45%?",
-    "model_answer": "C",
-    "correct_answer": "C",
-    "is_correct": true,
+    "question": "Which of the following statements is true about the authority of a senior procurement executive or director of the Defense Advanced Research Projects Agency or Missile Defense Agency to exercise authority under Section 1702(c) of Title 41?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -56,9 +56,9 @@
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, which of the following statements is the most accurate assessment of the current state of communication regarding CAP goals and APGs among federal managers?",
+    "question": "Based on the provided information, what is the most likely scenario for the Trust Fund's annual revenue and expenditures by 2050?",
     "model_answer": "A",
-    "correct_answer": "C",
+    "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
   },
@@ -70,7 +70,7 @@
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, which of the following statements is the most accurate regarding the legal interpretations of the \"at pleasure\" provision for national bank officers?",
+    "question": "Based on the information provided, what was the primary reason for the DC Public Charter School Board (DC PCSB) to conduct lead testing in charter schools?",
     "model_answer": "B",
     "correct_answer": "B",
     "is_correct": true,
@@ -119,9 +119,16 @@
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, which of the following statements is the most accurate assessment of the CUES agreement's current status and potential future developments?",
-    "model_answer": "A",
-    "correct_answer": "D",
+    "question": "Based on the provided information, which of the following statements is the most accurate assessment of NASA's current approach to managing cost and schedule performance for large projects?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the overall impact of a Digital Services Tax (DST) on the economy, considering the information provided?",
+    "model_answer": "B",
+    "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
   },
@@ -133,10 +140,10 @@
     "number_of_hops": 1
   },
   {
-    "question": "Based on the information provided, what was the total tax rate for railroad employers in 2018, considering the surcharge?",
-    "model_answer": "C",
+    "question": "Based on the provided information, which of the following statements is true about the funding and expansion of the Rangel and Pickering programs?",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -196,10 +203,10 @@
     "number_of_hops": 1
   },
   {
-    "question": "Which of the following statements best describes the shift in the use of supplemental appropriations by the Obama Administration compared to the Bush Administration?",
+    "question": "In which year did Congress first specify that the local share of project costs shall be not less than 45%?",
     "model_answer": "C",
-    "correct_answer": "B",
-    "is_correct": false,
+    "correct_answer": "C",
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -322,9 +329,16 @@
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, which of the following statements is the most accurate regarding the assessment of the DHS's financial system modernization project?",
+    "question": "Which of the following statements best describes the primary reason why firms might charge different prices for the same or similar products targeted to different genders?",
     "model_answer": "A",
     "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements best describes the potential impact of the NIFLA decision on the application of strict scrutiny to content-based commercial disclosure requirements?",
+    "model_answer": "B",
+    "correct_answer": "B",
     "is_correct": true,
     "number_of_hops": 1
   },
@@ -427,7 +441,7 @@
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, which of the following statements best describes the potential impact of the NIFLA decision on the application of strict scrutiny to content-based commercial disclosure requirements?",
+    "question": "Based on the provided information, which of the following statements is the most accurate description of the current state of SSA's CIO certification process for incremental development?",
     "model_answer": "B",
     "correct_answer": "B",
     "is_correct": true,
@@ -441,17 +455,10 @@
     "number_of_hops": 1
   },
   {
-    "question": "Which of the following statements is the most accurate description of the distribution of Foreign Service employees based on the information provided?",
-    "model_answer": "A",
-    "correct_answer": "D",
-    "is_correct": false,
-    "number_of_hops": 1
-  },
-  {
-    "question": "Based on the provided information, which of the following statements is the most accurate assessment of the current state of NASA's workforce planning?",
-    "model_answer": "D",
+    "question": "Based on the provided information, which of the following statements is the most accurate assessment of the effectiveness of the federal government's approach to securing agency information systems?",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -490,16 +497,16 @@
     "number_of_hops": 1
   },
   {
-    "question": "Based on the information provided, what is the primary challenge HUD faces in assessing the effects of RAD conversions on residents and compliance with resident safeguards?",
-    "model_answer": "C",
-    "correct_answer": "A",
-    "is_correct": false,
+    "question": "Which of the following statements is the most accurate representation of the U.S. government's response to disasters overseas, considering the roles of USAID/OFDA and DOD, and the funding allocated to DOD for humanitarian assistance?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
-    "question": "Which of the following statements is the most accurate representation of the situation in Venezuela and Colombia, based on the provided information?",
-    "model_answer": "D",
-    "correct_answer": "D",
+    "question": "Based on the provided information, what is the primary reason why the USSC might not have complete data on reasons for not ordering restitution?",
+    "model_answer": "A",
+    "correct_answer": "A",
     "is_correct": true,
     "number_of_hops": 1
   },
@@ -518,10 +525,10 @@
     "number_of_hops": 1
   },
   {
-    "question": "Based on the information provided, what was the primary reason for the DC Public Charter School Board (DC PCSB) to conduct lead testing in charter schools?",
-    "model_answer": "B",
-    "correct_answer": "B",
-    "is_correct": true,
+    "question": "Based on the provided information, which of the following statements is the most accurate assessment of the current state of communication regarding CAP goals and APGs among federal managers?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -546,10 +553,10 @@
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, which of the following statements is true about the funding and expansion of the Rangel and Pickering programs?",
-    "model_answer": "B",
-    "correct_answer": "B",
-    "is_correct": true,
+    "question": "Based on the provided information, which of the following statements is the most accurate assessment of the CUES agreement's current status and potential future developments?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -574,7 +581,7 @@
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, what is the current status of the cost cap for the second Ford-Class aircraft carrier, CVN 79, and what actions have been taken or are planned to address the cost overrun?",
+    "question": "In fiscal year 2017, what was the primary source of funding for black lung benefits, and how did this funding change over time?",
     "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
@@ -595,17 +602,17 @@
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, which of the following statements is the most accurate assessment of NASA's current approach to managing cost and schedule performance for large projects?",
-    "model_answer": "B",
-    "correct_answer": "B",
-    "is_correct": true,
+    "question": "In what year did the Saudi-led coalition intervene in Yemen, and what was the primary goal of the U.S. involvement in the conflict?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
-    "question": "Which of the following statements best describes the relationship between state and national banks in terms of their regulatory treatment?",
+    "question": "If a nomination is reported from committee and the Senate is considering discharging the committee by unanimous consent, what is the most likely outcome?",
     "model_answer": "D",
-    "correct_answer": "D",
-    "is_correct": true,
+    "correct_answer": "B",
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -616,30 +623,30 @@
     "number_of_hops": 1
   },
   {
-    "question": "Which of the following statements is true about the authority of a senior procurement executive or director of the Defense Advanced Research Projects Agency or Missile Defense Agency to exercise authority under Section 1702(c) of Title 41?",
+    "question": "Based on the provided information, what is the most appropriate course of action for the U.S. Navy in the Spratlys?",
     "model_answer": "A",
-    "correct_answer": "B",
+    "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
   },
   {
-    "question": "Which of the following statements best describes the primary difference between user fees and user charges as defined by the Office of Management and Budget (OMB)?",
-    "model_answer": "B",
-    "correct_answer": "B",
+    "question": "Which of the following statements is the most accurate representation of the situation in Venezuela and Colombia, based on the provided information?",
+    "model_answer": "D",
+    "correct_answer": "D",
     "is_correct": true,
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, which of the following statements is the most accurate regarding the relationship between the CRA and agency rules?",
+    "question": "Which of the following statements best describes the evolution of the U.S. government's use of emergency powers under the Trading with the Enemy Act (TWEA) from 1933 to 1945?",
     "model_answer": "C",
     "correct_answer": "C",
     "is_correct": true,
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, which of the following statements is the most accurate assessment of the challenges faced by minority-owned and women-owned small business contracting firms in accessing surety bonds?",
-    "model_answer": "A",
-    "correct_answer": "D",
+    "question": "Based on the information provided, what was the total tax rate for railroad employers in 2018, considering the surcharge?",
+    "model_answer": "C",
+    "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
   },
@@ -665,7 +672,7 @@
     "number_of_hops": 1
   },
   {
-    "question": "Which of the following statements is the most accurate description of FEMA's mission and the types of assistance it provides?",
+    "question": "In the context of affirmative action policies in higher education, which of the following statements best summarizes the evolution of the Supreme Court's approach to the interest in diversity as a justification for such policies?",
     "model_answer": "A",
     "correct_answer": "A",
     "is_correct": true,
@@ -693,16 +700,16 @@
     "number_of_hops": 1
   },
   {
-    "question": "Which of the following statements best describes the primary difference in the care provided to infants with neonatal abstinence syndrome (NAS) in Washington and West Virginia, based on the information provided?",
+    "question": "Which of the following statements is the most accurate conclusion based on the provided information about the Digital Service Tax (DST) and its implications for multinational corporations (MNCs)?",
     "model_answer": "A",
     "correct_answer": "A",
     "is_correct": true,
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, which of the following statements is the most accurate assessment of the current state of tribal engagement with broadband providers?",
-    "model_answer": "B",
-    "correct_answer": "B",
+    "question": "Which of the following statements best describes the primary difference in the care provided to infants with neonatal abstinence syndrome (NAS) in Washington and West Virginia, based on the information provided?",
+    "model_answer": "A",
+    "correct_answer": "A",
     "is_correct": true,
     "number_of_hops": 1
   },
@@ -714,14 +721,14 @@
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, what was the total amount of funding for EPA water infrastructure programs and projects in FY2006, and how did it compare to the President's request and the FY2005 appropriation?",
+    "question": "Based on the provided information, which of the following statements is the most accurate regarding the assessment of the DHS's financial system modernization project?",
     "model_answer": "A",
     "correct_answer": "A",
     "is_correct": true,
     "number_of_hops": 1
   },
   {
-    "question": "Which of the following statements is true about the suspension of the rules procedure in the House of Representatives?",
+    "question": "Based on the provided information, what is the most accurate estimate of the funding Advocacy received through the salaries and expenses' executive direction subaccount for FY2006?",
     "model_answer": "B",
     "correct_answer": "B",
     "is_correct": true,
@@ -742,10 +749,10 @@
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, which of the following statements is the most accurate regarding the timeline and stakeholders involved in the report's preparation?",
+    "question": "Based on the provided information, what is the current status of the cost cap for the second Ford-Class aircraft carrier, CVN 79, and what actions have been taken or are planned to address the cost overrun?",
     "model_answer": "A",
-    "correct_answer": "A",
-    "is_correct": true,
+    "correct_answer": "B",
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -770,31 +777,31 @@
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, which of the following statements is the most accurate regarding the methods used to collect information about NAS treatment services and Medicaid payments?",
+    "question": "Which of the following statements is true about the Dispute Settlement Understanding (DSU) in the WTO?",
     "model_answer": "B",
-    "correct_answer": "B",
-    "is_correct": true,
-    "number_of_hops": 1
-  },
-  {
-    "question": "If a nomination is reported from committee and the Senate is considering discharging the committee by unanimous consent, what is the most likely outcome?",
-    "model_answer": "D",
-    "correct_answer": "B",
+    "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
   },
   {
-    "question": "Which of the following statements best describes the primary focus of the site visits conducted by the report?",
+    "question": "Which of the following statements is true about the funding for the Clean Water State Revolving Fund (CWSRF) and the Drinking Water State Revolving Fund (DWSRF) in the FY2019 appropriations and the FY2020 budget request?",
     "model_answer": "A",
     "correct_answer": "A",
     "is_correct": true,
     "number_of_hops": 1
   },
   {
-    "question": "According to the provided information, how many workers would be affected by the 2019 proposed rule, and what are the two main groups of workers that would be affected?",
+    "question": "Based on the provided information, which of the following statements is the most accurate regarding the timeline and stakeholders involved in the report's preparation?",
     "model_answer": "A",
-    "correct_answer": "B",
-    "is_correct": false,
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely outcome if the FAA were to implement a revised MPL methodology that increases MPL estimates?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -805,30 +812,30 @@
     "number_of_hops": 1
   },
   {
-    "question": "Which of the following statements is true about the funding and provisions of the FAA Reauthorization Act of 2018?",
+    "question": "Based on the information provided, which of the following statements is the most accurate description of the U.S. involvement in the WTO dispute settlement system?",
     "model_answer": "A",
-    "correct_answer": "B",
+    "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, which of the following statements is the most accurate assessment of the effectiveness of the federal government's approach to securing agency information systems?",
-    "model_answer": "B",
-    "correct_answer": "B",
-    "is_correct": true,
-    "number_of_hops": 1
-  },
-  {
-    "question": "Which of the following statements best describes the primary reason why firms might charge different prices for the same or similar products targeted to different genders?",
-    "model_answer": "A",
-    "correct_answer": "A",
-    "is_correct": true,
-    "number_of_hops": 1
-  },
-  {
-    "question": "Which of the following statements is true about the apportionment of funds for airports based on the information provided?",
+    "question": "Based on the provided information, which of the following statements is the most accurate regarding the U.S. strategy to manage maritime territorial disputes in the South China Sea (SCS) and East China Sea (ECS)?",
     "model_answer": "B",
     "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely reason why FERC would not deny a new license to a licensee due to safety deficiencies?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, how will the adoption of scrubbers by vessel operators impact the market for high-sulfur and low-sulfur fuels by 2020?",
+    "model_answer": "A",
+    "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
   },
@@ -854,10 +861,10 @@
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, which of the following statements is the most accurate regarding the U.S. strategy to manage maritime territorial disputes in the South China Sea (SCS) and East China Sea (ECS)?",
+    "question": "Which of the following statements is true about the suspension of the rules procedure in the House of Representatives?",
     "model_answer": "B",
-    "correct_answer": "D",
-    "is_correct": false,
+    "correct_answer": "B",
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -868,17 +875,17 @@
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, what is the most likely reason why FERC would not deny a new license to a licensee due to safety deficiencies?",
-    "model_answer": "C",
-    "correct_answer": "C",
+    "question": "Which of the following statements is true about the C-2A Greyhound Logistics Aircraft, based on the provided information?",
+    "model_answer": "B",
+    "correct_answer": "B",
     "is_correct": true,
     "number_of_hops": 1
   },
   {
-    "question": "Which of the following statements best describes the evolution of the U.S. government's use of emergency powers under the Trading with the Enemy Act (TWEA) from 1933 to 1945?",
-    "model_answer": "C",
-    "correct_answer": "C",
-    "is_correct": true,
+    "question": "Based on the provided information, which of the following statements is the most accurate assessment of the current state of NASA's workforce planning?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -889,35 +896,35 @@
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, what is the most appropriate course of action for the U.S. Navy in the Spratlys?",
-    "model_answer": "A",
+    "question": "At the beginning of FY2018, the federal government operated under a series of CRs due to the lack of enacted regular appropriations bills. The first CR, P.L. 115-56, provided funding through December 8, 2017. The second CR, P.L. 115-90, extended funding through December 22, and the third CR, P.L. 115-96, extended it through January 19, 2018. A funding gap began after the expiration of P.L. 115-96 at midnight on January 19, leading to a furlough of federal personnel. This furlough ended with the enactment of a fourth CR, P.L. 115-120, on January 22. At the beginning of FY2019, 5 of the 12 regular appropriations bills had been enacted in two consolidated appropriations bills, while the remaining seven were funded under two CRs. The first CR, P.L. 115-245, provided funding through December 7, 2018, and the second CR, P.L. 115-298, extended funding through December 21, 2018. A funding gap began after the expiration of P.L. 115-298 at midnight on December 21, 2018, causing federal agencies to shut down. This funding gap ended with the enactment of a CR, P.L. 116-5, on January 25, 2019, which lasted 34 full days. Which of the following statements is true about the funding gaps in FY2018 and FY2019?",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, what is the most accurate estimate of the funding Advocacy received through the salaries and expenses' executive direction subaccount for FY2006?",
+    "question": "**\n\nThe Department of Defense (DoD) has specific regulations regarding the protection of certain information and the education and training of its personnel. Given these regulations, which of the following statements is true?",
     "model_answer": "B",
-    "correct_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the primary focus of the site visits conducted by the report?",
+    "model_answer": "A",
+    "correct_answer": "A",
     "is_correct": true,
     "number_of_hops": 1
   },
   {
-    "question": "Which of the following statements is true about the C-2A Greyhound Logistics Aircraft, based on the provided information?",
-    "model_answer": "B",
-    "correct_answer": "B",
-    "is_correct": true,
+    "question": "Which of the following statements is the most accurate description of the distribution of Foreign Service employees based on the information provided?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, which of the following statements is the most accurate regarding the record retention policies at the VA?",
-    "model_answer": "B",
-    "correct_answer": "B",
-    "is_correct": true,
-    "number_of_hops": 1
-  },
-  {
-    "question": "Based on the information provided, how will the adoption of scrubbers by vessel operators impact the market for high-sulfur and low-sulfur fuels by 2020?",
+    "question": "Which of the following statements is true about the Disaster Unemployment Assistance (DUA) program?",
     "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
@@ -931,44 +938,44 @@
     "number_of_hops": 1
   },
   {
-    "question": "**\n\nThe Department of Defense (DoD) has specific regulations regarding the protection of certain information and the education and training of its personnel. Given these regulations, which of the following statements is true?",
-    "model_answer": "B",
-    "correct_answer": "D",
-    "is_correct": false,
-    "number_of_hops": 1
-  },
-  {
-    "question": "Which of the following statements is the most accurate representation of the U.S. government's response to disasters overseas, considering the roles of USAID/OFDA and DOD, and the funding allocated to DOD for humanitarian assistance?",
-    "model_answer": "D",
-    "correct_answer": "D",
+    "question": "Based on the provided information, what was the total amount of funding for EPA water infrastructure programs and projects in FY2006, and how did it compare to the President's request and the FY2005 appropriation?",
+    "model_answer": "A",
+    "correct_answer": "A",
     "is_correct": true,
     "number_of_hops": 1
   },
   {
-    "question": "Which of the following statements best describes the evolution of the Runaway Youth Act and its current status?",
+    "question": "Based on the provided information, which of the following statements is the most accurate assessment of the current state of tribal engagement with broadband providers?",
     "model_answer": "B",
     "correct_answer": "B",
     "is_correct": true,
     "number_of_hops": 1
   },
   {
-    "question": "At the beginning of FY2018, the federal government operated under a series of CRs due to the lack of enacted regular appropriations bills. The first CR, P.L. 115-56, provided funding through December 8, 2017. The second CR, P.L. 115-90, extended funding through December 22, and the third CR, P.L. 115-96, extended it through January 19, 2018. A funding gap began after the expiration of P.L. 115-96 at midnight on January 19, leading to a furlough of federal personnel. This furlough ended with the enactment of a fourth CR, P.L. 115-120, on January 22. At the beginning of FY2019, 5 of the 12 regular appropriations bills had been enacted in two consolidated appropriations bills, while the remaining seven were funded under two CRs. The first CR, P.L. 115-245, provided funding through December 7, 2018, and the second CR, P.L. 115-298, extended funding through December 21, 2018. A funding gap began after the expiration of P.L. 115-298 at midnight on December 21, 2018, causing federal agencies to shut down. This funding gap ended with the enactment of a CR, P.L. 116-5, on January 25, 2019, which lasted 34 full days. Which of the following statements is true about the funding gaps in FY2018 and FY2019?",
-    "model_answer": "B",
+    "question": "Based on the provided information, which of the following statements is the most accurate description of the Forest Service's control activities related to budget execution processes?",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
-    "question": "In 1952, what percentage of all business establishments were classified as small businesses by the U.S. Census Bureau, and how did this percentage compare to the percentage of employees and dollar value of sales attributed to small businesses?",
-    "model_answer": "A",
-    "correct_answer": "B",
-    "is_correct": false,
+    "question": "Based on the provided information, which of the following statements is the most accurate regarding the relationship between the CRA and agency rules?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, what is the most likely scenario for the Trust Fund's annual revenue and expenditures by 2050?",
+    "question": "In what year did the number of adjudications for tourist and business visitor visas for Chinese nationals peak, and what was the peak number?",
     "model_answer": "A",
-    "correct_answer": "B",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary reason why APHIS has not been able to ensure that it is allocating its limited resources towards the most beneficial actions for FMD preparedness?",
+    "model_answer": "A",
+    "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
   },
@@ -980,38 +987,52 @@
     "number_of_hops": 1
   },
   {
-    "question": "In fiscal year 2017, what was the primary source of funding for black lung benefits, and how did this funding change over time?",
-    "model_answer": "A",
+    "question": "**\n\nCongress has appropriated approximately $2 trillion in discretionary budget authority for emergencies or OCO/GWOT since 2001. This amount includes funding for the Department of Defense (DOD), Department of State and USAID, and Department of Homeland Security (DHS) and Coast Guard. The report does not provide an estimate of war costs within the OCO/GWOT account or such costs in the DOD base budget. The report also references CRS reports for additional information on the FY2019 budget and related issues. Based on this information, which of the following statements is true?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate regarding the methods used to collect information about NAS treatment services and Medicaid payments?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the current status of the CVN-75 (Harry S. Truman) aircraft carrier and its associated air wing?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the shift in the use of supplemental appropriations by the Obama Administration compared to the Bush Administration?",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
   },
   {
-    "question": "In what year did the number of adjudications for tourist and business visitor visas for Chinese nationals peak, and what was the peak number?",
-    "model_answer": "A",
-    "correct_answer": "A",
+    "question": "Based on the provided information, what is the most likely scenario for the Trust Fund's financial position by fiscal year 2050, assuming the Trust Fund does not receive any advances from Treasury\u2019s general fund after fiscal year 2018?",
+    "model_answer": "B",
+    "correct_answer": "B",
     "is_correct": true,
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, what is the most likely outcome if the FAA were to implement a revised MPL methodology that increases MPL estimates?",
-    "model_answer": "A",
-    "correct_answer": "A",
-    "is_correct": true,
-    "number_of_hops": 1
-  },
-  {
-    "question": "Which of the following statements best explains the primary challenge in combating terrorism in the Sinai Peninsula?",
+    "question": "Which of the following statements best describes the relationship between state and national banks in terms of their regulatory treatment?",
     "model_answer": "D",
-    "correct_answer": "B",
-    "is_correct": false,
+    "correct_answer": "D",
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
-    "question": "Which of the following statements is true about the funding for the Clean Water State Revolving Fund (CWSRF) and the Drinking Water State Revolving Fund (DWSRF) in the FY2019 appropriations and the FY2020 budget request?",
+    "question": "Based on the provided information, which of the following statements is the most accurate summary of the GAO's role in the report?",
     "model_answer": "A",
-    "correct_answer": "A",
-    "is_correct": true,
+    "correct_answer": "B",
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -1022,24 +1043,10 @@
     "number_of_hops": 1
   },
   {
-    "question": "Based on the provided information, which of the following statements is the most accurate regarding the IRS's handling of EITC overpayments?",
-    "model_answer": "A",
-    "correct_answer": "C",
-    "is_correct": false,
-    "number_of_hops": 1
-  },
-  {
-    "question": "Based on the information provided, what is the expected annual capital contribution from state and local jurisdictions to WMATA in fiscal year 2019?",
+    "question": "Which of the following statements is true about the apportionment of funds for airports based on the information provided?",
     "model_answer": "B",
-    "correct_answer": "B",
-    "is_correct": true,
-    "number_of_hops": 1
-  },
-  {
-    "question": "Based on the provided information, which of the following statements is true about the distribution of the report?",
-    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   }
 ]
