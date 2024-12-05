@@ -243,7 +243,7 @@ if __name__ == "__main__":
         # "exam_new_ministral_8b_processed_v2.json",
         # "exam_new_gemma2_9b_processed_v2.json",
     ]
-    n_documents = 5
+    n_documents = 3
 
     # Process all combinations
     for exam_file in exam_files:
