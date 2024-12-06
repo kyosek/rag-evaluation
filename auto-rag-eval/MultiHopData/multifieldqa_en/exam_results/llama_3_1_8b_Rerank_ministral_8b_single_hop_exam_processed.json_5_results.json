@@ -1,0 +1,1052 @@
+[
+  {
+    "question": "Given the provided information, which of the following statements is true about the function $Z$ defined in the document?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the effect of superconducting proximity on quantum dots (QDs) and their Kondo effect?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the provided information, which of the following statements is true about the function $Z$ defined in the document?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate description of the role of C$_2$H in the star formation process?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate interpretation of the legal agreement regarding the use of the Site?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the provided information, which of the following statements is true about the relationship between specific-heat ratio (\u03b3) and entropy production rate (\u1e60NOEF) over time?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of DBM modeling, which kinetic moments are reserved when only the first order term of Kn number is retained, and what additional kinetic moments are needed when the second order TNE is considered?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the relationship between the electric field and the distance between two charged spheres?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the role of vitamin K in the human body, based on the provided information?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the use of Volterra series in the context of nonlinear systems?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which solver is the most efficient in terms of runtime and iteration count for the problem with $g=0.99$ and HGK?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the treatment and management of hemoglobin H/Constant Spring disease?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the development process for land intended for agricultural purposes, as per the given information?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of designing a fuselage for an aircraft, which of the following statements is true about the process of laying out the side and bottom panels?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely reason for Njoroge's lack of distress over Mwihaki's departure to boarding school?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A patient is experiencing chest pain and has been diagnosed with a heart condition. The patient's heart sounds are abnormal due to murmurs, and an echocardiogram shows new wall-motion abnormalities. The patient has been prescribed nitroglycerin to manage their condition. Which of the following is the most likely diagnosis?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most effective way to handle the situation with the child's loud crying and the boyfriend's differing opinions on how to manage it?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the NFPA method and the HOLO-plus-consistency system?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the performance of the SLAS approach compared to the other approaches in terms of headway and distance to the closest vehicle?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements about the novel \"Things Fall Apart\" by Chinua Achebe is true, given the information provided?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate assessment of Kevin Pierre-Louis' situation at Boston College?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the given research, which of the following statements is the most accurate description of the proposed framework for contour completion?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the most likely reason for the 24-year-old son's repeated failure to complete college courses?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the most likely reason why Kenneth Hammond and Keith Konkol did not make it back to their homes?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate representation of the current state of shark conservation in Indonesia, considering the information provided?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate description of the impact of environmental variability on the development of plasticity in agents?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the joint GPS spoofing and jamming detection problem as formulated in the given document?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate representation of the relationship between dietary phylloquinone and tissue menaquinone-4 in rats?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the conditions for stable sub-solutions and super-solutions in the context of the given equations and weights?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the role of a 'secure device manufacturer/provider' in the context of 5G and IoT-MDM services?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the recent updates to the game, based on the provided information?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the exchange mechanisms in the system?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the historical context provided, which of the following statements is the most accurate description of the facilities at 27 Craven Street in the late 18th century?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the changes in the broadcasting of the Minnesota Twins baseball team?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the use of tactile feedback in anthropomorphic robots for complex manipulation tasks?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the performance of the conflict optimizer on different types of graphs?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the information provided, what is the most effective strategy for someone living in the Congo to protect themselves and their children from yellow fever?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following drugs was used at a higher concentration in HeLa cells compared to HepG2 cells?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the provided text, what is the primary effect of decreasing the CAR efficiency (C) from 1 on the Kondo regime and the critical temperature (T^*)?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate summary of the current situation in Libya and the U.S. government shutdown?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of quantum computing, which of the following statements is true about the denoising approach described in the provided text?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the primary challenge faced by the system in real-time smart environments with older adults, and how does the proposed solution address it?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely reason for the delay in meeting with Gadhafi?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate regarding the prevalence of beta thalassemia major in different ethnic groups, based on the information provided?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the robot navigating a classroom, which of the following statements is true about the proposed method for inferring human preferences?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following is the most appropriate command to install the latest version of Go on an Ubuntu system, given that the current version is 1.6.2 and the official website provides the latest version as 1.11?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the history of KSTP, considering the information provided?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following is the most effective treatment for familial hypercholesterolemia (FH) that is not primarily based on lifestyle changes?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely scenario for Intel's future in the semiconductor market?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate representation of the relationship between the Jewish faith and the concept of the afterlife?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the story, what is the primary theme that connects the actions of the fishermen and the nature of God?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely scenario for Intel's future in the tablet market?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the evolution of molecular ultracold plasmas, given the information provided?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best summarizes the implications of the Wayfair decision on the relationship between the legislative and judicial branches in the context of constitutional law?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided text, which of the following statements is the most accurate representation of the argument made by DragonFly?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The absolute value constraint in the given problem can be decomposed into linear constraints using the big-M method and the introduction of an auxiliary variable. This decomposition allows the formulation to accommodate an arbitrary number of lanes at any given time instant. Additionally, the problem's computational complexity is reduced by reformulating it with binary variables, optimization warm start technique, and lazy constraint implementation. The binary variables replace integer variables to improve computational efficiency. The constraints are modified to reflect the use of binary variables, and the safety constraint is augmented to ensure safe lane changes. Given this information, what is the primary advantage of using binary variables in this context?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, who is most likely to be the person who killed Jacobo, and what is the significance of this event in the context of the novel?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the probabilistic interpretation of the least-mean-square (LMS) filter?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided text, what is the most likely outcome of the proposed changes to broadcast television licensing?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of quantum computing, which of the following statements is true about the denoising scheme described in the Supplementary Material?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate assessment of the current state of the mobile industry and its future prospects?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the given information, what is the most appropriate approach to model the transmission of light through a system with $N_I$ incoming channels and $N_O$ outgoing channels, considering the source is polarized and the observation is made on the same polarization?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the provided information, what is the primary method used to remove redundant constraints in the iterative process of computing \u03b1_j e for each polytope?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the relationship between Heart Rate (HR) and Heart Rate Variability (HRV) based on the provided information?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In what year was John Key elected as the leader of the National Party, and what was his age at the time?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the inheritance of beta thalassemia disease?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the changes made to the game?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "**\n\nIn the context of the provided mathematical proofs, which of the following statements is true regarding the conditions for the non-existence of a stable solution to the problem $(G)$?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most accurate assessment of Saif Al-Islam's role in Libya's recent human rights violations?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the relationship between the authors' work and Dr. Anil Prinja's contributions?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the relationship between the TNE strength and the non-conservative moments (f - f_eq) in the context of DBM modeling?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely outcome for the future of Plum Island?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary issue that the public is not supporting?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary cause of the \"banana\" shape issue in the KR-2S fuselage construction, and how can it be addressed?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the most likely reason for the man's recent withdrawal and change in behavior?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the Crossed Nonlinear Dynamical Hall Effect in Twisted Bilayers?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate regarding the relationship between vitamin K and bone health, considering the effects of age-related changes in circulating levels of vitamin K2 and the intake of fermented soybeans (natto)?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the most likely reason for the accounts being compromised?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the treatment options for individuals with hemoglobin H disease?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Libertarians argue that free will exists if one could have acted otherwise under the same circumstances, but critics contend that this notion of free will is not ethically relevant and does not align with our intuitive understanding of freedom. Libertarians often define free will differently and are motivated by a fear of predeterminism. They propose models like two-stage models to overcome this fear. However, critics argue that libertarianism fails to address the ethical relevance of free will and the intuition of retributive justice. Given this information, what is the primary motivation for libertarians to defend their notion of free will?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The study of the inference quality in temperature and the size of data samples has been conducted, with results indicating that the behavior of the Ising model at low temperatures is consistent with previous findings by Nguyen and Berg. The reconstruction error curve shows a minimum at low temperatures, near the critical point, and a sharp increase as temperature approaches zero. The decimation method significantly improves this minimum error by nearly an order of magnitude compared to other methods. This research suggests potential applications in various systems, including light wave propagation through random media and the reconstruction of objects seen through opaque media or disordered optical fibers. Given these findings, which of the following statements is most accurate?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best explains the role of astrocytes in the context of dendritic spine pathology in Downs syndrome?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best summarizes the key argument against stare decisis in the context of the Wayfair decision?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the provided information, what is the primary factor that influences the entropy generation rate (\u1e60NOMF) at t > 0.06?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the given scenario, what is the primary challenge faced by the robot in inferring the human's intended goal and preferred path?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary purpose of the models discussed in the text?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the provided information, which of the following statements is the most accurate description of the robot's behavior when it accounts for path preferences?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the career progression of John Roper, based on the provided information?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely distance to XMMSL1 J060636.2-694933?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely reason for the delay in forming the Iraqi government?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely reason for the decline in pertussis cases after the introduction of the pertussis vaccine?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the sinusoidal excitation and its responses?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following books was published in 2004 and featured a collaboration between Anne Ashley and Lucy Monroe?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the history of KSTP and its predecessors, WAMD and KFOY?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most appropriate method to ensure the aft bulkhead is correctly positioned and shaped?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate representation of the arguments presented?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of time series analysis, what is the relationship between the spectral density function \\( f \\) and the autocovariance function \\( \\sigma_k \\)?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the graduate seminar on contemporary topics in democratic theory, which of the following statements is most likely to be discussed in the coursework, given the topics and texts listed?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "**\n\nIn the context of the provided information, which of the following statements is the most accurate regarding the grading structure of the course?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the relationship between the activities of Superior Pharmacy and the opioid epidemic in Ohio?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following methods is most suitable for studying the evolution of shock-accelerated heavy bubbles through the multi-fluid Eulerian equation?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "If a user deactivates their account on Agency Spotter, what happens to their profile information and how does it differ from deleting their account?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely reason for the decline in pertussis cases after the introduction of the pertussis vaccine?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate description of the C$_2$H line detection across different evolutionary stages of the sources?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary factor that contributes to the long ultracold plasma lifetime required to produce the signal observed in the $\\omega_2$ late-signal excitation spectra?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the key difference between the green robot's and the blue robot's approaches to navigating towards an unknown goal?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the performance of the Feature Weighted Naive Bayes (FWNB) method in hand gesture recognition compared to the baseline methods?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of CDMA systems, which of the following statements is true about the PLMS-PPIC method?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the changes made to the characters in the game?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the research findings from the provided documents?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following is the most accurate description of the process for preparing a regional plan, based on the provided information?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the role of vitamin K in the human body, based on the provided information?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the provided text, what is the asymptotic order of E[exp{\u03bb H(f) \u221e }] for n, p \u2192 \u221e, given that \u03bb > 0 may depend on n, p or not?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The turtledeck was modified to improve its structural integrity and weight. The modifications involved the use of foam stringers and a specific layering technique. What was the primary purpose of the 1/4 inch last-a-foam strips?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is most accurate about Brooksley Born's career and influence, based on the provided information?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In what year did Goodwin graduate from the National War College and what was his subsequent role?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the effect of uniaxial strain on the hopping parameters in graphene?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the denoising process described in the provided text?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following is the most effective method for studying the role of proteins in controlling dendritic spine morphologies/number, according to the provided information?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided text, which of the following statements is the most accurate representation of the author's argument regarding the nature of reality and perception?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the history of KSTP?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most effective way to ensure a sermon is engaging and memorable for the congregation?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the language identification models and their performance?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the discrete Boltzmann equation for component \u03c3, which of the following statements is true about the evolution of the distribution function f\u03c3,i?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the population and demographics of McPherson County?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the electric field and the operating principle of a Faraday cage?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the behavior of the denoisers with different values of M and t?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the behavior of the reconstruction error (err_J) in the 2XY model?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the interaction between vitamin K and warfarin?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In what year was the London Paving and Lighting Act passed, and what was the primary purpose of this act?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following best describes the primary purpose of the event organized by Veterans for Peace (VFP) and the participants' actions?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the primary focus of the DBM (Discrete Boltzmann Method) in the context of physical modelling?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the primary method by which Agency Spotter collects and uses data from users?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the median power-law exponents for large positive and negative returns across all cryptoassets?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following strategies would be most effective for improving shark conservation in Tanjung Luar, considering the information provided?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the relationship between the power-law exponents (\u03b1 t) and the cryptocurrency's age (y t) and market capitalization (log c t)?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate description of the $B_s$ mixing analysis?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the provided information, what is the primary reason for the discrepancy between the DBM results and the experimental results?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the probabilistic model described, what is the primary method used to approximate the posterior of the state variables z?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate regarding the relationship between fruit consumption and mercury exposure in Amazonian communities?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the population and demographics of McPherson County?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely consequence if a Hosting Subscriber is found to be using Hosting Services for spam, and they fail to cease the activity after their services are temporarily suspended?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the conduction gap in graphene under strain?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the conditions for using the Site and Services on Agency Spotter?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the terms and conditions of Broadjam's Subscription Services?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the research paper on force feedback control for dexterous robotic hands, which of the following statements is true about the control algorithm's operation?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements about Hugh Hilton Goodwin's career is true?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the provided algorithm, which of the following statements is true about the LO (Local Optimization) method?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate description of the relationship between self-maintenance and consciousness?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following is the most likely to be the population center of McPherson County, considering the information provided?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  }
+]

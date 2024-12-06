@@ -1,0 +1,1052 @@
+[
+  {
+    "question": "Which of the following statements is true about the musical career of Jim Bob?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the career of the film director?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the most likely reason for the negative reception of Anderson's films?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the films \"Big House Blues\" and \"The Boer War\"?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements about Dmytryk's career is true, given the information provided?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the relationship between John III, Count of Soissons, and the other individuals mentioned in the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate description of Sargon's campaign against the Anatolian city of Purushanda?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about Rumbi Katedza's career and the films she has produced?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the geological history of the Belcher Islands, considering the formation of the Belcher Group strata and the presence of soapstone?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the relationship between Thomas Scott and Victor Duleep Singh?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, who is the mother of Muhammad's mother, Aminah?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following actors played the role of Saul in the film \"El Zancudo\"?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements about Peter Levin is true, given the information provided?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what was the primary reason for Kathy Griffin's termination from CNN's New Year's Eve broadcast in 2017?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Dance of Death, considering the information provided in the given passages?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following books by the author was published in 1971 and co-authored with Maria Teresa Horta and Maria Velho da Costa?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about Isabella of Valois' family and her descendants?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about Astrid North's career?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Hugh Willoughby, 15th Baron Willoughby of Parham, was born in 1713 and became the 15th Baron after his father's death in 1715. He was placed under the guardianship of his mother and Reverend John Walker, but his mother remarried in 1717, forfeiting her joint guardianship. Hugh Willoughby attended Rivington Grammar School and later transferred to a Non-conformist school in Taunton, where he met a lifelong friend. In 1732, he received the freedom of Dumfries. Which of the following statements is true about Hugh Willoughby's life?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements about Bonnie Tyler's career is true, given the information provided?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the tenure of Dr. James C. Kennedy as the Director of the National Gallery of Australia (NGA)?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the relationship between James Armour and Robert Burns?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the initiatives and acquisitions made by the Toledo Museum of Art under the leadership of Director Kennedy?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements about the career of Niyazov is true, given the information provided?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the relationship between Albina du Boisrouvray and the Herschel family?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following is the most accurate description of the events in the film \"Mordum\"?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the availability of the film \"House of Dark Shadows\"?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, which of the following statements is true about Yolonda Ross's career?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what was the primary reason for Griffin's move to Los Angeles at the age of 18?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In which year did Upton and Blanchett adopt their daughter?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the most likely reason for the delay in the publication of Adams' book on the music of The Hobbit films?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the 1980 season of the Houston Astros, based on the provided information?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following is the most accurate description of the Valley of Death in the context of the 1968 film \"The Valley of Death\"?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the film \"Dance with a Stranger\"?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Wheatstone Perforator and its development?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the current state of the LACMA's expansion project under the leadership of Michael Govan?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the UPraw Magazine and its editors?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the most likely reason for Govan's current living situation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the career of the player mentioned in the provided information?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about Marie of \u00c9vreux and her family?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In what year did Sophia Magdalena have her second son, and what was the significance of the deposit she made in 1787?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements about Raoul Walsh's career is true?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following is the most accurate description of the production team for the film \"Carry On Matron\"?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the relationship between Stephen I of Hungary and Gyula the Younger, based on the provided information?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the works of art curated by Kennedy?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about Bonnie Tyler's career progression?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about Fujiwara no Nagara's career and legacy?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about Princess Elizabeth's family and her husband's family?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the career of Julie Bertuccelli, based on the provided information?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Marquess of Winchester's involvement in the English Civil War?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the career of the baseball player Yount and the baseball executive Wilson?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about Power Le Poer Trench's career progression in the Church of Ireland?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of Edward's political status in Gascony after his marriage to Eleanor?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In what year did the Toledo Museum of Art host the International Visual Literacy Association (IVLA) conference for the first time, and what was the significance of this event?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the career of Orson Welles, based on the provided information?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the timeline of events involving Astra Films and Graham-Wilcox Productions?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the relationship between Frederick William I and his cousin, the Margrave of Schwedt, based on the provided information?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about Duke John VI of Mecklenburg-Schwerin?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following individuals is most likely to be associated with the release of \"The Ballad of Uhlans\" in the Russian Federation in January 2013?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the Holmes v. Jennison case, which of the following statements is the most accurate synthesis of the legal arguments and the outcome of the case?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the film \"Carry On Emmannuelle\"?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the collaboration between Maya Deren and Talley Beatty in the film \"A Study in Choreography for Camera\"?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the events described, what is the most likely reason why the police officer shot Emma?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, which of the following statements is true about Randi Monsen's place of birth?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the film \"Una prostituta al servizio del pubblico e in regola con leggi dello stato\"?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the historical figure Stephen I of Hungary?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the theme of Doctor Zee's upcoming film \"Ghost in San Francisco\"?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In what year did Mary receive the right to forty oaks per year from royal forests and twenty tuns of wine per year from Southampton?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the relationship between Hungary and the Holy Roman Empire during the 11th century, based on the provided information?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what was the primary motivation behind the shooting of Nipsey Hussle?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the relationship between Mehdi Abrishamchi and the People's Mujahedin of Iran (MEK)?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following best describes the sequence of events that led to Waylon Jennings' career breakthrough?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following individuals is a law professor at the University of Pennsylvania Law School?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the events in \"August Underground's Mordum\"?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements about Jacques Tourneur's career is true?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements about the author of the \"What is?\" series is true?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following is the most accurate description of the production process of the film \"Bomgay\"?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements about Abhishek Saxena's career is true?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the events described, what was the primary reason for the opposition of the English magnates to King Edward's policies?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements about Henry Walter Moore is true?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In what year did Roscoe Arbuckle direct the film \"Special Delivery\" under the pseudonym \"William Goodrich\"?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the career of David Upton?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following is the most accurate description of the sequence of events involving Siu-bo, Lung-er, and the Heaven and Earth Society?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the children of Grand Duke Vladimir Alexandrovich?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following films is NOT based on a novel by Jean Genet, and why?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements about the composer's works is true, given the information provided?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the film \"Frau im Mond\" and its connection to rocket science?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the relationship between the events in \"August Underground's Penance\" and the previous films in the series?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Mobile and Ohio Railroad's history and expansion?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In what year was Eric XIV's marriage to Karin M\u00e5nsdotter solemnized, and what was the significance of this event in relation to his reign?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about Grand Duchess Maria Teresa's involvement with the Asian University for Women (AUW)?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the career of Edward J. Yates?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely outcome of Mamontov's actions and the subsequent events?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following best describes the sequence of events in the life of the director, based on the provided information?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following is the most accurate description of Andrew Allen's career trajectory, based on the information provided?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the 2019 Off-Broadway revival of \"The Last Five Years\"?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the significance of the Statute of Quo warranto in the context of Edward's reign?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In 1840, Charles Wheatstone introduced a device called the chronoscope, which was used to measure minute intervals of time. This device was capable of distinguishing 1/7300 part of a second and was used to determine the speed of a bullet or the passage of a star. Wheatstone also exhibited an electro-magnetic clock at the Royal Society on 26 November 1840, which was capable of distributing the correct time to local timepieces. Alexander Bain, who worked as a mechanist for Wheatstone from August to December 1840, later accused Wheatstone of stealing his ideas for an electric clock and an electro-magnetic printing telegraph. However, Wheatstone maintained that he had experimented in that direction during May. In the same year, Bain mentioned his financial problems to the editor of the Mechanics Magazine, who introduced him to Wheatstone. Bain demonstrated his models to Wheatstone, who dismissed them as having no future. Three months later, Wheatstone demonstrated an electric clock to the Royal Society, claiming it was his own invention. What was the primary purpose of the chronoscope introduced by Charles Wheatstone in 1840?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements about Pier-Luc Funk is true, given his career timeline and the roles he played?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following is the most accurate description of Rear Admiral Mary Joan Nielubowicz's career progression in the Navy Nurse Corps?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following is the most accurate description of the relationship between Bill Spencer and Liza Martin after the incident with the door?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the church's history and current use?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the relationships between the individuals mentioned in the provided passages?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what was the primary reason for the conflict between Queen Sophia Magdalena and King Gustav III?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In what year did Maurice Spata manage to evict Vonko from Arta and take over the governance of the city?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what was the most significant factor that led to the cancellation of Michael's 2011 performances?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the player's career progression and achievements?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Raymond Bernard's career spanned over three decades, with significant shifts in his film-making style and scale. He began as an actor in his father's plays, then transitioned to directing, and later focused on historical spectacles. During World War II, his film-making was interrupted due to his Jewish identity. After the war, he returned to directing, but his later films were more modest in scale. In the 1970s, he supervised the reconstruction of his earlier film adaptation of Victor Hugo's \"Les Mis\u00e9rables\". Which of the following best describes the evolution of Raymond Bernard's film-making career?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the acquisitions made during the tenure of the Hood Museum of Art's Director, John Kennedy?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about John Littlejohn's career and health?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about Raoul Walsh's career in film?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the baseball career of Gill?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the evolution of historical interpretations of King Edward I's reign, based on the provided information?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following is the most accurate description of the events surrounding the creation of the world according to the Tuvinian/Soyoth legend?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the relationship between Mu\u1e6d\u1e6dalib and his son Al-\u1e24\u0101rith, based on the provided information?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the careers of Drew Esocoff and G. Marthandan?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following albums by Helge is a parody of \"Apocalypse Now\" and was released in 2007?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the relationship between Sophia Magdalena and her husband, Gustav, after their marriage?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the actress Ravina and the film \"Querelle\"?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In what year did Charles the Great's negotiations with the Viking chiefs Godfrid and Sigfred occur, and what was the outcome of these negotiations?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the career of Aretas B. Fleming, the 8th governor of West Virginia?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In which year did Hartley Lobban make his first-class debut and what was the outcome of his debut match?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the song \"Jugband Blues\" by Pink Floyd?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the relationship between the underground network of representatives and the restrictions placed on the eleventh Imam by the Abbasid caliphate?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following directors has a filmography that includes both a documentary and a TV series, and has won awards for both directing and action choreography?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about Louis, Duke of Nemours?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the production of \"Le Masque de la M\u00e9duse\"?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Hedwig of Mecklenburg-G\u00fcstrow was a member of the House of Mecklenburg and by marriage became the Duchess of Saxe-Merseburg-Z\u00f6rbig. She was the eighth child of Gustav Adolph, Duke of Mecklenburg-G\u00fcstrow and Magdalene Sibylle of Holstein-Gottorp. Hedwig married Prince August of Saxe-Merseburg in 1686 and had eight children, of whom only one survived to adulthood. Hedwig died in Z\u00f6rbig aged 69. Which of the following statements is true about Hedwig's children?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the film \"The Lady in the Lake,\" what is the significance of Lyle Bane's supernatural appearance and how does it influence the relationship between Helen and Temple Bane?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the acquisitions made during the tenure of the Hood Museum of Art's Director, John Kennedy?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about Siddalingaiah's career and family?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the film \"The Night of Nights\"?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the film \"Royal Tramp II,\" what is the significance of the fact that Lung-er, the false Empress Dowager, is disguised as Ying-hung's male bodyguard?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In what year did Grand Duchess Maria Vladimirovna participate in the liturgical commemoration of the centenary of the assassinations of the Romanov family, and what was the significance of this event in relation to her family's cultural contribution?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate representation of the relationship between the Machete film and the Spy Kids film series, considering the conflicting statements from Trejo and Rodriguez?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about Waylon Jennings' career trajectory and the albums he released?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what was the outcome of Bernard's political career in the 2008 federal election?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about \u00c7elikbilek's career and achievements?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following events occurred in the same year as the premiere of the film \"Man at Bath\"?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the relationship between the films \"Le Tigre aime la chair fraiche\" and \"Le tigre se parfume \u00e0 la dynamite\"?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the Frankish kingdom's division following the death of Chlothar, which of the following statements is true about the distribution of territories among his sons?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following best describes the career trajectory of Lawrence George Cohen?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In what year did Maya Deren move to a bungalow on Kings Road in Hollywood and adopt the name Maya?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In what year did Lee Kun-hee return to Samsung Electronics as its chairman?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely reason for Dana Blankstein's appointment as the director of the Sam Spiegel Film and Television School in November 2019?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the career progression of Olav Aaraas and Isaac Le Maire?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following is the most accurate description of W. Augustus Barratt's career trajectory, considering his involvement in both music and acting?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the impact of Nipsey Hussle's funeral procession on the local gangs in South Central L.A.?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about Humphrey (VI) de Bohun's inheritance and early career?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following is the correct sequence of events in the career of Juran, considering his work in both film and television?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  }
+]
