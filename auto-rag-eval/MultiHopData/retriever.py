@@ -268,7 +268,7 @@ class HybridChunkRetriever(ChunkRetriever):
         # Generate embeddings for all chunks with progress bar
         print("Generating embeddings...")
         embeddings = []
-        batch_size = 32  # Adjust based on your memory constraints
+        batch_size = 32
         
         for i in tqdm(range(0, len(self.chunks), batch_size), desc="Encoding chunks"):
             batch = self.chunks[i:i + batch_size]
@@ -545,52 +545,45 @@ class HybridRetriever(BaseRetriever):
         Returns:
             List of dictionaries containing retrieved documents and their scores
         """
-        all_results = {}
+        all_results = []
         
         # Get results from each retriever
         for retriever, weight in self.retrievers:
-            results = retriever.retrieve(query, k=k*2)  # Get more candidates
+            # Get initial results
+            results = retriever.retrieve(query, k=k)
             
-            # Separate documents and scores
-            docs, scores = zip(*results) if results else ([], [])
-            
-            # Normalize scores using softmax
+            # Skip if no results
+            if not results:
+                continue
+                
+            # Determine retriever type for temperature scaling
             retriever_type = 'sparse' if 'bm25' in retriever.__class__.__name__.lower() else 'dense'
+            
+            # Extract docs and scores
+            docs, scores = zip(*results)
+            
+            # Normalize scores using softmax with temperature
             norm_scores = self._softmax_normalize(scores, retriever_type)
             
-            # Convert to log space
-            log_scores = np.log(norm_scores + 1e-10)
-            
-            # Combine scores in log space
-            for doc, score in zip(docs, log_scores):
-                if doc in all_results:
-                    all_results[doc] += score * weight
-                else:
-                    all_results[doc] = score * weight
+            # Apply retriever weight and add to results
+            weighted_results = [(doc, score * weight) for doc, score in zip(docs, norm_scores)]
+            all_results.extend(weighted_results)
         
-        # Convert combined log scores back to probabilities
-        combined_scores = np.exp(list(all_results.values()))
+        # Aggregate scores for duplicate documents
+        unique_results = {}
+        for doc, score in all_results:
+            if doc in unique_results:
+                unique_results[doc] = max(unique_results[doc], score)
+            else:
+                unique_results[doc] = score
         
-        # Get top candidates for reranking
-        candidate_indices = np.argsort(combined_scores)[-k*2:][::-1]
-        candidates = [list(all_results.keys())[idx] for idx in candidate_indices]
-        
-        # Rerank with cross encoder
-        cross_inputs = [[query, doc] for doc in candidates]
-        cross_scores = self.cross_encoder.predict(cross_inputs)
-        
-        # Sort by cross encoder scores and take top k
-        reranked_indices = np.argsort(cross_scores)[-k:][::-1]
-        
-        # Prepare final results
-        results = []
-        for idx in reranked_indices:
-            results.append({
-                'document': candidates[idx],
-                'score': float(cross_scores[idx])
-            })
-            
-        return results
+        # Sort and return top k results
+        sorted_results = sorted(
+            unique_results.items(),
+            key=lambda x: x[1],
+            reverse=True
+        )
+        return sorted_results[:k]
 
 
 class RerankingRetriever(BaseRetriever):
@@ -618,7 +611,5 @@ class RerankingRetriever(BaseRetriever):
         scores = self.rerank_model.predict(pairs)
 
         # Sort and return top k
-        reranked_results = sorted(zip(initial_results, scores), key=lambda x: x[1], reverse=True)[
-            :k
-        ]
+        reranked_results = sorted(zip(initial_results, scores), key=lambda x: x[1], reverse=True)[:k]
         return [(doc, score) for (doc, _), score in reranked_results]
