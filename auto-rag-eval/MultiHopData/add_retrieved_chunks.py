@@ -44,14 +44,14 @@ def add_retrieved_chunks_to_exam(
         
         # Add retrieved chunks
         question['retrieved_chunks'] = {
-            'dense': [
-                {'content': str(content), 'score': float(score)}
-                for content, score in faiss_retriever.retrieve(query, k=k)
-            ],
-            'sparse': [
-                {'content': str(content), 'score': float(score)}
-                for content, score in bm25_retriever.retrieve(query, k=k)
-            ],
+            # 'dense': [
+            #     {'content': str(content), 'score': float(score)}
+            #     for content, score in faiss_retriever.retrieve(query, k=k)
+            # ],
+            # 'sparse': [
+            #     {'content': str(content), 'score': float(score)}
+            #     for content, score in bm25_retriever.retrieve(query, k=k)
+            # ],
             'hybrid': [
                 {'content': str(content), 'score': float(score)}
                 for content, score in hybrid_retriever.retrieve(query, k=k)
