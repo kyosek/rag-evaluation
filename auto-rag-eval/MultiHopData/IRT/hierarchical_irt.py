@@ -602,49 +602,6 @@ def compare_exam_sets(model1: MultihopIRTModel, model2: MultihopIRTModel,
         }
     }
 
-# def load_and_compare_exams(multihop_filepaths: Dict[str, Dict[str, str]], 
-#                           singlehop_filepaths: Dict[str, Dict[str, str]],
-#                           output_dir: str):
-#     """Load and compare multiple exam sets"""
-#     # Load exam results
-#     multihop_results = ExamResult.from_json_files(multihop_filepaths)
-#     singlehop_results = ExamResult.from_json_files(singlehop_filepaths)
-    
-#     # Initialize models
-#     multihop_model = MultihopIRTModel(multihop_results, 
-#                                      num_questions=len(multihop_results[0].responses))
-#     singlehop_model = MultihopIRTModel(singlehop_results, 
-#                                       num_questions=len(singlehop_results[0].responses))
-    
-#     # Fit models
-#     multihop_params = multihop_model.fit()
-#     singlehop_params = singlehop_model.fit()
-    
-#     # Create output directory
-#     Path(output_dir).mkdir(parents=True, exist_ok=True)
-    
-#     # Generate and save individual analyses
-#     multihop_model.plot_results(multihop_params, 
-#                                save_path=f"{output_dir}/multihop_analysis.png",
-#                                title_prefix="Multihop Exam: ")
-#     singlehop_model.plot_results(singlehop_params, 
-#                                 save_path=f"{output_dir}/singlehop_analysis.png",
-#                                 title_prefix="Single-hop Exam: ")
-    
-#     # Compare difficulties
-#     stats1, stats2 = multihop_model.compare_hop_difficulties(
-#         singlehop_model, 
-#         multihop_params, 
-#         singlehop_params,
-#         save_path=f"{output_dir}/difficulty_comparison.png"
-#     )
-    
-#     # Save analyses
-#     multihop_model.save_analysis(multihop_params, f"{output_dir}/multihop_analysis.json")
-#     singlehop_model.save_analysis(singlehop_params, f"{output_dir}/singlehop_analysis.json")
-    
-#     return multihop_model, singlehop_model, multihop_params, singlehop_params
-
 
 def compare_multi_single(multihop_filepaths, singlehop_filepaths):
     # Load exam results as before
@@ -707,20 +664,20 @@ if __name__ == "__main__":
         }
     }
     
-    singlehop_filepaths = {
-        'llama3-8b': {
-            # 'closed_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/llama_3_1_8b_closed_llama_3_2_3b_single_hop_exam_processed.json.json',
-            'open_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/llama_3_1_8b_open_llama_3_2_3b_single_hop_exam_processed.json.json'
-        },
-        'mistral-8b': {
-            # 'closed_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/ministral-8b_closed_llama_3_2_3b_single_hop_exam_processed.json.json',
-            'open_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/ministral-8b_open_llama_3_2_3b_single_hop_exam_processed.json.json'
-        },
-        'gemma2-27b': {
-            # 'closed_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/gemma2-27b_closed_llama_3_2_3b_single_hop_exam_processed.json.json',
-            'open_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/gemma2-27b_open_llama_3_2_3b_single_hop_exam_processed.json.json'
-        }
-    }
+    # singlehop_filepaths = {
+    #     'llama3-8b': {
+    #         'closed_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/llama_3_1_8b_closed_llama_3_2_3b_single_hop_exam_processed.json.json',
+    #         'open_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/llama_3_1_8b_open_llama_3_2_3b_single_hop_exam_processed.json.json'
+    #     },
+    #     'mistral-8b': {
+    #         'closed_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/ministral-8b_closed_llama_3_2_3b_single_hop_exam_processed.json.json',
+    #         'open_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/ministral-8b_open_llama_3_2_3b_single_hop_exam_processed.json.json'
+    #     },
+    #     'gemma2-27b': {
+    #         'closed_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/gemma2-27b_closed_llama_3_2_3b_single_hop_exam_processed.json.json',
+    #         'open_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/gemma2-27b_open_llama_3_2_3b_single_hop_exam_processed.json.json'
+    #     }
+    # }
 
     # exam_results = ExamResult.from_json_files(filepaths)
 
