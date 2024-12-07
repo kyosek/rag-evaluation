@@ -200,7 +200,7 @@ class ExamSolver:
 
         metrics = {"accuracy": correct / total, "correct": correct, "total": total}
 
-        results_dir = os.path.join("MultiHopData/exam_results/", task_domain)
+        results_dir = f"MultiHopData/{task_domain}/exam_results/"
         os.makedirs(results_dir, exist_ok=True)
 
         # Sanitize the model name for the filename
