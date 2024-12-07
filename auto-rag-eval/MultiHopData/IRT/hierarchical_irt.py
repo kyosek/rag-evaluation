@@ -599,128 +599,101 @@ def compare_exam_sets(model1: MultihopIRTModel, model2: MultihopIRTModel,
     }
 
 
-def compare_multi_single(multihop_filepaths, singlehop_filepaths):
-    # Load exam results as before
-    multihop_results = ExamResult.from_json_files(multihop_filepaths)
-    singlehop_results = ExamResult.from_json_files(singlehop_filepaths)
-
-    # Initialize models
-    multihop_model = MultihopIRTModel(multihop_results, 
-                                    num_questions=len(multihop_results[0].responses))
-    singlehop_model = MultihopIRTModel(singlehop_results, 
-                                    num_questions=len(singlehop_results[0].responses))
-
-    # Fit models
-    multihop_params = multihop_model.fit()
-    singlehop_params = singlehop_model.fit()
-
-    # Generate enhanced visualizations
-    multihop_model.plot_results(multihop_params, 
-                            save_path="multihop_analysis.png",
-                            title_prefix="Multihop Exam: ")
-
-    singlehop_model.plot_results(singlehop_params,
-                                save_path="singlehop_analysis.png",
-                                title_prefix="Single-hop Exam: ")
-
-    # Compare exam sets
-    comparison_results = compare_exam_sets(
-        multihop_model, 
-        singlehop_model,
-        save_path="exam_comparison.png"
-    )
-
-    print("\nComparison Summary:")
-    print(f"Difficulty Difference: {comparison_results['comparison_summary']['difficulty_difference']:.3f}")
-    print(f"Discrimination Difference: {comparison_results['comparison_summary']['discrimination_difference']:.3f}")
-    print(f"Question Count Difference: {comparison_results['comparison_summary']['question_count_difference']}")
-
-
 if __name__ == "__main__":
     # TODO combine 3 exams together to evaluate
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     task_domains = ["hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     
-    for task_domain in task_domains:
-        filepaths = {
-            'llama3-8b': {
-                'closed_book': {
-                    'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_closed_llama_3_2_3b_single_hop_exam_processed.json.json',
-                    'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_closed_exam_new_llama_3_2_3b_processed_v2.json.json'
-                },
-                'Dense': {
-                    'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Dense_llama_3_2_3b_single_hop_exam_processed.json.json',
-                    'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Dense_exam_new_llama_3_2_3b_processed_v2.json.json'
-                },
-                'Sparse': {
-                    'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Sparse_llama_3_2_3b_single_hop_exam_processed.json.json',
-                    'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Sparse_exam_new_llama_3_2_3b_processed_v2.json.json'
-                },
-                'Hybrid': {
-                    'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Hybrid_llama_3_2_3b_single_hop_exam_processed.json.json',
-                    'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Hybrid_exam_new_llama_3_2_3b_processed_v2.json.json'
-                },
-                'Rerank': {
-                    'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Rerank_llama_3_2_3b_single_hop_exam_processed.json.json',
-                    'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Rerank_exam_new_llama_3_2_3b_processed_v2.json.json'
-                },
-                'open_book': {
-                    'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_open_llama_3_2_3b_single_hop_exam_processed.json.json',
-                    'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_open_exam_new_llama_3_2_3b_processed_v2.json.json'
-                },
-            },
-            'mistral-8b': {
-                'closed_book': {
-                    'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_closed_llama_3_2_3b_single_hop_exam_processed.json.json',
-                    'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_closed_exam_new_llama_3_2_3b_processed_v2.json.json'
-                },
-                'Dense': {
-                    'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Dense_llama_3_2_3b_single_hop_exam_processed.json.json',
-                    'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Dense_exam_new_llama_3_2_3b_processed_v2.json.json'
-                },
-                'Sparse': {
-                    'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Sparse_llama_3_2_3b_single_hop_exam_processed.json.json',
-                    'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Sparse_exam_new_llama_3_2_3b_processed_v2.json.json'
-                },
-                'Hybrid': {
-                    'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Hybrid_llama_3_2_3b_single_hop_exam_processed.json.json',
-                    'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Hybrid_exam_new_llama_3_2_3b_processed_v2.json.json'
-                },
-                'Rerank': {
-                    'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Rerank_llama_3_2_3b_single_hop_exam_processed.json.json',
-                    'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Rerank_exam_new_llama_3_2_3b_processed_v2.json.json'
-                },
-                'open_book': {
-                    'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_open_llama_3_2_3b_single_hop_exam_processed.json.json',
-                    'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_open_exam_new_llama_3_2_3b_processed_v2.json.json'
-                },
-            },
-            'gemma2-27b': {
-                'closed_book': {
-                    'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_closed_llama_3_2_3b_single_hop_exam_processed.json.json',
-                    'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_closed_exam_new_llama_3_2_3b_processed_v2.json.json'
-                },
-                'Dense': {
-                    'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Dense_llama_3_2_3b_single_hop_exam_processed.json.json',
-                    'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Dense_exam_new_llama_3_2_3b_processed_v2.json.json'
-                },
-                'Sparse': {
-                    'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Sparse_llama_3_2_3b_single_hop_exam_processed.json.json',
-                    'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Sparse_exam_new_llama_3_2_3b_processed_v2.json.json'
-                },
-                'Hybrid': {
-                    'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Hybrid_llama_3_2_3b_single_hop_exam_processed.json.json',
-                    'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Hybrid_exam_new_llama_3_2_3b_processed_v2.json.json'
-                },
-                'Rerank': {
-                    'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Rerank_llama_3_2_3b_single_hop_exam_processed.json.json',
-                    'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Rerank_exam_new_llama_3_2_3b_processed_v2.json.json'
-                },
-                'open_book': {
-                    'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_open_llama_3_2_3b_single_hop_exam_processed.json.json',
-                    'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_open_exam_new_llama_3_2_3b_processed_v2.json.json'
-                },
-            }
-        }
+    exams = [
+        "llama_3_2_3b",
+        "gemma2_9b",
+        "ministral_8b"
+        ]
     
-        model, params = run_analysis(filepaths, combine_exams=True)
+    for task_domain in task_domains:
+        for exam in exams:
+            filepaths = {
+                'llama3-8b': {
+                    'closed_book': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_closed_{exam}_single_hop_exam_processed.json.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_closed_exam_new_{exam}_processed_v2.json.json'
+                    },
+                    'Dense': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Dense_{exam}_single_hop_exam_processed.json_5_results.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Dense_exam_new_{exam}_processed_v2.json_5_results.json'
+                    },
+                    'Sparse': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Sparse_{exam}_single_hop_exam_processed.json_5_results.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Sparse_exam_new_{exam}_processed_v2.json_5_results.json'
+                    },
+                    'Hybrid': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Hybrid_{exam}_single_hop_exam_processed_5_results.json.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Hybrid_exam_new_{exam}_processed_v2.json_5_results.json'
+                    },
+                    'Rerank': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Rerank_{exam}_single_hop_exam_processed_5_results.json.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Rerank_exam_new_{exam}_processed_v2.json_5_results.json'
+                    },
+                    'open_book': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_open_{exam}_single_hop_exam_processed.json_5_results.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_open_exam_new_{exam}_processed_v2.json.json'
+                    },
+                },
+                'mistral-8b': {
+                    'closed_book': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_closed_{exam}_single_hop_exam_processed.json.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_closed_exam_new_{exam}_processed_v2.json.json'
+                    },
+                    'Dense': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Dense_{exam}_single_hop_exam_processed.json_5_results.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Dense_exam_new_{exam}_processed_v2.json_5_results.json'
+                    },
+                    'Sparse': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Sparse_{exam}_single_hop_exam_processed.json_5_results.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Sparse_exam_new_{exam}_processed_v2.json_5_results.json'
+                    },
+                    'Hybrid': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Hybrid_{exam}_single_hop_exam_processed.json_5_results.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Hybrid_exam_new_{exam}_processed_v2.json_5_results.json'
+                    },
+                    'Rerank': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Rerank_{exam}_single_hop_exam_processed.json_5_results.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Rerank_exam_new_{exam}_processed_v2.json_5_results.json'
+                    },
+                    'open_book': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_open_{exam}_single_hop_exam_processed.json.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_open_exam_new_{exam}_processed_v2.json.json'
+                    },
+                },
+                'gemma2-27b': {
+                    'closed_book': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_closed_{exam}_single_hop_exam_processed.json.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_closed_exam_new_{exam}_processed_v2.json.json'
+                    },
+                    'Dense': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Dense_{exam}_single_hop_exam_processed.json_5_results.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Dense_exam_new_{exam}_processed_v2.json_5_results.json'
+                    },
+                    'Sparse': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Sparse_{exam}_single_hop_exam_processed.json_5_results.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Sparse_exam_new_{exam}_processed_v2.json_5_results.json'
+                    },
+                    'Hybrid': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Hybrid_{exam}_single_hop_exam_processed.json_5_results.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Hybrid_exam_new_{exam}_processed_v2.json_5_results.json'
+                    },
+                    'Rerank': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Rerank_{exam}_single_hop_exam_processed.json_5_results.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Rerank_exam_new_{exam}_processed_v2.json_5_results.json'
+                    },
+                    'open_book': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_open_{exam}_single_hop_exam_processed.json.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_open_exam_new_{exam}_processed_v2.json.json'
+                    },
+                }
+            }
+
+            print(f"\nProcessing:")
+            print(f"Task: {task_domain}")
+            print(f"Exam: {exam}")
+            model, params = run_analysis(filepaths, combine_exams=True)
