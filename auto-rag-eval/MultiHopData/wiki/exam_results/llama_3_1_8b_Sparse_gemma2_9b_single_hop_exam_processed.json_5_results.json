@@ -1,0 +1,1052 @@
+[
+  {
+    "question": "Which artist collaborated with both Jim Bob and Les \"Fruitbat\" Carter in a band before the formation of Carter USM?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what can be inferred about the director's approach to filmmaking in his later career?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following individuals is known for prioritizing audience entertainment over critical acclaim in their filmmaking?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which film listed features a character named \"Bugsy\" and is connected to a historical conflict?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What significant factor led to Dmytryk's transition from directing B-movies to A-list productions?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following individuals held a position of authority in both Cambrai and Soissons?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what was the primary catalyst for the revolts against Sargon in his later years?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following individuals is NOT associated with a film that explores themes of personal growth or self-discovery?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Considering the geological history and environmental conditions of the Belcher Islands, what is the most likely reason for the limited tree growth on the archipelago?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual's life path involved a significant shift in career focus, transitioning from a role in the military to a position of leadership within a royal lineage?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what was the primary motivation behind King Edward I's initial desire to marry Margaret of France?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary connection between the film \"Passage 10\" and Jason Moore's career?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following individuals experienced a significant career shift after a personal tragedy, leading to a notable change in their professional focus?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What event directly led to Kathy Griffin's termination from hosting CNN's New Year's Eve broadcast?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following entities is NOT associated with a work of fiction titled \"Dance of Death\"?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for the Portuguese royal family's departure from Portugal in 1807?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the relationship between Blanche of Bourbon and Isabella of Valois?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What significant career shift did Astrid North make in 2003, and what motivated this change?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the information provided, what was the primary reason for Hugh Willoughby's transfer from Rivington Grammar School?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements accurately reflects Bonnie Tyler's musical career trajectory?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was a significant point of contention during Dr. Kennedy's directorship of the National Gallery of Australia?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary source of tension between James Armour and Robert Burns?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following best describes a key similarity in the leadership approaches of the museum directors discussed?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what can be inferred about the political and social landscape of Russia during the late 20th century?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual is connected to both a prominent scientific dynasty and a royal lineage through familial ties?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately leads to the escalation of violence within the group depicted in the film?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which actor's absence from the television series *Dark Shadows* had the most significant impact on the production of the second film, *Night of Dark Shadows*?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following individuals is most closely associated with a shift in perspective regarding the concept of God, moving from a skeptical view to one of profound awe and mystery?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What event directly led to Kathy Griffin's decision to pursue a career in Los Angeles?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual achieved a significant milestone in their professional life in the year 1991, marking a transition from academia to a leadership role within a specific community?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what can be inferred about the primary focus of Douglas Adams' professional career?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In what year did Forsch's performance contribute to the Astros reaching the National League Championship Series, and what was the outcome of the series?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following historical figures is most closely associated with a location known as \"The Valley of Death\"?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately led to Ruth Ellis's decision to shoot David Blakely?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What technological innovation, initially developed for communication, led to a significant advancement in the understanding of human vision and the creation of devices that manipulate visual perception?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Considering the information provided, what is the primary reason for the criticism leveled against Michael Govan's leadership at LACMA?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following individuals is most closely associated with a publication that focused on a specific niche interest rather than a broad range of topics?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual's career path demonstrates a consistent focus on pioneering new technologies and services within the telecommunications and internet sectors?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given his career trajectory, which of the following statements is most accurate about Crossan's professional life?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual's marriage was a strategic move aimed at improving relations between France and another European power?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the complex relationship between King Gustav III, Queen Sophia Magdalena, and their court, what was the most likely reason for the King's fear when Sophia Magdalena deposited money for Munck?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following individuals is most closely associated with a significant achievement in the field of film production during the 1930s?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary reason \"Carry On Matron\" is considered a significant film within the \"Carry On\" series?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what was the primary reason for the conflict between King Stephen of Hungary and Duke Boles\u0142aw I the Brave of Poland?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what can be inferred about the nature of Kennedy's contributions to the art world?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately led to Bonnie Tyler achieving significant commercial success in the music industry?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual experienced a significant career advancement after a close relative ascended to the throne?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the familial connection between Princess Elizabeth and Archduchess Sophie of Austria?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which filmmaker's career path most closely resembles that of Julie Bertuccelli's, as described in the provided text?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the events described, what was the primary reason for the unusually brutal treatment of Basing House and its defenders?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately led to Wilson's departure from his role with the Milwaukee Brewers?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What significant event in Irish history coincided with Power Le Poer Trench's early career as a clergyman?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary motivation behind King Henry's decision to arrange Edward's marriage to Eleanor?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What prompted the cancellation of an exhibition and what significant change did the NGA undergo during Kennedy's tenure?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the trajectory of James Whale's career in the late 1930s?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was a significant factor that led to Wilcox's shift in filmmaking focus from realistic drama to escapist entertainment?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for the contrasting treatment of the Schwedt branch of the Hohenzollern dynasty by Frederick William I and Frederick II?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual's life was marked by both military service and personal struggles that led to social ostracization within their family?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following artistic works is NOT directly related to a specific historical event or figure?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary point of contention in the *Holmes v. Jennison* case that ultimately led to its dismissal?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which Carry On film marked a significant shift in the series' tone and content, aligning it more closely with popular X-rated comedies of the time?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following best describes the evolution of Maya Deren's filmmaking approach as demonstrated across her works?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately leads to the demise of both Matt and Rex?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what can be inferred about the importance of a person's place of birth in determining their identity in different countries?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which film features a protagonist who is a police commissioner investigating a case in Genova, Italy?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual's legacy is most closely associated with the establishment of a distinct religious and cultural identity within a newly unified kingdom?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of Doctor Zee's films explores the intersection of cultural clash and personal struggle within the context of a romantic relationship?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason Edward I refused to allow Mary to move to Fontevrault?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary factor that led to Hungary's involvement in the war with Poland between 1014 and 1018?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason cited by the prosecution for Eric Holder's conviction of first-degree murder?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual's life was significantly impacted by a political revolution, leading to a change in their social standing and role within a political organization?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately led to Waylon Jennings's successful transition to a rock-influenced style of country music?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following individuals is most likely to have been involved in a legal dispute during their lifetime?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary motivation behind the filmmakers' decision to present the events in \"August Underground's Mordum\" as a faux snuff film?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What significant career shift did Tourneur make in the 1950s, and what was a notable characteristic of his work during this period?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual achieved national recognition for their work in a field outside of their initial area of publication success?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following individuals was NOT involved in the production of the film \"Bomgay\"?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual's career path demonstrates a clear progression from assistant director roles to directing their own feature films?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately led to the resolution of the conflict between King Edward I and the English magnates?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, which individual experienced a significant personal loss in the year 1884?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason Roscoe Arbuckle adopted the pseudonym \"William Goodrich\"?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What event directly led to the closure of the London production of Riflemind?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately leads to the downfall of Ng Ying-hung's plans for revenge against the Emperor?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements accurately reflects the relationship between Grand Duke Vladimir Alexandrovich's personal interests and his official roles?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the relationship between the films discussed in the provided passages?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following best describes the stylistic influences evident in Malengreau's organ compositions?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following individuals is most closely associated with the development of rocket technology and its portrayal in early science fiction?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What event in the film directly precedes Peter and Crusty's decision to torture and murder several people they have imprisoned?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was a primary factor contributing to the Mobile and Ohio Railroad's financial difficulties in the years following the Civil War?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately led to Eric XIV's imprisonment and death?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following best describes the Grand Duchess Maria Teresa's primary areas of philanthropic focus?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual's career path involved a transition from a technical role to a leadership position in a live entertainment program?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately leads to Sergey Mamontov's imprisonment despite his attempts to leverage his influence and connections?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What event directly led to Chalbaud's shift from filmmaking to theatre in the early 1960s?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements accurately reflects the career trajectory of the individual described in the provided text?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following individuals is NOT associated with a musical production that experienced a significant alteration or delay in its release?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary impact of the legislative reforms enacted during Edward I's reign, considering both their immediate effects and their long-term consequences?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for the conflict between Alexander Bain and Charles Wheatstone?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual achieved recognition in a field outside of sports, despite having a background in a sport related to their early life?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what significant career milestone did Mary Joan Nielubowicz achieve in 1983?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following scenarios best reflects the central conflict driving the narrative of the film described?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements accurately reflects the historical and contemporary uses of a specific location mentioned in the provided passages?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual is directly linked to the establishment of a major religious movement?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately prevented King Gustav III from divorcing Queen Sophia Magdalena?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual experienced a significant shift in power dynamics within their domain, leading to a change in leadership and territorial control?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given Michael's political affiliations and actions, what can be inferred about his views on social and economic equality?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what can be inferred about the individual's soccer career progression?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What significant event in Raymond Bernard's life directly led to a hiatus in his filmmaking career?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What significant event occurred at the Hood Museum of Art during the period between 2005 and 2010?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was a significant factor contributing to John Littlejohn's musical development in the early stages of his career?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following films marked a significant turning point in Raoul Walsh's career, leading to both a physical injury and a shift away from acting?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following individuals achieved a significant accomplishment in a sport during a specific period of time, but ultimately did not achieve widespread recognition in their chosen field?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "How did historical interpretations of Edward I's relationship with Parliament evolve over time?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following figures is most closely associated with a catastrophic event that led to the creation of a new world?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately led to the discovery of the Zamzam Well and how does this event relate to the social standing of 'Abdul-Mu\u1e6d\u1e6dalib within Mecca?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual's career path demonstrates the longest period of experience as an associate director before making their directorial debut?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements accurately reflects the career trajectory of the individual mentioned in the provided text?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately led to the deterioration of Sophia Magdalena's relationship with her husband, despite a period of improvement?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following individuals is most likely to be found in a setting similar to the one described in Passage 7?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary factor that led to Charles's decision to execute Godfrid and blind Hugh?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual's career path most closely resembles a trajectory of defying established norms and facing significant controversy?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason Hartley Lobban's cricket career in England took off?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary factor influencing the calorific value (Q) of coal, according to the provided information?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the historical context of the Abbasid Caliphate's decline and the persecution faced by Shia Imams, what was the primary function of the underground network of representatives established by the Imams?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which filmmaker's career trajectory demonstrates a clear shift towards action-heavy films, culminating in international recognition for a high-grossing action film?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual held the title of Duke of Nemours before Louis d'Armagnac?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements accurately reflects the career trajectories of the individuals involved in the film productions described?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the relationship between Hedwig of Mecklenburg-G\u00fcstrow and the Hereditary Prince of Saxe-Merseburg-Z\u00f6rbig?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately leads to the reconciliation between Temple Bane and Helen Armes?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What significant event occurred at the Hood Museum of Art during the period between 2005 and 2010?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual transitioned from a career in accounting to pursue a passion for the performing arts, ultimately finding success in a field related to visual storytelling?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements accurately reflects the career trajectories of the directors involved in the films described?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In a narrative involving conflict and power struggles, what ultimately determines the fate of a character who is initially underestimated but later proves to be a skilled protector?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the information provided, what can be inferred about Grand Duchess Maria Vladimirovna's stance on the Russian Imperial House and its legacy?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the relationship between the Machete film series and the Spy Kids film series according to Robert Rodriguez?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the turning point in Waylon Jennings's career and its impact?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What political position did Bernard hold that directly preceded his role as a Parliamentary Affairs Advisor for Pierre Paul-Hus?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual achieved success in a sport at a young age, representing their country in a junior competition?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following artistic collaborations is NOT explicitly mentioned as being promoted by Omar in the provided text?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary motivation behind Hans von Wunchendorf's pursuit of the sunken ship's treasure?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately led to the division of Charibert's kingdom after his death?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following best describes Lawrence Cohen's career trajectory?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was a significant factor in the formation of Cinema 16, a successful film society of the 1950s?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason given by President Lee Myung-bak for pardoning Lee Kun-hee?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely reason Dana Blankstein Cohen was appointed director of the Sam Spiegel Film and Television School?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual's career path demonstrates a clear progression from local leadership roles to national recognition within their field?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual's career path involved a transition from composing songs for stage productions to a role in a musical comedy?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "How did Nipsey Hussle's legacy impact the community beyond artistic tributes and street renaming initiatives?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately led to the resolution of the conflict between Humphrey de Bohun and King Edward I?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What significant career shift did Juran make in the late 1950s, and what specific genre of film did he primarily focus on in this new role?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  }
+]
