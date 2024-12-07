@@ -38,62 +38,6 @@ class ExamResult:
                                 data.append(json.loads(line))
                             except json.JSONDecodeError as e:
                                 print(f"Warning: Skipping invalid JSON line in {filepath}")
-    
-    # def save_analysis(self, params: Dict[str, np.array], output_path: str):
-    #     """Save analysis results to a JSON file"""
-    #     # Get unique hop counts
-    #     unique_hops = sorted(list(set(hop for result in self.exam_results for hop in result.num_hops)))
-        
-    #     # Calculate average difficulty and discrimination by hop count
-    #     hop_stats = {}
-    #     for hop_count in unique_hops:
-    #         # Get indices for questions with this hop count
-    #         indices = [i for i, hops in enumerate(self.exam_results[0].num_hops) if hops == hop_count]
-            
-    #         hop_stats[str(hop_count)] = {
-    #             "avg_difficulty": float(np.mean(params['difficulty'][indices])),
-    #             "avg_discrimination": float(np.mean(params['discrimination'][indices])),
-    #             "num_questions": len(indices)
-    #         }
-        
-    #     # Prepare model ability results
-    #     model_abilities = {}
-    #     for result in self.exam_results:
-    #         model_key = f"{result.llm_name}"
-    #         if result.retriever_name:
-    #             model_key += f"_{result.retriever_name}"
-            
-    #         idx = self.exam_results.index(result)
-    #         model_abilities[model_key] = float(params['theta'][idx])
-        
-    #     # Prepare component abilities
-    #     component_abilities = {
-    #         "llms": {
-    #             llm: float(params['theta_params'][idx])
-    #             for llm, idx in self.llm_map.items()
-    #         },
-    #         "retrievers": {
-    #             ret: float(params['theta_params'][self.num_llms + idx])
-    #             for ret, idx in self.retriever_map.items()
-    #         } if self.retriever_map else {}
-    #     }
-        
-    #     # Overall exam statistics
-    #     overall_stats = {
-    #         "avg_difficulty": float(np.mean(params['difficulty'])),
-    #         "avg_discrimination": float(np.mean(params['discrimination'])),
-    #         "total_questions": self.num_questions
-    #     }
-        
-    #     analysis_results = {
-    #         "overall_stats": overall_stats,
-    #         "hop_analysis": hop_stats,
-    #         "model_abilities": model_abilities,
-    #         "component_abilities": component_abilities,
-    #     }
-        
-    #     with open(output_path, 'w') as f:
-    #         json.dump(analysis_results, f, indent=2)
             
             if not data:
                 raise ValueError(f"No valid JSON data found in {filepath}")
