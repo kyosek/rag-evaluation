@@ -665,7 +665,7 @@ if __name__ == "__main__":
                         'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_open_exam_new_{exam}_processed_v2.json.json'
                     },
                 },
-                'gemma2-27b': {
+                'gemma2-9b': {
                     'closed_book': {
                         'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_closed_{exam}_single_hop_exam_processed.json.json',
                         'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_closed_exam_new_{exam}_processed_v2.json.json'
