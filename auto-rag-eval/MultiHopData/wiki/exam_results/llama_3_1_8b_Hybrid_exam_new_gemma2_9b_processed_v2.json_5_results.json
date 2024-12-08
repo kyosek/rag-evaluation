@@ -43,9 +43,9 @@
   },
   {
     "question": "Given the individuals mentioned in the provided biographical information, who is most likely to have collaborated with Dana Blankstein on a film project?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -57,9 +57,9 @@
   },
   {
     "question": "Which individual's career trajectory demonstrates a transition from a role primarily focused on creative writing to one involving leadership and security within a specific national context?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -99,7 +99,7 @@
   },
   {
     "question": "In what year did McMahon's bowling average reach its lowest point during his time with Somerset?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -183,9 +183,9 @@
   },
   {
     "question": "Which film, based on the provided information,  features a protagonist who, after a period of retirement, is called back into action to rescue a sibling from a technologically advanced threat?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -232,7 +232,7 @@
   },
   {
     "question": "Which individual's career trajectory demonstrates a significant shift from a role heavily reliant on technical expertise to one focused on artistic direction and creative vision?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -288,7 +288,7 @@
   },
   {
     "question": "Which individual's career trajectory most closely aligns with a pattern of seeking out new opportunities and experiencing varying degrees of success in different environments?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -302,9 +302,9 @@
   },
   {
     "question": "What musical collaboration occurred in 2001 that reunited two musicians who had previously played together in a band that disbanded in 1997?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -316,9 +316,9 @@
   },
   {
     "question": "Despite facing financial setbacks and directing adult films, Jean Rollin ultimately achieved mainstream success with a particular film. Which of the following elements contributed most significantly to this success?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -386,7 +386,7 @@
   },
   {
     "question": "Based on the provided information about Wale Adebanwi's career trajectory, which of the following institutions awarded him his first doctorate degree?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -435,9 +435,9 @@
   },
   {
     "question": "Which director, known for their work in both film and television, collaborated with their spouse on a project that earned an Emmy Award for Best Daytime Special in the 1970s?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -456,9 +456,9 @@
   },
   {
     "question": "Which of the following statements best encapsulates the thematic connection between the films \"Mi novia el travesti\" and \"Mi novia es un fantasma\"?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -491,7 +491,7 @@
   },
   {
     "question": "Which film role solidified Syms's reputation as a versatile actress capable of tackling both comedic and dramatic roles, leading to her receiving a prestigious award nomination?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 2
@@ -547,9 +547,9 @@
   },
   {
     "question": "Which magazine, despite its initial focus on a specific demographic, ultimately aimed to broaden its reach and impact a wider audience?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -631,7 +631,7 @@
   },
   {
     "question": "Given the familial connections and political landscape described in the provided texts, what was the most significant factor influencing Alan's ability to integrate Galloway into the Scottish realm upon his father's death?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -687,23 +687,23 @@
   },
   {
     "question": "According to the provided text, what specific characteristic of \u00c9ric Rohmer's filmmaking approach allowed him to transcend the typical economic and artistic constraints of the film industry?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
-    "number_of_hops": 2
-  },
-  {
-    "question": "In the context of the provided documentation, what specific external factor led to production delays during the filming of \"Carry On Matron\"?",
-    "model_answer": "A",
-    "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
   },
   {
-    "question": "Considering the advancements in telegraph technology described in the provided documentation, what was a key factor that ultimately led to the widespread adoption of the telegraph by railway companies?",
+    "question": "In the context of the provided documentation, what specific external factor led to production delays during the filming of \"Carry On Matron\"?",
     "model_answer": "C",
     "correct_answer": "C",
     "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the advancements in telegraph technology described in the provided documentation, what was a key factor that ultimately led to the widespread adoption of the telegraph by railway companies?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -743,9 +743,9 @@
   },
   {
     "question": "Which of the following films was NOT directed by the same individual who directed at least one series of \"The Inbetweeners\"?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -764,9 +764,9 @@
   },
   {
     "question": "Which historical figure's actions directly contributed to the establishment of a precedent for queen-consorts to engage in economic activity, solidifying their financial autonomy within the English monarchy?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -778,16 +778,16 @@
   },
   {
     "question": "Which individual's marriage resulted in a direct lineage leading to the 7th Baron Berkeley?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
     "question": "What significant personal and professional factor motivated Nati Baratz to direct \"Unmistaken Child\"?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -848,7 +848,7 @@
   },
   {
     "question": "Which character's personal life experiences directly contribute to the central conflict in a film featuring a superhero who protects children from extraterrestrial threats?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -862,7 +862,7 @@
   },
   {
     "question": "What specific event directly led to Destin Daniel Cretton's involvement in a project centered on the experiences of underprivileged youth in the foster care system?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -953,9 +953,9 @@
   },
   {
     "question": "A)  Which of Jim Bob's albums preceded the release of \"2020 WTF!\", the first single from \"Pop Up Jim Bob\"?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -988,7 +988,7 @@
   },
   {
     "question": "Which individual achieved a significant sporting accomplishment while simultaneously pursuing a career in education and holding a prestigious academic position?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -1009,9 +1009,9 @@
   },
   {
     "question": "Which individual's career trajectory demonstrates the most consistent alignment with advocating for social and political causes while adhering to a specific religious framework, drawing upon examples from diverse historical and contemporary contexts?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -1030,9 +1030,9 @@
   },
   {
     "question": "Which of the following individuals is NOT directly associated with a musical work mentioned in the provided text AND has no connection to the film \"The Ballad of Uhlans\"?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1044,9 +1044,9 @@
   },
   {
     "question": "Which individual's career trajectory demonstrates a clear shift from early involvement in politically charged filmmaking to a later focus on documentaries exploring personal narratives and cultural heritage?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1072,9 +1072,9 @@
   },
   {
     "question": "Which director, despite facing professional setbacks and personal tragedy, achieved critical and commercial success with a film that explored themes of military justice and leadership during a period of heightened social and political tension?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1170,9 +1170,9 @@
   },
   {
     "question": "Based on the provided text, what specific event led to Abd al-Muttalib being known by that name, and how did this event reflect the prevailing social norms and customs of Mecca at the time?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1184,9 +1184,9 @@
   },
   {
     "question": "What ultimately leads to the Emperor's decision to allow Siu-bo and his companions to escape, considering the complex web of alliances, betrayals, and power struggles that unfold throughout the narrative?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1198,7 +1198,7 @@
   },
   {
     "question": "Based on the provided information, which of the following individuals is most likely to have collaborated with Rumbi Katedza on a film project?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 3
@@ -1226,16 +1226,16 @@
   },
   {
     "question": "Which film, based on a true story and featuring a protagonist who, like a character in \"The Fabulous Senorita,\" works in a profession that involves the creation of artistic works,  was directed by a filmmaker known for both dramatic and comedic works?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
     "question": "Based on the provided biographical information, which individual achieved national recognition for their work in a field outside of traditional athletics?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1275,9 +1275,9 @@
   },
   {
     "question": "Which of the following BEST encapsulates the director's approach to both collection development and public engagement during his tenure at both institutions?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -1324,9 +1324,9 @@
   },
   {
     "question": "Given Kathy Sanborn's stated desire to push the boundaries of jazz and Astrid North's background in soul music, which artist's musical style would most likely create a harmonious and innovative fusion when collaborating with Astrid North on a project exploring the intersection of jazz and soul music?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -1345,9 +1345,9 @@
   },
   {
     "question": "A) John Templeton's botanical work primarily focused on the classification and distribution of lichens across Ireland.",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {

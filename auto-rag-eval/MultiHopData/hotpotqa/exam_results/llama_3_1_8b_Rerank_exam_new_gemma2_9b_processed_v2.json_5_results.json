@@ -106,9 +106,9 @@
   },
   {
     "question": "Which driver, besides Ayrton Senna, was involved in a significant collision during a race in 1994 that resulted in a suspension?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -358,9 +358,9 @@
   },
   {
     "question": "Based on the provided information, what can be inferred about the historical economic reliance of Kemmerer compared to Troy?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -729,9 +729,9 @@
   },
   {
     "question": "Which actress, known for her roles in both television dramas and animated series, was the inspiration for a song by the band Toto?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -883,7 +883,7 @@
   },
   {
     "question": "Which institution's founding was directly influenced by the inauguration of Abraham Lincoln?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -1002,7 +1002,7 @@
   },
   {
     "question": "What song from Benga's album \"Chapter II\" was released as a single in December 2012 and features a live PA performance by Kano on Example's 2013 arena tour?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
