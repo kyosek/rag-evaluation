@@ -29,9 +29,9 @@
   },
   {
     "question": "Which of the following statements accurately reflects the historical evolution of professional doctorates in the UK compared to the US?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -309,7 +309,7 @@
   },
   {
     "question": "In which country is the highest academic degree traditionally awarded after a three-year period of coursework and a short thesis, followed by a two-year specialized program culminating in a more advanced thesis?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -344,7 +344,7 @@
   },
   {
     "question": "What specific policy change did United Airlines implement in response to the incident involving Dr. Dao, as directly stated in a company communication obtained by CNN?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -442,7 +442,7 @@
   },
   {
     "question": "What specific event prompts Christian Grey to initially offer Anastasia Steele a photo session?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -477,9 +477,9 @@
   },
   {
     "question": "Considering the network landscape and programming strategies of the time, what was the primary factor contributing to the ultimate failure of the CBS Block Party?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -540,7 +540,7 @@
   },
   {
     "question": "What prompted Cat Stevens' decision to change his stage name, and how did this decision reflect his understanding of the music industry at the time?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -582,7 +582,7 @@
   },
   {
     "question": "Which film, based on its historical context and thematic elements, most directly reflects the complexities of colonial power dynamics and cultural clashes during the early 20th century?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -603,9 +603,9 @@
   },
   {
     "question": "Which individual's career path most closely resembles that of David Faber, considering both familial influence and professional trajectory?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -617,7 +617,7 @@
   },
   {
     "question": "What event directly precedes Kimmy's decision to pursue higher education?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -680,9 +680,9 @@
   },
   {
     "question": "Given the increasing emphasis on energy efficiency in consumer electronics, what is the primary reason for the widespread adoption of active power factor correction (PFC) in modern power supplies?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -743,7 +743,7 @@
   },
   {
     "question": "Simon Pagenaud's career demonstrates a clear progression through various racing disciplines.  Which of the following best illustrates the evolution of his racing endeavors?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -757,9 +757,9 @@
   },
   {
     "question": "Given his career trajectory and the awards he has received, what can be inferred about Yusuf / Cat Stevens' primary motivations?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -771,9 +771,9 @@
   },
   {
     "question": "Considering the building's unique architectural features, its integration with surrounding public spaces, and its historical context within the Financial District, analyze the developers' likely motivations for constructing 55 Water Street.",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -792,9 +792,9 @@
   },
   {
     "question": "Considering the diverse landscape of vaccine delivery systems and their potential impact on global health equity, which of the following statements BEST encapsulates the multifaceted challenges and opportunities associated with widespread vaccine accessibility?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -883,9 +883,9 @@
   },
   {
     "question": "Which institution's founding was directly influenced by the inauguration of Abraham Lincoln?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -911,9 +911,9 @@
   },
   {
     "question": "Considering the evolutionary history and anatomical adaptations of proboscideans, which of the following statements best explains the relationship between the emergence of Elephantidae and the diversification of proboscideans across Eurasia?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -960,9 +960,9 @@
   },
   {
     "question": "What factor primarily contributed to the selection of Fort Smith as the administrative capital of the Northwest Territories in 1911?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -981,9 +981,9 @@
   },
   {
     "question": "Which author's work was criticized for lacking the \"malice, the appetite for smut, scandal and unpleasantness \u2014 above all, the narcissism\" essential to the genre, according to a critic?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1065,7 +1065,7 @@
   },
   {
     "question": "A) Despite his exceptional talent and unanimous All-American status, Don Coleman initially hesitated to join the Chicago Cardinals. What specific factor, highlighted in the text, contributed to this hesitation?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 4
@@ -1100,9 +1100,9 @@
   },
   {
     "question": "Which of the following Marvel characters' first appearance in the Ultimate Marvel Universe was NOT a result of a team-up with Spider-Man in the *Ultimate Marvel Team-Up* comic series, and whose first appearance in the Ultimate Marvel Universe was NOT featured in a story arc involving time travel?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1205,9 +1205,9 @@
   },
   {
     "question": "What significant event occurred in 1889 that directly impacted the future of both the West Australian Football Club and the Victorian Football Club?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1226,7 +1226,7 @@
   },
   {
     "question": "A) Which of Anne Tyler's novels, adapted into a film starring William Hurt and Geena Davis, also features a protagonist grappling with the complexities of family relationships and personal loss?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1261,9 +1261,9 @@
   },
   {
     "question": "Given the multifaceted nature of Japan's surrender in World War II, which of the following factors most significantly contributed to the Japanese leadership's decision to unconditionally surrender?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1275,9 +1275,9 @@
   },
   {
     "question": "A)  Santer\u00eda emerged as a distinct religious system in Cuba primarily due to the suppression of West African traditions by the Spanish colonial government, forcing practitioners to conceal their beliefs and blend them with Roman Catholicism.",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
