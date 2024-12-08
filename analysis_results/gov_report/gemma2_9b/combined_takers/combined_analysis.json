@@ -1,53 +1,43 @@
 {
   "overall_stats": {
-    "avg_difficulty": 0.5301160960599853,
-    "avg_discrimination": 0.7796676396422921,
-    "total_questions": 439
+    "avg_difficulty": 0.4181776765375853,
+    "avg_discrimination": 0.6303058644968179,
+    "total_questions": 878
   },
   "hop_analysis": {
-    "0": {
-      "avg_difficulty": NaN,
-      "avg_discrimination": NaN,
-      "num_questions": 0
-    },
     "1": {
-      "avg_difficulty": 0.4300064411355569,
-      "avg_discrimination": 1.2736685389159583,
-      "num_questions": 150
+      "avg_difficulty": 0.37629999999999997,
+      "avg_discrimination": 0.8075297724364942,
+      "num_questions": 300
     },
     "2": {
-      "avg_difficulty": 0.552142857142857,
-      "avg_discrimination": 0.5400226962236457,
-      "num_questions": 168
+      "avg_difficulty": 0.44017857142857136,
+      "avg_discrimination": 0.5658843130960163,
+      "num_questions": 336
     },
     "3": {
-      "avg_difficulty": 0.6304,
-      "avg_discrimination": 0.5,
-      "num_questions": 75
+      "avg_difficulty": 0.4522,
+      "avg_discrimination": 0.5000832539799765,
+      "num_questions": 150
     },
     "4": {
-      "avg_difficulty": 0.5599999999999999,
+      "avg_difficulty": 0.395,
       "avg_discrimination": 0.5,
-      "num_questions": 27
+      "num_questions": 54
     },
     "5": {
-      "avg_difficulty": 0.6873684210526315,
+      "avg_difficulty": 0.4528947368421054,
       "avg_discrimination": 0.5,
-      "num_questions": 19
+      "num_questions": 38
     }
   },
   "model_abilities": {
-    "llama3-8b": 0.37124199974078503,
-    "mistral-8b": 0.5291219651054693,
-    "mistral-8b_open_book": 0.9954210440193063
+    "combined_llama3-8b_mistral-8b": 0.10158779538871907
   },
   "component_abilities": {
     "llms": {
-      "llama3-8b": 0.37124199974078503,
-      "mistral-8b": 0.5291219651054693
+      "combined_llama3-8b_mistral-8b": 0.10158779538871907
     },
-    "retrievers": {
-      "open_book": 0.4662990789138371
-    }
+    "retrievers": {}
   }
 }
