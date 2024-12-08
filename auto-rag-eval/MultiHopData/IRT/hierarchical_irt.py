@@ -694,7 +694,7 @@ if __name__ == "__main__":
                         'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Rerank_exam_new_{exam_generator}_processed_v2.json_5_results.json'
                     },
                     'open_book': {
-                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_open_{exam_generator}_single_hop_exam_processed.json_5_results.json',
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_open_{exam_generator}_single_hop_exam_processed.json.json',
                         'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_open_exam_new_{exam_generator}_processed_v2.json.json'
                     },
                 },
