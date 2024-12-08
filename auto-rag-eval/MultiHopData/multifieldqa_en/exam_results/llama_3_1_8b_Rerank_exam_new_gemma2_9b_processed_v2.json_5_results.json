@@ -57,7 +57,7 @@
   },
   {
     "question": "Given the information provided in the documentation, what is the primary function of the UHF-ECR reactor within the vacuum processing apparatus?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -449,9 +449,9 @@
   },
   {
     "question": "Given the probabilistic graphical model described in the provided text, how does the Coupled GDBN (C-GDBN) model the interaction between RF and GPS signals received at the RSU, and what specific information does the interactive matrix $\\Phi$ encode?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -477,16 +477,16 @@
   },
   {
     "question": "What specific design element of the KR-2S, initially driven by builder modifications, was subsequently incorporated into the standard plans due to its widespread adoption and effectiveness?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "According to the provided documentation, under what specific condition do the velocities of compressible and incompressible blobs converge?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -498,9 +498,9 @@
   },
   {
     "question": "Considering the arguments presented by both sides regarding government spending cuts, which of the following best encapsulates the core ethical dilemma at the heart of the debate?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -911,9 +911,9 @@
   },
   {
     "question": "Given the dynamics described in the provided text, under what specific condition would the maximum velocity of a blob be solely determined by the linear friction coefficient, $c_1$?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1107,7 +1107,7 @@
   },
   {
     "question": "A developer is designing a multi-port charging solution for a new device. They need to support both USB-C and USB-A ports, with the ability to deliver a maximum power output of 65W.  \n\nBased on the provided information, which specific combination of chips would be most suitable for this developer's needs?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1478,9 +1478,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the specific function of the component labeled \"PIU409\" in the context of the overall system architecture?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2038,7 +2038,7 @@
   },
   {
     "question": "Considering the diverse applications of nanofibers in tissue engineering and drug delivery, which research group's work most directly addresses the challenge of controlled release of therapeutic agents within a biocompatible scaffold?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
