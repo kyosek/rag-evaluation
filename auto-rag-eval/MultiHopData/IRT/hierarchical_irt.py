@@ -20,30 +20,31 @@ class ExamResult:
     exam_type: Optional[str] = None
     
     @classmethod
-    def combine_models(cls, results: List['ExamResult']) -> 'ExamResult':
-        """Combine exam results from different models into a single result"""
+    def combine_exam_takers(cls, results: List['ExamResult']) -> 'ExamResult':
+        """Combine results from different exam takers (LLMs) that took the same exam by concatenating their responses"""
         if not results:
             raise ValueError("Cannot combine empty list of results")
             
-        # Verify all results have the same structure
+        # Verify all results have compatible type
         first = results[0]
-        if not all(len(r.responses) == len(first.responses) for r in results):
-            raise ValueError("All results must have the same number of responses")
-        if not all(len(r.num_hops) == len(first.num_hops) for r in results):
-            raise ValueError("All results must have the same number of hop counts")
+        if not all(r.retriever_name == first.retriever_name for r in results):
+            raise ValueError("All results must have the same retriever type")
             
-        # Combine responses using majority voting
+        # Simply concatenate responses and hop numbers
         combined_responses = []
-        for i in range(len(first.responses)):
-            votes = [r.responses[i] for r in results]
-            combined_responses.append(sum(votes) > len(votes) / 2)
+        combined_hops = []
+        for result in results:
+            combined_responses.extend(result.responses)
+            if result.num_hops:
+                combined_hops.extend(result.num_hops)
             
-        # Use hop counts from first result since they should be the same
+        llm_names = "_".join(r.llm_name for r in results)
+        
         return cls(
-            llm_name="combined_models",
+            llm_name=f"combined_{llm_names}",
             retriever_name=first.retriever_name,
             responses=combined_responses,
-            num_hops=first.num_hops,
+            num_hops=combined_hops,
             exam_type=first.exam_type
         )
     
@@ -127,10 +128,10 @@ class ExamResult:
     @classmethod
     def from_json_files(cls, filepaths: Dict[str, Dict[str, Union[str, Dict[str, str]]]],
                        combine_exams: bool = False,
-                       combine_models: bool = False) -> List['ExamResult']:
-        """Create multiple ExamResult instances from a dictionary mapping model configurations to file paths"""
+                       combine_exam_takers: bool = False) -> List['ExamResult']:
+        """Create ExamResult instances from filepaths, with option to combine exam takers"""
         results = []
-        model_grouped_results = defaultdict(list)
+        exam_taker_groups = defaultdict(list)  # Group by retriever and exam type
         
         for llm_name, retriever_paths in filepaths.items():
             for retriever_name, filepath_info in retriever_paths.items():
@@ -138,15 +139,17 @@ class ExamResult:
                     ret_name = None if retriever_name == 'closed_book' else retriever_name
                     
                     if combine_exams and isinstance(filepath_info, dict):
-                        # Load and combine multiple exam results
+                        # Load and combine single/multi hop exam results
                         single_result = cls.from_json_file(
                             filepath_info['single'], llm_name, ret_name, exam_type="single")
                         multi_result = cls.from_json_file(
                             filepath_info['multi'], llm_name, ret_name, exam_type="multi")
                         combined_result = cls.combine_exam_results(single_result, multi_result)
                         
-                        if combine_models:
-                            model_grouped_results[ret_name].append(combined_result)
+                        if combine_exam_takers:
+                            # Group by retriever type for later combination
+                            key = (ret_name, combined_result.exam_type)
+                            exam_taker_groups[key].append(combined_result)
                         else:
                             results.append(combined_result)
                     else:
@@ -154,8 +157,9 @@ class ExamResult:
                         filepath = filepath_info if isinstance(filepath_info, str) else filepath_info['default']
                         result = cls.from_json_file(filepath, llm_name, ret_name)
                         
-                        if combine_models:
-                            model_grouped_results[ret_name].append(result)
+                        if combine_exam_takers:
+                            key = (ret_name, result.exam_type)
+                            exam_taker_groups[key].append(result)
                         else:
                             results.append(result)
                         
@@ -163,12 +167,15 @@ class ExamResult:
                     print(f"Warning: Failed to load results for {llm_name}/{retriever_name}: {e}")
                     continue
         
-        if combine_models:
-            # Combine results across models for each retriever type
-            for ret_name, ret_results in model_grouped_results.items():
-                if ret_results:
-                    combined = cls.combine_models(ret_results)
-                    results.append(combined)
+        if combine_exam_takers:
+            # Combine results from different exam takers for each group
+            for (ret_name, exam_type), group_results in exam_taker_groups.items():
+                if len(group_results) > 1:  # Only combine if we have multiple results
+                    try:
+                        combined = cls.combine_exam_takers(group_results)
+                        results.append(combined)
+                    except Exception as e:
+                        print(f"Warning: Failed to combine exam takers for {ret_name}/{exam_type}: {e}")
         
         if not results:
             raise ValueError("No valid exam results could be loaded")
@@ -524,11 +531,11 @@ class MultihopIRTModel:
 
 def run_analysis(filepaths: Dict[str, Dict[str, Union[str, Dict[str, str]]]], 
                 combine_exams: bool = False,
-                combine_models: bool = False,
+                combine_exam_takers: bool = False,
                 output_dir: str = "analysis_results"):
     """Run IRT analysis with option to combine exam results"""
     # Load and process exam results
-    exam_results = ExamResult.from_json_files(filepaths, combine_exams=combine_exams)
+    exam_results = ExamResult.from_json_files(filepaths, combine_exams=combine_exams, combine_exam_takers=combine_exam_takers)
     
     # Initialize and fit the model
     model = MultihopIRTModel(exam_results, num_questions=len(exam_results[0].responses))
@@ -648,13 +655,13 @@ def compare_exam_sets(model1: MultihopIRTModel, model2: MultihopIRTModel,
 
 if __name__ == "__main__":
     # Configuration
-    task_domains = ["hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     exam_generators = ["llama_3_2_3b", "gemma2_9b", "ministral_8b"]
     
     # Analysis configurations
     analysis_modes = [
-        # {"combine_exams": True, "combine_models": False, "output_suffix": "separate_models"},
-        {"combine_exams": True, "combine_models": True, "output_suffix": "combined_models"}
+        # {"combine_exams": True, "combine_exam_takers": False, "output_suffix": "combined_takers"}
+        {"combine_exams": True, "combine_exam_takers": True, "output_suffix": "combined_takers"}
     ]
     
     for task_domain in task_domains:
@@ -750,14 +757,14 @@ if __name__ == "__main__":
                 output_dir = f"analysis_results/{task_domain}/{exam_generator}/{analysis_config['output_suffix']}"
                 print(f"\nRunning analysis with configuration:")
                 print(f"- Combine exams: {analysis_config['combine_exams']}")
-                print(f"- Combine models: {analysis_config['combine_models']}")
+                print(f"- Combine exam takers: {analysis_config['combine_exam_takers']}")
                 print(f"- Output directory: {output_dir}")
                 
                 try:
                     model, params = run_analysis(
                         filepaths=filepaths,
                         combine_exams=analysis_config['combine_exams'],
-                        combine_models=analysis_config['combine_models'],
+                        combine_exam_takers=analysis_config['combine_exam_takers'],
                         output_dir=output_dir
                     )
                     print(f"Analysis completed successfully")
