@@ -421,9 +421,9 @@
   },
   {
     "question": "Based on the provided documentation, what can be inferred about the relationship between lender size and creditworthiness, considering that the top 5 percent of lenders with the largest number of SBA loans had a median average score of 187, while the bottom 75 percent of lenders had a median average score of 182.5?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -827,9 +827,9 @@
   },
   {
     "question": "According to the proposed regulations, what is the primary purpose of the \"anti-stuffing\" rule, which is clarified in Chunk1?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1359,9 +1359,9 @@
   },
   {
     "question": "According to the 1995 Senate Committee on Banking, Housing, and Urban Affairs report, what is a primary concern of the depository institution regulators regarding the cumulative effect of financial regulations on community banks, considering the limitations of the retrospective review process and the lack of coordination with other federal agencies?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -1772,9 +1772,9 @@
   },
   {
     "question": "An SBA analyst is tasked with evaluating the creditworthiness of 7(a) loan applicants. Based on the provided data, which of the following statements can be concluded about the creditworthiness of 7(a) loan applicants?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -1996,9 +1996,9 @@
   },
   {
     "question": "The Navy's plans to increase its fleet size to 355 battle force ships by the 2030s may be influenced by various factors, including changes in mission requirements, ship mixes, and technologies. However, the relationship between fleet size and mission capability is complex, and a decreasing number of ships in the fleet might not necessarily mean that the fleet's ability to perform stated missions is decreasing. Which of the following statements best captures the essence of this complexity?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -3130,9 +3130,9 @@
   },
   {
     "question": "A Representative seeks to introduce a bill that would reduce the annual appropriation for the Department of Education by $100 million, citing the need to address rising student loan debt. However, the bill also includes a provision that would allow the Secretary of Education to terminate employment of federal employees in the department without a formal reduction in total appropriations. According to the Holman rule, which of the following is a necessary condition for the bill to be in order?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -3305,9 +3305,9 @@
   },
   {
     "question": "The United States has been criticized for its lack of action in the South China Sea, with some arguing that it has failed to support the rights of neighboring countries under the tribunal's ruling. However, others argue that the U.S. has been taking steps to counter China's maritime claims in the region. Which of the following statements best summarizes the U.S. approach to the South China Sea?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -4012,7 +4012,7 @@
   },
   {
     "question": "What is the primary reason for the discrepancy between the Trump Administration's FY2019 budget request for DHS and the enacted FY2019 appropriations, considering the Bipartisan Budget Act of 2018 and the Consolidated Appropriations Act of 2017?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3

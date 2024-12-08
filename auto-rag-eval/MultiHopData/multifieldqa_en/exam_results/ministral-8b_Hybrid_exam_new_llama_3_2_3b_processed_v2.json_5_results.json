@@ -127,9 +127,9 @@
   },
   {
     "question": "BC's attendance issues are a concern, but the NFL's strategies to address them may not be directly applicable. What is a potential solution that BC could consider, given the unique constraints of a college football stadium, and how might it impact the overall game day experience?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -190,9 +190,9 @@
   },
   {
     "question": "What is the primary consequence of the boundary formed between Schwann cells and astrocytes in the context of axonal regeneration following spinal cord injuries, as observed in the boundary assay?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -407,7 +407,7 @@
   },
   {
     "question": "Les's KR2 design incorporates a unique cooling system, which was initially located in the firewall but was later relocated to a lower cowling location due to cooling problems. What is the primary reason for this relocation, according to the text?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -512,14 +512,14 @@
   },
   {
     "question": "A 15-year-old girl with a history of smoking marijuana daily at school, who has been grounded and isolated from her peers, is experiencing feelings of desperation and suicidal thoughts. Her parents are concerned about her behavior and want to know how to address the issue, while also navigating the complexities of supporting a 16-year-old boy with high-functioning autism who refuses to accept his diagnosis and is struggling to maintain a relationship with his girlfriend. Meanwhile, the parents of both children are seeking advice on how to support their children and help them manage their respective challenges, despite the risk of exacerbating the situation with inadequate guidance. The parents are aware that their approach must be nuanced and sensitive to the unique needs of each child, and they are seeking a comprehensive solution that addresses the root causes of their children's struggles.",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "A researcher uses the Clauset-Shalizi-Newman method to estimate the power-law exponents of positive and negative returns of a cryptocurrency. The researcher separates the returns into two groups and estimates their power-law behavior using the method. However, the researcher also considers the effects of age and market capitalization on the power-law exponents using a linear model. Which of the following statements is true about the researcher's approach?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -785,7 +785,7 @@
   },
   {
     "question": "A patent applicant files an application for a method of using a computer to analyze medical images, but the specification does not explicitly describe a machine or component that performs the claimed method. The applicant attempts to incorporate by reference a U.S. patent that describes a system for analyzing medical images, but the incorporated patent does not provide the requisite description of a machine. Which of the following statements is most consistent with the current state of the law regarding patent eligibility under 35 U.S.C. \u00a7 101?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -820,9 +820,9 @@
   },
   {
     "question": "The Land Trust's proposed acquisition of the Hawthorne property will have a significant impact on the wildlife corridors in the Hadlyme area. According to Anthony Irving, chairman of the Land Trust's Preservation Committee, what is the primary benefit of the preserve being located at the center of a landscape-scale wildlife habitat greenway?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -862,7 +862,7 @@
   },
   {
     "question": "A researcher investigates the power-law exponents associated with large price variations in the cryptocurrency market. According to the study, which of the following statements about the power-law exponents of the top 2000 and top 200 cryptocurrencies by market capitalization is most consistent with the findings?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 3
@@ -897,9 +897,9 @@
   },
   {
     "question": "Consider a graphene junction with a transition region between unstrained and strained graphene sections that is shorter than 5-6 nm. According to the text, what is the expected effect of this short transition zone on the transmission between propagating states beyond the energy gaps?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -981,7 +981,7 @@
   },
   {
     "question": "Based on the provided documentation, what is the likely reason for the unusual discovery of XMMSL1~J060636.2-694933 in X-rays, rather than in the early phases of its outburst, which is typical for classical novae?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1002,9 +1002,9 @@
   },
   {
     "question": "What is the primary concern regarding the implementation of the California Housing Element Laws, as stated in California Government Code Section 65584, and how does it relate to the water issue in Paso Robles, considering the city's current economic situation and the proposed desalination plan?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1023,7 +1023,7 @@
   },
   {
     "question": "Consider the function $f(x) = \\sqrt[3]{x} \\sin(x^2)$ and its derivative $f'(x)$. According to the provided documentation, the expression for the derivative is undefined at $x=0$. However, it can be shown that $f(x)$ is not differentiable at $x=0$.",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 3
@@ -1268,9 +1268,9 @@
   },
   {
     "question": "What was the primary consequence of Brooksley Born's warnings about the dangers of excessive leverage in financial markets, as expressed in her 1998 remarks on the lessons of Long Term Capital Management L.P., in relation to the subsequent credit crisis of 2008, considering the complex interplay between financial regulation, market volatility, and the role of regulatory agencies in mitigating systemic risk?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1576,9 +1576,9 @@
   },
   {
     "question": "A company develops a system for providing personalized product recommendations based on user behavior and preferences. The system consists of a web server, a database, and a client-side application. The web server stores user data and generates recommendations based on a machine learning algorithm. The client-side application receives the recommendations and displays them to the user. However, the system also includes a feature that allows users to provide feedback on the recommendations, which is stored in a memory defining a warehouse. The feedback is used to improve the recommendation algorithm. The system is eligible for patent protection under Section 101 because it:",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1772,9 +1772,9 @@
   },
   {
     "question": "A company is considering two different manufacturing processes for producing a new product. Process A involves a single machine that can produce 100 units per hour, while Process B requires two machines, one for each half of the production process, and can produce 120 units per hour. However, Process B has a higher upfront cost of $10,000, while Process A has a lower upfront cost of $5,000. The company's goal is to minimize production time while maximizing profit. If the production time for Process A is 2 hours and for Process B is 1.5 hours, and the profit per unit for Process A is $10 and for Process B is $12, but the company also needs to consider the environmental impact of each process, with Process A emitting 500 kg of CO2 per hour and Process B emitting 300 kg of CO2 per hour. The company's target is to reduce its carbon footprint by 20% while maintaining profit margins. If the current market price of carbon credits is $50 per ton, what is the most profitable manufacturing process for the company, considering both profit and environmental impact?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1856,9 +1856,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the likely outcome for the crystalline structure of nanocolumns in Ge$_{1-x}$Mn$_{x}$ films grown at 150$^\\circ$C with 11.3% Mn, considering the presence of uniaxially or fully relaxed columns with a misfit of 4% between the matrix and the columns?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1884,9 +1884,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the most significant factor influencing the catch of threatened species in the Tanjung Luar shark fishery, considering the relationships between fishing effort, gear type, and spatial distribution of species?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1933,7 +1933,7 @@
   },
   {
     "question": "A social network server 101 is processing user data for a channel application 103. The channel application 103 receives data from various sources, including a search server 135, an entertainment server 137, a ratings server 139, and an email server 141. The data is processed by the channel engine 240, which identifies a channel category based on user interests and historical trends. The channel engine 240 then transmits a request for a stream of content to the scoring server 262. The scoring server 262 queries the data storage server 265 and the social network server 101 for candidate content items. The candidate content items are scored using a collaborative filtering engine 217, which takes into account the user's social connections and past interactions.",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -2213,9 +2213,9 @@
   },
   {
     "question": "Urartu FC's management has decided to rebrand the club as FC Urartu, but the team's reserve squad, FC Banants-2, will continue to play under the Banants name. This decision was made after the club's youth academy, formerly affiliated with FC Spartak Yerevan, began to produce talented players who are now contributing to the first team. However, the club's technical director, Ilshat Faizulin, has expressed concerns about the potential impact of this decision on the team's youth development program, citing the need to maintain a strong focus on developing young players from the region. Which of the following statements best reflects the likely outcome of this decision, taking into account the potential consequences for the team's youth development program and the need to balance short-term and long-term goals?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2255,7 +2255,7 @@
   },
   {
     "question": "A new game mechanic is being introduced to the game, allowing players to create and deploy \"geophysical\" formations that can be used for defense or offense. These formations are based on the shape of the box and can be categorized into three types: trapezoid (attack), diamond (defense), and octagon (support). The game's developers are considering adding a new type of formation that would give players a significant home advantage, but would also require a uniform color scheme for the formations. The developers are weighing the pros and cons of introducing this new formation, which would have the following effects:",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
@@ -2297,14 +2297,14 @@
   },
   {
     "question": "A company, X Inc., has developed a new software application that utilizes a proprietary algorithm to optimize business processes. According to the company's website, the algorithm is based on a complex mathematical model that incorporates data from various sources, including customer feedback, market trends, and operational metrics. However, a recent study published in a reputable academic journal suggests that the algorithm's performance may be compromised by the use of biased data from a single source.",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
     "question": "A shock wave with Mach number 1.2 is propagating through a 2-D heavy-cylindrical bubble composed of 26% Air and 74% SF6. The initial conditions of the ambient gas are \u03c10 = 1.29 kg/m\u00b3, T0 = 293 K, and p0 = 101.3 kPa. The initial parameters of the bubble are \u03c1bubble = 4.859 kg/m\u00b3, pbubble = 101.3 kPa, and Tbubble = 293 K.",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -2346,7 +2346,7 @@
   },
   {
     "question": "A researcher is analyzing the performance of a probabilistic LMS algorithm in a non-stationary environment. The algorithm is used to estimate a vector ${\\bf w}_k$ with a dynamic process, where the variance $\\sigma_d^2$ follows a diffusion process. The researcher wants to determine the optimal covariance matrix $\\boldsymbol\\Sigma_k$ for the posterior distribution $p({\\bf w}_k|y_{1:k})$. However, the covariance matrix is not explicitly given, and the researcher needs to use the Kullback-Leibler divergence to minimize the difference between the original and approximate distributions.",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -2374,9 +2374,9 @@
   },
   {
     "question": "The specific-heat ratio's effect on the interaction between shock waves and bubbles in supersonic combustion systems is a complex phenomenon. According to the research, the entropy production caused by NOMF and NOEF are contrary, with the former increasing with reduced specific-heat ratio and the latter first reducing and then approaching a saturation value. However, when the specific-heat ratio \u03b3 is smaller than a threshold value \u03b3c (\u03b3c \u2248 1.315), the entropy production induced by NOEF is more significant than that caused by NOMF. \n\nWhich of the following statements is CORRECT?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2409,7 +2409,7 @@
   },
   {
     "question": "Hugh Goodwin's naval career was marked by a series of promotions and assignments that required him to work closely with various senior officers and organizations. Analyze the following information to determine the correct sequence of events:",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
@@ -2423,7 +2423,7 @@
   },
   {
     "question": "Consider a spectral density estimator f defined in the asymptotic scenario where p \u2192 \u221e and p/n \u2192 c \u2208 (0, \u221e]. The estimator f is based on a periodic smoothing spline estimator H(f ) of the log-spectral density, which is estimated using a variance stabilizing transform (VST) \u223c with a bandwidth parameter h > 0. The VST is applied to the data W i,j , k = 1, . . . , T, where T = p \u03c5 for any \u03c5 \u2208 ((4 \u2212 2 min{\u03b2, 1})/3, 1) and q = max{1, \u03b3}. The spectral density estimator f is then obtained by applying the inverse transform function H \u22121 (y) = m exp \u221a 2y \u2212 \u03c6 (m/2) /2 to the scaled and shifted log-spectral density H(f ).",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 5
@@ -2535,9 +2535,9 @@
   },
   {
     "question": "The analysis of variance for linear model of standardised CPUE (individuals per 100 hooks per set) data from Tanjung Luar indicates that the most significant factors influencing standardised CPUE of threatened species are month, fishing ground, and engine power. However, a best fit GLM indicates that the most significant factors influencing the likelihood of catching threatened species are month, number of hooks, and engine power. Which of the following statements is TRUE, given that the Tanjung Luar shark fishery is characterized by a high proportion of threatened and regulated species, and considering the relationships between CPUE and fishing behavior variables?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2563,9 +2563,9 @@
   },
   {
     "question": "The reactivation of the OA1 transgene in response to EAA starvation is mediated by a complex signaling pathway involving GCN2, mTORC1, and the ISR. However, the specific role of GCN2 in this process is still unclear. Which of the following statements best describes the relationship between GCN2 and the ISR in the context of EAA starvation?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2612,16 +2612,16 @@
   },
   {
     "question": "The authors of the study on the aging and market capitalization of cryptocurrencies find that the power-law exponents for positive and negative returns tend to shift towards larger values when considering the largest cryptoassets. However, the power-law hypothesis is never rejected for positive returns and rarely rejected for negative returns. Which of the following statements best describes the relationship between the power-law exponents for positive and negative returns in the cryptocurrency market?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
     "question": "In the context of essential amino acid (EAA) starvation, the reactivation of silenced transgenes in HeLa cells appears to be mediated by a novel nutrient-sensing and signaling pathway, independent of the General Control Non-derepressible 2 (GCN2) kinase. However, the involvement of other kinases, such as MEK/ERK and JNK, in this process is still unclear. Which of the following statements best describes the relationship between the reactivation of the OA1 transgene and the activity of the MEK/ERK and JNK pathways?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2647,7 +2647,7 @@
   },
   {
     "question": "Consider a quantum error mitigation scheme that employs a denoiser to correct for two-qubit depolarizing noise in a quantum processor. The denoiser is constructed as a local brickwall circuit and is parameterized with coefficients \u03b7 i \u2208 R that satisfy \u03b7 0 + \u03b7 1 = 1. The denoiser is used to mitigate errors in a second-order Trotter circuit with depth M trot = 32, and the noiseless expectation values are approximated using a stochastic interpretation of the denoiser ensemble.",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -2710,9 +2710,9 @@
   },
   {
     "question": "A 2-D heavy-cylindrical bubble is placed in a flow field filled with air, and a shock wave with Mach number 1.2 passes through the bubble from left to right. The initial conditions of the ambient gas are \u03c10 = 1.29 kg/m\u00b3, T0 = 293 K, and p0 = 101.3 kPa. The bubble is composed of 26% air and 74% SF6, with an initial density of \u03c1bubble = 4.859 kg/m\u00b3 and pressure of pbubble = 101.3 kPa. The specific-heat ratio of the bubble is varied in five cases: \u03b3 = 1.4, 1.28, 1.18, 1.12, and 1.09.",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2801,7 +2801,7 @@
   },
   {
     "question": "In a vacuum processing system, a sample is transported from a cassette block to a vacuum processing chamber via a load lock chamber and an unload lock chamber. The vacuum processing chamber is equipped with a gate valve that connects to a vacuum transfer chamber. The vacuum transfer chamber is connected to a vacuum loader, which is also equipped with a gate valve. The vacuum loader is positioned in a T-arrangement with the atmospheric loader and the locking device. The vacuum processing chamber is formed by a UHF-ECR reactor, which is symmetrically positioned with respect to the axis passing through the center of the vacuum transfer chamber and the locking device. The UHF-ECR antennas are parallel to the axis and are opened to the opposite side of the vacuum transfer chamber. The vacuum processing chamber is designed to process a wafer with a diameter of 8-12 inches. However, the vacuum processing system is designed to accommodate wafers with diameters up to 15 inches. What is the primary advantage of this vacuum processing system in terms of its ability to process large-diameter wafers?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
@@ -3046,9 +3046,9 @@
   },
   {
     "question": "A researcher is developing a smart home system for cognitive health assessment of older adults. The system uses a combination of wrist-worn accelerometer (ACC) sensors, ambient sensors, and object sensors to recognize complex activities such as walking, using a walker, or using a wheelchair. The system employs a hybrid statistical and knowledge-based technique to analyze the data and estimate behavioral anomalies for early detection of mild cognitive impairment. However, the system faces challenges in recognizing diverse postures, such as those requiring the use of assistive devices.",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -3158,9 +3158,9 @@
   },
   {
     "question": "Which of the following players is most likely to benefit from attending the Orlando pre-draft camp, given their current draft stock and the potential for improvement in their game?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -3277,9 +3277,9 @@
   },
   {
     "question": "Which of the following players is most likely to benefit from attending the Orlando pre-draft camp, given their current draft stock and the need for improvement in their game?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -3340,7 +3340,7 @@
   },
   {
     "question": "A Rydberg gas with an initial density of $1 \\times 10^{12}$ cm$^{-3}$ and a principal quantum number of $n_0 = 60$ undergoes prompt Penning ionization. The resulting Penning electrons initiate an electron-impact avalanche. Assuming a uniform plasma electron temperature and neglecting the effects of Rydberg predissociation and electron-ion dissociative recombination, what is the expected half-time of the avalanche to plasma for this gas?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4
@@ -3361,9 +3361,9 @@
   },
   {
     "question": "A method for providing personalized product recommendations to customers based on their browsing history and purchase behavior involves training a classifier to predict the likelihood of a customer making a purchase based on their browsing history. The classifier is trained on a dataset that includes information about the customer's browsing history, the products they have viewed, and the products they have purchased. The trained classifier is then used to generate a list of personalized product recommendations for each customer. However, the method also includes a step of informing the customer of the recommended products, which is not explicitly stated in the original dataset.",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -3620,16 +3620,16 @@
   },
   {
     "question": "A RSU is equipped with a system model that includes a Modified Markov Jump Particle Filter (M-MJPF) to predict the interaction between RF signals and GPS signals. The M-MJPF uses a Generalized state-space model to describe the evolution of the RF signal and the GPS signal. The system model also includes a time-varying transition matrix ($\\Pi_{\\tau}$) to capture the dynamic transitions of the sensory signals among the available clusters.\n\nA RSU receives RF signals from two vehicles, vehicle 1 and vehicle 2, with different power levels ($\\mathrm{M_{1}}{=}5$ and $\\mathrm{M_{2}}{=}5$ for vehicle 1, and $\\mathrm{M_{1}}{=}25$ and $\\mathrm{M_{2}}{=}25$ for vehicle 2). The RSU also receives GPS signals from both vehicles.\n\nWhich of the following statements is true about the RSU's system model?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
     "question": "According to the provided documentation, what is the primary effect of a smaller specific-heat ratio on the deformation process of a bubble in the context of a planar shock wave and a 2-D heavy-cylindrical bubble?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
