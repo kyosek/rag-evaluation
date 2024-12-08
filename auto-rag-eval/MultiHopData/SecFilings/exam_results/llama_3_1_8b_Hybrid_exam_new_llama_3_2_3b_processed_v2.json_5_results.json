@@ -1,7 +1,7 @@
 [
   {
     "question": "The Company's Board of Directors increased Mr. Ward's base salary to $155,000 retroactive to January 1, 2013, which was paid by the issuance of restricted shares of Common Stock. However, the number of shares issued to Mr. Ward was calculated based on the quarterly amount due of $7,500 divided by the average daily closing price of the Company's Common Stock for the quarter just ended. If the average daily closing price for the quarter was $50.25, how many shares of Common Stock were issued to Mr. Ward?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -15,9 +15,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason TMRC was chosen as the lead investigator in the consortium for the CIX/CIC pilot plant project, despite not being the direct recipient of the grant funds?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -162,7 +162,7 @@
   },
   {
     "question": "What is the average rent per square foot for the property located at 100 Horizon Drive in Mercer County, New Jersey, as of December 31, 2015, based on the information provided in the documents?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4
@@ -190,9 +190,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary purpose of the environmental mitigation and rehabilitation practices reviewed every four years for the Nkamouna Project, as outlined in Law No. 96/12?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -211,7 +211,7 @@
   },
   {
     "question": "Based on the information provided in the documents, what is the primary reason for the decision to re-open the Cieneguita mine, and how does this decision impact the potential costs of re-opening the mine, considering the existing infrastructure and the exploration budget, and taking into account the lessons learned from the previous exploration efforts and the potential for economic production in the region?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 4
@@ -225,9 +225,9 @@
   },
   {
     "question": "Based on the information provided in the documentation, which of the following statements can be inferred about the relationship between the Pameng Mining Lease and the Apapam Mining Lease?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -267,7 +267,7 @@
   },
   {
     "question": "Based on the provided documentation, which of the following statements can be concluded about the I-D Partnership's properties in the Anadarko Basin?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 4
@@ -330,9 +330,9 @@
   },
   {
     "question": "The geologic structure of the San Miguel project area is characterized by a complex interplay of tectonic forces, including compression, extension, and tilting. Which of the following statements best describes the relationship between the Late Tertiary ignimbrites (UVS) and the gold mineralization at San Jos\u00e9 de Gracia?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -365,7 +365,7 @@
   },
   {
     "question": "The Company's financial statements for the Corona Property and the DAEDO AMERICA CORPORATION PROPERTY are subject to depreciation. However, the Company's management fee for the Corona Property is 3% of the gross rents collected, while the management fee for the DAEDO AMERICA CORPORATION PROPERTY is not explicitly stated. Which of the following statements is TRUE?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4
@@ -386,7 +386,7 @@
   },
   {
     "question": "The Maji Moto Gold Project, located in the North Mara Greenstone Belt, has identified a number of artisanal workings and trenches across the BIF Hill area. According to the documentation, the BIF is intensely folded and sheared, with a NW-SE plunge to the SE. The artisanal activity is selectively mining the quartz veinlets within the shear zones. A follow-up trench programme was conducted, which included the re-opening of existing trenches and new trenches, totalling 342.7 meters. The results of the trench and pit sampling are summarized in Table 14.\n\nA recent acquisition to the North Mara group of licences is the Maji Moto licence, which was awarded to the Company by the Ministry of Mines through application and tender in April 2012. The licence is situated in the North Mara Greenstone Belt (Eastern Musoma Goldfields) approximately 28 kilometers to the SW of African Barrick\u2019s North Mara Gold Mine.\n\nThe Company is considering developing a north-trending adit from the southern side at the base of the hill at a later date. Metallurgical test work is to be undertaken on the oxide rock material taken from artisanal workings and trenches on surface as part of the scoping study to determine the viability of commencing and open pit/underground small-scale mining operation at BIF Hill.\n\nWhich of the following statements is CORRECT?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 4
@@ -414,7 +414,7 @@
   },
   {
     "question": "Based on the provided documentation, what is the total annual rent for the 9-year, 11-month lease signed with CH2M Hill at the Gainesville Property, considering the initial term and the extended term?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -435,9 +435,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason for the significant loss of precious metals to the cleaner tailing in the bulk-sulfide flotation scheme, and how does this impact the overall metallurgical performance of the process?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -554,9 +554,9 @@
   },
   {
     "question": "NUEVO ENERGY COMPANY's reserve estimates for its principal oil and gas properties have fluctuated significantly over the years. Analyze the changes in reserve estimates and acreage from 1996 to 2000, considering the impact of commodity pricing and development drilling activities. Which of the following statements is most consistent with the information presented in the SEC filings?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -603,7 +603,7 @@
   },
   {
     "question": "If the estimates of proved undeveloped reserves were to decline, the rate at which the company would record depletion expense would increase, and the development costs for the Lisewo-2 well were approximately $1.3 million in 2014, what is the most likely reason for the decrease in development costs for the Lisewo-2 well in 2015, considering the sidetrack project planned for the Zaniemsyl well and the changes in proved undeveloped reserves?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4
@@ -680,9 +680,9 @@
   },
   {
     "question": "The Comstock Mining district's mineralization is influenced by a complex system of faults and fractures, including the Central Fault. Which of the following statements best describes the relationship between the Central Fault and the distribution of mineralization in the district, considering the impact of contact metamorphism and metasomatism on the surrounding rocks?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -806,7 +806,7 @@
   },
   {
     "question": "Based on the provided documentation, which of the following statements can be concluded about the production levels of Whiting's underlying properties in the Gulf Coast Region for the year ended December 31, 2020?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -869,9 +869,9 @@
   },
   {
     "question": "Based on the provided information, what is the expected outcome for the proved undeveloped reserves of the Trust and Underlying Properties as of December 31, 2017, considering the changes in net proved reserves and the calculation of discounted future net revenues?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -883,9 +883,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the total annual rent paid by US Cellular for the US Cellular Building in 2002, considering the additional 25,451 square feet leased in November 2001, and taking into account the average effective annual rental per square foot for the entire building, including the newly leased space?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -897,9 +897,9 @@
   },
   {
     "question": "What is the significance of the date \"March 18, 1994\" in the context of the Securities Exchange Act of 1934, considering the company's history and the role of the Securities and Exchange Commission (SEC) in regulating the industry, as indicated by the signatures of the officers of The Connecticut Light and Power Company, and the regulatory framework established by the Act?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -911,9 +911,9 @@
   },
   {
     "question": "What is a critical consideration for the company's ability to maintain its borrowing capacity, repay current or future indebtedness, and obtain additional capital on attractive terms, given the potential volatility of oil and natural gas prices?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -1023,9 +1023,9 @@
   },
   {
     "question": "What is the primary mechanism of copper and silver mineralization in the stratabound disseminated copper deposits found in the Revett Formation, and how does this process relate to the geological setting of the region?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -1191,9 +1191,9 @@
   },
   {
     "question": "According to the provided documentation, what is the primary reason for the Company's improved price realization on its natural gas sales compared to Henry Hub or other natural gas price indexes?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -1233,9 +1233,9 @@
   },
   {
     "question": "Based on the information provided in the two chunks, what can be inferred about the geological setting of the gold mineralization in the Kibi gold-in-soil trend?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -1373,9 +1373,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason for the implementation of hydraulic mining at the Fairbreeze mine, and how does this technique impact the environmental footprint of the operation?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -1401,9 +1401,9 @@
   },
   {
     "question": "Based on the provided information, what is the estimated reserve life (R/P) of the Farmer field in years, assuming the annualized fourth quarter production rate for 2011?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1548,9 +1548,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason for the abandonment of the Morrow #23-1H well in the Goudeau Prospect, despite its potential as a deep geo-pressured Austin Chalk prospect?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -1562,9 +1562,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the expected outcome of the capital allocated to offshore development activities in 2014, considering the conversion of PUDs to PDs and the potential expiration of undeveloped leasehold acreage?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -1681,7 +1681,7 @@
   },
   {
     "question": "What is the difference in the number of proved undeveloped oil and gas reserves identified by BROG as of December 31, 2011, compared to the number identified by Burlington as of December 31, 2014?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -1744,9 +1744,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the total annualized base rental revenue for the year 2015 for the following tenants: UBS Financial Services, Inc., Allstate Insurance Company, and E*Trade Financial Corporation?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1856,7 +1856,7 @@
   },
   {
     "question": "Based on the provided documentation, what can be inferred about the distribution of heavy rare earth elements (HREE) in the Round Top rhyolite deposit, considering the results of the static leach test and preliminary column leach testing?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 3
@@ -1912,9 +1912,9 @@
   },
   {
     "question": "Which Seacoast National branch, located in a Wal-Mart Superstore, had a walk-up ATM and occupied 750 square feet of leased space, and was opened in July 1997?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -2052,9 +2052,9 @@
   },
   {
     "question": "A Lessee is facing a situation where one of its hotels, which sells alcoholic beverages, is damaged in a fire and the insurance payout is insufficient to cover the repair costs. The Lessee is considering subleasing a portion of the hotel to a retail tenant to generate additional revenue. However, the Participating Lease prohibits subleasing without the prior written consent of the Company. The Lessee's minimum net worth requirements are $10 million, and its ability to make rent payments is dependent on generating sufficient cash flow from operations. If the Lessee sublets the damaged portion of the hotel without the Company's consent, will the Company be obligated to repair or restore the hotel, and what are the potential consequences for the Lessee?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2143,23 +2143,23 @@
   },
   {
     "question": "What is the difference in the percentage of available data center space between the portfolio as of December 31, 2016, and the portfolio as of December 31, 2015, considering the adjustments for data center development in Phoenix, AZ, and Hillsboro, OR?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
     "question": "What is the expected annual depreciation expense for the Blockbuster Video Building, considering the straight-line method of depreciation and the current interest rate of 8.25%, and assuming the loan interest rate adjustment at the end of the fifth year to 350 basis points above the five-year Treasury Bond yield?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 3
   },
   {
     "question": "Based on the geochemical assay results from the replicate samples, what can be inferred about the sampling procedure, considering the results from sample #634112, which produced anomalous gold and copper values, and the fact that the 2010 soil sample collected at the same site produced lower values?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2199,9 +2199,9 @@
   },
   {
     "question": "Based on the provided documentation, Access Energy's obligations to LLCDA under the Agreements, and the subsequent acquisition of the J.E. Pettus Gas Unit, what is the correct interpretation of the impact on Access Energy's financial position and results of operation, considering the write-down of oil and gas property costs and the potential sale of two-thirds of its interest in Access Energy?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2213,9 +2213,9 @@
   },
   {
     "question": "Whiting's interests in the oil and natural gas properties comprising the underlying properties are subject to various burdens and obligations. According to the documentation, what type of agreement would obligate Whiting to reassign all or part of a property to a third party if Whiting intends to release or abandon such property?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2283,9 +2283,9 @@
   },
   {
     "question": "Based on the information provided in the two chunks, what is the expected mine life of the Bogoso/Prestea mine, considering the current proven and probable mineral reserves and the ongoing exploration efforts?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2311,7 +2311,7 @@
   },
   {
     "question": "Based on the information provided, what is the total amount of debt outstanding by GMH as of December 31, 2006, and how does this amount relate to the debt outstanding by GMH as of December 31, 2007?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -2332,9 +2332,9 @@
   },
   {
     "question": "Based on the provided documentation, determine the correct equity interest percentage held by the Partnership in the Fairchild Building as of December 31, 1998, considering the joint venture agreements and the occupancy rates of the properties owned by the Partnership.",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2381,9 +2381,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason for the Longstreet Property's lack of economic mineralization, despite the presence of fracture-related gold mineralization?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2535,9 +2535,9 @@
   },
   {
     "question": "Based on the provided information, which of the following statements about the II-G Partnership's properties is NOT supported by the data?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2598,9 +2598,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the total amount of gold produced by Newmont in 2010, considering the production from Waihi, Duketon, and Batu Hijau?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2626,9 +2626,9 @@
   },
   {
     "question": "Based on the provided information, which of the following statements about the I-B Partnership's properties in the Permian Basin is NOT supported by the data?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2745,9 +2745,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason for the Company's decision to move forward with a limited-scale continued mineral exploration at the El Capitan Property site in New Mexico, despite the high costs of recovery processes?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -2878,9 +2878,9 @@
   },
   {
     "question": "TCI's financial statements reflect the following transactions:",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -3088,9 +3088,9 @@
   },
   {
     "question": "Based on the information provided in the four chunks, which of the following statements about the mineralization at Cieneguita Property can be inferred?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -3109,9 +3109,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary objective of Liberty Star's exploration efforts on the Tombstone and East Silverbell claims, and how does the company plan to achieve this objective?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -3151,9 +3151,9 @@
   },
   {
     "question": "Based on the comprehensive analysis of the geology and exploration activities of the Mercurio Gold Property in Brazil, which of the following statements can be inferred about the geological setting and mineralization potential of the property?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -3172,9 +3172,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the total length of the mineralized zone identified in the Spring Valley project area by the end of 2007, considering the drilling results from the 2006 and 2007 campaigns?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -3200,9 +3200,9 @@
   },
   {
     "question": "What is the correct interpretation of the ownership of the Underlying Properties for the period from May 1, 1997, to February 28, 2001?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -3235,9 +3235,9 @@
   },
   {
     "question": "Alpine's financial condition and loss reserves have been subject to scrutiny by the Illinois DOI, which has imposed significant restrictions on the Company's activities. As a result, Alpine has been unable to act as a reinsurer of UCIC under the Quota Share Arrangement. However, the Company's prior and existing regulatory issues could lead regulators to place restrictions on Alpine's ability to act as a reinsurer of UCIC under the Quota Share Arrangement or of any other insurer. What is the primary reason for the Illinois DOI's restrictions on Alpine's ability to act as a reinsurer of UCIC under the Quota Share Arrangement?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -3249,7 +3249,7 @@
   },
   {
     "question": "Given the information provided in the Misanse Mineral Concession-Government of El Salvador documentation, what is the correct interpretation of the concession agreement between Misanse and the Joint Venture, considering the changes to the El Salvador Mining Law and the payment obligations to the Government of El Salvador and the municipality?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 5
@@ -3361,9 +3361,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the total expected operating NRSF of the facility upon completion of the build-out, considering both the current development plans and the potential expansion of the undeveloped land?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -3480,7 +3480,7 @@
   },
   {
     "question": "The Joint Venture's gold ore processing capacity at the SCMP site is expected to increase to 300/400 tons per day. However, the current capacity is limited by the availability of virgin gold ore from the SSGM surface and stope fill. According to the documentation, the excess gold ore is stockpiled in an area that can store more than 50,000 tons. Considering the following information:",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -3515,9 +3515,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason for the increased maintenance requirements in MOB properties, according to the Company's description of its MOB operations?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -3529,7 +3529,7 @@
   },
   {
     "question": "The Account's investment in the Las Colinas property in Texas is subject to a mortgage with a maturity date of December 1, 2022. However, in April 2020, the Company refinanced the mortgage and obtained a new mortgage note payable for $18,370,000. Considering the Company's development and underwriting policies, which include risks such as construction costs exceeding original estimates and occupancy rates and rents not being sufficient to make the community profitable, what is the most likely outcome for the Las Colinas property's mortgage balance as of December 31, 2022?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
@@ -3564,7 +3564,7 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason for Chugach's obligation to conduct further PCB sampling and analysis in Kenai Lake, as stated in the FERC's letter dated June 13, 2002?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5

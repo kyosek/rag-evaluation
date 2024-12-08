@@ -92,9 +92,9 @@
   },
   {
     "question": "According to the provided documentation, what is the correct release date of the song \"To Hell and Back\" by Benga, considering the information about the album's release and the premiere of the official video on Benga's Vevo?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -190,9 +190,9 @@
   },
   {
     "question": "According to the 2000 census, what percentage of the population in Averill Park, Michigan, was below the poverty line, including those under age 18 and those age 65 or over?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -260,9 +260,9 @@
   },
   {
     "question": "According to the passage, what is the relationship between the Rabi frequency (\u03c9) and the transition electric dipole moment (d) of an atom in a laser field?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -365,9 +365,9 @@
   },
   {
     "question": "Based on the provided documentation, what can be inferred about the geographical characteristics of Birgunj, considering its location in the Terai plain and the description of the climate and topography?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -484,9 +484,9 @@
   },
   {
     "question": "According to Lionel Shriver's review, what is a notable characteristic of Bill Bryson's writing style in his book \"African Diary\" that contrasts with his previous travel books?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -582,9 +582,9 @@
   },
   {
     "question": "Based on the information provided about Zooey Deschanel's career, which of the following statements can be inferred about her film \"The Illusionist\" (2006)?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -666,9 +666,9 @@
   },
   {
     "question": "According to the European Commission's Directorate-General for Enterprise and Industry (DG ENTR), what are the primary IPR challenges faced by European small and medium-sized enterprises (SMEs) in China, and how does the China IPR SME Helpdesk address these challenges?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1156,9 +1156,9 @@
   },
   {
     "question": "Preeto's decision to fake her marriage with Sunny is motivated by the threat of Neelam's blackmail, which is a result of Preeto's love for Rajbeer. However, Rajbeer overhears Preeto talking to herself and realizes that her marriage is fake. Considering the following information, what is the most likely reason for Preeto's initial decision to fake her marriage with Sunny?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1324,9 +1324,9 @@
   },
   {
     "question": "According to historical records, what was the likely reason for the British colonizers in North America to refer to the wapiti as \"elk\" due to its size and resemblance to familiar-looking deer like the red deer?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1919,9 +1919,9 @@
   },
   {
     "question": "Based on the provided documentation, which of the following statements about the football programs of Oklahoma and Texas Tech can be inferred?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1989,7 +1989,7 @@
   },
   {
     "question": "Sam & Max Save the World's storyline involves a plot twist where the President is revealed to be a mechanical puppet. However, this plot point is not explicitly stated in the game's documentation. Bosco, the convenience store owner, is obsessed with conspiracies and believes that nearly every US government agency is after him. He regularly attempts to disguise himself as a variety of foreign nationals. In the episode \"Bosco\", Max starts a negative campaign against Bosco for the presidential election, despite the fact that he is not running. What is the most plausible explanation for Bosco's involvement in the presidential election, considering his obsession with conspiracies and his attempts to disguise himself as a foreign national?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 5
@@ -2024,7 +2024,7 @@
   },
   {
     "question": "Inta Ezergailis and Anne Tyler, two prominent female writers, have been recognized for their contributions to literature. However, their backgrounds and writing styles differ significantly. Inta Ezergailis, a Latvian American professor emerita, specialized in Thomas Mann and contemporary women writers, while Anne Tyler, an American novelist, explored themes of family, identity, and social class. Considering the following information about their academic and literary backgrounds, as well as their personal experiences, which of the following statements best captures the essence of their distinct writing styles?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 5
@@ -2360,9 +2360,9 @@
   },
   {
     "question": "According to the provided documentation, what is the name of the French publisher that acquired the Spanish subsidiary of Gl\u00e9nat in 2011, and what is the name of the building where the company's head office is located?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2479,9 +2479,9 @@
   },
   {
     "question": "The Barry and Phyllis Rodgers Center for Holocaust Education at Chapman University was founded by Marilyn Harran, Ph.D., in 2000. According to the university's history, the center was established to honor the memory of the victims of the Holocaust. However, the university's athletic teams, the Panthers, have a long history dating back to the 1950s. In what year did the university's athletic teams compete in the California Collegiate Athletic Association (CCAA) of the NCAA Division II ranks, and what sport did they win a national title in during that time?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -2668,7 +2668,7 @@
   },
   {
     "question": "Reconstructing the timeline of events during the Lindt Caf\u00e9 siege, consider the following information:",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 4
@@ -2689,7 +2689,7 @@
   },
   {
     "question": "David Parlett, the renowned game designer, has invented numerous board games and card games. However, what is notable about his career that is not mentioned in the passage about Alex Randolph, and which is also not explicitly stated in the provided text about David Parlett himself?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -2962,7 +2962,7 @@
   },
   {
     "question": "Analyze the complex relationships between James II, William of Orange, and the Dutch Republic, considering the implications of their actions on the balance of power in Europe.",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -3144,9 +3144,9 @@
   },
   {
     "question": "The Red Queen's tyrannical rule in Underland is exemplified by her treatment of her sister, the White Queen, Mirana. According to Mirana, the White Queen's attempts to maintain peace and order in the kingdom are thwarted by her own dark impulses, which are a result of her being \"scared of going too far into the dark side.\" This fear is reflected in her surroundings, which appear \"very light and happy\" despite her inner turmoil. However, the White Queen's sister, the Red Queen, is aware of her own dark nature and has taken steps to suppress it, as evidenced by her use of the Knave of Hearts, Ilosovic Stayne, to calm her mood swings.",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {

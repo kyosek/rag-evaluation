@@ -162,9 +162,9 @@
   },
   {
     "question": "What is the average rent per square foot for the property located at 100 Horizon Drive in Mercer County, New Jersey, as of December 31, 2015, based on the information provided in the documents?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -225,9 +225,9 @@
   },
   {
     "question": "Based on the information provided in the documentation, which of the following statements can be inferred about the relationship between the Pameng Mining Lease and the Apapam Mining Lease?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -330,9 +330,9 @@
   },
   {
     "question": "The geologic structure of the San Miguel project area is characterized by a complex interplay of tectonic forces, including compression, extension, and tilting. Which of the following statements best describes the relationship between the Late Tertiary ignimbrites (UVS) and the gold mineralization at San Jos\u00e9 de Gracia?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -435,16 +435,16 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason for the significant loss of precious metals to the cleaner tailing in the bulk-sulfide flotation scheme, and how does this impact the overall metallurgical performance of the process?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
     "question": "Based on the provided documentation, what is the total number of productive wells that were drilled by the company during the period from 2003 to 2006, considering the wells that were temporarily abandoned and the ones that were completed in 2005 and 2006, and taking into account the information about the wells that were in progress at the end of 2003 and the total net undeveloped acres expiring in 2004, 2005, and 2006?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -554,9 +554,9 @@
   },
   {
     "question": "NUEVO ENERGY COMPANY's reserve estimates for its principal oil and gas properties have fluctuated significantly over the years. Analyze the changes in reserve estimates and acreage from 1996 to 2000, considering the impact of commodity pricing and development drilling activities. Which of the following statements is most consistent with the information presented in the SEC filings?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -1030,9 +1030,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason for the revisions to the estimated PUD reserves in 2020, as stated in Chunk0?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -1163,7 +1163,7 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary end market for Kosse's silica sand reserves, considering the company's reserves are comprised of 8,586 tons of silica sand (70.0%) and 3,680 tons of kaolin clay (30.0%), and Kosse's products were produced from ore sourced from a third party in 2012?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -1233,9 +1233,9 @@
   },
   {
     "question": "Based on the information provided in the two chunks, what can be inferred about the geological setting of the gold mineralization in the Kibi gold-in-soil trend?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -1555,9 +1555,9 @@
   },
   {
     "question": "Based on the provided information, what percentage of the company's total owned and managed operating portfolio is comprised of warehouse distribution facilities suitable for single or multiple customers, according to the Property Characteristics table in Chunk0 and Chunk1?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1625,9 +1625,9 @@
   },
   {
     "question": "A geological survey team has identified a potential gold deposit in a region with a complex geological history. The deposit is located in a zone of epizonal formation, with a depth of less than 6 km. The surrounding rocks are primarily composed of greenschist, a metamorphic rock formed under low temperatures and pressures. The team has collected samples of the deposit and surrounding rocks, which include gabbro, a dark, coarse-grained igneous rock, and galena, a lead sulphide mineral. However, the samples also contain a significant amount of gangue, which is composed of worthless minerals. The team is considering using free milling to extract the gold from the mineralized material. Which of the following statements best describes the characteristics of the gold deposit?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1646,9 +1646,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the projected minimum annual expense to maintain all of the Company's claims in good standing, considering the changes in the number of claims and exploration credits from 2013 to 2014?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -1660,9 +1660,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary conclusion regarding the reservoir quality of the Cretaceous formation at the Kumisi #1 well, and how does it differ from the reservoir quality of the rocks encountered in other wells in the area?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1828,9 +1828,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason why the Company's leases on undeveloped acreage will remain in effect beyond their primary terms, assuming no production is established from the leasehold acreage, and considering the continuous development clauses and the Company's drilling and development activities?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -2052,9 +2052,9 @@
   },
   {
     "question": "A Lessee is facing a situation where one of its hotels, which sells alcoholic beverages, is damaged in a fire and the insurance payout is insufficient to cover the repair costs. The Lessee is considering subleasing a portion of the hotel to a retail tenant to generate additional revenue. However, the Participating Lease prohibits subleasing without the prior written consent of the Company. The Lessee's minimum net worth requirements are $10 million, and its ability to make rent payments is dependent on generating sufficient cash flow from operations. If the Lessee sublets the damaged portion of the hotel without the Company's consent, will the Company be obligated to repair or restore the hotel, and what are the potential consequences for the Lessee?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2094,9 +2094,9 @@
   },
   {
     "question": "Which executive officer of Americold, Inc. was both a director of the company and a director of Arkansas Best Corporation, and who received $16,000 per year for their services on the Board of Directors of the Company?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -2836,7 +2836,7 @@
   },
   {
     "question": "Based on the provided documentation, Whiting's production costs for the years 2011, 2014, 2015, 2016, 2017, and 2018 are reported as follows:\n\nChunk0: \n- 2011: $1.1 million ($0.88/BOE)\n- 2014: $1.4 million ($1.15/BOE)\n- 2015: $1.6 million ($1.10/BOE)\n- 2016: $1.4 million ($1.38/BOE)\n- 2017: $1.5 million ($1.28/BOE)\n- 2018: $1.4 million ($1.15/BOE)\n\nChunk1: \n- 2011: 474 BOE/d (14% of 2011 daily production)\n- 2015: 939 BOE/d (24% of 2015 daily production)\n- 2016: 1,327 BOE/d (39% of 2016 daily production)\n- 2017: Not reported\n- 2018: 1,041 BOE/d (33% of 2018 daily production)\n\nChunk2: \n- 2014: $1.4 million ($1.15/BOE)\n- 2015: $1.6 million ($1.10/BOE)\n- 2016: $1.4 million ($1.38/BOE)\n- 2017: $1.5 million ($1.28/BOE)\n- 2018: $1.4 million ($1.15/BOE)\n\nChunk3: \n- 2011: 14% of 2011 daily production\n- 2014: 15% of 2014 daily production\n- 2015: 24% of 2015 daily production\n- 2016: 39% of 2016 daily production\n- 2017: Not reported\n- 2018: 33% of 2018 daily production",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 5
@@ -2878,9 +2878,9 @@
   },
   {
     "question": "TCI's financial statements reflect the following transactions:",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2906,7 +2906,7 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary difference between the probable reserve estimates for the 'A' Zone, 'B' Zone, and 'West' Zone, as outlined in the NI 43-101 technical report, and the inferred resource estimates for the Nolan Creek Area, as outlined in the January 7, 2010, report?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 5
@@ -3074,9 +3074,9 @@
   },
   {
     "question": "The Company's business model relies heavily on its ability to secure project financing approvals from various government agencies. However, the Company's experience with obtaining these approvals has been inconsistent, with some projects receiving approvals while others have not. The Company's financial statements indicate that it has a significant amount of cash and cash equivalents, but the company's ability to secure financing approvals is a major risk factor. Which of the following statements best describes the Company's approach to managing the risk associated with project financing approvals, considering the potential impact on its cash reserves and overall financial performance?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -3151,9 +3151,9 @@
   },
   {
     "question": "Based on the comprehensive analysis of the geology and exploration activities of the Mercurio Gold Property in Brazil, which of the following statements can be inferred about the geological setting and mineralization potential of the property?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -3186,9 +3186,9 @@
   },
   {
     "question": "The Company issued 103,100 shares of common stock to 27 non-related persons at $.50 per share for an aggregate consideration of $51,550. However, the Company also issued 133,752,022 common shares for converting $363,654 of indebtedness during the period of January 2011 through the filing date. Considering the Company's authorized capital stock of 2,000,000,000 shares of Common Stock and 200,000,000 shares of Preferred Stock, and the fact that the Company issued 40,000,000 shares on February 7, 2007, pursuant to a court order issued by the United States Bankruptcy Court, District of Maine, Case No. 04-20328, which did not require registration under Section 5 of the Securities Act of 1933, as amended, what is the total number of shares of common stock issued by the Company as of December 31, 2010?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -3529,7 +3529,7 @@
   },
   {
     "question": "The Account's investment in the Las Colinas property in Texas is subject to a mortgage with a maturity date of December 1, 2022. However, in April 2020, the Company refinanced the mortgage and obtained a new mortgage note payable for $18,370,000. Considering the Company's development and underwriting policies, which include risks such as construction costs exceeding original estimates and occupancy rates and rents not being sufficient to make the community profitable, what is the most likely outcome for the Las Colinas property's mortgage balance as of December 31, 2022?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
@@ -3599,9 +3599,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason for the presence of pyrite in the sericitc schist of the Alice Claim, and how does this relate to the gold mineralization in the area?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   }
 ]

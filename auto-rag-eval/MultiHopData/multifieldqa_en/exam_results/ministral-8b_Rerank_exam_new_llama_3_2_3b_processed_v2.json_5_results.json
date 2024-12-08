@@ -211,7 +211,7 @@
   },
   {
     "question": "A researcher is investigating the use of poly(ethylene imine)-g-chitosan nanoparticles as a nonviral gene delivery vector. According to Lou et al. (2009), the spacer used in these nanoparticles affects their stability and gene delivery efficiency. Which of the following statements about the spacer used in poly(ethylene imine)-g-chitosan nanoparticles is NOT supported by the research?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -2360,7 +2360,7 @@
   },
   {
     "question": "Consider a spherically symmetric, static spacetime described by the Schwarzschild metric. Five test particles are placed in a small region of space, with one particle at the center (r = R) and the other four offset relative to the central particle. The particles are initially at rest relative to each other and are free to move in the spacetime. Using the infalling coordinates and the vacuum Einstein equation, derive the function \u03b2(r) that describes the tidal deformations of the spacetime.",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -2864,9 +2864,9 @@
   },
   {
     "question": "According to Wirtz et al. and Yrj\u00f6l\u00e4 et al., what is the primary characteristic of the connection-related business model in the 4C ICT business model archetypes, and how does it differ from the content-related business model in terms of scalability and reliability?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {

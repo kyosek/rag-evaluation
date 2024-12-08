@@ -22,9 +22,9 @@
   },
   {
     "question": "J. Neil Schulman's novel \"Alongside Night\" received the Prometheus Award in 1979, but what is the title of his 1983 novel that also won the Prometheus Award, and what is the name of the libertarian philosophy agorism that he supported?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -113,9 +113,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the name of the film production company co-founded by Upton and his wife Cate Blanchett, which produced the film Little Fish (2006)?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -162,16 +162,16 @@
   },
   {
     "question": "Based on the information provided, what is the name of the film in which Regina Hall played a psychotherapist in 2014, which is also an erotic thriller?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "Based on the provided documentation, what is the name of the film director who, prior to Dana Blankstein's appointment, held the position of CEO of the Israeli Academy of Film and Television?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -218,7 +218,7 @@
   },
   {
     "question": "Based on the provided documentation, what was the primary motivation behind Ludwig von Westphalen's opposition to the French dominance of the local government in 1807?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -274,9 +274,9 @@
   },
   {
     "question": "The Argentine film director Francisco M\u00fagica's 1944 film \"Mi novia es un fantasma\" is a romantic comedy that shares a common trait with another film, but the connection is not as straightforward as it seems. Which film, directed by Burman, is often considered to be part of the same universe as \"Mi novia es un fantasma\" due to the presence of a character played by Melina Petriella in both films?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -344,9 +344,9 @@
   },
   {
     "question": "According to the provided documentation, what is the name of the 1997 Epitaph Records release that Billy Milano co-produced for Agnostic Front?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -428,7 +428,7 @@
   },
   {
     "question": "What was the primary reason for the Empress's decision to abandon traditional Japanese dress in favor of Western-style clothing, as stated in her 1887 memorandum?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -463,9 +463,9 @@
   },
   {
     "question": "Based on the provided documentation, what was the primary reason for McMahon's sacking from the Somerset cricket team in 1957, as described by Wisden in its obituary of him in 2002?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -484,7 +484,7 @@
   },
   {
     "question": "Analyze the genealogical relationships between Fujiwara no Nagara and his descendants, considering the information provided in Chunk0 and Chunk1. Which of the following statements is true?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -652,9 +652,9 @@
   },
   {
     "question": "According to historical records, what was the unusual burial practice of Eleanor of Aquitaine, and where were her viscera, heart, and body ultimately laid to rest?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -757,9 +757,9 @@
   },
   {
     "question": "Which of the following individuals, based on the provided documentation, is most likely to have been the father of Isabella Acheson of Gosford, given the potential error in the standard genealogy and the additional context about the Acheson family's connections to the Scottish and English nobility?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -778,9 +778,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the correct sequence of events regarding the succession of the title of Baron Willoughby of Parham after the death of John Willoughby, 9th Baron Willoughby of Parham, and how does this succession impact the title's holder, Charles Willoughby, in relation to his own family lineage and the barony's history?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -799,7 +799,7 @@
   },
   {
     "question": "Kathy Griffin's career has been marked by controversy and satire. According to her biography, which of the following statements about her career is NOT supported by the provided documentation?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -904,9 +904,9 @@
   },
   {
     "question": "Commander Casey Abbott, the skipper of the submarine USS Starfish, is ordered to undertake a mission to cut off the flow of supplies between China and Japan in the heavily mined waters off the Asiatic mainland. However, his personal and professional lives become entangled when a diver, who is Abbott's competitor for the affections of nurse Lieutenant Helen Blair, gets into a life-threatening situation. Meanwhile, the film's director is at odds with the union, and the submarine's executive officer, Lt. Commander Landon, expresses his dissatisfaction with Abbott's leadership. The USS Starfish is equipped with a state-of-the-art sonar system that uses advanced algorithms to detect and track underwater targets. However, the system's primary sensor array is located on the submarine's starboard side, which is currently occupied by a critical maintenance crew. As a result, the sonar system is temporarily disabled, and Abbott must rely on visual observations and reports from the crew to navigate the treacherous waters. What is the primary reason for Lt. Commander Landon's ill will towards Commander Abbott?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1002,7 +1002,7 @@
   },
   {
     "question": "According to the information provided, what is the name of the film that marked the Bollywood debut of various artists, including Kamal Haasan, Madhavi, and S. P. Balasubrahmanyam, and was a major box-office success, earning critical acclaim and winning several awards, including the Filmfare Award for Best Screenplay?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": null,
     "is_correct": false,
     "number_of_hops": 3
@@ -1079,7 +1079,7 @@
   },
   {
     "question": "According to the discography and filmography of Dutronc, what was the title of the album released in 1975, which was co-written with Serge Gainsbourg and Jean-Loup Dabadie?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1107,7 +1107,7 @@
   },
   {
     "question": "Based on the provided documentation, what is the name of the stillborn daughter born to Hedwig of Mecklenburg-G\u00fcstrow and Prince August of Saxe-Merseburg, and what is the name of the stillborn twin son born to Hedwig of Mecklenburg-G\u00fcstrow and Prince August of Saxe-Merseburg?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1156,9 +1156,9 @@
   },
   {
     "question": "Malengreau's organ symphonies were inspired by paintings by Rogier van der Weyden and the van Eyck brothers, but his compositions also exhibit characteristics typical of Impressionist music. What is the name of the painting by Rogier van der Weyden that is believed to have inspired Malengreau's Symphony No. 1, Op. 14, which was composed in 1919?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1191,7 +1191,7 @@
   },
   {
     "question": "According to the provided documentation, what is the name of the young conductor who helps Milo\u0161 Hrma overcome his premature ejaculation and eventually leads him to his first sexual experience, and what is Keith Baxter's role in the film Closely Watched Trains?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 3
@@ -1268,9 +1268,9 @@
   },
   {
     "question": "The Ballad of Uhlans, a 2012 Russian historical adventure film, is based on a novel by a Russian author. The film's plot revolves around a French secret agent who steals a battle plan of the Russian troops in 1812. According to the film's director, Oleg Fesenko, the story is loosely inspired by a song with the same title, which was written by a French singer-songwriter in the 1970s. This song's lyrics contain a phrase that reflects the theme of the film. Which of the following statements is true?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1310,7 +1310,7 @@
   },
   {
     "question": "Analyze the relationships between the individuals mentioned in the provided documentation to determine the correct sequence of events that led to Isabella of Clermont becoming Queen of Naples and Jerusalem.",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 3
@@ -1324,9 +1324,9 @@
   },
   {
     "question": "According to historical records, which of the following statements about Stephen's reign is most likely true, considering the complex relationships between the Holy Roman Empire, the Catholic Church, and the Kingdom of Hungary?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1387,9 +1387,9 @@
   },
   {
     "question": "Based on the provided documentation, what was the outcome of the 1955 game in which Jim Wilson muffed an eighth-inning foul pop-up by the White Sox' Jim Rivera, and how did this incident impact Wilson's career?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1534,9 +1534,9 @@
   },
   {
     "question": "Walter Augustus Barratt's early life and career in London had a significant impact on his future success in America. According to the provided documentation, what was the title of the skit that Barratt co-created with Adrian Ross, based on Sydney Grundy's The Musketeers, that starred Herbert Beerbohm Tree?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1597,9 +1597,9 @@
   },
   {
     "question": "According to Lang's filmography, what was the primary reason for the financial failure of his 1927 film Metropolis, which was a significant production that nearly destroyed UFA?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1639,9 +1639,9 @@
   },
   {
     "question": "According to the provided documentation, what was the title of the 1975 album that Dutronc co-wrote with Serge Gainsbourg, and what was the reason for the album's limited commercial success?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1667,9 +1667,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the name of the Grand Duchess of Mecklenburg-Schwerin who married Hereditary Grand Duke Frederick Louis and had two children, Paul Frederick and Marie Louise, before her untimely death in 1803?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1821,16 +1821,16 @@
   },
   {
     "question": "Kristian Leontiou's music career took a significant turn after he collaborated with Faithless on the song \"Hope & Glory\" for their album 'To All New Arrivals'. This collaboration led to the creation of the One eskimO moniker. However, prior to this, Leontiou had already gained recognition for his solo work, including his debut single \"Story of My Life\", which reached #9 in the UK Singles Chart. Considering the following information:",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
     "question": "Bartel's early career as a director was influenced by his work with Roger Corman, who offered him the chance to direct Cannonball (1976) after the success of Death Race 2000 (1975). However, Bartel had previously worked on a script with Richard Blackburn for a film called Eating Raoul (1982), which was made on a budget of $230,000. This film was a commercial success, grossing $10 million, and became a cult classic. Lenzi, on the other hand, had worked on a series of giallo films in the 1970s, including Seven Bloodstained Orchids and Knife of Ice, which were influenced by French \"film noir\" movies. However, Lenzi's filmography also includes a horror film called Nightmare City (1988), which was released under the pseudonym Humphrey Humbert. Considering the following statements:",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1912,9 +1912,9 @@
   },
   {
     "question": "Analyze the complex relationships between Charles the Bald, his family members, and the Viking leaders, considering the following information:\n\nCharles the Bald's marriage to Richardis, his attempts to legitimize his son Bernard, and the Viking invasion of Paris in 885.",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1975,9 +1975,9 @@
   },
   {
     "question": "A former lawyer, Frank Hopper, receives a credit card in the mail, believing he's hit the jackpot. He decides to finance his dream of an all-woman hockey team, but trouble ensues when Duvalier's spies from the Tonton Macoute are watching his every step. Meanwhile, a rebel group is searching for Captain Concasseur, who is tasked with inspecting the arms Jones wishes to sell to the regime. Frank Hopper's decision to finance his dream team is motivated by a desire to escape his troubled past, but he also hopes to use the team as a front to launder money for the rebels. However, the rebels have a different plan for the team, and they will stop at nothing to achieve their goal. The team's first game is scheduled to take place in Miami, but the rebels have other plans for the city. As Frank Hopper navigates the complex web of alliances and rivalries, he must also contend with the Tonton Macoute and their sinister plans.",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2087,9 +2087,9 @@
   },
   {
     "question": "Archibald Acheson, 3rd Earl of Gosford, was a British peer and Member of Parliament. According to the provided documentation, he was educated at Harrow School and matriculated at Christ Church, Oxford in 1825. However, the passage also mentions that he was born in 1806 and succeeded his father to the earldom in 1849. Which of the following statements is TRUE regarding Archibald Acheson, 3rd Earl of Gosford?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2108,9 +2108,9 @@
   },
   {
     "question": "According to the provided documentation, what is the significance of the name \"Sargon\" in the context of the Akkadian Empire, and how does it relate to the Neo-Assyrian king Sargon II?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2136,7 +2136,7 @@
   },
   {
     "question": "The 17th Marquess of Winchester, Richard Charles Paulet, inherited the title from his father, Henry Paulet, 16th Marquess of Winchester, in 1962. However, his cousin Nigel Paulet, 18th Marquess of Winchester, was the next in line to inherit the title. What is the reason for the title being passed to Nigel Paulet, 18th Marquess of Winchester, instead of Richard Charles Paulet, 17th Marquess of Winchester?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -2206,9 +2206,9 @@
   },
   {
     "question": "The city of Schleusingen, located in what is now the German state of Thuringia, was a significant spa town in the 18th century. Its development as a spa was largely due to the efforts of its duchess, who was a member of the House of Mecklenburg-G\u00fcstrow. This duchess had a close relationship with the Landgraviate family in Hesse, and her descendants played a crucial role in the region's history. However, the duchess's personal life was marked by tragedy, including the death of her first child and her husband. She eventually married Duke Maurice William of Saxe-Zeitz, a member of the House of Wettin, and had several children with him. One of her sons went on to become a prominent figure in the history of the Duchy of Saxe-Meiningen. What is the name of the duke who succeeded his uncle, Bernhard III, as the last reigning duke of Saxe-Meiningen?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2367,14 +2367,14 @@
   },
   {
     "question": "The film \"August Underground\" was initially intended to be a \"big-budget zombie film\", but its director, Fred Vogel, decided to make a different film to gain awareness of his work and potential financing. This decision was influenced by Vogel's frustration with the serial killer genre, which he felt didn't show the true nature of the characters. According to an interview with Gregory S. Burkart, Vogel's film was praised for its \"ugly\" and realistic portrayal of violence, but criticized for its graphic content. However, the film's reception was not universally positive, with some critics praising its performances and realism, while others found it disturbing and nihilistic.\n\nWhich of the following statements about the film \"August Underground\" is most consistent with the information provided in the passage?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
     "question": "The National Gallery of Australia (NGA) under Kennedy's directorship faced criticism for its handling of the \"Sensation\" exhibition in 2000. What was the primary reason Kennedy cited for cancelling the exhibition, according to his statement, and how did this decision align with his broader goals for the NGA's art education efforts?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 5
@@ -2416,9 +2416,9 @@
   },
   {
     "question": "The Marquess of Winchester's decision to garrison Basing House during the English Civil War was influenced by his loyalty to the King, but also by his desire to protect his family's fortune. However, his efforts to defend the house ultimately led to its capture by Oliver Cromwell's forces. What was the primary motivation behind the Marquess's decision to garrison Basing House, and how did this decision impact his family's financial situation?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2437,7 +2437,7 @@
   },
   {
     "question": "A wealthy businessman, De Koster, is accused of embezzlement and is being investigated by a French police inspector, Lucas. Meanwhile, a young woman, Catherine Valmont, has returned from the dead and needs human blood to survive. She is found by Barbara, who takes photos of her, but her boyfriend, Greg, is skeptical. As Catherine wanders the Valmont Mansion, memories of her childhood come back to her, especially her childhood friend, H\u00e9l\u00e8ne. H\u00e9l\u00e8ne eventually discovers Catherine's true state and tries to help her adjust to her new reality. However, De Koster's reputation is on the line, and he will stop at nothing to clear his name. De Koster's firm has a history of questionable business practices, and Lucas suspects that they may be involved in a larger conspiracy. Meanwhile, Sonia, a woman struggling with her own personal demons, becomes embroiled in the investigation when she discovers a cryptic message that suggests De Koster's innocence. She teams up with Sender, a jewelry designer, who has a personal vendetta against De Koster. As the investigation unfolds, Catherine's need for human blood becomes more pressing, and she begins to target those close to De Koster. But can she be trusted, or is she just a pawn in a larger game?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
@@ -2563,16 +2563,16 @@
   },
   {
     "question": "Analyze the historical context of the Hashim clan's role in the custodianship of the Kaaba, and determine the correct sequence of events:",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
     "question": "The river Cri\u0219ul Alb has several tributaries, including the Gepi\u0219, Valea Satului, Chisindia, Potoc, Bode\u0219ti, and Gut. Which of the following statements is true about the relationship between the Gepi\u0219 and the Canalul Morilor?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2626,9 +2626,9 @@
   },
   {
     "question": "Philip William, Margrave of Brandenburg-Schwedt, was the first owner of the Prussian secundogeniture of Brandenburg-Schwedt. His mother, Princess Sophia Dorothea of Schleswig-Holstein-Sonderburg-Gl\u00fccksburg, ensured the financial security of her sons by purchasing land. Which of the following statements about Philip William's inheritance is CORRECT?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -2738,7 +2738,7 @@
   },
   {
     "question": "Marie-Ad\u00e9la\u00efde's marriage to Louis Philippe Joseph d'Orl\u00e9ans, Duke of Chartres, was initially intended to strengthen the Orl\u00e9ans branch of the royal family, but it ultimately led to a rift between the couple. What was the primary reason for the rift, according to historical accounts, and how did it impact the Orl\u00e9ans family's relationship with the French monarchy?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4
@@ -2759,9 +2759,9 @@
   },
   {
     "question": "Bonnie Tyler's music career can be divided into distinct periods, with her early success being largely due to her work with Ronnie Scott and Steve Wolfe. However, after her 1978 single \"It's a Heartache\", Tyler's success began to decline, except in Scandinavian countries. What is the name of the album that Bonnie Tyler released in 1979, which was a hit in Norway and Sweden, but only charted on the Billboard 200 at number 145?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -2801,7 +2801,7 @@
   },
   {
     "question": "Alejandro Doria's filmography reveals a career spanning multiple genres, including drama, thriller, and comedy. However, his work often explores the complexities of Argentine society, particularly during times of political turmoil. Considering the following information:\n\nChunk0: Doria's film \"Sof\u00eda\" (1987) dealt with a chance encounter and a May\u2013December love affair amid the oppressive Dirty War against dissidents. His film \"I Don't Owe 100 Times\" (1990) is a comedy of errors revolving around bad news for a neurotic, middle-class family. In contrast, Doria's television work, such as the sitcom \"Bo' Selecta!\" (2002\u201306), often pokes fun at British culture.\n\nChunk1: Alejandro Doria was born in Buenos Aires in 1936 and began his career in Argentine television in 1965. He directed several series, including \"Nuestra galleguita\" (Our Galician Girl), and worked with notable screenwriters like A\u00edda Bortnik. Doria's film \"The Hands\" (2006) is a bio-pic on the life of Father Mario Pantaleo, an Argentine priest who incurred the Vatican's wrath following reports he possessed healing hands.\n\nChunk2: The French film \"Le Tigre aime la chair fra\u00eeche\" (1964) is a precursor to Doria's work, featuring a spy named Louis Rapi\u00e8re, code named \"The Tiger\". This character appears in the 1965 film \"Le tigre se parfume \u00e0 la dynamite\" (Our Agent Tiger), which was directed by Claude Chabrol.\n\nChunk3: Alejandro Doria's collaboration with Uruguayan screenwriter Jacobo Langsner resulted in a critical and commercial success, \"Darse cuenta\" (Realization), in 1984. This drama was a nostalgic, autobiographical look at Silvina Bullrich's happy and all-too-brief second marriage.\n\nChunk4: The Argentine film industry experienced a revival in the 1980s, following the return of democracy in 1983. Doria's film \"Sof\u00eda\" (1987) dealt with a chance encounter and a May\u2013December love affair amid the oppressive Dirty War against dissidents, but received little notice.\n\nChunk5: Alejandro Doria's television work, such as the sitcom \"Bo' Selecta!\" (2002\u201306), often pokes fun at British culture. His reputation as a leading filmmaker in Argentine cinema was restored with the 2006 release of \"Las manos\" (The Hands), a bio-pic on the life of Father Mario Pantaleo.",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -2885,7 +2885,7 @@
   },
   {
     "question": "Given the following information, determine the correct sequence of events:",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -3018,7 +3018,7 @@
   },
   {
     "question": "The 1935 film \"Dr. Socrates\" was a remake of which 1914 film, which was based on a short story by W. R. Burnett, and was later remade again in 1965 as \"Space Monster\", a low-budget science fiction/action/drama film. According to the filmography of Lynn Reynolds, a director and screenwriter, Reynolds directed more than 80 films between 1915 and 1928, including the 1914 film \"Taking his Chance\". However, the 1935 film \"Dr. Socrates\" was not directed by Reynolds, but rather by Lewis Seiler. Which film was directed by Reynolds?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4
@@ -3130,7 +3130,7 @@
   },
   {
     "question": "Ambassador Fernandez de Soto's diplomatic career spans multiple continents and organizations. What is the name of the organization he served as Secretary General Emeritus of, which he previously led as Secretary-General for three terms, and which is also the world's oldest international civil society development organisation?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4
@@ -3221,9 +3221,9 @@
   },
   {
     "question": "The film industry has a long history of experimenting with unconventional storytelling methods. According to Vincent Canby's review of Querelle, the film's director, Rainer Werner Fassbinder, aimed to create a \"perfect epitaph\" for Jean Genet's work. However, Variety described the film as \"plodding, low-key, and eventually tedious\". Considering the following statements:",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -3235,16 +3235,16 @@
   },
   {
     "question": "Considering the historical context of the Berkeley family's titles and residences, and the marriages and relationships between the various members of the family, what is the correct sequence of events regarding the ownership of Berkeley Castle?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
     "question": "Analyze the career paths of Brian Kennedy, Olav Aaraas, and Peter Levin, considering their roles as museum directors and their involvement with the Association of Art Museum Directors. How do their professional experiences and affiliations demonstrate their expertise and commitment to the field of art museum direction?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -3277,7 +3277,7 @@
   },
   {
     "question": "The following individuals are related to each other through marriage and nobility titles. Which of the following statements is true?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -3319,9 +3319,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the name of the film that Dana Blankstein directed and shot the making-of film for, which is also mentioned as one of her early works, and what is the name of the film that Peter Levin directed, which is mentioned in the context of Dana Blankstein's career as a director of film, television, and theatre?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {

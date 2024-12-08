@@ -512,7 +512,7 @@
   },
   {
     "question": "The U.S. Navy's approach to the Spratly Islands is based on the principle of exercising full, lawful measure of high seas freedoms. However, China's recent assertion of sovereignty over the Four Sha island groups through several legal claims challenges this approach. According to the 1992 Chinese law on the territorial sea and contiguous zone, which island group is explicitly mentioned as part of China's land territory, and how does this mention impact the U.S. Navy's approach to the Spratly Islands?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -575,9 +575,9 @@
   },
   {
     "question": "The Bonneville Power Administration (BPA) operates in a distinct geographic area, but what is the primary reason for its self-financing, allowing it to cover its operating costs through power rates, rather than relying on federal appropriations?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -1233,7 +1233,7 @@
   },
   {
     "question": "The SBA's 7(a) loan guaranty program experienced a significant increase in loan approvals in FY2010 and FY2011, primarily due to the temporary reduction of loan fees and the increase in the loan guaranty percentage to 90% for all standard 7(a) loans. However, the program's unpaid principal balance at the end of FY2018 was approximately 7.7% of the estimated $1.2 trillion small business credit market. What is the primary reason for the discrepancy between the program's unpaid principal balance and the estimated small business credit market size?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -1338,9 +1338,9 @@
   },
   {
     "question": "According to the report, what specific factor within the Northeast region of the United States is most closely associated with a higher likelihood of school districts testing for lead in school drinking water, despite the region's overall lower percentage of housing units built before 1980?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -1548,9 +1548,9 @@
   },
   {
     "question": "The Administration requested $90.6 million for the Enforcement and Compliance unit in FY2019, which represented a 3.6% increase from the FY2018-enacted amount. However, the House Appropriations Committee proposed $85.5 million, which was $2.1 million less (-2.3%) than the Administration's request. The Senate Committee on Appropriations recommended $91.5 million, which was $0.9 million more than the Administration's request. Considering the following information, which of the following statements is true?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -1723,9 +1723,9 @@
   },
   {
     "question": "According to DOD Instruction 1100.22, what is the primary purpose of determining the appropriate workforce mix of military, civilian, and contracted services, as outlined in the policy and procedures for workforce mix determination?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -1765,7 +1765,7 @@
   },
   {
     "question": "A federal agency is conducting a strategic review to assess its progress toward achieving a specific objective. The review process involves analyzing data from various sources, including program evaluations, performance measures, and regulatory reviews. However, the agency is concerned that its current approach may not be effective in addressing the complex challenges it faces.",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4
@@ -2087,7 +2087,7 @@
   },
   {
     "question": "According to the testimony, what is the correct contact information for GAO staff who made key contributions to the first statement, and how does it differ from the contact information provided for the second statement?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -2486,9 +2486,9 @@
   },
   {
     "question": "A government agency is considering a contract for the development of a new defense system. The contract includes a warranty that covers repairs and maintenance for a period of five years. However, the agency is concerned that the warranty may increase the overall cost of the system, as it will require additional funding for the warranty administration and potential repairs. On the other hand, the agency believes that the warranty will provide greater peace of mind and reduce the risk of costly repairs down the line.",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -2990,9 +2990,9 @@
   },
   {
     "question": "A consumer reports agency (CRA) has collected information on a consumer's credit history and has furnished this information to a lender. The CRA has a reasonable basis to believe that the consumer's credit report contains inaccurate information. However, the lender has used the information to deny the consumer's loan application. The consumer disputes the accuracy of the information and requests that the CRA and the lender reinvestigate the accuracy of the contested information. The CRA and the lender must comply with the Fair Credit Reporting Act (FCRA) and the Health Insurance Portability and Accountability Act (HIPAA). Which of the following statements is true?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -3130,9 +3130,9 @@
   },
   {
     "question": "A Representative seeks to introduce a bill that would reduce the annual appropriation for the Department of Education by $100 million, citing the need to address rising student loan debt. However, the bill also includes a provision that would allow the Secretary of Education to terminate employment of federal employees in the department without a formal reduction in total appropriations. According to the Holman rule, which of the following is a necessary condition for the bill to be in order?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -3193,7 +3193,7 @@
   },
   {
     "question": "A government agency is considering implementing a new performance management system to improve the use of performance information among its managers. The agency has identified several practices that can enhance the use of performance information, including demonstrating management commitment, communicating performance information frequently and efficiently, and developing the capacity to use performance information. However, a recent survey of federal managers suggests that these practices are not being effectively adopted. Which of the following is a potential challenge that the agency may face in implementing the new performance management system?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
@@ -3389,9 +3389,9 @@
   },
   {
     "question": "Given the information provided in the documents, which country among Syria, Somalia, Haiti, and Kenya is most vulnerable to money laundering due to its ranking on the Organisation for Economic Co-operation and Development's (OECD) Fragile State Index and its inclusion on multiple financial-risk-related indices, considering the specific indices used to evaluate the countries and the level of humanitarian assistance they received from U.S. agencies?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -3718,7 +3718,7 @@
   },
   {
     "question": "According to the report, what is the maximum amount of financial assistance that the U.S. Department of Agriculture may provide to farmers who have suffered losses due to the 2019-2020 drought, and how does this amount compare to the maximum amount of financial assistance provided by the U.S. Department of Commerce for information leading to a conviction in wildlife trafficking cases?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 5
@@ -4012,7 +4012,7 @@
   },
   {
     "question": "What is the primary reason for the discrepancy between the Trump Administration's FY2019 budget request for DHS and the enacted FY2019 appropriations, considering the Bipartisan Budget Act of 2018 and the Consolidated Appropriations Act of 2017?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3

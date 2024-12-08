@@ -57,9 +57,9 @@
   },
   {
     "question": "According to the provided documentation, what is the title of the song that Elvis Presley recorded for the soundtrack of \"The Trouble with Girls\" in 1969, which was originally written by the Supremes in 1964?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -127,7 +127,7 @@
   },
   {
     "question": "Based on the provided documentation, what can be inferred about the relationship between H. H. Hunnewell and John Vernou Bouvier III, considering that Hunnewell was a director of 12 railroads and numerous mining, real estate, and other ventures, and Bouvier III was a successful attorney and investor on Wall Street?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -351,9 +351,9 @@
   },
   {
     "question": "A lump of coal, seeking to become an artist, visits a Korean restaurant to find inspiration. Upon entering, the owner, Mr. Wong, informs the coal that his restaurant serves authentic Korean cuisine, but the coal notices that the spices and ingredients used are not of Korean origin. The coal then encounters a man dressed as Santa Claus, who suggests that the coal put its artistic talents to use by creating portraits in coal. This leads to the coal and the man's son, Jasper, opening a successful art gallery and restaurant in Korea. However, the coal soon discovers that the energy value of coal, as calculated by its chemical composition, is not directly related to its artistic potential. What is the primary difference between the proximate analysis of coal and its ultimate analysis?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -393,7 +393,7 @@
   },
   {
     "question": "A wealthy lawyer, Ann Carver, and her husband, Bill Graham, struggle with the strain of their vastly different career successes. Ann's financial success leads to a significant increase in her husband's expenses, causing tension in their marriage. Meanwhile, a former Harvard professor, Gregory Vance, is introduced as a drunkard who cares for his children and teaches them Latin. However, his children's teacher, Agnes Billow, discovers his past and the two form a connection. Which of the following statements best describes the common thread among these characters?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -470,9 +470,9 @@
   },
   {
     "question": "At the Battle of the Black Mountain in 1794, Courten's troops were defeated by Pierre Augereau's French division, leading to their withdrawal. However, the Spanish army's defeat was not solely due to Courten's leadership. The Preux Swiss Regiment Nr. 6, which was stationed at Madrid, had previously been part of the Spanish army. Considering the historical context, what was the primary reason for the Preux Swiss Regiment Nr. 6's involvement with the Spanish army, and how does this relate to the events at the Battle of the Black Mountain?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -519,9 +519,9 @@
   },
   {
     "question": "The film director David Wexler's production company, Cinema 59, collaborated with a toy and game company to create a 360-degree entertainment experience. What is the name of the game that was nominated for the Toy Of The Year Award in 2021, and what is the name of the film that was an official selection of the 2020 Tribeca Film Festival, both of which were created by Wexler?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -911,9 +911,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason for Dalida's decision to have an abortion, as revealed in the film's narrative?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -981,16 +981,16 @@
   },
   {
     "question": "Analyze the historical context of the time period and the specific reforms Ludwig von Westphalen was advocating for, considering his opposition to the French dominance of the local government and other policies, and how these factors influenced his decision to enter the service of the Duchy of Brunswick and Lunenburg (Wolfenb\u00fcttel) in 1804.",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 3
   },
   {
     "question": "According to historical records, which of the following individuals was NOT a child of Agnes of Aquitaine and her first husband Frederick, Duke of Swabia?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1009,9 +1009,9 @@
   },
   {
     "question": "Margaret of France's marriage to Edward I led to a complex web of relationships and power dynamics. Analyze the following events and their implications:",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1198,9 +1198,9 @@
   },
   {
     "question": "According to the biblical account, what is the significance of Elizabeth's pregnancy, as described by the angel Gabriel, in relation to her relative Mary, who is also pregnant with Jesus?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1233,7 +1233,7 @@
   },
   {
     "question": "According to the provided documentation, what is the connection between Eugenio Alabiso's film editing work and Jacques D\u00e9combe's career as a director, considering that Eugenio Alabiso edited the 1967 film \"Face to Face\" directed by Sergio Sollima, and Jacques D\u00e9combe directed a show by Charlotte de Turckheim, who was also involved in the production of \"Face to Face\"?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 3
@@ -1275,7 +1275,7 @@
   },
   {
     "question": "Analyze the historical context of the relationships between Yuya, Thuya, and their descendants, as well as the roles of Hafsa Hatun and Artaynte, to determine the most plausible explanation for the connections between the Ottoman Empire and ancient Egypt during the 14th century.",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 3
@@ -1422,9 +1422,9 @@
   },
   {
     "question": "According to the provided documentation, what is the significance of Uthman ibn Sa'id's role in the underground network of representatives, and how does it relate to the Abbasid caliphate's efforts to suppress the Shia elite?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1485,9 +1485,9 @@
   },
   {
     "question": "Analyze the health patterns and medical interventions of Eleanor of Castile and Feodora, the wife of Henry, to identify a potential cause of their chronic illnesses. Consider the following information:\n\nChunk0: Eleanor of Castile suffered from a fever pattern suggesting malaria, which led to enlarged liver and spleen, and potentially fatal complications. She died in 1290 at the age of 49.\n\nChunk1: Feodora, the wife of Henry, suffered from chronic illnesses, including dizziness, insomnia, nausea, and various pains, which were attributed to malaria by Feodora. However, her mother, Charlotte, suspected that Henry had given her a venereal disease, which Feodora denied.",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1499,9 +1499,9 @@
   },
   {
     "question": "Analyze the historical context of the Bourbon dynasty's involvement in the Hundred Years' War and its impact on the family's relationships with other noble families, such as the Guise and the Duke of Burgundy.",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2227,9 +2227,9 @@
   },
   {
     "question": "According to the provided documentation, what is the name of Inna's sixth studio album, released in May 2019, which features songs written solely in Spanish and marks a departure from her previous work?",
-    "model_answer": "A",
+    "model_answer": "Y",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2262,9 +2262,9 @@
   },
   {
     "question": "Analyze the relationships between the individuals mentioned in the provided documentation to determine the correct sequence of events that led to Princess Feodora's marriage to Prince Heinrich XXX Reuss of K\u00f6stritz.",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2339,9 +2339,9 @@
   },
   {
     "question": "Analyze the complex relationships between the Carolingian dynasty, the Viking leaders, and the Frankish nobility during the 9th century, considering the intricate dynamics between the Carolingian kings, the Viking raids, and the Frankish nobility's responses. Synthesize information from all relevant chunks to address the following questions:\n\n1. How did the Carolingian kings, particularly Lothair II and Charles the Bald, navigate the complex web of alliances and rivalries with the Viking leaders, and what were the consequences of their decisions?\n2. What role did the Frankish nobility play in responding to the Viking raids, and how did their actions impact the relationships between the Carolingian dynasty and the Viking leaders?\n3. How did the Viking leader Godfrid's conversion to Christianity affect the dynamics between the Viking leaders and the Frankish nobility, and what were the implications for the Carolingian dynasty?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2465,9 +2465,9 @@
   },
   {
     "question": "Based on the information provided, which of the following individuals is NOT a Pakistani civil rights activist and lawyer?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2605,9 +2605,9 @@
   },
   {
     "question": "Which of the following individuals was the maternal grandfather of Margaret Beaufort, Countess of Stafford, based on the provided documentation?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2801,9 +2801,9 @@
   },
   {
     "question": "Alejandro Doria's filmography reveals a career spanning multiple genres, including drama, thriller, and comedy. However, his work often explores the complexities of Argentine society, particularly during times of political turmoil. Considering the following information:\n\nChunk0: Doria's film \"Sof\u00eda\" (1987) dealt with a chance encounter and a May\u2013December love affair amid the oppressive Dirty War against dissidents. His film \"I Don't Owe 100 Times\" (1990) is a comedy of errors revolving around bad news for a neurotic, middle-class family. In contrast, Doria's television work, such as the sitcom \"Bo' Selecta!\" (2002\u201306), often pokes fun at British culture.\n\nChunk1: Alejandro Doria was born in Buenos Aires in 1936 and began his career in Argentine television in 1965. He directed several series, including \"Nuestra galleguita\" (Our Galician Girl), and worked with notable screenwriters like A\u00edda Bortnik. Doria's film \"The Hands\" (2006) is a bio-pic on the life of Father Mario Pantaleo, an Argentine priest who incurred the Vatican's wrath following reports he possessed healing hands.\n\nChunk2: The French film \"Le Tigre aime la chair fra\u00eeche\" (1964) is a precursor to Doria's work, featuring a spy named Louis Rapi\u00e8re, code named \"The Tiger\". This character appears in the 1965 film \"Le tigre se parfume \u00e0 la dynamite\" (Our Agent Tiger), which was directed by Claude Chabrol.\n\nChunk3: Alejandro Doria's collaboration with Uruguayan screenwriter Jacobo Langsner resulted in a critical and commercial success, \"Darse cuenta\" (Realization), in 1984. This drama was a nostalgic, autobiographical look at Silvina Bullrich's happy and all-too-brief second marriage.\n\nChunk4: The Argentine film industry experienced a revival in the 1980s, following the return of democracy in 1983. Doria's film \"Sof\u00eda\" (1987) dealt with a chance encounter and a May\u2013December love affair amid the oppressive Dirty War against dissidents, but received little notice.\n\nChunk5: Alejandro Doria's television work, such as the sitcom \"Bo' Selecta!\" (2002\u201306), often pokes fun at British culture. His reputation as a leading filmmaker in Argentine cinema was restored with the 2006 release of \"Las manos\" (The Hands), a bio-pic on the life of Father Mario Pantaleo.",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -2885,9 +2885,9 @@
   },
   {
     "question": "Given the following information, determine the correct sequence of events:",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -2934,7 +2934,7 @@
   },
   {
     "question": "Vittorio Cottafavi's filmography, which includes 70 films between 1943 and 1985, does not provide any direct information about the documentary \"Blossoms of Fire\" (2000), directed by Maureen Gosling and Ellen Osborne. However, considering the fact that Vittorio Cottafavi's film \"Il diavolo sulle colline\" was screened in the Un Certain Regard section at the 1985 Cannes Film Festival, and given the historical context of the 1980s film industry, what can be inferred about the potential connections between Vittorio Cottafavi's filmography and the documentary \"Blossoms of Fire\"?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 4
@@ -3053,7 +3053,7 @@
   },
   {
     "question": "Bonnie Tyler's music career experienced a resurgence in the late 1970s, with her 1978 album \"The World Starts Tonight\" reaching number 2 in Sweden. However, her subsequent album \"Diamond Cut\" (1979) was met with mixed reviews, with some critics praising her vocals but criticizing the material. In 1981, Tyler released her album \"Goodbye to the Island\", which featured the song \"(The World Is Full of) Married Men\", used as the theme song for the film of the same name. According to various sources, Tyler's performance in the film was notable for her ability to convey the emotional depth of the song. Which of the following statements accurately describes Bonnie Tyler's career trajectory after the release of \"Goodbye to the Island\"?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 4
@@ -3193,7 +3193,7 @@
   },
   {
     "question": "According to the provided documentation, what is the connection between James P. Wade, Jr. and Harlan K. Ullman, as described in the 1996 monograph \"Shock and Awe: Achieving Rapid Dominance\"?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4

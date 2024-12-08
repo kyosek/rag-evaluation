@@ -316,9 +316,9 @@
   },
   {
     "question": "According to the text, what is the primary advantage of the proposed compositional method over other communication grounding methods in multi-agent reinforcement learning (MARL), as demonstrated by the results on the Pascal VOC game?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -750,9 +750,9 @@
   },
   {
     "question": "Analyze the implications of the Supreme Court's decision in Hamdi v. Rumsfeld (2004) on the balance of power between the President, Congress, and the Court in the context of the War on Terror, considering the role of executive privilege and secrecy in shaping the relationship among the branches of government.",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -1261,7 +1261,7 @@
   },
   {
     "question": "Consider a continuous $XY$ model with $N$ interacting spins, where each spin is represented by a phase $\\phi_k$ in the interval $[0, 2\\pi)$. The model is described by the Hamiltonian $\\mathcal{H} = -\\frac{1}{2} \\sum_{nm} J_{nm} e^{-i(\\phi_n - \\phi_m)} + \\text{c.c.}$, where $J_{nm}$ are the coupling constants. In a recent study, it was found that the thermodynamic critical properties of the $p \\to \\infty$ $XY$ limit are recovered for a limited number of discrete phase values ($p \\sim 16, 32$). However, the authors also noted that the pairwise $XY$ model can be approximated by a scalar model using the intensities of the outgoing and incoming fields, represented by the $4$-dimensional Stokes vector. If the intensities are uniform in input and output, the matrix $\\mathbb{J}$ remains diagonal, but if they are quenched, the matrix becomes inhomogeneous with respect to phases. Which of the following statements is true?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 3
@@ -1289,7 +1289,7 @@
   },
   {
     "question": "The Quectel_QuecPython_BC25 development board uses a combination of TYPE-C and TYPE-A protocols for fast charging. What is the primary advantage of using the FS116D series protocol, which is designed for TYPE-C fast charging, in conjunction with the FS112 series protocol, which is designed for TYPE-A fast charging?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1457,9 +1457,9 @@
   },
   {
     "question": "The authors of the study on the hypercompact H{\\sc ii} region IRAS\\,18089-1732 suggest that C$_2$H is a suitable tracer of the earliest stages of massive star formation. However, they also note that C$_2$H is consumed in the chemical network forming CO and more complex molecules. Which of the following conclusions can be drawn from this information?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1772,9 +1772,9 @@
   },
   {
     "question": "A company is considering two different manufacturing processes for producing a new product. Process A involves a single machine that can produce 100 units per hour, while Process B requires two machines, one for each half of the production process, and can produce 120 units per hour. However, Process B has a higher upfront cost of $10,000, while Process A has a lower upfront cost of $5,000. The company's goal is to minimize production time while maximizing profit. If the production time for Process A is 2 hours and for Process B is 1.5 hours, and the profit per unit for Process A is $10 and for Process B is $12, but the company also needs to consider the environmental impact of each process, with Process A emitting 500 kg of CO2 per hour and Process B emitting 300 kg of CO2 per hour. The company's target is to reduce its carbon footprint by 20% while maintaining profit margins. If the current market price of carbon credits is $50 per ton, what is the most profitable manufacturing process for the company, considering both profit and environmental impact?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1863,9 +1863,9 @@
   },
   {
     "question": "The growing influence of corporations in the global economy has led to a shift in the balance of power, with some arguing that the faith in strong governments to deliver a better life has been shattered. According to Peter Denning, the collapse of Communism in Eastern Europe and the Soviet Union, as well as the rapid advancement of information technology, have accelerated this process. However, others, like Mara Liasson, suggest that the classification of cable television as a common carrier open to all information suppliers could have led to a more equitable distribution of resources and a more democratic society. What are the implications of this shift in power dynamics, and how might the role of corporations in the distribution of power be addressed to promote a more just and equitable society?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1912,9 +1912,9 @@
   },
   {
     "question": "A 75-year-old individual is wearing a wrist-worn ACC sensor to monitor their hand gestures and postural activities. The sensor data is fed into an HDBN model, which is then combined with ambient sensor readings to recognize complex activities. However, the model's performance is affected by the diversity of postures, such as walking normally, using a walker, or a wheelchair. Which of the following approaches would be most effective in improving the model's performance in recognizing complex activities for this individual?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2465,9 +2465,9 @@
   },
   {
     "question": "A researcher is investigating the use of electrospun nanofibers as a scaffold for tissue engineering, with a focus on the mechanical properties of single electrospun drug-encapsulated nanofibers. The study found that the mechanical properties of the nanofibers were significantly affected by the type of polymer used in their production, and that the incorporation of nanoparticles into the nanofibers can enhance their mechanical properties. However, the use of nanoparticles also raises concerns about potential toxicity and the need for careful consideration of the polymer composition and its effects on the scaffold's mechanical properties. What are the potential benefits and risks of using nanoparticles in tissue engineering, and how can the researcher mitigate these risks to create a scaffold with optimal mechanical properties?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2815,9 +2815,9 @@
   },
   {
     "question": "A new acceleration technique, called Nonlinear Fokker-Planck Acceleration (NFPA), has been developed to solve the transport equation in homogeneous slab geometry. NFPA accelerates up to $N$ moments of the angular flux and has shown significant improvement in convergence rate compared to existing methods. However, NFPA requires a modified Fokker-Planck equation that preserves the angular moments of the flux given by the transport equation. Which of the following statements about NFPA is NOT true?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2864,9 +2864,9 @@
   },
   {
     "question": "According to Wirtz et al. and Yrj\u00f6l\u00e4 et al., what is the primary characteristic of the connection-related business model in the 4C ICT business model archetypes, and how does it differ from the content-related business model in terms of scalability and reliability?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -2941,9 +2941,9 @@
   },
   {
     "question": "In the context of drift-fluid models, what is the significance of the term $\\nabla \\cdot\\left( n(\\vec u_\\psi + \\vec u_d + \\vec u_g) \\right)$ in the equation $\\frac{\\partial \\rho}{\\partial t} + \\nabla\\cdot\\left( \\rho\\vec u_E \\right) + \\nabla \\cdot\\left( n(\\vec u_\\psi + \\vec u_d + \\vec u_g) \\right) = 0$, where $\\vec u_\\psi$, $\\vec u_d$, and $\\vec u_g$ represent the poloidal, diamagnetic, and gravitational drift velocities, respectively?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -3067,7 +3067,7 @@
   },
   {
     "question": "Based on the information provided, which player is most likely to benefit from a productive senior season in college, and why?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -3711,7 +3711,7 @@
   },
   {
     "question": "A Quectel device with a 20W output is used to charge a device with a 5V, 2.4A requirement. The device has a built-in Emarker for temperature control. What is the maximum power consumption of the device when the Quectel device is used to charge it, and the Emarker is set to 5V?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4

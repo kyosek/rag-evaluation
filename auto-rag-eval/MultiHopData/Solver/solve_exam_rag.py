@@ -227,8 +227,9 @@ if __name__ == "__main__":
     # Configuration
     model_type = "cpp"
     task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    task_domains = ["hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    retriever_types = ["Dense", "Sparse", "Hybrid", "Rerank"]
+    # task_domains = ["hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    # retriever_types = ["Dense", "Sparse", "Hybrid", "Rerank"]
+    retriever_types = ["Hybrid", "Rerank"]
     # retriever_types = ["Rerank"]
     model_names = [
         'llama_3_1_8b',
@@ -239,7 +240,7 @@ if __name__ == "__main__":
         # "llama_3_2_3b_single_hop_exam_processed.json",
         # "gemma2_9b_single_hop_exam_processed.json",
         # "ministral_8b_single_hop_exam_processed.json",
-        # "exam_new_llama_3_2_3b_processed_v2.json",
+        "exam_new_llama_3_2_3b_processed_v2.json",
         "exam_new_gemma2_9b_processed_v2.json",
         "exam_new_ministral_8b_processed_v2.json",
     ]
