@@ -8,7 +8,7 @@
   },
   {
     "question": "A)  Emperor Y\u014dzei",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -29,7 +29,7 @@
   },
   {
     "question": "Which individual's career trajectory demonstrates a transition from a role focused on security and law enforcement to a position of artistic leadership?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -127,7 +127,7 @@
   },
   {
     "question": "Based on the provided biographical information, during which year did the artist transition from primarily self-releasing music to signing with a record label?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -148,9 +148,9 @@
   },
   {
     "question": "Based on the provided biographical information, which individual experienced a career setback due to a business venture failure?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -162,14 +162,14 @@
   },
   {
     "question": "Which filmmaker's work explores themes of cultural contradiction and societal inequality within the context of a journey back to one's ancestral homeland?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
     "question": "What ultimately led to the division of Charibert's realm after his death?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -302,9 +302,9 @@
   },
   {
     "question": "What musical collaboration occurred in 2001 that reunited two musicians who had previously played together in a band that disbanded in 1997?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -365,9 +365,9 @@
   },
   {
     "question": "Which character experiences a significant shift in their professional status due to a combination of external factors and personal choices, ultimately leading to a decline in their well-being?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -575,9 +575,9 @@
   },
   {
     "question": "Which individual's life experiences directly influenced their filmmaking career by inspiring them to address social issues related to gender inequality and the treatment of marginalized groups?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -694,9 +694,9 @@
   },
   {
     "question": "In the context of the provided documentation, what specific external factor led to production delays during the filming of \"Carry On Matron\"?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -736,9 +736,9 @@
   },
   {
     "question": "Which of Rohmer's films, despite initial mixed reception, ultimately achieved significant international acclaim and critical recognition, solidifying its place as a pivotal work in his filmography?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -757,7 +757,7 @@
   },
   {
     "question": "What ultimately prevented Gille Brigte from securing a favorable agreement with King Henry II?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -981,9 +981,9 @@
   },
   {
     "question": "What ultimately motivates Marcia to shoot Peter at Crystal Lake?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {

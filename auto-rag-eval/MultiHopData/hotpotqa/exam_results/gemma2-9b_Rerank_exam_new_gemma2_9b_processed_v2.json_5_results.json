@@ -99,9 +99,9 @@
   },
   {
     "question": "Based on the provided information, what is the most significant demographic difference between the residents of Sand Lake, Michigan, and the CDP described in Chunk 0?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -281,7 +281,7 @@
   },
   {
     "question": "Based on the provided information, which individual faced a medical emergency requiring evacuation from the island during the first season of \"The Island\"?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -456,7 +456,7 @@
   },
   {
     "question": "Based on the provided information, what is the ultimate disposition of the estate after the death of all involved parties?",
-    "model_answer": ".",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 2
@@ -750,9 +750,9 @@
   },
   {
     "question": "What event led to a shift in public perception of Hawaii's racial diversity and prompted a reassessment of the territory's racial dynamics?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {

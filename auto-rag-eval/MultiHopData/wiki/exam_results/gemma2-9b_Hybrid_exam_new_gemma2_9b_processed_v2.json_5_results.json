@@ -8,7 +8,7 @@
   },
   {
     "question": "A)  Emperor Y\u014dzei",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -22,14 +22,14 @@
   },
   {
     "question": "A)  His desire to focus on his artistic pursuits, including composing and translating.",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "Which individual's career trajectory demonstrates a transition from a role focused on security and law enforcement to a position of artistic leadership?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -64,9 +64,9 @@
   },
   {
     "question": "Which individual's career trajectory demonstrates a clear transition from a role primarily focused on acting to a prominent position in directing, encompassing both stage and screen productions?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -183,9 +183,9 @@
   },
   {
     "question": "Which film, based on the provided information,  features a protagonist who, after a period of retirement, is called back into action to rescue a sibling from a technologically advanced threat?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -204,7 +204,7 @@
   },
   {
     "question": "A) To secure a position as a Lord of the Bedchamber to the Prince of Wales.",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 2
@@ -232,7 +232,7 @@
   },
   {
     "question": "Which individual's career trajectory demonstrates a significant shift from a role heavily reliant on technical expertise to one focused on artistic direction and creative vision?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -246,9 +246,9 @@
   },
   {
     "question": "Which individual held a position of authority related to both military service and a specific geographic region, ultimately succeeding their father in a hereditary title?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -288,7 +288,7 @@
   },
   {
     "question": "Which individual's career trajectory most closely aligns with a pattern of seeking out new opportunities and experiencing varying degrees of success in different environments?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -365,9 +365,9 @@
   },
   {
     "question": "Which character experiences a significant shift in their professional status due to a combination of external factors and personal choices, ultimately leading to a decline in their well-being?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -428,7 +428,7 @@
   },
   {
     "question": "Which individual's succession to the Baron Willoughby of Parham title was directly influenced by the death of a nephew, but not their own father?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -491,7 +491,7 @@
   },
   {
     "question": "Which film role solidified Syms's reputation as a versatile actress capable of tackling both comedic and dramatic roles, leading to her receiving a prestigious award nomination?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 2
@@ -561,9 +561,9 @@
   },
   {
     "question": "Brian Kennedy's career trajectory demonstrates a consistent pattern of professional advancement.  Which of the following best exemplifies this pattern?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -575,9 +575,9 @@
   },
   {
     "question": "Which individual's life experiences directly influenced their filmmaking career by inspiring them to address social issues related to gender inequality and the treatment of marginalized groups?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -610,9 +610,9 @@
   },
   {
     "question": "Which film features a protagonist who, despite a successful rehabilitation attempt, ultimately succumbs to the pressures of reintegration into society, mirroring the struggles of a character who faced a similar fate in a different film genre?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -708,7 +708,7 @@
   },
   {
     "question": "Which individual's career trajectory demonstrates a clear progression from academia to leadership roles in prominent research institutions?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -792,9 +792,9 @@
   },
   {
     "question": "Which of the following individuals is most closely associated with the acquisition of Inuit artworks for a major North American museum?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -883,9 +883,9 @@
   },
   {
     "question": "Given the evolving perceptions of Queen Eleanor, what can be inferred about the influence of historical narratives and their susceptibility to revisionism?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -939,7 +939,7 @@
   },
   {
     "question": "What familial connection did Juan Antonio de Courten share with the officers who were disgraced following the Invasion of Algiers in 1775?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -981,9 +981,9 @@
   },
   {
     "question": "What ultimately motivates Marcia to shoot Peter at Crystal Lake?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1051,9 +1051,9 @@
   },
   {
     "question": "A) Despite winning the Republican primary for the 12th district state senate seat in 1974, Hall's campaign was ultimately hampered by allegations of voter fraud and tampering with campaign literature.",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1121,16 +1121,16 @@
   },
   {
     "question": "What is the familial relationship between Princess Elizabeth of Greece and Denmark and Archduchess Sophie of Austria?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
     "question": "Which of the following musical compositions by Paul de Maleingreau was NOT inspired by a specific painting?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1156,9 +1156,9 @@
   },
   {
     "question": "A) Edward I's construction of the Eleanor Crosses was primarily a strategic move to solidify his own power and legitimacy, using Eleanor's popularity to bolster his image as a benevolent ruler, a perception that was later challenged by anti-Spanish sentiment.",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1170,9 +1170,9 @@
   },
   {
     "question": "Based on the provided text, what specific event led to Abd al-Muttalib being known by that name, and how did this event reflect the prevailing social norms and customs of Mecca at the time?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1205,9 +1205,9 @@
   },
   {
     "question": "Given the complex lineage and succession claims within the Romanov family, as outlined in the Pauline Laws as amended in 1911, who holds the strongest claim to the Imperial Throne, and what specific events or circumstances within the Romanov family history directly support this claim?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1226,21 +1226,21 @@
   },
   {
     "question": "Which film, based on a true story and featuring a protagonist who, like a character in \"The Fabulous Senorita,\" works in a profession that involves the creation of artistic works,  was directed by a filmmaker known for both dramatic and comedic works?",
-    "model_answer": "B",
-    "correct_answer": "C",
-    "is_correct": false,
-    "number_of_hops": 3
-  },
-  {
-    "question": "Based on the provided biographical information, which individual achieved national recognition for their work in a field outside of traditional athletics?",
     "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
   },
   {
-    "question": "Which film, based on the provided biographical information, features a director who collaborated with a writer known for poetry collections exploring themes of urban life and sexuality, and whose cinematography was later dedicated to a film exploring the complexities of mental health?",
+    "question": "Based on the provided biographical information, which individual achieved national recognition for their work in a field outside of traditional athletics?",
     "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which film, based on the provided biographical information, features a director who collaborated with a writer known for poetry collections exploring themes of urban life and sexuality, and whose cinematography was later dedicated to a film exploring the complexities of mental health?",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 3
@@ -1268,16 +1268,16 @@
   },
   {
     "question": "Which individual's familial lineage connects them to both a monarch of Denmark and a ruler of the Sikh Empire?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
     "question": "Which of the following BEST encapsulates the director's approach to both collection development and public engagement during his tenure at both institutions?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -1324,7 +1324,7 @@
   },
   {
     "question": "Given Kathy Sanborn's stated desire to push the boundaries of jazz and Astrid North's background in soul music, which artist's musical style would most likely create a harmonious and innovative fusion when collaborating with Astrid North on a project exploring the intersection of jazz and soul music?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -1415,9 +1415,9 @@
   },
   {
     "question": "Which individual, based on their career trajectory and affiliations, is most likely to be involved in the development and promotion of contemporary art education within a museum setting?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {

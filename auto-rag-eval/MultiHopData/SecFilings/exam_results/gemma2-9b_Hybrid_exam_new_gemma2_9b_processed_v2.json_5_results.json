@@ -15,9 +15,9 @@
   },
   {
     "question": "Considering the geological characteristics of the Goliad Project area and the nature of uranium mineralization within the Goliad Formation, which of the following statements most accurately describes the potential for groundwater contamination from uranium leaching?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -78,9 +78,9 @@
   },
   {
     "question": "Given the geological context of the Wassa gold mine and its relationship to the Bogoso/Prestea mine, what is the most likely reason for the difference in gold production estimates between the two mines in 2010?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -92,9 +92,9 @@
   },
   {
     "question": "Given the potential for extensions under both the old and new petroleum laws, what is the maximum possible duration, in years, that a production lease could be in effect after its initial 20-year term?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -127,9 +127,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary factor influencing the specific mineral composition of the residual deposits found at the WBL pit?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -141,9 +141,9 @@
   },
   {
     "question": "Given the company's production capacity and the factors influencing actual production, what is the most likely reason for the discrepancy between reported productive capacity and actual production of potash at the company's facilities?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -204,9 +204,9 @@
   },
   {
     "question": "Based on the provided information about the company's mall properties, which of the following statements accurately reflects the company's ownership structure and lease arrangements as of December 31, 2017?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -246,9 +246,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary reason for the potential decline in the company's future profitability as outlined in Item 3?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -330,9 +330,9 @@
   },
   {
     "question": "Given the regulatory frameworks described in the provided text, in which state would a utility subsidiary of AEP be most likely to experience a significant change in its fuel cost recovery mechanism in the near future?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -351,16 +351,16 @@
   },
   {
     "question": "Based on the provided loan information, what is the most accurate statement regarding the interest rate structure of the loans secured by four properties?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "Despite a 4.4% increase in overall Chuck E. Cheese's restaurant revenues during the first six months of 1994, the company experienced a decline in operating income.  What is the most likely primary contributing factor to this discrepancy?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -400,16 +400,16 @@
   },
   {
     "question": "Based on the provided information, what is the primary geological characteristic that the 2011 diamond-core drilling program at Chandalar aimed to evaluate?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "Based on the provided information, what is the primary factor contributing to the upward revision of estimated future net revenues in 1996?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -477,7 +477,7 @@
   },
   {
     "question": "Given the lease agreements and exploration activities described, what is the primary financial incentive for the Company to cooperate with Standard Steam LLC regarding mineral rights on Property B?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -519,9 +519,9 @@
   },
   {
     "question": "Given the regulatory frameworks described in the provided text, in which state would a utility subsidiary of AEP be most likely to experience a significant change in its fuel cost recovery mechanism in the near future?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -540,9 +540,9 @@
   },
   {
     "question": "In which country would an exploration license initially granted in 2007 most likely be subject to a maximum extension period of five years?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -603,9 +603,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary factor contributing to the revision of proved undeveloped reserves (PUD) in 2017?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -631,9 +631,9 @@
   },
   {
     "question": "Based on the provided financial information, what was the primary reason for the decrease in the Company's total cash and cash equivalents from 2011 to 2012?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -722,7 +722,7 @@
   },
   {
     "question": "Based on the provided information, what is the estimated total increase in coal reserves from 2013 to 2016, excluding any potential reserves identified in Esperanza and Guayacan?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -764,9 +764,9 @@
   },
   {
     "question": "Based on the provided information, what is the weighted average escalated rent per square foot for the Company's office space in New York City as of December 31, 2003, excluding the space leased to the U.S. Post Office?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -792,7 +792,7 @@
   },
   {
     "question": "Which of the following claims was acquired by Aardvark Agencies, Inc. (AAI) through a Sheriff's deed following an assignment of a Certificate of Purchase from LNRS, LLC?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -841,7 +841,7 @@
   },
   {
     "question": "Based on the provided descriptions of two mining claims, what is the minimum distance, in feet, between the furthest points of the two claims?",
-    "model_answer": ".",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -855,9 +855,9 @@
   },
   {
     "question": "Based on the provided information, which facility's reserves are **not** categorized as proven or probable according to SEC Industry Guide 7?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -876,9 +876,9 @@
   },
   {
     "question": "Based on the provided information, what was the estimated liquidation value per Unit of the Partnership in December 1996, assuming the properties were sold at the values reflected in NDRC's December 31, 1996 appraisal, and all other factors remained constant?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -911,9 +911,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary reason for the potential decline in the company's future profitability as outlined in Item 3?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -932,9 +932,9 @@
   },
   {
     "question": "What was the primary technological advancement implemented at the Pasadena refinery to enhance operational efficiency and product yields?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -967,9 +967,9 @@
   },
   {
     "question": "Based on the drilling data provided, what is the most likely explanation for the observed variation in copper mineralization across different locations within Longshot Ridge?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1009,7 +1009,7 @@
   },
   {
     "question": "Based on the information provided, what percentage of Hilcorp's proved natural gas reserves in the San Juan Basin as of December 31, 2018, were attributable to coal seam natural gas, and what is the primary depth range for conventional natural gas production from formations other than the Fruitland Coal?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -1030,9 +1030,9 @@
   },
   {
     "question": "Given the geological challenges and financial investments associated with the Cornea project, what can be inferred about the joint venture's strategic priorities regarding this oil and gas accumulation?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -1100,7 +1100,7 @@
   },
   {
     "question": "A)  To acquire additional equity interests in Beijing Calypte.",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1128,7 +1128,7 @@
   },
   {
     "question": "Which property listed in the provided documentation experienced the highest percentage increase in occupancy between its acquisition date and the date of the \"Const Occupancy thru\" listed?",
-    "model_answer": "A",
+    "model_answer": ".",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 3
@@ -1149,9 +1149,9 @@
   },
   {
     "question": "Under what specific circumstances, as outlined in the lease agreements, could a TRS lessee be obligated to pay a termination fee?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1184,9 +1184,9 @@
   },
   {
     "question": "Based on the provided information, what is the most significant potential consequence for MeriStar Hospitality if it fails to meet the leverage covenant under its credit agreement?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1219,7 +1219,7 @@
   },
   {
     "question": "Based on the provided lease agreements and claim descriptions, what is the total annual payment obligation SRC incurs for all leased and owned patented claims?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 3
@@ -1247,9 +1247,9 @@
   },
   {
     "question": "In what year did ExxonMobil complete development activities on a project that involved both offshore production and transportation infrastructure and a domestic gas plant located on Barrow Island, Western Australia?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1352,9 +1352,9 @@
   },
   {
     "question": "Under what specific conditions would the Lessees be financially responsible for repairs exceeding the insurance proceeds received for damage to a Hotel, even if the damage did not render the Hotel unusable?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1492,9 +1492,9 @@
   },
   {
     "question": "Based on the provided information about the Company's real estate investments, which of the following statements accurately describes the evolution of the \"Established Communities\" category over time?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -1513,9 +1513,9 @@
   },
   {
     "question": "Based on the provided technical reports, what is the primary reason the company does not report measured, indicated, and inferred mineral resources in its filings with the SEC?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -1597,9 +1597,9 @@
   },
   {
     "question": "What was the total value of common stock issued by the company between October 20, 2006, and February 1, 2009, specifically for services and advisory fees paid to related parties, excluding any stock issued for acquisitions or unrelated services?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {

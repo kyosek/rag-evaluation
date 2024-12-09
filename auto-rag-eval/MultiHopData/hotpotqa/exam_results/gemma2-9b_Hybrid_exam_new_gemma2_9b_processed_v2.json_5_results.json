@@ -15,9 +15,9 @@
   },
   {
     "question": "What event directly contributed to the decline in Troy's population after its peak in 1926?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -43,14 +43,14 @@
   },
   {
     "question": "What uniform combination did the Broncos wear for their Super Bowl 50 appearance, and what was the rationale behind this choice?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "What specific legal action directly led to the abolishment of the \"trusty shooter\" system at Parchman Farm?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -120,9 +120,9 @@
   },
   {
     "question": "Vernon Smith's research on market dynamics and experimental economics was significantly influenced by his experiences at which two institutions?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -148,9 +148,9 @@
   },
   {
     "question": "Which scholar's work directly challenges the traditional chronologies of the kings of ancient Israel and Judah, as presented by figures like William F. Albright and Edwin R. Thiele?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -190,9 +190,9 @@
   },
   {
     "question": "Considering the creative decisions made during the production of the episode discussed, which of the following statements best reflects the ultimate rationale behind the episode's structure?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -260,7 +260,7 @@
   },
   {
     "question": "A) The Land Act of 1896",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 2
@@ -288,9 +288,9 @@
   },
   {
     "question": "Which individual, based on the provided information, is most likely to be recognized for their contributions to both the world of voice acting and live theatrical performance?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -323,7 +323,7 @@
   },
   {
     "question": "A)  Which quarterback, despite leading his college team to a significant victory in a prestigious bowl game, ultimately faced a career overshadowed by a more established NFL quarterback?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -344,7 +344,7 @@
   },
   {
     "question": "What specific policy change did United Airlines implement in response to the incident involving Dr. Dao, as directly stated in a company communication obtained by CNN?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -358,7 +358,7 @@
   },
   {
     "question": "Based on the provided information, what can be inferred about the historical economic reliance of Kemmerer compared to Troy?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -435,7 +435,7 @@
   },
   {
     "question": "A) The pilot's failure to maintain proper communication with air traffic control.",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -456,7 +456,7 @@
   },
   {
     "question": "Based on the provided information, what is the ultimate disposition of the estate after the death of all involved parties?",
-    "model_answer": ".",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 2
@@ -491,9 +491,9 @@
   },
   {
     "question": "Considering the interplay of gravitational forces and internal structural integrity, under what specific circumstances might a celestial body, such as a comet, persist in orbit within its Roche limit?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -547,9 +547,9 @@
   },
   {
     "question": "What motivated the BBC's decision to produce the docudrama series, considering the challenges and unique filming locations involved?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -589,9 +589,9 @@
   },
   {
     "question": "What specific event led to a significant change in the design of the Porsche 917-10, directly impacting its performance and safety?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -617,7 +617,7 @@
   },
   {
     "question": "What event directly precedes Kimmy's decision to pursue higher education?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -687,9 +687,9 @@
   },
   {
     "question": "What was the primary catalyst for the 2007 protest, and how did the Hong Kong government's response to this event contribute to the escalating tensions surrounding universal suffrage?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -750,9 +750,9 @@
   },
   {
     "question": "What event led to a shift in public perception of Hawaii's racial diversity and prompted a reassessment of the territory's racial dynamics?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -764,16 +764,16 @@
   },
   {
     "question": "During which season did Leeds United experience both a significant financial crisis and a near-relegation scare, ultimately avoiding relegation only due to a last-minute victory?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "Considering the building's unique architectural features, its integration with surrounding public spaces, and its historical context within the Financial District, analyze the developers' likely motivations for constructing 55 Water Street.",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -869,14 +869,14 @@
   },
   {
     "question": "Considering the mall's history, what can be inferred about the management's approach to safety and security measures?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
     "question": "In which year did the NHL All-Star Game format shift away from the two All-Star teams format and return to the Stanley Cup winner playing an all-star team?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -897,9 +897,9 @@
   },
   {
     "question": "What was the primary factor that led to Aldrich's decision to establish his own studio, Aldrich Studios?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -981,9 +981,9 @@
   },
   {
     "question": "Which author's work was criticized for lacking the \"malice, the appetite for smut, scandal and unpleasantness \u2014 above all, the narcissism\" essential to the genre, according to a critic?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1065,7 +1065,7 @@
   },
   {
     "question": "A) Despite his exceptional talent and unanimous All-American status, Don Coleman initially hesitated to join the Chicago Cardinals. What specific factor, highlighted in the text, contributed to this hesitation?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 4
@@ -1107,9 +1107,9 @@
   },
   {
     "question": "Which of Morgan Llywelyn's novels features a protagonist who, despite facing personal tragedy, ultimately finds success and recognition for their work, mirroring the author's own experiences of overcoming adversity and achieving literary acclaim?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1184,9 +1184,9 @@
   },
   {
     "question": "Which of Morgan Llywelyn's novels, drawing inspiration from a pivotal battle in Irish history, focuses on the lives of Brian Boru's children, particularly his son Donough, in the aftermath of this significant conflict?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1212,9 +1212,9 @@
   },
   {
     "question": "Which couple, based on a combination of their performance scores and audience popularity throughout multiple seasons, can be considered the most successful in the Nach Baliye competition?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1289,7 +1289,7 @@
   },
   {
     "question": "Given the complex power dynamics and familial relationships within the novel, who ultimately benefits most from the events leading to King Tiberias VI's death and Maven's ascension to the throne?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
