@@ -134,9 +134,9 @@
   },
   {
     "question": "Which film marked David Niven's sole foray into a recurring television role, a series that garnered critical acclaim despite its short lifespan?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -176,9 +176,9 @@
   },
   {
     "question": "Which author, based on the provided information, is most likely to have won an award specifically recognizing their work in poetry?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -260,7 +260,7 @@
   },
   {
     "question": "A) The Land Act of 1896",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 2
@@ -351,16 +351,16 @@
   },
   {
     "question": "Based on the provided information, what was the primary factor contributing to the decline in Miami Gardens' tax revenues around the time Oliver Gilbert proposed forming a community redevelopment agency (CRA)?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "Based on the provided information, what can be inferred about the historical economic reliance of Kemmerer compared to Troy?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -435,7 +435,7 @@
   },
   {
     "question": "A) The pilot's failure to maintain proper communication with air traffic control.",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -456,9 +456,9 @@
   },
   {
     "question": "Based on the provided information, what is the ultimate disposition of the estate after the death of all involved parties?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -519,7 +519,7 @@
   },
   {
     "question": "According to Cloward and Piven, what was the intended consequence of the \"crisis\" they sought to create within the welfare system?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -533,7 +533,7 @@
   },
   {
     "question": "Which cast member's departure from the series was directly tied to a salary dispute with CBS, leading to a change in their character's status within the show?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -610,9 +610,9 @@
   },
   {
     "question": "What historical factors, as described in the provided text, contributed to the City of Blacktown's decision to adopt a Coat of Arms in 1981?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -778,7 +778,7 @@
   },
   {
     "question": "Considering the information provided about Cirque du Soleil's productions, which show's technical design most directly reflects the company's commitment to innovative stagecraft and audience immersion?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -876,7 +876,7 @@
   },
   {
     "question": "In which year did the NHL All-Star Game format shift away from the two All-Star teams format and return to the Stanley Cup winner playing an all-star team?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -981,7 +981,7 @@
   },
   {
     "question": "Which author's work was criticized for lacking the \"malice, the appetite for smut, scandal and unpleasantness \u2014 above all, the narcissism\" essential to the genre, according to a critic?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -1107,7 +1107,7 @@
   },
   {
     "question": "Which of Morgan Llywelyn's novels features a protagonist who, despite facing personal tragedy, ultimately finds success and recognition for their work, mirroring the author's own experiences of overcoming adversity and achieving literary acclaim?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1198,9 +1198,9 @@
   },
   {
     "question": "What specific event led to Republic Airways modifying the seating configuration of its Embraer E175 aircraft operated for American Eagle?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {

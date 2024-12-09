@@ -1,48 +1,45 @@
 {
   "overall_stats": {
-    "avg_difficulty": 0.43682449261078826,
-    "avg_discrimination": 0.568053326092028,
-    "total_questions": 665
+    "avg_difficulty": 0.2603887692636582,
+    "avg_discrimination": 0.715396833040991,
+    "total_questions": 1330
   },
   "hop_analysis": {
     "1": {
-      "avg_difficulty": 0.4431650639354638,
-      "avg_discrimination": 0.7346721905450866,
-      "num_questions": 150
+      "avg_difficulty": 0.2574092157908179,
+      "avg_discrimination": 0.9016254342320891,
+      "num_questions": 300
     },
     "2": {
-      "avg_difficulty": 0.38591980144938065,
-      "avg_discrimination": 0.5510676536450981,
-      "num_questions": 126
+      "avg_difficulty": 0.22686554512177193,
+      "avg_discrimination": 0.8022363016278528,
+      "num_questions": 252
     },
     "3": {
-      "avg_difficulty": 0.4285978221662814,
-      "avg_discrimination": 0.5198895852350619,
-      "num_questions": 142
+      "avg_difficulty": 0.25909980436685476,
+      "avg_discrimination": 0.7062312901942082,
+      "num_questions": 284
     },
     "4": {
-      "avg_difficulty": 0.49600076914006375,
-      "avg_discrimination": 0.5062170922404257,
-      "num_questions": 128
+      "avg_difficulty": 0.2952781675999188,
+      "avg_discrimination": 0.6104398947812815,
+      "num_questions": 256
     },
     "5": {
-      "avg_difficulty": 0.42889616651842427,
-      "avg_discrimination": 0.5,
-      "num_questions": 119
+      "avg_difficulty": 0.2636496876763343,
+      "avg_discrimination": 0.5125391184265102,
+      "num_questions": 238
     }
   },
   "model_abilities": {
-    "llama3-8b_Dense": -0.07945661636332627,
-    "mistral-8b_open_book": 0.08507162964881158
+    "combined_llama3-8b_mistral-8b_open_book": -0.12042335187517389
   },
   "component_abilities": {
     "llms": {
-      "llama3-8b": -0.03972830818166313,
-      "mistral-8b": 0.04253581482440579
+      "combined_llama3-8b_mistral-8b": -0.060211675937586945
     },
     "retrievers": {
-      "Dense": -0.03972830818166313,
-      "open_book": 0.04253581482440579
+      "open_book": -0.060211675937586945
     }
   }
 }

@@ -1,50 +1,45 @@
 {
   "overall_stats": {
-    "avg_difficulty": 0.5131736376364128,
-    "avg_discrimination": 0.6436446064800984,
-    "total_questions": 614
+    "avg_difficulty": 0.25283325905864706,
+    "avg_discrimination": 0.7165817057565832,
+    "total_questions": 1228
   },
   "hop_analysis": {
     "1": {
-      "avg_difficulty": 0.5278065090888786,
-      "avg_discrimination": 0.9182348397940746,
-      "num_questions": 150
+      "avg_difficulty": 0.2677317171775666,
+      "avg_discrimination": 0.9023799789219235,
+      "num_questions": 300
     },
     "2": {
-      "avg_difficulty": 0.4719880597730114,
-      "avg_discrimination": 0.6249546079761925,
-      "num_questions": 116
+      "avg_difficulty": 0.21141627550836609,
+      "avg_discrimination": 0.8015305370866707,
+      "num_questions": 232
     },
     "3": {
-      "avg_difficulty": 0.5421330502539649,
-      "avg_discrimination": 0.5798775892309793,
-      "num_questions": 117
+      "avg_difficulty": 0.25648616014432246,
+      "avg_discrimination": 0.70594180925599,
+      "num_questions": 234
     },
     "4": {
-      "avg_difficulty": 0.5253012152539217,
-      "avg_discrimination": 0.514483481646484,
-      "num_questions": 112
+      "avg_difficulty": 0.264863810431289,
+      "avg_discrimination": 0.608449860630773,
+      "num_questions": 224
     },
     "5": {
-      "avg_difficulty": 0.4949892371731361,
-      "avg_discrimination": 0.5,
-      "num_questions": 119
+      "avg_difficulty": 0.2595121682454935,
+      "avg_discrimination": 0.5118071606773309,
+      "num_questions": 238
     }
   },
   "model_abilities": {
-    "llama3-8b_Dense": -0.29297415176041897,
-    "llama3-8b_Sparse": -0.1898149726085735,
-    "mistral-8b_open_book": -0.11686077518295718
+    "combined_llama3-8b_mistral-8b_open_book": -0.08660888151653634
   },
   "component_abilities": {
     "llms": {
-      "llama3-8b": 0.7385884671516647,
-      "mistral-8b": -0.05843038759147859
+      "combined_llama3-8b_mistral-8b": -0.04330444075826817
     },
     "retrievers": {
-      "Dense": -1.0315626189120837,
-      "Sparse": -0.9284034397602382,
-      "open_book": -0.05843038759147859
+      "open_book": -0.04330444075826817
     }
   }
 }

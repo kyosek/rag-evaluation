@@ -1,50 +1,45 @@
 {
   "overall_stats": {
-    "avg_difficulty": 0.4774553026079715,
-    "avg_discrimination": 0.572759886346697,
-    "total_questions": 684
+    "avg_difficulty": 0.2409451124452698,
+    "avg_discrimination": 0.7002202596784599,
+    "total_questions": 1368
   },
   "hop_analysis": {
     "1": {
-      "avg_difficulty": 0.4617910336060755,
-      "avg_discrimination": 0.7594254990949773,
-      "num_questions": 150
+      "avg_difficulty": 0.20473214635754486,
+      "avg_discrimination": 0.8995526754499059,
+      "num_questions": 300
     },
     "2": {
-      "avg_difficulty": 0.4881848752714339,
-      "avg_discrimination": 0.5731003990235005,
-      "num_questions": 108
+      "avg_difficulty": 0.2425575784981516,
+      "avg_discrimination": 0.8023682557932509,
+      "num_questions": 216
     },
     "3": {
-      "avg_difficulty": 0.42125136954260034,
-      "avg_discrimination": 0.5202677691942198,
-      "num_questions": 146
+      "avg_difficulty": 0.2234617711045087,
+      "avg_discrimination": 0.7029537366108184,
+      "num_questions": 290
     },
     "4": {
-      "avg_difficulty": 0.49426543002348833,
-      "avg_discrimination": 0.5,
-      "num_questions": 127
+      "avg_difficulty": 0.25177118494636774,
+      "avg_discrimination": 0.6053918103507097,
+      "num_questions": 256
     },
     "5": {
-      "avg_difficulty": 0.5249176199178015,
-      "avg_discrimination": 0.5,
-      "num_questions": 153
+      "avg_difficulty": 0.2828218823388474,
+      "avg_discrimination": 0.5094349094343147,
+      "num_questions": 306
     }
   },
   "model_abilities": {
-    "llama3-8b_Dense": -0.2266155892376034,
-    "llama3-8b_Sparse": -0.08362640080555506,
-    "mistral-8b_open_book": 0.10524848145506371
+    "combined_llama3-8b_mistral-8b_open_book": 0.031243531003446345
   },
   "component_abilities": {
     "llms": {
-      "llama3-8b": 0.39948930855151843,
-      "mistral-8b": 0.05262424072753186
+      "combined_llama3-8b_mistral-8b": 0.015621765501723173
     },
     "retrievers": {
-      "Dense": -0.6261048977891218,
-      "Sparse": -0.4831157093570735,
-      "open_book": 0.05262424072753186
+      "open_book": 0.015621765501723173
     }
   }
 }
