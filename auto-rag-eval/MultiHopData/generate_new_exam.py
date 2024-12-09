@@ -528,7 +528,7 @@ def generate_exam(
             if hop_counts[str(num_hops)] < target_hop_number:
                 break
             hop_try_count += 1
-            if hop_try_count >= 3:
+            if hop_try_count > 3:
                 break
         
         similar_chunks = retriever.find_similar_chunks(

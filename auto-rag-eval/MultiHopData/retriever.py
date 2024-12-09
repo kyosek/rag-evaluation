@@ -137,7 +137,6 @@ class ChunkRetriever:
         """
         # Generate embedding for query chunk
         query_embedding = self.model.encode([query_chunk.content], normalize_embeddings=True)
-        # faiss.normalize_L2(query_embedding)
 
         # Search in the index
         scores, indices = self.index.search(
@@ -147,8 +146,8 @@ class ChunkRetriever:
         # Filter and process results
         similar_chunks = []
         for score, idx in zip(scores[0], indices[0]):
-            if score < similarity_threshold:
-                continue
+            # if score < similarity_threshold:
+            #     continue
 
             chunk = self.chunks[idx]
             if exclude_same_doc and chunk.doc_id == query_chunk.doc_id:
