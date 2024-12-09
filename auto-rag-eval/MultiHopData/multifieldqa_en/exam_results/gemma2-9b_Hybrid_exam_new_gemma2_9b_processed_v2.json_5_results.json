@@ -134,9 +134,9 @@
   },
   {
     "question": "Based on the provided historical records, what can be definitively concluded about the relationship between Benjamin Franklin's residence and the events surrounding William Hewson's death in 1774?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -148,9 +148,9 @@
   },
   {
     "question": "Given the desire for a CUSUM test with faster detection of small mean shifts, how does the proposed CUSUM-OAL test achieve this improvement, and what is the relationship between the CUSUM-OAL test and the conventional CUSUM test?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -169,9 +169,9 @@
   },
   {
     "question": "Given the evolving dynamics of Champion effectiveness, which class combination would most likely result in a strategic advantage for the attacking team, considering the interplay of strengths and weaknesses outlined in the provided information?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -267,7 +267,7 @@
   },
   {
     "question": "Given the advancements in large language models and the challenges of dialect identification in multilingual corpora, what potential future research direction could address both the memory consumption limitations and the training difficulties associated with low-resource languages?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -337,9 +337,9 @@
   },
   {
     "question": "Given India's strategic need for a regional jet capable of serving both civilian and military purposes, and considering the complexities of aircraft development and procurement, what is the most prudent approach for India to acquire a suitable regional jet, taking into account the potential challenges of single-vendor situations and the IAF's recent procurement decisions?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -435,9 +435,9 @@
   },
   {
     "question": "Based on the provided information, what can be inferred about the RSU's ability to distinguish between jamming and spoofing attacks solely based on the analysis of RF signals?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -610,9 +610,9 @@
   },
   {
     "question": "Considering the performance of different solvers across various kernels and problems, which solver consistently demonstrates the most significant advantage in terms of both runtime and iteration count, particularly when dealing with anisotropic problems?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -638,16 +638,16 @@
   },
   {
     "question": "Based on the findings presented in the paper, which of the following statements best describes the comparative performance of SNNs and CNNs in modeling visual cortex representations?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
     "question": "In the context of stare decisis, how does the Supreme Court's reasoning in *South Dakota v. Wayfair, Inc.* deviate from the traditional application of the principle, and what specific legal precedent does the Court cite to justify this deviation?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -708,7 +708,7 @@
   },
   {
     "question": "A) When the land is owned by a person and the transfer involves further divisions.",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -771,9 +771,9 @@
   },
   {
     "question": "Given the concerns raised about the city's financial situation and the proposed phone tax increase, what is the most likely motivation behind the city council's apparent lack of engagement with public concerns and committee meetings?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -862,9 +862,9 @@
   },
   {
     "question": "Given Mufti-e-Azam-e-Hind's profound reverence for Sayyiduna Rasulullah (sallal laahu alaihi wasallam) and his deep connection to Sayyiduna Sheikh Abdul Qaadir Jilani (radi Allahu anhu), what specific action demonstrates his unwavering commitment to both figures' legacies?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -960,9 +960,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary motivation behind the proposed \"Art Tax\" and how does it relate to the concerns raised about city employee salaries?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -1016,9 +1016,9 @@
   },
   {
     "question": "Given the observed behavior of reconstruction error in the context of sparse interaction networks, what can be inferred about the efficacy of the PLM + decimation method in scenarios where the number of couplings per variable scales with the total number of variables?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -1100,9 +1100,9 @@
   },
   {
     "question": "A patient presents with a mild form of anemia during pregnancy.  Given the information provided, what is the MOST likely genetic predisposition this patient might possess?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1114,9 +1114,9 @@
   },
   {
     "question": "Consider the function $f(x)$ defined as follows:\n\n$$f(x) = \n\\begin{cases} \n\\frac{6x^2\\cos{\\left(x^2\\right)}+\\sin{\\left(x^2\\right)}}{3\\sqrt[3]{x^2}}, & \\mbox{if } x \\neq 0 \\\\\n\\text{undefined}, & \\mbox{if } x = 0\n\\end{cases}$$\n\nGiven that the derivative of $f(x)$ is undefined at $x=0$, and knowing that the function $g(x) = \\sqrt[3]{x}\\cos(x^2)$ is differentiable at $x=0$ but its derivative is not zero, which of the following statements is **most accurate** regarding the differentiability of $f(x)$ at $x=0$?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1128,9 +1128,9 @@
   },
   {
     "question": "According to the provided documents, what is the most likely outcome of the Bilski case at the Supreme Court level, and what impact could this have on future technological development and protection?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1163,9 +1163,9 @@
   },
   {
     "question": "What specific factor, highlighted by both Brooksley Born and Arthur Levitt, contributed to the financial crisis of 2007-2008, despite Born's warnings being initially disregarded?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1205,9 +1205,9 @@
   },
   {
     "question": "Which indenofluorene isomer, according to theoretical predictions, exhibits the highest diradical character and a triplet ground state, making it a potential Kekul\u00e9 triplet, and what experimental evidence supports this prediction?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1240,9 +1240,9 @@
   },
   {
     "question": "Given the probabilistic state-space model described in Chunk 0 and the discussion of its approximation in Chunk 2, what is the primary motivation for approximating the posterior distribution $p({\\bf w}_k|y_{1:k})$ with an isotropic Gaussian distribution as defined in Equation \\eqref{eq:aprox_post}?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1310,9 +1310,9 @@
   },
   {
     "question": "Given the proposed CUSUM test with observation-adjusted control limits and its theoretical underpinnings, what is the primary advantage of this test over traditional CUSUM tests in scenarios where the distribution of observations undergoes a shift?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1450,7 +1450,7 @@
   },
   {
     "question": "In the context of the modified PLMS-PPIC method described, what is the primary reason for utilizing multiple NLMS algorithms with varying step-sizes (\u03bc) in stage $s$ of the algorithm?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1478,7 +1478,7 @@
   },
   {
     "question": "Based on the provided documentation, what is the specific function of the component labeled \"PIU409\" in the context of the overall system architecture?",
-    "model_answer": "D",
+    "model_answer": ".",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 3
@@ -1506,14 +1506,14 @@
   },
   {
     "question": "Given the tradeoffs presented in the figures for various NIST elliptic curve and RSA cryptosystems, which cryptographic scheme, when implemented with a physical error rate per gate of $10^{-5}$, would require the **fewest** physical qubits to break in one day (24 hours) while still maintaining a classical security parameter of at least 112 bits?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
     "question": "Given the tradeoffs presented in the figures for various elliptic curve and RSA cryptographic schemes, what is the minimum number of physical qubits required to break a cryptographic scheme with a classical security parameter of 192 bits within a 24-hour timeframe, assuming a physical error rate per gate of $10^{-3}$?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -1555,7 +1555,7 @@
   },
   {
     "question": "A)  The superconducting lead enhances the Kondo effect by increasing the effective exchange coupling, leading to a higher Kondo temperature, while the direct exchange mechanism dominates for larger inter-impurity distances.",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4
@@ -1583,9 +1583,9 @@
   },
   {
     "question": "Based on the X-ray lightcurve, UVOT observations, and the spectral characteristics of XMMSL1 J060636.2-694933 during its outburst, what is the most plausible explanation for the nature of the emitting region and the underlying physical processes driving its activity?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -1674,9 +1674,9 @@
   },
   {
     "question": "Given the framework described in the provided documentation, what is the primary mechanism by which the model ensures that generated messages are both informative and concise, effectively balancing the need for complexity and redundancy reduction?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -1779,9 +1779,9 @@
   },
   {
     "question": "A)  To minimize the overall footprint required for the vacuum processing system.",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1835,9 +1835,9 @@
   },
   {
     "question": "Based on the provided experimental data, at what temperature range do Ge<sub>3</sub>Mn<sub>5</sub> clusters exhibit ferromagnetic behavior, and what evidence from the text supports this conclusion?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1905,7 +1905,7 @@
   },
   {
     "question": "A) To minimize the risk of contamination during wafer processing by reducing the number of access points.",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
@@ -1940,9 +1940,9 @@
   },
   {
     "question": "Given the challenges of estimating Toeplitz covariance matrices and their inverses, what specific advantages does the proposed methodology offer over traditional approaches like the Whittle likelihood method, and how does it address the limitations of those methods?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2024,9 +2024,9 @@
   },
   {
     "question": "Given the delayed optical detection of XMMSL1~J060636.2-694933 and its initial discovery in X-rays, what are the potential implications for understanding the evolutionary stage of the white dwarf within this nova, and how does this discovery challenge conventional understanding of novae?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2038,9 +2038,9 @@
   },
   {
     "question": "Considering the diverse applications of nanofibers in tissue engineering and drug delivery, which research group's work most directly addresses the challenge of controlled release of therapeutic agents within a biocompatible scaffold?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {

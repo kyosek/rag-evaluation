@@ -477,9 +477,9 @@
   },
   {
     "question": "What specific design element of the KR-2S, initially driven by builder modifications, was subsequently incorporated into the standard plans due to its widespread adoption and effectiveness?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -2038,7 +2038,7 @@
   },
   {
     "question": "Considering the diverse applications of nanofibers in tissue engineering and drug delivery, which research group's work most directly addresses the challenge of controlled release of therapeutic agents within a biocompatible scaffold?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2

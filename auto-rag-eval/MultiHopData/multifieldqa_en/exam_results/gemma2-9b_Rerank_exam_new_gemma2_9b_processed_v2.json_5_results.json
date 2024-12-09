@@ -155,9 +155,9 @@
   },
   {
     "question": "A) The development of novel training techniques such as masked language modeling and next sentence prediction.",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -225,9 +225,9 @@
   },
   {
     "question": "Given the concerns raised about the Nacimiento water pipeline project and the potential financial burden on residents, what is the most ethically sound approach to financing this infrastructure project, considering the perspectives presented in the provided text?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -267,9 +267,9 @@
   },
   {
     "question": "Given the advancements in large language models and the challenges of dialect identification in multilingual corpora, what potential future research direction could address both the memory consumption limitations and the training difficulties associated with low-resource languages?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -428,9 +428,9 @@
   },
   {
     "question": "Based on the provided observations and analysis, what can be inferred about the nature of the source's variability over time?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -533,9 +533,9 @@
   },
   {
     "question": "Given the discussion on the spectrum of sentience and the potential pitfalls of applying human-centric terms, which of the following best exemplifies the argument for adopting a more inclusive and nuanced terminology when describing the responses of entities across the spectrum, from non-living to sentient?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -792,9 +792,9 @@
   },
   {
     "question": "A) It directly addresses the underlying genetic defect responsible for the disease.",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1478,7 +1478,7 @@
   },
   {
     "question": "Based on the provided documentation, what is the specific function of the component labeled \"PIU409\" in the context of the overall system architecture?",
-    "model_answer": "D",
+    "model_answer": ".",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 3
@@ -1527,9 +1527,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary mechanism responsible for the formation of the \"Penning lattice\" observed in the experiment?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -1674,7 +1674,7 @@
   },
   {
     "question": "Given the framework described in the provided documentation, what is the primary mechanism by which the model ensures that generated messages are both informative and concise, effectively balancing the need for complexity and redundancy reduction?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -1835,9 +1835,9 @@
   },
   {
     "question": "Based on the provided experimental data, at what temperature range do Ge<sub>3</sub>Mn<sub>5</sub> clusters exhibit ferromagnetic behavior, and what evidence from the text supports this conclusion?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {

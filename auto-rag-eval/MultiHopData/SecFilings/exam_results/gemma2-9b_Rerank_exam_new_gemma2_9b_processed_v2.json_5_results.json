@@ -8,9 +8,9 @@
   },
   {
     "question": "Considering the historical mining methods employed at the Bunker Hill Mine and the planned restart, what is the PRIMARY factor contributing to the anticipated productivity gain?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -92,9 +92,9 @@
   },
   {
     "question": "Given the potential for extensions under both the old and new petroleum laws, what is the maximum possible duration, in years, that a production lease could be in effect after its initial 20-year term?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -127,9 +127,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary factor influencing the specific mineral composition of the residual deposits found at the WBL pit?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -246,9 +246,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary reason for the potential decline in the company's future profitability as outlined in Item 3?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -365,7 +365,7 @@
   },
   {
     "question": "A) To finance the acquisition of environmental remediation assets.",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -442,9 +442,9 @@
   },
   {
     "question": "Based on the information about lease agreements and tenant types across the company's associated centers, what can be inferred about the company's strategic priorities regarding risk mitigation and revenue diversification?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -463,9 +463,9 @@
   },
   {
     "question": "Based on the provided information about the company's claim holdings and expenses, what is the most likely reason for the projected expense to maintain claims in 2015 to be significantly higher than the actual cost incurred in 2014?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -603,9 +603,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary factor contributing to the revision of proved undeveloped reserves (PUD) in 2017?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -645,9 +645,9 @@
   },
   {
     "question": "In which country are production rights explicitly stated to have no fixed term, contingent solely on the rights holder fulfilling their obligations?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -708,7 +708,7 @@
   },
   {
     "question": "Which well, based on its location and interest type, is most likely to be classified as a \"Gas In Progress\" well according to the provided documentation?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -750,9 +750,9 @@
   },
   {
     "question": "Based on the provided property data, what is the average effective rent per square foot for properties located in Burlington County with a base rent percentage greater than 70%?",
-    "model_answer": ".",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -778,7 +778,7 @@
   },
   {
     "question": "A) To align revenues with decreasing operational costs.",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -827,7 +827,7 @@
   },
   {
     "question": "Based on the provided tenant data, which company has the highest ratio of annualized base rental revenue to the number of square feet leased, excluding those with less than 1 million square feet leased?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -876,14 +876,14 @@
   },
   {
     "question": "Based on the provided information, what was the estimated liquidation value per Unit of the Partnership in December 1996, assuming the properties were sold at the values reflected in NDRC's December 31, 1996 appraisal, and all other factors remained constant?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
     "question": "Based on the provided SEC filings, which individual served as both the President and CEO and a Director for two distinct companies listed in the filings?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 2
@@ -911,9 +911,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary reason for the potential decline in the company's future profitability as outlined in Item 3?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -967,9 +967,9 @@
   },
   {
     "question": "Based on the drilling data provided, what is the most likely explanation for the observed variation in copper mineralization across different locations within Longshot Ridge?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -995,9 +995,9 @@
   },
   {
     "question": "Considering the information provided about Playa Resorts, which resort boasts the largest combined meeting and convention space capacity, capable of accommodating the most attendees?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -1107,9 +1107,9 @@
   },
   {
     "question": "A)  The discovery of a more lucrative gold deposit elsewhere.",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1191,7 +1191,7 @@
   },
   {
     "question": "Which hotel property, based on the provided information, features a unique combination of a full-service spa, a multi-service meeting facility with a capacity exceeding 400, and a penthouse suite spanning three floors?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 3

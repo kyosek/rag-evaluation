@@ -64,7 +64,7 @@
   },
   {
     "question": "Which individual's career trajectory demonstrates a clear transition from a role primarily focused on acting to a prominent position in directing, encompassing both stage and screen productions?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -99,9 +99,9 @@
   },
   {
     "question": "In what year did McMahon's bowling average reach its lowest point during his time with Somerset?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -162,9 +162,9 @@
   },
   {
     "question": "Which filmmaker's work explores themes of cultural contradiction and societal inequality within the context of a journey back to one's ancestral homeland?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -183,7 +183,7 @@
   },
   {
     "question": "Which film, based on the provided information,  features a protagonist who, after a period of retirement, is called back into action to rescue a sibling from a technologically advanced threat?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -512,7 +512,7 @@
   },
   {
     "question": "Which musical artist's career experienced a resurgence in the early 1970s, marked by a cover version of a popular Motown song that reached the top 15 on the Billboard pop chart?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -561,9 +561,9 @@
   },
   {
     "question": "Brian Kennedy's career trajectory demonstrates a consistent pattern of professional advancement.  Which of the following best exemplifies this pattern?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -624,9 +624,9 @@
   },
   {
     "question": "Which of the following productions featured Sheila Atim in a role that received both critical acclaim and a mixed assessment?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -708,9 +708,9 @@
   },
   {
     "question": "Which individual's career trajectory demonstrates a clear progression from academia to leadership roles in prominent research institutions?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -757,7 +757,7 @@
   },
   {
     "question": "What ultimately prevented Gille Brigte from securing a favorable agreement with King Henry II?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -820,16 +820,16 @@
   },
   {
     "question": "What is the familial relationship between Princess Elizabeth of Greece and Denmark and Emperor Alexander II of Russia?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
     "question": "Considering France's Eurovision Song Contest history, what can be inferred about the selection process for their 2013 entry, \"L'enfer et moi\"?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -848,9 +848,9 @@
   },
   {
     "question": "Which character's personal life experiences directly contribute to the central conflict in a film featuring a superhero who protects children from extraterrestrial threats?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -904,14 +904,14 @@
   },
   {
     "question": "What year did the individual who was both a father-in-law and a grandfather to individuals named Butensch\u00f8n and Astrup pass away?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "Which individual's career trajectory was significantly impacted by their involvement in a musical group that predated their later, more prominent musical endeavors?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -1016,9 +1016,9 @@
   },
   {
     "question": "Which individual's career trajectory demonstrates a clear progression from supporting roles in the film industry to leadership positions within film education and cultural institutions?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1030,7 +1030,7 @@
   },
   {
     "question": "Which of the following individuals is NOT directly associated with a musical work mentioned in the provided text AND has no connection to the film \"The Ballad of Uhlans\"?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1058,9 +1058,9 @@
   },
   {
     "question": "Johann Ludwig von Westphalen, the father-in-law of Karl Marx, experienced a significant life event in the same year that Ogawa received a prestigious military decoration.  Considering the provided biographical information, what was this significant life event for Johann Ludwig von Westphalen?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1072,9 +1072,9 @@
   },
   {
     "question": "Which director, despite facing professional setbacks and personal tragedy, achieved critical and commercial success with a film that explored themes of military justice and leadership during a period of heightened social and political tension?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1121,9 +1121,9 @@
   },
   {
     "question": "What is the familial relationship between Princess Elizabeth of Greece and Denmark and Archduchess Sophie of Austria?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1142,9 +1142,9 @@
   },
   {
     "question": "Which individual's ascension to the dukedom of Nemours was directly influenced by the deaths of both his elder brothers, Louis and Charles, who died without leaving male heirs, and who, prior to their deaths, held the title of Duke of Nemours and Count of Guise respectively?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1205,9 +1205,9 @@
   },
   {
     "question": "Given the complex lineage and succession claims within the Romanov family, as outlined in the Pauline Laws as amended in 1911, who holds the strongest claim to the Imperial Throne, and what specific events or circumstances within the Romanov family history directly support this claim?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1240,7 +1240,7 @@
   },
   {
     "question": "Which film, based on the provided biographical information, features a director who collaborated with a writer known for poetry collections exploring themes of urban life and sexuality, and whose cinematography was later dedicated to a film exploring the complexities of mental health?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 3
@@ -1352,7 +1352,7 @@
   },
   {
     "question": "Which individual, based on the provided biographical information, held the title of Baron Berkeley for the shortest duration?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 5

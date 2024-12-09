@@ -239,7 +239,7 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the political career of Greg Gianforte?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 2
@@ -428,7 +428,7 @@
   },
   {
     "question": "Which of the following statements is true about the relationship between Brandon James and Daisy, based on the provided document chunks?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -540,7 +540,7 @@
   },
   {
     "question": "**\n\nThe Space Shuttle Discovery launched the Ulysses spacecraft on 6 October 1990. What was the primary purpose of the Ulysses spacecraft, and how did its launch trajectory differ from the original plan?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -610,9 +610,9 @@
   },
   {
     "question": "**\n\nWhich of the following statements is true about Leeds United's history, based on the provided document chunks?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -729,16 +729,16 @@
   },
   {
     "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true regarding the inheritance of the estate?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
     "question": "**\n\nWhich of the following statements is true about the Boardman River and its relationship to Traverse City?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -799,9 +799,9 @@
   },
   {
     "question": "Which of the following is the correct order of events in the life of Mick Jagger, based on the provided document chunks?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -841,7 +841,7 @@
   },
   {
     "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true about the production of the \"The Cissy\" episode in the South Park series?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -946,9 +946,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true about the CBS Block Party lineup and its impact on the shows involved?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -1107,7 +1107,7 @@
   },
   {
     "question": "**\n\nWhich of the following statements is true about the relationship between Avoca Beach and Woy Woy Bay, considering their geographical locations and historical contexts?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 3
@@ -1128,9 +1128,9 @@
   },
   {
     "question": "Which of the following is the most accurate description of the film \"The Cool Ones\" based on the provided document chunks?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1310,9 +1310,9 @@
   },
   {
     "question": "**\n\nWhich of the following statements is true about the growth and propagation of Cryptocoryne plants?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1359,7 +1359,7 @@
   },
   {
     "question": "Which of the following statements is true about the population of the city based on the 2020 census data?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 3
@@ -1373,9 +1373,9 @@
   },
   {
     "question": "**\n\nWhich of the following statements is most accurate regarding the genetic origins of the Celtic nations, based on the provided documentation?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1401,9 +1401,9 @@
   },
   {
     "question": "Which of the following statements is true about PenAir's operations in the year 2019?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1471,9 +1471,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the relationship between Fenmore and Summer?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1520,7 +1520,7 @@
   },
   {
     "question": "Which team won the 2011 NHL All-Star Game and who was the Most Valuable Player (MVP) of the game?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 3
@@ -1779,9 +1779,9 @@
   },
   {
     "question": "**\n\nIn the context of the film \"Udhayam NH4\", which of the following statements is true regarding the production and release of the film?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2108,7 +2108,7 @@
   },
   {
     "question": "**\n\nWhich of the following statements about N\u00e2z\u0131m Hikmet is true, given the provided document chunks?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -2444,9 +2444,9 @@
   },
   {
     "question": "Which of the following statements about beagles is true, given the information provided in the document chunks?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -2871,16 +2871,16 @@
   },
   {
     "question": "**\n\nIn the context of the 2006 Formula One season, which driver was the fastest in the second qualifying session but failed to make the cut for the race?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "**\n\nWhich of the following statements is NOT supported by the provided documentation?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
