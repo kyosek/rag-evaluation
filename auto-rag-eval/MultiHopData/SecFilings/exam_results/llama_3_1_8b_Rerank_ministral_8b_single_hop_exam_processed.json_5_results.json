@@ -8,9 +8,9 @@
   },
   {
     "question": "Based on the information provided, which of the following statements is true about the Company's real estate portfolio at December 31, 1994?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -22,7 +22,7 @@
   },
   {
     "question": "Based on the provided information, what is the most likely scenario for the Company's financial situation regarding the Garden Gateway Plaza and its mortgage debt?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -204,9 +204,9 @@
   },
   {
     "question": "Based on the information provided, which of the following statements is true about NS' operations in 2004?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -239,9 +239,9 @@
   },
   {
     "question": "Which of the following statements is true about the Permian Abo area based on the provided information?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -253,9 +253,9 @@
   },
   {
     "question": "Based on the provided information, what is the total duration of the lease for the Smith property, including all possible extensions?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -379,9 +379,9 @@
   },
   {
     "question": "**\n\nIn the context of the company's operations, which of the following statements is most likely to be true based on the provided information?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -435,9 +435,9 @@
   },
   {
     "question": "Which of the following statements is the most accurate summary of the drilling results at the Colonia, Patoa, and Tucanare prospects?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -540,16 +540,16 @@
   },
   {
     "question": "Based on the provided information, which scenario is the most likely to incur the highest costs but generate revenues more quickly?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "Based on the provided information, what is the most likely occupancy rate for Chandler Villas at the end of 2007, considering the occupancy trends and the number of units available?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
