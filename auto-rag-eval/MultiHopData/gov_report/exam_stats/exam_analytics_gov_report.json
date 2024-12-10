@@ -1,0 +1,35 @@
+{
+  "exam_id": "gov_report:",
+  "total_questions": 588,
+  "processed_questions": 588,
+  "processing_success_rate": 100.0,
+  "answer_distribution": {
+    "B": 239,
+    "A": 93,
+    "D": 83,
+    "C": 173
+  },
+  "best_fixed_answer_baseline": 40.64625850340136,
+  "longest_answer_baseline": 47.10884353741496,
+  "question_types": {
+    "Which": 43.02721088435374,
+    "What": 60.54421768707483,
+    "How": 62.074829931972786,
+    "When": 3.2312925170068025,
+    "Why": 5.612244897959184,
+    "Where": 2.5510204081632653,
+    "Other": 0.3401360544217687
+  },
+  "avg_question_length": {
+    "mean": 451.8469387755102,
+    "std": 252.12857178097838
+  },
+  "avg_answer_length": {
+    "mean": 130.13095238095238,
+    "std": 62.69306292476775
+  },
+  "avg_documentation_length": {
+    "mean": 7576.275510204082,
+    "std": 2405.8945291343543
+  }
+}

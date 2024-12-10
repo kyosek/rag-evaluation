@@ -92,7 +92,7 @@
   },
   {
     "question": "Which newspaper has the most geographically expansive reach, considering both its primary circulation area and any additional news bureaus it operates?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -155,7 +155,7 @@
   },
   {
     "question": "Which of the following individuals was NOT directly involved in the production of the live-action film \"Dora and the Lost City of Gold\"?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -211,16 +211,16 @@
   },
   {
     "question": "What was a significant consequence of Lincoln Riley's departure from Oklahoma that extended beyond his immediate replacement as head coach?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
     "question": "What ultimately led to Cat Stevens's decision to change his stage name?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -239,9 +239,9 @@
   },
   {
     "question": "Considering Reagan's upbringing and later actions, what can be inferred about his personal evolution regarding social issues?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -526,9 +526,9 @@
   },
   {
     "question": "What significant event occurred in 1999 that marked a first for both Manchester United and English football clubs?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -582,7 +582,7 @@
   },
   {
     "question": "Which of the following individuals is most closely associated with a project focused on urban renewal and sustainability in Detroit?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -666,9 +666,9 @@
   },
   {
     "question": "What was a significant factor contributing to the decline in popularity of the West Coast Express line, despite their offensive success?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -750,7 +750,7 @@
   },
   {
     "question": "What factor contributed to \"Oh Santa!\" achieving a record-breaking debut on the Billboard Adult Contemporary songs chart?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -771,9 +771,9 @@
   },
   {
     "question": "Considering the various adaptations and releases of \"The Year Without a Santa Claus,\" what can be inferred about the enduring popularity and cultural impact of this holiday special?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -904,7 +904,7 @@
   },
   {
     "question": "Which of the following songs was released first?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1

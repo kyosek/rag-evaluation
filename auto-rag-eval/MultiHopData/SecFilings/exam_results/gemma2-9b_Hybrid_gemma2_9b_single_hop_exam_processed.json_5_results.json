@@ -50,16 +50,16 @@
   },
   {
     "question": "Which well, based on the provided information, is most likely to be considered a high-priority target for development due to its significant oil production potential and active status?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
     "question": "Based on the provided information, what is the primary factor preventing Vista Gold from definitively demonstrating the economic viability of the Awak Mas gold project?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -106,7 +106,7 @@
   },
   {
     "question": "Based on the information provided, what percentage of the Company's total net acreage in Wyoming is represented by leases held by production and activities (HBP) as of December 31, 2014?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -134,7 +134,7 @@
   },
   {
     "question": "What is the primary reason NorthWestern Public Service is developing a plan to ensure sufficient electric generating capacity?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -148,9 +148,9 @@
   },
   {
     "question": "What is the latest date on which a document related to Entergy Louisiana's financing was filed with the relevant regulatory authority?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -190,9 +190,9 @@
   },
   {
     "question": "Based on the provided information, what is the minimum gold price required for the NSR on production from the DWC-contributed property to exceed the NSR payable to Mr. Art Wilson?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -239,9 +239,9 @@
   },
   {
     "question": "Based on the provided information, which Permian Basin area had the highest percentage of proved developed reserves as of December 31, 2020?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -274,9 +274,9 @@
   },
   {
     "question": "Given the potential for conflicts of interest and the unpredictable nature of government regulations, what is the most significant risk facing the Company's ability to effectively manage its operations and financial performance?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -393,9 +393,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary reason AngloGold Ashanti Limited would consider processing sulfide ores at the Bogoso oxide plant?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -421,16 +421,16 @@
   },
   {
     "question": "Based on the information provided, what is the primary way PSI aims to reduce costs for the Partnership in its management of mini-warehouse facilities?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
     "question": "Given the geological history and structural features described, what is the most likely reason for the presence of a higher-grade mineralization zone at a specific depth within the Grassy Mountain deposit?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -463,9 +463,9 @@
   },
   {
     "question": "Given the factors influencing the company's financial performance, which of the following statements is most accurate regarding the company's future profitability?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -526,9 +526,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary method used to determine the number of restricted shares issued to Mr. Ward as part of his compensation?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -561,9 +561,9 @@
   },
   {
     "question": "Based on the provided information, what is the earliest date on which a supplemental indenture was executed for a mortgage agreement involving either WMECO or NAEC?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -575,7 +575,7 @@
   },
   {
     "question": "Which of the following Seacoast National branch locations was NOT opened in a building owned by Seacoast National?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -624,7 +624,7 @@
   },
   {
     "question": "Which property listed had the highest total value of its mortgage balance and construction cost as of December 31, 1999?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -645,9 +645,9 @@
   },
   {
     "question": "Based on the provided information, what is the most likely reason the company might experience financial difficulties with the Mountain View, California development project?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -876,9 +876,9 @@
   },
   {
     "question": "Based on the provided information, what is the most likely reason Simon Property Group, Inc. might need to borrow money?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -890,9 +890,9 @@
   },
   {
     "question": "Based on the information provided, what is the primary reason the company is seeking additional funding?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -932,9 +932,9 @@
   },
   {
     "question": "What was the primary motivation behind the Partnership's decision to sell its interests in Sullivan Garden Apartments, L.P. and Mills-Shapley Partnership, L.P.?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -1009,9 +1009,9 @@
   },
   {
     "question": "Based on the information provided, what is the primary reason XTO Energy might choose to sell gas directly to its marketing subsidiary rather than through the gathering subsidiary?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -1023,16 +1023,16 @@
   },
   {
     "question": "Which well, based on the provided information, has the highest combined interest across all listed states?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "Given the potential for legal and environmental liabilities, what is the most significant risk factor facing the Company's future success?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {

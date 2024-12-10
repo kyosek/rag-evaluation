@@ -15,16 +15,16 @@
   },
   {
     "question": "What is the primary factor influencing the shape of the distribution of electromagnetic complex amplitude configurations, as described in the provided text?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
     "question": "Based on the provided information, what makes C$_2$H a potentially valuable tracer for studying the earliest stages of massive star formation?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -246,9 +246,9 @@
   },
   {
     "question": "Which algorithm demonstrated the most consistent performance across both the DIMACS graphs and the CG:SHOP challenge, considering both runtime and the quality of the colorings achieved?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -281,9 +281,9 @@
   },
   {
     "question": "What is the primary reason the authors choose to parameterize the denoiser channels as a sum of CPTP maps rather than using a single, fixed gate?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -386,9 +386,9 @@
   },
   {
     "question": "Considering the complex relationships and events depicted in the text, what ultimately leads to Njoroge's despair and suicide attempt?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -414,7 +414,7 @@
   },
   {
     "question": "Considering the historical context of innovation in the mobile industry and the potential future economic landscape, what is the most likely scenario for Intel's involvement in the mobile processor market?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -505,9 +505,9 @@
   },
   {
     "question": "What is the primary reason the author believes the public is not supporting the project?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -554,9 +554,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary reason the author believes Boston College (BC) is successful in retaining players despite not always attracting the most highly touted recruits?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -603,30 +603,30 @@
   },
   {
     "question": "In the context of the described numerical method, what is the primary function of the  $\\hat{D}_F$ term, and how does its calculation differ between the standard FP equation and the modified FP equation used in the NFPA scheme?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
     "question": "Which individual held a position of academic leadership at Oxford University and was also involved in religious administration within the city of Oxford?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
     "question": "Based on the provided information, what is the most likely distance to XMMSL1~J060636.2-694933 and what factors support this conclusion?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
     "question": "What is the primary factor influencing the shape of the distribution of electromagnetic complex amplitude configurations, as described in the provided text?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -806,9 +806,9 @@
   },
   {
     "question": "What was a key factor that led to Goodwin's transfer to Newport, Rhode Island in April 1950?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -897,7 +897,7 @@
   },
   {
     "question": "Which object detection model, when using the ResNet-50 backbone, achieves the highest combined score across AP, AP<sub>50</sub>, and AP<sub>75</sub> metrics?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 1
@@ -953,9 +953,9 @@
   },
   {
     "question": "Given the conditions described in the provided text, what is the relationship between the initial amplitude of a density perturbation and the maximum achievable velocity of the corresponding plasma blob?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {

@@ -197,9 +197,9 @@
   },
   {
     "question": "Under what specific conditions, as described in the provided text, can a suitable function g(x) be found to guarantee the existence of a stable sub-solution for equation (G)?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -463,9 +463,9 @@
   },
   {
     "question": "Which Champion's ability was adjusted due to its effectiveness being disproportionately high at lower levels where there were fewer counter-mechanisms?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -603,9 +603,9 @@
   },
   {
     "question": "In the context of the described numerical method, what is the primary function of the  $\\hat{D}_F$ term, and how does its calculation differ between the standard FP equation and the modified FP equation used in the NFPA scheme?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -617,9 +617,9 @@
   },
   {
     "question": "Based on the provided information, what is the most likely distance to XMMSL1~J060636.2-694933 and what factors support this conclusion?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
