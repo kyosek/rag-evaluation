@@ -29,9 +29,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary factor influencing the timing of revenue recognition for Oil and Gas Production Trust?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -71,7 +71,7 @@
   },
   {
     "question": "What was the primary factor contributing to the decrease in total cash costs per ounce of gold sold at the Kori Kollo mine between 2000 and 2001?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -127,9 +127,9 @@
   },
   {
     "question": "What are the primary financial obligations of a TRS lessee under the lease agreement, excluding any capital expenditures for building and improvements?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -162,7 +162,7 @@
   },
   {
     "question": "Given the information about the Ahafo mine, what is the primary factor limiting the mine's current processing capacity?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -190,7 +190,7 @@
   },
   {
     "question": "Based on the provided information, what is the minimum gold price required for the NSR on production from the DWC-contributed property to exceed the NSR payable to Mr. Art Wilson?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -274,7 +274,7 @@
   },
   {
     "question": "Given the potential for conflicts of interest and the unpredictable nature of government regulations, what is the most significant risk facing the Company's ability to effectively manage its operations and financial performance?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -309,9 +309,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary reason the company's capital expenditure program for 1997-2001 might not be fully realized?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -624,9 +624,9 @@
   },
   {
     "question": "Which property listed had the highest total value of its mortgage balance and construction cost as of December 31, 1999?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -827,7 +827,7 @@
   },
   {
     "question": "Which apartment complex has the highest percentage of units occupied despite having the lowest percentage of units rented?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -897,9 +897,9 @@
   },
   {
     "question": "Given the information about the Lucky Friday mine's operations and future plans, what is the primary factor influencing the mine's projected lifespan?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -953,9 +953,9 @@
   },
   {
     "question": "Under what circumstances might a Participating Lease be terminated, and what options would the Company have in such a situation?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -974,7 +974,7 @@
   },
   {
     "question": "Based on the information provided, what can be inferred about the company's future exploration strategy for the Chandalar gold property?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1

@@ -190,9 +190,9 @@
   },
   {
     "question": "Based on the provided research, what is the primary mechanism by which dietary phylloquinone contributes to the body's vitamin K stores?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -211,9 +211,9 @@
   },
   {
     "question": "Given the recent updates, what is the PRIMARY way players can now customize their in-game experience and gain advantages for their Champions?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -470,9 +470,9 @@
   },
   {
     "question": "Under what specific conditions, as described in the provided proofs, can the term involving  $ \\nabla \\omega_1 \\cdot \\nabla \\phi$ be dropped from the analysis?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -512,7 +512,7 @@
   },
   {
     "question": "Given the challenges builders face when constructing the fuselage of a KR-series aircraft, what is the primary reason the top longeron often develops an undesirable \"banana\" shape?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -638,9 +638,9 @@
   },
   {
     "question": "What is the primary factor investigated in the study regarding the dynamic process and TNE behaviors on SBI?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -897,9 +897,9 @@
   },
   {
     "question": "Which object detection model, when using the ResNet-50 backbone, achieves the highest combined score across AP, AP<sub>50</sub>, and AP<sub>75</sub> metrics?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -1009,7 +1009,7 @@
   },
   {
     "question": "Which of the following product combinations from FastSOC Microelectronics Co., Ltd.  is specifically designed to support both PD3.1 and third-party protocols with a maximum inducement voltage of 48V?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
