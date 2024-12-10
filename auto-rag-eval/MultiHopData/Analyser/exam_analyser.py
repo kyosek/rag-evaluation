@@ -188,15 +188,8 @@ class ExamAnalyser:
         )
 
 
-def main(exam_path: str, task_domain: str, output_dir: str):
-    parser = argparse.ArgumentParser(description="Analyse multiple choice exam data")
-    parser.add_argument(
-        "--display-samples", type=int, default=3, help="Number of sample questions to display"
-    )
-    parser.add_argument("--output-dir", default=None, help="Directory to save analytics output")
-
-    args = parser.parse_args()
-
+def main(exam: str, task_domain: str, output_dir: str):
+    exam_path = f"auto-rag-eval/MultiHopData/{task_domain}/exams/{exam}"
     # Load exam data
     with open(exam_path, "r") as f:
         exam_data = json.load(f)
@@ -204,13 +197,13 @@ def main(exam_path: str, task_domain: str, output_dir: str):
     # Create analyzer and compute analytics
     analyzer = ExamAnalyser(exam_data, task_domain)
     analytics = analyzer.compute_exam_analytics(
-        save_failed_question=True, display_n_samples=args.display_samples
+        save_failed_question=True, display_n_samples=2
     )
 
     # Save analytics
     if output_dir:
         os.makedirs(output_dir, exist_ok=True)
-        output_path = os.path.join(output_dir, f"exam_analytics_{task_domain}.json")
+        output_path = os.path.join(output_dir, f"{exam}_exam_analytics_{task_domain}.json")
     else:
         output_path = os.path.splitext(exam_path)[0] + "_analytics.json"
 
@@ -235,6 +228,5 @@ if __name__ == "__main__":
         for exam in exams:
             print(f"Processing {task_domain} - {exam}")
             output_dir = f"auto-rag-eval/MultiHopData/{task_domain}/exam_stats/"
-            exam_path = f"auto-rag-eval/MultiHopData/{task_domain}/exams/{exam}"
         
-            main(exam_path, task_domain, output_dir)
+            main(exam, task_domain, output_dir)

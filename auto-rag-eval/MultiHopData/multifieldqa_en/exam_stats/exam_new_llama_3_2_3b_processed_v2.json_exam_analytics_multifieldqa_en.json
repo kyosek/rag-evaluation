@@ -1,0 +1,35 @@
+{
+  "exam_id": "multifieldqa_en:",
+  "total_questions": 530,
+  "processed_questions": 530,
+  "processing_success_rate": 100.0,
+  "answer_distribution": {
+    "A": 60,
+    "B": 231,
+    "C": 169,
+    "D": 70
+  },
+  "best_fixed_answer_baseline": 43.58490566037736,
+  "longest_answer_baseline": 43.9622641509434,
+  "question_types": {
+    "Which": 41.698113207547166,
+    "What": 50.943396226415096,
+    "How": 62.64150943396226,
+    "When": 5.849056603773585,
+    "Why": 2.452830188679245,
+    "Where": 13.20754716981132,
+    "Other": 4.90566037735849
+  },
+  "avg_question_length": {
+    "mean": 502.0867924528302,
+    "std": 287.31940023271835
+  },
+  "avg_answer_length": {
+    "mean": 127.53066037735849,
+    "std": 57.45173633628898
+  },
+  "avg_documentation_length": {
+    "mean": 7552.241509433962,
+    "std": 2411.9633571040868
+  }
+}

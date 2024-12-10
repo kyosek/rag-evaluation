@@ -1,0 +1,35 @@
+{
+  "exam_id": "wiki:",
+  "total_questions": 394,
+  "processed_questions": 394,
+  "processing_success_rate": 100.0,
+  "answer_distribution": {
+    "B": 112,
+    "C": 111,
+    "A": 47,
+    "D": 124
+  },
+  "best_fixed_answer_baseline": 31.472081218274113,
+  "longest_answer_baseline": 48.223350253807105,
+  "question_types": {
+    "Which": 96.19289340101523,
+    "What": 6.598984771573604,
+    "How": 2.284263959390863,
+    "When": 1.015228426395939,
+    "Why": 1.2690355329949239,
+    "Where": 0.25380710659898476,
+    "Other": 0.5076142131979695
+  },
+  "avg_question_length": {
+    "mean": 173.60659898477158,
+    "std": 181.21647614245492
+  },
+  "avg_answer_length": {
+    "mean": 106.12182741116752,
+    "std": 74.0902334734677
+  },
+  "avg_documentation_length": {
+    "mean": 6575.916243654822,
+    "std": 2492.059665464213
+  }
+}
