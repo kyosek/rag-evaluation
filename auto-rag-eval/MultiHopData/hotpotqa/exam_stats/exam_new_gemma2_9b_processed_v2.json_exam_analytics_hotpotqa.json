@@ -1,0 +1,35 @@
+{
+  "exam_id": "hotpotqa:",
+  "total_questions": 186,
+  "processed_questions": 186,
+  "processing_success_rate": 100.0,
+  "answer_distribution": {
+    "C": 72,
+    "D": 28,
+    "A": 24,
+    "B": 62
+  },
+  "best_fixed_answer_baseline": 38.70967741935484,
+  "longest_answer_baseline": 40.32258064516129,
+  "question_types": {
+    "Which": 41.935483870967744,
+    "What": 47.8494623655914,
+    "How": 8.602150537634408,
+    "When": 0.0,
+    "Why": 0.0,
+    "Where": 0.5376344086021505,
+    "Other": 6.989247311827957
+  },
+  "avg_question_length": {
+    "mean": 165.91397849462365,
+    "std": 60.36754021929807
+  },
+  "avg_answer_length": {
+    "mean": 84.56989247311827,
+    "std": 60.224673050789235
+  },
+  "avg_documentation_length": {
+    "mean": 5033.236559139785,
+    "std": 1874.495851349889
+  }
+}
