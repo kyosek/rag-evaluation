@@ -190,9 +190,9 @@
   },
   {
     "question": "Which of the following individuals is most closely associated with a shift in perspective regarding the concept of God, moving from a skeptical view to one of profound awe and mystery?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -281,9 +281,9 @@
   },
   {
     "question": "Given the complex relationship between King Gustav III, Queen Sophia Magdalena, and their court, what was the most likely reason for the King's fear when Sophia Magdalena deposited money for Munck?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -295,7 +295,7 @@
   },
   {
     "question": "What is the primary reason \"Carry On Matron\" is considered a significant film within the \"Carry On\" series?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -330,9 +330,9 @@
   },
   {
     "question": "What was the familial connection between Princess Elizabeth and Archduchess Sophie of Austria?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -386,7 +386,7 @@
   },
   {
     "question": "What was a significant factor that led to Wilcox's shift in filmmaking focus from realistic drama to escapist entertainment?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -421,9 +421,9 @@
   },
   {
     "question": "Which Carry On film marked a significant shift in the series' tone and content, aligning it more closely with popular X-rated comedies of the time?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -491,9 +491,9 @@
   },
   {
     "question": "Which individual's life was significantly impacted by a political revolution, leading to a change in their social standing and role within a political organization?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -554,9 +554,9 @@
   },
   {
     "question": "Based on the information provided, which individual experienced a significant personal loss in the year 1884?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -953,7 +953,7 @@
   },
   {
     "question": "What political position did Bernard hold that directly preceded his role as a Parliamentary Affairs Advisor for Pierre Paul-Hus?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -1002,7 +1002,7 @@
   },
   {
     "question": "What was the primary reason given by President Lee Myung-bak for pardoning Lee Kun-hee?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -1023,7 +1023,7 @@
   },
   {
     "question": "Which individual's career path involved a transition from composing songs for stage productions to a role in a musical comedy?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -1037,9 +1037,9 @@
   },
   {
     "question": "What ultimately led to the resolution of the conflict between Humphrey de Bohun and King Edward I?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
