@@ -1,9 +1,9 @@
 [
   {
     "question": "What is the maximum potential length of time that both TCI and Apollo could occupy their respective leased spaces in the Windy Point I building?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -29,14 +29,14 @@
   },
   {
     "question": "Based on the provided information, what is the primary factor influencing the timing of revenue recognition for Oil and Gas Production Trust?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
     "question": "What was the ultimate financial outcome for the Company regarding the assets received from the insurance company?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 1
@@ -57,9 +57,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary factor preventing Vista Gold from definitively demonstrating the economic viability of the Awak Mas gold project?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -288,9 +288,9 @@
   },
   {
     "question": "What is the weighted average full-service rental rate per square foot for Company Office Properties as of December 31, 1999,  excluding any properties with leases that had not yet commenced?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -309,9 +309,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary reason the company's capital expenditure program for 1997-2001 might not be fully realized?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -337,9 +337,9 @@
   },
   {
     "question": "What was the primary factor influencing the determination of the purchase price for the Corona Property?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -393,7 +393,7 @@
   },
   {
     "question": "Based on the provided information, what is the primary reason AngloGold Ashanti Limited would consider processing sulfide ores at the Bogoso oxide plant?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -456,7 +456,7 @@
   },
   {
     "question": "Based on the provided information, what is the primary difference in how the company accounts for the \"Riviera RV\" property compared to the \"Green Valley\" property?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -519,16 +519,16 @@
   },
   {
     "question": "Considering the information provided, what is the most likely reason the company believes the number of traditional department store anchors will decline?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "Based on the provided information, what is the primary method used to determine the number of restricted shares issued to Mr. Ward as part of his compensation?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -582,9 +582,9 @@
   },
   {
     "question": "Which mall, based on the provided information, is projected to have the highest annual ground rent in 2015?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -673,9 +673,9 @@
   },
   {
     "question": "Based on the information provided, what is the total minimum financial commitment required for the Lookout Mountain project by June 1, 2016?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -694,9 +694,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary output of the La Caridad complex's copper rod plant, and what is the primary method used to extract copper from ore at IMMSA's mining facilities?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -743,7 +743,7 @@
   },
   {
     "question": "Which facility listed in the filing primarily serves end markets that are different from the others?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -820,9 +820,9 @@
   },
   {
     "question": "Based on the provided information, what is the most likely reason XTO Energy believes compliance with the laws in question will not have a material adverse effect on unitholders?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -911,9 +911,9 @@
   },
   {
     "question": "Based on the provided financial information, what was the net change in the Company's current assets from December 31, 2010 to December 31, 2011?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -1016,14 +1016,14 @@
   },
   {
     "question": "What was the primary reason for the formation of the Fund VII-VIII Joint Venture?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "Which well, based on the provided information, has the highest combined interest across all listed states?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1

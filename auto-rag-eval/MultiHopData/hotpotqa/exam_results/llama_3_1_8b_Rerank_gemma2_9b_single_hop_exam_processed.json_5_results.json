@@ -176,9 +176,9 @@
   },
   {
     "question": "What is the highest attendance recorded for a football game at the Coliseum that did NOT involve either USC or UCLA?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -204,9 +204,9 @@
   },
   {
     "question": "What ultimately led to the US War Department's decision to withdraw \"The Real Glory\" in 1942?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -267,9 +267,9 @@
   },
   {
     "question": "Which of the following companies is NOT directly involved in the production or distribution of Coca-Cola products?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -414,9 +414,9 @@
   },
   {
     "question": "How does the composer's use of key changes and thematic material in the recapitulation differ from the exposition, and what effect does this have on the overall structure of the movement?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -715,14 +715,14 @@
   },
   {
     "question": "What was the primary catalyst for the events described in the provided text, and what was the ultimate consequence of this catalyst?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "What ultimately determines the fate of the Phantom Ruby at the end of the game?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -806,9 +806,9 @@
   },
   {
     "question": "Which of the following organisms is NOT known to be a food source for the larvae of the pistacia hawkmoth (Akbesia davidi)?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -967,7 +967,7 @@
   },
   {
     "question": "Which of the following industries is NOT a significant contributor to Hollywood's economy based on the provided information?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
