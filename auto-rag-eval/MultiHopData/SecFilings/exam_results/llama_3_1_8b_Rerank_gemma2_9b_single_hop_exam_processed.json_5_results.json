@@ -36,7 +36,7 @@
   },
   {
     "question": "What was the ultimate financial outcome for the Company regarding the assets received from the insurance company?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 1
@@ -50,9 +50,9 @@
   },
   {
     "question": "Which well, based on the provided information, is most likely to be considered a high-priority target for development due to its significant oil production potential and active status?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -99,9 +99,9 @@
   },
   {
     "question": "What is the likely consequence for the Partnership if the successor general partner nominee is not elected?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -162,9 +162,9 @@
   },
   {
     "question": "Given the information about the Ahafo mine, what is the primary factor limiting the mine's current processing capacity?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -288,9 +288,9 @@
   },
   {
     "question": "What is the weighted average full-service rental rate per square foot for Company Office Properties as of December 31, 1999,  excluding any properties with leases that had not yet commenced?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -393,9 +393,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary reason AngloGold Ashanti Limited would consider processing sulfide ores at the Bogoso oxide plant?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -498,7 +498,7 @@
   },
   {
     "question": "Based on the provided information, what is the PRIMARY factor influencing the choice of employee housing location for the Hycroft Mine?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -743,7 +743,7 @@
   },
   {
     "question": "Which facility listed in the filing primarily serves end markets that are different from the others?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -1016,14 +1016,14 @@
   },
   {
     "question": "What was the primary reason for the formation of the Fund VII-VIII Joint Venture?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "Which well, based on the provided information, has the highest combined interest across all listed states?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1

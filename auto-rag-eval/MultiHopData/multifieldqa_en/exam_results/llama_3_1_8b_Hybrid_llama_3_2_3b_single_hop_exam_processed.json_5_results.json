@@ -8,9 +8,9 @@
   },
   {
     "question": "What is the primary consequence of the non-local pairing induced by superconducting proximity effect on the Kondo screening in QDs?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -204,9 +204,9 @@
   },
   {
     "question": "What is a key consideration when designing a supercircuit for benchmarking a denoiser, particularly in terms of the dimensionality of the quasiprobabilistic mitigating ensemble?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -246,9 +246,9 @@
   },
   {
     "question": "Analyze the passage to determine the likely outcome for Jesse Lazear, the American who contracted yellow fever in Cuba in 1900, based on the information provided about the disease's progression and the experiment described by Lazear.",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -288,9 +288,9 @@
   },
   {
     "question": "What is the likely outcome if the Libyan delegation fails to respond to the US suggestions by midday tomorrow?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -302,9 +302,9 @@
   },
   {
     "question": "What can be inferred about the role of astrocytes in the central nervous system based on the isolation and culture of mouse cortical astrocytes?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -344,7 +344,7 @@
   },
   {
     "question": "A patient with familial hypercholesterolemia (FH) undergoes a coronary catheterization to evaluate for ischemic heart disease (IHD). During the procedure, a fractional flow reserve (FFR) test is performed to assess the pressure differences across a coronary artery stenosis. The results of the FFR test indicate a significant pressure drop, suggesting a critical stenosis. However, the patient's high cholesterol levels are not adequately controlled, and they have a history of heart failure. Which of the following is the most likely outcome for this patient?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -414,16 +414,16 @@
   },
   {
     "question": "As the government teeters on the brink of a shutdown, what is a potential consequence of the impending crisis for the city of Washington, D.C., which is heavily reliant on federal funding?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "If the government awards licenses for HDTV, which of the following is a likely outcome?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -554,16 +554,16 @@
   },
   {
     "question": "The recent incident involving the compromised accounts in the game has raised concerns about the security of password storage. What can be inferred about the password storage system of QONQR based on the information provided?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
     "question": "The proposed algorithm for the MISO channel estimation is an adaptable step-size LMS that performs well in both stationary and tracking scenarios. However, the choice of parameters for the algorithm can be challenging. What are the advantages of using a probabilistic interpretation of the LMS algorithm, and how does it address the issue of parameter tuning?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -638,9 +638,9 @@
   },
   {
     "question": "Consider the asymptotic order of E[exp{\u03bb H(f ) \u221e }] for n, p \u2192 \u221e, where \u03bb > 0 may depend on n, p or not. By the exponential decay property of the kernel K stated in Lemma 2, we can bound the moment generating function of H(f ) \u221e as follows:",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -701,7 +701,7 @@
   },
   {
     "question": "What can be inferred about the complicity of doctors and pharmacies in fueling the opioid epidemic in Ohio, based on the information provided about David L. Kidd's ring?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -729,7 +729,7 @@
   },
   {
     "question": "Which of the following models achieves the highest average precision at the 50% threshold, while also achieving the highest average precision at the 75% threshold, and has the lowest FLOPS?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -750,7 +750,7 @@
   },
   {
     "question": "What was the primary reason for the discontinuation of KSTP-FM 102.1 in 1952, despite its initial success in the early 1940s?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -785,9 +785,9 @@
   },
   {
     "question": "A user visits the Agency Spotter website and clicks on a link to a third-party service. The user's browser sends a request to the Agency Spotter server, which logs the request, including the user's IP address, browser type, and cookies. The user then clicks on an ad on the third-party service's website, which uses cookies to track the user's browsing behavior. The user returns to the Agency Spotter website and uploads a file, which is stored on the Agency Spotter server. The server logs the file upload, including the date and time of the upload, the amount of time spent on the upload page, and the pages viewed before and after the upload. The Agency Spotter server also shares the user's information with the third-party service, which uses it to personalize advertising content. However, the user has set their browser to limit the placement of cookies by advertising networks. Which of the following statements is true?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -911,23 +911,23 @@
   },
   {
     "question": "Analyze the implications of the Supreme Court's role in resolving disputes between the President and Congress over custody of their respective powers. How might this impact the balance of power in the American constitutional order?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
-    "number_of_hops": 1
-  },
-  {
-    "question": "Analyzing the reconstruction error plots in Fig. \\ref{PL-err-Jor1}, what can be inferred about the effect of the number of samples on the reconstruction error for the 2XY model at different temperatures?",
-    "model_answer": "C",
-    "correct_answer": "C",
     "is_correct": true,
     "number_of_hops": 1
   },
   {
-    "question": "The development of plasticity mechanisms in agents is influenced by various factors, including environmental variability, sensory system reliability, and the complexity of the motor network. However, the relationship between these factors is not always straightforward. Which of the following statements best summarizes the findings of the study on the impact of environmental variability on the development of plasticity mechanisms in agents?",
-    "model_answer": "B",
+    "question": "Analyzing the reconstruction error plots in Fig. \\ref{PL-err-Jor1}, what can be inferred about the effect of the number of samples on the reconstruction error for the 2XY model at different temperatures?",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The development of plasticity mechanisms in agents is influenced by various factors, including environmental variability, sensory system reliability, and the complexity of the motor network. However, the relationship between these factors is not always straightforward. Which of the following statements best summarizes the findings of the study on the impact of environmental variability on the development of plasticity mechanisms in agents?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -1023,9 +1023,9 @@
   },
   {
     "question": "According to the NFPA algorithm, what is the primary advantage of setting up the LO equation in the described fashion?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -1044,9 +1044,9 @@
   },
   {
     "question": "What is the primary consequence of the Penning-regulated NO$^+$ ion - NO$^*$ Rydberg molecule balance on the stability of the ultracold plasma?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   }
 ]

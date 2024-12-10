@@ -85,9 +85,9 @@
   },
   {
     "question": "Which of the following individuals experienced a significant career shift after a personal tragedy, leading to a notable change in their professional focus?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -120,16 +120,16 @@
   },
   {
     "question": "What significant career shift did Astrid North make in 2003, and what motivated this change?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "Given the information provided, what was the primary reason for Hugh Willoughby's transfer from Rivington Grammar School?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -148,9 +148,9 @@
   },
   {
     "question": "What was the primary source of tension between James Armour and Robert Burns?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -190,7 +190,7 @@
   },
   {
     "question": "Which of the following individuals is most closely associated with a shift in perspective regarding the concept of God, moving from a skeptical view to one of profound awe and mystery?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 1
@@ -211,9 +211,9 @@
   },
   {
     "question": "Based on the information provided, what can be inferred about the primary focus of Douglas Adams' professional career?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -253,9 +253,9 @@
   },
   {
     "question": "Which of the following individuals is most closely associated with a publication that focused on a specific niche interest rather than a broad range of topics?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -309,16 +309,16 @@
   },
   {
     "question": "Based on the provided information, what can be inferred about the nature of Kennedy's contributions to the art world?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
     "question": "What ultimately led to Bonnie Tyler achieving significant commercial success in the music industry?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -386,7 +386,7 @@
   },
   {
     "question": "What was a significant factor that led to Wilcox's shift in filmmaking focus from realistic drama to escapist entertainment?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -449,9 +449,9 @@
   },
   {
     "question": "Which film features a protagonist who is a police commissioner investigating a case in Genova, Italy?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -505,16 +505,16 @@
   },
   {
     "question": "Which of the following individuals is most likely to have been involved in a legal dispute during their lifetime?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "What is the primary motivation behind the filmmakers' decision to present the events in \"August Underground's Mordum\" as a faux snuff film?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -610,7 +610,7 @@
   },
   {
     "question": "What event in the film directly precedes Peter and Crusty's decision to torture and murder several people they have imprisoned?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -694,9 +694,9 @@
   },
   {
     "question": "Based on the provided information, what significant career milestone did Mary Joan Nielubowicz achieve in 1983?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -715,9 +715,9 @@
   },
   {
     "question": "Which individual is directly linked to the establishment of a major religious movement?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -743,7 +743,7 @@
   },
   {
     "question": "Based on the provided information, what can be inferred about the individual's soccer career progression?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -827,9 +827,9 @@
   },
   {
     "question": "Which of the following individuals is most likely to be found in a setting similar to the one described in Passage 7?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -841,9 +841,9 @@
   },
   {
     "question": "Which individual's career path most closely resembles a trajectory of defying established norms and facing significant controversy?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -1002,16 +1002,16 @@
   },
   {
     "question": "What was the primary reason given by President Lee Myung-bak for pardoning Lee Kun-hee?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "Based on the provided information, what is the most likely reason Dana Blankstein Cohen was appointed director of the Sam Spiegel Film and Television School?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -1044,9 +1044,9 @@
   },
   {
     "question": "What significant career shift did Juran make in the late 1950s, and what specific genre of film did he primarily focus on in this new role?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   }
 ]
