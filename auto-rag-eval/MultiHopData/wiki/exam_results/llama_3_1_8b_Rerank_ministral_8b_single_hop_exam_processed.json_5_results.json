@@ -15,9 +15,9 @@
   },
   {
     "question": "Based on the information provided, what is the most likely reason for the negative reception of Anderson's films?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -36,9 +36,9 @@
   },
   {
     "question": "Which of the following statements is true about the relationship between John III, Count of Soissons, and the other individuals mentioned in the provided documentation?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -197,9 +197,9 @@
   },
   {
     "question": "Based on the information provided, what was the primary reason for Griffin's move to Los Angeles at the age of 18?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -414,9 +414,9 @@
   },
   {
     "question": "In the context of the Holmes v. Jennison case, which of the following statements is the most accurate synthesis of the legal arguments and the outcome of the case?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -659,7 +659,7 @@
   },
   {
     "question": "Which of the following is the most accurate description of Andrew Allen's career trajectory, based on the information provided?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -673,9 +673,9 @@
   },
   {
     "question": "Which of the following statements best describes the significance of the Statute of Quo warranto in the context of Edward's reign?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -708,9 +708,9 @@
   },
   {
     "question": "Which of the following statements is true about the church's history and current use?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -743,7 +743,7 @@
   },
   {
     "question": "Which of the following statements is true about the player's career progression and achievements?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 1
@@ -841,9 +841,9 @@
   },
   {
     "question": "Which of the following statements is true about the career of Aretas B. Fleming, the 8th governor of West Virginia?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -862,9 +862,9 @@
   },
   {
     "question": "Which of the following statements best describes the relationship between the underground network of representatives and the restrictions placed on the eleventh Imam by the Abbasid caliphate?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -967,9 +967,9 @@
   },
   {
     "question": "Which of the following events occurred in the same year as the premiere of the film \"Man at Bath\"?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
