@@ -8,7 +8,7 @@
   },
   {
     "question": "Based on the provided information, what can be inferred about the director's approach to filmmaking in his later career?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -253,9 +253,9 @@
   },
   {
     "question": "Which of the following individuals is most closely associated with a publication that focused on a specific niche interest rather than a broad range of topics?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -554,9 +554,9 @@
   },
   {
     "question": "Based on the information provided, which individual experienced a significant personal loss in the year 1884?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -652,16 +652,16 @@
   },
   {
     "question": "What event directly led to Chalbaud's shift from filmmaking to theatre in the early 1960s?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "Which of the following statements accurately reflects the career trajectory of the individual described in the provided text?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -715,9 +715,9 @@
   },
   {
     "question": "Which individual is directly linked to the establishment of a major religious movement?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -743,7 +743,7 @@
   },
   {
     "question": "Based on the provided information, what can be inferred about the individual's soccer career progression?",
-    "model_answer": "C",
+    "model_answer": ".",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -806,9 +806,9 @@
   },
   {
     "question": "Which individual's career path demonstrates the longest period of experience as an associate director before making their directorial debut?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -967,9 +967,9 @@
   },
   {
     "question": "Which of the following artistic collaborations is NOT explicitly mentioned as being promoted by Omar in the provided text?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {

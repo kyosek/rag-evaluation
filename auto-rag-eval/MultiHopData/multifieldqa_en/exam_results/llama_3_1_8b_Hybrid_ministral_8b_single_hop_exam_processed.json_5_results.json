@@ -1,9 +1,9 @@
 [
   {
     "question": "Given the provided information, which of the following statements is true about the function $Z$ defined in the document?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -15,9 +15,9 @@
   },
   {
     "question": "Given the provided information, which of the following statements is true about the function $Z$ defined in the document?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -71,9 +71,9 @@
   },
   {
     "question": "Which solver is the most efficient in terms of runtime and iteration count for the problem with $g=0.99$ and HGK?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -120,7 +120,7 @@
   },
   {
     "question": "Which of the following statements is true about the NFPA method and the HOLO-plus-consistency system?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -155,9 +155,9 @@
   },
   {
     "question": "Based on the information provided, what is the most likely reason for the 24-year-old son's repeated failure to complete college courses?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -197,9 +197,9 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the conditions for stable sub-solutions and super-solutions in the context of the given equations and weights?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -239,9 +239,9 @@
   },
   {
     "question": "Which of the following statements is true about the use of tactile feedback in anthropomorphic robots for complex manipulation tasks?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -288,9 +288,9 @@
   },
   {
     "question": "Which of the following statements best describes the primary challenge faced by the system in real-time smart environments with older adults, and how does the proposed solution address it?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -316,7 +316,7 @@
   },
   {
     "question": "Which of the following is the most appropriate command to install the latest version of Go on an Ubuntu system, given that the current version is 1.6.2 and the official website provides the latest version as 1.11?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -372,9 +372,9 @@
   },
   {
     "question": "Which of the following statements best summarizes the implications of the Wayfair decision on the relationship between the legislative and judicial branches in the context of constitutional law?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -393,9 +393,9 @@
   },
   {
     "question": "Based on the information provided, who is most likely to be the person who killed Jacobo, and what is the significance of this event in the context of the novel?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -470,9 +470,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided mathematical proofs, which of the following statements is true regarding the conditions for the non-existence of a stable solution to the problem $(G)$?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -610,9 +610,9 @@
   },
   {
     "question": "Which of the following statements is true about the career progression of John Roper, based on the provided information?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -960,7 +960,7 @@
   },
   {
     "question": "In the context of the provided information, what is the primary reason for the discrepancy between the DBM results and the experimental results?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -1030,16 +1030,16 @@
   },
   {
     "question": "In the context of the provided algorithm, which of the following statements is true about the LO (Local Optimization) method?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "Based on the provided information, which of the following statements is the most accurate description of the relationship between self-maintenance and consciousness?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {

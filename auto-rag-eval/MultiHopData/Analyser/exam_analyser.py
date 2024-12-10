@@ -18,7 +18,7 @@ class MCQuestion:
 
     def correct_candidate_is_longest(self) -> bool:
         """Check if the correct answer is the longest among all choices."""
-        correct_idx = ord(self.correct_answer[0]) - ord("A")
+        correct_idx = ord(self.correct_answer) - ord("A")
         lengths = [len(choice) for choice in self.choices]
         return lengths[correct_idx] == max(lengths)
 
@@ -68,7 +68,8 @@ class ExamAnalyser:
         for question_data in exam_data:
             try:
                 # Extract correct answer letter from the full answer string
-                correct_answer = question_data["correct_answer"].split(")")[0]
+                # correct_answer = question_data["correct_answer"].split(")")[0]
+                correct_answer = question_data["correct_answer"]
 
                 question = MCQuestion(
                     question=question_data["question"],
@@ -100,13 +101,13 @@ class ExamAnalyser:
         analytics = {}
 
         # Basic stats
-        analytics["exam_id"] = f"{self.task_domain}:{self.question_date}"
+        analytics["exam_id"] = f"{self.task_domain}:"
         analytics["total_questions"] = self.n_question
         analytics["processed_questions"] = len(self.question_list)
         analytics["processing_success_rate"] = 100 * len(self.question_list) / self.n_question
 
         # Answer analysis
-        answer_analysis = Counter([question.correct_answer[0] for question in self.question_list])
+        answer_analysis = Counter([question.correct_answer for question in self.question_list])
         analytics["answer_distribution"] = dict(answer_analysis)
         analytics["best_fixed_answer_baseline"] = convert_perc(max(answer_analysis.values()))
         analytics["longest_answer_baseline"] = convert_perc(
@@ -187,7 +188,7 @@ class ExamAnalyser:
         )
 
 
-def main(exam_path: str, task_domain: str):
+def main(exam_path: str, task_domain: str, output_dir: str):
     parser = argparse.ArgumentParser(description="Analyse multiple choice exam data")
     parser.add_argument(
         "--display-samples", type=int, default=3, help="Number of sample questions to display"
@@ -207,9 +208,9 @@ def main(exam_path: str, task_domain: str):
     )
 
     # Save analytics
-    if args.output_dir:
-        os.makedirs(args.output_dir, exist_ok=True)
-        output_path = os.path.join(args.output_dir, f"exam_analytics_{task_domain}.json")
+    if output_dir:
+        os.makedirs(output_dir, exist_ok=True)
+        output_path = os.path.join(output_dir, f"exam_analytics_{task_domain}.json")
     else:
         output_path = os.path.splitext(exam_path)[0] + "_analytics.json"
 
@@ -220,8 +221,20 @@ def main(exam_path: str, task_domain: str):
 
 
 if __name__ == "__main__":
-    task_domain = "gov_report"
-    
-    exam_path = f"auto-rag-eval/MultiHopData/gov_report/exams/exam_new_llama_3_2_3b_processed.json"
+    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    exams = [
+        "exam_new_llama_3_2_3b_processed_v2.json",
+        "exam_new_ministral_8b_processed_v2.json",
+        "exam_new_gemma2_9b_processed_v2.json",
+        "llama_3_2_3b_single_hop_exam_processed.json",
+        "ministral_8b_single_hop_exam_processed.json",
+        "gemma2_9b_single_hop_exam_processed.json"
+        ]
 
-    main(exam_path, task_domain)
+    for task_domain in task_domains:
+        for exam in exams:
+            print(f"Processing {task_domain} - {exam}")
+            output_dir = f"auto-rag-eval/MultiHopData/{task_domain}/exam_stats/"
+            exam_path = f"auto-rag-eval/MultiHopData/{task_domain}/exams/{exam}"
+        
+            main(exam_path, task_domain, output_dir)
