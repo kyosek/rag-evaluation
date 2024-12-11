@@ -43,7 +43,7 @@
   },
   {
     "question": "In the context of DBM modeling, which kinetic moments are reserved when only the first order term of Kn number is retained, and what additional kinetic moments are needed when the second order TNE is considered?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -197,9 +197,9 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the conditions for stable sub-solutions and super-solutions in the context of the given equations and weights?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -288,9 +288,9 @@
   },
   {
     "question": "Which of the following statements best describes the primary challenge faced by the system in real-time smart environments with older adults, and how does the proposed solution address it?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -323,9 +323,9 @@
   },
   {
     "question": "Which of the following statements is true about the history of KSTP, considering the information provided?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -400,9 +400,9 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the probabilistic interpretation of the least-mean-square (LMS) filter?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -596,9 +596,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary purpose of the models discussed in the text?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -617,9 +617,9 @@
   },
   {
     "question": "Based on the provided information, what is the most likely distance to XMMSL1 J060636.2-694933?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -666,9 +666,9 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is the most accurate representation of the arguments presented?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -687,9 +687,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided information, which of the following statements is the most accurate regarding the grading structure of the course?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -757,9 +757,9 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the changes made to the characters in the game?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -883,9 +883,9 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the behavior of the denoisers with different values of M and t?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {

@@ -15,9 +15,9 @@
   },
   {
     "question": "Which of the following statements is true about the Business Growth Fund (BGF)?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -43,9 +43,9 @@
   },
   {
     "question": "Based on the events described, what is the most likely reason for Syed's decision to secretly see Amira and Yasmin?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -92,16 +92,16 @@
   },
   {
     "question": "Which of the following statements is true about the distribution of newspapers in the Miami area?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "Which of the following statements is true about the New York Botanical Garden's exhibitions and its leadership?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -113,9 +113,9 @@
   },
   {
     "question": "Which of the following statements is true about the acquisition of Fisker Automotive by Wanxiang Group?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -134,9 +134,9 @@
   },
   {
     "question": "Which of the following statements is the most accurate description of Robot Jones' character development throughout the series?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -246,9 +246,9 @@
   },
   {
     "question": "In 2004, rumors circulated about H\u00e4kkinen's possible return to Formula One. However, he ultimately decided against it due to his age and declining physical abilities. In 2005, H\u00e4kkinen made his debut in the Deutsche Tourenwagen Masters (DTM) series. He had a successful start to his DTM career, securing a podium finish and a win within his first three races. Despite this, his performance fluctuated throughout the season, with several retirements and inconsistent results. He finished the season fifth in the Drivers' Championship. In 2006, H\u00e4kkinen continued with the HWA team for the second season. What was the primary reason for H\u00e4kkinen's decision to return to Formula One in 2004?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -547,9 +547,9 @@
   },
   {
     "question": "Which of the following statements is true about the Making Home Affordable Program (HAMP) and its modifications?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -568,9 +568,9 @@
   },
   {
     "question": "In the 1993 film version of George Balanchine's Nutcracker, which of the following changes were made to the original ballet to enhance the musical transition?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -645,9 +645,9 @@
   },
   {
     "question": "Which of the following best describes the primary goal of Cloward and Piven's strategy to reform the welfare system?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -953,9 +953,9 @@
   },
   {
     "question": "Which of the following statements is true about the career of Terrell \"TJ\" Woods?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -981,9 +981,9 @@
   },
   {
     "question": "Which of the following statements is true about the 2000 Oklahoma Sooners' season?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -1030,9 +1030,9 @@
   },
   {
     "question": "Which of the following is the most accurate description of the Kring art gallery's unique facade?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
