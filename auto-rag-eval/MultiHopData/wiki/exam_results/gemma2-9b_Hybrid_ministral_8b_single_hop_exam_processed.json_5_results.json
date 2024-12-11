@@ -1,9 +1,9 @@
 [
   {
     "question": "Which of the following statements is true about the musical career of Jim Bob?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -85,7 +85,7 @@
   },
   {
     "question": "Which of the following statements about Peter Levin is true, given the information provided?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -99,9 +99,9 @@
   },
   {
     "question": "Which of the following statements is true about the Dance of Death, considering the information provided in the given passages?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -120,9 +120,9 @@
   },
   {
     "question": "Which of the following statements is true about Astrid North's career?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -204,9 +204,9 @@
   },
   {
     "question": "In which year did Upton and Blanchett adopt their daughter?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -232,9 +232,9 @@
   },
   {
     "question": "Which of the following statements is true about the film \"Dance with a Stranger\"?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -281,14 +281,14 @@
   },
   {
     "question": "In what year did Sophia Magdalena have her second son, and what was the significance of the deposit she made in 1787?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "Which of the following statements about Raoul Walsh's career is true?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 1
@@ -309,7 +309,7 @@
   },
   {
     "question": "Which of the following statements is true about the works of art curated by Kennedy?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -330,9 +330,9 @@
   },
   {
     "question": "Which of the following statements is true about Princess Elizabeth's family and her husband's family?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -435,9 +435,9 @@
   },
   {
     "question": "Based on the events described, what is the most likely reason why the police officer shot Emma?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -477,7 +477,7 @@
   },
   {
     "question": "Which of the following statements best describes the relationship between Hungary and the Holy Roman Empire during the 11th century, based on the provided information?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -519,9 +519,9 @@
   },
   {
     "question": "Which of the following statements about Jacques Tourneur's career is true?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -540,9 +540,9 @@
   },
   {
     "question": "Which of the following statements about Abhishek Saxena's career is true?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -575,9 +575,9 @@
   },
   {
     "question": "Which of the following is the most accurate description of the sequence of events involving Siu-bo, Lung-er, and the Heaven and Earth Society?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -645,9 +645,9 @@
   },
   {
     "question": "Based on the provided information, what is the most likely outcome of Mamontov's actions and the subsequent events?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -820,9 +820,9 @@
   },
   {
     "question": "Which of the following statements is true about the relationship between Sophia Magdalena and her husband, Gustav, after their marriage?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -883,9 +883,9 @@
   },
   {
     "question": "Which of the following statements is true about the production of \"Le Masque de la M\u00e9duse\"?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -967,21 +967,21 @@
   },
   {
     "question": "Which of the following events occurred in the same year as the premiere of the film \"Man at Bath\"?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "Which of the following statements is true about the relationship between the films \"Le Tigre aime la chair fraiche\" and \"Le tigre se parfume \u00e0 la dynamite\"?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "In the context of the Frankish kingdom's division following the death of Chlothar, which of the following statements is true about the distribution of territories among his sons?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1

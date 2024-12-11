@@ -1,16 +1,16 @@
 [
   {
     "question": "Which of the following statements is true about the leases of TCI and Apollo in the Windy Point I building?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "Based on the information provided, which of the following statements is true about the Company's real estate portfolio at December 31, 1994?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -22,21 +22,21 @@
   },
   {
     "question": "Based on the provided information, what is the most likely scenario for the Company's financial situation regarding the Garden Gateway Plaza and its mortgage debt?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "Based on the provided information, what was the total number of gross wells drilled on nonoperated interests in 2002, 2001, and 2000?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "In the context of the provided information, what was the total amount of the Company's assets that were sold or foreclosed upon by the time the settlement with the Receiver was reached?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -99,7 +99,7 @@
   },
   {
     "question": "**\n\nThe unitholders of the Partnership are expected to vote on amendments to the partnership agreement, which include proposed compensation for the successor general partner and related matters. If approved, SAMLP will resign as General Partner, and the successor will take office during the third or fourth quarter of 1995. The Implementation Agreement specifies that SAMLP and its affiliates cannot vote to remove the successor general partner except for removal with cause for a period of thirty months. The Supervising Judge will determine any amounts owed by the Partnership to SAMLP upon SAMLP's withdrawal. The Moorman settlement plan and the NRLP oversight committee will be terminated upon the successor's election. If the successor nominee is not elected, the existing Moorman Settlement Agreement will remain in effect, and the Implementation Agreement will be voided. The Partnership's purchase of the Redeemable General Partner Interest could negatively impact its financial condition and the Company's investment in the Partnership. CMET, a California business trust organized in 1980, commenced operations on December 3, 1980.",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 1
@@ -120,7 +120,7 @@
   },
   {
     "question": "Based on the information provided, how many properties had partial recapture rights converted to 100% recapture rights as of December 31, 2018?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -197,9 +197,9 @@
   },
   {
     "question": "Based on the provided information, what is the most likely interest rate for the Corporation's debt of the same remaining maturities?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -260,9 +260,9 @@
   },
   {
     "question": "In which year did TCI complete the purchase of the Foxwood Apartments and remove the note receivable from ARI?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -274,9 +274,9 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is the most accurate regarding the Company's hedging activities and potential conflicts of interest?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -316,9 +316,9 @@
   },
   {
     "question": "Which of the following statements is true about the financial and leasing arrangements of the Alstom Power Inc. at the Ohmeda Building?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -330,9 +330,9 @@
   },
   {
     "question": "Based on the provided information, what is the most likely impact of a successful arbitration on the company's 2018 distribution?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -365,7 +365,7 @@
   },
   {
     "question": "Based on the information provided, what is the percentage of the total data center space that is currently leased or readily available to be leased to customers as of December 31, 2015?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -442,9 +442,9 @@
   },
   {
     "question": "Which mining method was used to transport ore from the ore pockets on the various levels of the mine below the Kellogg Tunnel to the shaft?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -456,14 +456,14 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the Company's ownership and leasing arrangements for its properties?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "Based on the provided information, which of the following statements is most accurate regarding the Company's sales and financial performance?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -603,7 +603,7 @@
   },
   {
     "question": "Based on the information provided, what is the most likely reason for the increase in production and extension of field life in the Fontenelle Field?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -624,9 +624,9 @@
   },
   {
     "question": "Which of the following properties had the highest occupancy rate as of March 31, 2000, and what was the total cost of the property?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -659,9 +659,9 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is the most accurate regarding the impact of commodity prices on the Trust's proved oil and natural gas reserves?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -701,9 +701,9 @@
   },
   {
     "question": "Which of the following statements best describes the relationship between the lacustrine sediments and the volcanic units at the Anderson Project?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -757,9 +757,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided information, which of the following statements is true regarding the management of the Trust's properties by Whiting?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -771,9 +771,9 @@
   },
   {
     "question": "In the context of the provided information, what was the primary reason for the Company's extraordinary gain of $1.2 million in 1994?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -785,9 +785,9 @@
   },
   {
     "question": "Based on the provided information, what is the most likely outcome for ACRT regarding the property's rent and mortgage payments by the end of 2007?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -813,9 +813,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided information, what is the total amount Access is obligated to pay to LLCDA over the next three months?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -827,14 +827,14 @@
   },
   {
     "question": "Which of the following properties has the highest occupancy rate and is located in the same city as the property with the lowest occupancy rate?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the company's lease expirations and customer base as of December 31, 2010?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -862,16 +862,16 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is the most accurate description of the oil production potential of the Mirage Oil Field?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "Based on the information provided, what is the total expected capacity of the Santa Clara facility after the planned expansion, and what is the current annual rent payable under the ground sublease?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -925,16 +925,16 @@
   },
   {
     "question": "**\n\nIn the context of the Kibi Gold Trend Project, which of the following statements is the most accurate description of the drilling results from Trenches TKB006 and TKB010?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
     "question": "Based on the provided information, what is the total amount the Partnership will receive from the sale of its interests in Flambeau Village, considering the option to purchase the remaining interests and the expiration of the 15-Year Tax Credit Compliance Period?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -946,7 +946,7 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the gold recovery operations at the Nolan Gold Project?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -960,9 +960,9 @@
   },
   {
     "question": "Which company currently operates the wells in the Underlying Properties, and what was the status of the Royalty Interests after the acquisition by HighMount?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -995,9 +995,9 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the reserves at Workman's Bench, Nolan Creek Area?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -1023,7 +1023,7 @@
   },
   {
     "question": "Which well is the most productive in terms of gas production, considering both the total interest and the status of the wells?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1

@@ -36,9 +36,9 @@
   },
   {
     "question": "In the context of the provided information, which of the following statements is true about the relationship between specific-heat ratio (\u03b3) and entropy production rate (\u1e60NOEF) over time?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -78,7 +78,7 @@
   },
   {
     "question": "Which of the following statements is true about the treatment and management of hemoglobin H/Constant Spring disease?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 1
@@ -106,9 +106,9 @@
   },
   {
     "question": "A patient is experiencing chest pain and has been diagnosed with a heart condition. The patient's heart sounds are abnormal due to murmurs, and an echocardiogram shows new wall-motion abnormalities. The patient has been prescribed nitroglycerin to manage their condition. Which of the following is the most likely diagnosis?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -134,7 +134,7 @@
   },
   {
     "question": "Which of the following statements about the novel \"Things Fall Apart\" by Chinua Achebe is true, given the information provided?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -155,9 +155,9 @@
   },
   {
     "question": "Based on the information provided, what is the most likely reason for the 24-year-old son's repeated failure to complete college courses?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -197,7 +197,7 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the conditions for stable sub-solutions and super-solutions in the context of the given equations and weights?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -344,7 +344,7 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is the most accurate representation of the relationship between the Jewish faith and the concept of the afterlife?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -463,7 +463,7 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the changes made to the game?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -484,9 +484,9 @@
   },
   {
     "question": "Which of the following statements is the most accurate description of the relationship between the authors' work and Dr. Anil Prinja's contributions?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -610,9 +610,9 @@
   },
   {
     "question": "Which of the following statements is true about the career progression of John Roper, based on the provided information?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -666,9 +666,9 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is the most accurate representation of the arguments presented?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -757,7 +757,7 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the changes made to the characters in the game?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -785,7 +785,7 @@
   },
   {
     "question": "In the context of the provided text, what is the asymptotic order of E[exp{\u03bb H(f) \u221e }] for n, p \u2192 \u221e, given that \u03bb > 0 may depend on n, p or not?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 1
@@ -806,7 +806,7 @@
   },
   {
     "question": "In what year did Goodwin graduate from the National War College and what was his subsequent role?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -862,9 +862,9 @@
   },
   {
     "question": "In the context of the discrete Boltzmann equation for component \u03c3, which of the following statements is true about the evolution of the distribution function f\u03c3,i?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -925,9 +925,9 @@
   },
   {
     "question": "Based on the information provided, what is the primary method by which Agency Spotter collects and uses data from users?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -946,9 +946,9 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the relationship between the power-law exponents (\u03b1 t) and the cryptocurrency's age (y t) and market capitalization (log c t)?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {

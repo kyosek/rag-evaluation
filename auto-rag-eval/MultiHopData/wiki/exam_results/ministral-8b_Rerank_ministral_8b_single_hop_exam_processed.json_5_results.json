@@ -134,9 +134,9 @@
   },
   {
     "question": "Which of the following statements about Bonnie Tyler's career is true, given the information provided?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -190,7 +190,7 @@
   },
   {
     "question": "Based on the information provided, which of the following statements is true about Yolonda Ross's career?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -267,9 +267,9 @@
   },
   {
     "question": "Which of the following statements is true about the career of the player mentioned in the provided information?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -449,9 +449,9 @@
   },
   {
     "question": "Which of the following statements is the most accurate description of the film \"Una prostituta al servizio del pubblico e in regola con leggi dello stato\"?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -897,9 +897,9 @@
   },
   {
     "question": "In the film \"The Lady in the Lake,\" what is the significance of Lyle Bane's supernatural appearance and how does it influence the relationship between Helen and Temple Bane?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -967,9 +967,9 @@
   },
   {
     "question": "Which of the following events occurred in the same year as the premiere of the film \"Man at Bath\"?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {

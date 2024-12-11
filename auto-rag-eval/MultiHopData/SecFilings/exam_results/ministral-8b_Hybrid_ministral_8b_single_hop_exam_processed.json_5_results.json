@@ -57,9 +57,9 @@
   },
   {
     "question": "Which of the following statements is true about the Yellow Pine gold project based on the provided information?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -78,9 +78,9 @@
   },
   {
     "question": "**\n\nIn the context of the geology of the Mashonga Mine area, which of the following statements is the most accurate description of the mineralization and its relationship to the geologic formations?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -134,9 +134,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary source of power for NorthWestern Public Service's facilities in North Dakota and Iowa?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -211,9 +211,9 @@
   },
   {
     "question": "Which of the following statements is true about the drilling activities at the Buenavista mine in 2011 and 2012?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -344,9 +344,9 @@
   },
   {
     "question": "Which of the following statements is true about ExxonMobil's operations in 2007?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -365,7 +365,7 @@
   },
   {
     "question": "Based on the information provided, what is the percentage of the total data center space that is currently leased or readily available to be leased to customers as of December 31, 2015?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -400,7 +400,7 @@
   },
   {
     "question": "In the context of hedging transactions involving California heavy crude oil production, which of the following statements is true about the Company's hedging strategy?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -561,9 +561,9 @@
   },
   {
     "question": "Which of the following statements is true about the financial agreements between Western Massachusetts Electric Company (WMECO) and North Atlantic Energy Corporation (NAEC)?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -617,14 +617,14 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the uranium mining operations at Sheep Mountain and the Burro Canyon project?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
     "question": "Which of the following properties had the highest occupancy rate as of March 31, 2000, and what was the total cost of the property?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -659,9 +659,9 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is the most accurate regarding the impact of commodity prices on the Trust's proved oil and natural gas reserves?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -757,7 +757,7 @@
   },
   {
     "question": "**\n\nIn the context of the provided information, which of the following statements is true regarding the management of the Trust's properties by Whiting?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -827,7 +827,7 @@
   },
   {
     "question": "Which of the following properties has the highest occupancy rate and is located in the same city as the property with the lowest occupancy rate?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -897,9 +897,9 @@
   },
   {
     "question": "Based on the provided information, what is the expected duration of the Lucky Friday mine's life and what is the primary focus of the upcoming exploration drilling?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -932,7 +932,7 @@
   },
   {
     "question": "Based on the provided information, what is the total amount the Partnership will receive from the sale of its interests in Flambeau Village, considering the option to purchase the remaining interests and the expiration of the 15-Year Tax Credit Compliance Period?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -1002,7 +1002,7 @@
   },
   {
     "question": "Based on the information provided, what is the most likely impact of the revision of the proven and probable reserves at the Johnson Camp Mine on the company's financial statements?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -1023,7 +1023,7 @@
   },
   {
     "question": "Which well is the most productive in terms of gas production, considering both the total interest and the status of the wells?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
