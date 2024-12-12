@@ -109,8 +109,9 @@ def process_exam_results(
     return accuracy
 
 if __name__ == "__main__":
-    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    exam_file_names = ["exam_new_llama_3_2_3b", "exam_new_gemma2_9b", "exam_new_ministral_8b"]
+    # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    task_domains = ["hotpotqa"]
+    exam_file_names = ["exam_new_llama_3_2_3b", "exam_new_ministral_8b"]
     exam_types = ["closed", "open", "Dense", "Sparse", "Hybrid", "Rerank"]
     model_names = [
         'llama_3_1_8b',
@@ -120,8 +121,8 @@ if __name__ == "__main__":
     
     for task_domain in task_domains:
         for exam_file_name in exam_file_names:
-            for exam_type in exam_types:
-                for model_name in model_names:
+            for model_name in model_names:
+                for exam_type in exam_types:
                     print(f"Processing {task_domain} - {exam_file_name} - {exam_type} - {model_name}")
                     
                     updated_exam_path = f"auto-rag-eval/MultiHopData/{task_domain}/exams/{exam_file_name}_processed_v3.json"
