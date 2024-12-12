@@ -1,0 +1,1052 @@
+[
+  {
+    "question": "What is the maximum potential length of time that both TCI and Apollo could occupy their respective leased spaces in the Windy Point I building?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what can be inferred about the company's future real estate investment strategy?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the company's focus on divesting offshore assets and expanding its midstream infrastructure, what can be inferred about the company's strategic priorities in the near future?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary factor that led to a decrease in the monthly payment on the mortgage for Garden Gateway Plaza?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary factor influencing the timing of revenue recognition for Oil and Gas Production Trust?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the ultimate financial outcome for the Company regarding the assets received from the insurance company?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary factor contributing to the difference in the provision for income taxes as a percentage of net revenue between the year ended December 31, 2011, and the six months ended June 30, 2010?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which well, based on the provided information, is most likely to be considered a high-priority target for development due to its significant oil production potential and active status?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary factor preventing Vista Gold from definitively demonstrating the economic viability of the Awak Mas gold project?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary reason the company chose to utilize light aircraft for site access during their exploration of the S\u00e3o Domingos property?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary factor contributing to the decrease in total cash costs per ounce of gold sold at the Kori Kollo mine between 2000 and 2001?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the geological context described, what is the most likely primary factor influencing the location of gold mineralization at the Mashonga Mine?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary reason for the shift in artisanal mining activity from the Kunanga 1 to 3 sites?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the significant financial investments required for mining operations and the potential for fluctuating metal prices, what is the most likely factor influencing a mining company's decision to pursue reclamation and environmental mitigation efforts?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the likely consequence for the Partnership if the successor general partner nominee is not elected?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what percentage of the Company's total net acreage in Wyoming is represented by leases held by production and activities (HBP) as of December 31, 2014?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the company's decommissioning funding program and its assessment of \"Deemed Loss Events,\" what is the most likely reason the company believes the probability of such events occurring is remote?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary financial motivation behind Seritage's exercise of recapture rights under the Master Lease?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What are the primary financial obligations of a TRS lessee under the lease agreement, excluding any capital expenditures for building and improvements?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary reason NorthWestern Public Service is developing a plan to ensure sufficient electric generating capacity?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the historical mining activity and geological context of the Contact mining district, what is the most likely reason for the renewed interest in the area in recent times?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the latest date on which a document related to Entergy Louisiana's financing was filed with the relevant regulatory authority?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the information provided, what is the most likely reason the company would need to improve the dirt road leading to the Cerro Blanco property?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the information about the Ahafo mine, what is the primary factor limiting the mine's current processing capacity?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Considering the information provided about both the Lion Rock/San Miguel and Sword fields, what is the most likely scenario for the future development of these fields?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most accurate statement regarding the company's ability to determine the exact number of wells producing from or drilling on the Royalty Properties?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, which field presents the greatest potential for immediate revenue generation for Energytec?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the minimum gold price required for the NSR on production from the DWC-contributed property to exceed the NSR payable to Mr. Art Wilson?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely reason the Corporation's subsidiary banks and subsidiary savings and loan are in compliance with regulatory dividend limitation guidelines?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the primary reason that Norfolk Southern (NS) is considered to be \"revenue inadequate\" according to the Surface Transportation Board (STB)?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what was the primary focus of the drilling activities conducted in 2011 and 2012?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary factor influencing the interest rate on the loans secured by the four properties mentioned in chunk 35?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following geological processes is most likely to result in the formation of a deposit rich in iron oxides, similar to those found in laterite?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what can be concluded about the company's approach to evaluating the El Capitan Property's potential?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which Permian Basin area had the highest percentage of proved developed reserves as of December 31, 2020?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the information about the mineralization process and the geological formations, what is the most likely reason for the variation in thickness observed in the manto deposits?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary financial obligation Calais faces regarding the Smith property lease in the first five years of the lease term?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason TCI acquired the Foxwood Apartments in April 2005?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary reason the compensation committee granted restricted shares to non-executive directors and senior executive management?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the potential for conflicts of interest and the unpredictable nature of government regulations, what is the most significant risk facing the Company's ability to effectively manage its operations and financial performance?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary factor influencing the allocation of the allowance for possible loan losses?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the weighted average full-service rental rate per square foot for Company Office Properties as of December 31, 1999,  excluding any properties with leases that had not yet commenced?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary factor influencing the exploration focus at the Wassa mine in 2013?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the potential for jurisdictional disputes over water rights in New Mexico, what is the MOST likely scenario regarding the Company's water right applications?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary reason the company's capital expenditure program for 1997-2001 might not be fully realized?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary factor contributing to the difference in average effective annual rental per square foot between 1997 and 2000 at the Alstom Power Building?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the potential for conflicts of interest between USPB and NBP regarding cattle purchases, and the fact that the restructuring of the cooperative was a taxable event, what is the most likely scenario regarding the future relationship between USPB and NBP?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely scenario regarding the 2018 distribution from NyacAU?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary factor influencing the determination of the purchase price for the Corona Property?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary method used by Syncrude to extract crude bitumen from the Athabasca Oil Sands Deposit?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the potential financial and operational impacts of environmental regulations and cleanup requirements, what is the most likely scenario for FirstEnergy's future capital expenditures?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the company's focus on reducing wind energy production costs and its belief in the potential of its new technology, what is the most likely reason Pavilion Energy Resources Inc. (PVRE) sees the global financial, environmental, and energy crisis as an opportunity?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what percentage of the company's leasable raised floor was occupied by data center space as of December 31, 2015?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the primary reason Great South Land Minerals Limited believes it is likely to make a commercial discovery?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the company's reliance on third-party operators for a majority of its wells and the inherent risks associated with natural gas gathering and processing, what is the most significant factor that could negatively impact the company's future financial performance?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely reason NovaGold focused their exploration efforts on the Arctic Deposit and surrounding lands within the Schist belt?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary reason AngloGold Ashanti Limited would consider processing sulfide ores at the Bogoso oxide plant?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Prior to 2000, what was a significant risk associated with hedging California heavy crude oil production for Nuevo Energy Company?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the inherent volatility of oil and gas markets, what is PetroCorp's primary concern regarding its future financial performance?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the data verification procedures employed at Johnson Camp Mine, what is the most likely reason Bikerman Engineering & Technology Associates concluded that the data has a high degree of confidence?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the primary way PSI aims to reduce costs for the Partnership in its management of mini-warehouse facilities?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the geological history and structural features described, what is the most likely reason for the presence of a higher-grade mineralization zone at a specific depth within the Grassy Mountain deposit?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, which of the following statements accurately describes the exploration strategy employed by Solitario?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which mining method relied on the ore itself as both ground support and a mining floor, eliminating the need for external support structures?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the planned construction timeline and the company's experience with similar projects, what is the most likely reason for the limited scope of underground construction beyond ore haulage?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary difference in how the company accounts for the \"Riviera RV\" property compared to the \"Green Valley\" property?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the factors influencing the company's financial performance, which of the following statements is most accurate regarding the company's future profitability?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what was the primary factor contributing to the increase in the company's pro forma interest in productive wells between December 31, 2016, and the expected closing of the SHEP II acquisition in March 2017?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the primary reason the Company chose to finance the Huntington Beach building in 1994?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely reason for the increase in the present value of future net revenue of the Trust's proved developed reserves between January 1, 2017, and January 1, 2018?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In 2012, which of the following properties did the Company NOT acquire full ownership of?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the PRIMARY factor influencing the choice of employee housing location for the Hycroft Mine?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the potential environmental challenges and the history of uranium exploration at the Burke Hollow Project, what is the most significant factor that could delay the development of the ISR mine?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary factor contributing to CGI's historically improved price realization on natural gas sales compared to benchmark indexes?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Considering the information provided, what is the most likely reason the company believes the number of traditional department store anchors will decline?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary method used to determine the number of restricted shares issued to Mr. Ward as part of his compensation?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what percentage of PVR's recoverable coal reserves in 2007 were classified as either compliance coal or medium sulfur coal?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the company's development plans and the MMS directive, what is the most likely scenario for the future of the company's offshore leases?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the approximate percentage of the target senior market in Market Area 2 that is currently served by facilities similar to Chandler Villas?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary factor differentiating the company's calculation of \"Total Segment Net Operating Income\" from its definition of \"Segment 'Net Operating Income' \"?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the earliest date on which a supplemental indenture was executed for a mortgage agreement involving either WMECO or NAEC?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the potential for environmental liabilities, what is the most significant factor influencing BNSF Railway's financial risk exposure related to environmental cleanup costs?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following Seacoast National branch locations was NOT opened in a building owned by Seacoast National?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which mall, based on the provided information, is projected to have the highest annual ground rent in 2015?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given Montaup's financial involvement in decommissioning costs and the NRC's scrutiny of Millstone 3, what is the most likely reason Montaup is recovering decommissioning costs through rates?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely reason a company might choose to classify a gold deposit as \"probable (indicated) reserves\" rather than \"proven (measured) reserves\"?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary factor influencing XTO Energy's decision to implement artificial lift, restimulation, and compression in the Fontenelle Field?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what can be concluded about the reliability of the data used to develop the Johnson Camp Property's deposit model?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Considering the information provided, what is the most likely reason Rio Tinto would be hesitant to immediately begin full-scale uranium mining operations at Sheep Mountain?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which property listed had the highest total value of its mortgage balance and construction cost as of December 31, 1999?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the relationship between the annual rent for the Ingram lease and the purchase price of the Nissan Property?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given Montaup's financial obligations related to decommissioning costs, what is the most likely scenario regarding their future rate adjustments?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely reason the company might experience financial difficulties with the Mountain View, California development project?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what was the primary reason for the company's decision to revise its Preliminary Economic Assessment (PEA)?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely impact of a prolonged period of depressed commodity prices on the Trust's proved reserve portfolio?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary factor influencing changes in the company's oil and natural gas reserves?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the total minimum financial commitment required for the Lookout Mountain project by June 1, 2016?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the information provided, what is the primary financial responsibility of a working interest owner in an oil and gas venture?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the chronological relationship between the sharing agreement mentioned in Exhibit 10.53 and the amendments to the agreement for joint ownership, construction, and operation of New Hampshire nuclear generating units?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary output of the La Caridad complex's copper rod plant, and what is the primary method used to extract copper from ore at IMMSA's mining facilities?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the geological context and mineralization types described, what is the most likely reason for the spatial variation in uranium mineralization at the Anderson Project?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In which of the following scenarios would a state utility commission be LEAST likely to initiate a review and change of rates on its own initiative?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely reason why the previous exploration efforts in the Jungo area were unsuccessful in identifying the gold-bearing vent structures?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the geological survey and sampling data, what is the most likely reason artisanal miners are selectively targeting quartz veinlets within the shear zones of the BIF?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the primary factor determining whether BGE can recover electric fuel costs?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the company's exploration strategies and financial considerations, what is the most likely reason they are holding onto the Wikieup property?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which facility listed in the filing primarily serves end markets that are different from the others?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the primary factor influencing the feasibility of developing the Round Top Project, and what stage of development is the project currently in?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Under what specific circumstances might Whiting be required to sell NPI associated with a well or lease, and what conditions must be met for such a sale to occur?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary factor influencing the depreciation calculation for the Corona Property, and how does this factor relate to the Laufen Property acquisition?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary financial impact on the Company stemming from its real estate investments in 1994?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for the difference in reported PV-10 values for the company's Marcellus joint venture between 2012 and 2014?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the information provided, what is the most likely scenario regarding the future of the property's lease with Levitz Furniture?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary reason the Browse Joint Venture applied for a suspension and extension of Year 5 of permit WA-332-P?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the mine's production schedule and the need to maximize ore processing capacity, how does the company balance the efficient disposal of waste rock with the requirement to expose sufficient ore for processing?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What percentage of the II-G Partnership's total proved reserves of crude oil and natural gas are located in the Permian Basin as of December 31, 1995?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary reason for the decrease in operating expenses between 2007 and 2008?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely reason XTO Energy believes compliance with the laws in question will not have a material adverse effect on unitholders?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which apartment complex has the highest percentage of units occupied despite having the lowest percentage of units rented?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what percentage of the company's total annualized base rent from owned and managed operating properties is derived from the United States Government as of December 31, 2010?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the company's rigorous quality control procedures, which of the following statements BEST describes the potential for bias in the analytical results?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary reason that the revenues of TCSC are not consolidated with the results of NS?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary reason why the Colomac Dyke and the Kim/Cass zone are not currently considered mineable reserves?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely reason the company would prioritize drilling at the Mirage Oil Field over other prospects within PEL 115?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the most likely reason the company would choose to exercise the extension options on the ground lease for the Santa Clara facility?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely reason Simon Property Group, Inc. might need to borrow money?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary reason Allied Nevada would acquire the Pescios' interest in the Wild Horse Property?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the primary reason the company is seeking additional funding?",
+    "model_answer": ".",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the information about the Lucky Friday mine's operations and future plans, what is the primary factor influencing the mine's projected lifespan?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason the company modified the fast food restaurant loan in February 1994?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided financial information, what was the net change in the Company's current assets from December 31, 2010 to December 31, 2011?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the drilling results and geological interpretations, what is the most likely direction for future deep drilling efforts to target high-grade resources?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what can be inferred about the relationship between the drilling program's objectives and the geological features of Zone 2?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary motivation behind the Partnership's decision to sell its interests in Sullivan Garden Apartments, L.P. and Mills-Shapley Partnership, L.P.?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which country's licensing regime features the shortest initial exploration term, followed by a mandatory relinquishment of acreage after the initial term?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for the shift in focus from gold recovery operations to lode exploration at the Nolan Gold Project between 2004 and 2005?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Under what circumstances might a Participating Lease be terminated, and what options would the Company have in such a situation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary impact of the acquisition of HighMount Alabama's assets by Walter Natural Gas, LLC on the ownership structure of the Underlying Properties?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the geological information provided, at what point in time did the most significant structural events influencing gold mineralization at San Jos\u00e9 de Gracia occur?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what can be inferred about the company's future exploration strategy for the Chandalar gold property?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which drill hole location is most likely to yield the highest concentration of copper mineralization in the future, based on the information provided?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the most likely reason for the increase in recoverable coal reserves at the Sonoma mine between 2007 and 2011?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary reason the company cautions U.S. investors about the term \"indicated resources\"?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the potential for inconsistencies in ore grade estimation techniques and the company's current financial accounting practices, what is the most likely impact of a revision to the proven and probable reserves at the Johnson Camp Mine?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the primary reason XTO Energy might choose to sell gas directly to its marketing subsidiary rather than through the gathering subsidiary?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for the formation of the Fund VII-VIII Joint Venture?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which well, based on the provided information, has the highest combined interest across all listed states?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the potential for legal and environmental liabilities, what is the most significant risk factor facing the Company's future success?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary factor determining the profitability of the gold ore processing operation at the SCMP site?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary method of drilling employed by the Newmont/Midway joint venture during the period from August 2003 to February 2005?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  }
+]
