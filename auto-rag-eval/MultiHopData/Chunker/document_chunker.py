@@ -288,7 +288,8 @@ def main(task_name: str, strategy_name: str = "recursive"):
     # Choose chunking strategy
     strategies = {
         "recursive": RecursiveChunkStrategy(chunk_size=4000, chunk_overlap=200),
-        "semantic": SemanticChunkStrategy(target_chunk_size=4000),
+        # "semantic": SemanticChunkStrategy(target_chunk_size=4000),
+        "semantic": SemanticChunkStrategy(target_chunk_size=512),
         "topic": TopicBasedChunkStrategy(min_chunk_size=2000, max_chunk_size=6000)
     }
     
@@ -297,7 +298,7 @@ def main(task_name: str, strategy_name: str = "recursive"):
     
     # Process documents
     docs_dir = f"MultiHopData/{task_name}/raw_texts"
-    output_path = f"MultiHopData/{task_name}/chunks/docs_chunk_{strategy_name}.json"
+    output_path = f"MultiHopData/{task_name}/chunk/docs_chunk_{strategy_name}_v4.json"
     os.makedirs(docs_dir, exist_ok=True)
     
     processed_docs = chunker.process_directory(docs_dir)
@@ -307,7 +308,7 @@ def main(task_name: str, strategy_name: str = "recursive"):
     print(f"Output saved to {output_path}")
 
 if __name__ == "__main__":
-    task_names = ["gov_report", "hotpotqa", "multifieldqa_en", "wiki"]
+    task_names = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     # task_names = ["SecFilings"]
     chunk_strategy = "semantic"
     
