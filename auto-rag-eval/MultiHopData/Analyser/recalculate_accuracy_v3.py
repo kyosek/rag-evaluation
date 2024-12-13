@@ -110,7 +110,7 @@ def process_exam_results(
 
 if __name__ == "__main__":
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    task_domains = ["hotpotqa"]
+    task_domains = ["SecFilings"]
     exam_file_names = ["exam_new_llama_3_2_3b", "exam_new_ministral_8b"]
     exam_types = ["closed", "open", "Dense", "Sparse", "Hybrid", "Rerank"]
     model_names = [
