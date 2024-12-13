@@ -256,18 +256,18 @@ if __name__ == "__main__":
 
     # model_names = ["MINISTRAL_8B"]
     model_names = [
-        'llama_3_1_8b',
-        "ministral-8b",
-        "gemma2-27b",
+        # 'llama_3_1_8b',
+        # "ministral-8b",
+        "gemma2-9b",
         ]
     
     exam_files = [
         "llama_3_2_3b_single_hop_exam_processed.json",
         "gemma2_9b_single_hop_exam_processed.json",
         "ministral_8b_single_hop_exam_processed.json",
-        # "exam_new_ministral_8b_processed_v3.json",
-        # "exam_new_llama_3_2_3b_processed_v3.json",
-        # "exam_new_gemma2_9b_processed_v2.json",
+        "exam_new_ministral_8b_processed_v3.json",
+        "exam_new_llama_3_2_3b_processed_v3.json",
+        "exam_new_gemma2_9b_processed_v2.json",
         
         ]
 
