@@ -257,7 +257,7 @@ if __name__ == "__main__":
     # model_names = ["MINISTRAL_8B"]
     model_names = [
         'llama_3_1_8b',
-        "ministral-8b",
+        # "ministral-8b",
         # "gemma2-9b",
         ]
     
