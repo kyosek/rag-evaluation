@@ -1,0 +1,681 @@
+[
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about Edward's early reign and his relationship with Llywelyn ap Gruffudd?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the relationship between John Vernou Bouvier III and H. H. Hunnewell?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn 1174, King William of Scotland was captured while besieging the castle at Alnwick. What was the immediate response of Gille Brigte and Uchtred, the sons of Fergus, to this event?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the Carry On series, based on the provided document chunks?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the song \"O Valencia!\" by The Decemberists?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following individuals was NOT a member of the Church of Scotland?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the succession of the house of Saxe-Meiningen?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the relationship between Stephen and Boles\u0142aw I the Brave?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following films directed by Peter Levin was released on Blu-ray by Scream Factory in 2015 as part of a double-feature with another film?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the relationship between Princess Marie Elisabeth of Saxe-Meiningen and her father, Georg II, Duke of Saxe-Meiningen?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the films \"Dance with a Stranger\" and \"Call Me\", which of the following statements is true about the reception of these films?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the \"Smokey and the Bandit\" film franchise, which of the following statements is true about the box office performance of the films?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following is the most accurate description of the Valley of Death in the context of the 1854 Battle of Balaclava?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following individuals is NOT a member of the Indian National Congress party?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following is the correct order of the filming locations for \"Carry On Matron\"?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the reign of Mehmed V?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following sculptures by Frederick Cleveland Hibbard is NOT a Civil War memorial?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following directors has won the most prestigious awards for their work in film and television, considering their career trajectory and the significance of their awards?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate description of the theme of the film \"Ghost in San Francisco\"?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the succession of the title of Baron Willoughby of Parham?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the relationship between Ludwig von Westphalen and Karl Marx?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the film \"Smokey and the Bandit,\" what is the primary reason why Bo \"The Bandit\" Darville and Cledus \"The Snowman\" Snow are able to successfully complete their mission despite the intense pursuit by Sheriff Buford T. Justice?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the events surrounding Cipriano Castro's rule in Venezuela?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of Stephen's reign, which of the following statements is most accurate regarding his relationship with his uncle Gyula and the establishment of the Diocese of Transylvania?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following is NOT a film directed by Eugen York?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of Philip Pendleton Barbour's career, which of the following statements is true?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following individuals is NOT associated with the film \"Dhuen Ki Lakeer\"?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of Hassan \"Doctor\" Zee's life and career, which of the following statements is true?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the films \"Mi novia el... Mi novia el...\" and \"Mi novia es un fantasma\", which of the following statements is true about the character Alberto?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following directors is known for their portrayal of women as bold personalities and central characters, and has won nine National Film Awards and 13 Filmfare Awards?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of Franz Schubert's final illness, which of the following statements is most consistent with the provided documentation?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about France's participation in the 2013 Eurovision Song Contest?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the relationship between Ludwig von Westphalen and Karl Marx?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In the film \"La Maison de la peur\" (The House of Fear), what is the primary reason why Catherine Valmont, the protagonist, needs human blood to survive?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is the most accurate interpretation of the relationship between the Duke of Zhou and Lord Shao, based on the provided document chunks?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following is the correct sequence of events in the film \"The Seventh Company Outdoors\" based on the provided documentations?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following directors has directed a television film titled \"Heart in Hiding\" and also co-founded an off-off-Broadway theatre with their spouse?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following is the most accurate description of the term \"place of origin\" in the context of Swiss citizenship?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following individuals is the executive director of the Sam Spiegel Film and Television School, and what is the significance of their appointment in the context of their previous roles?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following directors is NOT mentioned in the provided documentation as having a special relationship with \u00c9ric Rohmer?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following directors is known for directing the film \"Heart in Hiding\" and is also associated with the off-off-Broadway Theatre [the Hardware Poets Playhouse]?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following films was not directed by Roger Corman?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the album \"Flying High!\" by Caspar Babypants?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the marriage of Sophia Magdalena to Crown Prince Gustav of Sweden, which of the following statements is true based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true about Queen Mercedes' legacy and the town named in her honor?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In the context of the provided document chunks, what is the most likely reason for Marcia's emotional instability and her subsequent actions towards Peter?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In the context of the provided documentation, which of the following statements is true about the poem \"Inanna and Ebih\"?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the Pontifical Academy of Arcadia, which of the following statements is true regarding the Academy's history and its relationship with the Italian literary tradition?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following individuals is the executive director of the Sam Spiegel Film and Television School, and what is the significance of their appointment in the context of their previous roles?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the events involving Siu-bo, Lung-er, and the Heaven and Earth Society?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the controversy surrounding the exhibition of Young British Artists' works at the National Gallery of Australia (NGA) during the tenure of the director, John Kennedy?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is NOT true about the early film career of Fran\u00e7ois Truffaut?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following individuals is NOT associated with the film industry in the context of the provided documentation?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following individuals was NOT a medieval Bishop of Durham?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about Fritz Lang's career and films?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about Nancy Baron's career and the context in which she operated?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is true about the career of Jim Wilson?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following films is NOT part of the Bomba, the Jungle Boy series, and is not a parody of the Edgar Rice Burroughs' Tarzan series?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements about Queen Sophia Magdalena's behavior during her husband's absence is most accurate, based on the provided documentation?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following individuals is NOT a direct ancestor of Queen Margrete I of Denmark?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the August Underground series, which of the following films is the only one that is not shot in an intentionally amateurish found footage style?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the Willoughby family's history, which of the following statements is true regarding the succession of the Barony of Parham?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the Willoughby family's succession to the Barony of Parham, which of the following statements is true?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nMarie Louise's marriage to Napoleon Bonaparte was a strategic move for both parties. However, the marriage was not without its challenges. Consider the following information:\n\n1. Marie Louise was initially kept uninformed of the marriage negotiations.\n2. Napoleon's marriage to Marie Louise was a response to his need for an heir and the validation of his Empire.\n3. Marie Louise's father, Emperor Francis, was initially opposed to the marriage due to the potential threat of a French-Russian alliance.\n4. Marie Louise's mother, Jos\u00e9phine, was not respected by Napoleon, but he claimed to love her and remained her friend after their divorce.\n5. Marie Louise's marriage to Napoleon was celebrated with great pomp and circumstance in Vienna.\n6. Marie Louise's son, Napoleon Fran\u00e7ois Joseph Charles Bonaparte, was given the title King of Rome.\n7. Marie Louise accompanied Napoleon to Dresden in 1812, where she met her father and stepmother.\n8. The marriage was not without tension, with Napoleon sometimes remarking that Marie Louise was too shy and timid compared to Jos\u00e9phine.\n9. Marie Louise was appointed Regent of France in 1813, but her regency was only de jure, as all decisions were taken by Napoleon.\n10. Marie Louise fell in love with Count Adam Albert von Neipperg, who became her chamberlain and advocate at the Congress of Vienna.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements about Sargon of Akkad is most accurate, based on the provided documentation?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the historical events surrounding the Swedish royal family, which of the following statements is the most accurate representation of the relationship between Gustav III, Sophia Magdalena, and Munck?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of John Templeton's botanical work, which of the following statements is true regarding the distribution and significance of his manuscripts?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the events surrounding the Swedish royal family in the late 18th century, which of the following statements is most likely to be true based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements about Queen Sophia Magdalena is most accurate, given the provided document chunks?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements is true about the relationship between Sophia Magdalena and her husband Gustav, based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of Eric Rohmer's filmography, which of the following statements is true about his approach to filmmaking and the themes he explores?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the succession to the Russian throne, based on the provided documentation?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the career of Herbert Wilcox?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about Queen Sophia Magdalena's relationship with her mother-in-law, Louisa Ulrika, and the Caps party?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the events surrounding the royal couple's scandal, which of the following statements is the most accurate and logically consistent with the provided documentation?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the reasons behind the cancellation of the \"Sensation exhibition\" by Dr. Kennedy at the National Gallery of Australia (NGA)?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the marriage of Sophia Magdalena to Crown Prince Gustav of Sweden, which of the following statements is the most accurate reflection of the relationship between Sophia Magdalena and Queen Louisa Ulrika?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the French Wars of Religion, which of the following statements is true about the role of Jean d'Armagnac, Duke of Nemours, during the reign of Henri III?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following individuals was the first to become Count of Soissons after the death of Renaud II, and what was the nature of their relationship with the previous Count of Soissons?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements about Queen Sophia Magdalena's behavior during her husband's absence is most accurate, based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the development of the telegraph, which of the following statements is true regarding the contributions of Charles Wheatstone and William Cooke?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about Princess Auguste of Bavaria's involvement in World War I?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is true about the career of James Whale, based on the provided document chunks?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the Willoughby family's history, which of the following statements is true regarding the succession of the Barony of Parham?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is the most accurate representation of Sargon's reign, based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nAstrid North, a German soul singer, had a significant career in the music industry. She was the lead singer of the band Cultured Pearls and also released albums as a guest singer with the band Soulounge. In 2003, she appeared at the festival Das Fest in Karlsruhe and sang a cover version of the Aerosmith hit \"Walk This Way\" with the German singer Sasha. After the dissolution of Cultured Pearls in 2003, she moved to New York City in 2004 to write new songs and experiment with her music. In 2005, she joined the charity project Home, which produced an album for the benefit of orphans affected by the 2004 Indian Ocean earthquake and tsunami. Which of the following statements is true about Astrid North's career?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the relationship between the Welsh wars and the conflicts in the Marches involving Humphrey de Bohun, Earl of Hereford?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following individuals is NOT a direct ancestor of Queen Victoria of the United Kingdom?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about Anne Devereux-Mills' career and activities, based on the provided document chunks?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is true about the relationship between Marie Louise and Napoleon after their marriage?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nRoberto Savio, a prominent journalist and activist, has had a multifaceted career spanning various roles and organizations. Given the information provided, which of the following statements is true about Roberto Savio's career and contributions?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements about Lee Thompson's career is true, given the provided document chunks?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the Bhutto family's political history, which of the following statements is true about Nusrat Bhutto's involvement in the Pakistan Peoples Party (PPP) after her husband's execution?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements about Sargon of Akkad is most accurate, based on the provided documentation?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the reasons behind the cancellation of the \"Sensation exhibition\" by the National Gallery of Australia (NGA) under the tenure of director John Kennedy?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn 1666, who inherited the title of Baron Willoughby of Parham and served as Governor of Barbados from 1667 to 1673?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the historical events and familial relationships described in the provided document chunks, which of the following statements is true regarding the succession of the Lordship of Galloway after the death of Alan?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  }
+]

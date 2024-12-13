@@ -44,14 +44,14 @@ def add_retrieved_chunks_to_exam(
         
         # Add retrieved chunks
         # question['retrieved_chunks'] = {
-        #     'dense': [
-        #         {'content': str(content), 'score': float(score)}
-        #         for content, score in faiss_retriever.retrieve(query, k=k)
-        #     ],
-        #     'sparse': [
-        #         {'content': str(content), 'score': float(score)}
-        #         for content, score in bm25_retriever.retrieve(query, k=k)
-        #     ],
+            # 'dense': [
+            #     {'content': str(content), 'score': float(score)}
+            #     for content, score in faiss_retriever.retrieve(query, k=k)
+            # ],
+            # 'sparse': [
+            #     {'content': str(content), 'score': float(score)}
+            #     for content, score in bm25_retriever.retrieve(query, k=k)
+            # ],
         #     'hybrid': [
         #         {'content': str(content), 'score': float(score)}
         #         for content, score in hybrid_retriever.retrieve(query, k=k)
@@ -62,6 +62,14 @@ def add_retrieved_chunks_to_exam(
         #     ]
         # }
         question['retrieved_chunks'].update({
+            'dense': [
+                {'content': str(content), 'score': float(score)}
+                for content, score in faiss_retriever.retrieve(query, k=k)
+            ],
+            'sparse': [
+                {'content': str(content), 'score': float(score)}
+                for content, score in bm25_retriever.retrieve(query, k=k)
+            ],
             'hybrid': [
                 {'content': str(content), 'score': float(score)}
                 for content, score in hybrid_retriever.retrieve(query, k=k)
@@ -107,7 +115,12 @@ if __name__ == "__main__":
             database_dir = f"MultiHopData/{task_domain}/chunk_database"
             exam_path = f"MultiHopData/{task_domain}/exams/{exam_file}"
             
-            output_path = exam_path.replace("v3", "v4")
+            if exam_file == "exam_new_gemma2_9b_processed_v2.json":
+                output_path = exam_path.replace("v2", "v4")
+            elif exam_file in "single_hop":
+                output_path = exam_path.replace("processed", "processed_v4")
+            else:
+                output_path == exam_path.replace("v3", "v4")
             
             # Load chunk retriever from saved database
             chunk_retriever = ChunkRetriever.load_database(
@@ -120,5 +133,5 @@ if __name__ == "__main__":
             add_retrieved_chunks_to_exam(
                 exam_path=exam_path,
                 chunk_retriever=chunk_retriever,
-                output_path=exam_path
+                output_path=output_path
             )
