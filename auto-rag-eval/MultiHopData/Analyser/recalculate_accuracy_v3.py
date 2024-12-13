@@ -109,10 +109,11 @@ def process_exam_results(
     return accuracy
 
 if __name__ == "__main__":
-    # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    task_domains = ["SecFilings"]
+    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    # task_domains = ["SecFilings"]
     exam_file_names = ["exam_new_llama_3_2_3b", "exam_new_ministral_8b"]
-    exam_types = ["closed", "open", "Dense", "Sparse", "Hybrid", "Rerank"]
+    # exam_types = ["closed", "open", "Dense", "Sparse", "Hybrid", "Rerank"]
+    exam_types = ["closed", "open"]
     model_names = [
         'llama_3_1_8b',
         "ministral-8b",
@@ -126,7 +127,7 @@ if __name__ == "__main__":
                     print(f"Processing {task_domain} - {exam_file_name} - {exam_type} - {model_name}")
                     
                     updated_exam_path = f"auto-rag-eval/MultiHopData/{task_domain}/exams/{exam_file_name}_processed_v3.json"
-                    if exam_types in ["closed", "open"]:
+                    if exam_type in ["closed", "open"]:
                         original_results_path = f"auto-rag-eval/MultiHopData/{task_domain}/exam_results/{model_name}_{exam_type}_{exam_file_name}_processed_v2.json.json"
                         output_path = f"auto-rag-eval/MultiHopData/{task_domain}/exam_results/{model_name}_{exam_type}_{exam_file_name}_processed_v3.json.json"
                     else:
