@@ -227,9 +227,9 @@ if __name__ == "__main__":
     # Configuration
     model_type = "cpp"
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    task_domains = ["wiki"]
+    task_domains = ["SecFilings"]
     # retriever_types = ["Dense", "Sparse", "Hybrid", "Rerank"]
-    retriever_types = ["Dense", "Sparse"]
+    retriever_types = ["Sparse"]
     model_names = [
         'llama_3_1_8b',
         # "ministral-8b",
