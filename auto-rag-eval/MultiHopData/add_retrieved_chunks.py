@@ -94,9 +94,9 @@ if __name__ == "__main__":
         "llama_3_2_3b_single_hop_exam_processed.json",
         "gemma2_9b_single_hop_exam_processed.json",
         "ministral_8b_single_hop_exam_processed.json",
-        "exam_new_llama_3_2_3b_processed_v2.json",
+        "exam_new_llama_3_2_3b_processed_v3.json",
         "exam_new_gemma2_9b_processed_v2.json",
-        "exam_new_ministral_8b_processed_v2.json",
+        "exam_new_ministral_8b_processed_v3.json",
         # "exam_new_llama_3_2_3b_processed_v2_unfiltered.json",
         # "exam_new_gemma2_9b_processed_v2_unfiltered.json"
         ]
@@ -106,7 +106,8 @@ if __name__ == "__main__":
             print(f"Starting {task_domain} - {exam_file}")
             database_dir = f"MultiHopData/{task_domain}/chunk_database"
             exam_path = f"MultiHopData/{task_domain}/exams/{exam_file}"
-            # output_path = "path/to/exam_with_retrievals.json"
+            
+            output_path = exam_path.replace("v3", "v4")
             
             # Load chunk retriever from saved database
             chunk_retriever = ChunkRetriever.load_database(
