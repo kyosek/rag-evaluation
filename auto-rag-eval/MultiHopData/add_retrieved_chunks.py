@@ -98,7 +98,7 @@ def add_retrieved_chunks_to_exam(
 
 if __name__ == "__main__":
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    task_domains = ["gov_report", "hotpotqa"]
+    task_domains = ["multifieldqa_en", "SecFilings", "wiki"]
     exam_files = [
         "llama_3_2_3b_single_hop_exam_processed.json",
         "gemma2_9b_single_hop_exam_processed.json",
@@ -117,12 +117,12 @@ if __name__ == "__main__":
             if exam_file == "exam_new_gemma2_9b_processed_v2.json":
                 output_path = exam_path.replace("v2", "v5")
             elif "single_hop_exam" in exam_file:
-                output_path = exam_path + str("_v5")
+                output_path = exam_path.replace("_processed.json", "_processed_v5.json")
             else:
                 output_path = exam_path.replace("v3", "v5")
             
             # Load chunk retriever from saved database
-            retriever = HybridChunkRetriever(task_domain, random_seed=42)
+            chunk_retriever = HybridChunkRetriever(task_domain, random_seed=42)
             
             if not os.path.exists(database_dir):
                 logging.info("Load documents")
