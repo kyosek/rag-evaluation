@@ -9,6 +9,7 @@ import faiss
 from sentence_transformers import SentenceTransformer
 import pickle
 import os
+import logging
 import nltk
 from nltk.tokenize import word_tokenize
 
@@ -121,10 +122,18 @@ if __name__ == "__main__":
                 output_path = exam_path.replace("v3", "v4")
             
             # Load chunk retriever from saved database
-            chunk_retriever = HybridChunkRetriever.load_database(
-                database_dir,
-                task_domain,
-            )
+            retriever = HybridChunkRetriever(task_domain, random_seed=42)
+            
+            if not os.path.exists(exam_path):
+                logging.info("Load documents")
+                retriever.load_documents(f"MultiHopData/{task_domain}/chunks/docs_chunk_semantic_v5_cleaned.json")
+                logging.info(f"Save the database to 'MultiHopData/{task_domain}/chunk_database'")
+                retriever.save_database(f"MultiHopData/{task_domain}/chunk_database")
+            else:
+                chunk_retriever = HybridChunkRetriever.load_database(
+                    database_dir,
+                    task_domain,
+                )
             
             # Add retrieved chunks to exam
             add_retrieved_chunks_to_exam(
