@@ -1,9 +1,9 @@
 [
   {
     "question": "Based on the provided documentation, what was the name of the TV series in which Merlin Olsen played the starring role of John Michael Murphy from 1981 to 1983?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -15,9 +15,9 @@
   },
   {
     "question": "According to the provided documentation, what is the significance of the change made to the Dance Of The Sugar Plum Fairy in the 1993 film version of the Balanchine's Nutcracker, and how does this alteration impact the overall narrative structure of the ballet?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -92,7 +92,7 @@
   },
   {
     "question": "According to the provided documentation, what is the correct release date of the song \"To Hell and Back\" by Benga, considering the information about the album's release and the premiere of the official video on Benga's Vevo?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -141,9 +141,9 @@
   },
   {
     "question": "According to the provided documentation, what is the name of the film in which Saif Ali Khan played the role of a tough cop, which received widespread critical acclaim and earned him several awards, including Best Performance in a Negative Role at the Filmfare, Screen, Zee Cine, and IIFA ceremonies?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -190,9 +190,9 @@
   },
   {
     "question": "According to the 2000 census, what percentage of the population in Averill Park, Michigan, was below the poverty line, including those under age 18 and those age 65 or over?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -379,9 +379,9 @@
   },
   {
     "question": "Based on the information provided, what is the reason for the shortened length of the fifth season of the TV show Louie, as stated by Louis C.K.?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -582,9 +582,9 @@
   },
   {
     "question": "Based on the information provided about Zooey Deschanel's career, which of the following statements can be inferred about her film \"The Illusionist\" (2006)?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -631,9 +631,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the name of the character played by John Hurt in the 2011 film adaptation of Tinker Tailor Soldier Spy, and how does this character differ from the character portrayed by Cyril Cusack in the 1965 film adaptation?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -645,7 +645,7 @@
   },
   {
     "question": "Which of the following individuals, based on the provided documentation, was the most likely to have been a judge in the Supreme Court at Calcutta, given their background and career path?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -785,9 +785,9 @@
   },
   {
     "question": "According to historical records, what was the name of the Italian painter who worked in the studios of Giorgi and Giuliano Traballesi in Milan, and was active in restoration of paintings?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1002,7 +1002,7 @@
   },
   {
     "question": "Based on the historical context and the information provided about the decline of Swan Districts Football Club in the 1960s, what was the primary reason for the club's inability to sustain its success after the introduction of the 'Provident Fund' in the WAFL, as inferred from the historical context and the information about the club's performances during that period?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 3
@@ -1156,7 +1156,7 @@
   },
   {
     "question": "Preeto's decision to fake her marriage with Sunny is motivated by the threat of Neelam's blackmail, which is a result of Preeto's love for Rajbeer. However, Rajbeer overhears Preeto talking to herself and realizes that her marriage is fake. Considering the following information, what is the most likely reason for Preeto's initial decision to fake her marriage with Sunny?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 3
@@ -1177,7 +1177,7 @@
   },
   {
     "question": "According to the provided documentation, what was the initial reaction of the Beatles to the Rolling Stones' early performances, as described by Brian Epstein in a 1980 Playboy interview?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1233,9 +1233,9 @@
   },
   {
     "question": "Based on the provided documentation, what was the name of the band that Deftones recruited as their drummer after Cunningham left to join Phallucy, and what was the year of this replacement?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1268,9 +1268,9 @@
   },
   {
     "question": "According to the transit method, what is the probability of observing a transit from Earth, given that the planet's semi-major axis is 0.5 AU and its radius is 1.2 times the radius of its host star?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1338,9 +1338,9 @@
   },
   {
     "question": "According to the provided documentation, what is the unique striping pattern on the All-Star uniforms that debuted in the 2011 game, and which team was assigned the home blue uniforms?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1422,7 +1422,7 @@
   },
   {
     "question": "Grania's novel \"She-King of the Irish Seas\" is a fictionalized account of Grace O'Malley's life, but it was inspired by Morgan Llywelyn's own experiences as an Irish citizen. According to Morgan Llywelyn's biography, she relocated to Ireland after the death of her parents and husband in 1985. However, Robert Jordan, the author of the Wheel of Time series, was also an Irish-American author who wrote historical fiction novels, including \"Red Branch\", which is based on Irish mythology. In his biography, Jordan mentions that he was awarded the Distinguished Flying Cross with oak leaf cluster for his service in the U.S. Army during the Vietnam War. Considering the following statements:",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 3
@@ -1443,9 +1443,9 @@
   },
   {
     "question": "Based on the provided documentation, what can be inferred about the relationship between Johann and Werther, considering that Werther is described as gloomy and Johann is Charlotte's drinking companion, and that Werther is Charlotte's escort to the ball?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1541,9 +1541,9 @@
   },
   {
     "question": "Corbin, Kentucky, is situated in the Cumberland Plateau region of Appalachia, which is prone to the Pine Mountain Overthrust Fault. This fault system has produced occasional tremors, including the most recent one in 2008. Given that Corbin's mayor, Susie Razmus, has vowed to carry the fight to the state Supreme Court regarding the tax collected within city limits, and considering the city's history of racial tensions, including a race riot in 1919, what is the most likely outcome of the Corbin City Commission's decision to file a lawsuit against Knox County to receive a portion of the tax collected within city limits?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1688,9 +1688,9 @@
   },
   {
     "question": "Analyze the historical performance of the Swan Districts Football Club in the WANFL, considering the context of the era and the impact of key players and events on their success.",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1716,9 +1716,9 @@
   },
   {
     "question": "Adam Cooper choreographed the musical \"Sunny Afternoon\" in 2014, which was later transferred to The Harold Pinter Theatre in London. The show was nominated for numerous awards and won 4 Olivier Awards in 2015. However, Cooper had previously choreographed the musical \"Les Liaisons dangereuses\" in 2015, which was a German musical version of the novel with a newly commissioned book, lyrics, and score. In 2013, Cooper choreographed Matthew White's well-received production of \"Candide\" at the Menier Chocolate Factory, where he praised Adam Cooper's choreography as \"racy\" and \"surreal\". Additionally, Cooper appeared in the UK Tour of New Adventures' \"The Red Shoes\" in 2019, playing the role of Boris Lermontov. Which of the following statements is true about Adam Cooper's career?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1758,7 +1758,7 @@
   },
   {
     "question": "The Los Angeles Memorial Coliseum has hosted various events, including the 1984 Summer Olympics, concerts, and sports games. According to the documentation, the stadium's attendance record for a baseball game was set in 2008, but it was not the highest attendance for a single event. What is the name of the event that drew the highest attendance at the Coliseum, and what was the attendance figure for that event?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
@@ -1779,7 +1779,7 @@
   },
   {
     "question": "According to the provided documentation, what is the name of the 1907 film that explores the theme of a well-to-do boy trying to convince his poorer friend that Santa Claus is real, and features a well-to-do boy and his poorer friend as the main characters, while also highlighting the contrast between the wealthy boy's privileged upbringing and his friend's impoverished circumstances, and how this dynamic affects their perception of Santa Claus?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -1856,7 +1856,7 @@
   },
   {
     "question": "The EastEnders storyline involving Vicki's paternity and her abduction in 1993 had a profound impact on Michelle's mental health. However, considering the potential long-term effects of the storyline on Michelle's well-being, what would have been the most significant consequence if the storyline had been handled more responsibly, taking into account the potential long-term effects on her mental health and the audience's emotional investment in the character?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
@@ -1947,9 +1947,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the current status of the Evergreen Theater, considering the redevelopment of the former mall site and the changes in the surrounding area?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2101,14 +2101,14 @@
   },
   {
     "question": "A stage lighting technician is setting up a multicable (multi-core cable) for a theatrical production. The multicable is connected to a power distribution panel using a Camlock connector, which is rated for 400 amperes with 105 \u00b0C terminations. The technician needs to connect a high-voltage signal to the multicable, but the signal is transmitted through a coaxial cable with a characteristic impedance of 75 ohms. The coaxial cable is connected to a BNC connector, which is designed for video and radio frequency connections up to about 2 GHz and up to 500 volts. However, the high-voltage signal requires a higher frequency range than the BNC connector can handle. What type of connector should the technician use to connect the high-voltage signal to the multicable, and what are the advantages of using this connector over the BNC connector?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
     "question": "Heinrich Zimmer's appointment as professor of Celtic languages at Friedrich Wilhelm University in Berlin in 1901 marked a significant milestone in the development of Celtic studies in Germany. However, his work was not without controversy, as his support for German nationalism and Catholic faith led to his forced emigration to Switzerland in 1920. This event had a profound impact on the field of Celtic studies, leading to a decline in research and teaching opportunities in Germany. In the aftermath of World War II, the University of Marburg, which had previously been a hub for Celtic studies, began to re-establish its program. Meanwhile, in Ireland, the National University of Ireland, Galway, had established a strong program in Celtic studies, with a focus on the study of Old Irish. Which of the following statements best describes the current state of Celtic studies in Germany?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 5
@@ -2136,7 +2136,7 @@
   },
   {
     "question": "According to the provided documentation, what was the primary reason for the construction of the Garden Bridge, as stated by the Garden Bridge Trust, and how did this reason relate to the bridge's intended use?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 5
@@ -2220,9 +2220,9 @@
   },
   {
     "question": "According to the provided documentation, what is the name of the museum that features a collection of artwork from the 19th century to the present, and is also home to a distinctive collection of 19th and 20th century artwork, including pieces by prominent artists such as Joseph Stella and Lawrence Alma-Tadema?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2276,7 +2276,7 @@
   },
   {
     "question": "A medical student in Brazil is considering pursuing a doctoral degree in medicine. According to the Brazilian academic system, what is the typical duration of a doctoral program in medicine, and what is the usual monthly stipend for doctoral students during their studies?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
@@ -2381,9 +2381,9 @@
   },
   {
     "question": "A researcher is developing a new vaccine against a highly contagious and deadly disease. The vaccine is based on a genetic vaccine approach, but the researcher is concerned about the potential for the vaccine to cause an immune response that could lead to the production of antibodies against the vaccine itself. Which of the following delivery systems would be most suitable for this vaccine, considering the need to minimize the risk of immune response against the vaccine?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2514,9 +2514,9 @@
   },
   {
     "question": "The New York Botanical Garden's mission to advocate for the plant world is reflected in its various programs and exhibitions. However, the garden's history is also marked by the influence of the Torrey Botanical Society, which played a crucial role in its establishment. Considering the garden's commitment to education and research, how does the NYBG's partnership with Douglaston Development, announced in 2020, align with its mission to promote the plant world, and what implications does this partnership have for the garden's role in the community?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -2689,9 +2689,9 @@
   },
   {
     "question": "David Parlett, the renowned game designer, has invented numerous board games and card games. However, what is notable about his career that is not mentioned in the passage about Alex Randolph, and which is also not explicitly stated in the provided text about David Parlett himself?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -2759,7 +2759,7 @@
   },
   {
     "question": "The genetic study of the United Kingdom in 2015 found that Scottish and Cornish populations share greater genetic similarity with the English than they do with other 'Celtic' populations. However, a 2016 study of Bronze Age remains from Rathlin Island in Ireland found that the core of the genome of insular Celtic populations was established by that time. Which of the following statements best describes the implications of these findings for our understanding of the origins of the Celtic-speaking peoples?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -3144,9 +3144,9 @@
   },
   {
     "question": "The Red Queen's tyrannical rule in Underland is exemplified by her treatment of her sister, the White Queen, Mirana. According to Mirana, the White Queen's attempts to maintain peace and order in the kingdom are thwarted by her own dark impulses, which are a result of her being \"scared of going too far into the dark side.\" This fear is reflected in her surroundings, which appear \"very light and happy\" despite her inner turmoil. However, the White Queen's sister, the Red Queen, is aware of her own dark nature and has taken steps to suppress it, as evidenced by her use of the Knave of Hearts, Ilosovic Stayne, to calm her mood swings.",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -3200,7 +3200,7 @@
   },
   {
     "question": "After the Huskies' 40\u201321 win over Vanderbilt, Dave Teggart was named the Big East's Defensive Player of the Week, while Jordan Todman was also named to the weekly honor roll. However, in the same week, UConn's quarterback, Cody Endres, was suspended for the remainder of the season due to a concussion. Later, it was announced that Endres would not return to the team for his senior season in 2011. Considering the following information:",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4

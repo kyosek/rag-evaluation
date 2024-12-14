@@ -1,3 +1,4 @@
+from collections import defaultdict
 import numpy as np
 from scipy.optimize import minimize
 from dataclasses import dataclass
@@ -16,9 +17,40 @@ class ExamResult:
     retriever_name: Optional[str] = None
     responses: Optional[List[bool]] = None
     num_hops: Optional[List[int]] = None
+    exam_type: Optional[str] = None
     
     @classmethod
-    def from_json_file(cls, filepath: str, llm_name: str, retriever_name: Optional[str] = None) -> 'ExamResult':
+    def combine_exam_takers(cls, results: List['ExamResult']) -> 'ExamResult':
+        """Combine results from different exam takers (LLMs) that took the same exam by concatenating their responses"""
+        if not results:
+            raise ValueError("Cannot combine empty list of results")
+            
+        # Verify all results have compatible type
+        first = results[0]
+        if not all(r.retriever_name == first.retriever_name for r in results):
+            raise ValueError("All results must have the same retriever type")
+            
+        # Simply concatenate responses and hop numbers
+        combined_responses = []
+        combined_hops = []
+        for result in results:
+            combined_responses.extend(result.responses)
+            if result.num_hops:
+                combined_hops.extend(result.num_hops)
+            
+        llm_names = "_".join(r.llm_name for r in results)
+        
+        return cls(
+            llm_name=f"combined_{llm_names}",
+            retriever_name=first.retriever_name,
+            responses=combined_responses,
+            num_hops=combined_hops,
+            exam_type=first.exam_type
+        )
+    
+    @classmethod
+    def from_json_file(cls, filepath: str, llm_name: str, retriever_name: Optional[str] = None, 
+                      exam_type: Optional[str] = None) -> 'ExamResult':
         """Create an ExamResult instance from a JSON file containing exam responses"""
         try:
             with open(filepath, 'r') as f:
@@ -38,62 +70,6 @@ class ExamResult:
                                 data.append(json.loads(line))
                             except json.JSONDecodeError as e:
                                 print(f"Warning: Skipping invalid JSON line in {filepath}")
-    
-    # def save_analysis(self, params: Dict[str, np.array], output_path: str):
-    #     """Save analysis results to a JSON file"""
-    #     # Get unique hop counts
-    #     unique_hops = sorted(list(set(hop for result in self.exam_results for hop in result.num_hops)))
-        
-    #     # Calculate average difficulty and discrimination by hop count
-    #     hop_stats = {}
-    #     for hop_count in unique_hops:
-    #         # Get indices for questions with this hop count
-    #         indices = [i for i, hops in enumerate(self.exam_results[0].num_hops) if hops == hop_count]
-            
-    #         hop_stats[str(hop_count)] = {
-    #             "avg_difficulty": float(np.mean(params['difficulty'][indices])),
-    #             "avg_discrimination": float(np.mean(params['discrimination'][indices])),
-    #             "num_questions": len(indices)
-    #         }
-        
-    #     # Prepare model ability results
-    #     model_abilities = {}
-    #     for result in self.exam_results:
-    #         model_key = f"{result.llm_name}"
-    #         if result.retriever_name:
-    #             model_key += f"_{result.retriever_name}"
-            
-    #         idx = self.exam_results.index(result)
-    #         model_abilities[model_key] = float(params['theta'][idx])
-        
-    #     # Prepare component abilities
-    #     component_abilities = {
-    #         "llms": {
-    #             llm: float(params['theta_params'][idx])
-    #             for llm, idx in self.llm_map.items()
-    #         },
-    #         "retrievers": {
-    #             ret: float(params['theta_params'][self.num_llms + idx])
-    #             for ret, idx in self.retriever_map.items()
-    #         } if self.retriever_map else {}
-    #     }
-        
-    #     # Overall exam statistics
-    #     overall_stats = {
-    #         "avg_difficulty": float(np.mean(params['difficulty'])),
-    #         "avg_discrimination": float(np.mean(params['discrimination'])),
-    #         "total_questions": self.num_questions
-    #     }
-        
-    #     analysis_results = {
-    #         "overall_stats": overall_stats,
-    #         "hop_analysis": hop_stats,
-    #         "model_abilities": model_abilities,
-    #         "component_abilities": component_abilities,
-    #     }
-        
-    #     with open(output_path, 'w') as f:
-    #         json.dump(analysis_results, f, indent=2)
             
             if not data:
                 raise ValueError(f"No valid JSON data found in {filepath}")
@@ -120,13 +96,14 @@ class ExamResult:
                 elif 'num_hops' in item:
                     num_hops.append(item['num_hops'])
                 else:
-                    num_hops.append(2)  # Default to 2 hops if not specified
+                    num_hops.append(0)  # Default to 0 hops if not specified
             
             return cls(
                 llm_name=llm_name,
                 retriever_name=retriever_name,
                 responses=responses,
-                num_hops=num_hops
+                num_hops=num_hops,
+                exam_type=exam_type
             )
             
         except FileNotFoundError:
@@ -135,28 +112,73 @@ class ExamResult:
             raise ValueError(f"Error processing {filepath}: {str(e)}")
     
     @classmethod
-    def from_json_files(cls, filepaths: Dict[str, Dict[str, str]]) -> List['ExamResult']:
-        """Create multiple ExamResult instances from a dictionary mapping model configurations to file paths"""
+    def combine_exam_results(cls, result1: 'ExamResult', result2: 'ExamResult') -> 'ExamResult':
+        """Combine two exam results into a single result"""
+        if result1.llm_name != result2.llm_name or result1.retriever_name != result2.retriever_name:
+            raise ValueError("Cannot combine results from different models or retrievers")
+        
+        return cls(
+            llm_name=result1.llm_name,
+            retriever_name=result1.retriever_name,
+            responses=result1.responses + result2.responses,
+            num_hops=result1.num_hops + result2.num_hops,
+            exam_type="combined"
+        )
+    
+    @classmethod
+    def from_json_files(cls, filepaths: Dict[str, Dict[str, Union[str, Dict[str, str]]]],
+                       combine_exams: bool = False,
+                       combine_exam_takers: bool = False) -> List['ExamResult']:
+        """Create ExamResult instances from filepaths, with option to combine exam takers"""
         results = []
+        exam_taker_groups = defaultdict(list)  # Group by retriever and exam type
         
         for llm_name, retriever_paths in filepaths.items():
-            for retriever_name, filepath in retriever_paths.items():
+            for retriever_name, filepath_info in retriever_paths.items():
                 try:
-                    # Use None for closed_book to indicate no retriever
                     ret_name = None if retriever_name == 'closed_book' else retriever_name
-                    result = cls.from_json_file(filepath, llm_name, ret_name)
-                    results.append(result)
+                    
+                    if combine_exams and isinstance(filepath_info, dict):
+                        # Load and combine single/multi hop exam results
+                        single_result = cls.from_json_file(
+                            filepath_info['single'], llm_name, ret_name, exam_type="single")
+                        multi_result = cls.from_json_file(
+                            filepath_info['multi'], llm_name, ret_name, exam_type="multi")
+                        combined_result = cls.combine_exam_results(single_result, multi_result)
+                        
+                        if combine_exam_takers:
+                            # Group by retriever type for later combination
+                            key = (ret_name, combined_result.exam_type)
+                            exam_taker_groups[key].append(combined_result)
+                        else:
+                            results.append(combined_result)
+                    else:
+                        # Load single exam result
+                        filepath = filepath_info if isinstance(filepath_info, str) else filepath_info['default']
+                        result = cls.from_json_file(filepath, llm_name, ret_name)
+                        
+                        if combine_exam_takers:
+                            key = (ret_name, result.exam_type)
+                            exam_taker_groups[key].append(result)
+                        else:
+                            results.append(result)
+                        
                 except Exception as e:
-                    print(f"Warning: Failed to load {filepath} for {llm_name}/{retriever_name}: {e}")
+                    print(f"Warning: Failed to load results for {llm_name}/{retriever_name}: {e}")
                     continue
         
-        if not results:
-            raise ValueError("No valid exam results could be loaded from the provided files")
+        if combine_exam_takers:
+            # Combine results from different exam takers for each group
+            for (ret_name, exam_type), group_results in exam_taker_groups.items():
+                if len(group_results) > 1:  # Only combine if we have multiple results
+                    try:
+                        combined = cls.combine_exam_takers(group_results)
+                        results.append(combined)
+                    except Exception as e:
+                        print(f"Warning: Failed to combine exam takers for {ret_name}/{exam_type}: {e}")
         
-        # Verify all results have the same number of questions
-        num_questions = len(results[0].responses)
-        if not all(len(result.responses) == num_questions for result in results):
-            raise ValueError("All exam results must have the same number of questions")
+        if not results:
+            raise ValueError("No valid exam results could be loaded")
         
         return results
     
@@ -507,6 +529,34 @@ class MultihopIRTModel:
         return stats1, stats2
 
 
+def run_analysis(filepaths: Dict[str, Dict[str, Union[str, Dict[str, str]]]], 
+                combine_exams: bool = False,
+                combine_exam_takers: bool = False,
+                output_dir: str = "analysis_results"):
+    """Run IRT analysis with option to combine exam results"""
+    # Load and process exam results
+    exam_results = ExamResult.from_json_files(filepaths, combine_exams=combine_exams, combine_exam_takers=combine_exam_takers)
+    
+    # Initialize and fit the model
+    model = MultihopIRTModel(exam_results, num_questions=len(exam_results[0].responses))
+    params = model.fit()
+    
+    # Create output directory
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Save analysis results
+    analysis_type = "combined" if combine_exams else "separate"
+    model.save_analysis(params, output_dir / f"{analysis_type}_analysis.json")
+    
+    # Generate plots
+    model.plot_results(params, 
+                      save_path=output_dir / f"{analysis_type}_analysis_plots.png",
+                      title_prefix=f"{analysis_type.capitalize()} Exam Analysis: ")
+    
+    return model, params
+
+
 def compare_exam_sets(model1: MultihopIRTModel, model2: MultihopIRTModel,
                      save_path: Optional[str] = None):
     """Compare two exam sets and visualize results"""
@@ -603,91 +653,121 @@ def compare_exam_sets(model1: MultihopIRTModel, model2: MultihopIRTModel,
     }
 
 
-def compare_multi_single(multihop_filepaths, singlehop_filepaths):
-    # Load exam results as before
-    multihop_results = ExamResult.from_json_files(multihop_filepaths)
-    singlehop_results = ExamResult.from_json_files(singlehop_filepaths)
-
-    # Initialize models
-    multihop_model = MultihopIRTModel(multihop_results, 
-                                    num_questions=len(multihop_results[0].responses))
-    singlehop_model = MultihopIRTModel(singlehop_results, 
-                                    num_questions=len(singlehop_results[0].responses))
-
-    # Fit models
-    multihop_params = multihop_model.fit()
-    singlehop_params = singlehop_model.fit()
-
-    # Generate enhanced visualizations
-    multihop_model.plot_results(multihop_params, 
-                            save_path="multihop_analysis.png",
-                            title_prefix="Multihop Exam: ")
-
-    singlehop_model.plot_results(singlehop_params,
-                                save_path="singlehop_analysis.png",
-                                title_prefix="Single-hop Exam: ")
-
-    # Compare exam sets
-    comparison_results = compare_exam_sets(
-        multihop_model, 
-        singlehop_model,
-        save_path="exam_comparison.png"
-    )
-
-    print("\nComparison Summary:")
-    print(f"Difficulty Difference: {comparison_results['comparison_summary']['difficulty_difference']:.3f}")
-    print(f"Discrimination Difference: {comparison_results['comparison_summary']['discrimination_difference']:.3f}")
-    print(f"Question Count Difference: {comparison_results['comparison_summary']['question_count_difference']}")
-
-
 if __name__ == "__main__":
-    # Load a single exam result
-    # single_result = ExamResult.from_json_file(
-    # filepath='auto-rag-eval/MultiHopData/gov_report/exam_results/llama_3_1_8b_closed_exam_new_llama_3_2_3b_processed_v2.json.json',
-    # llm_name='llama3-8b',
-    # retriever_name='closed_book'
-    # )
-
-# Load multiple exam results
-    filepaths = {
-        'llama3-8b': {
-            'closed_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/llama_3_1_8b_closed_exam_new_llama_3_2_3b_processed_v2.json.json',
-            'open_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/llama_3_1_8b_open_exam_new_llama_3_2_3b_processed_v2.json.json'
-        },
-        'mistral-8b': {
-            'closed_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/ministral-8b_closed_exam_new_llama_3_2_3b_processed_v2.json.json',
-            'open_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/ministral-8b_open_exam_new_llama_3_2_3b_processed_v2.json.json'
-        },
-        'gemma2-27b': {
-            'closed_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/gemma2-27b_closed_exam_new_llama_3_2_3b_processed_v2.json.json',
-            'open_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/gemma2-27b_open_exam_new_llama_3_2_3b_processed_v2.json.json'
-        }
-    }
+    # Configuration
+    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    exam_generators = ["llama_3_2_3b", "gemma2_9b", "ministral_8b"]
     
-    # singlehop_filepaths = {
-    #     'llama3-8b': {
-    #         'closed_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/llama_3_1_8b_closed_llama_3_2_3b_single_hop_exam_processed.json.json',
-    #         'open_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/llama_3_1_8b_open_llama_3_2_3b_single_hop_exam_processed.json.json'
-    #     },
-    #     'mistral-8b': {
-    #         'closed_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/ministral-8b_closed_llama_3_2_3b_single_hop_exam_processed.json.json',
-    #         'open_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/ministral-8b_open_llama_3_2_3b_single_hop_exam_processed.json.json'
-    #     },
-    #     'gemma2-27b': {
-    #         'closed_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/gemma2-27b_closed_llama_3_2_3b_single_hop_exam_processed.json.json',
-    #         'open_book': 'auto-rag-eval/MultiHopData/gov_report/exam_results/gemma2-27b_open_llama_3_2_3b_single_hop_exam_processed.json.json'
-    #     }
-    # }
-
-    # exam_results = ExamResult.from_json_files(filepaths)
-
-    # # Initialize and fit the model with loaded results
-    # model = MultihopIRTModel(exam_results, num_questions=len(exam_results[0].responses))
-    # # model = MultihopIRTModel(single_result, num_questions=len(single_result.responses))
-    # params = model.fit()
+    # Analysis configurations
+    analysis_modes = [
+        {"combine_exams": True, "combine_exam_takers": False, "output_suffix": "combined_takers"}
+        # {"combine_exams": True, "combine_exam_takers": True, "output_suffix": "combined_takers"}
+    ]
     
-    # # Plot results
-    # model.plot_results(params, save_path="irt_analysis.png")
-    
-    # Compare exam sets
-    compare_multi_single(filepaths, singlehop_filepaths)
+    for task_domain in task_domains:
+        print(f"\nProcessing task domain: {task_domain}")
+        
+        for exam_generator in exam_generators:
+            print(f"Processing exam generator: {exam_generator}")
+            
+            # Define filepaths structure
+            filepaths = {
+                'llama3-8b': {
+                    'closed_book': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_closed_{exam_generator}_single_hop_exam_processed.json.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_closed_exam_new_{exam_generator}_processed_v3.json.json'
+                    },
+                    'Dense': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Dense_{exam_generator}_single_hop_exam_processed.json_5_results.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Dense_exam_new_{exam_generator}_processed_v3.json_5_results.json'
+                    },
+                    'Sparse': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Sparse_{exam_generator}_single_hop_exam_processed.json_5_results.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Sparse_exam_new_{exam_generator}_processed_v3.json_5_results.json'
+                    },
+                    'Hybrid': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Hybrid_{exam_generator}_single_hop_exam_processed_5_results.json.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Hybrid_exam_new_{exam_generator}_processed_v3.json_5_results.json'
+                    },
+                    'Rerank': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Rerank_{exam_generator}_single_hop_exam_processed_5_results.json.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Rerank_exam_new_{exam_generator}_processed_v3.json_5_results.json'
+                    },
+                    'open_book': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_open_{exam_generator}_single_hop_exam_processed.json.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_open_exam_new_{exam_generator}_processed_v3.json.json'
+                    },
+                },
+                'mistral-8b': {
+                    'closed_book': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_closed_{exam_generator}_single_hop_exam_processed.json.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_closed_exam_new_{exam_generator}_processed_v3.json.json'
+                    },
+                    'Dense': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Dense_{exam_generator}_single_hop_exam_processed.json_5_results.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Dense_exam_new_{exam_generator}_processed_v3.json_5_results.json'
+                    },
+                    'Sparse': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Sparse_{exam_generator}_single_hop_exam_processed.json_5_results.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Sparse_exam_new_{exam_generator}_processed_v3.json_5_results.json'
+                    },
+                    'Hybrid': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Hybrid_{exam_generator}_single_hop_exam_processed.json_5_results.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Hybrid_exam_new_{exam_generator}_processed_v3.json_5_results.json'
+                    },
+                    'Rerank': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Rerank_{exam_generator}_single_hop_exam_processed.json_5_results.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_Rerank_exam_new_{exam_generator}_processed_v3.json_5_results.json'
+                    },
+                    'open_book': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_open_{exam_generator}_single_hop_exam_processed.json.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral-8b_open_exam_new_{exam_generator}_processed_v3.json.json'
+                    },
+                },
+                'gemma2-9b': {
+                    'closed_book': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_closed_{exam_generator}_single_hop_exam_processed.json.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_closed_exam_new_{exam_generator}_processed_v2.json.json'
+                    },
+                    'Dense': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Dense_{exam_generator}_single_hop_exam_processed.json_5_results.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Dense_exam_new_{exam_generator}_processed_v2.json_5_results.json'
+                    },
+                    'Sparse': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Sparse_{exam_generator}_single_hop_exam_processed.json_5_results.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Sparse_exam_new_{exam_generator}_processed_v2.json_5_results.json'
+                    },
+                    'Hybrid': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Hybrid_{exam_generator}_single_hop_exam_processed.json_5_results.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Hybrid_exam_new_{exam_generator}_processed_v2.json_5_results.json'
+                    },
+                    'Rerank': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Rerank_{exam_generator}_single_hop_exam_processed.json_5_results.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Rerank_exam_new_{exam_generator}_processed_v2.json_5_results.json'
+                    },
+                    'open_book': {
+                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_open_{exam_generator}_single_hop_exam_processed.json.json',
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_open_exam_new_{exam_generator}_processed_v2.json.json'
+                    },
+                }
+            }
+            
+            # Run analysis for each configuration
+            for analysis_config in analysis_modes:
+                output_dir = f"analysis_results/{task_domain}/{exam_generator}/{analysis_config['output_suffix']}"
+                print(f"\nRunning analysis with configuration:")
+                print(f"- Combine exams: {analysis_config['combine_exams']}")
+                print(f"- Combine exam takers: {analysis_config['combine_exam_takers']}")
+                print(f"- Output directory: {output_dir}")
+                
+                try:
+                    model, params = run_analysis(
+                        filepaths=filepaths,
+                        combine_exams=analysis_config['combine_exams'],
+                        combine_exam_takers=analysis_config['combine_exam_takers'],
+                        output_dir=output_dir
+                    )
+                    print(f"Analysis completed successfully")
+                except Exception as e:
+                    print(f"Error during analysis: {str(e)}")
+                    continue

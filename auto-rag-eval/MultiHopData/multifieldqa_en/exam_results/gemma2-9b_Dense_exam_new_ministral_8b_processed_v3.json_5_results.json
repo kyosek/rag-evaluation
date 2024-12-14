@@ -1,0 +1,1773 @@
+[
+  {
+    "question": "**\n\nIn the context of the provided documentation, the Shadoks team used a specific strategy to optimize the coloring of vertices in a graph. They employed a conflict-minimization phase and a conflict optimizer with a queue-based approach. The conflict optimizer uses a weight function w(u) = 1 + q(u) * p, where p is a parameter that influences the weight of vertices. The Shadoks also used a parameter q_max to determine when to restart the conflict optimizer. Given the following information:\n\n- The Shadoks used a value of p = 1.2.\n- The Shadoks used a value of q_max = 2000 * (75000/m)\u00b2, where m is the number of vertices.\n- The Shadoks used a value of \u03c3 = 0.15 for the Gaussian random variable in the weight function.\n\nWhich of the following statements is true about the Shadoks' strategy?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nConsider the following information from the provided documentation:\n\n1. The SLAS (Speed and Lane Advisory System) aims to maximize the speed of the ego vehicle while minimizing frequent lane changes and abrupt speed changes.\n2. The optimization problem for SLAS is formulated to maximize speed and minimize lane changes and abrupt speed changes.\n3. The state of the system at time instant k is defined by the ego vehicle's speed and control input.\n4. The visibility range of the ego vehicle is restricted to a sensory perception limit, denoted by Rv.\n5. The trajectory prediction model for observed vehicles uses a piece-wise linear function for speed and assumes constant lane profiles.\n\nGiven the above information, which of the following statements is true about the SLAS system?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the relationship between seafood consumption and mercury exposure among the studied communities?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the comparative performance of SEW ResNet and ResNet across different datasets and similarity metrics?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is most accurate regarding the future of mobile CPUs and the role of System on a Chip (SoC)?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the operation of the VR headset and its controllers?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the expression of genomic repeats during Met/Cys deprivation in HeLa cells?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following is the most effective method for controlling gypsy moth populations, based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nConsider the following information from the provided document chunks:\n\n1. The second term in the equation of motion for a nonlinear oscillator is given by the sum frequency response and the difference frequency response, governed by \u03bbi + \u03bbj.\n2. The linear natural frequency of the system is \u03c90 = k1/m = 3.16, and the damping ratio \u03b6 = c/(2m\u03c90) = 15.8%.\n3. The Volterra kernel functions are related to the frequency response functions by a specific Fourier transform pair.\n4. The linear frequency response function (LFRF) H1(\u03c9), the quadratic frequency response function (QFRF) H2(\u03c91, \u03c92), and the cubic frequency response function (CFRF) H3(\u03c91, \u03c92, \u03c93) are analytically given by specific equations.\n\nGiven this information, which of the following statements is true?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate description of the observed [OIII] lines in the spectrum of XMMSL1 J060636.2-694933?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the mixed-source business model approach, which of the following is the most suitable model for a secure device manufacturer/provider to maximize both value creation and value capture?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of Benjamin Franklin's residences in London, which of the following statements is true based on the provided documentation?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements best describes the financial impact of the oil crisis on ConocoPhillips' operations in Norway?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the VarDial 2023 DSL-TL shared task, the authors of the paper \"Two-stage Pipeline for Multilingual Dialect Detection\" employed a two-stage system for identifying dialects. This system consists of a language identification model (LID) and three language-specific models. The LID classifies the input into one of three languages, and the sample is then further classified into dialects by the language-specific models. The authors achieved a score of 58.54% for Track-1 and 85.61% for Track-2. Given this information, which of the following statements is true?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the effects of L-Histidinol on transgene reactivation in HeLa cells?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Given the provided documentation, which of the following statements is true regarding the security of Bitcoin's proof-of-work protocol and the impact of parallelized Grover's algorithm on hash functions?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In the context of the provided documentation, which of the following statements is the most accurate description of the time it takes for a $49f(2)$ Rydberg gas with an initial density of $3 \\times 10^{11} ~{\\rm cm}^{-3}$ to relax to plasma?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided document chunks, which of the following statements is the most accurate assessment of the current situation in Libya?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, consider the following:\n\n1. The first chunk discusses a mechanistic model of synaptic plasticity and its optimization for solving prediction and decision tasks. It also mentions the redundancy of learning rules in biological settings.\n2. The second chunk explores the evolutionary balance between innate and learned behaviors, emphasizing the influence of environmental statistics and task requirements on the emergence of learning behaviors.\n\nGiven these chunks, which of the following statements is most accurate regarding the relationship between synaptic plasticity and learning behaviors in biological systems?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the relationship between sin and the image of God in humans?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the process of approving and implementing a development plan?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the data sharing practices in archaeology journals?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of a future digital hospital, which of the following entities is most likely to provide IoT-MDM services for managing and configuring secure devices, given the need for seamless integration and upgrading of hundreds of secure devices?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of regional planning, which of the following statements is true based on the provided documentation?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nConsider the provided documentation on the performance of various solvers (GMRES, DSA, FPSA, and NFPA) for different kernels (SRK, HGK, and EK) and their respective parameters. Based on the information given, which of the following statements is true regarding the performance of NFPA and FPSA compared to GMRES and DSA?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the XY model on a 2D lattice with $N=64$ sites, consider the following information from the provided documentation:\n\n1. The ordered real-valued XY model shows that the inferred couplings (dashed black lines) and true couplings (full green lines) are plotted on top of each other in Fig. \\ref{Jor1_dec}. The left and right columns refer to the cases of ordered and bimodal disordered couplings, respectively. The top figures show single site reconstruction, while the bottom figures report the couplings sorted in descending order.\n\n2. For the ordered complex-valued XY model, the inferred and true couplings are plotted on top of each other in Fig. \\ref{Jor3_dec}. The left and right columns show the real and imaginary parts, respectively, of the couplings. The top figures refer to a single site reconstruction, and the bottom figures report the couplings sorted in descending order.\n\n3. The number of most likely decimated couplings, estimated by the maximum point of $\\mathcal{L}_t$, as a function of the number of samples $M$, is shown in Fig. \\ref{PLF_peak_statistics}. It is observed that the maximum point of $\\mathcal{L}_t$ tends toward $x^*$, which is the expected number of zero couplings in the system.\n\n4. The variation of reconstruction error, $\\text{err}_J$, with respect to temperature is shown in Fig. \\ref{MF_PL_err}. The error is obtained using three different techniques: PLM with decimation, PLM with $l_2$ regularization, and mean-field.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In the context of the provided documentation, which of the following statements is the most accurate description of the role of Florida in the distribution of oxycodone?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the functional hierarchy differences between macaques and mice, based on the analysis of layer depths and similarity scores?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of hemoglobin H disease, which of the following statements is true regarding the spleen's involvement in the disease?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Given the provided documentation, which of the following statements is true about the security of NIST P-224 and NIST P-256 elliptic curves under a quantum adversary with a physical error rate per gate of $p_g=10^{-3}$?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the history of KSTP, considering the information from both chunks?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements best describes the relationship between Mufti-e-Azam-e-Hind and the descendants of Sayyiduna Rasulullah (sallal laahu alaihi wasallam)?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the primary concern raised by the participants in the hunger fast?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the probabilistic formulation of the model described in the first chunk?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the restrictions on land use and development?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In the context of lattice QCD, which of the following statements is true about the sign problem at strong coupling?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the author's position on the nature of reality and perception?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of visual processing mechanisms, which of the following statements is most accurate based on the provided document chunks?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, what is the most likely reason for the daughter's desire to live with her friends' family?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the relationship between FPSA and NFPA?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, consider the following scenario:\n\n- The first document chunk discusses the introduction of an asymmetry parameter $x$ and its relationship to the Kondo temperature $T^*$. It also mentions that the magnitude of $T^*$ changes significantly with $x$, exceeding an order of magnitude for $x=\\pm 0.5$ and $\\xi=U/20$.\n- The second document chunk introduces the concept of CAR efficiency $\\mathcal{C}$ and its impact on the CAR exchange. It shows that decreasing $\\mathcal{C}$ from $\\mathcal{C}=1$ causes diminishing of $\\GS{\\rm X}$ and consequently of CAR exchange. For a change as small as $\\mathcal{C}=0.9$, the consequences reduce to some shift of the conventional Kondo regime.\n\nGiven this information, which of the following statements is true?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Consider the following information from the provided document chunks:\n\n1. **Chunk0**: The document discusses a fault-tolerant quantum adversary analyzing an attack against a symmetric cryptographic function. It mentions a resource estimation methodology that takes into account various layers between the high-level description of an algorithm and the physical hardware required for its execution. The methodology is modular, allowing for the calculation of the impact of improvements in any particular layer.\n\n2. **Chunk1**: The document mentions that the curves above the purple line in a figure show the overhead introduced by fault tolerance. It states that optimization at the logical layer will shift the purple line down, while optimization at the fault-tolerant layer will move the upper curves closer to the purple line.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following strategies is the most effective for BC to improve attendance, based on the insights from the NFL's experience with attendance issues?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document, which of the following statements is the most accurate representation of the authors' findings regarding the use of meta-information in discharge summary generation?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the sparse-deconvolution method and its application in activity recognition?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the behavior of depletions and blobs in compressible and incompressible systems?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document, which of the following statements is the most accurate representation of the findings regarding the performance of Spiking Neural Networks (SNNs) compared to Convolutional Neural Networks (CNNs) with the same depth and architectures?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the embodied agent's learning process?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the C$_2$H emission in the hypercompact H{\\sc ii} region IRAS 18089-1732, based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In the context of the Generalized Dynamic Bayesian Network (GDBN) and the Coupled GDBN (C-GDBN) described in the provided documentation, which of the following statements is true regarding the interaction between the RF and GPS signals?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the CUSUM-OAL test?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the Committee on Science (ComSci) activities related to sustainability?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of lattice QCD, which of the following statements is true about the strong coupling regime and the dual representation of the partition function?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the challenges faced by agents in multi-agent reinforcement learning (MARL) when attempting to communicate effectively?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate assessment of the situation regarding the U.S. government's involvement in Libya?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements best summarizes the core disagreement between Born and the Executive Office's top economic policy advisors, as described in the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In the context of the provided document chunks, which of the following statements is the most accurate representation of the author's perspective on the role of computer-based communications technology in society?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the city of Chico's current fiscal situation and its implications for the upcoming election?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the capabilities of convolutional neural networks (CNNs) in contour completion tasks?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Consider the following mathematical problem involving a function \\( E \\) and a smooth function \\( \\phi \\) in the context of a weighted Hardy inequality. The goal is to prove the inequality:\n\n\\[\n(\\tau - \\frac{1}{2})^2 \\int E^{2\\tau - 2} |\\nabla E|^2 \\phi^2 + (\\frac{1}{2} - \\tau) \\int (-\\Delta E) E^{2\\tau - 1} \\phi^2 \\leq \\int E^{2\\tau} |\\nabla \\phi|^2\n\\]\n\nfor all \\( \\phi \\in C_c^\\infty(\\mathbb{R}^N) \\) and \\( \\tau \\in \\mathbb{R} \\).\n\nGiven the following information from the document:\n\n1. **Lemma 1**: For a smooth function \\( E \\), the inequality holds:\n   \\[\n   (\\tau - \\frac{1}{2})^2 \\int E^{2\\tau - 2} |\\nabla E|^2 \\phi^2 + (\\frac{1}{2} - \\tau) \\int (-\\Delta E) E^{2\\tau - 1} \\phi^2 \\leq \\int E^{2\\tau} |\\nabla \\phi|^2\n   \\]\n\n2. **Corollary 1**: For all \\( \\phi \\in C_c^\\infty \\) and \\( t, \\alpha \\in \\mathbb{R} \\), the inequality is given by:\n   \\[\n   \\int (1 + |x|^2)^{\\frac{\\alpha}{2}} |\\nabla \\phi|^2 \\geq (t + \\frac{\\alpha}{2})^2 \\int |x|^2 (1 + |x|^2)^{-2 + \\frac{\\alpha}{2}} \\phi^2 + (t + \\frac{\\alpha}{2}) \\int (N - 2(t + 1) \\frac{|x|^2}{1 + |x|^2}) (1 + |x|^2)^{-1 + \\frac{\\alpha}{2}} \\phi^2\n   \\]\n\n3. **Proof of Theorem 1**: The proof involves substituting \\( \\psi = e^{tu} \\phi \\) into the inequality and integrating by parts.\n\n### Question:\n\nWhich of the following statements is true regarding the proof of the inequality in Lemma 1?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate assessment of the family's situation regarding their children with Asperger's Syndrome?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the performance of the proposed method in detecting GPS spoofing and jamming attacks?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is most likely to be true about the upcoming season for the Boston College football team, based on the provided document chunks?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the generation and characterization of unsubstituted indeno[1,2-a]fluorene (5)?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of studying Schwann cell-astrocyte interactions, which of the following assays is most effective for analyzing the behavior of these cells at the boundary?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In the context of the provided documentation, which of the following statements is true regarding the performance of the pseudo-likelihood method (PLM) combined with decimation for the XY model?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the dynamics of the ball in the ambient plasma?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate description of the financial situation of Sola local authority after the changes in the Petroleum Tax Act?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In the context of the provided document chunks, which of the following statements is true about the timeline of events related to prescription drug monitoring in Florida?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the robot's performance when accounting for path preferences?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the effect of GCN2 on transgene reactivation in response to EAA starvation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the analysis of power-law exponents in cryptocurrency returns, based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is most accurate regarding the relationship between the President, Congress, and the Court in the American constitutional order?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is most accurate regarding the effects of essential amino acid (AA) deprivation on gene expression?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the distribution of musical works and sound recordings on Broadjam's interactive streaming services, given the provided documentation?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, consider the following scenario:\n\n1. The continuity equation for the electron density $n$ in a drift-fluid model is given by:\n   \\[\n   \\frac{\\partial n}{\\partial t} + \\nabla \\cdot (n \\vec{u}_E) = 0\n   \\]\n   where $\\vec{u}_E = (\\hat{\\vec{b}} \\times \\nabla \\phi)/B$ is the electric drift velocity in a magnetic field $\\vec{B} = B \\hat{\\vec{b}}$ and an electric potential $\\phi$.\n\n2. The equation for the polarization charge density $\\rho$ is:\n   \\[\n   \\rho = \\nabla \\cdot \\left( n \\nabla_{\\perp} \\phi / \\Omega B \\right)\n   \\]\n   where $\\nabla_{\\perp} \\phi / B = - \\hat{\\vec{b}} \\times \\vec{u}_E$ is the electron diamagnetic drift, and $\\Omega = eB/m_i$ is the ion gyro-frequency.\n\n3. The equation for the electron diamagnetic drift $\\vec{u}_d$ is:\n   \\[\n   \\vec{u}_d = - T_e (\\hat{\\vec{b}} \\times \\nabla n) / (enB)\n   \\]\n   where $T_e$ is the electron temperature.\n\n4. The equation for the ion gravitational drift velocity $\\vec{u}_g$ is:\n   \\[\n   \\vec{u}_g = m_i \\hat{\\vec{b}} \\times \\vec{g} / B\n   \\]\n   where $m_i$ is the ion mass and $\\vec{g}$ is the gravitational acceleration.\n\n5. The equation for the magnetic helicity is:\n   \\[\n   \\vec{u}_\\psi = \\hat{\\vec{b}} \\times \\nabla \\psi / B\n   \\]\n   where $\\psi = m_i \\vec{u}_E^2 / 2e$.\n\n6. The equation for the rise in fractional electron density as a function of time scaled by the plasma frequency, $\\omega_e$, and fraction, $\\rho_e(t=0)/\\rho_0 = P_f$, of prompt Penning electrons is given by:\n   \\[\n   \\frac{\\rho_e}{\\rho_0} = \\frac{a}{b + e^{-c\\tau}}\n   \\]\n   where $\\tau = t \\omega_e P_f^{3/4}$, and $a = 0.00062$, $b = 0.00082$, and $c = 0.075$ are empirical coefficients.\n\n7. The equation for the maximum absolute velocity $V$ of a ball in an ambient plasma is given by:\n   \\[\n   \\frac{\\max |V|}{\\ensuremath{C_\\mathrm{s}}} = \\left(\\frac{\\mathcal R^2}{\\mathcal Q}\\right) \\frac{\\ell}{R_0} \\left( \\left({1+\\left( \\frac{\\mathcal Q}{\\mathcal R} \\right)^{2} \\frac{|\\triangle n|/n_0 }{\\ell/R_0}}\\right)^{1/2}-1 \\right)\n   \\]\n\nGiven the above equations, which of the following statements is true?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "In the context of the provided document chunks, which of the following statements best represents the speakers' views on the role of technology in society and the future of Cyberspace, considering all the information from all chunks?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is the most accurate representation of the findings from the study on neural representation similarity across different species and model types?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nConsider the following information from the provided documentation:\n\n1. The linear conductance $G$ between the normal leads is influenced by the coupling to the superconducting lead, $\\GS{}$, and the efficiency of CAR processes.\n2. The temperature dependence of $G$ is described by the equation $T^* = \\frac{\\GS{1}^2}{U^2} \\cdot \\frac{1}{a + b \\cdot \\frac{\\GS{1}^2}{U^2}}$.\n3. The residual conductance $G_{\\mathrm{min}}$ at $T=0$ is given by $G_{\\mathrm{min}} = \\frac{e^2}{h} \\cdot c \\cdot \\frac{\\GS{}^2}{U^2}$, where $c \\approx 2.25$.\n4. The two-stage Kondo effect is observed when the distance between the two quantum dots is smaller than the coherence length of the superconductor.\n5. The underscreened Kondo effect occurs for weak $\\GS{}$ and leads to a peak in the local spectral density $\\mathcal{A}(\\omega)$.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the Himachal Pradesh Town and Country Planning Act, 1977, and the associated rules, consider the following:\n\n1. The Act mandates that any development undertaken on behalf of the Union or State Government must be preceded by a written notice to the Director, at least 30 days before the development begins.\n2. The Director can raise objections to the proposed development if it is not in conformity with the development plan. If the Director raises objections, the officer must either modify the proposals or submit them to the State Government for a decision.\n3. The State Government's decision on the proposals is final and binding.\n4. Local authorities or any authority constituted under the Act must follow the same procedure as the Union or State Government for development on any land for their purposes.\n5. Any person intending to carry out development on any land must apply for permission from the Director, accompanied by a fee and prescribed documents.\n6. In rural areas where neither an Interim Development Plan nor a Development Plan has been notified, certain development activities are exempted from permission, including residential activities, commercial activities, service industries, and public amenities.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the role of Florida in the opioid crisis?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate description of the effect of specific-heat ratio on the interaction between a planar shock wave and a 2-D heavy-cylindrical bubble?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is the most accurate representation of the current state of data sharing and reuse in archaeobotany, based on the provided documentation?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "In the context of the provided documentation, which of the following statements is true regarding the interaction between the RF signals and GPS signals received by the RSU?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of Brooksley Born's efforts and the subsequent regulatory environment?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the AutoCogniSys system's approach to hand gesture recognition?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the philosophical stance on the nature of reality and consciousness?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the history of KSTP, considering the information provided in the document chunks?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements best encapsulates the core argument of the speaker in the provided documentation regarding the role of technology in society?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the compositional message generation architecture?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate description of the relationship between Mufti-e-Azam-e-Hind and his father, A'la Hazrat, Ash Shah Imam Ahmed Raza Khan Al Qaderi?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate description of the method used to define path preferences in the robot navigation system?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the primary objective of the \\emph{AutoCogniSys} system?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate description of the \"social shadowing\" learning approach?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the differences in the functional hierarchy between macaques and mice, based on the analysis of similarity scores and layer depths?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the pseudo-likelihood method (PLM) combined with decimation, which of the following statements is true regarding the behavior of the tilted pseudo-likelihood ($\\mathcal{L}_t$) and the reconstruction error ($\\mbox{err}_J$)?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Consider the function \\( f(x) = \\sqrt[3]{x} \\cos(x^2) \\). Evaluate the following statements about the function \\( f(x) \\):",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "In the context of the provided documentation, which of the following statements is the most accurate description of the process by which the Rydberg gas avalanches to plasma?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the utility of the proposed compositional message generation method?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of patent eligibility under 35 U.S.C. \u00a7 101, consider the following three scenarios:\n\n1. A method that involves the use of a computer to compare a value to a mask to determine whether a dot should be turned on at a specific location.\n2. A method that involves the use of a computer to generate a binary value based on the comparison of an input number against a fixed threshold.\n3. A method that involves the use of a computer to perform a series of steps that transform specific data into a visual depiction of specific objects or substances.\n\nWhich of the following statements is true regarding the patent eligibility of these methods?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nConsider the following scenario involving a spherically symmetric spacetime with a static, spherically symmetric mass distribution. The metric for this spacetime is given by the line element:\n\n\\[\n\\mathrm{d} s^2 = -c^2 F(r)\\left(\\frac{\\partial t}{\\partial T}\\right)^2\\mathrm{d} T^2 - 2c^2 F(r)\\left(\\frac{\\partial t}{\\partial T}\\right)\\left(\\frac{\\partial t}{\\partial r}\\right)\\mathrm{d} T\\:\\mathrm{d} r + \\left[G(r) - c^2 F(r)\\left(\\frac{\\partial t}{\\partial r}\\right)^2\\right]\\mathrm{d} r^2 + r^2\\:\\mathrm{d}\\Omega^2\n\\]\n\nGiven the following information from the provided documentation:\n\n1. The function $\\beta(r)$ is defined as:\n\\[\n\\beta(r) \\equiv -\\frac{1}{c}\\frac{\\mathrm{d} r}{\\mathrm{d} T}(r)\n\\]\n\n2. The function $F(r)$ is related to the metric component $G(r)$ by the equation:\n\\[\nF(r) = \\frac{1}{c^2}\\left(\\frac{\\mathrm{d} r}{\\mathrm{d} T}(r)\\right)^2\n\\]\n\n3. The function $G(r)$ is determined by the vacuum Einstein equations:\n\\[\n\\left.\\frac{\\mathrm{d}^2 V}{\\mathrm{d}\\tau^2}\\right|_{\\tau=0} = 0\n\\]\n\n4. The metric is in the form of a static spacetime, where the time coordinate $T$ is the proper time of infalling observers.\n\nUsing the above information, determine the value of $\\beta(r)$ at a specific radius $r$ where the mass distribution is present.",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the effects of L-Histidinol on the Integrated Stress Response (ISR) in HeLa cells?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of thalassemia, which of the following statements is true regarding the inheritance patterns of alpha thalassemia and beta thalassemia?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the shark fishery at Tanjung Luar, what is the most significant factor influencing the likelihood of catching threatened and regulated species, considering the data from 52 vessels across 595 fishing trips from January 2014 to December 2015?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is most accurate regarding the relationship between fish consumption and mercury exposure in humans?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the relationship between the power-law exponents and the market capitalization of cryptocurrencies?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate assessment of the political situation in Iraq, considering the formation of the new government and the role of various stakeholders?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the performance of the proposed \\emph{AutoCogniSys} framework compared to the baseline method in detecting cognitive impairment status of older adults?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the 2012 Boston College football season, which of the following statements is the most accurate assessment of the team's potential for success, given the provided document chunks?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nConsider the following information from the provided document chunks:\n\n1. The plastic network's output going through the motor network before producing any behavior affects the plasticity rules that the embodied agents evolve.\n2. Unlike static agents, embodied agents' evolved rules have no discernible pattern or structure.\n3. The sensory network's plasticity rule co-evolves with the motor network, allowing for various interpretations of the scalar value of the sensory network's output.\n4. A bottleneck in the sensory network increases selection pressure for rules that learn the environment's food distribution accurately.\n5. The interaction of a static motor network with a plastic sensory network gives rise to a greater variety of well-functioning learning rules.\n6. The motor network can interpret the output of the sensory network in different ways, leading to a broad set of solutions.\n7. The fitness of an agent increases over generations of the EA for both scalar and binary readouts in the sensory network.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "In the context of the novel \"Weep Not, Child\" by Ng\u0169g\u0129 wa Thiong'o, which of the following statements is true about the relationship between Ngotho and Jacobo, considering the impact of the Mau Mau movement on their lives?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the South Dakota v. Wayfair case, which of the following statements is the most accurate reflection of the Supreme Court's decision regarding the dormant commerce clause and stare decisis?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, consider the following scenario:\n\nThe agents in the 2D environment are tasked with learning to move towards food based on the sensory input they receive. The learning rule for these agents is influenced by the environmental parameters such as the distance between states (d_e) and the state transition probability (p_tr). The learning rate (\u03b7_p) is also affected by these parameters. The agents' weights evolve to interpret the environment's ingredient values, and the Pearson correlation coefficient between the agents' weights and the environment's ingredient values is used to assess their performance.\n\nGiven the information from the document chunks, which of the following statements is true about the learning rules for the moving agents?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of quantum computing and cryptography, which of the following statements is true regarding the security of the AES-128 cipher against quantum attacks?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nConsider the following scenario involving a system of particles in a gravitational field. The particles are initially at rest relative to a central particle $C$ and are located at different radial distances from $C$. The radial distance of the central particle is denoted as $R$, and the radial distances of the other particles are $R+\\Delta l$ and $R-\\Delta l$. The particles are subject to a gravitational field described by the Schwarzschild metric. The goal is to determine the distance between the particles $L$ and $R$ at a later time $T$.\n\nGiven the following information:\n\n1. The radial coordinate of the central particle $C$ is $r_C(T) = R$.\n2. The radial coordinate of the particles $U$ and $D$ are given by $r_{U,D}(T) = R \\pm \\Delta l - c\\beta(R)\\Delta T + \\frac{c^2}{2}B(R)\\Delta T^2$.\n3. The distance between the particles $U$ and $D$ is $d_{\\parallel}(T) = 2\\Delta l\\left[1-c\\beta'(R)\\Delta T+\\frac{1}{2}c^2 B'(R)\\Delta T^2\\right]$.\n4. The transversal distance between the particles $L$ and $R$ is $d_{\\perp}(T) = 2\\Delta l\\left[1-\\frac{c\\beta(R)}{R}\\Delta T+\\frac{c^2}{2}\\frac{B(R)}{R}\\Delta T^2\\right]$.\n\nWhich of the following statements is true regarding the distance between the particles $L$ and $R$ at time $T$?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the changes made to the game's mechanics and features?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the challenges faced by the individuals described in the text?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nConsider the following information from the provided document chunks:\n\n1. The proposed method fills in the research gap by meeting all the key algorithmic requirements while simultaneously gaining the foresight to make strategic decisions that yield long-term performance benefits.\n2. The algorithmic pipeline of the proposed navigation architecture includes a Perception module, a Simultaneous Localization and Mapping (SLAM) module, a navigation stack, and a motion planning module.\n3. The motion planning module adopts the Neural Networks integrated Model Predictive Control (NNMPC) approach due to its ability to accommodate the behaviors of neighboring vehicles in the trajectory generation process.\n4. The proposed method employs a binary representation of the decoupled lane indicator dynamics in lieu of lateral dynamics and utilizes algorithmic modifications to aid numerical computations.\n5. The state (x 0 (k)) and control input (u 0 (k)) to the system at time instant k are defined as: where V m denotes the maximum speed of the ego vehicle.\n6. The set of vehicles in ego vehicle's visibility range at time instant k, represented by O(k), is defined as: where s i (k) corresponds to the longitudinal displacement of the observed vehicle.\n7. The future speed profile of an observed vehicle is predicted using a piece-wise linear function while the lane profile is assumed to stay constant for the duration of the prediction horizon.\n8. The proposed method outputs the lane change maneuvers coupled with speed adjustments for long planning horizons (> 15s) while guaranteeing safety.\n\nWhich of the following statements is true about the proposed method?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "In the context of the provided documentation, which of the following statements is true regarding the proposed method for complex activity recognition using a wrist-worn ACC sensor?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the integration of ambient sensors and wearable sensors for cognitive health assessment in the smart home environment?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the comparative performance of the SLAS algorithm compared to the other methods (EA, MOBIL, and No-change) in terms of travel time, lateral displacement, headway, and distance to the closest vehicle?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, consider the following scenario: A semiconductor quantum dot (QD) is coupled to a superconducting (SC) lead, and the conductance between the normal leads is influenced by the presence of a second side-coupled QD. The conductance as a function of temperature, $G(T)$, exhibits a two-stage Kondo effect, with the first stage occurring at a temperature $T_K$ and the second stage at a temperature $T^*$. The second stage Kondo temperature $T^*$ is given by the equation $T^* = a T_K \\exp(-b T_K / J_{\\rm eff})$, where $J_{\\rm eff}$ is the effective inter-dot exchange, and $a$ and $b$ are constants of order of unity.\n\nGiven that the conductance $G(T)$ drops to zero with decreasing temperature $T$, maintaining a characteristic Fermi-liquid $G \\sim T^2$ dependence, and that the presence of a superconductor significantly increases the minimum conductance $G_{\\rm min}$ even outside the particle-hole symmetry (PHS) point, what is the primary factor that determines the magnitude of the second stage Kondo temperature $T^*$?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the trends in power-law exponents for cryptocurrencies as they age and grow in market capitalization?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the South Dakota v. Wayfair case, which of the following statements is the most accurate representation of the Court's decision regarding the application of stare decisis in dormant commerce clause cases?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is the most accurate representation of the city's financial situation, based on the provided documentation?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nConsider the following information from the provided document chunks:\n\n1. The CAR exchange mechanism is present in any system comprising at least two quantum dots (QDs) or magnetic impurities coupled to the same superconducting contact in a way allowing for crossed Andreev reflections.\n2. The CAR exchange mechanism can lead to a two-stage Kondo screening even in the absence of other exchange mechanisms.\n3. The CAR exchange mechanism is characterized by a residual low-temperature conductance at particle-hole symmetric case.\n4. The competition between CAR exchange and RKKY interaction may result in completely different Kondo screening scenarios.\n5. The CAR exchange mechanism can be understood as a consequence of spin-dependent hybridization of the Yu-Shiba-Rusinov (YSR) states in superconducting (SC) contact, caused by the overlap of their wave functions and their coupling to Cooper-pair condensate.\n6. The proximity of SC induces pairing in QDs and tends to suppress the Kondo effect if the superconducting energy gap $2\\Delta$ becomes larger than the relevant Kondo temperature $T_K$.\n7. The CAR exchange mechanism can be the sole cause of the Kondo screening, and relatively small values of coupling to SC, $\\GS{}\\ll U$, are sufficient for the effect to occur.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate description of the \"social shadowing\" learning approach?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nConsider the provided documentation on the effects of uniaxial strain on the transport properties of graphene strained junctions. Based on the information given, which of the following statements is true regarding the conduction gap and the direction of applied strains?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the magnetic behavior of Ge$_{1-x}$Mn$_{x}$ films grown at different temperatures?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nConsider the following information from the provided document chunks:\n\n1. The conflict optimizer is a strategy used in graph coloring to minimize conflicts by assigning colors to vertices in a way that avoids adjacent vertices having the same color.\n2. The conflict optimizer can be adapted to non-binary CSPs, but in such cases, multiple variables may be unassigned for a single violated constraint.\n3. The conflict optimizer was introduced in a low makespan coordinated motion planning setting, where the variables are the robots, the domains are their paths, and the constraints forbid collisions between two paths.\n4. The conflict optimizer can be used in conjunction with other strategies, such as BDFS, to further optimize solutions.\n5. The Shadoks team used a specific weight function w(u) = 1 + q(u) p, with p = 1.2, and a queue to store the conflict set S.\n6. The Shadoks team also used a parameter q_max to determine when to restart the conflict optimizer, with a value of q_max = 2000 \u2022 (75000/m) 2, where m is the number of vertices.\n7. The Shadoks team used a Gaussian random variable with mean 1 and variance \u03c3 = 0.15 to determine the weight function.\n8. The Shadoks team found that using BDFS near the end of the challenge improved about 30 solutions.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "In the context of the XY model, consider the following information from the provided documentation:\n\n1. The XY model's Hamiltonian is given by:\n   \\[\n   \\mathcal{H} = - \\frac{1}{2} \\sum_{nm} J_{nm} e^{-\\imath (\\phi_n - \\phi_m)} + \\text{c.c.}\n   \\]\n   where \\( J_{nm} \\) are the complex couplings, and \\( \\phi_n \\) and \\( \\phi_m \\) are the phases of the spins.\n\n2. The intensities of the modes are either homogeneous or quenched. If homogeneous, they are the same for all solutions of the transmission matrix. If quenched, they can be considered as constants in the transmission matrix.\n\n3. The pseudo-likelihood maximization (PLM) method is used to infer the couplings \\( J_{nm} \\) from the data configurations.\n\n4. The PLM method combined with decimation (setting very weak bonds to zero) is more precise for problems with sparse interactions.\n\n5. The PLM method with decimation can estimate the number of bonds in the network.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate assessment of the potential impact of the upcoming season on the future of the head coach, Spaz?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate description of the generalized pole-residue method's application to nonlinear systems?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the views expressed by the speakers regarding the role of technology in society and the future of democracy?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, consider the following scenario:\n\n- The agents are performing a foraging task in an environment with varying ingredient values.\n- The agents have a sensory network that evolves to interpret the environment and a motor network that makes decisions based on the sensory network's output.\n- The agents' plasticity rules are influenced by the environment's variability, the reliability of the sensory system, and the rate of environmental change.\n\nGiven this scenario, which of the following statements is true about the agents' performance and the evolution of their plasticity rules?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the views expressed by the speakers on the importance of digital infrastructure for societal transformation?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nConsider the following scenario involving a content recommendation system:\n\n1. The system uses a query generator to create queries based on user preferences and channel attributes.\n2. The query generator queries a data storage server or memory for new content items.\n3. The content stream generator receives candidate content items and scores them based on their relevance to the user.\n4. The scoring engine uses a global scorer to rank items based on their global popularity and quality specific to the source stream.\n5. The channel generator resubmits requests based on user changes and generates channels for the user.\n\nGiven the above information, which of the following statements is true about the content recommendation system?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "In the context of the provided documentation, which of the following statements is true about the probabilistic extension of the framework proposed in the paper?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nConsider the following information about the power-law exponents and market capitalization of cryptocurrencies:\n\n1. The power-law exponents of some cryptocurrencies are neither correlated with age nor market capitalization. Examples include Shiba Inu (SHIB) and Dai (DAI) for both positive and negative returns, UNUS SED LEO (LEO) and Polkadot (DOT) for positive returns, and USDCoin (USDC) and Solana (SOL) for negative returns.\n\n2. Some cryptocurrencies have power-law exponents that are positively or negatively correlated only with market capitalization. Examples include Tether (USDT) and Dogecoin (DOGE) for which the power-law exponents associated with positive returns increase with market capitalization, and Binance USD (BUSD) for which power-law exponents associated with positive and negative returns decrease with market capitalization.\n\n3. A hierarchical Bayesian linear model has been used to investigate the overall market characteristics and asset-specific tendencies regarding the effects of age and market capitalization on the power-law exponents. The model found that 36% of cryptocurrencies present trends that do not systematically contribute to increasing or decreasing their power-law exponents as they age and grow in market capitalization.\n\n4. The distributions of the median exponents for the top 2000 and top 200 cryptocurrencies by market capitalization show that the distributions of \u03b1+ and \u03b1\u2212 tend to shift toward larger values when considering the largest cryptoassets.\n\n5. The variance of large price movements \u03c3 2 is finite only for \u03b1 > 3. The median values of the power-law exponents for Bitcoin are \u03b1+ = 4.50 and \u03b1\u2212 = 2.99.\n\nBased on the above information, which of the following statements is true?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the impact of Florida's oxycodone clinics on the surrounding states?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, consider the following scenario:\n\nAn agent is born in an environment with a transition probability of \\( p_{tr} = 0.1 \\) and a distance \\( d_e = 0.5 \\). The agent's learning rate \\( \\eta_p \\) is influenced by the variance of the rewards \\( \\sigma \\). Given that the agent's learning rate \\( \\eta_p \\) decreases with increasing \\( \\sigma \\), and that the agent's learning rate \\( \\eta_p \\) is also influenced by the transition probability \\( p_{tr} \\), what is the expected learning rate \\( \\eta_p \\) for the agent in this environment?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the generation and characterization of unsubstituted indeno[1,2-a]fluorene (5)?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the changes made to the game's mechanics and features?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the timeframe for challenging a city's or county's housing element under the current law?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nA user is interested in creating a personalized content stream for a channel using a channel application. The application includes several components such as a model generation engine, a scoring engine, a collaborative filtering engine, a content categorizer, a channel engine, and a user interface engine. The user activity is an interaction with the application, which includes providing a user preference, a user interest, a comment, a tag, and a search. The historical trend for the user is an increase in the number of new content items for a content category and an increase in the number of times one of the new content items is accessed. The channel category is also based on the user's interest and connection. The system is configured to remove pre-existing content items included in the customized stream of content for the channel. The heterogeneous data sources include at least two from the group of a news article post, a news feed, a social feed, a blog post, a micro-blog post, a photo, a video, an audio, an email message, and a text-based message.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "In the context of the provided documentation, which of the following statements is true regarding the proposed method for joint detection of GPS spoofing and jamming attacks?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "In the context of the provided documentation, which of the following statements is true regarding the magnetic properties of Ge$_{1-x}$Mn$_{x}$ films grown at different temperatures and Mn concentrations?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nA patient has been diagnosed with a heart condition and is experiencing chest pain that worsens with exertion and improves with rest. The patient's family history includes a grandmother with angina and valve issues, and three uncles who underwent double bypasses. The patient is currently taking hormone replacement therapy (HRT) and is worried about the potential inheritance of heart conditions. The patient's EKG results showed major changes, and a cardiologist has been referred for further evaluation. The patient is also concerned about the possibility of having inverted T-waves and is awaiting cholesterol test results. Given this information, which of the following is the most likely diagnosis for the patient?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the study's findings regarding the impact of meta-information on the quality of discharge summaries?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate prediction about the future of Intel's involvement in the phone/tablet market, given the provided document chunks?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the activity recognition process using the HDBN model?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the role of Florida in the distribution of oxycodone across the United States?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of vitamin K research, which of the following statements is true based on the provided document chunks?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the changes made to the game's mechanics and features?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the numbering system of Craven Street and the residence of Benjamin Franklin?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the authors' findings regarding the effectiveness of meta-information in abstractive discharge summary generation?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "In the context of the provided document chunks, which of the following statements best represents the views of the speakers regarding the role of government and corporations in the information society, while also considering the perspectives of \"doom seers\" and \"paradise seekers\"?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of vitamin K and its role in blood coagulation, consider the following information:\n\n1. Warfarin-treated cows have a form of prothrombin that contains 10 glutamate (Glu) amino acid residues near the amino terminus of this protein, while normal (untreated) cows contain 10 unusual residues that are chemically identified as \u03b3-carboxyglutamate (Gla). This indicates that vitamin K plays a role in a carboxylation reaction converting Glu to Gla.\n\n2. The biochemistry of how vitamin K is used to convert Glu to Gla has been elucidated over the past thirty years in academic laboratories throughout the world.\n\n3. Vitamin K is essential for the activation of several clotting factors, including factors II, VII, IX, and X, which are crucial for blood coagulation.\n\n4. The enzyme prothrombin is activated by vitamin K-dependent carboxylation, which converts Glu to Gla, making it a key player in the coagulation cascade.\n\n5. The vitamin K-dependent carboxylation of prothrombin is a critical step in the activation of the coagulation cascade, as it converts prothrombin to thrombin, which in turn converts fibrinogen to fibrin, forming a blood clot.\n\n6. Warfarin is an anticoagulant that inhibits the synthesis of vitamin K-dependent clotting factors by blocking the carboxylation of Glu to Gla.\n\n7. The use of vitamin K in the treatment of warfarin-associated coagulopathy involves administering oral vitamin K to reverse the anticoagulant effects of warfarin.\n\n8. The conversion of phylloquinone (vitamin K1) to menaquinone (vitamin K2) in the gut is not dependent on gut bacteria.\n\n9. Vitamin K is also involved in bone health, with vitamin K2 being particularly important for bone mineralization.\n\n10. The use of vitamin K in the treatment of warfarin-associated coagulopathy is a well-established clinical practice.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, consider the following statement: \"A bus that we do not step in front of is an extremely low resolution concept of what a bus is.\" How does this statement relate to the idea that \"our brains are engineered to find relevant data, not complete data\" (Chunk2) and the assertion that \"we have no way of knowing if our experiences represent 'real' objects\" (Chunk1)? Which of the following options best encapsulates the relationship between these ideas?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nConsider the following information from the provided document chunks:\n\n1. The CUSUM-OAL test is defined as:\n   \\[\n   T_{C}(cg) = \\min_{1 \\leq k \\leq n} \\{cg(\\bar{Z}_k)\\}\n   \\]\n   where \\( cg \\) is a decreasing function, and \\( \\bar{Z}_k = \\frac{1}{k} \\sum_{i=1}^{k} Z_i \\).\n\n2. The in-control ARL of the CUSUM-OAL test is given by:\n   \\[\n   ARL_0 = \\frac{1}{cg(\\bar{Z}_1)}\n   \\]\n\n3. The out-of-control ARL of the CUSUM-OAL test is influenced by the change in the distribution of observations.\n\n4. The CUSUM-OAL test is compared with the SLR test and the CUSUM test in terms of their ARLs.\n\n5. The CUSUM-OAL test is designed to be sensitive to small mean shifts by adjusting the control limits adaptively.\n\n**Question:**\n\nWhich of the following statements is true regarding the CUSUM-OAL test?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate regarding the relationship between vitamin K and warfarin, considering the effects of vitamin K on the anticoagulant activity of warfarin and the mechanisms of action of both substances?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the Himachal Pradesh Town and Country Planning Act, 1977, and its associated rules, consider the following:\n\n1. The Act provides for the establishment of the Town and Country Development Authority (TCDA) to oversee town planning and development.\n2. The TCDA is empowered to prepare development plans and sectoral plans, which must be published in a specific manner as outlined in the Act.\n3. The Act also provides for the establishment of Special Area Development Authorities (SADA) for the development of special areas, with specific functions and powers as outlined in the Act.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the relationship between the number of oxycodone prescriptions and the number of Medicaid patients in Florida?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements about Mufti-e-Azam-e-Hind, Moulana Mustapha Raza Khan (radi Allahu anhu) is true, given the information from the provided chunks?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate description of how the media application determines the context of an event in a media asset?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nConsider the provided documentation on the power-law exponents and p-values time series for Bitcoin and other cryptocurrencies. Based on the information, which of the following statements is most accurate regarding the power-law exponents for positive and negative returns?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate assessment of the current state of the BC football program, based on the provided document chunks?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, consider the following statement: \"The outcome of disease always depends both on the virulence of the pathogen and the health of the individual immune system.\" Evaluate the validity of this statement in light of the information presented in the document chunks.",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the findings regarding the performance of Spiking Neural Networks (SNNs) compared to Convolutional Neural Networks (CNNs) and Vision Transformers (VTs) in modeling the visual cortex of macaques and mice?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the views expressed by the speakers on the role of government in the digital age?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate description of the process used to estimate the task completeness (TC) score for a complex activity?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the performance of the Feature Weighted Naive Bayes (FWNB) method in hand gesture recognition?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "In the context of the story of Adam and Eve, how does the serpent's questioning of God's commandment and the woman's subsequent actions contribute to the theme of total depravity, as described in the provided documentation? Additionally, how does the theme of death, as described in Chunk 4, relate to the concept of total depravity, and how does this relate to the theme of sin as described in Chunk 5?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the semiconductor industry, consider the following information:\n\n1. Intel has been traditionally ahead in process technology, but their fabs are a step or two behind the cutting edge.\n2. The market for phone/tablet chips is growing, but Intel's current strategy is to use their fabs that are a step or two behind the cutting edge.\n3. Intel's previous involvement in the DRAM market showed that they might not want to be involved in the phone SoC market due to insufficient profit margins.\n4. The PC market is saturated, and the tablet market will likely follow suit in the next 5 years.\n5. Samsung has both the SOC and the memory products, which could give them an advantage with TSVs (Through Silicon Via's).\n\nGiven these points, which of the following statements is most likely to be true about Intel's future in the phone/tablet market?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of quantum error mitigation, which of the following statements is true regarding the denoiser's effectiveness in reducing the sign problem?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the performance of Spiking Neural Networks (SNNs) compared to Convolutional Neural Networks (CNNs) and Vision Transformers (ViTs) on the ImageNet dataset?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the C$_2$H emission in the hypercompact H{\\sc ii} region IRAS\\,18089-1732, based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the semiconductor industry, consider the following information:\n\n1. The mobile industry has historically favored horizontal integration, with companies like Motorola, Nokia, and Ericsson leading the way in innovation.\n2. The current trend of vertical integration by companies like Apple and Samsung is a departure from this historical trend.\n3. The integration of mobile chips with other components like screens, batteries, and radios has led to a situation where SoCs are a significant part of the cost of mobile devices.\n4. The emergence of TSVs (Through Silicon Via's) is expected to disrupt the current packaging technology, potentially giving Samsung an advantage due to their in-house capabilities.\n5. Intel's involvement in the mobile market has been limited, with their Atom processors not keeping up with ARM in performance.\n\nGiven these points, which of the following statements is most likely to be true about the future of the mobile industry?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the history of KSTP, considering the information provided in the document chunks?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate description of how the system identifies a channel category for a user?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "In the context of the provided documentation, which of the following statements is true regarding the Nonlinear Fokker-Planck Acceleration (NFPA) method?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the study on the interaction between a shock wave and a heavy-cylindrical bubble using the discrete Boltzmann method, which of the following statements is true regarding the influence of specific-heat ratio on the bubble's average motion?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate assessment of the challenges faced by the author in their project?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate assessment of the current state of the Boston College football team, based on the provided document chunks?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "In the context of the provided documentation, which of the following statements is true regarding the influence of the proximity of a superconductor (SC) on the exchange mechanisms in a double quantum dot (DQD) system?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Consider the following information from the provided documentation:\n\n1. The Nonlinear Fokker-Planck Acceleration (NFPA) method is designed to accelerate the convergence of the transport equation by preserving the angular moments of the flux.\n2. NFPA was tested on a homogeneous medium with an isotropic internal source and vacuum boundaries, and in a homogeneous medium with no internal source and an incoming beam boundary.\n3. The exponential kernel (EK) is a fictitious kernel used for problems with a valid Fokker-Planck limit.\n4. The exponential kernel has a valid FP limit as $\\Delta$ approaches 0.\n5. The exponential kernel is defined by the following moments:\n   - $\\sigma^{EK}_{s,0}$ is chosen arbitrarily.\n   - $\\sigma^{EK}_{s,1} = \\sigma^{EK}_{s,0} (1-\\Delta)$.\n   - $\\sigma^{EK}_{s,2} = \\sigma^{EK}_{s,0} (1-3\\Delta+3\\Delta^2)$.\n   - For $l \\geq 3$, $\\sigma^{EK}_{s,l} = \\sigma^{EK}_{s,l-2} - \\Delta(2l+1) \\sigma^{EK}_{s,l-1}$.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of lattice QCD, which of the following statements is true regarding the strong coupling regime and the dual formulation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the panelists' views on the role of government in the digital age?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of Discrete Boltzmann Method (DBM) modeling, which of the following statements is true regarding the determination of the reserved kinetic moments and their relationship to the Boltzmann equation?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate description of the observed LDOS patterns in the quantum dots (QDs) formed by ion-induced defects in semiconducting SWNTs?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of spectral density estimation, which of the following methods is most suitable for handling long-memory processes with bounded spectral densities, and why?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the 2007 season, the Ohio State Buckeyes baseball team played a series of games against various teams. The team's performance in these games was crucial for their overall season record. Given the following information:\n\n1. The Ohio State Buckeyes played a total of 37 games in the 2007 season.\n2. The team's record was 22\u201313 in the regular season.\n3. The team played 10 games at home and 27 games away from home.\n4. The team's record against teams from the Big Ten Conference was 10\u20132.\n5. The team played 10 games against teams from the Big Ten Conference.\n\nWhich of the following statements is true about the Ohio State Buckeyes' performance in the 2007 season?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the conduction gap in graphene under tensile and compressive strains?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the future of media and society as described by the speakers?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the Schwarzschild solution, which of the following statements is true regarding the relationship between the Schwarzschild metric and the Gullstrand-Painlev\u00e9 form of the metric?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the effects of specific-heat ratio on the strength of D * 3,1?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Consider the function \\( f(x) = \\sqrt[3]{x} \\sin(x^2) \\). For which values of \\( x \\) from the interval \\([-1, 1]\\) does the graph of \\( f(x) \\) have a horizontal tangent?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the power-law exponents of positive and negative returns for Bitcoin?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the characterization of 5 on bilayer NaCl/Au(111)?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nConsider the following scenario involving a vehicle's behavior planning module, Speed and Lane Advisory System (SLAS), which aims to maximize speed while minimizing lane changes and abrupt speed changes. The module operates within a continuous multi-lane highway with a set of constraints and objectives. The vehicle's dynamics are modeled using a linearized decoupled system, and the road structure is represented in a Frenet coordinate system.\n\nGiven the following information from the provided documentation:\n\n1. The scalarization parameters \u03b31, \u03b32, and \u03b33 in the objective function account for a relative tradeoff between maximizing speed, minimizing lane changes, and minimizing abrupt speed changes, respectively.\n2. The optimization problem for SLAS is formulated to maximize speed while minimizing frequent lane changes and abrupt speed changes.\n3. The safety constraint ensures that the ego vehicle maintains a minimum safe distance to the nearest vehicle in its projected lane of travel.\n4. The lane change dynamics are modeled using a moving average filter coupled with a rounding function.\n5. The augmented minimum safety distance incorporates the time required to execute the lane change maneuver into the safety constraint.\n\nWhich of the following statements is the most accurate representation of the SLAS's objective function?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the conduction gap in graphene strained junctions?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate description of the effect of specific-heat ratio on the mixing degree of the fluid system?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "In the context of the provided documentation, consider the following scenario:\n\nA particle is moving in a Schwarzschild spacetime with a mass $M$. The particle's radial coordinate $r$ is given by the equation:\n\\[ r(T) = r_0 - c\\beta(r_0)\\cdot\\Delta T + \\frac{1}{2} c^2 B(r_0)\\cdot\\Delta T^2, \\]\nwhere $r_0$ is the initial radial coordinate, $c$ is the speed of light, $\\beta(r)$ is defined as:\n\\[ \\beta(r) = \\sqrt{\\frac{2GM}{rc^2}}, \\]\nand $B(r)$ is defined as:\n\\[ B(r) = \\beta(r) \\cdot \\beta'(r). \\]\n\nGiven that the particle is initially at rest at $r_0 = R$, and the distance between two particles $L$ and $R$ changes over time as:\n\\[ d_{\\parallel}(T) = 2\\Delta l\\left[1 - c\\beta'(R)\\Delta T + \\frac{1}{2} c^2 B'(R)\\Delta T^2\\right], \\]\nand the transversal distance $d_{\\perp}(T)$ between the particles $L$ and $R$ changes in proportion to the radius value:\n\\[ d_{\\perp}(T) = 2\\Delta l \\cdot \\frac{r_{L}(T)}{R}, \\]\nwhere $r_{L}(T)$ is given by:\n\\[ r_{L}(T) = R - c\\beta(R)\\Delta T + \\frac{1}{2} c^2 B(R)\\Delta T^2. \\]\n\nWhich of the following statements is true regarding the particle's motion in the Schwarzschild spacetime?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the reactivation of the OA1 transgene in response to essential amino acid (EAA) deprivation?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nConsider the following scenario: A robot is navigating through a complex environment with multiple obstacles, represented as polytopes. The robot's task is to move from its current location to a specified goal, while considering the human's path preferences. The robot uses a hyperplane arrangement to define the environment and the human's preferences for transitions between adjacent polytopes.\n\nGiven the provided documentation, which includes information about hyperplane arrangements, path preferences, and the challenges of homotopy constraints, answer the following question:\n\nWhich of the following statements is true about the robot's navigation strategy, considering the human's path preferences and the hyperplane arrangement?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Given the provided document chunks, determine the most accurate estimate of the distance to the source XMMSL1 J060636.2-694933. Consider the following information:\n\n1. The source is very soft and appears consistent with a 63$_{-10}^{+12}$ eV black body, absorbed by a hydrogen column density of 8.2$_{-4.1}^{+5.4}$\\times10$^{20}$ cm$^{-2}$.\n2. The best-fit hydrogen column is equal to the full Galactic hydrogen column in the direction of the source (8.0$\\pm{1.1}$\\times10$^{20}$ cm$^{-2}$).\n3. The slew spectrum shows a flux of 4.8$^{+2.7}_{-1.6}$\\times10$^{-11}$ erg cm$^{-2}$ s$^{-1}$.\n4. The XMM-Newton ToO observation yielded a larger number of counts, and the CO white dwarf atmosphere model was attempted, resulting in a marginal fit with an effective temperature of 73$^{+3}_{-2}$ eV and an $N_{\\rm H}$ of 3.4$^{+0.8}_{-0.8}$\\times10$^{20}$ cm$^{-2}$.\n5. The black body model requires a larger $N_{\\rm H}$ to fit the same data than the atmosphere model.",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of thalassemia, which of the following statements is true regarding the inheritance patterns and clinical manifestations of beta-thalassemia?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Consider the following document chunks:\n\n**Chunk0:**\nAgain the results are obtained immediately by applying Theorem \\ref{main_non_exist} and we prefer to omit the details. $\\Box$\n\n**Chunk1:**\nIf we assume that $\\nabla \\omega_1 \\cdot x \\le 0$ for big $x$, then we see that this last term is non-positive and hence we can drop the term. The proof is as before but now we only require that $\\lim_{R \\rightarrow \\infty} I_G=0$.\n\n**Chunk2:**\nIf one takes $\\omega_1=\\omega_2=1$ in the above corollary, the results obtained for $(G)$ and $(L)$, and for some values of $p$ in $(M)$, are optimal, see \\cite{f2,f3,zz}. We now drop all monotonicity conditions on $\\omega_1$.\n\n**Chunk3:**\nIn this note we are interested in the existence versus non-existence of stable sub- and super-solutions of equations of the form\n\\begin{equation} \\label{eq1}\n-div( \\omega_1(x) \\nabla u ) = \\omega_2(x) f(u) \\qquad \\mbox{in $ {\\mathbb{R}}^N$,}\n\\end{equation} where $f(u)$ is one of the following non-linearities: $e^u$, $u^p$ where $p>1$ and $-u^{-p}$ where $p>0$. We assume that $\\omega_1(x)$ and $\\omega_2(x)$, which we call weights, are smooth positive functions (we allow $\\omega_2$ to be zero at say a point) and which satisfy various growth conditions at $\\infty$.\n\n**Chunk4:**\nWe say a $C^2$ sub/super-solution $u$ of (\\ref{eq1}) is stable provided\n\\begin{equation} \\label{stable}\n\\int \\omega_2 f'(u) \\psi^2 \\le \\int \\omega_1 | \\nabla \\psi|^2 \\qquad \\forall \\psi \\in C_c^2.\n\\end{equation}\n\nGiven the above document chunks, which of the following statements is true?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the study on the specific-heat ratio effects on the interaction between a shock wave and a heavy-cylindrical bubble using the discrete Boltzmann method (DBM), which of the following statements is most accurate regarding the influence of specific-heat ratio on the bubble's average motion?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of quantum error mitigation, which of the following statements is true regarding the denoiser's construction and its application?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the collaborative filtering engine's role in generating a personalized news stream?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "In the context of the provided document chunks, which of the following statements best encapsulates the essence of the relationship between sin, death, and the Holy Spirit?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the influence of superconducting proximity on the Kondo effect in a double quantum dot (DQD) system?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of a future digital hospital, which of the following statements is most accurate regarding the integration of 5G technology and IoT-MDM systems for enhanced security and management?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Consider the following information from the provided document:\n\n1. The authors of the paper \"Efficient nonparametric estimation of Toeplitz covariance matrices\" propose a method to estimate Toeplitz covariance matrices using a spectral density estimator.\n2. The method involves transforming the data into approximate Gaussian random variables, estimating the log-spectral density using a periodic smoothing spline, and then transforming the spectral density estimator into an estimator for the covariance matrix or its inverse.\n3. The method is shown to be fully data-driven, automatically positive definite, and achieves the minimax optimal convergence rate under the spectral norm over a large class of Toeplitz covariance matrices.\n4. The spectral density function \\( f \\) corresponding to a Toeplitz covariance matrix \\( \\Sigma \\) is given by \\( f(x) = \\frac{1}{2\\pi} \\sum_{k=-\\infty}^{\\infty} \\sigma_k e^{ikx} \\), where \\( \\sigma_k \\) are the autocovariances.\n5. The minimax optimal convergence rate for nonparametric estimators of H\u00f6lder continuous spectral densities from Gaussian stationary time series was obtained under the \\( L_p \\) norm, where \\( 1 \\leq p \\leq \\infty \\).\n6. The paper discusses the connection between Toeplitz covariance matrices and their spectral densities, showing that the DCT-I matrix approximately diagonalizes Toeplitz covariance matrices.\n7. The Whittle likelihood is used for parameter estimation of stationary time series, and an alternative version of the Whittle likelihood is proposed in the paper.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the study on the effectiveness of medical meta-information for summarization tasks, which of the following statements is true regarding the impact of disease information on the performance of the summarization models?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements best encapsulates the core argument of the speakers in the provided documentation regarding the role of government in the 21st century?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Given the provided document chunks, determine the most likely distance to XMMSL1 J060636.2-694933. Consider the following information:\n\n1. The source has faded by a factor of >100 since the XMM-Newton revolution 1210 slew discovery.\n2. The absolute magnitude at maximum brightness $M_{V}$ is --8.7$\\pm$0.6.\n3. The time that the light curve takes to decline 2 magnitudes below maximum observed brightness is 8$\\pm$2 days.\n4. The distance to the LMC is around 50 kpc.\n5. The source is located at the eastern edge of the LMC.",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of underwater object detection, which of the following statements is true regarding the performance of multi-stage and one-stage detectors on the Detecting Underwater Objects (DUO) dataset?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "In the context of the provided documentation, which of the following statements is true about the political career of John Key?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate assessment of the impact of Florida's failure to implement a prescription drug monitoring database?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the force feedback control for dexterous robotic hands using conditional postural synergies?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the effectiveness of the proposed communication method in the blind traffic junction scenario?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the role of GCN2 in transgene reactivation in response to EAA starvation?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of thalassemia, which of the following statements is true about the inheritance patterns and clinical manifestations of beta-thalassemia?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the relationship between CPUE and fishing effort for both threatened and regulated species in the Tanjung Luar shark fishery?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate description of how the media application determines the context of an event in a media asset?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "In the context of the provided documentation, which of the following statements is true regarding the vacuum processing system described?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the control architecture of the robotic hand?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate description of the methodology used by the \\emph{AutoCogniSys} system for hand gesture recognition?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the collaborative filtering engine 217 and its interaction with the scoring engine 211?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the relationship between age and market capitalization on the power-law exponents of cryptocurrencies?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of archaeobotanical data sharing and reuse, which of the following statements is most likely to be true based on the provided documentation?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "In the context of the provided documentation, which of the following statements is the most accurate description of the observed behavior of XMMSL1 J060636.2-694933?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "In the context of the provided documentation, which of the following statements is true regarding the performance of the proposed method in detecting jamming and spoofing attacks?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the relationship between business models and cybersecurity in the context of IoT-MDM systems for digital hospitals?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the robot's decision-making process when navigating to an unknown goal while considering human preferences?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate description of Mufti-e-Azam-e-Hind, Moulana Mustapha Raza Khan's (radi Allahu anhu) character and actions?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the CG:SHOP 2022 challenge, which of the following teams used a conflict optimization technique to solve the problem of coloring a geometric graph defined by line segments?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the opioid crisis, which of the following statements is the most accurate regarding the role of Florida in the distribution of oxycodone?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the dormant commerce clause and stare decisis doctrine, which of the following statements is most consistent with the Supreme Court's decision in South Dakota v. Wayfair, Inc.?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "In the context of the provided documentation, which of the following statements is true regarding the magnetic properties of the Ge$_{0.887}$Mn$_{0.113}$ sample grown at 115\u00b0C?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Based on the provided document chunks, which of the following statements is most accurate regarding the relationship between the power-law exponents of cryptocurrencies and their market characteristics?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nA man has been experiencing a slow withdrawal from social interactions and has shown signs of increased anxiety and potential depression. His ex-partner, who has custody of their daughter, has been involved in ongoing drama, which has recently escalated. The man's current behavior includes constant vocal singing, repetition of words, shouting, and slapping himself in the chest, which is disruptive to his household. He has been diagnosed with Tourette's syndrome, and his wife is seeking strategies to help him manage this behavior. Additionally, his daughter, who has had behavioral issues throughout her life, recently lied to her friend to get her older sister off the computer. Given this information, what is the most likely reason for the man's current behavior and withdrawal?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the career progression of Commander Alva B. Goodwin?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate reflection of the current power dynamics between governments and corporations in the realm of cryptography?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the system model and the proposed method for detecting GPS spoofing and jamming attacks in the V2X network?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate assessment of the recruiting strategy employed by Boston College (BC) for the 2012 season?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the changes made to the game's mechanics and features?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true regarding the determination of the reserved kinetic moments in a two-fluid Discrete Boltzmann Method (DBM) simulation?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the changes made to the game's mechanics and features?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the robot's approach to understanding the human's path preference?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the author's stance on the financing of the Nacimiento water pipeline and sewer treatment plant?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  }
+]

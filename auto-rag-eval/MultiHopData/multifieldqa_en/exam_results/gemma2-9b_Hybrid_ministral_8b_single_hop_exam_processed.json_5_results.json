@@ -57,9 +57,9 @@
   },
   {
     "question": "Which of the following statements is the most accurate description of the role of vitamin K in the human body, based on the provided information?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -155,9 +155,9 @@
   },
   {
     "question": "Based on the information provided, what is the most likely reason for the 24-year-old son's repeated failure to complete college courses?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -323,9 +323,9 @@
   },
   {
     "question": "Which of the following statements is true about the history of KSTP, considering the information provided?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -344,7 +344,7 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is the most accurate representation of the relationship between the Jewish faith and the concept of the afterlife?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -400,9 +400,9 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the probabilistic interpretation of the least-mean-square (LMS) filter?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -463,7 +463,7 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the changes made to the game?",
-    "model_answer": ".",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -547,7 +547,7 @@
   },
   {
     "question": "Which of the following statements is the most accurate description of the treatment options for individuals with hemoglobin H disease?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -589,16 +589,16 @@
   },
   {
     "question": "In the context of the given scenario, what is the primary challenge faced by the robot in inferring the human's intended goal and preferred path?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "Based on the provided information, what is the primary purpose of the models discussed in the text?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -610,9 +610,9 @@
   },
   {
     "question": "Which of the following statements is true about the career progression of John Roper, based on the provided information?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -729,9 +729,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary factor that contributes to the long ultracold plasma lifetime required to produce the signal observed in the $\\omega_2$ late-signal excitation spectra?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -813,16 +813,16 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the effect of uniaxial strain on the hopping parameters in graphene?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
     "question": "Which of the following statements is true about the denoising process described in the provided text?",
-    "model_answer": ".",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -946,9 +946,9 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the relationship between the power-law exponents (\u03b1 t) and the cryptocurrency's age (y t) and market capitalization (log c t)?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -967,9 +967,9 @@
   },
   {
     "question": "In the context of the probabilistic model described, what is the primary method used to approximate the posterior of the state variables z?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {

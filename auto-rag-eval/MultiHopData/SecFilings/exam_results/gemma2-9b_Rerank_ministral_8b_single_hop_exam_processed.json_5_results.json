@@ -8,7 +8,7 @@
   },
   {
     "question": "Based on the information provided, which of the following statements is true about the Company's real estate portfolio at December 31, 1994?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -22,9 +22,9 @@
   },
   {
     "question": "Based on the provided information, what is the most likely scenario for the Company's financial situation regarding the Garden Gateway Plaza and its mortgage debt?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -36,7 +36,7 @@
   },
   {
     "question": "In the context of the provided information, what was the total amount of the Company's assets that were sold or foreclosed upon by the time the settlement with the Receiver was reached?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -120,7 +120,7 @@
   },
   {
     "question": "Based on the information provided, how many properties had partial recapture rights converted to 100% recapture rights as of December 31, 2018?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -155,9 +155,9 @@
   },
   {
     "question": "Based on the information provided, which of the following statements is true about the Cerro Blanco property?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -197,9 +197,9 @@
   },
   {
     "question": "Based on the provided information, what is the most likely interest rate for the Corporation's debt of the same remaining maturities?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -274,7 +274,7 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is the most accurate regarding the Company's hedging activities and potential conflicts of interest?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -771,7 +771,7 @@
   },
   {
     "question": "In the context of the provided information, what was the primary reason for the Company's extraordinary gain of $1.2 million in 1994?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -813,9 +813,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided information, what is the total amount Access is obligated to pay to LLCDA over the next three months?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -862,9 +862,9 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is the most accurate description of the oil production potential of the Mirage Oil Field?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -897,9 +897,9 @@
   },
   {
     "question": "Based on the provided information, what is the expected duration of the Lucky Friday mine's life and what is the primary focus of the upcoming exploration drilling?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -925,9 +925,9 @@
   },
   {
     "question": "**\n\nIn the context of the Kibi Gold Trend Project, which of the following statements is the most accurate description of the drilling results from Trenches TKB006 and TKB010?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -939,9 +939,9 @@
   },
   {
     "question": "Which country has the most complex licensing regime for exploration and production activities, considering both the initial terms and the potential for extensions?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -995,14 +995,14 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the reserves at Workman's Bench, Nolan Creek Area?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
     "question": "Based on the information provided, what is the most likely impact of the revision of the proven and probable reserves at the Johnson Camp Mine on the company's financial statements?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1

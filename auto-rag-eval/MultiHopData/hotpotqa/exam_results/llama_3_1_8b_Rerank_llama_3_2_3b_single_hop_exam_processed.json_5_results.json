@@ -190,9 +190,9 @@
   },
   {
     "question": "What can be inferred about the relationship between the Denver Outlaws' success and Philanthropy, based on the information provided?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -316,9 +316,9 @@
   },
   {
     "question": "What can be inferred about the company's decision to cease production in the UK in 2003, based on the information provided about its financial performance and royal warrants?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -435,9 +435,9 @@
   },
   {
     "question": "What can be inferred about Summer's health and lifestyle based on the information provided about her death and her statements about her cancer?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -533,9 +533,9 @@
   },
   {
     "question": "Analyzing the life and presidency of Ronald Reagan, consider the following statements:",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -729,9 +729,9 @@
   },
   {
     "question": "What can be inferred about Cherubini's early musical education based on the information provided about his birthdate and his father's profession?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -813,9 +813,9 @@
   },
   {
     "question": "As the CEO of PT Mataram Surya Visi Sinema, Aryanto Yuniawan's work on the animation film \"Battle of Surabaya\" has been recognized internationally. What is a notable award that Aryanto Yuniawan received for his work on \"Battle of Surabaya\", which is also a testament to his work on Allegoria Sacra?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -904,9 +904,9 @@
   },
   {
     "question": "What can be inferred about the relationship between the success of Benga and Kano, and their music, based on the information provided about their lifestyles in 2003, 2008, and 2013?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -939,9 +939,9 @@
   },
   {
     "question": "What was the primary reason for the separation of WAMC from Albany Medical Center in 1981?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {

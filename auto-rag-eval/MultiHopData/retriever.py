@@ -9,7 +9,7 @@ from rank_bm25 import BM25Okapi
 import nltk
 from nltk.tokenize import word_tokenize
 from tqdm import tqdm
-from typing import List, Dict, Tuple, Optional
+from typing import List, Dict, Tuple, Optional, Union
 from sentence_transformers import SentenceTransformer
 from dataclasses import dataclass
 from sentence_transformers import CrossEncoder
@@ -137,7 +137,6 @@ class ChunkRetriever:
         """
         # Generate embedding for query chunk
         query_embedding = self.model.encode([query_chunk.content], normalize_embeddings=True)
-        # faiss.normalize_L2(query_embedding)
 
         # Search in the index
         scores, indices = self.index.search(
@@ -147,8 +146,8 @@ class ChunkRetriever:
         # Filter and process results
         similar_chunks = []
         for score, idx in zip(scores[0], indices[0]):
-            if score < similarity_threshold:
-                continue
+            # if score < similarity_threshold:
+            #     continue
 
             chunk = self.chunks[idx]
             if exclude_same_doc and chunk.doc_id == query_chunk.doc_id:
@@ -268,7 +267,7 @@ class HybridChunkRetriever(ChunkRetriever):
         # Generate embeddings for all chunks with progress bar
         print("Generating embeddings...")
         embeddings = []
-        batch_size = 32  # Adjust based on your memory constraints
+        batch_size = 32
         
         for i in tqdm(range(0, len(self.chunks), batch_size), desc="Encoding chunks"):
             batch = self.chunks[i:i + batch_size]
@@ -487,27 +486,102 @@ class FAISSRetriever(BaseRetriever):
 
 
 class HybridRetriever(BaseRetriever):
-    """Combines multiple retrievers with optional weights."""
+    """
+    Enhanced hybrid retriever combining multiple retrievers with sophisticated score 
+    normalization and cross-encoder reranking.
+    """
     
-    def __init__(self, retrievers: List[Tuple[BaseRetriever, float]]):
+    def __init__(
+        self, 
+        retrievers: List[Tuple[BaseRetriever, float]],
+        cross_encoder_name: str = "cross-encoder/ms-marco-MiniLM-L-2-v2",
+        temperature_params: Dict[str, float] = None
+    ):
+        """
+        Args:
+            retrievers: List of (retriever, weight) tuples
+            cross_encoder_name: Name of the cross encoder model for reranking
+            temperature_params: Dictionary of temperature parameters for each retriever
+        """
         self.retrievers = retrievers
+        self.cross_encoder = CrossEncoder(cross_encoder_name)
         
-    def retrieve(self, query: str, k: int = 5) -> List[Tuple[str, float]]:
+        # Default temperature parameters if none provided
+        self.temperature_params = temperature_params or {
+            'sparse': 0.1,  # Sharper distribution for BM25
+            'dense': 1.0    # Smoother distribution for dense
+        }
+    
+    def _softmax_normalize(
+        self, 
+        scores: List[float], 
+        retriever_type: str
+    ) -> np.ndarray:
+        """
+        Normalize scores using softmax with temperature scaling.
+        
+        Args:
+            scores: List of retrieval scores
+            retriever_type: Type of retriever ('sparse' or 'dense')
+        """
+        temperature = self.temperature_params.get(retriever_type, 1.0)
+        scores = np.array(scores)
+        exp_scores = np.exp(scores / temperature)
+        return exp_scores / exp_scores.sum()
+    
+    def retrieve(
+        self, 
+        query: str, 
+        k: int = 5
+    ) -> List[Dict[str, Union[str, float]]]:
+        """
+        Perform hybrid retrieval with reranking.
+        
+        Args:
+            query: Search query
+            k: Number of results to return
+            
+        Returns:
+            List of dictionaries containing retrieved documents and their scores
+        """
         all_results = []
         
+        # Get results from each retriever
         for retriever, weight in self.retrievers:
+            # Get initial results
             results = retriever.retrieve(query, k=k)
-            weighted_results = [(doc, score * weight) for doc, score in results]
-            all_results.extend(weighted_results)
             
+            # Skip if no results
+            if not results:
+                continue
+                
+            # Determine retriever type for temperature scaling
+            retriever_type = 'sparse' if 'bm25' in retriever.__class__.__name__.lower() else 'dense'
+            
+            # Extract docs and scores
+            docs, scores = zip(*results)
+            
+            # Normalize scores using softmax with temperature
+            norm_scores = self._softmax_normalize(scores, retriever_type)
+            
+            # Apply retriever weight and add to results
+            weighted_results = [(doc, score * weight) for doc, score in zip(docs, norm_scores)]
+            all_results.extend(weighted_results)
+        
+        # Aggregate scores for duplicate documents
         unique_results = {}
         for doc, score in all_results:
             if doc in unique_results:
                 unique_results[doc] = max(unique_results[doc], score)
             else:
                 unique_results[doc] = score
-                
-        sorted_results = sorted(unique_results.items(), key=lambda x: x[1], reverse=True)
+        
+        # Sort and return top k results
+        sorted_results = sorted(
+            unique_results.items(),
+            key=lambda x: x[1],
+            reverse=True
+        )
         return sorted_results[:k]
 
 
@@ -536,7 +610,5 @@ class RerankingRetriever(BaseRetriever):
         scores = self.rerank_model.predict(pairs)
 
         # Sort and return top k
-        reranked_results = sorted(zip(initial_results, scores), key=lambda x: x[1], reverse=True)[
-            :k
-        ]
+        reranked_results = sorted(zip(initial_results, scores), key=lambda x: x[1], reverse=True)[:k]
         return [(doc, score) for (doc, _), score in reranked_results]

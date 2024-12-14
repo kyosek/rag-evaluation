@@ -197,7 +197,7 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the conditions for stable sub-solutions and super-solutions in the context of the given equations and weights?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -400,9 +400,9 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the probabilistic interpretation of the least-mean-square (LMS) filter?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -428,9 +428,9 @@
   },
   {
     "question": "In the context of the given information, what is the most appropriate approach to model the transmission of light through a system with $N_I$ incoming channels and $N_O$ outgoing channels, considering the source is polarized and the observation is made on the same polarization?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -862,7 +862,7 @@
   },
   {
     "question": "In the context of the discrete Boltzmann equation for component \u03c3, which of the following statements is true about the evolution of the distribution function f\u03c3,i?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 1

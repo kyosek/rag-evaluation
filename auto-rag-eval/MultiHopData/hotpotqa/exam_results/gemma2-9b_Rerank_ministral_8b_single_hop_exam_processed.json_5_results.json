@@ -169,9 +169,9 @@
   },
   {
     "question": "Which of the following statements is true about the career of the individual known as \"Mara\"?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -442,7 +442,7 @@
   },
   {
     "question": "In the context of the events described, what was the primary reason for the protests in 2011?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -785,14 +785,14 @@
   },
   {
     "question": "Which of the following statements best describes the Saints' performance in the 2014 season?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "Which of the following statements is true about the Center for Jewish History?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 1
@@ -918,9 +918,9 @@
   },
   {
     "question": "Which of the following statements is true about the language education in the regions mentioned?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {

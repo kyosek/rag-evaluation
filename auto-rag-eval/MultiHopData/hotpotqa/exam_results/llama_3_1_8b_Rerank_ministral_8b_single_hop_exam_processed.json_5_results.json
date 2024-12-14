@@ -15,9 +15,9 @@
   },
   {
     "question": "Which of the following statements is true about the Business Growth Fund (BGF)?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -169,7 +169,7 @@
   },
   {
     "question": "Which of the following statements is true about the career of the individual known as \"Mara\"?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 1
@@ -204,7 +204,7 @@
   },
   {
     "question": "Which of the following statements is true about the film \"The Real Glory\"?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -232,7 +232,7 @@
   },
   {
     "question": "Which of the following statements is true about the history of the Blacktown City Libraries service?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -260,7 +260,7 @@
   },
   {
     "question": "Which of the following statements is true about the history of the Start-rite brand?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -456,9 +456,9 @@
   },
   {
     "question": "Which of the following statements is true about the career and personal life of actor John White?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -806,9 +806,9 @@
   },
   {
     "question": "Which of the following statements is true about the life cycle of the Akbesia davidi moth?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -918,9 +918,9 @@
   },
   {
     "question": "Which of the following statements is true about the language education in the regions mentioned?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {

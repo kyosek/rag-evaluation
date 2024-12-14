@@ -120,7 +120,7 @@
   },
   {
     "question": "Which of the following statements is true about the NFPA method and the HOLO-plus-consistency system?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -197,9 +197,9 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the conditions for stable sub-solutions and super-solutions in the context of the given equations and weights?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -281,9 +281,9 @@
   },
   {
     "question": "In the context of quantum computing, which of the following statements is true about the denoising approach described in the provided text?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -435,7 +435,7 @@
   },
   {
     "question": "In the context of the provided information, what is the primary method used to remove redundant constraints in the iterative process of computing \u03b1_j e for each polytope?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -463,9 +463,9 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the changes made to the game?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -505,9 +505,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary issue that the public is not supporting?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -540,9 +540,9 @@
   },
   {
     "question": "Based on the information provided, what is the most likely reason for the accounts being compromised?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -617,7 +617,7 @@
   },
   {
     "question": "Based on the provided information, what is the most likely distance to XMMSL1 J060636.2-694933?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -687,9 +687,9 @@
   },
   {
     "question": "**\n\nIn the context of the provided information, which of the following statements is the most accurate regarding the grading structure of the course?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -757,9 +757,9 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the changes made to the characters in the game?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -848,9 +848,9 @@
   },
   {
     "question": "Based on the provided information, what is the most effective way to ensure a sermon is engaging and memorable for the congregation?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -890,9 +890,9 @@
   },
   {
     "question": "Based on the provided information, which of the following statements is true about the behavior of the reconstruction error (err_J) in the 2XY model?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -1030,16 +1030,16 @@
   },
   {
     "question": "In the context of the provided algorithm, which of the following statements is true about the LO (Local Optimization) method?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
     "question": "Based on the provided information, which of the following statements is the most accurate description of the relationship between self-maintenance and consciousness?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {

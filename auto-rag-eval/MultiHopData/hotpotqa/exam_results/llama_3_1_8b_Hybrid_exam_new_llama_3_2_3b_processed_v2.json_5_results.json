@@ -50,9 +50,9 @@
   },
   {
     "question": "Mirtemir, a renowned Uzbek poet and literary translator, was a close friend and admirer of the Turkish statesman Ali Fuat Cebesoy's great-grandfather, Mehmed Ali Pasha. However, Mehmed Ali Pasha's early life was marked by a significant departure from his family's Huguenot ancestry. What was the name of the event that led Mehmed Ali Pasha to convert to Islam and travel to the Ottoman Empire, where he would eventually receive a commission in the Ottoman Army?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -92,9 +92,9 @@
   },
   {
     "question": "According to the provided documentation, what is the correct release date of the song \"To Hell and Back\" by Benga, considering the information about the album's release and the premiere of the official video on Benga's Vevo?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -169,9 +169,9 @@
   },
   {
     "question": "The Denver Broncos' decision to start Tim Tebow as quarterback in 2011 was influenced by the team's need for a spark, but also had significant implications for the team's future. What was the primary reason for the Broncos' decision to trade Tim Tebow to the New York Jets in 2012, and how did this decision impact the team's long-term prospects?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -211,16 +211,16 @@
   },
   {
     "question": "According to the documentation, what is the name of the Emperor in the Japanese version of Super Ghouls 'n Ghosts, which is different from the name used in the European version?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "Based on the information provided, what is the primary reason for the renovation of the mall's veranda, as mentioned in Chunk1, and how does it relate to the expansion of the mall's area, as mentioned in Chunk0?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -239,9 +239,9 @@
   },
   {
     "question": "Cat Stevens' decision to leave his musical career in the late 1970s was motivated by his conversion to Islam, but what was the specific reason he cited for his departure from the music industry, which was later contradicted by his son Yoriyos?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -260,9 +260,9 @@
   },
   {
     "question": "According to the passage, what is the relationship between the Rabi frequency (\u03c9) and the transition electric dipole moment (d) of an atom in a laser field?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -365,9 +365,9 @@
   },
   {
     "question": "Based on the provided documentation, what can be inferred about the geographical characteristics of Birgunj, considering its location in the Terai plain and the description of the climate and topography?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -386,9 +386,9 @@
   },
   {
     "question": "Liz Lemon is preparing to air another episode of TGS, but her co-workers have forgotten her 40th birthday. Tracy Jordan decides to break character during the live broadcast, and Jenna Maroney threatens to have a wardrobe malfunction on live TV if Tracy doesn't stop. Meanwhile, Jack Donaghy struggles with his promise to his girlfriend Avery Jessup not to drink alcohol during her pregnancy. What is the name of the actor who plays the role of the island's owner in the episode \"Operation Righteous Cowboy Lightning\"?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -477,7 +477,7 @@
   },
   {
     "question": "What is the primary reason for the extinction of the proboscidean genus Palaeoloxodon during the Late Pleistocene, considering its dispersal outside of Africa and the evolutionary changes that occurred over time, and taking into account the specific characteristics of the proboscideans that were isolated on islands and experienced insular dwarfism?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 2
@@ -519,7 +519,7 @@
   },
   {
     "question": "Based on the information provided, what is the name of the Cirque du Soleil show that was announced to be closing permanently in 2020, which was previously performed at the New York-New York Hotel & Casino on the Las Vegas Strip?",
-    "model_answer": "Z",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -603,9 +603,9 @@
   },
   {
     "question": "Gianforte's experience as a businessman and politician has led to a complex stance on environmental regulations in Montana, particularly in the context of the state's energy policy. How does his background in software development and his involvement in the CRM Hall of Fame influence his approach to balancing economic growth with environmental protection in Montana's energy sector?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -624,9 +624,9 @@
   },
   {
     "question": "According to the 2020 census, what percentage of the population in Kemmerer is comprised of individuals living alone, and what is the average household size in the city?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -645,9 +645,9 @@
   },
   {
     "question": "Which of the following individuals, based on the provided documentation, was the most likely to have been a judge in the Supreme Court at Calcutta, given their background and career path?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -666,9 +666,9 @@
   },
   {
     "question": "According to the European Commission's Directorate-General for Enterprise and Industry (DG ENTR), what are the primary IPR challenges faced by European small and medium-sized enterprises (SMEs) in China, and how does the China IPR SME Helpdesk address these challenges?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -771,9 +771,9 @@
   },
   {
     "question": "What was the primary reason for the significant delay in the launch of the Ulysses spacecraft, and how did this delay impact the mission's trajectory?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -785,9 +785,9 @@
   },
   {
     "question": "According to historical records, what was the name of the Italian painter who worked in the studios of Giorgi and Giuliano Traballesi in Milan, and was active in restoration of paintings?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -883,9 +883,9 @@
   },
   {
     "question": "Based on the information provided, what can be inferred about the redevelopment of the Evergreen Plaza in Evergreen Park, Illinois, considering the following:",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -897,9 +897,9 @@
   },
   {
     "question": "Merck & Co. has accused the Merck Group of federal trademark dilution, unfair competition, and breach of contract. However, the Merck Group has also been involved in various philanthropic efforts, including the development of vaccines and treatments for diseases such as tuberculosis. Which of the following statements best describes the relationship between Merck & Co. and the Merck Group regarding the development of Streptomycin, the first effective treatment for Tuberculosis?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -939,9 +939,9 @@
   },
   {
     "question": "According to the provided documentation, what is the name of the dragon that Hiccup's friend, Fishlegs, has been secretly keeping chained, and what is the name of the dragon that Hiccup builds a new automatic prosthesis for, allowing it to fly independently, and what is the name of the dragon that Hiccup's friend, Astrid, has been riding in the dragon racing competition, and what is the name of the dragon that Hiccup's friend, Snotlout, has been training for the Dragon Racing Championship, and what is the name of the dragon that Hiccup's friend, Tuffnut, has been riding in the dragon racing competition?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1023,9 +1023,9 @@
   },
   {
     "question": "What was the primary motivation behind the British support for the Arab Kingdom of Syria, as proposed by King Faisal at the Congress of 1920, and how did this align with the broader geopolitical interests of the British Empire?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1121,9 +1121,9 @@
   },
   {
     "question": "According to the passage, what was the name of the Four Lovers' original name before they changed it to The Four Seasons in 1960, considering the context of their early career and the information provided about their session work and recording under various pseudonyms?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1156,9 +1156,9 @@
   },
   {
     "question": "Preeto's decision to fake her marriage with Sunny is motivated by the threat of Neelam's blackmail, which is a result of Preeto's love for Rajbeer. However, Rajbeer overhears Preeto talking to herself and realizes that her marriage is fake. Considering the following information, what is the most likely reason for Preeto's initial decision to fake her marriage with Sunny?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1541,7 +1541,7 @@
   },
   {
     "question": "Corbin, Kentucky, is situated in the Cumberland Plateau region of Appalachia, which is prone to the Pine Mountain Overthrust Fault. This fault system has produced occasional tremors, including the most recent one in 2008. Given that Corbin's mayor, Susie Razmus, has vowed to carry the fight to the state Supreme Court regarding the tax collected within city limits, and considering the city's history of racial tensions, including a race riot in 1919, what is the most likely outcome of the Corbin City Commission's decision to file a lawsuit against Knox County to receive a portion of the tax collected within city limits?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 3
@@ -1786,9 +1786,9 @@
   },
   {
     "question": "The British government's decision to support the French in the Maginot Line during World War II was influenced by the lessons learned from David Lloyd George's experience with the Alexandretta project in 1917. However, this approach was later criticized by General Archibald Wavell, who had witnessed the failure of the Maginot Line to prevent the German invasion of France. Wavell's views on defense were shaped by his time as Commander-in-Chief of the British Expeditionary Force in France, where he witnessed the failure of the Maginot Line to prevent the German invasion. This experience led Wavell to advocate for a more mobile and flexible defense strategy, one that would allow for rapid response to changing circumstances. In contrast, the Italian invasion of Egypt in 1940, led by General Erwin Rommel, highlighted the need for a more adaptable defense strategy. The Italian invasion of Egypt was a result of the failure of the British to provide adequate air support and supplies to the 6th Australian Division, which was tasked with defending the region. The British government's decision to support the French in the Maginot Line was seen as a failure to learn from the lessons of the Alexandretta project and the Italian invasion of Egypt.",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1898,9 +1898,9 @@
   },
   {
     "question": "Robot Jones is trying to understand the concept of \"emotional intelligence\" in school. He observes that his friends, Timothy, Mitch, and Charles, are able to navigate social situations with ease, while he struggles to comprehend the nuances of human emotions. In an attempt to improve his social skills, Robot Jones decides to participate in a school play, but his robotic nature causes him to misinterpret the cues of his fellow actors. Meanwhile, his crush, Shannon, is dealing with her own emotional struggles, having recently lost her prosthetic leg in an accident. Which of the following statements best describes Robot Jones's emotional state after the school play?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1912,23 +1912,23 @@
   },
   {
     "question": "The Brout-Englert-Higgs mechanism is a fundamental concept in particle physics, but its implications extend beyond the realm of physics. Consider the following statements:",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 5
   },
   {
     "question": "Based on the provided documentation, which of the following statements about the football programs of Oklahoma and Texas Tech can be inferred?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
     "question": "Richie Ginther's racing career was marked by his association with Ferrari, but what was the specific model of Ferrari that he drove in the 1957 Le Mans race, which was his first international-level event, and how did his partnership with Luigi Chinetti contribute to his racing reputation on the East Coast?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1996,7 +1996,7 @@
   },
   {
     "question": "Mohsen Makhmalbaf's film \"The Gardener\" has been met with controversy due to its depiction of the Baha'i faith, a religion considered taboo in Iran. According to Deborah Young of The Hollywood Reporter, the film's \"deep spirituality\" will appeal to open-minded viewers. However, some Iranian media outlets have accused Makhmalbaf of selling out to the Baha'is and Western powers. Considering the following information:",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 5
@@ -2017,7 +2017,7 @@
   },
   {
     "question": "The Oregon Holiday Invitational (LSI) has been a premier high school basketball tournament since its inception in 1994. According to the provided documentation, the tournament has hosted teams from various states, including Virginia, New York, and California. However, Clarkstown High School South in New York has not been mentioned as a participating team in the LSI. Considering the following information:\n\nChunk1: Oregon Holiday Invitational (LSI) facts\n- The tournament is a 4-day, 32-game, boy's high school basketball tournament.\n- It features 16 teams chosen from Oregon's top schools and elite national teams through a partnership with Nike.\n- The tournament awards include \"The Mr.Hustle Award\", \"Tournament MVP\" and \"The Shawn Zinsli Team Sportsmanship Award\".\n\nChunk2: Clarkstown High School South facts\n- The school is located in West Nyack, New York.\n- Clarkstown High School South was ranked in Newsweek's list of the 2000 best public high schools in the United States in 2013.\n- The school has a planetarium and a music wing.\n\nChunk3: Oregon's athletic programs facts\n- The University of Oregon has a strong athletic program, with teams in various sports such as basketball, softball, volleyball, and track and field.\n- The University of Oregon has won 34 NCAA national championships.",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -2059,9 +2059,9 @@
   },
   {
     "question": "Mare Barrow, a 17-year-old Red, possesses electrokinetic powers that allow her to absorb or release lightning. After being discovered by King Tiberias Calore VI, Mare is forced to marry his son, Maven, as part of a plot to manipulate her into helping the Silvers. However, Mare's true intentions are to join the Scarlet Guard, a group of Reds fighting against the Silvers.",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2227,14 +2227,14 @@
   },
   {
     "question": "The Lewiston Maineiacs won the Jean Rougeau Trophy in 2006-07, but Jonathan Bernier, the goalie who led the team to the championship, was drafted by the Los Angeles Kings in 2006. However, he was not the first overall pick in the draft. Which player was the first overall pick in the 2006 NHL Draft and went on to play for the Quebec Remparts, the same team that won the QMJHL championship in 2007?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
     "question": "Raju's toy clown is given to Mary, then to Marina, and finally to Meena. What is the significance of the toy clown's repeated gift-giving in the context of Raju's relationships with these women?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -2276,7 +2276,7 @@
   },
   {
     "question": "A medical student in Brazil is considering pursuing a doctoral degree in medicine. According to the Brazilian academic system, what is the typical duration of a doctoral program in medicine, and what is the usual monthly stipend for doctoral students during their studies?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
@@ -2318,9 +2318,9 @@
   },
   {
     "question": "Aristotle's portrayal of Socrates in his dialogues is often seen as a more objective representation of the historical figure compared to Plato's works. However, some scholars argue that Aristotle's own philosophical biases may have influenced his depiction of Socrates. According to Xenophon's Memorabilia, Socrates believed that self-control (enkrateia) was essential for achieving eudaimonia. In contrast, Plato's Socrates is often depicted as a proponent of the elenchus, a method of questioning that aims to expose contradictions and arrive at knowledge. Which of the following statements best captures the essence of the Socratic method, as described by Plato, and how does it relate to Aristotle's portrayal of Socrates?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2360,9 +2360,9 @@
   },
   {
     "question": "According to the provided documentation, what is the name of the French publisher that acquired the Spanish subsidiary of Gl\u00e9nat in 2011, and what is the name of the building where the company's head office is located?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2479,7 +2479,7 @@
   },
   {
     "question": "The Barry and Phyllis Rodgers Center for Holocaust Education at Chapman University was founded by Marilyn Harran, Ph.D., in 2000. According to the university's history, the center was established to honor the memory of the victims of the Holocaust. However, the university's athletic teams, the Panthers, have a long history dating back to the 1950s. In what year did the university's athletic teams compete in the California Collegiate Athletic Association (CCAA) of the NCAA Division II ranks, and what sport did they win a national title in during that time?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4
@@ -2528,9 +2528,9 @@
   },
   {
     "question": "According to the reviews, what is the primary criticism of Salmon Fishing in the Yemen, as expressed by Peter Bradshaw of The Guardian?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -2682,9 +2682,9 @@
   },
   {
     "question": "The excavation of Tutankhamun's tomb was hindered by the lack of a permit, which was only held by Theodore M. Davis. However, after Davis's retirement, Lord Carnarvon took up the concession and the excavation resumed. This led to a significant delay in the discovery of the tomb, which was finally unearthed in 1922. The discovery was met with controversy, as it revealed a dark period in Egyptian history and the death of the young pharaoh. The excavation team, led by Howard Carter, was initially opposed to the removal of the tomb's contents, but eventually, they began to catalog and remove the artifacts. The discovery of the tomb was a significant moment in the history of Egyptology, and it marked the beginning of a new era in the study of ancient Egyptian culture.",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -2696,9 +2696,9 @@
   },
   {
     "question": "The Forests of Mara and Mondrem were established by Hugh d'Avranches, the first Earl of Chester, soon after his accession to the earldom in 1071. According to the text, what was the primary purpose of the Forests of Mara and Mondrem, and how did the forest rights change after the earldom lapsed in 1237?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -2773,7 +2773,7 @@
   },
   {
     "question": "Agent 51's album \"The Red & the Black\" was released in 2003, and it marked a significant departure from their previous punk rock sound. What is the name of the band's former drummer, who is also a member of the band Matthew Good Band, and has worked on the album \"The Future Is X-Rated\"?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -2941,9 +2941,9 @@
   },
   {
     "question": "Yusuf / Cat Stevens' decision to convert to Islam in 1977 had a significant impact on his music career. However, he later returned to making secular music in 2006. What was the title of his 1967 debut album, which reached the top ten in the UK charts, and how did it relate to his later decision to leave his musical career to devote himself to educational and philanthropic causes in the Muslim community?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -2962,7 +2962,7 @@
   },
   {
     "question": "Analyze the complex relationships between James II, William of Orange, and the Dutch Republic, considering the implications of their actions on the balance of power in Europe.",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -2983,9 +2983,9 @@
   },
   {
     "question": "Based on the information provided, what was the original purpose of the Evergreen Theater, and how did its location change over time?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -3067,9 +3067,9 @@
   },
   {
     "question": "Liz Lemon is considering a new business venture, but her decision is influenced by her complicated relationships with her colleagues. Jack Donaghy has convinced her to invest in a new project, but Tracy Jordan's recent antics have made her question his reliability. Meanwhile, Jenna Maroney is considering a career change, and Kenneth Parcell's suggestion that she would make a great mother has sparked a new idea. However, a gas leak in the building has caused hallucinations among the characters, making it difficult for them to distinguish reality from fantasy.",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -3088,9 +3088,9 @@
   },
   {
     "question": "The pre-Socratics' emphasis on rationalism and observation laid the groundwork for the development of Western rationalism. However, their views on the nature of the universe were often criticized for being overly simplistic. Which of the following philosophers, known for their nuanced understanding of the relationship between the material and spiritual realms, would be most likely to argue that the pre-Socratics' atomism was insufficient to explain the complexities of human experience?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -3144,9 +3144,9 @@
   },
   {
     "question": "The Red Queen's tyrannical rule in Underland is exemplified by her treatment of her sister, the White Queen, Mirana. According to Mirana, the White Queen's attempts to maintain peace and order in the kingdom are thwarted by her own dark impulses, which are a result of her being \"scared of going too far into the dark side.\" This fear is reflected in her surroundings, which appear \"very light and happy\" despite her inner turmoil. However, the White Queen's sister, the Red Queen, is aware of her own dark nature and has taken steps to suppress it, as evidenced by her use of the Knave of Hearts, Ilosovic Stayne, to calm her mood swings.",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {

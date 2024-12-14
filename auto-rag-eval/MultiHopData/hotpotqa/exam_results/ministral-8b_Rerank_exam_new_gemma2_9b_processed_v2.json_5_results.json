@@ -260,7 +260,7 @@
   },
   {
     "question": "A) The Land Act of 1896",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 2
@@ -323,7 +323,7 @@
   },
   {
     "question": "A)  Which quarterback, despite leading his college team to a significant victory in a prestigious bowl game, ultimately faced a career overshadowed by a more established NFL quarterback?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -351,7 +351,7 @@
   },
   {
     "question": "Based on the provided information, what was the primary factor contributing to the decline in Miami Gardens' tax revenues around the time Oliver Gilbert proposed forming a community redevelopment agency (CRA)?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -456,9 +456,9 @@
   },
   {
     "question": "Based on the provided information, what is the ultimate disposition of the estate after the death of all involved parties?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -533,9 +533,9 @@
   },
   {
     "question": "Which cast member's departure from the series was directly tied to a salary dispute with CBS, leading to a change in their character's status within the show?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -589,9 +589,9 @@
   },
   {
     "question": "What specific event led to a significant change in the design of the Porsche 917-10, directly impacting its performance and safety?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -617,9 +617,9 @@
   },
   {
     "question": "What event directly precedes Kimmy's decision to pursue higher education?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {

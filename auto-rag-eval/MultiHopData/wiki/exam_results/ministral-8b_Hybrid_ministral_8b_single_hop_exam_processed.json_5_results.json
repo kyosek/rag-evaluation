@@ -71,9 +71,9 @@
   },
   {
     "question": "Based on the provided information, who is the mother of Muhammad's mother, Aminah?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -190,9 +190,9 @@
   },
   {
     "question": "Based on the information provided, which of the following statements is true about Yolonda Ross's career?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -204,9 +204,9 @@
   },
   {
     "question": "In which year did Upton and Blanchett adopt their daughter?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -232,9 +232,9 @@
   },
   {
     "question": "Which of the following statements is true about the film \"Dance with a Stranger\"?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -267,9 +267,9 @@
   },
   {
     "question": "Which of the following statements is true about the career of the player mentioned in the provided information?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -281,7 +281,7 @@
   },
   {
     "question": "In what year did Sophia Magdalena have her second son, and what was the significance of the deposit she made in 1787?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -344,9 +344,9 @@
   },
   {
     "question": "Which of the following statements is true about the Marquess of Winchester's involvement in the English Civil War?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -379,9 +379,9 @@
   },
   {
     "question": "Which of the following statements is true about the career of Orson Welles, based on the provided information?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -449,23 +449,23 @@
   },
   {
     "question": "Which of the following statements is the most accurate description of the film \"Una prostituta al servizio del pubblico e in regola con leggi dello stato\"?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
-    "number_of_hops": 1
-  },
-  {
-    "question": "Which of the following statements is true about the historical figure Stephen I of Hungary?",
-    "model_answer": "C",
-    "correct_answer": "C",
     "is_correct": true,
     "number_of_hops": 1
   },
   {
-    "question": "Which of the following statements best describes the theme of Doctor Zee's upcoming film \"Ghost in San Francisco\"?",
+    "question": "Which of the following statements is true about the historical figure Stephen I of Hungary?",
     "model_answer": "A",
-    "correct_answer": "D",
+    "correct_answer": "C",
     "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the theme of Doctor Zee's upcoming film \"Ghost in San Francisco\"?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -484,9 +484,9 @@
   },
   {
     "question": "Based on the information provided, what was the primary motivation behind the shooting of Nipsey Hussle?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -498,16 +498,16 @@
   },
   {
     "question": "Which of the following best describes the sequence of events that led to Waylon Jennings' career breakthrough?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "Which of the following individuals is a law professor at the University of Pennsylvania Law School?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -554,7 +554,7 @@
   },
   {
     "question": "Which of the following statements about Henry Walter Moore is true?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -827,7 +827,7 @@
   },
   {
     "question": "Which of the following statements is true about the actress Ravina and the film \"Querelle\"?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 1
@@ -897,9 +897,9 @@
   },
   {
     "question": "In the film \"The Lady in the Lake,\" what is the significance of Lyle Bane's supernatural appearance and how does it influence the relationship between Helen and Temple Bane?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -946,9 +946,9 @@
   },
   {
     "question": "Which of the following statements is true about Waylon Jennings' career trajectory and the albums he released?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -1044,9 +1044,9 @@
   },
   {
     "question": "Which of the following is the correct sequence of events in the career of Juran, considering his work in both film and television?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   }
 ]

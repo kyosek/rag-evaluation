@@ -1,0 +1,35 @@
+{
+  "exam_id": "SecFilings:",
+  "total_questions": 150,
+  "processed_questions": 150,
+  "processing_success_rate": 100.0,
+  "answer_distribution": {
+    "D": 34,
+    "B": 58,
+    "A": 18,
+    "C": 40
+  },
+  "best_fixed_answer_baseline": 38.666666666666664,
+  "longest_answer_baseline": 58.666666666666664,
+  "question_types": {
+    "Which": 70.66666666666667,
+    "What": 31.333333333333332,
+    "How": 3.3333333333333335,
+    "When": 0.0,
+    "Why": 0.0,
+    "Where": 0.6666666666666666,
+    "Other": 0.0
+  },
+  "avg_question_length": {
+    "mean": 166.92,
+    "std": 150.20938807766532
+  },
+  "avg_answer_length": {
+    "mean": 132.27,
+    "std": 88.63985898003223
+  },
+  "avg_documentation_length": {
+    "mean": 2084.92,
+    "std": 353.56671261116577
+  }
+}

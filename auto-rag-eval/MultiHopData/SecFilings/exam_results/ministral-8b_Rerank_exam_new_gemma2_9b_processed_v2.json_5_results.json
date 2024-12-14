@@ -29,7 +29,7 @@
   },
   {
     "question": "Given the challenges encountered in the Heidi Prospect, what strategic shift in drilling and completion methodology does management advocate for future endeavors in this area?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -176,9 +176,9 @@
   },
   {
     "question": "Considering the company's strategic initiatives outlined in the filing and the current market trends discussed in the industry report, what is the most likely scenario that could lead to a significant decrease in the company's market share within the next five years?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -302,7 +302,7 @@
   },
   {
     "question": "Based on the provided information, what is the primary factor influencing the company's decision to utilize third-party contractors for mining and operation of the processing facility?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -372,9 +372,9 @@
   },
   {
     "question": "Based on the provided information, what is the most likely reason the Company would experience a downward revision of its proved oil and gas reserves?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -603,16 +603,16 @@
   },
   {
     "question": "Based on the provided information, what is the primary factor contributing to the revision of proved undeveloped reserves (PUD) in 2017?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "Given the economic and environmental considerations of mining operations, what is the PRIMARY factor influencing the decision to utilize underground mining versus open-pit mining for a newly discovered gold deposit?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -645,7 +645,7 @@
   },
   {
     "question": "In which country are production rights explicitly stated to have no fixed term, contingent solely on the rights holder fulfilling their obligations?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -883,7 +883,7 @@
   },
   {
     "question": "Based on the provided SEC filings, which individual served as both the President and CEO and a Director for two distinct companies listed in the filings?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 2
@@ -1107,9 +1107,9 @@
   },
   {
     "question": "A)  The discovery of a more lucrative gold deposit elsewhere.",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1527,9 +1527,9 @@
   },
   {
     "question": "Considering the environmental and social impacts outlined in the documentation, what is the most significant potential consequence of the Nkamouna Cobalt-Nickel-Manganese Project on the local ecosystem, and how does this impact relate to the project's stated commitment to industry best practices?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {

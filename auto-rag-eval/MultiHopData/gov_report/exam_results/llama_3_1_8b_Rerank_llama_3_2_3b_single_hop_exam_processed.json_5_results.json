@@ -260,7 +260,7 @@
   },
   {
     "question": "What is the primary motivation behind President Trump's proclamation recognizing the Golan Heights as part of the State of Israel?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 1
@@ -372,9 +372,9 @@
   },
   {
     "question": "What is the primary reason why DHS's corrective actions to address the nine previously reported recommendations related to NCPS were deemed effective?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -526,14 +526,14 @@
   },
   {
     "question": "What is a critical factor that agencies should consider when designing performance information systems to ensure that performance data is both useful and used?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "What was the primary reason for revising the selection criteria for the first focus group of community banks, according to the report?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -925,7 +925,7 @@
   },
   {
     "question": "What is a critical factor in determining the total amount of funding allocated to states for the Fresh Fruit and Vegetable Program (FFVP) in a given year, considering the mandatory transfer of funds from USDA's Section 32 program and the inflation-indexed funding?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -1016,9 +1016,9 @@
   },
   {
     "question": "A worker who loses both hands and is unable to perform any work that requires manual dexterity is considered totally disabled under the LHWCA. However, if the worker is able to adapt to a job that requires only verbal communication, such as a customer service representative, would the worker still be considered totally disabled?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -1037,9 +1037,9 @@
   },
   {
     "question": "The Navy's procurement of DDG-51s and DDG-1000s has implications for the development of the Aegis BMD system. What is a key difference between the two ship classes in terms of their BMD capabilities?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {

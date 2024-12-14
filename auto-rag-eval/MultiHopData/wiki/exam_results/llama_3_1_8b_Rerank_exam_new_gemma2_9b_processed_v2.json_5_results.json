@@ -127,9 +127,9 @@
   },
   {
     "question": "Based on the provided biographical information, during which year did the artist transition from primarily self-releasing music to signing with a record label?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -148,9 +148,9 @@
   },
   {
     "question": "Based on the provided biographical information, which individual experienced a career setback due to a business venture failure?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -162,9 +162,9 @@
   },
   {
     "question": "Which filmmaker's work explores themes of cultural contradiction and societal inequality within the context of a journey back to one's ancestral homeland?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -176,9 +176,9 @@
   },
   {
     "question": "What ultimately led to the estrangement between Marie-Ad\u00e9la\u00efde and St\u00e9phanie F\u00e9licit\u00e9 Ducrest de St-Albin, Comtesse de Genlis?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -246,14 +246,14 @@
   },
   {
     "question": "Which individual held a position of authority related to both military service and a specific geographic region, ultimately succeeding their father in a hereditary title?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "What ultimately motivates General Wu Yen Fang's decision to spare Hallet's life?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -302,9 +302,9 @@
   },
   {
     "question": "What musical collaboration occurred in 2001 that reunited two musicians who had previously played together in a band that disbanded in 1997?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -736,9 +736,9 @@
   },
   {
     "question": "Which of Rohmer's films, despite initial mixed reception, ultimately achieved significant international acclaim and critical recognition, solidifying its place as a pivotal work in his filmography?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -785,9 +785,9 @@
   },
   {
     "question": "What significant personal and professional factor motivated Nati Baratz to direct \"Unmistaken Child\"?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -967,9 +967,9 @@
   },
   {
     "question": "Which of the following statements accurately reflects the critical reception of a film featuring a protagonist who experiences a tragic downfall due to a doomed romantic relationship?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1016,9 +1016,9 @@
   },
   {
     "question": "Which individual's career trajectory demonstrates a clear progression from supporting roles in the film industry to leadership positions within film education and cultural institutions?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1030,7 +1030,7 @@
   },
   {
     "question": "Which of the following individuals is NOT directly associated with a musical work mentioned in the provided text AND has no connection to the film \"The Ballad of Uhlans\"?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1044,9 +1044,9 @@
   },
   {
     "question": "Which individual's career trajectory demonstrates a clear shift from early involvement in politically charged filmmaking to a later focus on documentaries exploring personal narratives and cultural heritage?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1072,7 +1072,7 @@
   },
   {
     "question": "Which director, despite facing professional setbacks and personal tragedy, achieved critical and commercial success with a film that explored themes of military justice and leadership during a period of heightened social and political tension?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 3
@@ -1149,9 +1149,9 @@
   },
   {
     "question": "Which film, according to the provided text, is most critically acclaimed, and what specific element of this film is highlighted as a strength by multiple sources?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1184,16 +1184,16 @@
   },
   {
     "question": "What ultimately leads to the Emperor's decision to allow Siu-bo and his companions to escape, considering the complex web of alliances, betrayals, and power struggles that unfold throughout the narrative?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 3
   },
   {
     "question": "In the context of the provided information, which individual's career path demonstrates a clear shift from a highly competitive athletic pursuit to a more artistic and creative field?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {

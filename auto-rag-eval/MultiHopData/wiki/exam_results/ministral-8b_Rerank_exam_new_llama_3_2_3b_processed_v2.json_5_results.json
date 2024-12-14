@@ -36,7 +36,7 @@
   },
   {
     "question": "Mamontov's financial troubles lead to a confrontation with Belyavsky, and in the process, he becomes embroiled in a plot to overthrow the government. Meanwhile, in a different context, a wealthy individual named Brown inherits a hotel in the capital from his British mother but struggles to sell it. He becomes entangled in a complex web of international intrigue involving arms deals, regime change, and rebellion. Which of the following statements best describes the relationship between Mamontov and Dr. Magiot, the rebel leader?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -470,9 +470,9 @@
   },
   {
     "question": "At the Battle of the Black Mountain in 1794, Courten's troops were defeated by Pierre Augereau's French division, leading to their withdrawal. However, the Spanish army's defeat was not solely due to Courten's leadership. The Preux Swiss Regiment Nr. 6, which was stationed at Madrid, had previously been part of the Spanish army. Considering the historical context, what was the primary reason for the Preux Swiss Regiment Nr. 6's involvement with the Spanish army, and how does this relate to the events at the Battle of the Black Mountain?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -484,9 +484,9 @@
   },
   {
     "question": "Analyze the genealogical relationships between Fujiwara no Nagara and his descendants, considering the information provided in Chunk0 and Chunk1. Which of the following statements is true?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -652,9 +652,9 @@
   },
   {
     "question": "According to historical records, what was the unusual burial practice of Eleanor of Aquitaine, and where were her viscera, heart, and body ultimately laid to rest?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -911,7 +911,7 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason for Dalida's decision to have an abortion, as revealed in the film's narrative?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 3
@@ -1170,9 +1170,9 @@
   },
   {
     "question": "Based on the provided documentation, what was the primary inspiration for Rom\u00e1n Chalbaud's play \"El Pez que Fuma\", which he later adapted into a film, and how did this experience influence his social conscience?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1268,9 +1268,9 @@
   },
   {
     "question": "The Ballad of Uhlans, a 2012 Russian historical adventure film, is based on a novel by a Russian author. The film's plot revolves around a French secret agent who steals a battle plan of the Russian troops in 1812. According to the film's director, Oleg Fesenko, the story is loosely inspired by a song with the same title, which was written by a French singer-songwriter in the 1970s. This song's lyrics contain a phrase that reflects the theme of the film. Which of the following statements is true?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1380,9 +1380,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the name of the film director who, along with Roger Corman, worked on the film \"The Gunfighter\" and later founded A&E IndieFilms, which acquired the TV rights to the film, and who also directed the film \"The Royal Waltz\" (1935), a German film that was part of the filmography of Herbert Maisch, a German film director who was born in N\u00fcrtingen, W\u00fcrttemberg, and died in K\u00f6ln?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1499,7 +1499,7 @@
   },
   {
     "question": "Analyze the historical context of the Bourbon dynasty's involvement in the Hundred Years' War and its impact on the family's relationships with other noble families, such as the Guise and the Duke of Burgundy.",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1828,9 +1828,9 @@
   },
   {
     "question": "Bartel's early career as a director was influenced by his work with Roger Corman, who offered him the chance to direct Cannonball (1976) after the success of Death Race 2000 (1975). However, Bartel had previously worked on a script with Richard Blackburn for a film called Eating Raoul (1982), which was made on a budget of $230,000. This film was a commercial success, grossing $10 million, and became a cult classic. Lenzi, on the other hand, had worked on a series of giallo films in the 1970s, including Seven Bloodstained Orchids and Knife of Ice, which were influenced by French \"film noir\" movies. However, Lenzi's filmography also includes a horror film called Nightmare City (1988), which was released under the pseudonym Humphrey Humbert. Considering the following statements:",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2416,9 +2416,9 @@
   },
   {
     "question": "The Marquess of Winchester's decision to garrison Basing House during the English Civil War was influenced by his loyalty to the King, but also by his desire to protect his family's fortune. However, his efforts to defend the house ultimately led to its capture by Oliver Cromwell's forces. What was the primary motivation behind the Marquess's decision to garrison Basing House, and how did this decision impact his family's financial situation?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2437,7 +2437,7 @@
   },
   {
     "question": "A wealthy businessman, De Koster, is accused of embezzlement and is being investigated by a French police inspector, Lucas. Meanwhile, a young woman, Catherine Valmont, has returned from the dead and needs human blood to survive. She is found by Barbara, who takes photos of her, but her boyfriend, Greg, is skeptical. As Catherine wanders the Valmont Mansion, memories of her childhood come back to her, especially her childhood friend, H\u00e9l\u00e8ne. H\u00e9l\u00e8ne eventually discovers Catherine's true state and tries to help her adjust to her new reality. However, De Koster's reputation is on the line, and he will stop at nothing to clear his name. De Koster's firm has a history of questionable business practices, and Lucas suspects that they may be involved in a larger conspiracy. Meanwhile, Sonia, a woman struggling with her own personal demons, becomes embroiled in the investigation when she discovers a cryptic message that suggests De Koster's innocence. She teams up with Sender, a jewelry designer, who has a personal vendetta against De Koster. As the investigation unfolds, Catherine's need for human blood becomes more pressing, and she begins to target those close to De Koster. But can she be trusted, or is she just a pawn in a larger game?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
@@ -2885,9 +2885,9 @@
   },
   {
     "question": "Given the following information, determine the correct sequence of events:",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -3018,7 +3018,7 @@
   },
   {
     "question": "The 1935 film \"Dr. Socrates\" was a remake of which 1914 film, which was based on a short story by W. R. Burnett, and was later remade again in 1965 as \"Space Monster\", a low-budget science fiction/action/drama film. According to the filmography of Lynn Reynolds, a director and screenwriter, Reynolds directed more than 80 films between 1915 and 1928, including the 1914 film \"Taking his Chance\". However, the 1935 film \"Dr. Socrates\" was not directed by Reynolds, but rather by Lewis Seiler. Which film was directed by Reynolds?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4
@@ -3081,9 +3081,9 @@
   },
   {
     "question": "What is the correct sequence of events regarding the succession of the County of Soissons, given the following information:",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -3116,9 +3116,9 @@
   },
   {
     "question": "Bill Spencer, a former college athlete and singer, is accused of murdering his former girlfriend June Lane after she gets inebriated and stumbles, resulting in her accidental death. However, his attorney wife Ann offers to defend him in court, and after a series of events, Bill is acquitted. Later, Bill's song \"I'll Get By\" becomes a huge success, but he is forced to deny it to his former girlfriend Liza Martin, who had previously met him in a awkward encounter. Meanwhile, Johnny Morrison, a truck driver, is framed for a crime and later discovers that his former employer Hackett was the one who set him up. Johnny's girlfriend Carol Wayne still has feelings for him, but she has been seeing another man, Dr. Michael Benning. What is the connection between Bill Spencer's song \"I'll Get By\" and Johnny Morrison's situation?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -3221,9 +3221,9 @@
   },
   {
     "question": "The film industry has a long history of experimenting with unconventional storytelling methods. According to Vincent Canby's review of Querelle, the film's director, Rainer Werner Fassbinder, aimed to create a \"perfect epitaph\" for Jean Genet's work. However, Variety described the film as \"plodding, low-key, and eventually tedious\". Considering the following statements:",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -3242,9 +3242,9 @@
   },
   {
     "question": "Analyze the career paths of Brian Kennedy, Olav Aaraas, and Peter Levin, considering their roles as museum directors and their involvement with the Association of Art Museum Directors. How do their professional experiences and affiliations demonstrate their expertise and commitment to the field of art museum direction?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {

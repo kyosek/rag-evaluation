@@ -134,9 +134,9 @@
   },
   {
     "question": "Which of the following statements is the most accurate description of Robot Jones' character development throughout the series?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -169,9 +169,9 @@
   },
   {
     "question": "Which of the following statements is true about the career of the individual known as \"Mara\"?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -673,7 +673,7 @@
   },
   {
     "question": "Which of the following statements is true about the release date of the person mentioned in the document?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -757,9 +757,9 @@
   },
   {
     "question": "Based on the information provided, what was the primary reason for Johnson's arrest and subsequent charges?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -953,9 +953,9 @@
   },
   {
     "question": "Which of the following statements is true about the career of Terrell \"TJ\" Woods?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {

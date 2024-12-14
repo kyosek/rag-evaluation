@@ -428,9 +428,9 @@
   },
   {
     "question": "Which of the following statements accurately reflects the reception and production challenges faced by a specific television series mentioned in the provided text?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -442,9 +442,9 @@
   },
   {
     "question": "What was the primary catalyst for the 2011 protest, and how did the government respond to this catalyst?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -540,7 +540,7 @@
   },
   {
     "question": "Which team's head coach had a previous undefeated season with a different team before taking their current position?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1

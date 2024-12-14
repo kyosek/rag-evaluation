@@ -36,9 +36,9 @@
   },
   {
     "question": "Which of the following statements is true about the relationship between John III, Count of Soissons, and the other individuals mentioned in the provided documentation?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -99,9 +99,9 @@
   },
   {
     "question": "Which of the following statements is true about the Dance of Death, considering the information provided in the given passages?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -267,7 +267,7 @@
   },
   {
     "question": "Which of the following statements is true about the career of the player mentioned in the provided information?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -449,9 +449,9 @@
   },
   {
     "question": "Which of the following statements is the most accurate description of the film \"Una prostituta al servizio del pubblico e in regola con leggi dello stato\"?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -519,9 +519,9 @@
   },
   {
     "question": "Which of the following statements about Jacques Tourneur's career is true?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -533,9 +533,9 @@
   },
   {
     "question": "Which of the following is the most accurate description of the production process of the film \"Bomgay\"?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -701,9 +701,9 @@
   },
   {
     "question": "Which of the following is the most accurate description of the relationship between Bill Spencer and Liza Martin after the incident with the door?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -967,7 +967,7 @@
   },
   {
     "question": "Which of the following events occurred in the same year as the premiere of the film \"Man at Bath\"?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -981,7 +981,7 @@
   },
   {
     "question": "In the context of the Frankish kingdom's division following the death of Chlothar, which of the following statements is true about the distribution of territories among his sons?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1

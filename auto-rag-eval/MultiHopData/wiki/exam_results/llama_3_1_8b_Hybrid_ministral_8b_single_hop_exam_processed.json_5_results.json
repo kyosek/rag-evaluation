@@ -36,9 +36,9 @@
   },
   {
     "question": "Which of the following statements is true about the relationship between John III, Count of Soissons, and the other individuals mentioned in the provided documentation?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -134,9 +134,9 @@
   },
   {
     "question": "Which of the following statements about Bonnie Tyler's career is true, given the information provided?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -162,7 +162,7 @@
   },
   {
     "question": "Which of the following statements about the career of Niyazov is true, given the information provided?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 1
@@ -204,9 +204,9 @@
   },
   {
     "question": "In which year did Upton and Blanchett adopt their daughter?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -225,16 +225,16 @@
   },
   {
     "question": "Which of the following is the most accurate description of the Valley of Death in the context of the 1968 film \"The Valley of Death\"?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
     "question": "Which of the following statements is true about the film \"Dance with a Stranger\"?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -274,9 +274,9 @@
   },
   {
     "question": "Which of the following statements is true about Marie of \u00c9vreux and her family?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -302,9 +302,9 @@
   },
   {
     "question": "Which of the following statements is the most accurate description of the relationship between Stephen I of Hungary and Gyula the Younger, based on the provided information?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -386,9 +386,9 @@
   },
   {
     "question": "Which of the following statements is true about the timeline of events involving Astra Films and Graham-Wilcox Productions?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -428,9 +428,9 @@
   },
   {
     "question": "Which of the following statements is true about the collaboration between Maya Deren and Talley Beatty in the film \"A Study in Choreography for Camera\"?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -449,9 +449,9 @@
   },
   {
     "question": "Which of the following statements is the most accurate description of the film \"Una prostituta al servizio del pubblico e in regola con leggi dello stato\"?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -512,9 +512,9 @@
   },
   {
     "question": "Which of the following statements is the most accurate description of the events in \"August Underground's Mordum\"?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -540,9 +540,9 @@
   },
   {
     "question": "Which of the following statements about Abhishek Saxena's career is true?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -554,9 +554,9 @@
   },
   {
     "question": "Which of the following statements about Henry Walter Moore is true?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -575,7 +575,7 @@
   },
   {
     "question": "Which of the following is the most accurate description of the sequence of events involving Siu-bo, Lung-er, and the Heaven and Earth Society?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -617,16 +617,16 @@
   },
   {
     "question": "Which of the following statements is true about the Mobile and Ohio Railroad's history and expansion?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
     "question": "In what year was Eric XIV's marriage to Karin M\u00e5nsdotter solemnized, and what was the significance of this event in relation to his reign?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -659,7 +659,7 @@
   },
   {
     "question": "Which of the following is the most accurate description of Andrew Allen's career trajectory, based on the information provided?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -680,7 +680,7 @@
   },
   {
     "question": "In 1840, Charles Wheatstone introduced a device called the chronoscope, which was used to measure minute intervals of time. This device was capable of distinguishing 1/7300 part of a second and was used to determine the speed of a bullet or the passage of a star. Wheatstone also exhibited an electro-magnetic clock at the Royal Society on 26 November 1840, which was capable of distributing the correct time to local timepieces. Alexander Bain, who worked as a mechanist for Wheatstone from August to December 1840, later accused Wheatstone of stealing his ideas for an electric clock and an electro-magnetic printing telegraph. However, Wheatstone maintained that he had experimented in that direction during May. In the same year, Bain mentioned his financial problems to the editor of the Mechanics Magazine, who introduced him to Wheatstone. Bain demonstrated his models to Wheatstone, who dismissed them as having no future. Three months later, Wheatstone demonstrated an electric clock to the Royal Society, claiming it was his own invention. What was the primary purpose of the chronoscope introduced by Charles Wheatstone in 1840?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -694,7 +694,7 @@
   },
   {
     "question": "Which of the following is the most accurate description of Rear Admiral Mary Joan Nielubowicz's career progression in the Navy Nurse Corps?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 1
@@ -722,7 +722,7 @@
   },
   {
     "question": "Based on the provided information, what was the primary reason for the conflict between Queen Sophia Magdalena and King Gustav III?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 1
@@ -792,9 +792,9 @@
   },
   {
     "question": "Which of the following is the most accurate description of the events surrounding the creation of the world according to the Tuvinian/Soyoth legend?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -841,9 +841,9 @@
   },
   {
     "question": "Which of the following statements is true about the career of Aretas B. Fleming, the 8th governor of West Virginia?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -988,9 +988,9 @@
   },
   {
     "question": "Which of the following best describes the career trajectory of Lawrence George Cohen?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {

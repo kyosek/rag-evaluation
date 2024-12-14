@@ -1,0 +1,751 @@
+[
+  {
+    "question": "According to the provided documentation, what was the primary reason for the initial ban on Roscoe Arbuckle's films, and how did this impact his career?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what is the connection between Edward Yates, the director of American Bandstand, and Kishore Sahu, the director of the 1974 Bollywood film Dhuen Ki Lakeer?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what is the name of the film director who collaborated with K. Balachander on several projects, including \"Neerkumizhi\" and \"Baalu Belagithu\", and is known for his work in the Kannada film industry?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What was the primary reason for the Duke of Chartres's decision to appoint Mme de Genlis as the governeur of his children, despite her liberal political views and her strained relationship with Queen Marie Antoinette?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what can be inferred about the career of the cricketer, Lobban, and the politician, Edv\u012bns \u0160nore, in relation to their respective fields of expertise?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what can be inferred about the relationship between H. H. Hunnewell and John Vernou Bouvier III, considering that Hunnewell was a director of 12 railroads and numerous mining, real estate, and other ventures, and Bouvier III was a successful attorney and investor on Wall Street?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The Bandit and Snowman's initial plan to transport Coors beer from Texarkana to Atlanta involves a complex logistics operation. However, after Carrie's unexpected jump into the Bandit's car, the situation escalates, and Sheriff Buford T. Justice becomes a key player. What is the primary reason Buford is initially chasing the Bandit, and how does this change after Carrie's involvement?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the chroniclers' passages, Eleanor's reputation underwent significant changes over time, influenced by various historical events and literary works. What can be inferred about the motivations behind the shift in Eleanor's reputation, considering the following:",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what is the name of the film director who, prior to Dana Blankstein's appointment, held the position of CEO of the Israeli Academy of Film and Television?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what is the primary reason for Jean Rollin's decision to direct Les raisins de la mort (The Grapes of Death) in 1978, which marked a departure from his usual dreamlike and poetic style?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the documentary film \"Unmistaken Child\", what is the primary concern of Tenzin Zopa, the deceased lama's closest disciple, in his search for the reincarnation of his master, Geshe Lama Konchog?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the biography of Richard Palmer, what is the name of the film that he codirected with Robert Bilheimer, which was dedicated to him after his death?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the provided documentation, what is the name of the 2016 film about slavery and the underground railroad, which is mentioned in the context of a comparison with Spy Kids 3-D: Game Over?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which individual is the executive director of the Sam Spiegel Film and Television School, and what is the significance of her appointment in November 2019?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The Argentine film director Francisco M\u00fagica's 1944 film \"Mi novia es un fantasma\" is a romantic comedy that shares a common trait with another film, but the connection is not as straightforward as it seems. Which film, directed by Burman, is often considered to be part of the same universe as \"Mi novia es un fantasma\" due to the presence of a character played by Melina Petriella in both films?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what can be inferred about Katherine Stenholm's career path, considering her association with Bob Jones University and her experience in film production, as well as her connections to influential figures in the film industry and her role in promoting conservative values through her work at Unusual Films?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the documentation, what can be inferred about the relationship between Stephen's coronation and the occupation of the valley of the river Morava by the Poles, as described by Gallus Anonymus and Gy\u00f6rffy, considering the complexities of their accounts and the historical context of the time?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the provided documentation, what is the primary difference between the place of origin (Heimatort or B\u00fcrgerort) and the place of birth in the context of Swiss citizenship?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to historical records, Queen Mercedes of Spain and Duchess of Orl\u00e9ans, Louise Marie Ad\u00e9la\u00efde de Bourbon, had a sister who died shortly after her birth. What was the name of this sister, and what was the reason for her early death?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The Decemberists' song \"O Valencia!\" tells a story of two star-crossed lovers, with the singer falling in love with a person who belongs to an opposing gang. According to the lyrics, what is the name of the singer's lover's brother, who is also the singer's \"sworn enemy\"?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what can be inferred about the film \"The Comedians\" and its connection to the 1960s, considering the release of a DVD in 2007 and the list of comedy films of the 1960s?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the provided documentation, what is the name of the 1997 Epitaph Records release that Billy Milano co-produced for Agnostic Front?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the passage, what is the name of the Canadian singer-songwriter who released the song \"Loving You Tonight\" and performed with artists such as Bruno Mars and Carly Rae Jepsen, and who was also featured in the Sochi 2014 hand off finale of the Paralympic Winter Games, and who was a teacher in Glasgow, Ireland, and was born in Blackrock, County Louth, Ireland?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "A wealthy lawyer, Ann Carver, and her husband, Bill Graham, struggle with the strain of their vastly different career successes. Ann's financial success leads to a significant increase in her husband's expenses, causing tension in their marriage. Meanwhile, a former Harvard professor, Gregory Vance, is introduced as a drunkard who cares for his children and teaches them Latin. However, his children's teacher, Agnes Billow, discovers his past and the two form a connection. Which of the following statements best describes the common thread among these characters?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What is the significance of Ryan Coogler's involvement in the development of the television drama series Minors, and how does it relate to the themes of institutionalization and juvenile facilities explored in the series, given Cretton's background in working with at-risk teenagers?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Nipsey Hussle's efforts to reduce gang violence in South Los Angeles were influenced by his personal experiences with gang culture, which he spoke openly about in various settings. According to Hussle, the Crenshaw area was being underserved, and he believed that young people would benefit from communal workspaces. This idea was reflected in the planning stages of the Destination Crenshaw project, which aimed to showcase the history and culture of blacks in his neighborhood. However, Hussle's own life was cut short when he was murdered in the parking lot of his store, Marathon Clothing, on March 31, 2019. Considering the following information, which of the following statements is most consistent with Hussle's goals and legacy?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the provided documentation, Rivers Cuomo's inspiration for the song \"Say It Ain't So\" is rooted in his personal experience with his parents' marriage, which was influenced by his father's struggles with alcoholism. However, this experience is also connected to a high school incident where he witnessed a bottle of beer in his friend's fridge, leading him to fear the same fate for his parents' marriage. How does this incident relate to the song's lyrics, which mention a \"bottle of beer\" and a \"marriage\" that may be on the rocks? What specific details from the song's composition, music video, and release history support this interpretation?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "At the Battle of the Black Mountain in 1794, Courten's troops were defeated by Pierre Augereau's French division, leading to their withdrawal. However, the Spanish army's defeat was not solely due to Courten's leadership. The Preux Swiss Regiment Nr. 6, which was stationed at Madrid, had previously been part of the Spanish army. Considering the historical context, what was the primary reason for the Preux Swiss Regiment Nr. 6's involvement with the Spanish army, and how does this relate to the events at the Battle of the Black Mountain?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Analyze the genealogical relationships between Fujiwara no Nagara and his descendants, considering the information provided in Chunk0 and Chunk1. Which of the following statements is true?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the documentation, what is the name of the lead singer of the indie rock band One eskimO, who was also dubbed \"the new Dido\" by some media outlets?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what is the name of the 1961 superhero film produced by Toei Company Ltd., in which the protagonist, Shinichi Tachibana, has a secret identity as superhero \"Iron Sharp\"?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what is the name of the actor who played the role of Lamont Carr in the Disney film Full Court Miracle (2003)?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to Jacques Dutronc's biography, what was the title of the film in which he earned a C\u00e9sar Award for Best Actor in 1992, and what director was behind the film?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What is the significance of Joan Sims' return to the Carry On series in Carry On Cleo, considering her previous absence from the series since Carry On Regardless three years earlier, and how does this impact her position as the most prolific actress in the series, given the context of the Carry On films' historical setting and the changing roles of its regular cast members?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following individuals is NOT a trustee and treasurer of the Association of Art Museum Directors, a peer reviewer for the American Association of Museums, and a member of the International Association of Art Critics, considering their affiliations with film and television institutions, and the geographic locations of their birth and education?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Analyze the ancestry of Grand Duchess Elena Vladimirovna of Russia and identify the relationship between her mother, Duchess Marie of Mecklenburg-Schwerin, and the Emperor Alexander II of Russia.",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided filmographies, what is the connection between the 1932 film \"Leap Year\" and the 1932 film \"The Flag Lieutenant\", considering the director's involvement in both films?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what is the correct sequence of events regarding the succession of the title of Baron Willoughby of Parham after the death of John Willoughby, 9th Baron Willoughby of Parham, and how does this succession impact the title's holder, Charles Willoughby, in relation to his own family lineage and the barony's history?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "\u00c9ric Rohmer's unique approach to filmmaking was influenced by his philosophical views on human desire, as expressed in his film \"The Tree\", which was a critical and commercial success despite being released in a single theater for an entire year. However, his personal life was marked by a need for privacy, as evident from his use of disguises, such as a false moustache, at film premieres. This dichotomy between his public and private persona is reflected in his relationship with his mother, who died without knowing of his success as a film director. What can be inferred about \u00c9ric Rohmer's approach to filmmaking, based on the fact that his film \"The Tree\" was a critical and commercial success, despite being released in a single theater for an entire year, whereas his film \"Les Visiteurs\" sold 15 million tickets, and considering the context of his personal life and his relationship with his mother?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Rumbi Katedza's filmography reveals a notable absence of films directed by her, despite her experience in film and television production. Which of the following statements about Eugen York's filmography is consistent with the information provided?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Mehmed V's decision to declare jihad against the Entente Powers in 1914 had significant consequences for the Ottoman Empire. However, his role in the war effort was limited by the Ottoman government's diminished influence since the overthrow of Abd\u00fclhamid II in 1909. Considering the following information, which of the following statements is most consistent with the historical record?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the documentation, what was the primary intention of the Accademia degli Arcadi, and how did it differ from the actual outcome of the Academy's activities?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the documentation, what was the primary principle behind the five-needle telegraph, as described by Amp\u00e8re, and how did Wheatstone's experimental line utilize this principle?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the provided documentation, what is the connection between Enheduanna, the high priestess of the moon god Nanna in the Sumerian city-state of Ur, and the Valley of Death, a term that refers to a site of mass murder and mass grave in northern Poland?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the accounts of Jacob Le Maire and Willem Schouten's voyage, what was the primary motivation behind Isaac Le Maire's decision to circumnavigate the globe, and how did he plan to utilize this journey to achieve his goal of breaking the VOC monopoly on the trade to the East Indies?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Maya Deren's film \"A Study in Choreography for Camera\" (1945) explores the relationship between the protagonist's physical movements and the fluidity of time and space. In the film, the protagonist's movements are depicted as a seamless transition between natural and indoor environments. However, upon closer analysis, it becomes apparent that the film's use of slow-motion and varied camera angles creates a sense of temporal dislocation. This dislocation is further complicated by the presence of recurring symbols, such as the cloaked figure and mirrors, which seem to blur the lines between reality and the subconscious.",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Catherine Valmont, a young woman who died several years ago, is resurrected after an earthquake causes toxic waste to spill in an old crypt. She must acquire human blood to survive, and her childhood friend H\u00e9l\u00e8ne discovers her and tries to help her. However, as Catherine's hunger grows, she becomes increasingly violent and H\u00e9l\u00e8ne is forced to take drastic measures to protect herself and others. What is the primary reason why H\u00e9l\u00e8ne decides to sacrifice herself to save Catherine from her own hunger, despite knowing it will lead to Catherine's downfall?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Based on the provided documentation, what can be inferred about Ogawa Mataji's military career, considering his involvement in the Satsuma Rebellion and his promotion to major in the same month, as well as his subsequent appointment as a military attach\u00e9 to Beijing and his promotion to major general in June 1890?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Margaret of France's marriage to Edward I led to a complex web of relationships and power dynamics. Analyze the following events and their implications:",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following individuals was NOT a spouse of Archduke Joseph August of Austria, considering the context of his marriages and the information provided about his family and spouses?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Based on the provided documentation, what can be inferred about the life and marriage of Duke Frederick William of Brandenburg-Schwedt, considering the following information:\n\nChunk0: Frederick William of Brandenburg-Schwedt was a Prussian Major General and commander of the Guards on Foot. He was the son of Margrave Albert Frederick of Brandenburg-Schwedt and his wife Maria Dorothea of Courland.\n\nChunk1: Frederick William of Brandenburg-Schwedt was awarded the Order of the Black Eagle in May 1719, when he was only four years old. He participated as a volunteer in the campaigns of the Prussian army from 1734.\n\nChunk2: Frederick William of Brandenburg-Schwedt was killed during the Siege of Prague in 1744. His body was transferred to Berlin and he was buried in the Hohenzollern crypt in Berlin Cathedral.",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Maya Deren's film \"Ritual in Transfigured Time\" (1946) explores the theme of ritualistic transformation, but its connection to her earlier work \"A Study in Choreography for Camera\" (1945) is not immediately clear. How does the use of non-linear editing and multiple narrative threads in \"Ritual in Transfigured Time\" reflect Deren's interest in decentering the individual and creating a sense of continuity between different levels of consciousness, as described in her essay \"Religious Possession in Dancing\"?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "What can be inferred about Sophia Magdalena's personality based on the description of her sister-in-law, Princess Hedwig Elizabeth Charlotte, and her own actions and preferences?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "According to the provided documentation, what is the name of the director of the 1952 film \"Bomba and the Jungle Girl\", which is the eighth film in the Bomba, the Jungle Boy film series, and how does this director's involvement in the film series relate to his broader career as a film director?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Analyze the relationships between the individuals mentioned in the provided documentation to determine the correct sequence of events that led to Isabella of Clermont becoming Queen of Naples and Jerusalem.",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The Lubby-Dubby tribe's leader, Leda, has taken control of the tribe after overthrowing Tonka, but the tribe's women have no intention of letting the men go. However, the men are fed up and are awaiting rescue. Meanwhile, Ug, who is revealed to be Lady Bagley's lost son Cecil, has been living in the jungle with June. The men are assigned to the least attractive women in the tribe, but none of them have gotten pregnant. What is the most likely reason why the Lubby-Dubby women have not allowed the men to leave, and what is the significance of the Oozlum bird being a sacred animal to the Lubby-Dubby females?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Based on the provided documentation, what is the name of the film director who, along with Roger Corman, worked on the film \"The Gunfighter\" and later founded A&E IndieFilms, which acquired the TV rights to the film, and who also directed the film \"The Royal Waltz\" (1935), a German film that was part of the filmography of Herbert Maisch, a German film director who was born in N\u00fcrtingen, W\u00fcrttemberg, and died in K\u00f6ln?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "According to the provided documentation, what is the significance of Uthman ibn Sa'id's role in the underground network of representatives, and how does it relate to the Abbasid caliphate's efforts to suppress the Shia elite?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Given that Grand Duke Vladimir Alexandrovich was the brother of Alexander III, who succeeded Alexander II after his assassination, and that Vladimir was appointed President of the Imperial Academy of Fine Arts in 1880, what can be inferred about the relationship between Grand Duke Vladimir and his brother Alexander III, considering that Vladimir's military career was less prominent than his interest in art and literature?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The cultural and geographical differences between Pakistan, Zimbabwe, and England significantly impact the cricket careers of John McMahon and the filmographies of Eugen York and Rumbi Katedza. How do the historical legacies of colonialism and the British Empire influence John McMahon's cricket career in England, considering the cultural context of Zimbabwe and the cinematic themes of Eugen York's film \"Good Morning Pakistan\", which explores the complexities of a beautiful and ancient culture marred by economic, educational, and gender inequality?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Based on the provided documentation, what can be inferred about Henry Moore's life and career, considering that he was a Justice of the Peace in Geraldine in 1886, but later moved to England four years before his death in 1916, and that his brother Arthur became an admiral and was knighted, while their great-grandfather was the Archbishop of Canterbury from 1783 to 1805?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Analyze the complex relationships between Edward I of England and his nobles, particularly the Lusignans, during the Second Barons' War. How did Edward's initial alliance with the Lusignans, his subsequent break with them, and his ultimate reconciliation with the Earl of Leicester contribute to the escalation of the conflict?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Frederick Henry, Margrave of Brandenburg-Schwedt, was a patron of the arts, especially theater. He acquired the Prinzessinnenpalais in Berlin in 1755 and contracted the actress Henriette Hendel-Schutz to perform in his Court Theater in 1785. However, his marriage to Leopoldine Marie of Anhalt-Dessau was tumultuous, and he eventually banned her to Kolberg for the rest of her life. What was the name of the mathematician who sent numerous letters to Frederick Henry's daughter Frederike between 1760 and 1762, and what was the significance of the proverb \"Lestwitz a sauv\u00e9 l'etat, Prittwitz a sauv\u00e9 le roi\" in relation to Frederick Henry's military career?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Based on the provided documentation, what was the primary reason for McMahon's sacking from Somerset's first team in 1957, considering the team's curfew breach at Midsomer Norton and the embarrassing incident at Swansea's Grand Hotel, and taking into account the Wisden obituary's description of McMahon's behavior and the team's petition for his reinstatement?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Analyze the genealogical relationships between the following individuals:\n\nMarie of Brabant, Queen of France (d. 1322)\nHenri, Duke of Montpensier (d. 1608)\nMercedes of Orl\u00e9ans (1860-1878)\nBeatrice of Luxembourg (1305-1319)",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Based on the provided documentation, Ian Barry, the director of the 1997 film, was involved in a project with Albert Pyun, who directed the 1998 TV movie \"Inferno\". However, Albert Pyun's filmography does not mention \"Inferno\" as one of his works. What is the most plausible explanation for this discrepancy?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Bartel's early career as a director was influenced by his work with Roger Corman, who offered him the chance to direct Cannonball (1976) after the success of Death Race 2000 (1975). However, Bartel had previously worked on a script with Richard Blackburn for a film called Eating Raoul (1982), which was made on a budget of $230,000. This film was a commercial success, grossing $10 million, and became a cult classic. Lenzi, on the other hand, had worked on a series of giallo films in the 1970s, including Seven Bloodstained Orchids and Knife of Ice, which were influenced by French \"film noir\" movies. However, Lenzi's filmography also includes a horror film called Nightmare City (1988), which was released under the pseudonym Humphrey Humbert. Considering the following statements:",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "De Sacia Mooers' film career was significantly influenced by her association with Hal Roach, who produced her in several films, including \"The Blonde Vampire\" (1922). However, her relationship with Roach was complicated by her marriage to Edward \"Eddie\" Demarest Mooers, who was a mining magnate with ties to the St. Louis Cardinals, a team owned by Warren Fuzzy Anderson, who was also a close friend of Henry Ford, the founder of the Ford Motor Company. Furthermore, Mooers' involvement with Buzzell, who produced the popular \"The Milton Berle Show\", was also influenced by her relationship with Ona Munson, who later played Belle Watling in Gone with the Wind. It is also known that Ona Munson was married to Herbert Wilcox, a film director who had a complicated personal life, including a divorce from his first wife Dorothy and a subsequent marriage to actress Anna Neagle. What is the connection between De Sacia Mooers' marriage to Edward \"Eddie\" Demarest Mooers and her involvement with Buzzell, considering the complex relationships between Hal Roach, Warren Fuzzy Anderson, Henry Ford, Ona Munson, and Herbert Wilcox?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "What can be inferred about Gustav III's sexual life and relationships based on the accounts of Sophia Magdalena and Princess Charlotte, considering the historical context of the time and the rumors surrounding his sexuality?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Eleanor of Castile's marriage to King Charles III of Navarre was a strategic alliance between the two kingdoms. However, Eleanor's brother King John of Castile had initially opposed the match, citing concerns about Eleanor's safety in Navarre. Later, Eleanor's husband Charles III requested her return to Navarre to prepare for the succession of their father-in-law King Charles II. Eleanor, who had been acting as regent of Navarre during her husband's absence in France, was reluctant to leave her position. She had also been involved in the League of Lillo, a group of nobles who opposed the succession of her nephew Henry, who would eventually succeed King Charles II. Considering the complex relationships between Eleanor, her husband, her brother, and her nephew, what was the most likely reason for Eleanor's decision to remain in Navarre and continue acting as regent?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Edward I's military campaigns in Scotland and Wales were motivated by a desire to assert English control over the region. However, his actions also had significant consequences for the native populations. Analyze the following statements to determine the primary reason behind Edward's military campaigns:",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Analyze the complex relationships between the royal families of Naples, Taranto, and Aragon, and determine the correct sequence of events that led to the marriage of Isabella of Aragon to Ferdinand of Aragon.",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A former lawyer, Frank Hopper, receives a credit card in the mail, believing he's hit the jackpot. He decides to finance his dream of an all-woman hockey team, but trouble ensues when Duvalier's spies from the Tonton Macoute are watching his every step. Meanwhile, a rebel group is searching for Captain Concasseur, who is tasked with inspecting the arms Jones wishes to sell to the regime. Frank Hopper's decision to finance his dream team is motivated by a desire to escape his troubled past, but he also hopes to use the team as a front to launder money for the rebels. However, the rebels have a different plan for the team, and they will stop at nothing to achieve their goal. The team's first game is scheduled to take place in Miami, but the rebels have other plans for the city. As Frank Hopper navigates the complex web of alliances and rivalries, he must also contend with the Tonton Macoute and their sinister plans.",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Based on the provided documentation, what can be inferred about the relationship between King Gustav III and Count Adolf Fredrik Munck af Fulkila, considering the following:",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Maya Deren's film \"Meshes of the Afternoon\" (1943) is often described as a seminal work in American avant-garde cinema. However, its narrative structure and use of editing techniques have been subject to various interpretations. Which of the following statements best captures the essence of Deren's artistic vision, as reflected in her use of editing and cinematography in \"Meshes of the Afternoon\"?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Given the following information, determine the correct sequence of events that led to Sophia Magdalena's marriage to Gustav III of Sweden and her subsequent coronation as Queen of Sweden.",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Given the following information, determine the correct order of succession to the title of Baron Willoughby of Parham:",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "According to the provided documentation, what is the significance of the name \"Sargon\" in the context of the Akkadian Empire, and how does it relate to the Neo-Assyrian king Sargon II?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Marie Louise's marriage to Napoleon was a strategic alliance between Austria and France, but it also created tension between her and her father, Emperor Francis. Analyze the following events to determine the motivations behind Marie Louise's actions:",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Belfast Museum possesses a collection of John Templeton's botanical manuscripts, which include seven volumes of descriptions and drawings of various plant species. According to the Royal Irish Academy, one of these volumes, a small 8vo. half-bound book, contains lists of Cryptogams, chiefly mosses, with their localities. This book was lent by Dr. R. Templeton, John Templeton's son, to Miss F. M. More, sister of Alexander Goodman More, in 1897. Miss More's letter to Dr. Edward Perceval Wright, Secretary of the Royal Irish Academy, mentions that the manuscript was drawn up between 1794 and 1810 by John Templeton in Belfast.\n\nWhich of the following statements is most consistent with the information provided about John Templeton's botanical manuscripts?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The city of Schleusingen, located in what is now the German state of Thuringia, was a significant spa town in the 18th century. Its development as a spa was largely due to the efforts of its duchess, who was a member of the House of Mecklenburg-G\u00fcstrow. This duchess had a close relationship with the Landgraviate family in Hesse, and her descendants played a crucial role in the region's history. However, the duchess's personal life was marked by tragedy, including the death of her first child and her husband. She eventually married Duke Maurice William of Saxe-Zeitz, a member of the House of Wettin, and had several children with him. One of her sons went on to become a prominent figure in the history of the Duchy of Saxe-Meiningen. What is the name of the duke who succeeded his uncle, Bernhard III, as the last reigning duke of Saxe-Meiningen?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "According to the provided documentation, what was the title of the film that Roger Corman was initially going to make after The Wild Angels, but was instead made by Phil Karlson after Corman left production?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Queen Sophia Magdalena's preference for solitude and her interest in literature and fashion were often seen as contradictory to her role as a queen. However, her education and intellectual pursuits were not reflected in her social interactions. What can be inferred about Queen Sophia Magdalena's personality based on the following information:",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Pauline Laws, amended in 1911, dictate that the head of the Russian Imperial House must be a direct descendant of Nicholas I, not a descendant of Alexander II. However, Grand Duchess Maria Vladimirovna claims to be the rightful head of the Imperial House due to her patrilineal descent from Alexander II. According to the laws, which branch of the Romanov dynasty should have succeeded the Romanovs if they had not been overthrown?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Lawrence Cohen's filmography spans multiple genres, including horror, science fiction, and crime. According to the provided documentation, Cohen's early work in television included writing for series such as The Invaders and The Defenders. However, his film career took off in the 1970s with the release of It's Alive, a horror film that spawned two sequels. In the 1980s, Cohen directed films such as The Winged Serpent and The Stuff, both of which starred Michael Moriarty.",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The title of Baron Willoughby of Parham was created in 1547, and it was passed down through the male line until Charles Willoughby, 10th Baron Willoughby of Parham, died without a male heir in 1679. However, the title was later revived through the line of Thomas, the youngest son of Charles Willoughby, 2nd Baron Willoughby of Parham. According to the records, Thomas Willoughby married Eleanor Whittle, daughter of Hugh Whittle, a staunch Presbyterian yeoman of Horwich, Lancashire, England. Which of the following statements is true about the line of succession to the title of Baron Willoughby of Parham after Charles Willoughby's death, considering the revival of the title through Thomas's line and the subsequent marriages and heirs of Thomas's sons?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Dark Shadows film series consists of two main films, House of Dark Shadows and Night of Dark Shadows. According to the provided documentation, what is the name of the character played by David Selby in both films, and what is the name of the character played by Lara Parker in both films?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The English defeat at the Battle of Stirling Bridge in 1297 led to a significant shift in the dynamics of the conflict between Edward I and his barons. What was the primary consequence of this defeat, according to the historical records, and how did it impact the negotiations between the king and his opponents, particularly in regards to the Magna Carta and the Charter of the Forest, and the subsequent actions of the earls of Hereford and Arundel?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Analyze the complex relationships between Edward I and his nobles, considering the events and power dynamics described in the provided documentation. How did Edward's experiences in captivity, his marriage to Eleanor of Provence, and his subsequent military campaigns influence his approach to governance and his relationships with his nobles, particularly the Earl of Leicester and Simon de Montfort, ultimately shaping the course of his reign and the fate of the English monarchy?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Marie-Ad\u00e9la\u00efde's marriage to Louis Philippe Joseph d'Orl\u00e9ans, Duke of Chartres, was initially intended to strengthen the Orl\u00e9ans branch of the royal family, but it ultimately led to a rift between the couple. What was the primary reason for the rift, according to historical accounts, and how did it impact the Orl\u00e9ans family's relationship with the French monarchy?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Based on the provided documentation, what can be inferred about John Templeton's relationship with his friend Dr. James MacDonnell, considering the following information:\n\n- Templeton's botanical excursions and collection of exotic and native species, including the receipt of a large chest of East Indian plants in 1825, which he examined that day.\n- The garden at Cranmore, which spread over 13 acres, was planted with these species.\n- Templeton's work on lichens, which was the basis of a section of Flora Hibernica by James Townsend Mackay.\n- The botanical manuscripts left by Templeton, including a small volume with lists of Cryptogams, chiefly mosses, with their localities.\n- The fact that Templeton was disenchanted by the Rebellion of 1798 and repelled by the violence in France.\n- The fact that Templeton withdrew from the Belfast Literary Society in 1803 due to MacDonnell's subscription for the capture and execution of Thomas Russell.\n- The fact that Templeton and MacDonnell met and shook hands in 1825, indicating a reconciliation.",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Kathy Griffin's career trajectory and personal life are intricately linked. According to her biography, Griffin's early life experiences, including her struggles with binge eating and her brother Kenny's violent and abusive nature, significantly influenced her stand-up comedy style. However, her decision to host the 41st Daytime Emmy Awards in 2014, which bypassed traditional network television for a live online streaming event, marked a departure from her earlier work on Bravo's reality show \"My Life on the D-List.\" Griffin's performance at the event was well-received by critics, but her past controversies, including her depiction of Donald Trump's severed head and her ban from various television shows, have raised questions about her ability to navigate the complexities of the entertainment industry.",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Given the following information, determine the correct sequence of events:",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Analyze the life of Queen Sophia Magdalena of Sweden, considering the following information:\n\nShe was known for her reserved nature and preferred solitude, but also performed beautifully according to royal court etiquette on formal occasions. Her sister-in-law, Princess Hedwig Elizabeth Charlotte, described her as \"Forced to meet people\". Sophia Magdalena was a popular Queen, but her relationship with the King soured after his return from Italy and France in 1784. She was educated in various subjects, including geography, genealogy, and history, and regularly read French magazines. However, her library also contained works about the fable of the Caps party, which was believed to have been sent from the same party.",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Kennedy's decision to cancel the \"Sensation\" exhibition in 1999 was influenced by concerns about the potential impact on the National Gallery of Australia's (NGA) reputation, but some argue that his actions were also motivated by a desire to distance the NGA from the commercial art market. What is the primary reason for Kennedy's cancellation of the exhibition, as inferred from the broader context of his tenure and the NGA's role as a national cultural institution, and how does this reason relate to the tension between artistic merit and commercial influence in the art world?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Based on the provided documentation, what was the primary reason for Buddy Holly's decision to hire Waylon Jennings as his bassist in 1958, and how did this decision impact Jennings's career, considering the context of the Winter Dance Party Tour and the subsequent events that unfolded, and what role did the Corbin family play in Jennings's early career?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Astrid North's music career spanned multiple genres and collaborations. Which of the following statements about Astrid North's career is NOT supported by the provided documentation?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Schubert's innovative approach to modulation is exemplified in his String Quintet (D. 956), which features a central section in the distant key of F minor. However, this unconventional choice of key is not the only instance of his experimentation with modulation. A closer examination of his Sonata in A minor for arpeggione and piano (D. 821) reveals a similar use of modulation, albeit in a more subtle manner. In this sonata, the arpeggione's unique timbre and the piano's expressive capabilities allow for a more nuanced exploration of tonal relationships. Which of the following statements best describes Schubert's approach to modulation in these two works?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Analyze the motivations and actions of Queen Sophia Magdalena in the context of the Russo-Swedish War and the conflict with the nobility in 18th century Sweden.",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Based on the provided documentation, what can be inferred about the relationship between Elizabeth of Rhuddlan and her brother Edward II, considering their ages and the fact that Elizabeth was married to John, Count of Holland, in 1297?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Roscoe Arbuckle's film career was marked by both immense success and scandalous events. Analyze the following statements to determine the correct sequence of events:",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "After the death of Dr. Magiot, the rebels believe that Brown has taken his place, but Brown is aware that he is not Dr. Magiot. However, the rebels are unaware that Dr. Magiot's body has been taken by the government to prevent it from being used as evidence. Meanwhile, Captain Concasseur is searching for Brown, who has been spotted at the Uruguayan embassy, where he has been seeking asylum. Petit Pierre informs the Pinedas that the government has been searching for Brown, and that he is likely to be killed. Martha Pineda is concerned about the safety of her husband, Ambassador Pineda, who is also being targeted by the government. The question is: What is the most likely outcome for Brown, given the information provided by Petit Pierre and the actions of the government?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Raoul Walsh's film career spanned multiple studios, including Paramount Pictures and Warner Brothers. However, his early success was largely due to his work with Hal Roach Studios, which produced the Laurel and Hardy franchise. Considering the following information:\n\n* Raoul Walsh's filmography includes The Big Trail (1930) and The Roaring Twenties (1939), both of which were produced by Hal Roach Studios.\n* Hal Roach Studios was founded by Hal Roach, who was born in Elmira, New York, and began his career as an extra in silent films.\n* Raoul Walsh's brother, George Walsh, was a silent screen actor who was friends with the Barrymore family.\n* The Barrymore family was known for their acting talents, and John Barrymore recalled spending time reading in the Walsh family library as a youth.\n\nWhich of the following statements is true about Raoul Walsh's early career?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The following individuals are related to each other through marriage and nobility titles. Which of the following statements is true?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A 1950s film noir classic, directed by Michael Curtiz, features a protagonist who is a private investigator, played by Humphrey Bogart. The film is based on a novel by Raymond Chandler, and its plot revolves around a complex web of corruption and deceit in the city's underworld. The film's iconic line, \"I'm the guy they call when they need results,\" is a testament to the protagonist's unyielding determination. However, a recent re-examination of the film's script has revealed a previously unknown connection to a 1970s blaxploitation film, directed by Gordon Parks, which also features a protagonist who is a private investigator. This blaxploitation film was written by Lawrence Cohen, who is also known for his work on the 1980s horror film \"It's Alive.\" Which film is the 1950s film noir classic that features a protagonist who is a private investigator, and what is the connection between this film and the 1970s blaxploitation film written by Lawrence Cohen?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Analyze the complex relationships between Napoleon, Marie Louise, and the European royal families during the early 19th century. How did the marriage between Napoleon and Marie Louise impact the balance of power in Europe, and what were the consequences of this union for the French Empire and the European royal families?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The Northern Men's Federation for Women's Suffrage, led by Maud Arncliffe Sennett, was formed in response to the refusal of Prime Minister H. H. Asquith to meet with a delegation of Scottish women who sought to extend the franchise to women. This event occurred in July 1913. According to historical records, Maud Arncliffe Sennett had previously convened the first meeting of the Manchester Women's Suffrage Committee in January 1867. However, it was not until her encounter with Lilly Maxwell, a widowed shop owner, that she became determined to fight for women's suffrage. Maxwell's name was mistakenly added to the voter register in Manchester, and Becker, a key figure in the movement, helped her to vote. This event took place several months after the first meeting of the Manchester Women's Suffrage Committee. The Manchester Women's Suffrage Committee had been influenced by the events of the 1297 Battle of Stirling Bridge, which exposed the north of England to Scottish raids led by William Wallace. The committee's efforts were also shaped by the experiences of the English magnates who opposed King Edward I's taxation policies, including the Remonstrances, a document that summarized their grievances. Becker had previously campaigned for women's suffrage in municipal elections and had been successful in securing the vote for women in 1869. She had also founded the Women's Suffrage Journal and organized speaking tours of women, which helped to raise awareness about the issue. In 1870, Becker was elected to the Manchester School Board, where she served until her death. The Northern Men's Federation for Women's Suffrage was also influenced by the Women's Freedom League, which had a song, \"Justice For Ever,\" that was sung at their events. The song's lyrics emphasized the importance of women's suffrage and the need for action to achieve justice.",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  }
+]

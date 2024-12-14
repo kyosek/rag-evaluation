@@ -8,9 +8,9 @@
   },
   {
     "question": "Considering the historical mining methods employed at the Bunker Hill Mine and the planned restart, what is the PRIMARY factor contributing to the anticipated productivity gain?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -64,9 +64,9 @@
   },
   {
     "question": "Based on the provided financial information, what is the most likely scenario for the Company's future cash flow if it successfully raises the targeted $500,000 in funding?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -92,9 +92,9 @@
   },
   {
     "question": "Given the potential for extensions under both the old and new petroleum laws, what is the maximum possible duration, in years, that a production lease could be in effect after its initial 20-year term?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -246,9 +246,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary reason for the potential decline in the company's future profitability as outlined in Item 3?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -260,23 +260,23 @@
   },
   {
     "question": "Given the inherent uncertainties in reserve and revenue estimations, what factor, explicitly mentioned in the provided documentation, contributes most significantly to the potential for these estimates to change over time?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
     "question": "Based on the provided information, what is the primary factor influencing the stability of oil and natural gas reserves in Argentina?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "Based on the provided financial information, what is the most likely scenario for the Company's future profitability?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -407,9 +407,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary factor contributing to the upward revision of estimated future net revenues in 1996?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -533,7 +533,7 @@
   },
   {
     "question": "Based on the provided information about gold reserves, which of the following mining operations had the lowest estimated gold price per ounce used in calculating their reserves?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -582,9 +582,9 @@
   },
   {
     "question": "Given the potential for disruptions in power transmission infrastructure and the company's reliance on non-recourse financing for its facilities, what is the most significant risk to the company's ability to generate revenue and service its debt?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -603,9 +603,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary factor contributing to the revision of proved undeveloped reserves (PUD) in 2017?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -855,9 +855,9 @@
   },
   {
     "question": "Based on the provided information, which facility's reserves are **not** categorized as proven or probable according to SEC Industry Guide 7?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -883,7 +883,7 @@
   },
   {
     "question": "Based on the provided SEC filings, which individual served as both the President and CEO and a Director for two distinct companies listed in the filings?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 2
@@ -911,16 +911,16 @@
   },
   {
     "question": "Based on the provided information, what is the primary reason for the potential decline in the company's future profitability as outlined in Item 3?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
     "question": "Given the challenges faced by Columbus in the Williston Basin and the exploration strategies employed, what is the most likely reason for the company's decision to focus on short radius laterals in the Lien lease?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -953,7 +953,7 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason for omitting certain financial statement schedules from the filing?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -967,9 +967,9 @@
   },
   {
     "question": "Based on the drilling data provided, what is the most likely explanation for the observed variation in copper mineralization across different locations within Longshot Ridge?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1191,7 +1191,7 @@
   },
   {
     "question": "Which hotel property, based on the provided information, features a unique combination of a full-service spa, a multi-service meeting facility with a capacity exceeding 400, and a penthouse suite spanning three floors?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 3
@@ -1366,9 +1366,9 @@
   },
   {
     "question": "Based on the information provided, what is the primary geological factor influencing the distribution and thickness of manto deposits within the Chambara Formation?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1401,7 +1401,7 @@
   },
   {
     "question": "Considering the trends in the San Juan Basin from 2013 to 2019, what is the most likely reason for the shift in operator focus towards more liquid-rich areas within the basin?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 4
@@ -1520,9 +1520,9 @@
   },
   {
     "question": "Given the definitions provided, a company reports having \"Proved Reserves\" of 100 million barrels of oil.  They also state their \"PV-10 Value\" is $5 billion.  Considering the information provided, what can be inferred about the company's future production plans and the potential impact of fluctuating oil prices on their financial performance?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
