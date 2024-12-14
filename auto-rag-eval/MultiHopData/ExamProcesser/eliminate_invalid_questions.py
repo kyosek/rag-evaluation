@@ -1,8 +1,144 @@
+import os
 import json
-from typing import List, Dict, Any
+from pathlib import Path
+from typing import Dict, List, Tuple
 import logging
 
-def validate_and_filter_questions(input_file: str, output_file: str) -> None:
+
+class ExamCleaner:
+    """A class to clean exam questions and generate summary statistics.
+    
+    This class processes exam JSON files by removing invalid questions and 
+    generating summary statistics about the cleaning process.
+    """
+    
+    def __init__(self, log_level: int = logging.INFO):
+        """Initialize the ExamCleaner with custom logging configuration.
+        
+        Args:
+            log_level: The logging level to use (default: logging.INFO)
+        """
+        self.logger = logging.getLogger(__name__)
+        self.logger.setLevel(log_level)
+        
+        if not self.logger.handlers:
+            handler = logging.StreamHandler()
+            formatter = logging.Formatter(
+                '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+            )
+            handler.setFormatter(formatter)
+            self.logger.addHandler(handler)
+
+    def clean_exam(self, exam_path: str) -> Tuple[Dict, Dict]:
+        """Clean the exam by removing invalid questions and generate summary.
+        
+        Args:
+            exam_path: Path to the JSON file containing exam questions
+            
+        Returns:
+            Tuple containing:
+                - Dictionary with cleaned exam data
+                - Dictionary with summary statistics
+                
+        Raises:
+            FileNotFoundError: If the exam file doesn't exist
+            json.JSONDecodeError: If the exam file contains invalid JSON
+        """
+        try:
+            self.logger.info(f"Processing exam file: {exam_path}")
+            
+            # Read the exam file
+            with open(exam_path, 'r', encoding='utf-8') as f:
+                exam_data = json.load(f)
+            
+            # Extract questions (handle both list and dict formats)
+            questions = (exam_data['questions'] 
+                       if isinstance(exam_data, dict) 
+                       else exam_data)
+            
+            original_count = len(questions)
+            self.logger.info(f"Original question count: {original_count}")
+            
+            # Filter out invalid questions
+            valid_questions = [
+                q for q in questions 
+                if not str(q.get('question', '')).strip().startswith('A) ')
+            ]
+            
+            cleaned_count = len(valid_questions)
+            eliminated_count = original_count - cleaned_count
+            
+            self.logger.info(f"Eliminated {eliminated_count} questions")
+            self.logger.info(f"Remaining questions: {cleaned_count}")
+            
+            # Prepare cleaned exam data
+            cleaned_exam = (
+                {**exam_data, 'questions': valid_questions}
+                if isinstance(exam_data, dict)
+                else valid_questions
+            )
+            
+            # Generate summary
+            summary = {
+                'original_count': original_count,
+                'eliminated_count': eliminated_count,
+                'final_count': cleaned_count,
+                'exam_path': exam_path
+            }
+            
+            return cleaned_exam, summary
+            
+        except FileNotFoundError:
+            self.logger.error(f"Exam file not found: {exam_path}")
+            raise
+        except json.JSONDecodeError:
+            self.logger.error(f"Invalid JSON in exam file: {exam_path}")
+            raise
+        except Exception as e:
+            self.logger.error(f"Unexpected error processing exam: {str(e)}")
+            raise
+
+    def save_results(
+        self, 
+        cleaned_exam: Dict,
+        summary: Dict,
+        input_dir: str,
+        output_dir: str
+    ) -> None:
+        """Save the cleaned exam and summary to files.
+        
+        Args:
+            cleaned_exam: The cleaned exam data
+            summary: Summary statistics of the cleaning process
+            output_dir: Directory to save the output files
+            
+        Raises:
+            OSError: If there's an error creating the output directory or saving files
+        """
+        try:
+            # Create output directory if it doesn't exist
+            output_path = Path(output_dir)
+            
+            # Generate output filenames
+            exam_name = Path(summary['exam_path']).stem
+            cleaned_path = input_dir
+            summary_path = output_path / f"{exam_name}_summary.json"
+            
+            # Save files
+            with open(cleaned_path, 'w', encoding='utf-8') as f:
+                json.dump(cleaned_exam, f, indent=2, ensure_ascii=False)
+            
+            with open(summary_path, 'w', encoding='utf-8') as f:
+                json.dump(summary, f, indent=2)
+                
+            self.logger.info(f"Saved cleaned exam to: {cleaned_path}")
+            self.logger.info(f"Saved summary to: {summary_path}")
+            
+        except Exception as e:
+            self.logger.error(f"Error saving results: {str(e)}")
+            raise
+
+def validate_and_filter_questions(input_file: str, output_file: str, summary_output_path: str) -> None:
     """
     Filters out JSON entries where the correct_answer is not one of 'A', 'B', 'C', or 'D'.
     
@@ -17,6 +153,8 @@ def validate_and_filter_questions(input_file: str, output_file: str) -> None:
     """
     logging.basicConfig(level=logging.INFO)
     logger = logging.getLogger(__name__)
+    
+    cleaner = ExamCleaner()
     
     valid_answers = {'A', 'B', 'C', 'D'}
     
@@ -48,6 +186,9 @@ def validate_and_filter_questions(input_file: str, output_file: str) -> None:
             json.dump(filtered_data, f, indent=2, ensure_ascii=False)
             
         logger.info(f"Successfully wrote filtered data to {output_file}")
+        
+        cleaned_exam, summary = cleaner.clean_exam(input_file)
+        cleaner.save_results(cleaned_exam, summary, input_file, output_file)
             
     except FileNotFoundError:
         logger.error(f"Input file {input_file} not found")
@@ -64,16 +205,19 @@ def validate_and_filter_questions(input_file: str, output_file: str) -> None:
 
 if __name__ == "__main__":
     task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    exam_file_names = ["exam_new_llama_3_2_3b", "exam_new_gemma2_9b", "exam_new_ministral_8b"]
+    # exam_file_names = ["exam_new_llama_3_2_3b", "exam_new_gemma2_9b", "exam_new_ministral_8b"]
+    exam_file_names = ["exam_new_gemma2_9b"]
     
     for task_domain in task_domains:
         for exam_file_name in exam_file_names:
             print(f"Processing {task_domain} - {exam_file_name}")
             input_file = f"auto-rag-eval/MultiHopData/{task_domain}/exams/{exam_file_name}_processed_v2.json"
+            summary_output_path = f"auto-rag-eval/MultiHopData/{task_domain}/exam_stats/{exam_file_name}_processed_v2_stats.json"
             try:
                 validate_and_filter_questions(
                     input_file=input_file,
-                    output_file=input_file
+                    output_file=input_file,
+                    summary_output_path=summary_output_path
                 )
             except Exception as e:
                 logging.error(f"Script failed: {str(e)}")
