@@ -267,7 +267,7 @@
   },
   {
     "question": "In the described quantum dot system, how does the strength of the crossed Andreev reflection (CAR) exchange mechanism affect the Kondo screening behavior and the resulting local spectral density dip?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -393,9 +393,9 @@
   },
   {
     "question": "What is the primary advantage of using a probabilistic model for the least-mean-square filter, as described in the text?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -617,9 +617,9 @@
   },
   {
     "question": "Based on the provided information, what is the most likely distance to XMMSL1~J060636.2-694933 and what factors support this conclusion?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -659,9 +659,9 @@
   },
   {
     "question": "What material was used to create the initial form for the fiberglass skin, and how was this form ultimately disposed of?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -764,9 +764,9 @@
   },
   {
     "question": "In the context of tissue engineering and regenerative medicine, what is a key finding regarding the influence of mechanical stimulation on cell behavior?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -855,9 +855,9 @@
   },
   {
     "question": "Given the challenges of dialect classification in multilingual datasets and the performance of existing language identification models, what is the most likely reason the authors chose to develop a novel system for dialect classification rather than adapting previous methods?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {

@@ -15,9 +15,9 @@
   },
   {
     "question": "What was a key factor that led to the establishment of the Business Growth Fund (BGF)?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -176,9 +176,9 @@
   },
   {
     "question": "What is the highest attendance recorded for a football game at the Coliseum that did NOT involve either USC or UCLA?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -204,7 +204,7 @@
   },
   {
     "question": "What ultimately led to the US War Department's decision to withdraw \"The Real Glory\" in 1942?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -267,9 +267,9 @@
   },
   {
     "question": "Which of the following companies is NOT directly involved in the production or distribution of Coca-Cola products?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -316,9 +316,9 @@
   },
   {
     "question": "What is a key factor that distinguishes successful urban agriculture initiatives from those that struggle to establish consumer dependency and sustainable farming careers?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -337,9 +337,9 @@
   },
   {
     "question": "Which of the following individuals is NOT directly associated with a work that parodies or references the \"Fifty Shades of Grey\" franchise?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -372,9 +372,9 @@
   },
   {
     "question": "What ultimately leads to Christian's impulsive marriage proposal to Ana?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -407,9 +407,9 @@
   },
   {
     "question": "Which of the following characters' primary antagonist relationship is NOT with Spider-Man, despite having significant interactions with him in the Marvel Universe?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -603,14 +603,14 @@
   },
   {
     "question": "Considering Socrates's views on virtue, knowledge, and human motivation, what is the most likely reason he challenged the religious norms of his time?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
     "question": "Which character's portrayal was directly influenced by a specific historical figure, and whose performance involved significant digital alteration to achieve the desired on-screen appearance?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -680,9 +680,9 @@
   },
   {
     "question": "What event directly led Elle King to begin using the banjo as a compositional tool?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -743,9 +743,9 @@
   },
   {
     "question": "What was a key point of contention surrounding Gianforte's candidacy in both the 2016 and 2020 gubernatorial elections?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -820,9 +820,9 @@
   },
   {
     "question": "Given the information provided, what is the most likely reason for the mixed critical reception of the \"Scream\" television series premiere?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -834,9 +834,9 @@
   },
   {
     "question": "Considering the gameplay mechanics and character traits described, what is the most likely reason the developers chose to make inventory items context-specific and unable to be combined?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -848,16 +848,16 @@
   },
   {
     "question": "Considering the historical context and breed characteristics of the Welsh Springer Spaniel, what can be inferred about its role in hunting practices during the 19th century?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
     "question": "In which country is the primary pathway to earning a doctorate in engineering shifting from industrial research to university-based research?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -883,7 +883,7 @@
   },
   {
     "question": "Which of the following individuals was NOT involved in a project that received significant public attention?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -918,9 +918,9 @@
   },
   {
     "question": "Considering the spread of Celtic languages and cultures, which of the following regions exhibits the most significant contemporary presence of a Celtic language, despite historical decline?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -960,7 +960,7 @@
   },
   {
     "question": "What ultimately led to a decline in Ginther's racing performance?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -988,9 +988,9 @@
   },
   {
     "question": "Which cast member's departure from the show was directly tied to a condition of their promotion to a series regular role?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {

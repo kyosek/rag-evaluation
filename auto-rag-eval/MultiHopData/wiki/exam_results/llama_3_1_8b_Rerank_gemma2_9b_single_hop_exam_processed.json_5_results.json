@@ -253,9 +253,9 @@
   },
   {
     "question": "Which of the following individuals is most closely associated with a publication that focused on a specific niche interest rather than a broad range of topics?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -267,7 +267,7 @@
   },
   {
     "question": "Given his career trajectory, which of the following statements is most accurate about Crossan's professional life?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -337,9 +337,9 @@
   },
   {
     "question": "Which filmmaker's career path most closely resembles that of Julie Bertuccelli's, as described in the provided text?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -449,7 +449,7 @@
   },
   {
     "question": "Which film features a protagonist who is a police commissioner investigating a case in Genova, Italy?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -491,9 +491,9 @@
   },
   {
     "question": "Which individual's life was significantly impacted by a political revolution, leading to a change in their social standing and role within a political organization?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -708,16 +708,16 @@
   },
   {
     "question": "Which of the following statements accurately reflects the historical and contemporary uses of a specific location mentioned in the provided passages?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
     "question": "Which individual is directly linked to the establishment of a major religious movement?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -862,7 +862,7 @@
   },
   {
     "question": "Given the historical context of the Abbasid Caliphate's decline and the persecution faced by Shia Imams, what was the primary function of the underground network of representatives established by the Imams?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -897,7 +897,7 @@
   },
   {
     "question": "What ultimately leads to the reconciliation between Temple Bane and Helen Armes?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -967,9 +967,9 @@
   },
   {
     "question": "Which of the following artistic collaborations is NOT explicitly mentioned as being promoted by Omar in the provided text?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -988,7 +988,7 @@
   },
   {
     "question": "Which of the following best describes Lawrence Cohen's career trajectory?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1

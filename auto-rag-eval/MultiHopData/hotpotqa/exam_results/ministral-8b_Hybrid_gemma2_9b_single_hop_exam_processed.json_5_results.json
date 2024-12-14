@@ -78,9 +78,9 @@
   },
   {
     "question": "Which individual achieved recognition for their work in a specific artistic field during a major international competition in 2005?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -211,9 +211,9 @@
   },
   {
     "question": "What was a significant consequence of Lincoln Riley's departure from Oklahoma that extended beyond his immediate replacement as head coach?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -239,9 +239,9 @@
   },
   {
     "question": "Considering Reagan's upbringing and later actions, what can be inferred about his personal evolution regarding social issues?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -463,9 +463,9 @@
   },
   {
     "question": "What was the primary factor contributing to the lower chart performance of Ashanti's \"Chapter II\" compared to her debut album?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -491,9 +491,9 @@
   },
   {
     "question": "Which of Piercy's works explores themes of environmental ruin and technological advancement within a futuristic setting, while also incorporating elements of Jewish mysticism and a protagonist's struggle for parental custody?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -519,7 +519,7 @@
   },
   {
     "question": "Which of the following statements accurately describes the key differences in consolidated tax return regulations between the United States and the United Kingdom?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -869,9 +869,9 @@
   },
   {
     "question": "What is the primary legal authority responsible for handling criminal cases involving individuals accused of crimes exceeding $25,000 in value within Lincoln County?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -918,9 +918,9 @@
   },
   {
     "question": "Considering the spread of Celtic languages and cultures, which of the following regions exhibits the most significant contemporary presence of a Celtic language, despite historical decline?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -960,9 +960,9 @@
   },
   {
     "question": "What ultimately led to a decline in Ginther's racing performance?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {

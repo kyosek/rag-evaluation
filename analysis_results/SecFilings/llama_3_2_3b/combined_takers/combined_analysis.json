@@ -1,0 +1,45 @@
+{
+  "overall_stats": {
+    "avg_difficulty": 0.2603887692636582,
+    "avg_discrimination": 0.715396833040991,
+    "total_questions": 1330
+  },
+  "hop_analysis": {
+    "1": {
+      "avg_difficulty": 0.2574092157908179,
+      "avg_discrimination": 0.9016254342320891,
+      "num_questions": 300
+    },
+    "2": {
+      "avg_difficulty": 0.22686554512177193,
+      "avg_discrimination": 0.8022363016278528,
+      "num_questions": 252
+    },
+    "3": {
+      "avg_difficulty": 0.25909980436685476,
+      "avg_discrimination": 0.7062312901942082,
+      "num_questions": 284
+    },
+    "4": {
+      "avg_difficulty": 0.2952781675999188,
+      "avg_discrimination": 0.6104398947812815,
+      "num_questions": 256
+    },
+    "5": {
+      "avg_difficulty": 0.2636496876763343,
+      "avg_discrimination": 0.5125391184265102,
+      "num_questions": 238
+    }
+  },
+  "model_abilities": {
+    "combined_llama3-8b_mistral-8b_open_book": -0.12042335187517389
+  },
+  "component_abilities": {
+    "llms": {
+      "combined_llama3-8b_mistral-8b": -0.060211675937586945
+    },
+    "retrievers": {
+      "open_book": -0.060211675937586945
+    }
+  }
+}

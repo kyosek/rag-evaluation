@@ -162,9 +162,9 @@
   },
   {
     "question": "What is the primary reason for the furlough of federal workers during the FY1996 funding gap, as described in the legislative history of that period?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -526,9 +526,9 @@
   },
   {
     "question": "According to the guidance released by OMB in June 2015, what is the primary purpose of the common baseline roles and responsibilities for CIOs and other senior agency officials, as described in the Federal Information Technology Acquisition Reform Act (FITARA)?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -603,9 +603,9 @@
   },
   {
     "question": "According to the provided documentation, what is the primary benefit of using Multi-Year Procurement (MYP) contracts for the procurement of major weapon systems, compared to annual contracting?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -652,9 +652,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary difference between the approach used in the 2010 Capital Needs Inventory and the approach used in the 2016 Capital Needs Inventory, according to WMATA?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -701,9 +701,9 @@
   },
   {
     "question": "The development of \"smart\" cluster munitions with self-destruct mechanisms is intended to address the residual hazard of unexploded ordnance, but some nations, such as China, Russia, and the Republic of Korea, may not be able to afford to replace all current submunitions with these more reliable weapons. What is a potential consequence of the United States' decision to prioritize the development of new cluster munitions with self-destruct mechanisms, given the high failure rate of existing cluster munitions, and the fact that some nations may not be able to afford to replace their existing stockpiles, and considering the implications of the 1980 CCW treaty and the ongoing efforts to reduce cluster munitions failure rates?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -764,9 +764,9 @@
   },
   {
     "question": "According to the provided documentation, what is the primary reason why the Fiscal Service did not leverage hoteling as a space-planning tool, unlike the CDC's National Center for Chronic Disease Prevention and Health Promotion's office?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -785,9 +785,9 @@
   },
   {
     "question": "According to the Navy's July 2012 report to Congress, what is the typical timeframe for a Secretary to record their decision with a formal naming announcement for a ship, considering the ship's authorization or appropriation by Congress?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -848,9 +848,9 @@
   },
   {
     "question": "According to the documentation, what is a significant factor that may explain the relatively low rate of participation by pharmacies and other eligible entities in the prescription drug disposal program, as stated by stakeholders?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -883,9 +883,9 @@
   },
   {
     "question": "The Navy's FY2020 budget submission included a two-carrier contract for CVN-80 and CVN-81, with the latter being procured in FY2020. However, if the Navy operates under a continuing resolution (CR) for some part of FY2020, it is likely that CVN-81 would not be procured, as CRs typically prevent year-to-year quantity increases in procurement programs. Considering the Navy's 30-year shipbuilding plan, which includes a 12-ship force-level goal for aircraft carriers, and the fact that CVN-82 is currently planned for procurement in FY2028, what implications would the accelerated delivery of CVN-81 have on the procurement cost of CVN-82, and how might this impact the Navy's ability to achieve its 12-ship force-level goal, especially in light of the Navy's efforts to manage costs and stay within the program's cost caps, and considering the potential impact of cost growth on CVN-78, CVN-79, and CVN-80, and the implications of shifting carrier procurement to 3- or 3.5-year centers?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -988,7 +988,7 @@
   },
   {
     "question": "Given the context of the MSPV-NG program's initial rollout and the subsequent changes made in Phase 2, what is the primary reason for the delay in awarding contracts to medical centers, as stated by SAC officials, and how does this delay impact the program's goal of achieving cost avoidance?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4
@@ -1016,9 +1016,9 @@
   },
   {
     "question": "Congress has appropriated a total of $68.8 billion for DOD OCO funding in FY2019, including the following amounts: $67.9 billion in defense funds provided in the Department of Defense and Labor, Health and Human Services, and Education Appropriations Act, 2019 and Continuing Appropriations Act, 2019 ( P.L. 115-245 ), which Congress passed on September 26, 2018; and $921 million in defense funds provided in the Energy and Water, Legislative Branch, and Military Construction and Veterans Affairs Appropriations Act, 2019 ( P.L. 115-244 ), which Congress passed on September 21, 2018. For the Department of State and USAID, as well as the Department of Homeland Security and U.S. Coast Guard, FY2019 OCO levels have not yet been determined. They remain at prorated FY2018 levels because of continuing resolutions (CR) to fund certain agencies through December 21, 2018. The FY2019 House and Senate SFOPS bills ( H.R. 6385 and S. 3108 , 115 th Congress) would have appropriated approximately $8 billion in OCO-designated funding for various priorities. The House committee-reported version of the Homeland Security appropriations bill ( H.R. 6776 , 115 th Congress) would not have appropriated any OCO/GWOT funding for the Coast Guard, while the Senate committee-reported version of the bill ( S. 3109 , 115 th Congress) would have appropriated $165 million for OCO/GWOT funding for the Coast Guard. Any decision by the 116 th Congress to change discretionary defense and nondefense spending limits that remain in effect for FY2020 and FY2021 under the Budget Control Act (BCA; P.L. 112-25 ) could impact future OCO funding levels. Lawmakers may consider the following questions: Will Congress keep the BCA as is and rely on OCO funding that is not subject to the caps to meet agency requirements? Will Congress repeal the BCA and use less OCO funding? Will Congress amend the BCA limits for future years and continue to use OCO funding, as it has in the past? Will Congress significantly reduce DOD and international affairs funding to stay within the BCA caps and not use OCO funding?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -1149,9 +1149,9 @@
   },
   {
     "question": "According to the documentation, what is the primary purpose of the GSA's Office of Personal Property Management (GSA OPPM) in the disposal process of excess personal property?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -1233,7 +1233,7 @@
   },
   {
     "question": "The SBA's 7(a) loan guaranty program experienced a significant increase in loan approvals in FY2010 and FY2011, primarily due to the temporary reduction of loan fees and the increase in the loan guaranty percentage to 90% for all standard 7(a) loans. However, the program's unpaid principal balance at the end of FY2018 was approximately 7.7% of the estimated $1.2 trillion small business credit market. What is the primary reason for the discrepancy between the program's unpaid principal balance and the estimated small business credit market size?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -1506,9 +1506,9 @@
   },
   {
     "question": "The Secret Service's implementation of performance and progress monitoring practices for the IITT investment is crucial for ensuring the timely and effective acquisition and maintenance of its IT infrastructure and services. However, the Secret Service has not fully implemented all 15 selected practices for its IT workforce for any of the five areas. Which of the following statements best describes the Secret Service's approach to monitoring the performance of its IITT projects, as described in the report?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -1772,9 +1772,9 @@
   },
   {
     "question": "An SBA analyst is tasked with evaluating the creditworthiness of 7(a) loan applicants. Based on the provided data, which of the following statements can be concluded about the creditworthiness of 7(a) loan applicants?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -1975,7 +1975,7 @@
   },
   {
     "question": "Based on the information provided in the appendix, which of the following statements can be concluded about the active component's execution of MILCON appropriations for fiscal years 2010 through 2016?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -2087,9 +2087,9 @@
   },
   {
     "question": "According to the testimony, what is the correct contact information for GAO staff who made key contributions to the first statement, and how does it differ from the contact information provided for the second statement?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2283,9 +2283,9 @@
   },
   {
     "question": "According to the provided documentation, what is the primary reason for the Department of Defense's (DOD) involvement in foreign assistance programs, as opposed to the Department of State (DOS)?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2360,9 +2360,9 @@
   },
   {
     "question": "Based on the information provided in the Senate action on its version of a funding bill for EPA (S.Rept. 108-143) and the Senate Appropriations Committee's report on EPA spending bill in June 1998 (S. 2168, S.Rept. 105-216), which of the following statements is true regarding the funding for the STAG account in the FY2005 EPA appropriation?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -2472,9 +2472,9 @@
   },
   {
     "question": "According to the Federal Cybersecurity Enhancement Act of 2015 and Executive Order 13800, what is the primary purpose of the National Institute of Standards and Technology (NIST) cybersecurity framework, which is directed to be used by each executive agency to manage cybersecurity risk?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2654,7 +2654,7 @@
   },
   {
     "question": "A multinational corporation (MNC) with a global revenue of $100 million has a subsidiary in the UK that earns $5 million in revenue from sales to UK customers, but incurs no profits due to low profit margins. The UK is considering a \"low-profit\" exemption for MNCs subject to the DST, which would exempt the MNC from paying the DST on the revenue earned by its UK subsidiary. However, the exemption is only available to MNCs that have a permanent establishment in the UK. If the MNC does not have a permanent establishment in the UK, but still earns significant revenue from sales to UK customers, will the UK DST be effective in raising revenue from this MNC, and if so, how will the exemption for low-profit subsidiaries impact the overall tax revenue of the UK?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -2801,7 +2801,7 @@
   },
   {
     "question": "A multiemployer pension plan, such as CSPF, faces significant financial challenges due to a combination of factors. Which of the following statements best describes the primary reason for the critical financial condition of multiemployer plans like CSPF?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 3
@@ -3032,9 +3032,9 @@
   },
   {
     "question": "The Colombian government's strategy under President Uribe's leadership was characterized by a focus on combating the FARC's influence in rural areas and the borderlands. This approach was part of a broader effort to address the root causes of the conflict, including land distribution and agrarian concerns. However, critics argue that the strategy failed to adequately address human rights concerns and that the FARC continued to launch terror attacks and cultivate coca in demilitarized zones.",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -3095,9 +3095,9 @@
   },
   {
     "question": "The Senate Appropriations Committee reported its version of an EPA spending bill in June 1998, which provided $3.2 billion for the STAG account. This bill included $1.35 billion for clean water SRF grants, $800 million for drinking water SRF grants, and $105 million for U.S.-Mexico and Alaska Native Village projects. However, the House Appropriations Committee approved its version of the bill in July 1998, which provided $3.2 billion for the STAG account, consisting of $1.25 billion for clean water SRF grants, $775 million for drinking water SRF grants, and $70 million for U.S.-Mexico and Alaska Native Village projects. Which of the following statements is true about the final EPA spending bill signed into law in October 1998?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -3354,9 +3354,9 @@
   },
   {
     "question": "According to the provided documentation, what is the primary challenge PLCY faces in coordinating with operational components, and how can this challenge be addressed?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -3368,7 +3368,7 @@
   },
   {
     "question": "The Supreme Court's decision in Barnett Bank of Marion County, N.A. v. Nelson established that federal law preempts state laws that \"significantly interfere\" with the powers of national banks. However, the Court has also recognized that federal banking statutes and regulations do not preempt all state laws. In Gutierrez v. Wells Fargo Bank, NA, the Ninth Circuit held that federal banking regulations did not preempt a generally applicable state law prohibiting certain types of fraud. Which of the following statements best describes the reasoning of the Court in Barnett Bank, as applied to the scenario where a national bank subsidiary engages in a practice that could be considered a form of fraud, but is authorized by a federal statute?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -3382,9 +3382,9 @@
   },
   {
     "question": "The Government Accountability Office (GAO) defines a user fee as a fee assessed to users for goods or services provided by the federal government. However, some argue that user fees can lead to policy or operational failure, as seen in the case of the Federal Energy Regulatory Commission (FERC) and the Nuclear Regulatory Commission (NRC), which are largely supported from amounts paid by covered industries. In contrast, the U.S. Postal Service sets rates to cover nearly all of its costs according to a 2006 statutory framework. Which of the following statements best describes the potential impact of requiring most fees to be collected into the Treasury General Fund and activities previously supported by those fees to be funded by annual appropriations?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -3592,9 +3592,9 @@
   },
   {
     "question": "The SBA's industry size standards are based on a combination of factors, including employment size, average annual receipts, and asset-based standards. However, the SBA's approach to defining small businesses has been subject to criticism and revision over the years. Which of the following statements best describes the SBA's current approach to establishing size standards for industries?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -3655,9 +3655,9 @@
   },
   {
     "question": "The U.S. government's foreign aid efforts have expanded beyond traditional foreign aid accounts, with various departments and agencies implementing their own assistance programs. However, the FY2019 appropriation for foreign operations accounts was $37.92 billion, which is 0.7% below the FY2018 actual funding level. Meanwhile, the Department of Defense (DOD) implemented an estimated $14.50 billion in foreign assistance programs, primarily through defense appropriations legislation. Considering the following information:",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -3718,9 +3718,9 @@
   },
   {
     "question": "According to the report, what is the maximum amount of financial assistance that the U.S. Department of Agriculture may provide to farmers who have suffered losses due to the 2019-2020 drought, and how does this amount compare to the maximum amount of financial assistance provided by the U.S. Department of Commerce for information leading to a conviction in wildlife trafficking cases?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -3788,7 +3788,7 @@
   },
   {
     "question": "The FY2019 NDAA required DOD to submit a report annually through 2021, summarizing DOD's use of OTs, including organizations involved; number of transactions; amounts of payments; and purpose, description, and status of projects. However, the multitude of reporting requirements, and the questionable reliability of the available data, raise a number of questions that Congress may wish to explore. Specifically, what specific data does Congress need in these reports to effectively conduct oversight, and how does the current reporting structure impact the ability of Congress to assess the effectiveness of OTs in promoting dual-use technologies?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
@@ -3851,9 +3851,9 @@
   },
   {
     "question": "A school district in California has implemented a new leadership team for equity, culture, and support services, and developed a district-wide equity plan that includes mandatory training on implicit bias for principals. However, officials from the same district also reported that they have difficulty with implementation due to limited resources, staffing turnover, and resistance from some parents. In contrast, a school district in Georgia has a history of overusing exclusionary discipline and is currently rolling out Positive Behavioral Interventions and Supports (PBIS) to their schools, despite facing similar challenges. Which of the following statements best describes the primary reason for the differing approaches to addressing discipline disparities between the two districts?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -4005,9 +4005,9 @@
   },
   {
     "question": "The SBA's 7(a) loan program has been criticized for its limited accessibility to minority-owned and women-owned businesses. According to the Urban Institute's comparative analysis, what is the primary reason for the increased availability of 7(a) loans to minority-owned and women-owned businesses, as compared to conventional small business loans?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {

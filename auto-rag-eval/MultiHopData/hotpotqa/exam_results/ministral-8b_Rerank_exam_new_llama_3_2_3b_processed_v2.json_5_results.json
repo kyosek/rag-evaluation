@@ -92,7 +92,7 @@
   },
   {
     "question": "According to the provided documentation, what is the correct release date of the song \"To Hell and Back\" by Benga, considering the information about the album's release and the premiere of the official video on Benga's Vevo?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -260,9 +260,9 @@
   },
   {
     "question": "According to the passage, what is the relationship between the Rabi frequency (\u03c9) and the transition electric dipole moment (d) of an atom in a laser field?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -393,9 +393,9 @@
   },
   {
     "question": "According to the provided documentation, what is the primary reason for the Boardman River's designation as a \"Natural River\"?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -582,9 +582,9 @@
   },
   {
     "question": "Based on the information provided about Zooey Deschanel's career, which of the following statements can be inferred about her film \"The Illusionist\" (2006)?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1002,7 +1002,7 @@
   },
   {
     "question": "Based on the historical context and the information provided about the decline of Swan Districts Football Club in the 1960s, what was the primary reason for the club's inability to sustain its success after the introduction of the 'Provident Fund' in the WAFL, as inferred from the historical context and the information about the club's performances during that period?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 3
@@ -1506,7 +1506,7 @@
   },
   {
     "question": "Mariah Carey's song \"Oh Santa!\" was released in 2010 as part of her album Merry Christmas II You. According to Billboard, the song debuted at number twelve on the Adult Contemporary chart in December 2010. However, it quickly rose to the top of the chart, becoming a record-breaker in terms of its ascent to the number one position. What is notable about the song's chart performance, and how does it relate to the release of a new version of the song featuring Ariana Grande and Jennifer Hudson in 2020?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1856,7 +1856,7 @@
   },
   {
     "question": "The EastEnders storyline involving Vicki's paternity and her abduction in 1993 had a profound impact on Michelle's mental health. However, considering the potential long-term effects of the storyline on Michelle's well-being, what would have been the most significant consequence if the storyline had been handled more responsibly, taking into account the potential long-term effects on her mental health and the audience's emotional investment in the character?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
@@ -2682,9 +2682,9 @@
   },
   {
     "question": "The excavation of Tutankhamun's tomb was hindered by the lack of a permit, which was only held by Theodore M. Davis. However, after Davis's retirement, Lord Carnarvon took up the concession and the excavation resumed. This led to a significant delay in the discovery of the tomb, which was finally unearthed in 1922. The discovery was met with controversy, as it revealed a dark period in Egyptian history and the death of the young pharaoh. The excavation team, led by Howard Carter, was initially opposed to the removal of the tomb's contents, but eventually, they began to catalog and remove the artifacts. The discovery of the tomb was a significant moment in the history of Egyptology, and it marked the beginning of a new era in the study of ancient Egyptian culture.",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -2962,9 +2962,9 @@
   },
   {
     "question": "Analyze the complex relationships between James II, William of Orange, and the Dutch Republic, considering the implications of their actions on the balance of power in Europe.",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -3144,9 +3144,9 @@
   },
   {
     "question": "The Red Queen's tyrannical rule in Underland is exemplified by her treatment of her sister, the White Queen, Mirana. According to Mirana, the White Queen's attempts to maintain peace and order in the kingdom are thwarted by her own dark impulses, which are a result of her being \"scared of going too far into the dark side.\" This fear is reflected in her surroundings, which appear \"very light and happy\" despite her inner turmoil. However, the White Queen's sister, the Red Queen, is aware of her own dark nature and has taken steps to suppress it, as evidenced by her use of the Knave of Hearts, Ilosovic Stayne, to calm her mood swings.",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {

@@ -43,9 +43,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the connection between Edward Yates, the director of American Bandstand, and Kishore Sahu, the director of the 1974 Bollywood film Dhuen Ki Lakeer?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -57,9 +57,9 @@
   },
   {
     "question": "According to the provided documentation, what is the title of the song that Elvis Presley recorded for the soundtrack of \"The Trouble with Girls\" in 1969, which was originally written by the Supremes in 1964?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -155,7 +155,7 @@
   },
   {
     "question": "According to the chroniclers' passages, Eleanor's reputation underwent significant changes over time, influenced by various historical events and literary works. What can be inferred about the motivations behind the shift in Eleanor's reputation, considering the following:",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -169,7 +169,7 @@
   },
   {
     "question": "Based on the provided documentation, what is the name of the film director who, prior to Dana Blankstein's appointment, held the position of CEO of the Israeli Academy of Film and Television?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 2
@@ -351,9 +351,9 @@
   },
   {
     "question": "A lump of coal, seeking to become an artist, visits a Korean restaurant to find inspiration. Upon entering, the owner, Mr. Wong, informs the coal that his restaurant serves authentic Korean cuisine, but the coal notices that the spices and ingredients used are not of Korean origin. The coal then encounters a man dressed as Santa Claus, who suggests that the coal put its artistic talents to use by creating portraits in coal. This leads to the coal and the man's son, Jasper, opening a successful art gallery and restaurant in Korea. However, the coal soon discovers that the energy value of coal, as calculated by its chemical composition, is not directly related to its artistic potential. What is the primary difference between the proximate analysis of coal and its ultimate analysis?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -379,9 +379,9 @@
   },
   {
     "question": "Based on the provided documentation, what was the outcome of Kristian Leontiou's collaboration with Faithless on the song \"Hope & Glory\" for their album 'To All New Arrivals', and how did this collaboration lead to the creation of the One eskimO moniker?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -393,7 +393,7 @@
   },
   {
     "question": "A wealthy lawyer, Ann Carver, and her husband, Bill Graham, struggle with the strain of their vastly different career successes. Ann's financial success leads to a significant increase in her husband's expenses, causing tension in their marriage. Meanwhile, a former Harvard professor, Gregory Vance, is introduced as a drunkard who cares for his children and teaches them Latin. However, his children's teacher, Agnes Billow, discovers his past and the two form a connection. Which of the following statements best describes the common thread among these characters?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -463,9 +463,9 @@
   },
   {
     "question": "Based on the provided documentation, what was the primary reason for McMahon's sacking from the Somerset cricket team in 1957, as described by Wisden in its obituary of him in 2002?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -484,7 +484,7 @@
   },
   {
     "question": "Analyze the genealogical relationships between Fujiwara no Nagara and his descendants, considering the information provided in Chunk0 and Chunk1. Which of the following statements is true?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -596,9 +596,9 @@
   },
   {
     "question": "What is the name of the concept album released by Jim Bob in 2006, which was originally intended as a download-only release but was later produced as a physical CD, accompanied by a free CD of Jim Bob and Jim's Super Stereoworld rarities?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -799,7 +799,7 @@
   },
   {
     "question": "Kathy Griffin's career has been marked by controversy and satire. According to her biography, which of the following statements about her career is NOT supported by the provided documentation?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -813,9 +813,9 @@
   },
   {
     "question": "Based on the provided documentation, what can be inferred about the relationship between Charles Laughton and Doris Zinkeisen, considering the context of Whale's personal life and the societal norms of the time?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -862,7 +862,7 @@
   },
   {
     "question": "According to the provided documentation, what is the connection between Enheduanna, the high priestess of the moon god Nanna in the Sumerian city-state of Ur, and the Valley of Death, a term that refers to a site of mass murder and mass grave in northern Poland?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -904,16 +904,16 @@
   },
   {
     "question": "Commander Casey Abbott, the skipper of the submarine USS Starfish, is ordered to undertake a mission to cut off the flow of supplies between China and Japan in the heavily mined waters off the Asiatic mainland. However, his personal and professional lives become entangled when a diver, who is Abbott's competitor for the affections of nurse Lieutenant Helen Blair, gets into a life-threatening situation. Meanwhile, the film's director is at odds with the union, and the submarine's executive officer, Lt. Commander Landon, expresses his dissatisfaction with Abbott's leadership. The USS Starfish is equipped with a state-of-the-art sonar system that uses advanced algorithms to detect and track underwater targets. However, the system's primary sensor array is located on the submarine's starboard side, which is currently occupied by a critical maintenance crew. As a result, the sonar system is temporarily disabled, and Abbott must rely on visual observations and reports from the crew to navigate the treacherous waters. What is the primary reason for Lt. Commander Landon's ill will towards Commander Abbott?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
     "question": "Based on the provided documentation, what is the primary reason for Dalida's decision to have an abortion, as revealed in the film's narrative?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1030,16 +1030,16 @@
   },
   {
     "question": "The film \"It's Alive\" is often compared to another film, \"Basket Case\", due to their shared theme of a monster. However, the director of \"It's Alive\", Larry Cohen, has stated that his film should not be confused with art. According to QNetwork Entertainment, Cohen's ideology of the existence of God is \"cynical at best\" and \"sacrilegious at worst\". In contrast, CinePassion online magazine calls the film a \"work of genius\". Which of the following statements best summarizes the general critical consensus on the film \"It's Alive\"?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
     "question": "Based on the provided documentation, what can be inferred about Abdul Ali Maghoub's career as a cricketer, considering his performance in 1953 and his later career milestones, as well as the information about Wale Adebanwi's academic career and Edv\u012bns \u0160nore's political career?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1072,14 +1072,14 @@
   },
   {
     "question": "According to the documentation, what is the approximate meaning of the name \"Soyol Erdene\", the name of the first rock band of Mongolia?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
     "question": "According to the discography and filmography of Dutronc, what was the title of the album released in 1975, which was co-written with Serge Gainsbourg and Jean-Loup Dabadie?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1100,9 +1100,9 @@
   },
   {
     "question": "Based on the provided documentation, what can be inferred about the relationship between the Ch\u014dsh\u016b Five and the University College London 1863 Japan Scholarships scheme?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1135,9 +1135,9 @@
   },
   {
     "question": "According to various reviews, what is the primary criticism of Lucio Fulci's film \"The New York Ripper\" (1982) compared to another film, \"Q: The Winged Serpent\" (1982), directed by Uli Edel, which features a similar plot device?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1198,9 +1198,9 @@
   },
   {
     "question": "According to the biblical account, what is the significance of Elizabeth's pregnancy, as described by the angel Gabriel, in relation to her relative Mary, who is also pregnant with Jesus?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1233,9 +1233,9 @@
   },
   {
     "question": "According to the provided documentation, what is the connection between Eugenio Alabiso's film editing work and Jacques D\u00e9combe's career as a director, considering that Eugenio Alabiso edited the 1967 film \"Face to Face\" directed by Sergio Sollima, and Jacques D\u00e9combe directed a show by Charlotte de Turckheim, who was also involved in the production of \"Face to Face\"?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1317,7 +1317,7 @@
   },
   {
     "question": "Analyze the complex relationships between the following individuals:\n\nDorothea of Denmark, Duchess of Mecklenburg, was the daughter of King Frederick I of Denmark and Sophie of Pomerania. She married Christopher, Duke of Mecklenburg-Gadebusch in 1573. Her sister Elizabeth of Denmark had a monument erected over her grave. Bamba M\u00fcller, a Maharani of Lahore, was the daughter of Ludwig M\u00fcller, a German merchant banker, and Sofia, an Abyssinian woman. Bamba married Maharaja Duleep Singh, the last ruler of the Sikh Empire. Duleep Singh was a friend of Queen Victoria and was raised as a Christian in Britain. Frederick I of Denmark was the king of Norway, but never visited the country. Bamba M\u00fcller's father, Ludwig M\u00fcller, had a wife and a mistress, Sofia, who was of Abyssinian descent. Sofia's family had a significant influence on the royal court of Abyssinia. Dorothea of Denmark's sister, Elizabeth, was a prominent figure in the royal court of Denmark, but her marriage to a nobleman from Pomerania had a lasting impact on the region's politics. Duleep Singh's mother, Maharaja Jindan Kaur, was a member of the royal family of Punjab, but her family's history was marked by turmoil and conflict. Frederick I of Denmark's reign was marked by significant events, including the Protestant Reformation, which had a profound impact on the region's politics and culture.",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1331,9 +1331,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the connection between the 1939 film \"The Night of Nights\" and the 1952 film \"The Fabulous Senorita\", considering the context of Latin American-themed films and the involvement of Rita Moreno in both productions?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1366,9 +1366,9 @@
   },
   {
     "question": "Which of the following statements about the Le Poer Trench family is NOT supported by the provided documentation?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1387,9 +1387,9 @@
   },
   {
     "question": "Based on the provided documentation, what was the outcome of the 1955 game in which Jim Wilson muffed an eighth-inning foul pop-up by the White Sox' Jim Rivera, and how did this incident impact Wilson's career?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1478,30 +1478,30 @@
   },
   {
     "question": "The cultural and geographical differences between Pakistan, Zimbabwe, and England significantly impact the cricket careers of John McMahon and the filmographies of Eugen York and Rumbi Katedza. How do the historical legacies of colonialism and the British Empire influence John McMahon's cricket career in England, considering the cultural context of Zimbabwe and the cinematic themes of Eugen York's film \"Good Morning Pakistan\", which explores the complexities of a beautiful and ancient culture marred by economic, educational, and gender inequality?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 3
   },
   {
     "question": "Analyze the health patterns and medical interventions of Eleanor of Castile and Feodora, the wife of Henry, to identify a potential cause of their chronic illnesses. Consider the following information:\n\nChunk0: Eleanor of Castile suffered from a fever pattern suggesting malaria, which led to enlarged liver and spleen, and potentially fatal complications. She died in 1290 at the age of 49.\n\nChunk1: Feodora, the wife of Henry, suffered from chronic illnesses, including dizziness, insomnia, nausea, and various pains, which were attributed to malaria by Feodora. However, her mother, Charlotte, suspected that Henry had given her a venereal disease, which Feodora denied.",
-    "model_answer": "B",
-    "correct_answer": "D",
-    "is_correct": false,
-    "number_of_hops": 3
-  },
-  {
-    "question": "According to the provided documentation, what was the primary reason for the German government's decision to ban the film \"Port of Seven Seas\" in Germany, despite the State Department's intervention?",
     "model_answer": "D",
     "correct_answer": "D",
     "is_correct": true,
     "number_of_hops": 3
   },
   {
+    "question": "According to the provided documentation, what was the primary reason for the German government's decision to ban the film \"Port of Seven Seas\" in Germany, despite the State Department's intervention?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
     "question": "Analyze the historical context of the Bourbon dynasty's involvement in the Hundred Years' War and its impact on the family's relationships with other noble families, such as the Guise and the Duke of Burgundy.",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1527,7 +1527,7 @@
   },
   {
     "question": "According to the provided documentation, what is the name of the director who collaborated with Hammer-Shaw Brothers Studio on the 1971 film \"The Legend of the 7 Golden Vampires\", and who also directed the Hammer film \"The Vampire Lovers\" (1970) and the Amicus films \"Asylum\" (1972) and \"The Vault of Horror\" (1973)?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1541,7 +1541,7 @@
   },
   {
     "question": "What was the primary reason for the cancellation of the Young British Artists exhibition at the National Gallery of Australia (NGA) during Kennedy's tenure, according to Kennedy's own statement, and how does this decision align with his broader focus on visual literacy and art education, considering the controversy surrounding Chris Ofili's The Holy Virgin Mary and the museum's commitment to free admission and art education?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1660,9 +1660,9 @@
   },
   {
     "question": "Analyze the historical context of the reign of King Stephen I of Hungary, considering the information provided in the passages about his family, administrative system, and relationships with neighboring countries.",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1730,16 +1730,16 @@
   },
   {
     "question": "Based on the provided documentation, what can be inferred about the relationship between Bishop William Nolan and Bishop Henry Wemyss, considering that Bishop Wemyss was a frequent attender of parliament and had close friendships with other high-ranking clergy, such as Abbot William Kennedy, and that Bishop Nolan's appointment to the Galloway diocese was facilitated by the need for a new bishop following Bishop Wemyss's incapacitation due to poor health, and that Bishop Nolan's predecessor had been involved in a scandalous incident with a priest who stole parish funds to support a gambling addiction, and that Bishop Wemyss had rights to the Culmoyr land, which was part of the MacDowall kindred of Garthland?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
     "question": "Etan Boritzer's early publication of an essay on the assassination of John F. Kennedy was a significant event in his life, but what is the connection between his essay and the fact that he was a police officer at the time of the 1930 Games, which was a notable event in his personal life?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1842,7 +1842,7 @@
   },
   {
     "question": "Kathy Sanborn's music style has been compared to that of 1950s cool jazz singers Anita O'Day and Chris Connor, while her vocal tone has been likened to the 1970s singer-songwriter Laura Nyro. However, Astrid North, a German soul singer, has also been compared to Sanborn due to their shared smooth vocals and clear diction. Given that Astrid North's music often explores themes of love and relationships, and considering Kathy Sanborn's song \"Fantasy\" was dedicated to her grandmother, which was a supercluster named Laniakea, what can be inferred about the relationship between Astrid North's music and the concept of Laniakea?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 5
@@ -1870,7 +1870,7 @@
   },
   {
     "question": "The Collins family's patriarch, Roger Collins, had been searching for a cure for vampirism for years, but his death at the hands of Barnabas Collins was a significant setback in the quest for a cure. Meanwhile, Julia, a scientist who had been studying the vampire virus, had discovered that the only way to cure vampirism was to expose the vampire to sunlight. However, her device was still in the experimental stages, and she was struggling to perfect it. As Barnabas continued to evade capture, he began to form a connection with Maggie Evans, a young woman who bore a striking resemblance to his long-lost fianc\u00e9e, Josette du Pres. However, Julia's growing feelings for Barnabas threatened to compromise her objectivity, and she found herself torn between her scientific duty and her personal feelings.",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
@@ -2066,7 +2066,7 @@
   },
   {
     "question": "Astrid North's music career was influenced by her time spent in the USA, where she lived with her grandparents. This experience significantly shaped her musical development. However, her decision to split from her label in 2005 and take her music in a new direction was also influenced by her collaboration with Faithless on the song \"Hope & Glory\". What is the name of the album that Astrid North released in 2016, which was dedicated to her grandmother Precious Ruby North, and was financed through crowdfunding?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": null,
     "is_correct": false,
     "number_of_hops": 5
@@ -2080,16 +2080,16 @@
   },
   {
     "question": "Analyze the complex relationships between Euno\u00eb, the wife of Bogudes, and Artaynte, the wife of Crown Prince Darius, in the context of ancient Mediterranean politics and power dynamics, considering the historical accounts of Julius Caesar's interactions with both women and the cultural depictions of their relationships in various literary and artistic works.",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
   },
   {
     "question": "Archibald Acheson, 3rd Earl of Gosford, was a British peer and Member of Parliament. According to the provided documentation, he was educated at Harrow School and matriculated at Christ Church, Oxford in 1825. However, the passage also mentions that he was born in 1806 and succeeded his father to the earldom in 1849. Which of the following statements is TRUE regarding Archibald Acheson, 3rd Earl of Gosford?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2304,23 +2304,23 @@
   },
   {
     "question": "Given the following information, determine the correct sequence of events that led to Sophia Magdalena's marriage to Gustav, the heir apparent to the throne of Sweden.",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
     "question": "The portrait of Maria van Hoorn, dated to around 1638, is described as wearing a millstone collar, layers of intricate lace, and a pearl necklace. However, the inscription on the portrait of Michiel de Wael, dated to around the same time, mentions a different type of collar. According to Hofstede de Groot's documentation, the portrait of Maria van Hoorn was purchased by the London dealers Dowdeswell in 1896, while the portrait of Michiel de Wael was exhibited at the Hudson-Fulton Celebration in 1909. Monsen, the Minister of Defence, was an antimilitarist and wrote three anti-militarist pamphlets. Which of the following statements is true?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
   },
   {
     "question": "LACMA's national monument declaration in central Nevada has been a significant factor in the museum's growth, but what specific aspect of this declaration, aside from its geographical distance from European and east coast peers, has Govan attributed to his decision to become LACMA's director, and how has this declaration impacted the museum's acquisition of new works and public artworks?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2437,7 +2437,7 @@
   },
   {
     "question": "A wealthy businessman, De Koster, is accused of embezzlement and is being investigated by a French police inspector, Lucas. Meanwhile, a young woman, Catherine Valmont, has returned from the dead and needs human blood to survive. She is found by Barbara, who takes photos of her, but her boyfriend, Greg, is skeptical. As Catherine wanders the Valmont Mansion, memories of her childhood come back to her, especially her childhood friend, H\u00e9l\u00e8ne. H\u00e9l\u00e8ne eventually discovers Catherine's true state and tries to help her adjust to her new reality. However, De Koster's reputation is on the line, and he will stop at nothing to clear his name. De Koster's firm has a history of questionable business practices, and Lucas suspects that they may be involved in a larger conspiracy. Meanwhile, Sonia, a woman struggling with her own personal demons, becomes embroiled in the investigation when she discovers a cryptic message that suggests De Koster's innocence. She teams up with Sender, a jewelry designer, who has a personal vendetta against De Koster. As the investigation unfolds, Catherine's need for human blood becomes more pressing, and she begins to target those close to De Koster. But can she be trusted, or is she just a pawn in a larger game?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
@@ -2458,16 +2458,16 @@
   },
   {
     "question": "Lawrence Cohen's filmography spans multiple genres, including horror, science fiction, and crime. According to the provided documentation, Cohen's early work in television included writing for series such as The Invaders and The Defenders. However, his film career took off in the 1970s with the release of It's Alive, a horror film that spawned two sequels. In the 1980s, Cohen directed films such as The Winged Serpent and The Stuff, both of which starred Michael Moriarty.",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
     "question": "Based on the information provided, which of the following individuals is NOT a Pakistani civil rights activist and lawyer?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2605,9 +2605,9 @@
   },
   {
     "question": "Which of the following individuals was the maternal grandfather of Margaret Beaufort, Countess of Stafford, based on the provided documentation?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2745,9 +2745,9 @@
   },
   {
     "question": "Analyze the military career of Russell, the British officer, and Ogawa, the Japanese general, to determine the correct sequence of events in their promotions and commands.",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -2787,7 +2787,7 @@
   },
   {
     "question": "Based on the provided documentation, which of the following can be inferred about the relationship between Shekhawat and Patil?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -2822,9 +2822,9 @@
   },
   {
     "question": "Claude Chabrol's filmography reveals a distinct pattern of thematic exploration, particularly in his \"Golden Era\" (1968-78). Analyze the following statements to determine the correct sequence of events and the influence of his influences on his filmography:",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -2836,9 +2836,9 @@
   },
   {
     "question": "According to the provided documentation, what was the primary reason for Wheatstone's initial reluctance to enter into a partnership with Cooke, as stated by Wheatstone himself?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -2885,9 +2885,9 @@
   },
   {
     "question": "Given the following information, determine the correct sequence of events:",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -2934,7 +2934,7 @@
   },
   {
     "question": "Vittorio Cottafavi's filmography, which includes 70 films between 1943 and 1985, does not provide any direct information about the documentary \"Blossoms of Fire\" (2000), directed by Maureen Gosling and Ellen Osborne. However, considering the fact that Vittorio Cottafavi's film \"Il diavolo sulle colline\" was screened in the Un Certain Regard section at the 1985 Cannes Film Festival, and given the historical context of the 1980s film industry, what can be inferred about the potential connections between Vittorio Cottafavi's filmography and the documentary \"Blossoms of Fire\"?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 4
@@ -2976,9 +2976,9 @@
   },
   {
     "question": "Correct Answer:",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -2990,9 +2990,9 @@
   },
   {
     "question": "Based on the provided documentation, what was the primary reason for Buddy Holly's decision to hire Waylon Jennings as his bassist in 1958, and how did this decision impact Jennings's career, considering the context of the Winter Dance Party Tour and the subsequent events that unfolded, and what role did the Corbin family play in Jennings's early career?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -3018,9 +3018,9 @@
   },
   {
     "question": "The 1935 film \"Dr. Socrates\" was a remake of which 1914 film, which was based on a short story by W. R. Burnett, and was later remade again in 1965 as \"Space Monster\", a low-budget science fiction/action/drama film. According to the filmography of Lynn Reynolds, a director and screenwriter, Reynolds directed more than 80 films between 1915 and 1928, including the 1914 film \"Taking his Chance\". However, the 1935 film \"Dr. Socrates\" was not directed by Reynolds, but rather by Lewis Seiler. Which film was directed by Reynolds?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -3053,7 +3053,7 @@
   },
   {
     "question": "Bonnie Tyler's music career experienced a resurgence in the late 1970s, with her 1978 album \"The World Starts Tonight\" reaching number 2 in Sweden. However, her subsequent album \"Diamond Cut\" (1979) was met with mixed reviews, with some critics praising her vocals but criticizing the material. In 1981, Tyler released her album \"Goodbye to the Island\", which featured the song \"(The World Is Full of) Married Men\", used as the theme song for the film of the same name. According to various sources, Tyler's performance in the film was notable for her ability to convey the emotional depth of the song. Which of the following statements accurately describes Bonnie Tyler's career trajectory after the release of \"Goodbye to the Island\"?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 4
@@ -3116,7 +3116,7 @@
   },
   {
     "question": "Bill Spencer, a former college athlete and singer, is accused of murdering his former girlfriend June Lane after she gets inebriated and stumbles, resulting in her accidental death. However, his attorney wife Ann offers to defend him in court, and after a series of events, Bill is acquitted. Later, Bill's song \"I'll Get By\" becomes a huge success, but he is forced to deny it to his former girlfriend Liza Martin, who had previously met him in a awkward encounter. Meanwhile, Johnny Morrison, a truck driver, is framed for a crime and later discovers that his former employer Hackett was the one who set him up. Johnny's girlfriend Carol Wayne still has feelings for him, but she has been seeing another man, Dr. Michael Benning. What is the connection between Bill Spencer's song \"I'll Get By\" and Johnny Morrison's situation?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -3179,9 +3179,9 @@
   },
   {
     "question": "The Kay\u0131 tribe, an ancient Turkic people, is believed to be the ancestor of the Ottoman Empire's founder, Osman I. According to Ottoman tradition, Kaya Alp, the son of K\u0131z\u0131l Bu\u011fa or Basuk, was the grandfather of Ertu\u011frul Ghazi, who was the father of Osman I. However, some historians argue that the Kay\u0131 tribe's connection to the Ottoman Empire is more complex, and that the tribe's influence was felt throughout the region for centuries before the rise of the Ottoman Empire. Which of the following statements is true?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -3235,9 +3235,9 @@
   },
   {
     "question": "Considering the historical context of the Berkeley family's titles and residences, and the marriages and relationships between the various members of the family, what is the correct sequence of events regarding the ownership of Berkeley Castle?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -3319,7 +3319,7 @@
   },
   {
     "question": "Based on the provided documentation, what is the name of the film that Dana Blankstein directed and shot the making-of film for, which is also mentioned as one of her early works, and what is the name of the film that Peter Levin directed, which is mentioned in the context of Dana Blankstein's career as a director of film, television, and theatre?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 4
@@ -3347,9 +3347,9 @@
   },
   {
     "question": "Based on the information provided in the three passages, what can be inferred about the film \"Ninamaninja Kalpadukal\" and its director N. N. Pisharody, in relation to the director K. Balachander's film \"Nallavan Vazhvan\"?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -3368,9 +3368,9 @@
   },
   {
     "question": "Abhishek Saxena's film Phullu, released in 2017, was screened in cinemas on 16 June 2017. However, according to the information provided, Phullu was directed by Abhishek Saxena, who also directed Patiala Dreamz, a Punjabi film screened in cinemas in 2014. Considering the timeline, what is the most likely order of events regarding Abhishek Saxena's filmography?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {

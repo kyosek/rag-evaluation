@@ -8,7 +8,7 @@
   },
   {
     "question": "Based on the provided information, what can be inferred about the director's approach to filmmaking in his later career?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -554,7 +554,7 @@
   },
   {
     "question": "Based on the information provided, which individual experienced a significant personal loss in the year 1884?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 1
@@ -652,7 +652,7 @@
   },
   {
     "question": "What event directly led to Chalbaud's shift from filmmaking to theatre in the early 1960s?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -715,7 +715,7 @@
   },
   {
     "question": "Which individual is directly linked to the establishment of a major religious movement?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -988,7 +988,7 @@
   },
   {
     "question": "Which of the following best describes Lawrence Cohen's career trajectory?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1

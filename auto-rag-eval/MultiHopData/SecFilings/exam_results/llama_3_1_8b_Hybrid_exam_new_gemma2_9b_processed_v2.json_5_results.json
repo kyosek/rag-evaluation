@@ -64,9 +64,9 @@
   },
   {
     "question": "Based on the provided financial information, what is the most likely scenario for the Company's future cash flow if it successfully raises the targeted $500,000 in funding?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -92,9 +92,9 @@
   },
   {
     "question": "Given the potential for extensions under both the old and new petroleum laws, what is the maximum possible duration, in years, that a production lease could be in effect after its initial 20-year term?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -197,9 +197,9 @@
   },
   {
     "question": "Given CGI's contractual arrangements for natural gas and natural gas liquids, what is the most likely reason for the company's historically improved price realization on natural gas sales compared to benchmarks like Henry Hub?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -246,9 +246,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary reason for the potential decline in the company's future profitability as outlined in Item 3?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -260,9 +260,9 @@
   },
   {
     "question": "Given the inherent uncertainties in reserve and revenue estimations, what factor, explicitly mentioned in the provided documentation, contributes most significantly to the potential for these estimates to change over time?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -365,7 +365,7 @@
   },
   {
     "question": "A) To finance the acquisition of environmental remediation assets.",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -379,9 +379,9 @@
   },
   {
     "question": "Given NBP's commitment to food safety and its competitive landscape, what is the most likely factor that would significantly hinder NBP's ability to maintain its market position in the long term?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -407,9 +407,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary factor contributing to the upward revision of estimated future net revenues in 1996?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -568,9 +568,9 @@
   },
   {
     "question": "Based on the provided information, who signed the report for THE CONNECTICUT LIGHT AND POWER COMPANY on March 18, 1994, and what was their title?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -582,9 +582,9 @@
   },
   {
     "question": "Given the potential for disruptions in power transmission infrastructure and the company's reliance on non-recourse financing for its facilities, what is the most significant risk to the company's ability to generate revenue and service its debt?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -708,9 +708,9 @@
   },
   {
     "question": "Which well, based on its location and interest type, is most likely to be classified as a \"Gas In Progress\" well according to the provided documentation?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -722,7 +722,7 @@
   },
   {
     "question": "Based on the provided information, what is the estimated total increase in coal reserves from 2013 to 2016, excluding any potential reserves identified in Esperanza and Guayacan?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -750,7 +750,7 @@
   },
   {
     "question": "Based on the provided property data, what is the average effective rent per square foot for properties located in Burlington County with a base rent percentage greater than 70%?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -764,9 +764,9 @@
   },
   {
     "question": "Based on the provided information, what is the weighted average escalated rent per square foot for the Company's office space in New York City as of December 31, 2003, excluding the space leased to the U.S. Post Office?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -792,7 +792,7 @@
   },
   {
     "question": "Which of the following claims was acquired by Aardvark Agencies, Inc. (AAI) through a Sheriff's deed following an assignment of a Certificate of Purchase from LNRS, LLC?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -827,7 +827,7 @@
   },
   {
     "question": "Based on the provided tenant data, which company has the highest ratio of annualized base rental revenue to the number of square feet leased, excluding those with less than 1 million square feet leased?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -841,9 +841,9 @@
   },
   {
     "question": "Based on the provided descriptions of two mining claims, what is the minimum distance, in feet, between the furthest points of the two claims?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -883,9 +883,9 @@
   },
   {
     "question": "Based on the provided SEC filings, which individual served as both the President and CEO and a Director for two distinct companies listed in the filings?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -897,7 +897,7 @@
   },
   {
     "question": "Given the company's practices regarding promotional allowances and the allowance for doubtful casino accounts receivable, what is the most likely impact on the company's reported net revenues?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -911,16 +911,16 @@
   },
   {
     "question": "Based on the provided information, what is the primary reason for the potential decline in the company's future profitability as outlined in Item 3?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
     "question": "Given the challenges faced by Columbus in the Williston Basin and the exploration strategies employed, what is the most likely reason for the company's decision to focus on short radius laterals in the Lien lease?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -953,9 +953,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason for omitting certain financial statement schedules from the filing?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -995,21 +995,21 @@
   },
   {
     "question": "Considering the information provided about Playa Resorts, which resort boasts the largest combined meeting and convention space capacity, capable of accommodating the most attendees?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "Given the depositional environment described in the provided text, which of the following geological features is most likely to host uranium mineralization?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "Based on the information provided, what percentage of Hilcorp's proved natural gas reserves in the San Juan Basin as of December 31, 2018, were attributable to coal seam natural gas, and what is the primary depth range for conventional natural gas production from formations other than the Fruitland Coal?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -1044,9 +1044,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary factor influencing the potential increase in permissible tonnage under the Phase I PEA guidelines for the Pilot Plant?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -1121,37 +1121,37 @@
   },
   {
     "question": "Based on the provided lease agreements, what is the primary factor influencing the potential increase in the Partnership's annual lease payments for both the New Ka'u Orchards and New Mauna Kea Orchards properties after the initial 10-year period?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
     "question": "Which property listed in the provided documentation experienced the highest percentage increase in occupancy between its acquisition date and the date of the \"Const Occupancy thru\" listed?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
     "question": "Based on the provided information, what is the potential financial liability Montaup faces regarding decommissioning costs for nuclear facilities it has an ownership interest in, excluding its share of costs for Millstone Unit 3 and Seabrook Unit 1?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
   },
   {
     "question": "A) The Company was added as a defendant due to its ownership of the Riverside Market Place Cinema, which allegedly violated the Americans with Disabilities Act and the California Unruh Civil Rights Act.",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
     "question": "Under what specific circumstances, as outlined in the lease agreements, could a TRS lessee be obligated to pay a termination fee?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1170,30 +1170,30 @@
   },
   {
     "question": "What is the total amount of funds that CNPC has committed to invest in the Bengara II PSC, excluding the potential cash bonus contingent on a commercial discovery?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
   },
   {
     "question": "Based on the provided information, what is the primary factor contributing to the profitability of Devon's operations in the Deep Basin, aside from the high success rate of drilling?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
     "question": "Based on the provided information, what is the most significant potential consequence for MeriStar Hospitality if it fails to meet the leverage covenant under its credit agreement?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
     "question": "Which hotel property, based on the provided information, features a unique combination of a full-service spa, a multi-service meeting facility with a capacity exceeding 400, and a penthouse suite spanning three floors?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1296,7 +1296,7 @@
   },
   {
     "question": "Given the varying leaching methods explored for the Round Top rhyolite deposit, which method presents the most compelling combination of high recovery rates for heavy rare earth elements (HREE) and yttrium, while also demonstrating economic viability considering both capital and operating costs?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 3
@@ -1310,16 +1310,16 @@
   },
   {
     "question": "A) The Company will be granted full water rights by the State Engineer without further complications.",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
     "question": "Based on the provided information, what is the primary financial consequence for Blacksands resulting from the decision to sell two-thirds of its interest in Access Energy, considering both the immediate and long-term implications?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1345,7 +1345,7 @@
   },
   {
     "question": "Considering the information provided about Bradlees' lease agreements and Stop & Shop's guarantees, what is the most likely scenario regarding the future of the former Bradlees locations leased by the Company?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 3
@@ -1359,7 +1359,7 @@
   },
   {
     "question": "What was the total expense recognized in the financial statements for the deferred compensation plan and the salary continuation plan combined in 1994, considering the impact of both the principal cost and the net non-cash income recognized on the insurance policies associated with each plan?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 3
@@ -1401,7 +1401,7 @@
   },
   {
     "question": "Considering the trends in the San Juan Basin from 2013 to 2019, what is the most likely reason for the shift in operator focus towards more liquid-rich areas within the basin?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 4
@@ -1415,9 +1415,9 @@
   },
   {
     "question": "Based on the provided information regarding WPC's net profits interest in the Farmout Properties, what is the primary factor influencing the calculation of proved reserves attributable to this interest?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -1499,9 +1499,9 @@
   },
   {
     "question": "Based on the provided information about the production estimates and the nature of the Royalty Interests, predict the most likely relationship between the annual production volume and the cash distributions made by the Trust over its lifetime.",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -1541,7 +1541,7 @@
   },
   {
     "question": "Which partnership demonstrates the highest concentration of its total proved reserves across ALL basins, excluding the Gulf Coast Basin, in the Anadarko Basin?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -1604,9 +1604,9 @@
   },
   {
     "question": "What is the specific timeframe during which WPC is obligated to pay the Trust amounts attributable to the Royalty Interests, even though WPC has sold the Underlying Properties to Quatro Finale?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1625,9 +1625,9 @@
   },
   {
     "question": "A) The gold mineralization is exclusively hosted within the granitoid bodies, with no evidence of mineralization in the surrounding metasediment-metavolcanic rock sequence.",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {

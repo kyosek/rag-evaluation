@@ -8,9 +8,9 @@
   },
   {
     "question": "Based on the information provided, what can be inferred about the company's future real estate investment strategy?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -50,9 +50,9 @@
   },
   {
     "question": "Which well, based on the provided information, is most likely to be considered a high-priority target for development due to its significant oil production potential and active status?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -190,9 +190,9 @@
   },
   {
     "question": "Based on the provided information, what is the minimum gold price required for the NSR on production from the DWC-contributed property to exceed the NSR payable to Mr. Art Wilson?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -211,14 +211,14 @@
   },
   {
     "question": "Based on the information provided, what was the primary focus of the drilling activities conducted in 2011 and 2012?",
-    "model_answer": ".",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
     "question": "What was the primary factor influencing the interest rate on the loans secured by the four properties mentioned in chunk 35?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -274,9 +274,9 @@
   },
   {
     "question": "Given the potential for conflicts of interest and the unpredictable nature of government regulations, what is the most significant risk facing the Company's ability to effectively manage its operations and financial performance?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -463,9 +463,9 @@
   },
   {
     "question": "Given the factors influencing the company's financial performance, which of the following statements is most accurate regarding the company's future profitability?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -498,9 +498,9 @@
   },
   {
     "question": "Based on the provided information, what is the PRIMARY factor influencing the choice of employee housing location for the Hycroft Mine?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -519,7 +519,7 @@
   },
   {
     "question": "Considering the information provided, what is the most likely reason the company believes the number of traditional department store anchors will decline?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -624,7 +624,7 @@
   },
   {
     "question": "Which property listed had the highest total value of its mortgage balance and construction cost as of December 31, 1999?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -645,9 +645,9 @@
   },
   {
     "question": "Based on the provided information, what is the most likely reason the company might experience financial difficulties with the Mountain View, California development project?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -694,9 +694,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary output of the La Caridad complex's copper rod plant, and what is the primary method used to extract copper from ore at IMMSA's mining facilities?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -715,9 +715,9 @@
   },
   {
     "question": "Based on the provided information, what is the most likely reason why the previous exploration efforts in the Jungo area were unsuccessful in identifying the gold-bearing vent structures?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -743,7 +743,7 @@
   },
   {
     "question": "Which facility listed in the filing primarily serves end markets that are different from the others?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -890,9 +890,9 @@
   },
   {
     "question": "Based on the information provided, what is the primary reason the company is seeking additional funding?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -925,9 +925,9 @@
   },
   {
     "question": "Based on the information provided, what can be inferred about the relationship between the drilling program's objectives and the geological features of Zone 2?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -953,9 +953,9 @@
   },
   {
     "question": "Under what circumstances might a Participating Lease be terminated, and what options would the Company have in such a situation?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -967,9 +967,9 @@
   },
   {
     "question": "Based on the geological information provided, at what point in time did the most significant structural events influencing gold mineralization at San Jos\u00e9 de Gracia occur?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -1030,9 +1030,9 @@
   },
   {
     "question": "Given the potential for legal and environmental liabilities, what is the most significant risk factor facing the Company's future success?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {

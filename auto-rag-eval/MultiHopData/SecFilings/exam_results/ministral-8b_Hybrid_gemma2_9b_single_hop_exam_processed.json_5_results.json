@@ -29,7 +29,7 @@
   },
   {
     "question": "Based on the provided information, what is the primary factor influencing the timing of revenue recognition for Oil and Gas Production Trust?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -43,9 +43,9 @@
   },
   {
     "question": "What was the primary factor contributing to the difference in the provision for income taxes as a percentage of net revenue between the year ended December 31, 2011, and the six months ended June 30, 2010?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -85,7 +85,7 @@
   },
   {
     "question": "What is the primary reason for the shift in artisanal mining activity from the Kunanga 1 to 3 sites?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -155,9 +155,9 @@
   },
   {
     "question": "Given the information provided, what is the most likely reason the company would need to improve the dirt road leading to the Cerro Blanco property?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -211,9 +211,9 @@
   },
   {
     "question": "Based on the information provided, what was the primary focus of the drilling activities conducted in 2011 and 2012?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -582,9 +582,9 @@
   },
   {
     "question": "Which mall, based on the provided information, is projected to have the highest annual ground rent in 2015?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -687,9 +687,9 @@
   },
   {
     "question": "Based on the provided information, what is the chronological relationship between the sharing agreement mentioned in Exhibit 10.53 and the amendments to the agreement for joint ownership, construction, and operation of New Hampshire nuclear generating units?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -876,9 +876,9 @@
   },
   {
     "question": "Based on the provided information, what is the most likely reason Simon Property Group, Inc. might need to borrow money?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -953,9 +953,9 @@
   },
   {
     "question": "Under what circumstances might a Participating Lease be terminated, and what options would the Company have in such a situation?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {

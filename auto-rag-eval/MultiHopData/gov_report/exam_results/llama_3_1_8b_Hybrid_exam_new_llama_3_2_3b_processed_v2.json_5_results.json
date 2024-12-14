@@ -169,7 +169,7 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason for the increased likelihood of a 1st Tier Shortage Condition at Lake Mead beginning in January 2020, according to Reclamation's predictions?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -428,9 +428,9 @@
   },
   {
     "question": "According to the provided documentation, what is the primary reason why some agencies failed to identify an agency official responsible for resolving major management challenges, as recommended by the Government Performance Results Act (GPRAMA)?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -442,9 +442,9 @@
   },
   {
     "question": "The National Emergencies Act (NEA) of 1976 aimed to address the criticisms of the Trade Winds and Weather Act (TWEA) by imposing new restrictions on the declaration and duration of national emergencies. However, the NEA's provisions for terminating an emergency were not fully utilized. What is the primary reason for this lack of utilization, according to the Export Control Reform Act (ECRA) of 2018?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -526,9 +526,9 @@
   },
   {
     "question": "According to the guidance released by OMB in June 2015, what is the primary purpose of the common baseline roles and responsibilities for CIOs and other senior agency officials, as described in the Federal Information Technology Acquisition Reform Act (FITARA)?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -652,9 +652,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary difference between the approach used in the 2010 Capital Needs Inventory and the approach used in the 2016 Capital Needs Inventory, according to WMATA?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -708,9 +708,9 @@
   },
   {
     "question": "Based on the provided documentation, what is a primary concern among stakeholders regarding the protection of personal data in the private sector, and how does it relate to the proposed strengthening of the consumer privacy framework?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -764,7 +764,7 @@
   },
   {
     "question": "According to the provided documentation, what is the primary reason why the Fiscal Service did not leverage hoteling as a space-planning tool, unlike the CDC's National Center for Chronic Disease Prevention and Health Promotion's office?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -848,9 +848,9 @@
   },
   {
     "question": "According to the documentation, what is a significant factor that may explain the relatively low rate of participation by pharmacies and other eligible entities in the prescription drug disposal program, as stated by stakeholders?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -869,16 +869,16 @@
   },
   {
     "question": "The Treasury Secretary's acknowledgment of the problem faced by some banks, as well as the dissenting view presented by the House Committee on Financial Services' minority members, suggests that the Small Business Lending Fund (SBLF) may not effectively address the lack of financing for small businesses. However, Representative Melissa Bean argues that the SBLF builds on previous financial stabilization measures and can be leveraged into over $300 billion in new small business loans. Which of the following statements best captures the essence of the debate surrounding the SBLF?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "The Forest Service's policy on administrative control of funds is governed by the Directive System, but it also relies on standard operating procedures (SOPs) and desk guides to supplement guidance. However, the SOPs and desk guides are not part of the Directive System and therefore are not official policy and procedures. What is the primary limitation of the Forest Service's control activities related to administrative control of funds, as identified in the review of its process documents and control activities?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -967,16 +967,16 @@
   },
   {
     "question": "A small business owner applies for a 7(a) loan to purchase a new equipment for their company. The lender, a bank, has already approved the loan and is considering the borrower's creditworthiness. However, the bank's credit officer has concerns that the borrower may not be able to obtain credit elsewhere due to their poor credit history. According to the SBA's guidelines, what is the primary reason the bank should not decline the loan solely on the basis of inadequate collateral?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4
   },
   {
     "question": "According to the report, what is the primary concern of State's efforts to address persistent Foreign Service vacancies, particularly in specialist positions, and how does this impact the department's ability to achieve its mission?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -1114,9 +1114,9 @@
   },
   {
     "question": "Based on the provided documentation, which U.S. port is most likely to establish itself as a significant LNG-bunkering location, considering its proximity to existing LNG import/export terminals and the potential for expanded LNG bunkering operations?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -1135,9 +1135,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason why the use of performance information by federal managers has not improved, despite the implementation of the Government Performance and Results Act of 1993 (GPRA) and the GPRA Modernization Act of 2010 (GPRAMA), according to the survey results?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -1184,9 +1184,9 @@
   },
   {
     "question": "Given the current State guidance for integrated country strategies, which of the following is a potential consequence of the lack of clear guidance on assessing climate change-related risks to agency strategies?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -1233,7 +1233,7 @@
   },
   {
     "question": "The SBA's 7(a) loan guaranty program experienced a significant increase in loan approvals in FY2010 and FY2011, primarily due to the temporary reduction of loan fees and the increase in the loan guaranty percentage to 90% for all standard 7(a) loans. However, the program's unpaid principal balance at the end of FY2018 was approximately 7.7% of the estimated $1.2 trillion small business credit market. What is the primary reason for the discrepancy between the program's unpaid principal balance and the estimated small business credit market size?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -1268,9 +1268,9 @@
   },
   {
     "question": "The Department of Labor (DOL) is considering a regulatory change to require federal contractors to establish placement goals to address underrepresentation of specific minority groups. However, the Office of Federal Contract Compliance Programs (OFCCP) has expressed concerns about the feasibility and effectiveness of such a requirement. According to a recent report, OFCCP officials face challenges in obtaining accurate and timely data from contractors, which hinders their ability to identify potential discrimination. What is a potential solution to address the concerns of both DOL and OFCCP, considering the limitations of current data collection methods and the need for effective affirmative action efforts?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -1296,9 +1296,9 @@
   },
   {
     "question": "The Supreme Court has identified two subcategories of implied preemption: field preemption and conflict preemption. Which of the following statements best describes the relationship between field preemption and the purpose of Congress, as explained in the context of federal banking laws?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -1338,9 +1338,9 @@
   },
   {
     "question": "According to the report, what specific factor within the Northeast region of the United States is most closely associated with a higher likelihood of school districts testing for lead in school drinking water, despite the region's overall lower percentage of housing units built before 1980?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -1373,7 +1373,7 @@
   },
   {
     "question": "The Navy's decision to homeport ships overseas has led to a significant increase in operational tempo, resulting in a decline in material ship condition and an increase in casualty reports. However, the Navy attributes this trend to the need for continuous readiness and the high operational tempo of ships homeported overseas. Which of the following statements best describes the Navy's approach to addressing the decline in material ship condition and the resulting increase in casualty reports?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -1478,9 +1478,9 @@
   },
   {
     "question": "According to the provided documentation, what is the primary concern regarding the decline in government-wide use of performance information between 2013 and 2017, as highlighted in the 2017 survey of federal managers?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -1653,14 +1653,14 @@
   },
   {
     "question": "According to the report, what is the primary reason why some school districts have not tested for lead in their drinking water, despite the availability of federal guidance, such as the 3Ts guidance?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
     "question": "According to FERC officials, what is the primary purpose of rotating FERC staff responsibilities every 3 to 4 years, and how does this practice impact the review of engineering studies for dams subject to independent consultant inspections, particularly in addressing the inconsistent approaches to recording inspection information and the need for standard language and procedures?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -1695,9 +1695,9 @@
   },
   {
     "question": "A mother with a substance use disorder is discharged from the hospital after giving birth to an infant. According to the plan of safe care developed by CPS, the mother is referred to a substance use treatment program, but the program is not yet available. The mother's family members are not willing to provide support, and the mother's social worker is concerned that the mother may relapse. Which of the following is a potential consequence of this situation?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -1765,7 +1765,7 @@
   },
   {
     "question": "A federal agency is conducting a strategic review to assess its progress toward achieving a specific objective. The review process involves analyzing data from various sources, including program evaluations, performance measures, and regulatory reviews. However, the agency is concerned that its current approach may not be effective in addressing the complex challenges it faces.",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4
@@ -1905,9 +1905,9 @@
   },
   {
     "question": "The Secret Service's IT workforce faces challenges in meeting its mission and programmatic goals due to competency gaps and inadequate staffing. Develop a comprehensive plan to address these gaps, ensuring that IT staff performance is aligned with organizational goals.",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1968,9 +1968,9 @@
   },
   {
     "question": "According to the provided documentation, what is the primary reason why Craig Hospital and Shepherd Center are currently exempt from the statutory two-tiered payment structure for cost reporting periods beginning during fiscal years 2018 and 2019, considering the implications of Medicare's site-neutral payment policies on their qualifying hospital status?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2038,9 +2038,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary purpose of the Joint Requirements Council (JRC) re-establishment in 2016, as indicated in the FYHSP report?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -2087,9 +2087,9 @@
   },
   {
     "question": "According to the testimony, what is the correct contact information for GAO staff who made key contributions to the first statement, and how does it differ from the contact information provided for the second statement?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -2164,9 +2164,9 @@
   },
   {
     "question": "According to the documentation, what is a primary challenge faced by state DOT officials in implementing innovative safety projects under the Section 130 Program, and how might this challenge be addressed?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -2360,9 +2360,9 @@
   },
   {
     "question": "Based on the information provided in the Senate action on its version of a funding bill for EPA (S.Rept. 108-143) and the Senate Appropriations Committee's report on EPA spending bill in June 1998 (S. 2168, S.Rept. 105-216), which of the following statements is true regarding the funding for the STAG account in the FY2005 EPA appropriation?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -2402,7 +2402,7 @@
   },
   {
     "question": "The Secret Service's IT workforce planning process is partly implemented, but it lacks a comprehensive understanding of its technical competency needs. What is the primary reason for this limitation, according to the Secret Service's officials?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 3
@@ -2423,9 +2423,9 @@
   },
   {
     "question": "The Army's Foreign Currency Fluctuations Defense (O&M) reports are inaccurate due to the Army's accounting system charging disbursements to the current fiscal year appropriation rather than to the fiscal year appropriation that incurred the obligation. However, the Army Budget Office has acknowledged the need to modify its system to record disbursements consistent with Financial Management Regulation guidance. What is a critical factor that DOD must consider when developing a plan to address the inaccuracies in the Army's Foreign Currency Fluctuations Defense (O&M) reports, and how might this factor impact the overall management of DOD's foreign currency gains and losses?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -2507,9 +2507,9 @@
   },
   {
     "question": "According to the provided documentation, what is the primary reason for the slight increase in Colombia's coca cultivation between 2013 and 2016, as reported by the U.S. government estimates?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -2822,16 +2822,16 @@
   },
   {
     "question": "The Small Business Administration's (SBA) definition of a small business is based on a relative sense, varying from industry to industry. According to the SBA's report on the Small Business Act of 1953, what economic factor, in addition to employment size, is used to define a small business, and how does it relate to the SBA's size standards methodology?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
     "question": "The House Appropriations Committee-reported H.R. 6776 included $13.70 billion in FY2019 net discretionary funding for the components funded in Title III, which is $861 million (6.7%) more than the requested amount by the Trump Administration. However, the Senate committee-reported bill, S. 3109, included $13.54 billion in FY2019 net discretionary funding for these components, which is $694 million (5.4%) more than the requested amount. Considering the total budgetary resources projected for FY2019, the House committee-reported bill would be $885 million (4.7%) more than the Administration's request, while the Senate committee-reported bill would be $1.13 billion (5.4%) less than projected for FY2018. Given that the Senate committee-reported bill included $228 million in its Federal Assistance appropriation from unobligated DRF balances, and the House committee-reported bill did not include this amount, which amount of disaster relief funding was actually provided for the components funded in Title III in FY2019?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -3032,9 +3032,9 @@
   },
   {
     "question": "The Colombian government's strategy under President Uribe's leadership was characterized by a focus on combating the FARC's influence in rural areas and the borderlands. This approach was part of a broader effort to address the root causes of the conflict, including land distribution and agrarian concerns. However, critics argue that the strategy failed to adequately address human rights concerns and that the FARC continued to launch terror attacks and cultivate coca in demilitarized zones.",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -3095,9 +3095,9 @@
   },
   {
     "question": "The Senate Appropriations Committee reported its version of an EPA spending bill in June 1998, which provided $3.2 billion for the STAG account. This bill included $1.35 billion for clean water SRF grants, $800 million for drinking water SRF grants, and $105 million for U.S.-Mexico and Alaska Native Village projects. However, the House Appropriations Committee approved its version of the bill in July 1998, which provided $3.2 billion for the STAG account, consisting of $1.25 billion for clean water SRF grants, $775 million for drinking water SRF grants, and $70 million for U.S.-Mexico and Alaska Native Village projects. Which of the following statements is true about the final EPA spending bill signed into law in October 1998?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -3193,7 +3193,7 @@
   },
   {
     "question": "A government agency is considering implementing a new performance management system to improve the use of performance information among its managers. The agency has identified several practices that can enhance the use of performance information, including demonstrating management commitment, communicating performance information frequently and efficiently, and developing the capacity to use performance information. However, a recent survey of federal managers suggests that these practices are not being effectively adopted. Which of the following is a potential challenge that the agency may face in implementing the new performance management system?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
@@ -3347,7 +3347,7 @@
   },
   {
     "question": "Given the historical context of the minority leader's role in the House of Representatives, as described in the provided documentation, which of the following statements best captures the essence of the minority leader's primary objective during the 61st Congress (1909-1910)?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -3417,9 +3417,9 @@
   },
   {
     "question": "A state Medicaid agency reports that it has a system in place to track critical incidents in assisted living facilities, but it is unclear whether this system is effective in identifying and addressing incidents of abuse, neglect, exploitation, and unexplained death. According to the state's annual report, the system has identified 12 critical incidents in the past year, but the agency is unable to provide information on the type and severity of the incidents, or the location of the facilities involved. However, a review of the state's critical incident reports reveals that 4 of the incidents involved a facility that is also a provider of home and community-based services (HCBS) for Medicaid beneficiaries. Which of the following statements is most consistent with the information provided?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -3487,14 +3487,14 @@
   },
   {
     "question": "The Trump Administration's FY2019 budget request for humanitarian assistance included a 32% reduction from FY2018 actual funding, but the House committee bills proposed a 2% increase over FY2018 funding. Which of the following statements accurately describes the relationship between the Administration's request and the House committee bills regarding humanitarian assistance funding?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
     "question": "Given the complexities and challenges faced by the TRIO project, which of the following best describes the primary reason for the significant increase in estimated implementation costs, considering the schedule delays, unanticipated complexities, and other challenges?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -3592,16 +3592,16 @@
   },
   {
     "question": "The SBA's industry size standards are based on a combination of factors, including employment size, average annual receipts, and asset-based standards. However, the SBA's approach to defining small businesses has been subject to criticism and revision over the years. Which of the following statements best describes the SBA's current approach to establishing size standards for industries?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
     "question": "The Navy's ship-naming traditions, as outlined in the July 2012 report to Congress, suggest that exceptions to the naming rules have been made for Presidents and Members of Congress. However, the report also notes that the practice of naming ships after living persons fell into disuse after the War of 1812. Given the following information:",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -3662,9 +3662,9 @@
   },
   {
     "question": "A VA facility's record- retention schedule for adverse action files is based on the National Archives and Records Administration's (NARA) general records schedule. However, the facility's policy states that files should be retained for a minimum of 7 years after the case is closed. If a facility fails to follow this policy, it may be in violation of VA's policy for retaining files containing evidence of misconduct. According to a review of a generalizable sample of 544 misconduct case files, what percentage of files were not accounted for by the facility, and what is the estimated number of files that may not be retained according to the facility's record- retention schedule?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -3697,9 +3697,9 @@
   },
   {
     "question": "The Trump administration's increased frequency of freedom of navigation operations (FONOPs) in the South China Sea has been met with varying reactions from China and other regional actors. According to a June 3, 2018, press report, the Pentagon is considering intensified naval patrols in the South China Sea to challenge China's growing militarization of the waterway. However, critics argue that these patrols have little impact on Chinese behavior and mask the lack of a broader strategy to deal with China's dominance in the area.",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -3718,7 +3718,7 @@
   },
   {
     "question": "According to the report, what is the maximum amount of financial assistance that the U.S. Department of Agriculture may provide to farmers who have suffered losses due to the 2019-2020 drought, and how does this amount compare to the maximum amount of financial assistance provided by the U.S. Department of Commerce for information leading to a conviction in wildlife trafficking cases?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 5
@@ -3830,9 +3830,9 @@
   },
   {
     "question": "A U.S. firm, XYZ Inc., is considering an inversion transaction with a foreign parent, ABC Corp. The foreign parent is a tax resident of a third country, and the transaction is structured to meet the 80% ownership requirement. However, the foreign parent has a significant amount of passive assets, including a bank deposit with a value of $100 million. The U.S. firm's foreign subsidiaries are not subject to the new regulations, which restrict the access to funds by, for example, a loan from the U.S. company's foreign subsidiary to the new foreign parent (called \"hopscotching\").",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -3886,9 +3886,9 @@
   },
   {
     "question": "The FEMA Administrator should ensure that the GMM program management office implements its planned changes to its processes for documenting requirements for future increments and ensures it maintains traceability among key IT requirements documents. However, the program's unreliable schedule to fully deliver GMM by September 2020 is aggressive and unrealistic. According to the GAO report, what is the primary reason for the program's schedule issues, and how does this relate to the GMM program management office's responsibility to document requirements for future increments and maintain traceability among key IT requirements documents?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -3970,7 +3970,7 @@
   },
   {
     "question": "A borrower is considering purchasing a single-family home with an FHA-insured mortgage. The borrower has a credit score of 580 and can afford to make a down payment of at least 3.5%. However, the lender requires a minimum credit score of 500 to qualify for an FHA-insured mortgage. The borrower is also considering purchasing a home in a neighborhood with a high risk of natural disasters, such as hurricanes or wildfires. The FHA has specific guidelines for insuring mortgages in high-risk areas. What is the most likely outcome for the borrower, given the lender's credit score requirement and the high-risk location of the home?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 5
@@ -4012,9 +4012,9 @@
   },
   {
     "question": "What is the primary reason for the discrepancy between the Trump Administration's FY2019 budget request for DHS and the enacted FY2019 appropriations, considering the Bipartisan Budget Act of 2018 and the Consolidated Appropriations Act of 2017?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {

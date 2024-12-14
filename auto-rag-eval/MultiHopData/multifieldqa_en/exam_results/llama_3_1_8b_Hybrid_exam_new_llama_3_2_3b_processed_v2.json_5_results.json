@@ -218,9 +218,9 @@
   },
   {
     "question": "A quantum computer is expected to break a cryptographic scheme in one day (24 hours) with approximately 6.06 \u00d7 10^8 physical qubits. The number of T gates in the circuit is 7.98 \u00d7 10^12, the corresponding number of logical qubits is 4719, and the total number of surface code cycles is 1.56 \u00d7 10^15. Which of the following statements is TRUE about the scheme's security, considering the NIST P-224 elliptic curve with a physical error rate per gate of 10^(-5)?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -309,9 +309,9 @@
   },
   {
     "question": "A company develops a software platform that uses machine learning algorithms to analyze customer behavior and provide personalized product recommendations. The platform is designed to be scalable and can handle large amounts of data. However, the company's patent application for the platform is rejected by the patent office, citing that the claimed function of the platform can be performed in one's mind or on a computer without the need for a specific machine. Which of the following statements best describes the correct interpretation of the patent office's decision?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -407,9 +407,9 @@
   },
   {
     "question": "Les's KR2 design incorporates a unique cooling system, which was initially located in the firewall but was later relocated to a lower cowling location due to cooling problems. What is the primary reason for this relocation, according to the text?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -519,7 +519,7 @@
   },
   {
     "question": "A researcher uses the Clauset-Shalizi-Newman method to estimate the power-law exponents of positive and negative returns of a cryptocurrency. The researcher separates the returns into two groups and estimates their power-law behavior using the method. However, the researcher also considers the effects of age and market capitalization on the power-law exponents using a linear model. Which of the following statements is true about the researcher's approach?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -575,7 +575,7 @@
   },
   {
     "question": "In the context of multi-agent reinforcement learning (MARL), a social learning agent learns to communicate with other agents to coordinate their actions. According to the proposed method, what is the primary goal of developing a communication policy through \"social shadowing\", where an agent learns a communication policy by watching an expert agent's action policy, particularly in scenarios where agents have complex and heterogeneous feature models and non-stationary value functions?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -673,9 +673,9 @@
   },
   {
     "question": "Based on the provided documentation, what can be inferred about the magnetic behavior of Ge$_{3}$Mn$_{5}$ clusters in Ge$_{1-x}$Mn$_{x}$ films grown at temperatures above 145$^{\\circ}$C?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -897,7 +897,7 @@
   },
   {
     "question": "Consider a graphene junction with a transition region between unstrained and strained graphene sections that is shorter than 5-6 nm. According to the text, what is the expected effect of this short transition zone on the transmission between propagating states beyond the energy gaps?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 3
@@ -981,9 +981,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the likely reason for the unusual discovery of XMMSL1~J060636.2-694933 in X-rays, rather than in the early phases of its outburst, which is typical for classical novae?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1016,9 +1016,9 @@
   },
   {
     "question": "The Veterans for Peace organization, which includes Iraq War veterans, participated in a protest outside the White House, where they formed a human chain across the 'picture postcard' tableau in front of the White House. According to Linda LeTendre (Daily Gazette), the protest was in honor of those killed in Iraq and Afghan wars of lies and deceptions. The VFP played taps and folded an American flag that had been left behind at a recent funeral for a veteran of one of those wars. The demonstration was initiated and led by the ANSWER Coalition, which also included representatives from other organizations such as Korean Americans for Peace and the National Lawyers Guild.",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1030,9 +1030,9 @@
   },
   {
     "question": "Mufti-e-Azam-e-Hind (radi Allahu anhu) was known for his exceptional knowledge and Fatawas, which brightened the world. However, his Fatawa on vasectomy was initially met with opposition, and it was only after his reprimand that the government reconsidered and abolished the law. This event led to a significant change in the spiritual landscape of India. Considering the following statements:",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1072,9 +1072,9 @@
   },
   {
     "question": "Consider a double quantum dot (DQD) system proximized by a superconductor (SC) lead. The effective Hamiltonian of the system is given by $H_{\\mathrm{eff}}=H_{\\mathrm{SDQD}}+H_{\\rm L}+H_{\\rm R}+H_{\\rm T}$, where $H_{\\rm SDQD}$ is the Hamiltonian of the SC-proximized DQD, $H_{\\rm L}$ and $H_{\\rm R}$ are the Hamiltonians of the left and right normal leads, respectively, and $H_{\\rm T}$ is the tunneling Hamiltonian.",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1149,9 +1149,9 @@
   },
   {
     "question": "Consider a dynamic system with a diffusion process, where the variance of the parameter vector is $\\sigma_d^2$. The system's state is described by the equation:\n\n$p({\\bf w}_k|{\\bf w}_{k-1})= \\mathcal{N}({\\bf w}_k;{\\bf w}_{k-1}, \\sigma_d^2 {\\bf I})$\n\nThe prior distribution on ${\\bf w}_0$ is given by:\n\n$p({\\bf w}_0)= \\mathcal{N}({\\bf w}_0;0, \\sigma_d^2{\\bf I})$\n\nAn algorithm is proposed to infer the posterior probability distribution $p({\\bf w}_k|y_{1:k})$. This algorithm is based on the recursive least squares (RLS) filter, which is similar to the one introduced in \\cite{haykin1997adaptive}. However, the proposed approach approximates the posterior distribution with an isotropic spherical Gaussian distribution:\n\n$\\hat{p}({\\bf w}_{k}|y_{1:k})=\\mathcal{N}({\\bf w}_{k};{\\bf \\hat{\\boldsymbol\\mu}}_{k}, \\hat{\\sigma}_{k}^2 {\\bf I} )$\n\nThe mean and covariance of the approximate distribution are estimated using the Kullback-Leibler divergence:\n\n$\\{\\hat{\\boldsymbol\\mu}_k,\\hat{\\sigma}_k\\}=\\arg \\displaystyle{  \\min_{\\hat{\\boldsymbol\\mu}_k,\\hat{\\sigma}_k}} \\{ D_{KL}\\left(p({\\bf w}_{k}|y_{1:k}))\\| \\hat{p}({\\bf w}_{k}|y_{1:k})\\right) \\}$\n\nThe optimal mean and covariance are found as:\n\n${\\hat{\\boldsymbol\\mu}}_{k} = {\\boldsymbol\\mu}_{k};~~~~~~ \\hat{\\sigma}_{k}^2 = \\frac{{\\sf Tr}\\{ \\boldsymbol\\Sigma_k\\} }{M}$\n\nA key question is: What is the relationship between the proposed RLS filter and the LMS algorithm, and how does the isotropic approximation affect the estimation performance?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1359,7 +1359,7 @@
   },
   {
     "question": "A Palm Bay man's Puerto Rican family bought local pills destined for the working-class town of Holyoke, Mass. In Rhode Island, police pulled over a Lauderhill man caught speeding through Providence. They found 903 oxycodone tablets and 56 morphine pills in the car. Senior citizen and Tulane business graduate Joel Shumrak funneled more than 1 million pills into eastern Kentucky from his South Florida and Georgia clinics, much of it headed for street sales \u2014 an estimated 20 percent of the illicit oxycodone in the entire state. Van loads of pill-seekers organized by \u201cVIP buyers\u201d traveled from Columbus, Ohio, to three Jacksonville clinics, where armed guards handled crowd control (federal indictment) and doctors generated prescriptions totaling 3.2 million pills in six months. In Miami, Vinny Colangelo created 1,500 internet website names to entice drug users throughout the nation to one of his six South Florida pain clinics or pharmacies. Even the Mafia got in on the Florida oxy express action: A Bonanno crime family associate oversaw a local crew stocking up on Palm Beach and Broward pain clinic oxycodone, upstreaming profits to the New York family. At times, it seemed almost no section of the country was free of Florida-supplied pills: When Olubenga Badamosi was arrested driving his Bentley Continental in Miami in 2011, the Oregon man was one of two traffickers overseeing a crew smuggling South Florida oxycodone to sell in Salt Lake City, Seattle and Denver as well as Oregon, Nevada, Texas and even Alaska. Pharmacy delivers oxy \u2018pot of gold\u2019\n\nA state representative in a district straddling Palm Beach and Broward counties had proposed the prescription monitoring database in 2009, but it was met with resistance from the state government. The database law passed with gaping loopholes, and the state refused to pay for it. The DEA all but wrung its hands over Florida's lethal inaction. What was the primary reason for the DEA's inaction, and how did it impact the state's efforts to combat the opioid crisis?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1436,9 +1436,9 @@
   },
   {
     "question": "A RSU employs an Interactive M-MJPF to predict RF signals and subsequently uses the predicted signals to identify potential GPS spoofing and jamming attacks. The RSU's belief in the RF signal dynamics evolves according to the following equation:\n\n$\\mathrm{P}(\\mathrm{\\tilde{X}}_{t}^{(i)})=\\mathrm{P}(\\mathrm{\\tilde{X}}_{t}^{(i)},\\mathrm{\\tilde{S}}_{t}^{(i)}|\\mathrm{\\tilde{Z}}_{t-1}^{(i)})= \\int \\mathrm{P}(\\mathrm{\\tilde{X}}_{t}^{(i)}|\\mathrm{\\tilde{X}}_{t-1}^{(i)}, \\mathrm{\\tilde{S}}_{t}^{(i)}) \\lambda(\\mathrm{\\tilde{X}}_{t-1}^{(i)})d\\mathrm{\\tilde{X}}_{t-1}^{(i)}$\n\nGiven the following information:",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1478,7 +1478,7 @@
   },
   {
     "question": "According to the provided documentation, what is the primary reason Intel can maintain a competitive advantage in the CPU market despite having fabs that are a step or two behind the cutting edge, and what implications does this have for their strategy in the phone/tablet market?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 3
@@ -1513,9 +1513,9 @@
   },
   {
     "question": "Analyze the given documentation to determine the correct sequence of events for the Quectel BC25 module.",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1541,9 +1541,9 @@
   },
   {
     "question": "The city council's handling of the budget and finances has been a subject of controversy. According to the city charter, the Finance Director is required to provide a simple accounting of city finances. However, Jennifer Hennessy has refused to do so, citing her inability to follow the charter. Meanwhile, Mark Sorensen has been challenging the city's budget, citing the depletion of funds and the high cost of salaries. What is the most plausible explanation for the city's financial situation, considering the following statements:",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1625,9 +1625,9 @@
   },
   {
     "question": "According to the research by Lestari et al. and other studies, what is a potential consequence of implementing spatiotemporal closures and restrictions on fishing effort in the Tanjung Luar shark fishery, and how might this impact the livelihood strategies of coastal communities?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1660,9 +1660,9 @@
   },
   {
     "question": "Consider a transport problem governed by the Fokker-Planck equation, where the angular flux is approximated using Legendre moments. The NFPA method involves introducing an additional term $\\hat{D}_F$ to the modified FP equation, which is derived from the HO equation. However, the LO equation is not directly related to the HO equation, and the angular moments of the flux in the HO and LO equations are not consistent.",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1688,7 +1688,7 @@
   },
   {
     "question": "A music streaming service, Broadjam, allows users to upload and share their music content. According to Broadjam's terms of service, users must acknowledge that they own the rights to the music they upload and that they have obtained any necessary permissions or licenses. However, a user uploads a song that is actually a cover of a popular song by another artist, without obtaining the necessary permissions. Broadjam's designated agent, Elizabeth T Russell, is responsible for addressing copyright infringement claims. If a third party reports the infringement to Broadjam, what is the most likely outcome for the user who uploaded the unauthorized cover song?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 3
@@ -1835,14 +1835,14 @@
   },
   {
     "question": "A function $f(x)$ is defined as follows:\n\n$f(x) = \\begin{cases} \n\\sqrt[3]{x}\\sin{\\left(x^2\\right)}, & \\mbox{if } x \\neq 0 \\\\\n0, & \\mbox{if } x = 0 \n\\end{cases}$\n\nThe function $f(x)$ is differentiable at $x=0$. Which of the following statements is true?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 5
   },
   {
     "question": "A semiconductor manufacturing line requires a high degree of cleanliness, necessitating the placement of the entire line in a large clean room. However, the large diameter of the sample necessitates the installation of a large vacuum processing apparatus, which in turn requires a significant amount of floor space. To address this issue, a novel vacuum processing system is proposed, comprising a plurality of vacuum processing chambers, a vacuum transfer chamber, and a locking device. The vacuum processing chambers are symmetrically arranged around the vacuum transfer chamber, and the locking device is positioned to control the movement of the vacuum transfer chamber. The system is designed to process a dummy wafer 30, which is placed in the cassette 1c and then transported to the etching process chamber 11a or 11b for processing. The processed wafer is then returned to its original position in the cassette 1a.",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -1905,7 +1905,7 @@
   },
   {
     "question": "Which of the following players is most likely to benefit from attending the Orlando pre-draft camp, given their current draft stock and the need to improve specific aspects of their game?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
@@ -2122,9 +2122,9 @@
   },
   {
     "question": "A robot is navigating through a 2D environment composed of multiple polytopic obstacles, each defined by their half-space representation (H-representation). The robot's goal is to reach a target location in the environment. The robot's path preference is defined as the posterior distribution over transitions from the current to the neighboring polytopes, given the robot's location, the goal, and the human's preference for its current vertex. However, the human's preference is not mutually independent, and there is a dependent relationship between preferences for adjacent edges.",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2143,9 +2143,9 @@
   },
   {
     "question": "A semiconducting SWNT with a diameter of 1 nm is subjected to a low-energy nitrogen ion exposure, creating a di-vacancy defect pair along its axis. The resulting quantum dot (QD) has a confinement energy level spacing of 100 meV. According to the provided documentation, what is the most likely reason for the observed QD shortening in the valence band, as indicated by the effective length of the QD being larger than the actual length of the nanotube?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2164,9 +2164,9 @@
   },
   {
     "question": "A quantum error mitigation scheme is employed to correct for two-qubit depolarizing noise in a quantum circuit. The scheme involves a denoiser that is constructed by applying a random circuit sampled from a quasiprobability distribution to the noisy Trotter supercircuit. The denoiser is designed to mitigate the sign problem, which arises due to the non-unitary nature of the noise channel. However, the scheme relies on the assumption that the denoiser can accurately cancel out the accumulated errors. What is the primary limitation of this approach, and how can it be addressed?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2262,9 +2262,9 @@
   },
   {
     "question": "Consider the inequality $(2-t) \\left( \\int \\omega_2 e^{(2t+1) u} \\phi^{2m} dx \\right)^\\frac{1}{2t+1} \\le I_G^\\frac{1}{2t+1} + J_G^\\frac{1}{2t+1}$, where $I_G$ and $J_G$ are integrals involving the functions $\\omega_1$ and $\\omega_2$, and $m$ is a big integer. Suppose that $\\omega_1 \\le C \\omega_2$ for big $x$, $\\omega_2 \\in L^\\infty$, and $|\\nabla \\omega_1| \\le C \\omega_2$ for big $x$. Which of the following statements is true?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2276,9 +2276,9 @@
   },
   {
     "question": "A 15-year-old boy with Asperger's Syndrome has been experiencing significant behavioral challenges at home and school, causing tension and stress within the family. His parents have tried various strategies to address these issues, including behavioral therapy, medication, and lifestyle changes. However, the boy's behavior continues to escalate, and his parents are struggling to find effective solutions.\n\nThe family's situation is further complicated by the fact that the boy's older brother has a history of misdiagnosis and has struggled with his own mental health issues. The family's parents are also dealing with their own health concerns, including a husband who has had multiple cerebral aneurysms and a wife who has lost both parents.\n\nThe boy's parents are considering seeking additional professional help, but they are unsure of where to turn. They have tried various therapies and interventions, but the boy's behavior continues to worsen. The family is desperate for a solution and is willing to try anything to help their son.",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2311,9 +2311,9 @@
   },
   {
     "question": "In the context of magnetohydrodynamics, what is the primary assumption made in the averaged model presented in Chunk1, and how does it differ from the traditional ADAF scaling, which is $\\rho\\sim r^{-1.5}$?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2346,9 +2346,9 @@
   },
   {
     "question": "A researcher is analyzing the performance of a probabilistic LMS algorithm in a non-stationary environment. The algorithm is used to estimate a vector ${\\bf w}_k$ with a dynamic process, where the variance $\\sigma_d^2$ follows a diffusion process. The researcher wants to determine the optimal covariance matrix $\\boldsymbol\\Sigma_k$ for the posterior distribution $p({\\bf w}_k|y_{1:k})$. However, the covariance matrix is not explicitly given, and the researcher needs to use the Kullback-Leibler divergence to minimize the difference between the original and approximate distributions.",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2388,9 +2388,9 @@
   },
   {
     "question": "The Congressional hearings into the 1998 LTCM crisis revealed that the language introduced into an agriculture bill would prevent CFTC from regulating the derivatives at the center of the crisis. This legislation was passed under heavy pressure from the financial lobby. Given the following statements:",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2409,9 +2409,9 @@
   },
   {
     "question": "Hugh Goodwin's naval career was marked by a series of promotions and assignments that required him to work closely with various senior officers and organizations. Analyze the following information to determine the correct sequence of events:",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2458,21 +2458,21 @@
   },
   {
     "question": "A researcher is studying the behavior of a two-dimensional heavy-cylindrical bubble in a flow field with a specific-heat ratio of 1.5. The bubble is subjected to a planar shock wave, and the flow field is described by the simplified Boltzmann equation:\n\n\u2202f/\u2202t + v \u2207f = -\u2207p + \u03bc \u2207\u00b2f + \u2207 \u00b7 (\u03c4 \u2207f)\n\nwhere f is the distribution function, v is the particle velocity vector, p is the pressure, \u03bc is the dynamic viscosity, \u03c4 is the relaxation time, and \u03b3 is the specific-heat ratio.\n\nTo analyze the effects of the specific-heat ratio on the bubble shape, deformation process, average motion, vortex motion, mixing degree of the fluid system, TNE strength, and entropy production, the researcher uses the following methods:",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
   },
   {
     "question": "A researcher is investigating the use of electrospun nanofibers as a scaffold for tissue engineering, with a focus on the mechanical properties of single electrospun drug-encapsulated nanofibers. The study found that the mechanical properties of the nanofibers were significantly affected by the type of polymer used in their production, and that the incorporation of nanoparticles into the nanofibers can enhance their mechanical properties. However, the use of nanoparticles also raises concerns about potential toxicity and the need for careful consideration of the polymer composition and its effects on the scaffold's mechanical properties. What are the potential benefits and risks of using nanoparticles in tissue engineering, and how can the researcher mitigate these risks to create a scaffold with optimal mechanical properties?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
     "question": "The ACC's preseason all-conference team has been released, and BC has not had a single player selected. However, the media guide features two likable but unknown seniors. What is the primary reason why BC's lack of representation on the all-conference team may impact the team's chances of winning national awards, despite having a strong offense?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -2514,7 +2514,7 @@
   },
   {
     "question": "A robot is navigating through a complex environment to reach an unknown goal, and it receives sparse human interventions in the form of heading directions. The robot's action space is limited to moving in one of four possible directions (up, down, left, or right), and the transition model is deterministic. The robot's observation model for the human is stochastic and conditioned on both the goal and the human's preferred path. The human's preference is represented as a partitioning of the space into polytopes, and the robot must adapt to these preferences online. What is the correct inference for the robot's belief state at time step t, given the following information:",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 5
@@ -2535,7 +2535,7 @@
   },
   {
     "question": "The analysis of variance for linear model of standardised CPUE (individuals per 100 hooks per set) data from Tanjung Luar indicates that the most significant factors influencing standardised CPUE of threatened species are month, fishing ground, and engine power. However, a best fit GLM indicates that the most significant factors influencing the likelihood of catching threatened species are month, number of hooks, and engine power. Which of the following statements is TRUE, given that the Tanjung Luar shark fishery is characterized by a high proportion of threatened and regulated species, and considering the relationships between CPUE and fishing behavior variables?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 5
@@ -2563,9 +2563,9 @@
   },
   {
     "question": "The reactivation of the OA1 transgene in response to EAA starvation is mediated by a complex signaling pathway involving GCN2, mTORC1, and the ISR. However, the specific role of GCN2 in this process is still unclear. Which of the following statements best describes the relationship between GCN2 and the ISR in the context of EAA starvation?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -2584,9 +2584,9 @@
   },
   {
     "question": "A digital hospital in a 5G network, which relies heavily on IoT devices for data collection and analysis, is vulnerable to various security threats. The hospital's security team needs to implement a mobile device management (MDM) system to manage and secure the devices. However, the existing MDM systems are not designed to handle the unique security requirements of IoT devices. What type of business model would be most suitable for a cybersecurity vendor to offer MDM services to the digital hospital, considering the need for end-to-end security and the limitations of conventional MDM systems?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2605,7 +2605,7 @@
   },
   {
     "question": "According to the provided documentation, what is the primary advantage of the NFPA solver over FPSA in runtime performance, particularly as the FP limit is approached?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -2633,7 +2633,7 @@
   },
   {
     "question": "Based on the provided text, what is the estimated distance to the white dwarf within XMMSL1~J060636.2-694933, considering the uncertainty in the outburst date and the maximum brightness at outburst?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 5
@@ -2801,28 +2801,28 @@
   },
   {
     "question": "In a vacuum processing system, a sample is transported from a cassette block to a vacuum processing chamber via a load lock chamber and an unload lock chamber. The vacuum processing chamber is equipped with a gate valve that connects to a vacuum transfer chamber. The vacuum transfer chamber is connected to a vacuum loader, which is also equipped with a gate valve. The vacuum loader is positioned in a T-arrangement with the atmospheric loader and the locking device. The vacuum processing chamber is formed by a UHF-ECR reactor, which is symmetrically positioned with respect to the axis passing through the center of the vacuum transfer chamber and the locking device. The UHF-ECR antennas are parallel to the axis and are opened to the opposite side of the vacuum transfer chamber. The vacuum processing chamber is designed to process a wafer with a diameter of 8-12 inches. However, the vacuum processing system is designed to accommodate wafers with diameters up to 15 inches. What is the primary advantage of this vacuum processing system in terms of its ability to process large-diameter wafers?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
   },
   {
     "question": "Mufti-e-Azam-e-Hind, Moulana Mustapha Raza Khan (radi Allahu anhu) was known for his extreme hospitality. He would often give away his own belongings to those in need. However, he was also known to be quite particular about his personal belongings. According to one of his Khaadim's, Mufti-e-Azam-e-Hind (radi Allahu anhu) would often say, \"A person who is not worthy of receiving blessings from others should not be given blessings by others.\" Considering the following information:",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
     "question": "A new acceleration technique, called Nonlinear Fokker-Planck Acceleration (NFPA), has been developed to solve the transport equation in homogeneous slab geometry. NFPA accelerates up to $N$ moments of the angular flux and has shown significant improvement in convergence rate compared to existing methods. However, NFPA requires a modified Fokker-Planck equation that preserves the angular moments of the flux given by the transport equation. Which of the following statements about NFPA is NOT true?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
     "question": "The spontaneous avalanche to plasma process in a Rydberg gas involves the conversion of Rydberg molecules to ions and electrons. According to the rate equations, the relaxation of Rydberg molecules balances with collisional ionization to determine an evolving temperature of avalanche electrons. However, the Penning effect can lead to the formation of a Penning lattice, where ions and Rydberg molecules are spatially isolated. This process can be described by the following equation:\n\nE_{tot} = \\frac{3}{2}k_BT_e(t)\\rho_e(t) - R\\sum_i{\\frac{\\rho_i(t)}{n_i^2}}",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 5
@@ -2990,16 +2990,16 @@
   },
   {
     "question": "A social network server 101 is coupled to a network 105, which may include a local area network (LAN), a wide area network (WAN), or a peer-to-peer network. The social network server 101 contains a social network application 109 and a social graph 179 that reflects a mapping of users and their relationships. In one embodiment, the channel application 103 receives data from the social network server 101, a third-party server 107, user devices 115 a, 115 n, a search server 135, an entertainment server 137, a ratings server 139, and an email server 141. The channel application 103 generates a model based on the data from the heterogeneous data sources, identifies a channel category based on a user's activities and historical trends, receives candidate content items that include the channel category from heterogeneous data sources, scores the candidate content items by comparing them to the model, and generates a stream of content for the channel. However, the social network server 101 may also be coupled to a content filtering system 167 that applies a set of rules to determine which content items to include in the stream. The content filtering system 167 may be based on a machine learning model that takes into account the user's past behavior and preferences. In one embodiment, the channel application 103 must integrate the output of the content filtering system 167 into its decision-making process. Which of the following statements is true about the channel application 103's integration with the content filtering system 167?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
     "question": "Broadjam's hosting services allow users to upload and share their music content. However, a user's website is experiencing excessive overloading due to a denial-of-service attack. The user's website is hosted on Broadjam's servers, and the company has received notice of the attack. According to Broadjam's terms of service, the user is responsible for ensuring that their website does not overload Broadjam's DNS or servers. However, the user claims that they did not intentionally cause the overloading and that the attack was launched by a rival music artist. The user also mentions that they have registered their website with the US Copyright Office and have obtained a unique username and password for their account.",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -3081,14 +3081,14 @@
   },
   {
     "question": "Consider a function $f(x)$ defined as follows:\n\nChunk0: \n\\begin{equation*}\nf(x) = \\begin{cases}\nx^2, & \\text{if } x \\neq 0 \\\\\n0, & \\text{if } x = 0\n\\end{cases}\n\\end{equation*}\n\nChunk1: \nThe function $f(x)$ is defined at $x=0$. However, its derivative is undefined at $x=0$. What is the problem with the standard procedure for finding the derivative of $f(x)$ at $x=0$?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4
   },
   {
     "question": "A new Alliance War is about to begin, and you need to strategically deploy your Champions to maximize your chances of victory. You have 5 Champions to choose from, each with unique abilities and strengths. The enemy team consists of 3 Champions with the following abilities:\n\n* Champion A: Special Attack 1 deals 100 damage, Special Attack 2 deals 200 damage, and Special Attack 3 deals 300 damage.\n* Champion B: Special Attack 1 deals 150 damage, Special Attack 2 deals 250 damage, and Special Attack 3 deals 350 damage.\n* Champion C: Special Attack 1 deals 80 damage, Special Attack 2 deals 160 damage, and Special Attack 3 deals 240 damage.\n\nYour Champions have the following abilities:\n\n* Champion D: Special Attack 1 deals 120 damage, Special Attack 2 deals 220 damage, and Special Attack 3 deals 320 damage.\n* Champion E: Special Attack 1 deals 90 damage, Special Attack 2 deals 180 damage, and Special Attack 3 deals 270 damage.\n* Champion F: Special Attack 1 deals 180 damage, Special Attack 2 deals 280 damage, and Special Attack 3 deals 380 damage.\n\nYou have 3 Arena Boosts available:",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 4
@@ -3137,9 +3137,9 @@
   },
   {
     "question": "The author of the documentation mentions that the Diehl wing skins require the rear spar to be swept slightly more forward than the stock wings. However, the author found that the rear spar attach fittings were installed backwards with the longer spaced hole towards the fuselage. This requires a major change to the rear spar attach fittings. What is the most likely reason why the author chose to fabricate a new set of rear spar attach fittings, rather than simply re-drilling the existing holes to the correct orientation?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -3158,7 +3158,7 @@
   },
   {
     "question": "Which of the following players is most likely to benefit from attending the Orlando pre-draft camp, given their current draft stock and the potential for improvement in their game?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -3263,9 +3263,9 @@
   },
   {
     "question": "A critical inspection of the wing's leading edge reveals a delamination between the glass lay-up on top and the upper and lower wing skin edges that were floxed together underneath. The mold release had never been scrubbed off, causing the leading edge to delaminate. To rebuild the wing, the following steps must be taken:",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -3403,7 +3403,7 @@
   },
   {
     "question": "Consider a quantum dot (QD) system with two exchange mechanisms: the conventional Andreev reflection (CAR) and direct exchange. The QD is coupled to a superconductor (SC) and a normal lead. The system is detuned from the particle-hole symmetry (PHS) point, with a detuning parameter $\\delta_1 = \\delta_2 = \\delta$.",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 4
@@ -3564,9 +3564,9 @@
   },
   {
     "question": "According to the NIST P-160 elliptic curve space/time tradeoffs figures, what is the approximate number of physical qubits required to break the scheme in one day (24 hours) when the physical error rate per gate $p_g$ is $10^{-5}$?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -3599,9 +3599,9 @@
   },
   {
     "question": "A pastor reflects on their sermon preparation process, emphasizing the importance of finding a unique blend of strengths and weaknesses to effectively preach. They discuss their approach to sermon structure, using the INSTeP acronym to guide their introduction, and share their experience with the Analytic Theology section at the Annual Meeting of the Evangelical Theological Society. However, they express disappointment with the lackluster discussion and unhelpful questions presented by some speakers. The pastor also shares their experience with a labyrinth, using it as a metaphor for life's journey, with its linear and chronological path representing their physical lifetime, and the sharp turns symbolizing significant life changes or challenges.",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -3620,7 +3620,7 @@
   },
   {
     "question": "A RSU is equipped with a system model that includes a Modified Markov Jump Particle Filter (M-MJPF) to predict the interaction between RF signals and GPS signals. The M-MJPF uses a Generalized state-space model to describe the evolution of the RF signal and the GPS signal. The system model also includes a time-varying transition matrix ($\\Pi_{\\tau}$) to capture the dynamic transitions of the sensory signals among the available clusters.\n\nA RSU receives RF signals from two vehicles, vehicle 1 and vehicle 2, with different power levels ($\\mathrm{M_{1}}{=}5$ and $\\mathrm{M_{2}}{=}5$ for vehicle 1, and $\\mathrm{M_{1}}{=}25$ and $\\mathrm{M_{2}}{=}25$ for vehicle 2). The RSU also receives GPS signals from both vehicles.\n\nWhich of the following statements is true about the RSU's system model?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4
@@ -3634,9 +3634,9 @@
   },
   {
     "question": "The Ohio State Buckeyes baseball team's performance in the 1951 NCAA season was influenced by several factors, including their head coach, Marty Karow, and their roster. However, the team's success was ultimately hindered by their loss to the Texas A&M Aggies in the College World Series. Which of the following statements about the Buckeyes' performance in the 1951 season is most consistent with the information provided, considering the impact of their roster and head coach on their success in the College World Series?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -3711,7 +3711,7 @@
   },
   {
     "question": "A Quectel device with a 20W output is used to charge a device with a 5V, 2.4A requirement. The device has a built-in Emarker for temperature control. What is the maximum power consumption of the device when the Quectel device is used to charge it, and the Emarker is set to 5V?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4

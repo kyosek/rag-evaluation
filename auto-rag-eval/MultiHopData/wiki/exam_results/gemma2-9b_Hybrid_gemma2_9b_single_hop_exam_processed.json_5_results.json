@@ -22,7 +22,7 @@
   },
   {
     "question": "Which film listed features a character named \"Bugsy\" and is connected to a historical conflict?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -36,9 +36,9 @@
   },
   {
     "question": "Which of the following individuals held a position of authority in both Cambrai and Soissons?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -85,7 +85,7 @@
   },
   {
     "question": "Which of the following individuals experienced a significant career shift after a personal tragedy, leading to a notable change in their professional focus?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -155,9 +155,9 @@
   },
   {
     "question": "Which of the following best describes a key similarity in the leadership approaches of the museum directors discussed?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -190,9 +190,9 @@
   },
   {
     "question": "Which of the following individuals is most closely associated with a shift in perspective regarding the concept of God, moving from a skeptical view to one of profound awe and mystery?",
-    "model_answer": "E",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -211,9 +211,9 @@
   },
   {
     "question": "Based on the information provided, what can be inferred about the primary focus of Douglas Adams' professional career?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -253,9 +253,9 @@
   },
   {
     "question": "Which of the following individuals is most closely associated with a publication that focused on a specific niche interest rather than a broad range of topics?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -281,9 +281,9 @@
   },
   {
     "question": "Given the complex relationship between King Gustav III, Queen Sophia Magdalena, and their court, what was the most likely reason for the King's fear when Sophia Magdalena deposited money for Munck?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -309,9 +309,9 @@
   },
   {
     "question": "Based on the provided information, what can be inferred about the nature of Kennedy's contributions to the art world?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -351,7 +351,7 @@
   },
   {
     "question": "What ultimately led to Wilson's departure from his role with the Milwaukee Brewers?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -498,7 +498,7 @@
   },
   {
     "question": "What ultimately led to Waylon Jennings's successful transition to a rock-influenced style of country music?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -659,7 +659,7 @@
   },
   {
     "question": "Which of the following statements accurately reflects the career trajectory of the individual described in the provided text?",
-    "model_answer": ".",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -715,9 +715,9 @@
   },
   {
     "question": "Which individual is directly linked to the establishment of a major religious movement?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -757,9 +757,9 @@
   },
   {
     "question": "What significant event occurred at the Hood Museum of Art during the period between 2005 and 2010?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -820,9 +820,9 @@
   },
   {
     "question": "What ultimately led to the deterioration of Sophia Magdalena's relationship with her husband, despite a period of improvement?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -883,7 +883,7 @@
   },
   {
     "question": "Which of the following statements accurately reflects the career trajectories of the individuals involved in the film productions described?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -904,9 +904,9 @@
   },
   {
     "question": "What significant event occurred at the Hood Museum of Art during the period between 2005 and 2010?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -967,9 +967,9 @@
   },
   {
     "question": "Which of the following artistic collaborations is NOT explicitly mentioned as being promoted by Omar in the provided text?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -1002,9 +1002,9 @@
   },
   {
     "question": "What was the primary reason given by President Lee Myung-bak for pardoning Lee Kun-hee?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -1023,9 +1023,9 @@
   },
   {
     "question": "Which individual's career path involved a transition from composing songs for stage productions to a role in a musical comedy?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -1044,9 +1044,9 @@
   },
   {
     "question": "What significant career shift did Juran make in the late 1950s, and what specific genre of film did he primarily focus on in this new role?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   }
 ]

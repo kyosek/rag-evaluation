@@ -92,9 +92,9 @@
   },
   {
     "question": "Given the potential for extensions under both the old and new petroleum laws, what is the maximum possible duration, in years, that a production lease could be in effect after its initial 20-year term?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -176,9 +176,9 @@
   },
   {
     "question": "Considering the company's strategic initiatives outlined in the filing and the current market trends discussed in the industry report, what is the most likely scenario that could lead to a significant decrease in the company's market share within the next five years?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -302,7 +302,7 @@
   },
   {
     "question": "Based on the provided information, what is the primary factor influencing the company's decision to utilize third-party contractors for mining and operation of the processing facility?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -330,7 +330,7 @@
   },
   {
     "question": "Given the regulatory frameworks described in the provided text, in which state would a utility subsidiary of AEP be most likely to experience a significant change in its fuel cost recovery mechanism in the near future?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -498,9 +498,9 @@
   },
   {
     "question": "Based on the provided financial data, what is the most likely reason for the discrepancy in NOI (including straight-line rents) percentage change between 2006 and 2008?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -512,14 +512,14 @@
   },
   {
     "question": "Given the company's financial situation and its stated intentions, what is the most likely scenario for the company's future under current market conditions?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "Given the regulatory frameworks described in the provided text, in which state would a utility subsidiary of AEP be most likely to experience a significant change in its fuel cost recovery mechanism in the near future?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -540,7 +540,7 @@
   },
   {
     "question": "In which country would an exploration license initially granted in 2007 most likely be subject to a maximum extension period of five years?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -589,9 +589,9 @@
   },
   {
     "question": "Given the complex history of land ownership and agreements surrounding the Caribou prospect, what is the most accurate statement regarding AAI's current rights and obligations related to the property?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -603,16 +603,16 @@
   },
   {
     "question": "Based on the provided information, what is the primary factor contributing to the revision of proved undeveloped reserves (PUD) in 2017?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "Given the economic and environmental considerations of mining operations, what is the PRIMARY factor influencing the decision to utilize underground mining versus open-pit mining for a newly discovered gold deposit?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -750,23 +750,23 @@
   },
   {
     "question": "Based on the provided property data, what is the average effective rent per square foot for properties located in Burlington County with a base rent percentage greater than 70%?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "Given the potential for IRS adjustments to past tax credits, what is the estimated financial impact on Limited Partners, assuming the IRS takes a specific position regarding the years 1995, 1997, and 1998, and that 100% of the allocated tax credits were utilized by the Limited Partners?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "Based on the provided information, what is the weighted average escalated rent per square foot for the Company's office space in New York City as of December 31, 2003, excluding the space leased to the U.S. Post Office?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -785,9 +785,9 @@
   },
   {
     "question": "Based on the exploration history and geological characteristics described, what is the most likely reason for the observed correlation between anomalous gold values and anomalous silver values in rock samples from the Clisbako property?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -827,9 +827,9 @@
   },
   {
     "question": "Based on the provided tenant data, which company has the highest ratio of annualized base rental revenue to the number of square feet leased, excluding those with less than 1 million square feet leased?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -876,9 +876,9 @@
   },
   {
     "question": "Based on the provided information, what was the estimated liquidation value per Unit of the Partnership in December 1996, assuming the properties were sold at the values reflected in NDRC's December 31, 1996 appraisal, and all other factors remained constant?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -939,7 +939,7 @@
   },
   {
     "question": "Based on the provided information, which geographic region exhibits the most significant concentration of Fortune 500 company headquarters, considering both the number of headquarters and the presence of a major transportation hub?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -1044,9 +1044,9 @@
   },
   {
     "question": "Based on the provided information, what is the primary factor influencing the potential increase in permissible tonnage under the Phase I PEA guidelines for the Pilot Plant?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -1086,7 +1086,7 @@
   },
   {
     "question": "Based on the provided information about The Villages and Lake O' The Woods resorts, what can be definitively concluded about the development strategy employed by the company managing these resorts?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1107,9 +1107,9 @@
   },
   {
     "question": "A)  The discovery of a more lucrative gold deposit elsewhere.",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1128,9 +1128,9 @@
   },
   {
     "question": "Which property listed in the provided documentation experienced the highest percentage increase in occupancy between its acquisition date and the date of the \"Const Occupancy thru\" listed?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1184,9 +1184,9 @@
   },
   {
     "question": "Based on the provided information, what is the most significant potential consequence for MeriStar Hospitality if it fails to meet the leverage covenant under its credit agreement?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1415,9 +1415,9 @@
   },
   {
     "question": "Based on the provided information regarding WPC's net profits interest in the Farmout Properties, what is the primary factor influencing the calculation of proved reserves attributable to this interest?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -1485,7 +1485,7 @@
   },
   {
     "question": "Which of the following statements accurately reflects the interconnectedness of financial instruments described in the provided documents, considering the roles of trustees and guarantors?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4
@@ -1576,7 +1576,7 @@
   },
   {
     "question": "Given the available data on the Johnson Camp Property, what is the primary method used to verify the accuracy of the drill hole database, and what specific finding supports the conclusion that this method is effective?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4
@@ -1597,9 +1597,9 @@
   },
   {
     "question": "What was the total value of common stock issued by the company between October 20, 2006, and February 1, 2009, specifically for services and advisory fees paid to related parties, excluding any stock issued for acquisitions or unrelated services?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1674,9 +1674,9 @@
   },
   {
     "question": "What specific assay technique, initially deemed inadequate, was ultimately refined and proven effective for extracting economically significant gold and silver from the El Capitan Property samples?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {

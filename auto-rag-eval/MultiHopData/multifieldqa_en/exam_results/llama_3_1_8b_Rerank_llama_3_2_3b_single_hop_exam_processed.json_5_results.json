@@ -15,7 +15,7 @@
   },
   {
     "question": "The partition function $Z$ is defined as the integral over all possible electromagnetic field configurations, constrained by the total power received by the system and the total amount of energy transmitted through the medium. The cost function ${\\cal H}$ is a real-valued function that depends on the effective input-input coupling matrix $U_{kl}$ and the interaction matrix $\\mathbb{J}$. \n\nWhich of the following statements is true about the partition function $Z$?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -246,9 +246,9 @@
   },
   {
     "question": "Analyze the passage to determine the likely outcome for Jesse Lazear, the American who contracted yellow fever in Cuba in 1900, based on the information provided about the disease's progression and the experiment described by Lazear.",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -309,9 +309,9 @@
   },
   {
     "question": "A patient is diagnosed with hemophilia A, a disorder caused by a deficiency in factor VIII. The patient's doctor prescribes a treatment that involves administering a prothrombin complex concentrate (PCC) containing factor VIII, as well as factor IX and factor X. However, the patient also has a history of taking a medication called Romiplostim, which is a thrombopoietin receptor agonist. Which of the following statements is true about the patient's treatment?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -400,7 +400,7 @@
   },
   {
     "question": "What can be inferred about the fishing practices of larger vessels compared to smaller vessels based on the information provided?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -519,9 +519,9 @@
   },
   {
     "question": "What was the primary reason for KSTP's rebranding as \"SKOR North\" in 2019, and how did this change impact the station's programming schedule?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -631,7 +631,7 @@
   },
   {
     "question": "What can be inferred about the distance to XMMSL1~J060636.2-694933 based on the uncertainty in the estimated peak magnitude at outburst?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -729,7 +729,7 @@
   },
   {
     "question": "Which of the following models achieves the highest average precision at the 50% threshold, while also achieving the highest average precision at the 75% threshold, and has the lowest FLOPS?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1

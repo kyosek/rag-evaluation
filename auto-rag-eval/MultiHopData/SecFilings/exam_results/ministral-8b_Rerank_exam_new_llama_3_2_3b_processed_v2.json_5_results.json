@@ -736,7 +736,7 @@
   },
   {
     "question": "A Partnership sold a property in Albany, Georgia for $130,000 less expenses of $9,500 to an affiliated party, resulting in a loss of approximately $1,500. This sale occurred after the Partnership's assets were adjusted to net realizable amounts, resulting in a reduction in the value of the property of approximately $36,000. The Partnership also sold a property in Albany, Georgia, located at 118 E. Michigan Avenue, for approximately $210,000 to an unaffiliated third party on June 18, 1999, resulting in a gain of approximately $25,100. However, the Partnership's assets were adjusted to net realizable amounts, resulting in a reduction in the value of this property of approximately $7,000. Furthermore, the Partnership sold a property in Albany, Georgia, located at 1707 North Slappey Boulevard, for approximately $130,000 less expenses of $9,500 to an affiliated party on August 7, 2000, resulting in a loss of approximately $1,500. Which of the following statements is true?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 4
@@ -820,9 +820,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the total PV-10 value of the Company's estimated net proved oil and gas reserves as of December 31, 1998, considering the effects of hedging contracts and the benchmark prices in effect at that date?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -869,7 +869,7 @@
   },
   {
     "question": "Based on the provided information, what is the expected outcome for the proved undeveloped reserves of the Trust and Underlying Properties as of December 31, 2017, considering the changes in net proved reserves and the calculation of discounted future net revenues?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4
@@ -890,9 +890,9 @@
   },
   {
     "question": "Based on the provided documentation, which of the following statements about the Company's oil and natural gas leases in Wyoming is NOT accurate?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -1030,7 +1030,7 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason for the revisions to the estimated PUD reserves in 2020, as stated in Chunk0?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -1170,7 +1170,7 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason for the economic viability of the Advance property, considering the metal values decrease outward from the deposits?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -1548,9 +1548,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason for the abandonment of the Morrow #23-1H well in the Goudeau Prospect, despite its potential as a deep geo-pressured Austin Chalk prospect?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -1562,9 +1562,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the expected outcome of the capital allocated to offshore development activities in 2014, considering the conversion of PUDs to PDs and the potential expiration of undeveloped leasehold acreage?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1604,9 +1604,9 @@
   },
   {
     "question": "The Company is in the process of negotiating a settlement with the former tenant of the Garden Gateway Plaza, which has 17,600 rentable square feet. According to the Concentration of Tenants table, which of the following tenants accounted for 10% or more of the Company's aggregate annual rental income for this property as of December 31, 2009?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1681,7 +1681,7 @@
   },
   {
     "question": "What is the difference in the number of proved undeveloped oil and gas reserves identified by BROG as of December 31, 2011, compared to the number identified by Burlington as of December 31, 2014?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -1779,7 +1779,7 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason for the delay in finalizing the contract for the El Capitan Property, and how does this delay impact the Company's ability to recognize revenue from the sale of concentrates?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1947,7 +1947,7 @@
   },
   {
     "question": "Based on the provided documentation, what can be inferred about the structural controls of the gold mineralization in Zone 2 of the Kibi Gold Trend Project, considering the drilling results from Trenches TKB006 and TKB010, and the scissor drill pattern targeting the central portion of the zone?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 3
@@ -2311,7 +2311,7 @@
   },
   {
     "question": "Based on the information provided, what is the total amount of debt outstanding by GMH as of December 31, 2006, and how does this amount relate to the debt outstanding by GMH as of December 31, 2007?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -2332,9 +2332,9 @@
   },
   {
     "question": "Based on the provided documentation, determine the correct equity interest percentage held by the Partnership in the Fairchild Building as of December 31, 1998, considering the joint venture agreements and the occupancy rates of the properties owned by the Partnership.",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -2374,9 +2374,9 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary exploration target for the Diamond Hill project, and how does it relate to the Comus Formation host rocks?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -2836,7 +2836,7 @@
   },
   {
     "question": "Based on the provided documentation, Whiting's production costs for the years 2011, 2014, 2015, 2016, 2017, and 2018 are reported as follows:\n\nChunk0: \n- 2011: $1.1 million ($0.88/BOE)\n- 2014: $1.4 million ($1.15/BOE)\n- 2015: $1.6 million ($1.10/BOE)\n- 2016: $1.4 million ($1.38/BOE)\n- 2017: $1.5 million ($1.28/BOE)\n- 2018: $1.4 million ($1.15/BOE)\n\nChunk1: \n- 2011: 474 BOE/d (14% of 2011 daily production)\n- 2015: 939 BOE/d (24% of 2015 daily production)\n- 2016: 1,327 BOE/d (39% of 2016 daily production)\n- 2017: Not reported\n- 2018: 1,041 BOE/d (33% of 2018 daily production)\n\nChunk2: \n- 2014: $1.4 million ($1.15/BOE)\n- 2015: $1.6 million ($1.10/BOE)\n- 2016: $1.4 million ($1.38/BOE)\n- 2017: $1.5 million ($1.28/BOE)\n- 2018: $1.4 million ($1.15/BOE)\n\nChunk3: \n- 2011: 14% of 2011 daily production\n- 2014: 15% of 2014 daily production\n- 2015: 24% of 2015 daily production\n- 2016: 39% of 2016 daily production\n- 2017: Not reported\n- 2018: 33% of 2018 daily production",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "D",
     "is_correct": false,
     "number_of_hops": 5
@@ -2878,9 +2878,9 @@
   },
   {
     "question": "TCI's financial statements reflect the following transactions:",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2899,9 +2899,9 @@
   },
   {
     "question": "The Partnership's Year 2000 readiness efforts are expected to be substantially complete by early 1999, but there is no guarantee that this completion target will be achieved. If the Partnership's internal systems are not Year 2000 compliant, it may experience delayed effects of Year 2000 issues, which may disrupt its operations. However, the Partnership believes that its internal systems were Year 2000 compliant at December 31, 1999, and that the costs of correcting affected systems, if any, would not have a material impact on its financial results.",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -3081,7 +3081,7 @@
   },
   {
     "question": "Based on the provided documentation, what is the primary reason for the company's focus on acquiring properties with limited competition, quality demographics, and strong market fundamentals for development and redevelopment projects?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -3382,9 +3382,9 @@
   },
   {
     "question": "Based on the information provided in the documents, what can be inferred about the potential for significant new discoveries in the Prestea Underground mine, and how does this relate to the exploration efforts in the Akropong Trend properties?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -3480,9 +3480,9 @@
   },
   {
     "question": "The Joint Venture's gold ore processing capacity at the SCMP site is expected to increase to 300/400 tons per day. However, the current capacity is limited by the availability of virgin gold ore from the SSGM surface and stope fill. According to the documentation, the excess gold ore is stockpiled in an area that can store more than 50,000 tons. Considering the following information:",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {

@@ -197,9 +197,9 @@
   },
   {
     "question": "Under what specific conditions, as described in the provided text, can a suitable function g(x) be found to guarantee the existence of a stable sub-solution for equation (G)?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -253,7 +253,7 @@
   },
   {
     "question": "Based on the provided information, what is the most likely reason Dr. Reed's team chose to label Jesse Lazear as \"Guinea Pig No. 1\"?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 1
@@ -617,9 +617,9 @@
   },
   {
     "question": "Based on the provided information, what is the most likely distance to XMMSL1~J060636.2-694933 and what factors support this conclusion?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -1009,9 +1009,9 @@
   },
   {
     "question": "Which of the following product combinations from FastSOC Microelectronics Co., Ltd.  is specifically designed to support both PD3.1 and third-party protocols with a maximum inducement voltage of 48V?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {

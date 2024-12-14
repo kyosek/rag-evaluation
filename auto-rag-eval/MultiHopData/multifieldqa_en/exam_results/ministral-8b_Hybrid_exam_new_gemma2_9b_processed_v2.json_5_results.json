@@ -22,9 +22,9 @@
   },
   {
     "question": "How does the embodied agent's learning process adapt to variations in environmental change frequency, and what is the relationship between this adaptation and the agent's fitness?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -36,7 +36,7 @@
   },
   {
     "question": "A media application utilizes a content-recognition module to enhance user experience.  What is the primary advantage of this module over traditional search methods, as described in the provided documentation?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -120,16 +120,16 @@
   },
   {
     "question": "In light of the Court's reasoning in *Wayfair*, which of the following precedents is MOST vulnerable to potential legislative revision based on the concept of a \"constitutional default rule\"?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "According to the provided texts, what is the ultimate solution to the pervasive problem of sin's influence on humanity, and how does this solution address the inherent tension between humanity's capacity for good and the reality of its corrupted nature?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -141,7 +141,7 @@
   },
   {
     "question": "Which player, based on the provided information, is most likely to be selected in the first round of the draft despite not being considered a top prospect at their respective schools?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -169,9 +169,9 @@
   },
   {
     "question": "Given the evolving dynamics of Champion effectiveness, which class combination would most likely result in a strategic advantage for the attacking team, considering the interplay of strengths and weaknesses outlined in the provided information?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -288,9 +288,9 @@
   },
   {
     "question": "Given the provided inequalities and the conditions imposed on the test functions $\\phi$, what can be definitively concluded about the relationship between the integrals involving $\\omega_1$, $\\omega_2$, and $u$ as $R \\rightarrow \\infty$?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -302,9 +302,9 @@
   },
   {
     "question": "Based on the provided information, what specific factor, beyond disease information, contributes to the generation of symbols commonly found in discharge summaries?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -400,9 +400,9 @@
   },
   {
     "question": "Given the vulnerabilities of V2X communication systems to both jamming and spoofing attacks, what is the most critical factor hindering the widespread adoption of robust security solutions in this domain?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -414,9 +414,9 @@
   },
   {
     "question": "A)  Analyzing the impact of public policies on the chemical sciences and making recommendations to relevant ACS units.",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -435,9 +435,9 @@
   },
   {
     "question": "Based on the provided information, what can be inferred about the RSU's ability to distinguish between jamming and spoofing attacks solely based on the analysis of RF signals?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -484,9 +484,9 @@
   },
   {
     "question": "According to the provided documentation, under what specific condition do the velocities of compressible and incompressible blobs converge?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -841,7 +841,7 @@
   },
   {
     "question": "Considering the potential for both societal progress and disruption presented by digital media, as discussed in the provided texts, what is the most crucial factor in ensuring that the benefits of this technology outweigh the risks?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -897,9 +897,9 @@
   },
   {
     "question": "Based on the analysis of cryptocurrency returns, what can be inferred about the relationship between market capitalization, age, and the power-law exponent associated with positive returns?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1107,7 +1107,7 @@
   },
   {
     "question": "A developer is designing a multi-port charging solution for a new device. They need to support both USB-C and USB-A ports, with the ability to deliver a maximum power output of 65W.  \n\nBased on the provided information, which specific combination of chips would be most suitable for this developer's needs?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1254,9 +1254,9 @@
   },
   {
     "question": "Which team's strategy for the CG:SHOP 2022 challenge primarily focused on minimizing the number of uncolored vertices during the coloring process?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1408,7 +1408,7 @@
   },
   {
     "question": "A) The conduction gap is primarily determined by the strength of the applied strain, regardless of its direction.",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
@@ -1485,9 +1485,9 @@
   },
   {
     "question": "What is the most likely explanation for the significant decrease in X-ray luminosity observed between the XMM-Newton slew discovery and the subsequent Swift-XRT observations?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -1506,16 +1506,16 @@
   },
   {
     "question": "Given the tradeoffs presented in the figures for various NIST elliptic curve and RSA cryptosystems, which cryptographic scheme, when implemented with a physical error rate per gate of $10^{-5}$, would require the **fewest** physical qubits to break in one day (24 hours) while still maintaining a classical security parameter of at least 112 bits?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
     "question": "Given the tradeoffs presented in the figures for various elliptic curve and RSA cryptographic schemes, what is the minimum number of physical qubits required to break a cryptographic scheme with a classical security parameter of 192 bits within a 24-hour timeframe, assuming a physical error rate per gate of $10^{-3}$?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -1618,9 +1618,9 @@
   },
   {
     "question": "Considering the perspectives presented in the provided documents, what is the most likely reason for the delayed formation of the Iraqi government and the subsequent concerns raised by various stakeholders?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -1765,7 +1765,7 @@
   },
   {
     "question": "Given the advancements in fault-tolerant quantum error correction through lattice surgery techniques, how does the quantum security parameter of symmetric cryptographic schemes like AES-128, AES-192, and AES-256 compare to that of hash functions like SHA-256 and SHA3-256, and what implications does this comparison have for the future of cryptographic security?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
@@ -1821,9 +1821,9 @@
   },
   {
     "question": "Based on the provided experimental observations and theoretical calculations, what can be definitively concluded about the electronic structure and bonding characteristics of the 5OS species when compared to the 5para species?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1849,9 +1849,9 @@
   },
   {
     "question": "In the context of transgene reactivation in response to amino acid (AA) starvation, which of the following statements accurately reflects the relationship between GCN2, the ISR, and transgene expression?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1926,9 +1926,9 @@
   },
   {
     "question": "Which team's conflict optimizer implementation, when compared to the others, demonstrated the most significant advantage in handling instances with a high density of intersecting line segments, and what specific strategy did they employ to achieve this?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1940,9 +1940,9 @@
   },
   {
     "question": "Given the challenges of estimating Toeplitz covariance matrices and their inverses, what specific advantages does the proposed methodology offer over traditional approaches like the Whittle likelihood method, and how does it address the limitations of those methods?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1982,7 +1982,7 @@
   },
   {
     "question": "In the context of accelerating convergence in radiative transfer problems, how does the Nonlinear Fokker-Planck Acceleration (NFPA) method differ from the standard Fokker-Planck Synthetic Acceleration (FPSA) method, and what are the implications of this difference for multiphysics applications?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5

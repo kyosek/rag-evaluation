@@ -15,9 +15,9 @@
   },
   {
     "question": "What is the primary factor influencing the shape of the distribution of electromagnetic complex amplitude configurations, as described in the provided text?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -57,9 +57,9 @@
   },
   {
     "question": "In the context of twisted bilayer materials, how does the presence of band degeneracies influence the interpretation of measured Hall conductivity?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -113,7 +113,7 @@
   },
   {
     "question": "Given the girlfriend's concerns about her boyfriend's parenting style and his tendency to be overly sympathetic to his daughter, what is the most likely reason the girlfriend feels her boyfriend is being an \"overindulgent parent\"?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 1
@@ -127,9 +127,9 @@
   },
   {
     "question": "What is the primary motivation behind the libertarian defense of free will, according to the passage?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -183,7 +183,7 @@
   },
   {
     "question": "Given the system described, what is the primary function of the  $\\alpha_{t,k}^{nR}$ term in the calculation of $\\textrm{g}_{t,k}^{nR}$?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -197,7 +197,7 @@
   },
   {
     "question": "Under what specific conditions, as described in the provided text, can a suitable function g(x) be found to guarantee the existence of a stable sub-solution for equation (G)?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -267,7 +267,7 @@
   },
   {
     "question": "In the described quantum dot system, how does the strength of the crossed Andreev reflection (CAR) exchange mechanism affect the Kondo screening behavior and the resulting local spectral density dip?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -323,9 +323,9 @@
   },
   {
     "question": "Considering the history of KSTP, what can be inferred about the station's programming priorities and its relationship with national programming trends?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -414,9 +414,9 @@
   },
   {
     "question": "Considering the historical context of innovation in the mobile industry and the potential future economic landscape, what is the most likely scenario for Intel's involvement in the mobile processor market?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -463,7 +463,7 @@
   },
   {
     "question": "Which Champion's ability was adjusted due to its effectiveness being disproportionately high at lower levels where there were fewer counter-mechanisms?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -603,9 +603,9 @@
   },
   {
     "question": "In the context of the described numerical method, what is the primary function of the  $\\hat{D}_F$ term, and how does its calculation differ between the standard FP equation and the modified FP equation used in the NFPA scheme?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -617,16 +617,16 @@
   },
   {
     "question": "Based on the provided information, what is the most likely distance to XMMSL1~J060636.2-694933 and what factors support this conclusion?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
     "question": "What is the primary factor influencing the shape of the distribution of electromagnetic complex amplitude configurations, as described in the provided text?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -659,9 +659,9 @@
   },
   {
     "question": "What material was used to create the initial form for the fiberglass skin, and how was this form ultimately disposed of?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -764,9 +764,9 @@
   },
   {
     "question": "In the context of tissue engineering and regenerative medicine, what is a key finding regarding the influence of mechanical stimulation on cell behavior?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -806,9 +806,9 @@
   },
   {
     "question": "What was a key factor that led to Goodwin's transfer to Newport, Rhode Island in April 1950?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 1
   },
   {
@@ -925,16 +925,16 @@
   },
   {
     "question": "According to the provided text, what is the primary factor that distinguishes human perception of reality from solipsism?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
     "question": "Considering the characteristics of large positive and negative returns in cryptocurrencies, which of the following statements is most accurate?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 1
   },
   {
@@ -967,7 +967,7 @@
   },
   {
     "question": "What is the primary reason for potential Hero Rating fluctuations mentioned in the update notes?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1
@@ -1009,7 +1009,7 @@
   },
   {
     "question": "Which of the following product combinations from FastSOC Microelectronics Co., Ltd.  is specifically designed to support both PD3.1 and third-party protocols with a maximum inducement voltage of 48V?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 1

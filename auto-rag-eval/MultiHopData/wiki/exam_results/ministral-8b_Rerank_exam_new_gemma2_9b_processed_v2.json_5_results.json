@@ -57,9 +57,9 @@
   },
   {
     "question": "Which individual's career trajectory demonstrates a transition from a role primarily focused on creative writing to one involving leadership and security within a specific national context?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -92,7 +92,7 @@
   },
   {
     "question": "Which individual's career trajectory was significantly influenced by a pivotal inheritance that enabled them to transition from an extra in silent films to a prominent film producer?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -148,9 +148,9 @@
   },
   {
     "question": "Based on the provided biographical information, which individual experienced a career setback due to a business venture failure?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -183,9 +183,9 @@
   },
   {
     "question": "Which film, based on the provided information,  features a protagonist who, after a period of retirement, is called back into action to rescue a sibling from a technologically advanced threat?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -302,9 +302,9 @@
   },
   {
     "question": "What musical collaboration occurred in 2001 that reunited two musicians who had previously played together in a band that disbanded in 1997?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -393,7 +393,7 @@
   },
   {
     "question": "What ultimately motivates Bandit to accept the double-or-nothing challenge to deliver clam chowder to Atlanta?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -547,7 +547,7 @@
   },
   {
     "question": "Which magazine, despite its initial focus on a specific demographic, ultimately aimed to broaden its reach and impact a wider audience?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -575,9 +575,9 @@
   },
   {
     "question": "Which individual's life experiences directly influenced their filmmaking career by inspiring them to address social issues related to gender inequality and the treatment of marginalized groups?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -792,9 +792,9 @@
   },
   {
     "question": "Which of the following individuals is most closely associated with the acquisition of Inuit artworks for a major North American museum?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -848,7 +848,7 @@
   },
   {
     "question": "Which character's personal life experiences directly contribute to the central conflict in a film featuring a superhero who protects children from extraterrestrial threats?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2

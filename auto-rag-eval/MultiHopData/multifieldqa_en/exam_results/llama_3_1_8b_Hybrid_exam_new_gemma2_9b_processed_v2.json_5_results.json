@@ -57,9 +57,9 @@
   },
   {
     "question": "Given the information provided in the documentation, what is the primary function of the UHF-ECR reactor within the vacuum processing apparatus?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -134,14 +134,14 @@
   },
   {
     "question": "Based on the provided historical records, what can be definitively concluded about the relationship between Benjamin Franklin's residence and the events surrounding William Hewson's death in 1774?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "Which player, based on the provided information, is most likely to be selected in the first round of the draft despite not being considered a top prospect at their respective schools?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -169,9 +169,9 @@
   },
   {
     "question": "Given the evolving dynamics of Champion effectiveness, which class combination would most likely result in a strategic advantage for the attacking team, considering the interplay of strengths and weaknesses outlined in the provided information?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -232,9 +232,9 @@
   },
   {
     "question": "Given the emphasis on offensive prowess in modern college football, which potential BC head coach candidate, based on their past experience and coaching philosophy, would be most likely to successfully adapt to the demands of the ACC?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -267,9 +267,9 @@
   },
   {
     "question": "Given the advancements in large language models and the challenges of dialect identification in multilingual corpora, what potential future research direction could address both the memory consumption limitations and the training difficulties associated with low-resource languages?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -288,9 +288,9 @@
   },
   {
     "question": "Given the provided inequalities and the conditions imposed on the test functions $\\phi$, what can be definitively concluded about the relationship between the integrals involving $\\omega_1$, $\\omega_2$, and $u$ as $R \\rightarrow \\infty$?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -365,9 +365,9 @@
   },
   {
     "question": "Given the builder's experience with the aircraft's construction and the subsequent repairs, what can be inferred about the original builder's approach to quality control during the aircraft's initial assembly?",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -477,7 +477,7 @@
   },
   {
     "question": "What specific design element of the KR-2S, initially driven by builder modifications, was subsequently incorporated into the standard plans due to its widespread adoption and effectiveness?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -519,7 +519,7 @@
   },
   {
     "question": "Based on the analysis of model performance across different datasets and cortical regions, which of the following statements BEST describes the relationship between model architecture and the effectiveness of information processing in the visual cortex?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -582,16 +582,16 @@
   },
   {
     "question": "Considering the evolution of KSTP's programming formats, what specific event directly led to the station's shift from a Top 40 format to a more adult-oriented sound?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
   },
   {
     "question": "Based on the provided information, at what temperature range do Ge$_{3}$Mn$_{5}$ clusters exhibit a magnetic signal that dominates the ZFC-FC curves?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -722,7 +722,7 @@
   },
   {
     "question": "Given Broadjam's stance on unauthorized website content and their responsibility regarding service interruptions, what is the MOST accurate inference regarding Hosting Subscriber's liability in the event of a security breach originating from their website?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 2
@@ -736,7 +736,7 @@
   },
   {
     "question": "Given the observed performance trends in both the Pascal VOC game and the blind traffic junction scenario, what can be inferred about the relative strengths and weaknesses of compositional communication methods compared to observation-grounded approaches?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -834,9 +834,9 @@
   },
   {
     "question": "Based on the provided experimental observations and theoretical calculations, what is the primary mechanism by which the adsorption site on NaCl influences the spin-crossover behavior of indeno[1,2-a]fluorene (5)?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -862,7 +862,7 @@
   },
   {
     "question": "Given Mufti-e-Azam-e-Hind's profound reverence for Sayyiduna Rasulullah (sallal laahu alaihi wasallam) and his deep connection to Sayyiduna Sheikh Abdul Qaadir Jilani (radi Allahu anhu), what specific action demonstrates his unwavering commitment to both figures' legacies?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 2
@@ -890,9 +890,9 @@
   },
   {
     "question": "What specific event led to the widespread recognition of Mufti-e-Azam-e-Hind (radi Allahu anhu) as a leading authority in Islamic jurisprudence?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 2
   },
   {
@@ -918,9 +918,9 @@
   },
   {
     "question": "Which of the following statements best exemplifies the author's perspective on the relative success of recruits who chose BC versus those who chose larger programs?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
@@ -1016,7 +1016,7 @@
   },
   {
     "question": "Given the observed behavior of reconstruction error in the context of sparse interaction networks, what can be inferred about the efficacy of the PLM + decimation method in scenarios where the number of couplings per variable scales with the total number of variables?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "A",
     "is_correct": false,
     "number_of_hops": 2
@@ -1072,9 +1072,9 @@
   },
   {
     "question": "Based on the provided documentation, what specific legal grounds, outlined in the Himachal Pradesh Town and Country Planning Act, 1977, justify the State Government's power to revoke a development permission granted under Section 31,  and how do these grounds relate to the potential impact on land use and development within designated planning areas?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1107,16 +1107,16 @@
   },
   {
     "question": "A developer is designing a multi-port charging solution for a new device. They need to support both USB-C and USB-A ports, with the ability to deliver a maximum power output of 65W.  \n\nBased on the provided information, which specific combination of chips would be most suitable for this developer's needs?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 3
   },
   {
     "question": "Consider the function $f(x)$ defined as follows:\n\n$$f(x) = \n\\begin{cases} \n\\frac{6x^2\\cos{\\left(x^2\\right)}+\\sin{\\left(x^2\\right)}}{3\\sqrt[3]{x^2}}, & \\mbox{if } x \\neq 0 \\\\\n\\text{undefined}, & \\mbox{if } x = 0\n\\end{cases}$$\n\nGiven that the derivative of $f(x)$ is undefined at $x=0$, and knowing that the function $g(x) = \\sqrt[3]{x}\\cos(x^2)$ is differentiable at $x=0$ but its derivative is not zero, which of the following statements is **most accurate** regarding the differentiability of $f(x)$ at $x=0$?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1170,9 +1170,9 @@
   },
   {
     "question": "Given the RSU's reliance on a Generalized Dynamic Bayesian Network (GDBN) to model RF signal and vehicle trajectory dynamics, how does the RSU leverage the Bhattacharyya coefficient (BC) to detect potential GPS spoofing or jamming attacks, and what specific information does the BC measure in this context?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1240,23 +1240,23 @@
   },
   {
     "question": "Given the probabilistic state-space model described in Chunk 0 and the discussion of its approximation in Chunk 2, what is the primary motivation for approximating the posterior distribution $p({\\bf w}_k|y_{1:k})$ with an isotropic Gaussian distribution as defined in Equation \\eqref{eq:aprox_post}?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
     "question": "Based on the provided information, what is the most likely scenario for Coach Spaziani's future at BC, considering both the team's potential performance and the school's emphasis on marketing and program visibility?",
-    "model_answer": "C",
+    "model_answer": "B",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
     "question": "Which team's strategy for the CG:SHOP 2022 challenge primarily focused on minimizing the number of uncolored vertices during the coloring process?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1289,7 +1289,7 @@
   },
   {
     "question": "Which individual, based on the provided biographical information, held a position of authority within the Church of England and was also a member of Parliament?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 3
@@ -1415,9 +1415,9 @@
   },
   {
     "question": "Based on the provided legal documents, what is the maximum timeframe within which a party can initiate a lawsuit challenging a city's or county's action related to the Least Cost Zoning Law, assuming the action was taken five years prior to the initiation of the lawsuit?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 3
   },
   {
@@ -1471,9 +1471,9 @@
   },
   {
     "question": "Given the performance advantages of the Pseudo-Likelihood Method (PLM) with decimation for sparse interaction networks, what inference challenge might arise when applying this method to a system with a high density of interactions, and how might this challenge be mitigated?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 3
   },
   {
@@ -1506,9 +1506,9 @@
   },
   {
     "question": "Given the tradeoffs presented in the figures for various NIST elliptic curve and RSA cryptosystems, which cryptographic scheme, when implemented with a physical error rate per gate of $10^{-5}$, would require the **fewest** physical qubits to break in one day (24 hours) while still maintaining a classical security parameter of at least 112 bits?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -1583,9 +1583,9 @@
   },
   {
     "question": "Based on the X-ray lightcurve, UVOT observations, and the spectral characteristics of XMMSL1 J060636.2-694933 during its outburst, what is the most plausible explanation for the nature of the emitting region and the underlying physical processes driving its activity?",
-    "model_answer": "D",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 4
   },
   {
@@ -1618,7 +1618,7 @@
   },
   {
     "question": "Considering the perspectives presented in the provided documents, what is the most likely reason for the delayed formation of the Iraqi government and the subsequent concerns raised by various stakeholders?",
-    "model_answer": "D",
+    "model_answer": "A",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 4
@@ -1639,9 +1639,9 @@
   },
   {
     "question": "Given the specific choice of coordinate systems and the assumption of spherical symmetry,  how does the transformation between $\\bar{r}$ and $r$ deviate from a Lorentz transformation, and what are the underlying reasons for this deviation, considering both the observer's perspective and the nature of the spacetime geometry?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "B",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 4
   },
   {
@@ -1737,7 +1737,7 @@
   },
   {
     "question": "Given the system model described in Chunk 1 and the proposed joint prediction and perception method outlined in Chunk 2, what is the primary mechanism by which the RSU leverages the coupled GDBN (C-GDBN) to detect GPS spoofing and jamming attacks?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 4
@@ -1786,9 +1786,9 @@
   },
   {
     "question": "A) Which player, based on their performance in both European leagues and the Nike Hoop Summit, is most likely to be selected in the first round of the NBA draft and why?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1800,9 +1800,9 @@
   },
   {
     "question": "In the context of strained graphene junctions, under what specific conditions does the conduction gap exhibit a peak, and how does this peak relate to the rotation of Dirac points in the k-space?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "A",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1814,16 +1814,16 @@
   },
   {
     "question": "Given the observed performance disparity between the tapering and VST-DCT estimators across different scenarios, particularly the significant difference in performance under scenario (C), what specific combination of factors, drawing from the provided information about each estimator, most likely contributes to this discrepancy?",
-    "model_answer": "B",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
     "question": "Based on the provided experimental observations and theoretical calculations, what can be definitively concluded about the electronic structure and bonding characteristics of the 5OS species when compared to the 5para species?",
-    "model_answer": "B",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1835,9 +1835,9 @@
   },
   {
     "question": "Based on the provided experimental data, at what temperature range do Ge<sub>3</sub>Mn<sub>5</sub> clusters exhibit ferromagnetic behavior, and what evidence from the text supports this conclusion?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1849,9 +1849,9 @@
   },
   {
     "question": "In the context of transgene reactivation in response to amino acid (AA) starvation, which of the following statements accurately reflects the relationship between GCN2, the ISR, and transgene expression?",
-    "model_answer": "C",
+    "model_answer": "D",
     "correct_answer": "D",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1863,7 +1863,7 @@
   },
   {
     "question": "Given the asymptotic behavior of the spectral density estimator f and the precision matrix estimator \u03a9 under the conditions stated in Theorem 1, what is the primary factor that necessitates the use of a variance stabilizing transform (VST) in the derivation of the convergence rate for f?",
-    "model_answer": "B",
+    "model_answer": "A",
     "correct_answer": "C",
     "is_correct": false,
     "number_of_hops": 5
@@ -1898,9 +1898,9 @@
   },
   {
     "question": "Which of the following statements accurately describes the relationship between age, market capitalization, and the frequency of large price variations in the cryptocurrency market, as evidenced by the power-law exponents?",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "B",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 5
   },
   {
@@ -1912,14 +1912,14 @@
   },
   {
     "question": "A)  Nanotopographical cues and synthetic nanogratings, when combined, have no significant impact on the stemness of human mesenchymal stem cells.",
-    "model_answer": "D",
+    "model_answer": "B",
     "correct_answer": "D",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
     "question": "Given the historical trends in mobile device hardware, the potential impact of TSV technology on memory integration, and the competitive landscape of the mobile semiconductor market, predict the most likely scenario for the future of high-end mobile processors.",
-    "model_answer": "A",
+    "model_answer": "D",
     "correct_answer": "B",
     "is_correct": false,
     "number_of_hops": 5
@@ -1947,9 +1947,9 @@
   },
   {
     "question": "Based on the provided information about the AutoCogniSys system, what is the primary reason for the observed improvement in cognitive impairment status prediction accuracy when combining EDA and HRV features with activity performance data compared to using only activity performance data?",
-    "model_answer": "A",
+    "model_answer": "B",
     "correct_answer": "A",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -1961,9 +1961,9 @@
   },
   {
     "question": "Given the challenges of estimating Toeplitz covariance matrices, particularly the lack of a fully data-driven method for selecting the tapering parameter, how does the VST-DCT method, as described in the paper, address these challenges and compare to traditional tapering approaches in terms of both accuracy and computational efficiency, considering its reliance on the Discrete Cosine Transform (DCT) and its impact on the estimation of spectral densities?",
-    "model_answer": "C",
+    "model_answer": "A",
     "correct_answer": "C",
-    "is_correct": true,
+    "is_correct": false,
     "number_of_hops": 5
   },
   {
@@ -2031,9 +2031,9 @@
   },
   {
     "question": "Considering the potential for deadlock in American national politics, which of the following scenarios best exemplifies a situation where the ambition of office holders might be harnessed to the duties of their office, thereby mitigating the risk of stalemate?",
-    "model_answer": "A",
+    "model_answer": "C",
     "correct_answer": "C",
-    "is_correct": false,
+    "is_correct": true,
     "number_of_hops": 2
   },
   {
