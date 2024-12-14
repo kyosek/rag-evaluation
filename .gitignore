@@ -12,6 +12,10 @@ auto-rag-eval/MultiHopData/SecFilings/chunk_database_v3/faiss_index.bin
 auto-rag-eval/MultiHopData/SecFilings/chunks/docs_chunk_semantic_v5_cleaned.json
 auto-rag-eval/MultiHopData/SecFilings/chunks/docs_chunk_semantic_v5.json
 auto-rag-eval/MultiHopData/gov_report/chunk_database_v5/faiss_index.bin
+auto-rag-eval/MultiHopData/hotpotqa/chunk_database_v5/faiss_index.bin
+auto-rag-eval/MultiHopData/multifield_en/chunk_database_v5/faiss_index.bin
+auto-rag-eval/MultiHopData/SecFilings/chunk_database_v5/faiss_index.bin
+auto-rag-eval/MultiHopData/wiki/chunk_database_v5/faiss_index.bin
 
 *.out
 
