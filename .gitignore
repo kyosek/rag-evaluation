@@ -9,6 +9,8 @@ auto-rag-eval/MultiHopData/SecFilings/chunks/docs_chunk_semantic.json
 auto-rag-eval/MultiHopData/SecFilings/chunks/docs_chunk_semantic_cleaned.json
 auto-rag-eval/MultiHopData/SecFilings/chunk_database/faiss_index.bin
 auto-rag-eval/MultiHopData/SecFilings/chunk_database_v3/faiss_index.bin
+auto-rag-eval/MultiHopData/SecFilings/chunks/docs_chunk_semantic_v5_cleaned.json
+auto-rag-eval/MultiHopData/SecFilings/chunks/docs_chunk_semantic_v5.json
 
 *.out
 
