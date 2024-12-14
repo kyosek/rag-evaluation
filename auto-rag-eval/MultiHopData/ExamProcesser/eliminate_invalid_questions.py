@@ -203,8 +203,8 @@ if __name__ == "__main__":
     for task_domain in task_domains:
         for exam_file_name in exam_file_names:
             print(f"Processing {task_domain} - {exam_file_name}")
-            input_file = f"auto-rag-eval/MultiHopData/{task_domain}/exams/{exam_file_name}_processed_v4.json"
-            summary_output_path = f"auto-rag-eval/MultiHopData/{task_domain}/exam_stats/{exam_file_name}_processed_v4_stats.json"
+            input_file = f"auto-rag-eval/MultiHopData/{task_domain}/exams/{exam_file_name}_processed_v5.json"
+            summary_output_path = f"auto-rag-eval/MultiHopData/{task_domain}/exam_stats/{exam_file_name}_processed_v5_stats.json"
             try:
                 validate_and_filter_questions(
                     input_file=input_file,
