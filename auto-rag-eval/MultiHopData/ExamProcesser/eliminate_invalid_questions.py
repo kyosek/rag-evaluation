@@ -116,23 +116,15 @@ class ExamCleaner:
             OSError: If there's an error creating the output directory or saving files
         """
         try:
-            # Create output directory if it doesn't exist
-            output_path = Path(output_dir)
-            
-            # Generate output filenames
-            exam_name = Path(summary['exam_path']).stem
-            cleaned_path = input_dir
-            summary_path = output_path / f"{exam_name}_summary.json"
-            
             # Save files
-            with open(cleaned_path, 'w', encoding='utf-8') as f:
+            with open(input_dir, 'w', encoding='utf-8') as f:
                 json.dump(cleaned_exam, f, indent=2, ensure_ascii=False)
             
-            with open(summary_path, 'w', encoding='utf-8') as f:
+            with open(output_dir, 'w', encoding='utf-8') as f:
                 json.dump(summary, f, indent=2)
                 
-            self.logger.info(f"Saved cleaned exam to: {cleaned_path}")
-            self.logger.info(f"Saved summary to: {summary_path}")
+            self.logger.info(f"Saved cleaned exam to: {input_dir}")
+            self.logger.info(f"Saved summary to: {output_dir}")
             
         except Exception as e:
             self.logger.error(f"Error saving results: {str(e)}")
@@ -188,7 +180,7 @@ def validate_and_filter_questions(input_file: str, output_file: str, summary_out
         logger.info(f"Successfully wrote filtered data to {output_file}")
         
         cleaned_exam, summary = cleaner.clean_exam(input_file)
-        cleaner.save_results(cleaned_exam, summary, input_file, output_file)
+        cleaner.save_results(cleaned_exam, summary, input_file, summary_output_path)
             
     except FileNotFoundError:
         logger.error(f"Input file {input_file} not found")
@@ -211,8 +203,8 @@ if __name__ == "__main__":
     for task_domain in task_domains:
         for exam_file_name in exam_file_names:
             print(f"Processing {task_domain} - {exam_file_name}")
-            input_file = f"auto-rag-eval/MultiHopData/{task_domain}/exams/{exam_file_name}_processed_v2.json"
-            summary_output_path = f"auto-rag-eval/MultiHopData/{task_domain}/exam_stats/{exam_file_name}_processed_v2_stats.json"
+            input_file = f"auto-rag-eval/MultiHopData/{task_domain}/exams/{exam_file_name}_processed_v4.json"
+            summary_output_path = f"auto-rag-eval/MultiHopData/{task_domain}/exam_stats/{exam_file_name}_processed_v4_stats.json"
             try:
                 validate_and_filter_questions(
                     input_file=input_file,
