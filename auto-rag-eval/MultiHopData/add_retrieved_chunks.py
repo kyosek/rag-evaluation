@@ -12,14 +12,14 @@ import os
 import nltk
 from nltk.tokenize import word_tokenize
 
-from MultiHopData.retriever import BaseRetriever, BM25Retriever, Chunk, ChunkRetriever, FAISSRetriever, HybridRetriever, RerankingRetriever
+from MultiHopData.retriever import BaseRetriever, BM25Retriever, Chunk, HybridChunkRetriever, ChunkRetriever, FAISSRetriever, HybridRetriever, RerankingRetriever
 
 nltk.download("punkt_tab")
 
 
 def add_retrieved_chunks_to_exam(
     exam_path: str,
-    chunk_retriever: ChunkRetriever,
+    chunk_retriever: HybridChunkRetriever,
     output_path: str,
     k: int = 15
 ) -> None:
@@ -96,12 +96,12 @@ def add_retrieved_chunks_to_exam(
 
 
 if __name__ == "__main__":
-    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    # task_domains = ["gov_report"]
+    # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
+    task_domains = ["SecFilings", "wiki"]
     exam_files = [
-        "llama_3_2_3b_single_hop_exam_processed.json",
-        "gemma2_9b_single_hop_exam_processed.json",
-        "ministral_8b_single_hop_exam_processed.json",
+        # "llama_3_2_3b_single_hop_exam_processed.json",
+        # "gemma2_9b_single_hop_exam_processed.json",
+        # "ministral_8b_single_hop_exam_processed.json",
         "exam_new_llama_3_2_3b_processed_v3.json",
         "exam_new_gemma2_9b_processed_v2.json",
         "exam_new_ministral_8b_processed_v3.json",
@@ -112,7 +112,7 @@ if __name__ == "__main__":
     for task_domain in task_domains:
         for exam_file in exam_files:
             print(f"Starting {task_domain} - {exam_file}")
-            database_dir = f"MultiHopData/{task_domain}/chunk_database"
+            database_dir = f"MultiHopData/{task_domain}/chunk_database_v3"
             exam_path = f"MultiHopData/{task_domain}/exams/{exam_file}"
             
             if exam_file == "exam_new_gemma2_9b_processed_v2.json":
@@ -120,13 +120,12 @@ if __name__ == "__main__":
             elif exam_file in "single_hop":
                 output_path = exam_path.replace("processed", "processed_v4")
             else:
-                output_path == exam_path.replace("v3", "v4")
+                output_path = exam_path.replace("v3", "v4")
             
             # Load chunk retriever from saved database
-            chunk_retriever = ChunkRetriever.load_database(
+            chunk_retriever = HybridChunkRetriever.load_database(
                 database_dir,
                 task_domain,
-                model_name="BAAI/bge-large-en-v1.5"
             )
             
             # Add retrieved chunks to exam

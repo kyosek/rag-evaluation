@@ -621,7 +621,7 @@ if __name__ == "__main__":
     # task_domain = "gov_report"
     for model_name in model_names:
         for task_domain in task_domains:
-            data_path = f"MultiHopData/{task_domain}/chunks/docs_chunk_semantic_cleaned.json"
+            data_path = f"MultiHopData/{task_domain}/chunks/docs_chunk_semantic_v4_cleaned.json"
             output_path = f"MultiHopData/{task_domain}/exams/exam_new_{model_name}.json"
 
             main(

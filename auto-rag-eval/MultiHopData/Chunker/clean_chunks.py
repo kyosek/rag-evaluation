@@ -68,7 +68,10 @@ def main(input_file, output_file):
         print(f"Error: {str(e)}")
 
 if __name__ == "__main__":
-    input_file = "auto-rag-eval/MultiHopData/multifieldqa_en/chunks/docs_chunk_semantic.json"
-    output_file = "auto-rag-eval/MultiHopData/multifieldqa_en/chunks/docs_chunk_semantic_cleaned.json"
+    task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     
-    main(input_file, output_file)
+    for task in task_domains:
+        input_file = f"auto-rag-eval/MultiHopData/{task}/chunks/docs_chunk_semantic_v5.json"
+        output_file = f"auto-rag-eval/MultiHopData/{task}/chunks/docs_chunk_semantic_v5_cleaned.json"
+        
+        main(input_file, output_file)

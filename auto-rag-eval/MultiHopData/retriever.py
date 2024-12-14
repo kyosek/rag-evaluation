@@ -281,10 +281,6 @@ class HybridChunkRetriever(ChunkRetriever):
         dimension = embeddings.shape[1]
         self.index = faiss.IndexFlatIP(dimension)
         
-        # Normalize vectors for cosine similarity
-        print("Normalizing vectors...")
-        # faiss.normalize_L2(embeddings)
-        
         # Add vectors to the index
         print("Adding vectors to index...")
         self.index.add(embeddings)

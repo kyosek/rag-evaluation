@@ -298,7 +298,7 @@ def main(task_name: str, strategy_name: str = "recursive"):
     
     # Process documents
     docs_dir = f"MultiHopData/{task_name}/raw_texts"
-    output_path = f"MultiHopData/{task_name}/chunk/docs_chunk_{strategy_name}_v4.json"
+    output_path = f"MultiHopData/{task_name}/chunks/docs_chunk_{strategy_name}_v4.json"
     os.makedirs(docs_dir, exist_ok=True)
     
     processed_docs = chunker.process_directory(docs_dir)
