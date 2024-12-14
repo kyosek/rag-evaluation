@@ -245,9 +245,9 @@ if __name__ == "__main__":
         # "exam_new_ministral_8b_processed_v3.json",
         # V4 (HybridChunk)
         # "llama_3_2_3b_single_hop_exam_processed_v4.json",
-        "gemma2_9b_single_hop_exam_processed_v4.json",
-        "ministral_8b_single_hop_exam_processed_v4.json",
-        # "exam_new_llama_3_2_3b_processed_v4.json",
+        # "gemma2_9b_single_hop_exam_processed_v4.json",
+        # "ministral_8b_single_hop_exam_processed_v4.json",
+        "exam_new_llama_3_2_3b_processed_v4.json",
         # "exam_new_gemma2_9b_processed_v4.json",
         # "exam_new_ministral_8b_processed_v4.json",
     ]
