@@ -97,16 +97,14 @@ def add_retrieved_chunks_to_exam(
 
 if __name__ == "__main__":
     # task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    task_domains = ["SecFilings", "wiki"]
+    task_domains = ["gov_report", "hotpotqa"]
     exam_files = [
-        # "llama_3_2_3b_single_hop_exam_processed.json",
-        # "gemma2_9b_single_hop_exam_processed.json",
-        # "ministral_8b_single_hop_exam_processed.json",
-        "exam_new_llama_3_2_3b_processed_v3.json",
-        "exam_new_gemma2_9b_processed_v2.json",
-        "exam_new_ministral_8b_processed_v3.json",
-        # "exam_new_llama_3_2_3b_processed_v2_unfiltered.json",
-        # "exam_new_gemma2_9b_processed_v2_unfiltered.json"
+        "llama_3_2_3b_single_hop_exam_processed.json",
+        "gemma2_9b_single_hop_exam_processed.json",
+        "ministral_8b_single_hop_exam_processed.json",
+        # "exam_new_llama_3_2_3b_processed_v3.json",
+        # "exam_new_gemma2_9b_processed_v2.json",
+        # "exam_new_ministral_8b_processed_v3.json",
         ]
     
     for task_domain in task_domains:
