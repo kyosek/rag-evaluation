@@ -103,32 +103,32 @@ if __name__ == "__main__":
         "llama_3_2_3b_single_hop_exam_processed.json",
         "gemma2_9b_single_hop_exam_processed.json",
         "ministral_8b_single_hop_exam_processed.json",
-        # "exam_new_llama_3_2_3b_processed_v3.json",
-        # "exam_new_gemma2_9b_processed_v2.json",
-        # "exam_new_ministral_8b_processed_v3.json",
+        "exam_new_llama_3_2_3b_processed_v3.json",
+        "exam_new_gemma2_9b_processed_v2.json",
+        "exam_new_ministral_8b_processed_v3.json",
         ]
     
     for task_domain in task_domains:
         for exam_file in exam_files:
             print(f"Starting {task_domain} - {exam_file}")
-            database_dir = f"MultiHopData/{task_domain}/chunk_database_v3"
+            database_dir = f"MultiHopData/{task_domain}/chunk_database_v5"
             exam_path = f"MultiHopData/{task_domain}/exams/{exam_file}"
             
             if exam_file == "exam_new_gemma2_9b_processed_v2.json":
-                output_path = exam_path.replace("v2", "v4")
-            elif exam_file in "single_hop":
-                output_path = exam_path.replace("processed", "processed_v4")
+                output_path = exam_path.replace("v2", "v5")
+            elif "single_hop_exam" in exam_file:
+                output_path = exam_path + str("_v5")
             else:
-                output_path = exam_path.replace("v3", "v4")
+                output_path = exam_path.replace("v3", "v5")
             
             # Load chunk retriever from saved database
             retriever = HybridChunkRetriever(task_domain, random_seed=42)
             
-            if not os.path.exists(exam_path):
+            if not os.path.exists(database_dir):
                 logging.info("Load documents")
-                retriever.load_documents(f"MultiHopData/{task_domain}/chunks/docs_chunk_semantic_v5_cleaned.json")
-                logging.info(f"Save the database to 'MultiHopData/{task_domain}/chunk_database'")
-                retriever.save_database(f"MultiHopData/{task_domain}/chunk_database")
+                chunk_retriever.load_documents(f"MultiHopData/{task_domain}/chunks/docs_chunk_semantic_v5_cleaned.json")
+                logging.info(f"Save the database to 'MultiHopData/{task_domain}/chunk_database_v5'")
+                chunk_retriever.save_database(f"MultiHopData/{task_domain}/chunk_database_v5")
             else:
                 chunk_retriever = HybridChunkRetriever.load_database(
                     database_dir,
