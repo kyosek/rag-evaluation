@@ -229,7 +229,7 @@ if __name__ == "__main__":
     task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     # task_domains = ["SecFilings"]
     retriever_types = ["Dense", "Sparse", "Hybrid", "Rerank"]
-    # retriever_types = ["Sparse"]
+    # retriever_types = ["Dense"]
     model_names = [
         'llama_3_1_8b',
         "ministral-8b",
@@ -244,14 +244,21 @@ if __name__ == "__main__":
         # "exam_new_gemma2_9b_processed_v2.json",
         # "exam_new_ministral_8b_processed_v3.json",
         # V4 (HybridChunk)
-        "llama_3_2_3b_single_hop_exam_processed_v4.json",
-        "gemma2_9b_single_hop_exam_processed_v4.json",
-        "ministral_8b_single_hop_exam_processed_v4.json",
-        "exam_new_llama_3_2_3b_processed_v4.json",
-        "exam_new_gemma2_9b_processed_v4.json",
-        "exam_new_ministral_8b_processed_v4.json",
+        # "llama_3_2_3b_single_hop_exam_processed_v4.json",
+        # "gemma2_9b_single_hop_exam_processed_v4.json",
+        # "ministral_8b_single_hop_exam_processed_v4.json",
+        # "exam_new_llama_3_2_3b_processed_v4.json",
+        # "exam_new_gemma2_9b_processed_v4.json",
+        # "exam_new_ministral_8b_processed_v4.json",
+        # V5 (chunk: 512)
+        "llama_3_2_3b_single_hop_exam_processed_v5.json",
+        "gemma2_9b_single_hop_exam_processed_v5.json",
+        "ministral_8b_single_hop_exam_processed_v5.json",
+        "exam_new_llama_3_2_3b_processed_v5.json",
+        "exam_new_gemma2_9b_processed_v5.json",
+        "exam_new_ministral_8b_processed_v5.json",
     ]
-    n_documents = 5
+    n_documents = 10
 
     # Process all combinations
     for exam_file in exam_files:

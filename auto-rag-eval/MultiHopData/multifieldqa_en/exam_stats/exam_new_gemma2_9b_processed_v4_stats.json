@@ -1,0 +1,6 @@
+{
+  "original_count": 295,
+  "eliminated_count": 30,
+  "final_count": 265,
+  "exam_path": "auto-rag-eval/MultiHopData/multifieldqa_en/exams/exam_new_gemma2_9b_processed_v4.json"
+}

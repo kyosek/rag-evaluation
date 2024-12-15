@@ -1,0 +1,6 @@
+{
+  "original_count": 186,
+  "eliminated_count": 15,
+  "final_count": 171,
+  "exam_path": "auto-rag-eval/MultiHopData/hotpotqa/exams/exam_new_gemma2_9b_processed_v4.json"
+}
