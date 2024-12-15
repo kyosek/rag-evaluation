@@ -1,0 +1,1465 @@
+[
+  {
+    "question": "According to USAID's climate change adaptation activities, what is the primary reason for the shift in priorities, despite the indirect connection between climate change and migration?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The United States' involvement in the Saudi-led coalition's military operations in Yemen has been influenced by several factors, including concerns about civilian casualties and the broader regional rivalry between Saudi Arabia and Iran. However, the Obama Administration's decision to provide logistical and intelligence support to the coalition without taking direct military action was seen as a way to balance these competing interests. What is the primary motivation behind the Congressional scrutiny of U.S. policy in Yemen, as evident from the growing interest in asserting the prerogatives of the legislative branch to limit executive branch power?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The C-2A Greyhound Logistics Aircraft and the AV-8B Harrier have both undergone service life extension programs to increase their operational hours. However, the C-2A's program was completed in 2011, while the AV-8B's program is ongoing. What is the primary reason for the decrease in operating and support costs for the AV-8B, which is not applicable to the C-2A?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "FEMA's implementation of the new delivery model for PA programs requires a comprehensive workforce assessment to ensure adequate staffing for hazard mitigation specialists. However, the current staffing levels in FIMA's hazard mitigation cadre are insufficient to support the desired level of in-person participation in recovery scoping meetings, particularly in the early stages of PA project development. This can lead to delays in identifying hazard mitigation opportunities, as noted by a FIMA official. Furthermore, the lack of clear roles and responsibilities for participants in the system testing and integration process can exacerbate these issues. According to FEMA's after-action reports, the test implementation in Oregon lacked sufficient hazard mitigation specialists to cover all site inspections, and the test implementation in Georgia missed opportunities to pursue hazard mitigation due to the lack of hazard mitigation specialists. What is the primary concern that FEMA's Assistant Administrator for Recovery should address in order to ensure that the new delivery model is implemented effectively, and that hazard mitigation is incorporated into recovery efforts, considering the potential consequences of not addressing these issues?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the documentation, what is the primary reason why community banks and credit unions viewed mortgage borrower and loan characteristics reporting as a burdensome regulation, as identified in the focus groups?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The US 7th Fleet's Commander, Clay Doss, stated that the increased radio queries in the South China Sea appear to originate from new land-based facilities. However, the Chinese state-controlled media often depicts the US as an outsider seeking to \"stir up trouble\" in the region. According to a Philippine government report, the Chinese radio messages have been warning Philippine aircraft and ships to stay away from newly fortified islands in the Spratly archipelago. Which of the following statements best explains the potential motivation behind China's actions in the South China Sea?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What is the primary reason for the potential acquisition affordability gap in the CDM program from fiscal years 2018 to 2022, according to the DHS's funding plan to Congress?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The Department of Defense (DOD) has reported a decline in the number of U.S. troops in Afghanistan, Iraq, and Syria since FY2009, but the OCO budget has not decreased proportionally. What is the primary reason for this discrepancy, according to DOD, and how does it relate to the fixed costs of infrastructure, support requirements, and in-theater presence?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The Department of Defense's (DOD) oversight framework for addressing sexual harassment in the military services is still in its infancy. According to the 2014 policy memorandum, what is a critical component of the oversight framework that has not been fully implemented by the military services, despite the directive to review and assess progress quarterly?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What would have been the maximum potential 2013 pay adjustment for Members of Congress if the GS base pay adjustment had not been implemented, and the pay freeze enacted by P.L. 112-175 had not been extended by the Continuing Appropriations Resolution, 2013?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What is the primary concern of the Colombian government regarding the potential restart of aerial eradication of coca crops with glyphosate, as stated by President Duque, and how does this approach differ from the approach of his predecessor, Santos?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, which of the following plans would be most likely to have similar investment return characteristics to CSPF, given that they share the same plan year-end of December 31 and have assets over $300 million as of the beginning of 2000?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the report, what specific guidance did ACF provide in January 2017 to clarify issues related to the notification of CPS of substance-affected infants and the development of a plan of safe care for these infants?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the FCC's 2012 guidance, what is the primary goal of the tribal engagement requirement, and how does it relate to the needs of tribal government leaders, providers, and consumers?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The National Emergencies Act (NEA) of 1976 aimed to address the criticisms of the Trade Winds and Weather Act (TWEA) by imposing new restrictions on the declaration and duration of national emergencies. However, the NEA's provisions for terminating an emergency were not fully utilized. What is the primary reason for this lack of utilization, according to the Export Control Reform Act (ECRA) of 2018?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the provided documentation, what is the primary reason for RSA's monitoring visits to state VR agencies, and how does this relate to the implementation of WIOA requirements?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The European Reassurance Initiative (ERI) was initially established to provide short-term reassurance to NATO allies and partners in Europe, but its objectives were later expanded to include deterring Russian aggression in the long term. What is the primary reason for the increased funding request for ERI, which was approximately $4.5 billion for posture enhancements through the end of fiscal year 2017?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The IRS's efforts to link Form 8938 data to Form 8966 data to ensure proper reporting of foreign financial assets are hindered by incorrect or missing TINs. According to TIGTA, what is the primary reason IRS management disagreed with the recommendation to initiate compliance efforts to address missing or invalid TINs on Form 8966 filings from countries with Model 2 IGAs or without any IGAs with the United States?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The U.S. Navy's approach to the Spratly Islands is based on the principle of exercising full, lawful measure of high seas freedoms. However, China's recent assertion of sovereignty over the Four Sha island groups through several legal claims challenges this approach. According to the 1992 Chinese law on the territorial sea and contiguous zone, which island group is explicitly mentioned as part of China's land territory, and how does this mention impact the U.S. Navy's approach to the Spratly Islands?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the documentation, what is the primary method by which an agency initiates the GSA's disposal process, and what is a key requirement for this method?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The U.S. military assistance to Georgia in FY2010-FY2017 was estimated to be around $74 million a year on average. However, in FY2018, the amount decreased to $40.4 million. What is the primary reason for this decrease, according to the Obama Administration's approach to U.S.-Georgia defense cooperation?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What is the primary constraint on the availability of funds for the procurement of the U.S.S. Enterprise (CVN\u201380) and the U.S.S. John F. Kennedy (CVN\u201379) as outlined in the FY2016 National Defense Authorization Act (S. 1356 / P.L. 114-92) and the FY2017 National Defense Authorization Act (S. 2943 / P.L. 114-328)?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The United States is a significant source of liquefied natural gas (LNG) for domestic bunkering and international ports. However, the transportation and storage of LNG pose unique safety risks. According to the Government Accountability Office, what is a critical consideration for the Coast Guard when assessing the security of LNG bunkering infrastructure, and how might this impact the safety of vessels and port facilities?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What is a potential consequence of having a single individual simultaneously hold technical authority and programmatic roles in the Commercial Crew Program, as described in Figure 5?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the provided documentation, what is the primary benefit of using Multi-Year Procurement (MYP) contracts for the procurement of major weapon systems, compared to annual contracting?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The shift in the Obama Administration's approach to funding war-related activities in Afghanistan and Iraq, as described in the provided documentation, can be seen as a response to the changing nature of the conflicts. However, this change also raises questions about the role of supplemental appropriations in funding ongoing military operations. Which of the following best describes the primary motivation behind the Obama Administration's decision to move away from submitting supplemental appropriations requests to Congress for war-related activities?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the SBLF's initial supplemental report, what is the primary reason for the decrease in the cumulative baseline for SBLF participants over time, as stated in the Treasury's semiannual cost report released on August 16, 2018?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "If the Navy decides to decommission CVN-75 and instead fund the Refueling Complex Overhaul (RCOH) for CVN-78, which of the following statements is most likely true?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what is the primary difference between the approach used in the 2010 Capital Needs Inventory and the approach used in the 2016 Capital Needs Inventory, according to WMATA?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the report, what type of facilities can treat infants with NAS outside of a hospital setting, and how do these facilities facilitate the continuation of pharmacologic treatment after hospital discharge?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the provided documentation, what is the primary reason for the increase in the national average all-families work participation rate since FY2002, as shown in Figure 5?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what is a primary concern for state and local funding in supporting the transition to NG911 equipment and infrastructure, according to the National Highway Traffic Safety Administration's (NHTSA) National 911 Program?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The development of \"smart\" cluster munitions with self-destruct mechanisms is intended to address the residual hazard of unexploded ordnance, but some nations, such as China, Russia, and the Republic of Korea, may not be able to afford to replace all current submunitions with these more reliable weapons. What is a potential consequence of the United States' decision to prioritize the development of new cluster munitions with self-destruct mechanisms, given the high failure rate of existing cluster munitions, and the fact that some nations may not be able to afford to replace their existing stockpiles, and considering the implications of the 1980 CCW treaty and the ongoing efforts to reduce cluster munitions failure rates?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what is a primary concern among stakeholders regarding the protection of personal data in the private sector, and how does it relate to the proposed strengthening of the consumer privacy framework?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The Department of Defense's BRAC process aims to dispose of excess infrastructure, but critics argue that its methodology is flawed. What is a key concern raised by observers regarding the Department's accounting practices for measuring cost savings and reduced infrastructure targets?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the documentation, what is a critical factor in attracting teens to summer meal sites, as reported by national organizations and providers, and how do some meal sites address this challenge?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the provided documentation, what is the primary reason why the Fiscal Service did not leverage hoteling as a space-planning tool, unlike the CDC's National Center for Chronic Disease Prevention and Health Promotion's office?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the provided documentation, which of the following individuals contributed to the report, but are not listed as key contributors in either Table 5 or Table 20?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the projections of Medicaid and national health expenditures, what is the likely outcome for the sector's fiscal balance if excess cost growth in health care is zero, and real GDP growth is 2.8 percent per year on average?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the HHS-OIG's annual compliance reviews, which of the following statements accurately describes the purpose of the PERM methodology in estimating the national Medicaid improper payment rate?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Analyzing the SBA's budget trends over the past two decades, what is the primary reason for the significant variation in appropriations for disaster assistance since FY2000?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The SBA's appropriations for salaries and expenses have increased from $176.490 million in FY2000 to $267.500 million in FY2019, exceeding the rate of inflation. However, prior to FY2012, Advocacy was funded through the salaries and expenses' executive direction subaccount. To allow for meaningful comparisons with current appropriations, what percentage of Advocacy's total program cost was provided from the salaries and expenses' executive direction subaccount in FY2003, FY2004, and FY2005, and how does this percentage relate to the estimates provided for FY2006-FY2010, considering the SBA's transfer of appropriations from the business loan administration account into the salaries and expenses account, and the implications of this transfer on the overall funding structure of the SBA?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the documentation, what is a significant factor that may explain the relatively low rate of participation by pharmacies and other eligible entities in the prescription drug disposal program, as stated by stakeholders?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The Navy's SUBSAFE certification status is crucial to a submarine's mission capability, but what is the primary consequence of a submarine's materiel certification expiring, and how does this impact the submarine's operational readiness?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The Treasury Secretary's acknowledgment of the problem faced by some banks, as well as the dissenting view presented by the House Committee on Financial Services' minority members, suggests that the Small Business Lending Fund (SBLF) may not effectively address the lack of financing for small businesses. However, Representative Melissa Bean argues that the SBLF builds on previous financial stabilization measures and can be leveraged into over $300 billion in new small business loans. Which of the following statements best captures the essence of the debate surrounding the SBLF?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The Forest Service's policy on administrative control of funds is governed by the Directive System, but it also relies on standard operating procedures (SOPs) and desk guides to supplement guidance. However, the SOPs and desk guides are not part of the Directive System and therefore are not official policy and procedures. What is the primary limitation of the Forest Service's control activities related to administrative control of funds, as identified in the review of its process documents and control activities?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Analyze the historical context of the Trading with the Enemy Act (TWEA) and its implications on presidential authority during times of national emergency. How did the use of TWEA by Presidents Roosevelt and Truman impact the balance of power between the executive and legislative branches of government?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A university's affirmative action policy is challenged for its use of race in admissions decisions. The university argues that its policy is necessary to achieve a \"critical mass\" of underrepresented minority students, which in turn will promote cross-racial understanding, break down racial stereotypes, and improve learning outcomes. However, a rejected white applicant claims that the policy discriminates against her based on her race. Which of the following statements best captures the Court's reasoning in Grutter v. Bollinger, which upheld the Law School's policy?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The EPA's water infrastructure programs and projects for FY2007 were funded at $2.0 billion, which was $542 million more than the President's request and $276 million less than the FY2004 appropriation. However, the FY2007 request for clean water SRF capitalization grants was 22% less than the FY2006 appropriation for these grants, and the request for drinking water SRF grants was essentially the same as in recent years. Additionally, the FY2007 budget request proposed no funding for congressionally designated water infrastructure grants, but sought $40.6 million for Administration priority projects. Considering the following information, which of the following statements is true?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "According to the report, what is the primary concern of State's efforts to address persistent Foreign Service vacancies, particularly in specialist positions, and how does this impact the department's ability to achieve its mission?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Given the context of the MSPV-NG program's initial rollout and the subsequent changes made in Phase 2, what is the primary reason for the delay in awarding contracts to medical centers, as stated by SAC officials, and how does this delay impact the program's goal of achieving cost avoidance?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A state's HCBS waiver program is subject to CMS oversight, which includes reviewing annual reports submitted by states. However, CMS officials have acknowledged that the agency's current oversight process is inadequate, as it relies on states to self-report on critical incidents and program deficiencies. According to CMS's State Medicaid Manual, states are required to provide a brief description of the state process for monitoring beneficiary safeguards, use check boxes to indicate that beneficiary health and welfare safeguards have been met, and identify whether deficiencies were detected during the monitoring process. However, a review of 2013 HCBS annual reports found that annual reports were missing for 29 HCBS waivers and multiple years' of annual reports were missing for 8 waivers. Given this information, what is the primary concern for CMS regarding the oversight of HCBS waiver programs, and how can CMS address this concern in a way that requires synthesizing information from all relevant chunks?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The European Commission's proposed digital tax package aims to address the \"misalignment between the location in which profits are taxed and the location in which value is created\" in the digital economy, as argued by proponents of the digital tax. However, some scholars argue that the high-revenue thresholds for taxation and the exclusion of certain revenues earned by European firms effectively discriminate against the digital exports of U.S. firms. Which of the following statements best captures the essence of the European Commission's digital tax proposal, and why is it a more suitable approach than the alternative perspective that challenges the need for significant reform?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A university student was accused of sexual misconduct and was given a written notice of the allegations, but the student was not provided with an opportunity to cross-examine the accuser or adverse witnesses before the university's appeals board made a determination. The student was subsequently expelled. Which of the following best describes the university's compliance with due process?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The Navy's FY2020 budget submission includes a two-ship block buy contract for CVN-80 and CVN-81, which is expected to produce savings of $3.1 billion. However, the Navy's FY2019 budget submission had already authorized the procurement of CVN-81 in FY2019, and the funding table for the Navy's shipbuilding account in the conference report shows a quantity of \"1\" in line 002 of the FY2019 SCN appropriation account for procurement funding of CVN-81. If the Navy's FY2020 budget submission had not included the two-ship block buy contract for CVN-80 and CVN-81, and instead had only procured CVN-81 in FY2019, the total number of ships in FY2019 and FY2020 would be 14 and 11, respectively. Which of the following statements is true?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "According to the provided documentation, what is the primary reason for the slow implementation of the 2011 Victims' Law, which aims to return land to displaced families, and how does this relate to the presence of illegally armed groups in areas where victims have presented their applications, considering the role of the Colombian government's inability to effectively prosecute those responsible for attacks on human rights defenders and land rights leaders?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A Coast Guard official stated that establishing a formal performance goal for TAP participation would help the agency ensure compliance with VOW Act requirements. However, the Coast Guard currently lacks complete and reliable data to track participation. What is a potential consequence of the Coast Guard's current approach to monitoring TAP implementation, and how might it impact the agency's ability to ensure that all TAP-eligible servicemembers receive the resources they need to transition to civilian life?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Based on the provided documentation, which U.S. port is most likely to establish itself as a significant LNG-bunkering location, considering its proximity to existing LNG import/export terminals and the potential for expanded LNG bunkering operations?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The Department of Defense (DOD) has recognized the need to improve its cost estimating guidance for military construction projects, but it has not fully incorporated the 12 steps outlined in the GAO Cost Estimating and Assessment Guide into its Unified Facilities Criteria. What is a potential consequence of DOD's current approach to cost estimating, which may lead to unreliable cost estimates and negatively impact its ability to inform decisions regarding appropriations and project oversight?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Based on the provided documentation, what is the primary reason why the use of performance information by federal managers has not improved, despite the implementation of the Government Performance and Results Act of 1993 (GPRA) and the GPRA Modernization Act of 2010 (GPRAMA), according to the survey results?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Given the current State guidance for integrated country strategies, which of the following is a potential consequence of the lack of clear guidance on assessing climate change-related risks to agency strategies?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "What is a critical consideration for ports in North America to expand their LNG bunkering capability, given the potential for significant distances between LNG terminals and ports?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The SBA's size standards methodology has undergone significant changes over the years, with the most recent revision in April 2018 replacing the \"anchor\" approach with a \"percentile\" approach. However, this change has raised concerns about the consistency of the size standards across different industries. Which of the following statements best describes the primary motivation behind the SBA's decision to adopt the \"percentile\" approach?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A pension plan's investment fee expense ratio and administrative expenses per participant are both important metrics for evaluating its financial health. According to the provided documentation, what is the correct interpretation of the change in CSPF's investment fee expense ratio from 2000 to 2014, and how does it relate to the change in its administrative expenses per participant during the same period?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "CSPF's withdrawal from the market in 2016 was a significant event that affected the plan's investment strategy. According to the plan's actuary, the plan was in \"critical and declining\" status in 2015. What is the primary reason for this decline, and how does it relate to the plan's decision to withdraw from the market in 2016?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The Department of Labor (DOL) is considering a regulatory change to require federal contractors to establish placement goals to address underrepresentation of specific minority groups. However, the Office of Federal Contract Compliance Programs (OFCCP) has expressed concerns about the feasibility and effectiveness of such a requirement. According to a recent report, OFCCP officials face challenges in obtaining accurate and timely data from contractors, which hinders their ability to identify potential discrimination. What is a potential solution to address the concerns of both DOL and OFCCP, considering the limitations of current data collection methods and the need for effective affirmative action efforts?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "According to the provided documentation, what was the primary reason for DOD's decision to revise its foreign currency budget rates in fiscal years 2014 through 2016, and how did this revision affect DOD's projected funding needs for the period of fiscal years 2009 through 2017?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The Dodd-Frank Act's regulatory provisions, such as the Community Bank Leverage Ratio and Volcker Rule exemptions, aim to reduce the regulatory burden on community banks. However, some argue that these exemptions may not be sufficient to ensure an appropriate trade-off between benefits and costs. A recent study found that regulatory compliance costs may be subject to economies of scale, with smaller banks facing a higher relative burden. According to a report by the Federal Reserve, the Economic Growth and Regulatory Paperwork Reduction Act of 1996 requires regulators to review their regulations every 10 years and identify areas that are outdated, unnecessary, or unduly burdensome. Considering the following information, which of the following statements best reflects the potential outcome of the regulatory review process for community banks?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A government agency's information security posture is compromised due to inadequate monitoring of system configurations, lack of awareness among staff about control requirements, and insufficient physical access controls. Which of the following measures would be most effective in addressing the root cause of the agency's security vulnerabilities, considering the interdependencies between system configurations, staff awareness, and physical access controls?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Given the complexities of FMD vaccination strategies, what is the primary concern for USDA in allocating the limited supply of FMD vaccine concentrate during an outbreak, and how does this concern impact the agency's ability to control and eradicate the disease?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The Navy's decision to homeport ships overseas has led to a significant increase in operational tempo, resulting in a decline in material ship condition and an increase in casualty reports. However, the Navy attributes this trend to the need for continuous readiness and the high operational tempo of ships homeported overseas. Which of the following statements best describes the Navy's approach to addressing the decline in material ship condition and the resulting increase in casualty reports?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The Land and Water Conservation Fund (LWCF) Act of 1965 authorizes the Secretary of the Interior to use a portion of the fund for \"federal purposes\" and financial assistance to states. However, the act also states that not less than 40% of the total made available to the fund is to be used for federal purposes. If the LWCF Act receives $900 million in revenues annually, and the fund accumulates a majority of its revenues from oil and gas leases on the Outer Continental Shelf (OCS), which of the following statements is TRUE?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The Navy's acceptance of the first advanced weapons elevator (AWE) on the USS Gerald R. Ford (CVN 78) in December 2018 marked a significant milestone, but the ship's post-delivery maintenance period is expected to be extended due to unresolved issues with the AWE system. According to a January 2019 press report, what is the primary reason for the extended maintenance period, and how does it impact the ship's operational readiness?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The Director of OMB is considering a new approach to implementing the federal program inventory, which is a critical component of the Government Performance Results Act (GPRA) Modernization Act of 2010 (GPRAMA). According to our report, what is the primary reason OMB has yet to develop a systematic approach for resuming implementation of the inventory, despite previous recommendations from the Government Accountability Office (GAO)?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A House bill is passed with Senate amendments, and the Senate then sends its amendments back to the House. The House may choose to accept the amendments, reject them, or propose new amendments. However, the House may also request a conference committee to resolve the differences between the two chambers. If the House and Senate agree on a conference report, the bill is then \"enrolled\" and sent to the President for signature. But what happens if the House and Senate cannot agree on a conference report, and instead, the House proposes amendments to the Senate's amendments? Which of the following is a possible outcome?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The Federal Trade Commission (FTC) has the authority to seek civil penalties for violations of certain privacy statutes and regulations, but it has not promulgated trade regulation rules under section 5 specific to privacy. What is a potential consequence of the lack of comprehensive federal regulation of Internet privacy, according to FTC staff, and how does this relate to the agency's enforcement actions?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "According to the provided documentation, what is the primary reason APHIS has not developed a process for prioritizing and allocating its supply of FMD vaccine, despite having an SOP in place for such a process?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Based on the provided documentation, what is the primary reason DLA Document Services may consider consolidating facilities beyond those already identified, despite not having complete data on revenue for all mission specialties?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The Supreme Court's decision in United States v. Fordice (1992) established that a state's affirmative duty to dismantle a de jure segregated public university system requires the elimination of all vestiges of the unconstitutional system. However, the Court has not explicitly addressed the issue of segregative intent in higher education. In the context of Keyes v. School District No. 1, Denver, Colorado, a federal court found de jure segregation in a public school system despite the absence of a codified dual system of education. Given this precedent, which of the following statements best captures the essence of the Supreme Court's approach to determining de jure segregation in higher education?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "According to the report, what is the primary reason why some school districts have not tested for lead in their drinking water, despite the availability of federal guidance, such as the 3Ts guidance?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The Federal Reserve's quantitative easing (QE) program had a significant impact on the US economy, but its effects were not uniformly positive. Which of the following statements best describes the primary concern regarding the Fed's asset purchases of mortgage-backed securities (MBS)?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A mother with a substance use disorder is discharged from the hospital after giving birth to an infant. According to the plan of safe care developed by CPS, the mother is referred to a substance use treatment program, but the program is not yet available. The mother's family members are not willing to provide support, and the mother's social worker is concerned that the mother may relapse. Which of the following is a potential consequence of this situation?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The USCG plans to award a contract for the detail design and construction of the OPC by June 2019, which will include options for the construction of the three ships. However, the program's staffing gap, including a lack of engineers, logistics managers, and technical directors, may impact the program's ability to meet the contract requirements. Additionally, the USCG has identified issues with the engines of the FRCs, including water pump shafts, which require redesign and retrofits. The program's affordability gap from fiscal years 2018 to 2022 may be overstated due to the lack of O&M funding for USCG programs. Considering the following information, which of the following is a potential consequence of the USCG's staffing gap on the OPC program?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The United States and its Asian allies have been significantly bolstering their military activities in the South China Sea to push back against China's growing dominance. However, China's increasing confidence in asserting control over the region has alarmed its neighbors, particularly the Philippines, Vietnam, Malaysia, Indonesia, and Brunei. The United States has imposed a cost on China for its behavior in the South China Sea, but critics argue that this approach has little impact on Chinese behavior and masks the lack of a broader strategy to deal with China's growing dominance of the area.",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "An SBA analyst is tasked with evaluating the creditworthiness of 7(a) loan applicants. Based on the provided data, which of the following statements can be concluded about the creditworthiness of 7(a) loan applicants?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A nonimmigrant visa applicant from a country subject to the travel ban (as per Executive Orders 13769 and 13780) is applying for an E-3 visa to work as a highly skilled professional in the United States. The applicant has provided documentation of their qualifications, experience, and ties to their home country, but the consular officer is concerned that the applicant's intention to immigrate to the United States permanently may be inferred from their application. However, the applicant claims that they are only seeking to work temporarily and intend to return to their home country after completing their contract. Which of the following is the most likely reason for the consular officer's refusal of the visa application?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "According to the provided documentation, what is the primary reason why some USAID partners did not report banking access challenges to USAID, despite experiencing them, as per the agreements and reporting requirements?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A multiemployer pension plan, such as the Central States Pension Fund (CSPF), faces significant financial challenges due to various factors. According to the Multiemployer Pension Reform Act of 2014 (MPRA), what is a primary consequence of a plan's failure to achieve assumed returns, as seen in CSPF's investment performance since 2000?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A U.S. person living abroad may have filed Form 8938 unnecessarily due to confusion about IRS instructions and reporting thresholds. According to IRS officials, one reason for unnecessary filings is that it may be easier to report all specified foreign financial assets on Form 8938, rather than determining whether the value of such assets meets applicable thresholds. However, the IRS has not taken direct steps to clarify instructions and guidance on Form 8938. Which of the following statements best describes the potential consequence of the IRS's lack of action on Form 8938 instructions?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "What is the primary concern regarding the dual-hatted safety technical authority in the Commercial Crew Program, and how does this structure impact the agency's ability to assess and evaluate safety risks?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The CDM program's revised acquisition plan, announced in 2017, aims to procure CDM tools and integration services through the General Services Administration's (GSA) Alliant contract. However, NPPD officials have expressed concerns about the program's ability to manage the change in contracts and plan for phase 4 due to workforce challenges. According to the GAO report, the program's full operational capability (FOC) date slipped almost 4 years after the initial APB threshold. Which of the following statements best describes the potential impact of the CDM program's revised acquisition plan on the program's workforce challenges?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "What was the primary reason for the shift in U.S. assistance to Colombia from a focus on security-related programs to a greater emphasis on economic and social aid, as evident in the congressional support for Plan Colombia and its successor programs?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The Secret Service's IT workforce faces challenges in meeting its mission and programmatic goals due to competency gaps and inadequate staffing. Develop a comprehensive plan to address these gaps, ensuring that IT staff performance is aligned with organizational goals.",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Given the TRIO project's complexities, what is the primary reason for the challenges faced by IBC in ramping up its resources and deploying the necessary personnel to meet the required deliverables, as acknowledged by both IBC and DHS officials?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The CCPA's broad jurisdictional reach and potential to shape industry and consumer concerns both inside and outside California may influence federal legislative efforts. However, the EU's GDPR and other foreign nations' data protection legislation may also serve as models for future federal regulation. Considering the EU's approach to safeguarding individuals' right to \"protection of personal data\" and the US Constitution's focus on government intrusions into private life, what role should the federal government play in data protection policy, and how might this impact the potential for a comprehensive federal data protection program?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The National 911 Program aims to develop a national, interconnected NG911 system, but the current transition process is hindered by the lack of specific goals and measures to assess effectiveness. What is a critical challenge in determining the effectiveness of federal actions to assist states and localities in the transition to NG911 services?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Based on the information provided in the appendix, which of the following statements can be concluded about the active component's execution of MILCON appropriations for fiscal years 2010 through 2016?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A school district is found liable for a teacher's sexual harassment of a student under Title IX, but the district's response to the allegations was deemed \"clearly reasonable\" by the OCR. However, the plaintiff argues that the district's response was not \"clearly unreasonable\" in light of the known circumstances, as the teacher had a history of similar behavior. Which of the following is the most critical factor that the plaintiff must establish to prevail in their Title IX suit for damages?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The Navy's plans to increase its fleet size to 355 battle force ships by the 2030s may be influenced by various factors, including changes in mission requirements, ship mixes, and technologies. However, the relationship between fleet size and mission capability is complex, and a decreasing number of ships in the fleet might not necessarily mean that the fleet's ability to perform stated missions is decreasing. Which of the following statements best captures the essence of this complexity?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The Navy's cost estimates for the CVN-79 and CVN-80 carriers have been subject to revisions. According to the FY 2016 National Defense Authorization Act, the cost cap for follow ships in the CVN 78 class was reduced from $11,498 million to $11,398 million. However, the Navy's estimate for the CVN-79 is higher than CBO's estimate, with CBO expecting the ship to cost $11.7 billion in nominal dollars (or $12.0 billion in 2018 dollars), about 4 percent more than the Navy's estimate. Which of the following statements best describes the Navy's approach to reducing the cost of the CVN-79 program?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A country implements a DST (Digital Services Tax) on a broad range of digital goods and services, with a minimum threshold of $10 million in annual revenue. However, the DST has a more regressive effect on smaller digital firms, which are more likely to have lower profit margins. Critics argue that the DST creates unequal economic treatment between digital firms inside and outside the digital economy, as firms outside the digital economy can earn the same revenue without being subject to the additional tax. Proponents of the DST claim that it targets firms with excessive profit shifting strategies, such as McDonald's and Starbucks. In response to concerns about profit shifting, the US government has introduced new tax policies, including the GILTI (Global Intangible Low-Taxed Income) tax, which imposes a minimum tax rate on the intangible income of CFCs (Controlled Foreign Corporations). Which of the following statements best summarizes the potential effects of the DST on consumer welfare?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A major FMD outbreak in the United States could have significant consequences for the livestock industry, including disruptions to animal movement and trade. According to USDA documents, what is a primary challenge that USDA would face in controlling and containing an FMD outbreak, and how might this challenge be exacerbated by the lack of electronic identification tags on some animals?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The United States has a complex web of security relationships with various countries in the Western Pacific, including Japan, South Korea, and the Philippines. However, China's growing naval capabilities and island-building activities in the South China Sea (SCS) and East China Sea (ECS) pose a significant challenge to U.S. sea control and its position in the region. Considering the implications of China's actions in the SCS and ECS, which of the following statements best reflects the U.S. government's primary concern regarding China's strategy in the region?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A country with a high percentage of its population living in cities is expected to face increasing risks from rising sea levels, flooding, storms, and other climate change effects. This could lead to increased migration to urban areas, putting pressure on existing infrastructure. However, remittances from international migrants may support resilience in the origin country. Which of the following statements best describes the potential impact of climate change on the urban growth of a country with a high percentage of its population living in cities?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The Federal Communications Commission (FCC) is considering modifications to its Form 477 data collection process to improve the accuracy of broadband access data for tribal lands. However, the FCC has not yet determined how it will address the need for more accurate and complete data on broadband access for tribal lands. Which of the following options best describes the potential benefits of the FCC's proposed changes to the Form 477 data collection process?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Analyze the funding trends for the Environmental Protection Agency's (EPA) water infrastructure grants from FY2010 to FY2017. According to the provided documentation, what percentage decrease in funding was observed for the clean water SRF capitalization grants from FY2011 to FY2012, and how does this decrease compare to the decrease observed from FY2012 to FY2013?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Based on the provided documentation, what is the primary reason for the decline in the proportion of NIV adjudications from visa-issuing posts in the Western Hemisphere from fiscal year 2012 to fiscal year 2017, considering the increase in H-2A visa adjudications and the shift in employer hiring practices?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Based on the provided documentation, what is the primary role of FHWA in the implementation and assessment of the Section 130 Program, and how does this role differ from that of FRA?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The WTO Director-General Azev\u00eado acknowledged that \"members' positions continue to diverge significantly on the substantial issues\" at the 11th Ministerial Conference. Which of the following statements best describes the primary reason for the lack of progress in negotiations on domestic services regulations, as stated by WTO members?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The Navy's decision to accelerate the procurement of CVN-81 under the two-carrier contract, combined with the unchanged year of procurement for CVN-82, may have several implications for the procurement cost of CVN-82. Consider the following information:\n\n* The accelerated delivery date for CVN-81, combined with the unchanged year of procurement for CVN-82, suggests that the interval between the construction of CVN-81 and construction of CVN-82 has been increased by approximately seven months.\n* The Navy's FY2020 budget submission shows that the scheduled delivery date for CVN-81 has been accelerated by seven months, to February 2032, compared to September 2032 in the Navy's FY2019 budget submission.\n* The estimated procurement costs of CVN-78, CVN-79, and CVN-80 have grown 24.7%, 23.2%, and 15.1%, respectively, since the submission of the FY2008 budget.\n* The Navy's FY2020 budget submission shows that the estimated cost of CVN-78 grew considerably between the FY2008 budget and the FY2014 budget, but has since grown by only a small amount (about 2%) since the FY2014 budget.\n* The Navy's FY2020 budget submission also shows that the estimated cost of CVN-79 declined by a small amount (less than 1%) since the FY2013 budget.",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "What is the primary driver behind the cost and schedule growth experienced by NASA's major projects, including the JWST, and how can NASA mitigate this issue to minimize its impact on the entire portfolio?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A state's mandated reporter law requires health care providers to notify CPS about substance-affected infants. However, the law does not explicitly define what constitutes a substance-affected infant. According to the state's CPS director, the definition is unclear, and there is ongoing debate about whether it should include infants exposed to legal substances. Which of the following statements best reflects the state's current understanding of the definition of a substance-affected infant?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Ecuador's decision to sever diplomatic relations with Colombia in 2008 was largely driven by concerns over the impact of Colombia's aerial eradication of drug crops on Ecuadorian residents. However, in 2013, Colombia reached a settlement with Ecuador, awarding $15 million in damages. Considering the complex web of relationships between Venezuela, Colombia, and Ecuador, which country is most likely to be a safe haven for FARC guerrillas, and why?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The FAA's AIP grant program has been criticized for its limitations in addressing the needs of smaller airports. If the federal cap on Passenger Facility Charges (PFCs) is raised to $8.50 per enplaned passenger, as proposed by some, it could potentially increase the amount of funds available for airport development projects. However, this change could also lead to increased costs for air carriers and potentially higher fares for passengers. On the other hand, allowing large and medium hub airports to opt out of the AIP program and rely exclusively on PFCs could reduce the amount of trust fund revenue needed for AIP, but might also lead to reduced funding for noise mitigation and other purposes. Which of the following statements best describes the potential outcome of these changes?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The Navy's construction plan for CVN 79 aims to reduce costs by ~$500 million through the reduction of government furnished equipment (GFE) costs. However, the program's aggressive targets for CVN 79, such as 75% complete at launch and 85-90% of cable pulled prior to launch, may compromise the ship's structural integrity. According to the Navy's report to Congress, the CVN 78 program experienced costly delays due to incomplete system completion. To address this issue, the shipbuilder established a detailed integrated master schedule, but the Program Executive Officer (PEO) is also working to reduce GFE costs. Which of the following is a potential consequence of the Navy's efforts to reduce GFE costs, considering the aggressive targets for CVN 79?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Given the information provided in the report, what is the primary reason APHIS has not developed processes, procedures, or strategies for prioritizing and allocating its supply of FMD vaccine, according to agency officials?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Based on the information provided in the Senate action on its version of a funding bill for EPA (S.Rept. 108-143) and the Senate Appropriations Committee's report on EPA spending bill in June 1998 (S. 2168, S.Rept. 105-216), which of the following statements is true regarding the funding for the STAG account in the FY2005 EPA appropriation?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The Secret Service's IT workforce planning process is partly implemented, but it lacks a comprehensive understanding of its technical competency needs. What is the primary reason for this limitation, according to the Secret Service's officials?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The Department of Defense (DOD) requires each Military Service to monitor the implementation of its policy for families with special needs through the EFMP. However, DOD has not established common performance measures to track the Services' progress over time. According to the April 2017 Report to Congress, the long-term goal of these efforts is to ensure that all families with special needs enrolled in the EFMP receive the same level of service regardless of their Military Service affiliation or geographic location. Which of the following is a potential consequence of DOD's lack of common performance measures for the EFMP?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "What strategic approach would help CMS to address fraud risks in its Medicare and Medicaid programs, considering the malicious intent of those who aim to exploit the programs, and align existing control activities and stakeholder relationships to produce desired results?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The Army's Foreign Currency Fluctuations Defense (O&M) reports are inaccurate due to the Army's accounting system charging disbursements to the current fiscal year appropriation rather than to the fiscal year appropriation that incurred the obligation. However, the Army Budget Office has acknowledged the need to modify its system to record disbursements consistent with Financial Management Regulation guidance. What is a critical factor that DOD must consider when developing a plan to address the inaccuracies in the Army's Foreign Currency Fluctuations Defense (O&M) reports, and how might this factor impact the overall management of DOD's foreign currency gains and losses?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The Secret Service's agile implementation of the Uniformed Division Resource Management System and Events Management projects has raised concerns about the lack of product quality and post-deployment user satisfaction metrics in the modular outcomes and target measures set by the CIO. According to the documentation, the Secret Service's component-level CIOs are responsible for ensuring proper oversight and management of the components' IT investments, including IT budgeting, portfolio management, and oversight of programs' systems engineering life cycles. However, the Secret Service's acquisition review guidance only requires the review of IT acquisitions with total estimated procurement values of $2.5 million or more, and the department's IT acquisition review guidance does not explicitly mention the importance of measuring product quality and post-deployment user satisfaction. Which of the following statements best describes the Secret Service's approach to monitoring the performance of its agile projects?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The Afghan Air Force and Special Mission Wing fleets are expected to increase in size by 2023, but the lack of reliable information on the conventional forces' ability to operate and maintain U.S.-purchased equipment poses a significant challenge to the success of the train, advise, assist, and equip efforts in Afghanistan. According to DOD officials, the National Maintenance Strategy Ground Vehicle Support contract may provide more reliable information on vehicle availability rates, but the Security Force Assistance Brigade may also be able to collect and report on the tactical abilities of units they advise and accompany on missions. However, as of June 2018, DOD officials had not decided which option to pursue. What is the primary concern that DOD faces in its efforts to develop a self-sustaining Afghan Air Force and Special Mission Wing, and how might the implementation of the National Maintenance Strategy Ground Vehicle Support contract and the Security Force Assistance Brigade address this concern?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A lender is subject to a corrective action by the Small Business Administration (SBA) due to noncompliance with the credit elsewhere documentation requirement. According to SBA's standard operating procedures, on-site reviewers should determine whether lenders' policies and practices adhere to the requirement, but they do not require them to document their assessment of these policies and practices. However, SBA's contractors have stated that they would attempt to determine whether a single instance of noncompliance was an inadvertent error, such as by examining additional loan files. Which of the following statements best describes the SBA's approach to addressing noncompliance with the credit elsewhere documentation requirement?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The agencies' inability to reassess their higher-level facilities within the 3-year interval requirement may lead to inadequate protection of their facilities and employees. What is a critical factor that the agencies must consider when revising their plans to address the backlog, and how does this factor relate to the ISC Standard's requirement for agencies to measure their security program's capabilities and effectiveness?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A state veterinarian is responding to an FMD outbreak in a region with a large livestock industry. The veterinarian has access to the following documents:\n\nChunk0: Over time, USDA\u2019s APHIS has developed various documents to guide its response to FMD, including overarching guidance for responding to FMD and other foreign animal diseases, procedures with in-depth operational details, and plans to secure the nation\u2019s food supply.\n\nChunk1: A vaccine for one FMD subtype may also provide good or partial immunity to other closely related subtypes, but it would not generally protect against other serotypes. The vaccine bank has concentrate for a number of FMD subtypes that pose the greatest risk to North American livestock based on recommendations from the World Reference Laboratory for FMD.\n\nChunk2: Many of the more general SOPs have proven useful during outbreaks of other animal diseases and exercises simulating FMD outbreaks, according to APHIS and state government officials. For example, one state animal health official said that during the 2014 avian influenza outbreak, the SOP for disposing of poultry carcasses through composting was initially insufficient because the poultry industry had not previously been composting in all states.",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "According to the provided documentation, what is a critical risk factor for sexual harassment perpetration that is missing from DOD's sexual harassment policies, as identified by the CDC, and how might the inclusion of this factor impact the development of a comprehensive sexual harassment prevention strategy?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A U.S. firm, XYZ Inc., is considering an inversion transaction with a foreign parent, ABC Corp. The foreign parent, ABC Corp, is a tax resident of a third country. In a recent regulatory update, the Treasury Department clarified the rules for inversion transactions involving foreign parents with tax residences in third countries. According to the updated regulations, what is the effect of the foreign parent's tax residency on the ownership requirement for the inversion transaction, and how does this change impact the U.S. firm's ability to access the accumulated deferred earnings of its foreign subsidiaries?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The congressional intent behind tasking depository institution regulators with EGRPRA reviews was to ensure that they considered the cumulative effect of financial regulations. However, a 1995 Senate Committee on Banking, Housing, and Urban Affairs report noted that the aggregate burden of banking regulations ultimately affects a bank's operations, profitability, and the cost of credit to customers. According to the EGRPRA 2017 report, what specific action did the regulators fail to take, despite receiving comments from community banks, credit unions, and other stakeholders, which could have assisted them in conducting their EGRPRA reviews?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A state is eligible for Disaster Unemployment Assistance (DUA) benefits for a major disaster that occurred on March 1, 2022. According to the Department of Labor, the minimum weekly DUA benefit is half of the average weekly UC benefit for the state where the disaster occurred. However, the state's governor has requested a grant to use DCM providers to supply services to survivors with long-term, disaster-caused unmet needs, which is authorized under the Stafford Act. If the grant is approved, the state may also be eligible for tax relief provisions, including the extension of tax filing deadlines, due to the disaster. Which of the following statements is true?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Based on the provided documentation, which TRIO component's AA process substantially met the four characteristics of a reliable, high-quality AOA process, and therefore is at lower risk regarding its decision on the solution that represents the best alternative for meeting its mission needs?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "USDA's APHIS has identified several strategies for responding to an FMD outbreak, including stamping out, vaccination, or a combination of both. However, a 2017 survey of APHIS officials revealed that the agency's workforce needs for emergency response to an FMD outbreak were not adequately addressed. According to APHIS documents, the agency is currently building a model to develop workforce estimates for a large-scale FMD outbreak. Which of the following response strategies is most likely to be effective in controlling and eradicating FMD in an outbreak, considering the potential limitations of the vaccine and the need for a workforce with adequate training and capacity?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A multinational corporation (MNC) with a global revenue of $100 million has a subsidiary in the UK that earns $5 million in revenue from sales to UK customers, but incurs no profits due to low profit margins. The UK is considering a \"low-profit\" exemption for MNCs subject to the DST, which would exempt the MNC from paying the DST on the revenue earned by its UK subsidiary. However, the exemption is only available to MNCs that have a permanent establishment in the UK. If the MNC does not have a permanent establishment in the UK, but still earns significant revenue from sales to UK customers, will the UK DST be effective in raising revenue from this MNC, and if so, how will the exemption for low-profit subsidiaries impact the overall tax revenue of the UK?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The Navy's efforts to improve the CVN 78 program have led to significant cost savings, but the CVN 79 program still faces challenges in material procurement and production planning. What is the primary reason for the Navy's increased oversight of contractor furnished material procurement for CVN 79, and how does this oversight align with the Navy's goal of maximizing planned work in the shops and early stages of construction?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The FAA Reauthorization Act of 2018 mandated that at least 50% of the additional discretionary funds for the AIP be made available to nonhub and small hub airports. However, the act also included a provision that allowed small airports to use their entitlements for revenue-generating aeronautical support facilities, including fuel farms and hangars, if the Secretary of Transportation determines that the sponsor has made adequate provisions for the airside needs of the airport. According to the 2018 FAA Reauthorization Act, which of the following airports would be eligible to use their entitlements for landside projects, such as terminals and transit systems on airport property, if they had 10,000 or more passenger boardings in 2012 but had fewer than 10,000 during the calendar year used to calculate the AIP apportionment for FY2017?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A government agency has submitted a report to Congress and the Comptroller General, as required by the CRA, stating that a new policy has taken effect. However, the agency's internal documents suggest that the policy was not subject to the CRA's submission requirement because it was deemed to be a general statement of agency policy, lacking legal effect. Which of the following statements best describes the CRA's position on the issue of whether the policy's operation had a discernible and independent effect on the agency's actions?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A federal agency has been evaluated for its information security program using the NIST Cybersecurity Framework. The evaluation results indicate that the agency's information security program is currently rated at Level 2 (developing), which means that the agency has some basic security controls in place but is not yet effective in managing information security risk. However, the agency's risk assessment indicates that there is a high risk of a cyber intrusion in the next quarter. The agency's incident response plan is incomplete and has not been tested. The agency's security awareness training program is also inadequate. Which of the following actions should the agency take to improve its information security program?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "According to the CFPB, what is the primary goal of the new HMDA Platform, and how does it address the concerns of community banks and credit unions regarding the burden of submitting HMDA data?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "According to PLCY officials, what is a primary challenge in ensuring that the office's workforce aligns with its and DHS's priorities and goals, given the rapidly changing nature of the office's priorities?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A multiemployer pension plan, such as CSPF, faces significant financial challenges due to a combination of factors. Which of the following statements best describes the primary reason for the critical financial condition of multiemployer plans like CSPF?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Congress is considering legislation to enhance the authority of the SEC to regulate municipal securities issuers. What potential consequence could result from Congress's decision to subject all investment companies in Puerto Rico to the Investment Company Act of 1940, as amended?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The House Appropriations Committee-reported H.R. 6776 included $13.70 billion in FY2019 net discretionary funding for the components funded in Title III, which is $861 million (6.7%) more than the requested amount by the Trump Administration. However, the Senate committee-reported bill, S. 3109, included $13.54 billion in FY2019 net discretionary funding for these components, which is $694 million (5.4%) more than the requested amount. Considering the total budgetary resources projected for FY2019, the House committee-reported bill would be $885 million (4.7%) more than the Administration's request, while the Senate committee-reported bill would be $1.13 billion (5.4%) less than projected for FY2018. Given that the Senate committee-reported bill included $228 million in its Federal Assistance appropriation from unobligated DRF balances, and the House committee-reported bill did not include this amount, which amount of disaster relief funding was actually provided for the components funded in Title III in FY2019?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Based on the provided documentation, what is the primary limitation of GSA's guidance on alternative workplace arrangements, including telework, in enabling agencies to use telework as a strategic space-planning tool?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "What is the primary limitation of HUD's current monitoring procedures for the RAD program, as identified by the evaluation, and how does this limitation impact the agency's ability to assess the effects of RAD conversions on residents?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The Administration's FY2004 budget request for water infrastructure funds included a provision that linked new grant funds to at least $1.35 billion in clean water SRF grants. However, the enacted bill provided no separate funds for the new wet weather overflow grant program, which the Administration had requested. In contrast, the House-passed bill included $1.2 billion for clean water SRF grants, but the Senate-passed bill included $1.34 billion for clean water SRF grants. Which of the following statements is true?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "According to the documentation, what is a primary concern for State, Commerce, and USDA officials overseas regarding the implementation of funding restrictions on promoting tobacco exports, and how can this concern be addressed?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A mother with a substance use disorder gives birth to an infant. According to the plan of safe care, what is the primary responsibility of the CPS agency in this scenario?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The Department of Defense (DOD) has been exploring the use of Block Buy Contracts (BBC) and Multi-Year Purchases (MYP) to reduce procurement costs. However, the use of BBC is not governed by a permanent statute, whereas MYP is governed by 10 U.S.C. 2306b. Given the following information:\n\n* The DOD has been able to achieve significant savings through the use of MYP, with the total dollar value of DOD MYP contracts remaining relatively stable between FY2000 and FY2012.\n* The Navy makes more use of MYP contracts than the Army or Air Force.\n* The Air Force made very little use of MYP in FY2010-FY2012.\n* The use of BBC is not governed by a permanent statute, but it permits DOD to use a single contract for more than one year's worth of procurement of a given kind of item without having to exercise a contract option for each year after the first year.\n* The Coast Guard has permanent authority to use block buy contracting with EOQ purchases of components in its major acquisition programs, as provided by Section 311 of the Frank LoBiondo Coast Guard Authorization Act of 2018.\n\nWhich of the following statements best describes the implications of the lack of a permanent statute governing the use of BBC?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The United States is expected to become a significant player in the global liquefied natural gas (LNG) market due to its leading role in natural gas production. However, the country's LNG supply could face challenges in meeting the growing demand for LNG bunkering in the maritime sector. According to a study, the global demand for LNG in the maritime sector is projected to increase from 20 to 30 million metric tons per year by 2030. Assuming the United States will add 400 to 600 new LNG-powered vessels to the global fleet by 2030, which of the following statements is most likely to be true?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The Bosnian government has introduced new criminal offenses to prosecute foreign terrorist fighters and recruiters, but some experts warn that Bosnia's political fragmentation and dysfunction could undermine counterterrorism efforts. However, the Croatian government has expanded border policing, and apprehended individuals are sent back to Bosnia. In 2018, the EU provided \u20ac2 million to help Bosnia respond to the crisis and provide shelter to migrants and refugees. Considering the complex relationships between Bosnia, Croatia, and Turkey, what is the most likely outcome of the Turkish government's proposed \u20ac3 billion investment in Bosnia's highway project, and how might this impact Bosnia's counterterrorism efforts?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A USAO's collection of restitution debt is influenced by various factors, including the offender's ability to pay, the district's resources, and the complexity of the case. According to DOJ and EOUSA officials, what is a potential challenge in establishing performance measures and goals for USAOs to improve debt collection, and how might this challenge impact the evaluation of USAO performance in recovering restitution for victims?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Trump Administration's decision to withdraw from the WTO's dispute settlement system could have significant implications for the global trading system. What are the potential economic costs to the United States if it were to withdraw from the WTO, and how might this impact the country's influence over global trade rules?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Dodd-Frank Act's regulatory relief provisions for community banks aim to balance the benefits and costs of regulation. However, some argue that these provisions may not be sufficient to address the unique challenges faced by community banks. Which of the following statements best captures the essence of the debate over the optimal level of regulatory relief for community banks?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Navy's ship-naming policies and practices have been shaped by a complex interplay of historical traditions, presidential and congressional influences, and the evolving needs of the fleet. According to the July 2012 Navy report to Congress, what is the significance of the Seawolf (SSN-21) class of attack submarines, which were named for a fish, a state, and a President, respectively?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Colombian government's strategy under President Uribe's leadership was characterized by a focus on combating the FARC's influence in rural areas and the borderlands. This approach was part of a broader effort to address the root causes of the conflict, including land distribution and agrarian concerns. However, critics argue that the strategy failed to adequately address human rights concerns and that the FARC continued to launch terror attacks and cultivate coca in demilitarized zones.",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Department of Veterans Affairs (VA) has a process to investigate allegations of misconduct, but the Office of Inspector General (OIG) was unable to locate investigative documentation for some cases. What is the primary concern with VA's current process for investigating allegations of misconduct involving senior officials, and how might this impact the department's ability to address retaliation for disclosing misconduct?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "What is the primary reason why the U.S. government agencies, including State, USAID, and DOD, have not prioritized assessing and addressing climate change as a driver of migration, despite their involvement in international development and disaster response efforts?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A carbon tax system is being considered to reduce greenhouse gas emissions in the United States. However, policymakers are concerned about the potential economic impacts of the tax on certain industries and communities. Which of the following options would be the most effective way to mitigate the economic impacts of a carbon tax on coal-mining communities, while also supporting the overall goal of reducing greenhouse gas emissions?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Department of Defense's (DOD) sustainment challenges for the F-35 program have significant implications for the readiness of the Navy and Marine Corps. According to a recent report, the Navy and Marine Corps face challenges associated with depot maintenance, spare parts availability, and workforce inexperience. However, the DOD has established an 80-percent mission capability goal for critical aviation assets, including the F-35. Which of the following statements best describes the primary challenge facing the Navy and Marine Corps in achieving this goal?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Obama Administration's October 2016 restrictions on U.S. arms sales to Saudi Arabia were seen as insufficient by human rights organizations and aid groups. However, the Trump Administration's strong support for the Saudi-led coalition's operations in Yemen as a bulwark against Iranian regional interference has led to a reevaluation of the U.S.-Saudi relationship. Which of the following best describes the primary concern of lawmakers regarding U.S. involvement in the Saudi-led coalition intervention in Yemen?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A government agency is considering consolidating its print device procurement across multiple services. According to DOD Instruction 5330.03, what is the primary benefit of consolidating procurement, as stated by the Department of Defense?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A government agency is considering implementing a new performance management system to improve the use of performance information among its managers. The agency has identified several practices that can enhance the use of performance information, including demonstrating management commitment, communicating performance information frequently and efficiently, and developing the capacity to use performance information. However, a recent survey of federal managers suggests that these practices are not being effectively adopted. Which of the following is a potential challenge that the agency may face in implementing the new performance management system?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A 65-year-old individual, John, is eligible for Medicare Part A and Part B. However, he has not enrolled in Part D during his initial enrollment period. As a result, he will face a permanent penalty on his monthly premiums. John's employer-sponsored health insurance plan covers his prescription drug needs, and he is eligible for the Part D catastrophic subsidy. Additionally, John's wife, Jane, is a caregiver for her elderly mother, who requires full-time care in a nursing home. The nursing home has a waiting period of 30 days before Medicare coverage begins. Which of the following statements is true?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "According to the provided documentation, what is the primary concern regarding the referral of disclosure cases from the Office of the Secretary of Veterans Affairs (OSC) to the Office of the Inspector General (OIG) for further investigation, and how does this concern impact the integrity of the process?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The National 911 Program is developing a National NG911 Roadmap to facilitate the transition to a fully integrated national NG911 system. However, the roadmap lacks specific roles and responsibilities for federal entities to carry out national-level tasks. What is a critical factor that the National 911 Program must consider when developing a plan to achieve the roadmap's objectives, and how might this factor impact the program's ability to assess its effectiveness in assisting states and localities in transitioning to a fully integrated national NG911 system?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "According to the Fraud Risk Framework, what is the primary limitation of CMS's current approach to addressing fraud risks in Medicare and Medicaid, and how would a comprehensive fraud risk assessment address this limitation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Internal Revenue Service (IRS) has not updated its estimation methodology for the Earned Income Tax Credit (EITC) despite the Office of Management and Budget (OMB) guidance revision in October 2014. This oversight may lead to understated improper payment estimates and limit the agency's ability to address these types of payments before they occur. According to OMB guidance, improper payments are considered improper if an agency's review is unable to determine whether a payment was proper due to insufficient or lack of documentation. However, the IRS's methodology assumes nonresponse cases have an equal likelihood of improper payment, which may not accurately reflect the risks associated with these cases. Furthermore, the IRS excludes recovered overpayments from its EITC improper payment estimate, which may lead to understatement of improper payments. Which of the following statements best describes the potential consequence of the IRS's approach to estimating improper payments for the EITC?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The use of the International Emergency Economic Powers Act (IEEPA) has expanded significantly since its initial implementation in 1977. Analyze the trend of IEEPA's application, considering the shift from targeting foreign governments to groups and individuals. How have the stated motivations for declaring national emergencies under IEEPA changed over time, and what implications does this have for the scope of IEEPA's authority?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A community bank with $500 million in assets and a mortgage lending ratio of 5% is participating in a focus group to discuss the burdensome regulations they face. According to the bank's examination report, the bank has been required to hire additional staff to comply with the Home Mortgage Disclosure Act (HMDA) and the Bank Secrecy Act (BSA/AML) regulations. However, the bank's staff has expressed concerns that the regulations are overly complex and require significant investments in information technology resources. Which of the following statements best describes the potential benefit of the HMDA regulation for the community bank?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The United States has been criticized for its lack of action in the South China Sea, with some arguing that it has failed to support the rights of neighboring countries under the tribunal's ruling. However, others argue that the U.S. has been taking steps to counter China's maritime claims in the region. Which of the following statements best summarizes the U.S. approach to the South China Sea?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A state is requesting a Fire Management Assistance Grant (FMAG) to combat a wildfire that has burned over 10,000 acres of federal land. The state's request includes a request for reimbursement for equipment and supplies, mobilization and demobilization, and emergency work, including evacuations and sheltering. However, the fire is also affecting tribal lands, and the tribe has its own fire suppression resources. According to FEMA's guidelines, FMAGs are funded through the Disaster Relief Fund (DRF), which has a base funding category that includes activities not tied to major disasters under the Stafford Act. The DRF's base funding category is scored as discretionary spending that counts against the discretionary spending limits. If the DRF balance is low, FEMA may use its \"immediate needs funding\" (INF) policy to fund urgent events, such as the wildfire. Which of the following statements is TRUE regarding the funding of the FMAG request?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A state official from one of the selected states explained that the lack of awareness about summer meal sites among children and families is a significant challenge. However, officials from a national organization involved in sponsoring summer meals told us that they encourage their local sites to operate in August, a month where there are generally fewer summer meal service offerings. Which of the following is a potential reason why some meal site operators may struggle to increase awareness about the SFSP among families, despite increased outreach efforts?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "According to the provided documentation, what is the primary challenge PLCY faces in coordinating with operational components, and how can this challenge be addressed?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The IRS's efforts to link Form 8938 data to Form 8966 data rely on the accurate identification of taxpayer TINs. However, a 2018 report by the Treasury Inspector General for Tax Administration (TIGTA) found that almost half of new Forms 8966 filed by Foreign Financial Institutions (FFIs) did not include a TIN or included an invalid TIN. Which of the following factors, according to the consulting firm working with FFIs, contributed to the challenges in obtaining accurate TINs from U.S. persons?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Government Accountability Office (GAO) defines a user fee as a fee assessed to users for goods or services provided by the federal government. However, some argue that user fees can lead to policy or operational failure, as seen in the case of the Federal Energy Regulatory Commission (FERC) and the Nuclear Regulatory Commission (NRC), which are largely supported from amounts paid by covered industries. In contrast, the U.S. Postal Service sets rates to cover nearly all of its costs according to a 2006 statutory framework. Which of the following statements best describes the potential impact of requiring most fees to be collected into the Treasury General Fund and activities previously supported by those fees to be funded by annual appropriations?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Given the information provided in the documents, which country among Syria, Somalia, Haiti, and Kenya is most vulnerable to money laundering due to its ranking on the Organisation for Economic Co-operation and Development's (OECD) Fragile State Index and its inclusion on multiple financial-risk-related indices, considering the specific indices used to evaluate the countries and the level of humanitarian assistance they received from U.S. agencies?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "DOD's management of the FCFD account balance appears to be based on a strategy of maintaining the maximum balance, rather than a more nuanced approach that takes into account projected gains and losses. However, the OUSD(C) official stated that the FCFD account is used to maximize unobligated balances within the military services' O&M and MILPERS accounts before they are canceled and are no longer available to DOD. Which of the following statements best describes the potential consequence of DOD's FCFD account management strategy on the department's ability to absorb foreign currency losses?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A state Medicaid agency reports that it has a system in place to track critical incidents in assisted living facilities, but it is unclear whether this system is effective in identifying and addressing incidents of abuse, neglect, exploitation, and unexplained death. According to the state's annual report, the system has identified 12 critical incidents in the past year, but the agency is unable to provide information on the type and severity of the incidents, or the location of the facilities involved. However, a review of the state's critical incident reports reveals that 4 of the incidents involved a facility that is also a provider of home and community-based services (HCBS) for Medicaid beneficiaries. Which of the following statements is most consistent with the information provided?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Given the context of the Egyptian government's efforts to amend the constitution and the US government's response, what is the primary concern of human rights advocates regarding the proposed amendments, and how does this concern relate to the US government's decision to withhold foreign assistance?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "CBP's Integrated Fixed Towers (IFT) program aims to deploy IFT systems across six areas of responsibility (AoR) in Arizona. However, the program's initial estimates were immature, and the program's life-cycle cost estimate (LCCE) was revised in November 2017. According to CBP officials, the program's affordability gap from fiscal years 2018 to 2022 may be overstated due to DHS's funding plan to Congress no longer containing operations and maintenance (O&M) funding for individual programs. Considering the following information:",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Given the complexities and challenges faced by the TRIO project, which of the following best describes the primary reason for the significant increase in estimated implementation costs, considering the schedule delays, unanticipated complexities, and other challenges?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A postal retiree health benefits (RHB) fund with a large and growing financial gap is expected to be depleted in as little as 12 years under the current status quo. According to a report, the primary policy decision for Congress is whether to increase postal retirees' use of Medicare, which would lead to further increasing Medicare costs. However, some companies and state governments have successfully implemented approaches to address the financial sustainability of retiree health benefits, such as requiring retirees to pay 100 percent of the health insurance premium. Which of the following approaches would likely have the most significant impact on reducing the RHB fund expenses, assuming it is implemented in conjunction with a fixed subsidy structure?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "According to the report, what is a primary benefit of government-wide reporting of fees, fines, and penalties, as identified by congressional staff and officials from Treasury, CBO, and external organizations?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A local public housing authority (PHA) is considering converting a property with a significant backlog of needed repairs to the Rental Assistance Demonstration (RAD) program. The PHA has determined that the property's current contract rent is below market rate, and they expect to receive a Section 8 Housing Assistance Payment (HAP) contract with a rent that is lower than the market rate. However, the PHA is concerned that the contract rent may not be sufficient to access private capital for rehabilitation or new construction. Additionally, the PHA is aware that the RAD program requires that the converted property have public or nonprofit ownership or control, with limited exceptions.",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A hypothetical, comparable U.S. operation in the Central African Republic (CAR) would likely require a significant increase in personnel deployment compared to the ongoing UN operation, MINUSCA. According to the U.S. Department of State, the number of U.S. military personnel deployed to CAR would be approximately 10,000, with a corresponding increase in civilian personnel to support the operation. However, the actual number of U.S. military personnel deployed to CAR would be lower due to the presence of a significant number of U.S. military personnel already deployed to other parts of Africa.",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "VA's efforts to modernize its health information system, as outlined in its latest electronic health record modernization initiative, are dependent on the successful acquisition of a new system. However, the department's history of IT challenges, including limitations in system interoperability and inefficient system design, pose significant risks to the timeliness, quality, and safety of healthcare services. According to a recent report, VA has made progress in addressing these challenges, including the development of a comprehensive software license inventory and the implementation of a solution to analyze agency-wide software license data. Nevertheless, the department's plans for the EHRM program are still in the early stages of planning and are dependent on the system acquisition contract award. Which of the following statements best describes the current status of VA's efforts to address its IT challenges and ensure effective management of its latest modernization initiative?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Supreme Court's decision in Zauderer v. Office of Consumer and Investor Protection (1985) established a standard for evaluating the constitutionality of commercial disclosure requirements. However, the Court has not provided a clear standard for determining what type of interest is sufficient to justify such requirements. Which of the following interests, if asserted by the government, would likely be considered substantial under the Zauderer standard?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The SBA's industry size standards are based on a combination of factors, including employment size, average annual receipts, and asset-based standards. However, the SBA's approach to defining small businesses has been subject to criticism and revision over the years. Which of the following statements best describes the SBA's current approach to establishing size standards for industries?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The 2011 pay adjustment for federal civilian employees was prohibited by the enactment of H.R. 5146 (P.L. 111-165) on May 14, 2010. However, the 2012 pay freeze for Members of Congress was not directly related to the 2011 pay adjustment. What is the primary reason for the difference in the timing of the pay freeze for federal civilian employees and Members of Congress?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Federal Aviation Administration (FAA) has established a set-aside of 50% of discretionary funds for future obligation in all LOIs. However, the current apportionment system relies on a $3.2 billion funding level trigger mechanism to lift most of the apportionments to twice their formula level. If this trigger is breached, entitlements for all airports would be reduced drastically. Some argue that allowing large and medium hub airports to opt out of AIP and rely exclusively on Passenger Facility Charges (PFCs) to finance capital projects could reduce the amount of trust fund revenue needed for AIP. This could potentially alleviate the constraint on discretionary funds, but would also eliminate the land use requirements and airport revenue use restrictions for these airports. On the other hand, critics argue that the increased flexibility in using entitlements for large and medium hub airports could divert resources from capacity and safety projects. If the AIP budget is constrained in the future, and the entitlement formulas remain as they are, the discretionary portion of the AIP budget may be squeezed, limiting large airports' ability to draw on AIP funds for major capacity expansion projects. Which of the following statements best describes the potential outcome of the FAA's current apportionment system and the proposed changes to the AIP structure?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A pregnant woman with hypertension is prescribed methadone as part of a medication-assisted treatment (MAT) program for opioid use disorder. However, she also uses oxycodone for chronic pain management, which may interact with her hypertension. Considering the potential risks of NAS and the importance of blood pressure control, which of the following statements is most consistent with the recommended approach to managing her opioid use during pregnancy?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Trump administration's increased frequency of freedom of navigation operations (FONOPs) in the South China Sea has been met with varying reactions from China and other regional actors. According to a June 3, 2018, press report, the Pentagon is considering intensified naval patrols in the South China Sea to challenge China's growing militarization of the waterway. However, critics argue that these patrols have little impact on Chinese behavior and mask the lack of a broader strategy to deal with China's dominance in the area.",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "According to the report, what is the maximum amount of financial assistance that the U.S. Department of Agriculture may provide to farmers who have suffered losses due to the 2019-2020 drought, and how does this amount compare to the maximum amount of financial assistance provided by the U.S. Department of Commerce for information leading to a conviction in wildlife trafficking cases?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The House Appropriations Committee-reported H.R. 6776 included $41.28 billion in FY2019 net discretionary funding for components funded in Title III, which is $2.59 billion (6.7%) more than S. 3019. However, Senate Appropriations Committee-reported S. 3109 included $13.70 billion in FY2019 net discretionary funding for the same components, which is $861 million (6.7%) more than the amount provided for FY2018. Considering the total budgetary resources projected for components funded in Title III under H.R. 6776, P.L. 116-6, and S. 3109, which were $47.82 billion, $1.88 billion, and $6.23 billion, respectively, determine the correct answer.",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A state CPS office has reported that they typically obtain releases from mothers to verify their participation in treatment and to check for records of relapse. However, a recent review of state plans has revealed that some plans do not meet the requirements, and those states have been asked to develop program improvement plans. The National Center on Substance Abuse and Child Welfare (NCSACW) has provided technical assistance to states, including guidance on the development of plans of safe care. According to the NCSACW, these plans should include notifications to CPS about substance-affected infants and the development of a plan of safe care for these infants. However, some states have reported confusion about the requirements for health care providers to notify CPS about substance-affected infants. Which of the following statements best describes the recommended course of action for the NCSACW to address the challenges faced by states in implementing CAPTA requirements?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A VA facility has a record- retention schedule that specifies a range of 4 to 7 years for adverse action files, but the facility has not established a specific retention period for these files. According to the VA's records management program, what is the primary concern with this approach, and how does it relate to the VA's compliance with Federal regulations?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The US Navy's decision to potentially end its ballistic missile defense (BMD) patrols at sea has significant implications for the region. According to a recent press report, Japan is preparing to acquire its first Aegis Ashore BMD system, which could fill the gap created by a possible US Navy cessation of BMD patrols. However, this shift in defense posture raises concerns about the reliability and effectiveness of land-based systems in the face of emerging hypersonic threats.",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A local CPS office in Kentucky reported that the number of babies accepted for investigation has increased by 55% from 2011 to 2016, while the number of staff has remained the same. According to the Kentucky public health officials, the period after a woman gives birth is a critical time for families as mothers may be stressed, sleep-deprived, exhausted, and may have other children in the home. However, officials also stated that women are typically covered for substance use treatment during pregnancy, but this coverage ends roughly 60 days after the baby is born. Which of the following statements best describes the potential consequence of the new CAPTA requirements for infants affected by their mother's legal use of prescribed medications?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A local government agency is applying for a lead grant to reduce lead paint hazards in its jurisdiction. According to HUD's 2017 funding notices, the agency must demonstrate that it meets the following eligibility requirements: (1) contribute matching funds to supplement the grant award, (2) have an approved comprehensive affordable housing strategy, and (3) have a certified lead abatement program. Additionally, the agency's proposed grant activities must be consistent with its local affordable housing strategy. However, the agency's application notes that it has not yet established a formal partnership with a local public health agency to identify families with children under the age of 6 for enrollment in the lead grant program. Which of the following options best describes the potential outcome for the agency's grant application?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Supreme Court's decision in Barnett Bank of Marion County, N.A. v. Nelson established that federal law preempts state laws that \"significantly interfere\" with the powers of national banks. However, in Gutierrez v. Wells Fargo Bank, NA, the Ninth Circuit held that federal banking regulations did not preempt a generally applicable state law prohibiting certain types of fraud. Which of the following statements best captures the essence of the Barnett Bank decision, and why did the Ninth Circuit's decision in Gutierrez v. Wells Fargo Bank, NA, reach a different conclusion?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "State's lack of an integrated action plan to address persistent Foreign Service vacancies at overseas posts poses significant risks to the agency's ability to achieve U.S. foreign policy goals. According to State officials, the agency's efforts to address vacancies have not reduced persistent vacancies, notably in specialist positions. What is the primary reason for the persistence of vacancies in specialist positions, as identified by State's data, and how does this relate to the agency's ability to achieve U.S. foreign policy goals?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Department of Defense (DOD) is concerned about the reliability and maintainability of its aircraft fleet, particularly the B-52 and F-35. According to a recent report, the B-52s are expected to operate until at least 2040, while the F-35 program has faced significant challenges in achieving its reliability and maintainability targets. To address these issues, the Navy and Marine Corps are planning to procure additional aircraft, such as the F/A-18E-F Super Hornet, and extend the service life and upgrade the capabilities of their legacy aircraft. However, these efforts are hindered by challenges in depot maintenance, spare parts availability, and the lack of clear sustainment strategies for legacy weapon systems.",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Supreme Court has established a heightened standard of review for commercial disclosure requirements, as seen in the case of NIFLA. However, the Court has also recognized that certain disclosures, such as health and safety warnings, are permissible under the First Amendment. Which of the following statements best captures the essence of the Court's approach to commercial disclosure requirements?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A public safety officer, who is eligible for PSOB benefits, is involved in a high-speed chase that ends in a crash. During the chase, the officer's vehicle is struck by a hijacked truck, causing significant damage to the vehicle and resulting in a traumatic physical wound. The officer is taken to a hospital and undergoes surgery, but unfortunately, the officer dies 24 hours later due to complications from the wound. Which of the following statements best describes the eligibility of the officer's death for PSOB benefits?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "What is the primary reason for the discrepancy between the Trump Administration's FY2019 budget request for DHS and the enacted FY2019 appropriations, considering the Bipartisan Budget Act of 2018 and the Consolidated Appropriations Act of 2017?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "According to the provided documentation, what is the primary reason for the significant increase in HUD's RAD leverage ratio from 2016 to 2017, as reported in the RAD authorizing statute, and how does this change reflect the actual leveraging of private and public funds in RAD conversions?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "What is the primary consequence of the 2013 military coup in Egypt, as described in the provided documentation, on the country's political landscape, and how does this relate to President Sisi's consolidation of power?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "What is the primary distinction between the emergency powers granted to the President under the National Emergencies Act of 1976 and those granted under the Trading with the Enemy Act (TWEA), as highlighted by the Senate special committee's report?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The U.S. Navy's Gerald R. Ford aircraft carrier has experienced significant issues with its propulsion system and elevator flaws, leading to a $120 million cost overrun. According to a May 2018 press report, the ship's propulsion system and elevator flaws are separate from reliability issues on its troubled aircraft launch and recovery systems. However, a November 2018 press report stated that Huntington Ingalls Industries Inc. is asking General Electric Co. to compensate it for damage caused by flawed workmanship during installation of propulsion system components on the U.S. Navy's $13 billion aircraft carrier Gerald R. Ford.",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  }
+]

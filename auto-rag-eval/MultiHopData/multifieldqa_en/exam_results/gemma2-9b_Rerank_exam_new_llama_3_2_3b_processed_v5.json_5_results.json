@@ -1,0 +1,1255 @@
+[
+  {
+    "question": "The situation on the ground in Libya appears to be deteriorating, with Gadhafi forces regaining the upper hand. General Carter Ham, the former commander of the U.S. Africa Command, testified that the situation is a stalemate, but Senator John McCain disagrees, stating that the situation is further from being achieved than it was three or four weeks ago. What is the most plausible explanation for the recent retreat of opposition forces, and how does it relate to the concerns about the effectiveness of the U.S. military's air campaign?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The Tevatron Collider Run II has provided new results on the top quark mass and its implications for the mass of the SM Higgs boson. According to the CDF collaboration, the differential probability that the measured variables in any event correspond to the signal is calculated as a function of the top quark pole mass. The maximum in the product of the individual event probabilities provides the best estimate of the top quark mass. However, the D0 collaboration has published a new measurement based on a powerful analysis technique, which yields greatly improved precision. The CDF collaboration has also measured the lifetime of the B^+ meson, which is given by the product of the probability of the event corresponding to the signal and the probability of the event corresponding to the background. The measured lifetime of the B^+ meson is 1.662 ps, which is consistent with the result from the D0 collaboration. What is the expected lifetime of the B^+ meson in the SM, assuming that the top quark mass is 173.2 GeV/c^2?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "A plasma column of radius $\\ell$ is immersed in an ambient plasma with density $n_0$ and charge $\\mathcal Q$. The column is subject to buoyancy, linear friction, and nonlinear friction. If the linear friction coefficient is $c_1 = \\pi\\ell^2 n_0 g/\\ensuremath{C_\\mathrm{s}}$, and the nonlinear friction coefficient is $c_2 = \\mathcal Q\\pi n_0\\ell / \\mathcal R^2$, what is the expression for the maximum absolute velocity of the plasma column, assuming that the ball is subject to the forces described in Eq.~\\eqref{eq:ball}?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What is the primary reason for the installation of two powerful compression packages on Ekofisk 2/4 C, and how does this relate to the accommodation facilities on the first two platforms, 2/4 A and B?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "BC's attendance issues are a concern, but the NFL's strategies to address them may not be directly applicable. What is a potential solution that BC could consider, given the unique constraints of a college football stadium, and how might it impact the overall game day experience?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to Pastor Megan's sermon on Interpreting Exodus, what does the labyrinth represent in the context of life's journey, as described by Tony in his experience at the labyrinth?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the provided documentation, what was the primary reason for the failure of the prescription drug monitoring bill in Florida, as stated by Lt. Gov. Toni Jennings, and how did this failure contribute to the state's opioid crisis?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In the context of emergent communication, a heterogeneous agent learns to generate a communication policy without directly observing the action policy of an expert agent. This approach is referred to as social shadowing. According to the text, what is the primary benefit of using social shadowing in emergent communication, and how does it compare to traditional online reinforcement learning?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "A media application uses a content-recognition module to determine the context of an event in a media asset, such as a television program. The module identifies a statement made by a character in the program, and the user requests supplemental information about the statement. The module transmits requests for additional information to multiple users, who provide responses that include the fact needed to verify the factual basis of the statement. However, one of the users provides an incorrect fact, which is partially correct but lacks a crucial detail. The module aggregates and filters the information to generate the supplemental information. Which of the following statements about the media application's approach to generating supplemental information is CORRECT?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What is the primary consequence of the boundary formed between Schwann cells and astrocytes in the context of axonal regeneration following spinal cord injuries, as observed in the boundary assay?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the mixed source software business model approach, what type of cybersecurity provider can offer both proprietary devices and outsourced IoT-MDM services, thereby mixing the core value creation logic for end users, and provide a clear example of how this approach can benefit customers in a digital hospital setting?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "A quantum computer is expected to break a cryptographic scheme in one day (24 hours) with approximately 6.06 \u00d7 10^8 physical qubits. The number of T gates in the circuit is 7.98 \u00d7 10^12, the corresponding number of logical qubits is 4719, and the total number of surface code cycles is 1.56 \u00d7 10^15. Which of the following statements is TRUE about the scheme's security, considering the NIST P-224 elliptic curve with a physical error rate per gate of 10^(-5)?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The study on GCN2 and transgene reactivation in response to EAA starvation presents a complex scenario. According to Fig 8, treatment of HepG2-OA1 cells with L-Histidinol results in efficient transgene reactivation, even in the presence of significant GCN2 downregulation. However, the data from Fig 4 and S5 Fig suggest that L-Histidinol is not effective in HeLa-OA1 cells, either alone or in combination with PP242 (mTOR inhibitor). Which of the following statements best describes the relationship between GCN2 activation and transgene reactivation in HepG2-OA1 cells, considering the results from both Figs 8 and 4?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "A robot is navigating through a complex environment with multiple obstacles, and a human collaborator provides occasional guidance through a joystick or force cues. The robot's goal is to reach a destination, but the human's preferred path is unknown. The robot's action space consists of moving in one of four possible directions (up, down, left, or right), and the transition model is deterministic. The human's input at each time step can be mapped to a future location in space, but the robot's observation model is stochastic and conditioned on both the goal and the human's preferred path. The environment is divided into polytopes, and the human's path preference is encoded as a set of preferred transitions between adjacent polytopes. The robot's objective is to infer the task goal and path preference online and adapt to the human's indications. What is the primary assumption made by the robot's observation model that allows it to make Bayesian inference about the task goal and path preference?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the provided text, what is the fundamental flaw in the reasoning of those who attribute evil to the natural world, and how does this perspective differ from the Christian perspective on the origin of sin?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the discussion, what is the primary factor that will drive the economics of the smartphone industry, rather than just improving the cost of processors, and what are the potential consequences of this shift?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Emmett Cleary discusses the challenges of replacing Spaz, citing a lack of suitable candidates among current college offensive coordinators. He mentions Chad Morris and Brent Benoit as potential candidates, but notes that Morris's experience is more relevant to a high school setting. Canada, on the other hand, has experience with \"pro style\" offenses and has led explosive offenses in the MAC. However, his time at Indiana was marked by high-scoring offenses but limited wins. Which of the following statements best summarizes Emmett Cleary's concerns about replacing Spaz?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The study on AA deprivation and its effects on gene expression in mammalian cells suggests that the response is mediated by a novel nutrient-sensing and signaling pathway, initiated by translational block at the ribosome. However, the exact mechanism of this pathway remains unclear. Which of the following signaling pathways is most likely to be involved in this process?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the text, what is the primary advantage of the proposed compositional method over other communication grounding methods in multi-agent reinforcement learning (MARL), as demonstrated by the results on the Pascal VOC game?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The gypsy moth infestation can have severe consequences on the ecosystem, particularly on oak trees. What is the primary reason why older trees may become more vulnerable to stress after defoliation, and how does this relate to the life cycle of the gypsy moth caterpillars?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what is the primary conclusion regarding the expression of endogenous retroviruses (ERVs) in response to EAA starvation, and how does this relate to the expression of DNA transposons and L1 non-LTR retrotransposons?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided XMM-Newton slew data and the characteristics of Classical Novae, what can be inferred about the accretion process of the nova XMMSL1 J060636.2-694933, considering its high count rate and detection in both the soft and total-band spectra, but not in the hard-band spectrum?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the literature, what is the primary challenge in bridging the gap between business model concept and cyber security, and how can business model approach help organizations respond to multifaceted cyber threats?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "As the power of corporations continues to grow, what implications does this have for the balance of power between governments and corporations in the context of cryptography and digital media?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In a futuristic digital hospital, a secure device manufacturer/provider is developing built-in security features for various devices, including smartphones, tablets, PCs, wearables, and IoT devices. However, when a large number of these secure devices need to be managed and configured, IoT-MDM services become necessary. A traditional IoT-MDM system provider can sell device management systems directly to enterprises, but this raises questions about the potential business opportunities and challenges in the 5G era. What are the key considerations for a cybersecurity vendor providing IoT-MDM services to a digital hospital, and how can they balance the need for centralized control with the complexity of managing diverse devices and applications?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The study investigates the effects of GCN2 activation and mTOR inhibition on transgene reactivation in HeLa, HepG2, and C2C12 cells. According to the results, L-Histidinol, a GCN2 activator, efficiently reactivates the transgene in HepG2-OA1 and C2C12-GFP cells, but not in HeLa-OA1 cells. However, when L-Histidinol is combined with PP242, a mTOR inhibitor, in HeLa-OA1 cells, the transgene reactivation is still not observed. What is the most plausible explanation for the lack of transgene reactivation in HeLa-OA1 cells when treated with L-Histidinol and PP242, considering the involvement of GCN2 and mTOR pathways?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the documentation, what is the primary reason for the development of the KR-2S, as described by Rand Robinson, and how does it differ from the original KR design?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "A patient with hemoglobin H/Constant Spring disease is undergoing regular blood transfusions and desferoxamine treatment. However, they also experience episodes of hemolytic anemia, which can lead to fatigue, paleness, and jaundice. In addition, the patient's spleen is enlarged and overactive. Which of the following statements is most consistent with the expected outcome of a bone marrow transplantation in this patient?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "A road side unit (RSU) is equipped with a coupled generalized dynamic Bayesian network (C-GDBN) to jointly detect GPS spoofing and jamming attacks in the V2X network. The RSU has learned the correct dynamic rules of how RF signals and trajectories evolve when the jammer and spoofer are absent. However, when a jammer is present, the RSU notices a high deviation on both the RF signal and the corresponding trajectory. On the other hand, when a spoofer is present, the RSU notices a deviation only on the trajectory, not on the RF signal. Which of the following statements best describes the type of abnormality occurring in the V2X environment?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "A 15-year-old girl with a history of smoking marijuana daily at school, who has been grounded and isolated from her peers, is experiencing feelings of desperation and suicidal thoughts. Her parents are concerned about her behavior and want to know how to address the issue, while also navigating the complexities of supporting a 16-year-old boy with high-functioning autism who refuses to accept his diagnosis and is struggling to maintain a relationship with his girlfriend. Meanwhile, the parents of both children are seeking advice on how to support their children and help them manage their respective challenges, despite the risk of exacerbating the situation with inadequate guidance. The parents are aware that their approach must be nuanced and sensitive to the unique needs of each child, and they are seeking a comprehensive solution that addresses the root causes of their children's struggles.",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "A researcher uses the Clauset-Shalizi-Newman method to estimate the power-law exponents of positive and negative returns of a cryptocurrency. The researcher separates the returns into two groups and estimates their power-law behavior using the method. However, the researcher also considers the effects of age and market capitalization on the power-law exponents using a linear model. Which of the following statements is true about the researcher's approach?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the provided documentation, what is the primary advantage of using the DBM method over the KMM method when describing flows with a higher degree of TNE?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In the context of multi-agent reinforcement learning (MARL), a social learning agent learns to communicate with other agents to coordinate their actions. According to the proposed method, what is the primary goal of developing a communication policy through \"social shadowing\", where an agent learns a communication policy by watching an expert agent's action policy, particularly in scenarios where agents have complex and heterogeneous feature models and non-stationary value functions?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what was the primary reason for Hugh H. Goodwin's promotion to the temporary rank of Commander on January 1, 1942?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "A simulated environment with fluctuating rewards and task requirements is being optimized by an artificial agent using a reward-modulated plasticity rule. The agent's reliance on plasticity is influenced by the level of environmental uncertainty. Which of the following statements best describes the relationship between the form of the emerging plasticity rule and the task requirements?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The Committee on Science (ComSci) is planning a series of events to address the challenges of sustainability in the chemical sciences. According to the documentation, ComSci is partnering with the Committee on Environmental Improvement to host a sustainability luncheon, which will feature roundtable discussions on a key sustainability question. Additionally, ComSci will present two programs in Boston: a box lunch on \"Genetic Screening & Diagnostic Testing: Do You Really Want to Know?\" and a symposium on \"Creating & Sustaining International Research Collaborations.\" However, the Women Chemists Committee (WCC) is also planning a workshop in Boston to address the issue of balancing security and openness in chemical science. Which of the following statements best describes the relationship between the sustainability luncheon and the workshop on balancing security and openness?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the provided documentation, what is the primary reason for the potential contraction of the PC market in the next 5 years, considering the trend of people replacing laptops and tablets, and taking into account the impact of emerging technologies such as TSVs and the shift towards Surface-type devices?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the paper, what is the primary benefit of using meta-information in neural abstractive summarization for discharge summaries, as demonstrated in the study?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what can be inferred about the magnetic behavior of Ge$_{3}$Mn$_{5}$ clusters in Ge$_{1-x}$Mn$_{x}$ films grown at temperatures above 145$^{\\circ}$C?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the paper, what is the primary advantage of using deep Spiking Neural Networks (SNNs) in modeling visual cortex, as demonstrated by the authors' experiments on macaques and mice?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "A Rydberg gas of NO with an initial density of $n_0 = 60$ at a density of $1 \\times 10^{12} ~{\\rm cm}^{-3}$ ($P_f = 0.3$) is subjected to a selective field ionization (SFI) experiment. The SFI signal extracted near zero applied field represents the growing population of plasma electrons. According to the shell-model coupled rate-equation simulation, the ion density of each shell as a function of time from 20 to 100 ns is described by the equation $\\frac{dn}{dt} = -\\frac{dn}{dt_{\\rm shell}} + \\frac{dn}{dt_{\\rm ion}}$. However, the simulation also reveals that the ion density of each shell is affected by the local density of prompt Penning electrons, which is a function of the initial Rydberg gas density. The simulation indicates that the local density of prompt Penning electrons is a function of both the initial Rydberg gas density and the ion density of each shell. What is the correct relationship between the initial Rydberg gas density, the local density of prompt Penning electrons, and the ion density of each shell, considering the constraints imposed by the shell-model coupled rate-equation simulation?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Jackie's daughter is currently living with her friends' family from Tuesday to Friday afternoon. What is the primary reason Jackie made this compromise, considering her daughter is failing the same subjects as her friend?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Consider a spherically-symmetric spacetime with a central mass distribution. Five test particles are placed in a small region of space, with one particle at the center (r = R) and the other four offset relative to the central particle. The particles move as if they were part of an infalling observer's coordinate system. According to the Einstein vacuum equation (\\ref{EinsteinVacuum}), the volume of a test ball of freely floating particles remains constant in the first order. However, when considering the effect of tidal deformations, the radial coordinate r is affected by a function \u03b2(r). What is the relationship between the change in volume of the test ball and the tidal deformations, assuming the particles are initially at rest relative to each other at \u03c4 = 0?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The Supreme Court's decision in Wayfair v. Indiana (2018) has been interpreted as a significant departure from the Court's traditional approach to stare decisis. However, some scholars argue that the Court's reasoning in Wayfair was flawed, as it relied on a formal classification rather than a practical consideration of Congress's ability to act. Which of the following statements best captures the essence of the Court's decision in Wayfair?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A conflict optimizer is used to solve the graph coloring problem. The optimizer starts with an initial solution and iteratively removes colors from the solution, assigning uncolored vertices with a new color among the remaining ones. However, the optimizer may encounter conflicts, where two adjacent vertices have the same color. To address this, the optimizer uses a neighbourhood that replaces the traditional \"tabu-list\" mechanism with a conflict optimization scheme. Which of the following statements about the conflict optimizer is TRUE?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Based on the provided documentation, what can be inferred about the magnetic behavior of Ge$_{3}$Mn$_{5}$ clusters in Ge$_{1-x}$Mn$_{x}$ films grown at different temperatures?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A researcher investigates the power-law exponents associated with large price variations in the cryptocurrency market. According to the study, which of the following statements about the power-law exponents of the top 2000 and top 200 cryptocurrencies by market capitalization is most consistent with the findings?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The analysis of variance for the best fit models of factors affecting the likelihood of catching and the standardised CPUE of threatened species revealed that fishing ground was a significant factor in explaining the catch of threatened species, but not the catch in regulated species. This may be due to differences in range, distribution and relative abundance of species within these groups. Which of the following statements best describes the relationship between fishing ground and the catch of threatened species, considering that threatened species make up a relatively small proportion of Tanjung Luar's catch in comparison to regulated species?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Based on the provided documentation, what is the primary reason for the KR2's design modification to use the Diehl wing skin, despite the original intention to use the Taylor Monoplane airfoil, considering the increased gross weight and the need for a more efficient wing design?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Based on the provided documentation, what is the likely reason for the formation of Ge$_3$Mn$_5$ clusters in Ge$_{1-x}$Mn$_x$ films grown at temperatures above 160$^\\circ$C, considering the information about the spinodal decomposition and the influence of growth parameters?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Consider the function $f(x) = \\sqrt[3]{x} \\sin(x^2)$ and its derivative $f'(x)$. According to the provided documentation, the expression for the derivative is undefined at $x=0$. However, it can be shown that $f(x)$ is not differentiable at $x=0$.",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A newborn infant is at risk of vitamin K deficiency bleeding due to a genetic disorder that affects the production of vitamin K-dependent clotting factors. This disorder is more common in individuals with a history of liver damage or disease, such as cystic fibrosis or inflammatory bowel disease. A study found that vitamin K2 (menaquinone) supplementation can prevent vitamin K deficiency bleeding in newborns, but its effectiveness is reduced in premature babies. However, a recent review suggested that breastfed babies may be at increased risk of vitamin K deficiency bleeding unless they receive a preventative dose. Which of the following statements is most consistent with the current understanding of vitamin K supplementation in newborns?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A 65-year-old patient with a history of hypertension and hyperlipidemia undergoes a stress echocardiogram due to chest pain and is diagnosed with a 70% blockage in the Left Anterior Descending (LAD) coronary artery. The patient is prescribed dual antiplatelet therapy with aspirin and Plavix, and an intravascular ultrasound (IVUS) is performed to evaluate the blockage. The IVUS results show that the blockage is not as severe as initially thought, and the patient is considered for a stent placement. Given the patient's medical history, the IVUS results, and the current medication regimen, which of the following statements is TRUE?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Consider a double quantum dot (DQD) system proximized by a superconductor (SC) lead. The effective Hamiltonian of the system is given by $H_{\\mathrm{eff}}=H_{\\mathrm{SDQD}}+H_{\\rm L}+H_{\\rm R}+H_{\\rm T}$, where $H_{\\rm SDQD}$ is the Hamiltonian of the SC-proximized DQD, $H_{\\rm L}$ and $H_{\\rm R}$ are the Hamiltonians of the left and right normal leads, respectively, and $H_{\\rm T}$ is the tunneling Hamiltonian.",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A discharge summary is generated using a transformer model with an additional feature embedding layer. The feature embeddings are created by looking up the feature table, where hospital, physician, disease, and length of stay are used as meta-information. According to the paper, the model using physician and hospital information can generate symbols that are commonly written in the summary. However, the model without meta-information (vanilla) still produces proper disease and symptom words following the source. Which of the following statements is TRUE, given that the model with meta-information generates higher quality summaries than the vanilla model?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The BC football program's marketing strategy is likely to be a crucial factor in determining the fate of Head Coach Spaz. According to a recent article, the school has created new and unique ticket packages to help attendance for less attractive games. However, the article also states that Spaz doesn't sell the program, which could be a major issue. What is the most likely outcome for the BC football program's marketing strategy, and how will it impact Spaz's job security?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A non-linear autoencoder is used to reduce the dimensionality of a complex system described by the Kuramoto-Sivashinsky (KS) equation. The autoencoder is trained on a limited dataset with sparse and irregularly sampled training data. What is the primary advantage of using a time-continuous model for the latent dynamics in the complex space, and how does it enable the proposed framework to produce stable predictions forward in time and under different initial conditions?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A 75-year-old individual is living in a smart home environment with a variety of sensors, including ambient motion sensors, wearable accelerometer (ACC) sensors, and electrodermal activity (EDA) sensors. The goal is to develop a cognitive health assessment model that can accurately recognize complex activities and detect cognitive impairment. However, the existing research has several limitations, including the lack of a universally accepted method for IoT-assisted automatic cognitive health assessment in smart home environments.",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "According to the provided documentation, what is the threshold value of specific-heat ratio (\u03b3) below which the entropy production induced by NOEF becomes more significant than that caused by NOMF, and what is the implication of this threshold value on the temporal evolution of entropy production rates \u1e60NOEF and \u1e60NOMF?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "According to the text, what was the primary reason for the high demand for oxycodone in Kentucky, as described by Sheriff Cooper, considering the lack of prescription drug monitoring databases in the state and the widespread availability of oxycodone in Florida?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "In the context of embodied agents, what is the primary difference in the plasticity mechanisms between static agents, which aim to identify the exact value distribution of the environment, and moving agents, which aim to produce a representation of the environment that the motor network can interpret adequately enough to make decisions about which food to consume?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The content stream generator 304 determines the interestingness of each candidate content item to the user by comparing it to a model generated by the model generation engine 207. In one embodiment, the model generation engine 207 uses a scoring function G(x) = 2(100x) to calculate the score of each item. If the query generated by the query generator 301 includes a request for the top ten items about politics, and the global scorer 302 has already computed a global score for each item, which of the following statements is true?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A company, XYZ Inc., has created an Agency Spotter page to promote their new product, which is intended to be available to the general public. According to the terms of service, any user who posts content on the Agency Spotter page must retain all copyright, trademark, and other proprietary notices contained in the original Agency Spotter content. However, a user, John, posts a review on the page that contains a statement claiming that XYZ Inc.'s product is not suitable for people with certain medical conditions, despite the fact that the product's packaging does not include any warnings about such conditions. The review is intended to be available to the general public and is posted in a public area of the Agency Spotter page.",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A study on the genetic prevalence of alpha-thalassemia in California found that the disease is more common among individuals of Southeast Asian and Chinese descent. However, a recent analysis of data from the State of California suggests that the prevalence of beta-thalassemia major is significantly higher among Asian Indians than among Southeast Asians. Which of the following statements best describes the relationship between the genetic mutations causing alpha-thalassemia and beta-thalassemia?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A city or county is required to adopt a revised housing element in response to a deficiency notice under Government Code 65009. However, a party challenging the adequacy of a city's or county's housing element may serve a deficiency notice up to five years after the city's or county's action. If the challenging party fails to file an action in court within one year of the date on which the city or county takes final action in response to the notice, whichever occurs first, the city or county's housing element is deemed to be in compliance for purposes of state housing law. Which of the following statements is true?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The Quectel_QuecPython_BC25 development board uses a combination of TYPE-C and TYPE-A protocols for fast charging. What is the primary advantage of using the FS116D series protocol, which is designed for TYPE-C fast charging, in conjunction with the FS112 series protocol, which is designed for TYPE-A fast charging?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "According to the provided texts, what is the fundamental flaw in the assumption that our direct experience of the world is equivalent to the actual reality 'out there', and how does this relate to the nature of consciousness and subjective experience?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A participant is undergoing a complex activity recognition system that involves hand gesture and postural activities, as well as ambient and object sensor readings. The system uses a hierarchical Bayesian network (HDBN) model to recognize complex activities, but it is designed to work with a single wrist-worn accelerometer (ACC) sensor, which may not capture the full range of hand gestures and postural activities. To address this limitation, the system proposes a rotational normalization method to merge hand gestures subject to directional differences and forms an 8-hand gesture model. However, the system's reliance on a single ACC sensor may lead to reduced accuracy in diverse postural environments. Which of the following statements about the proposed system is TRUE, considering the limitations of the single ACC sensor and the benefits of the rotational normalization method?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The city of Chico's reserve fund is less than $200,000, and the city has un-secured pension obligations totaling in the millions and growing every day. According to the budget report, the city takes in over $17 million in sales tax, over $11 million in property tax, and almost $7 million in taxes on PG&E, phone, and water. However, the city council has not taken steps to address the financial crisis, despite the mayor's initial promise to do so. What is the most likely reason why the city council has not taken action to address the financial crisis, given Bob Evans' stance on the phone tax increase and his refusal to discuss the sales tax increase?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Based on the provided text, what can be inferred about the distance to the nova XMMSL1~J060636.2-694933, considering the X-ray luminosity at a distance of 50 kpc and the assumption of a more distant location of 100 kpc?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A user equipment device, such as a television or a smart phone, is used to access a channel application that generates a stream of content for a user's preferred media equipment device. The channel application uses a processing unit to receive information about the user's interests, activities, and social connections from various data sources, including search, entertainment, social activity, and third-party sites. The processing unit stores the information in memory and uses it to generate a personalized stream of content for the user's media equipment device. However, the channel application also includes a feature that allows users to rate and review content on the ratings server, which is used to update the user's preferences and generate a new stream of content. Which of the following is a potential consequence of this feature?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Based on the provided documentation, what was the primary reason for Hugh H. Goodwin's decision to leave Monroe High School (now Neville High School) in 1917, and how did this decision impact his subsequent naval career?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A control chart with observation-adjusted control limits (CUSUM-OAL) is used to monitor a sequence of observations for changes in the mean. The chart has a control limit c, and the observation-adjusted control limits are given by Hv(\u03b8) = ln hv(\u03b8) + (ac k \u2212 1) ln \u0125v(\u03b8), where \u0125v(\u03b8) = E v (e \u03b8 Zi ). The expected value of the stopping time Tc(g) is given by E v (Tc(g)) = (1 + o(1)) cg(\u00b5) \u00b5. What is the relationship between the expected value of the stopping time Tc(g) and the control limit c, assuming that the probability density function p v 0 (x) and p v 1 (x) are given by p v 0 (x) = (1/2) e^(-x/2) and p v 1 (x) = (1/2) e^(-x/2) + (1/2) e^(-x/4), respectively?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A hospital's discharge summary is a critical document that requires the integration of various meta-information to generate an accurate summary. According to the paper, what type of meta-information was found to be most beneficial for abstractive summarization on discharge summaries, and how did it improve the model's performance, considering the limitations of the study, such as the limited number of tested features and the use of Japanese EHRs, and what potential avenues for future research are suggested by the findings?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "According to the provided documentation, what is the primary reason Intel can maintain a competitive advantage in the CPU market despite having fabs that are a step or two behind the cutting edge, and what implications does this have for their strategy in the phone/tablet market?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Lou Woleneck suggests that providing universal access to a digital platform can be achieved by setting a national policy that updates a universal service for the 21st century. Jim Warren notes that the IRS privacy project is working on policies to protect taxpayer information, and LIASSON mentions the concept of the commons, where a wealthy society creates structures for the support of the poor. DAVIES proposes an apocalyptic vision for the information technology community. Considering the context of the discussion, what type of regulatory framework would be most effective in balancing the need for universal access to digital platforms with the need to protect individual privacy and prevent the concentration of power in the hands of large corporations?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A road side unit (RSU) is equipped with a coupled generalized dynamic Bayesian network (C-GDBN) to jointly detect GPS spoofing and jamming attacks in the V2X network. The RSU receives RF signals from multiple vehicles and their corresponding trajectories. However, a jammer located at (xJ, yJ) = (10, 20) and a spoofer located at (xs, ys) = (30, 40) are present in the vicinity. The RSU notices a deviation in the RF signal and trajectory of a vehicle moving along a multi-lane road in an urban area. The RSU can predict the RF signals it expects to receive from the vehicle based on its trajectory. Which of the following conclusions can be drawn by the RSU?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Consider a CDMA system with M users, each transmitting a symbol with a code of length N. The received signal is given by:\n\nr(n) = \u2211[\u03b1_m * e^(j*\u03c6_m) * p_m(n)] + v(n)\n\nwhere \u03b1_m is the transmitted symbol, \u03c6_m is the channel phase, p_m(n) is the code, and v(n) is the additive white Gaussian noise.\n\nIn a modified PLMS-PPIC method, the channel phases are estimated using a partial information approach. The partial information is the quarter of each channel phase in (0,2\u03c0). The method uses a set of NLMS algorithms with different step-sizes to estimate the cancelation weights.\n\nHowever, in a two-stage scenario, the channel phases are not known, and the receiver must estimate them. The first stage uses the NLMS algorithm with a step-size of \u03bc = 0.1(1 - \u221a(M-1)/M). The second stage uses the NLMS algorithm with a step-size of \u03bc = 0.2(1 - \u221a(M-1)/M).\n\nThe average channel phase estimate of the first user in each stage and over 10 runs of the modified LMS-PPIC and PLMS-PPIC methods, when the number of users is M = 15, is given in Table 1.\n\nTable 1: Average channel phase estimate of the first user\n\n| Iteration | Stage Number | NLMS | PLMS-PPIC |\n| --- | --- | --- | --- |\n| 64 | 2 | 2.45\u03c0/8 | 2.36\u03c0/8 |\n|  | 3 | 2.71\u03c0/8 | 2.80\u03c0/8 |\n| 256 | 2 | 3.09\u03c0/8 | 2.86\u03c0/8 |\n|  | 3 | 2.93\u03c0/8 | 3.01\u03c0/8 |",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "In a 2D environment with 8 polytopic obstacles, each defined by their half-space representation, a robot navigates through the space with a preference for transitioning to adjacent polytopes. The robot's path preference is represented as a set of preferred transitions over all nodes in the graph, where each node is a polytope and edges connect two adjacent polytopes. The robot's goal is to reach one of the 10 possible goals, and the human provides noisy observations at each iteration. Assuming the conditional independence relationships described by the problem diagram, the robot updates a posterior over the goal and over which of the graph transitions \u03c61, \u03c62, and \u03c63 is preferred by the human. Which of the following statements about the robot's navigation problem is TRUE, assuming the robot's path preference is represented by the graph shown in figure 1?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The Indian Air Force (IAF) is considering the procurement of a new medium transport aircraft to replace its aging fleet. The IAF has shortlisted the Tata-Airbus consortium's C-295 aircraft, but the project faces a significant challenge due to the limited availability of spare parts for the aircraft. According to a recent report, the IAF has 13 Boeing 777-300ER aircraft in its fleet, which could potentially be converted to tankers. However, the cost of refurbishing and certifying these aircraft would be substantial. On the other hand, the C-295 aircraft offers a more efficient and cost-effective solution. Which of the following statements best describes the IAF's decision-making process regarding the procurement of the new medium transport aircraft?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "According to the paper, what is the primary advantage of the proposed generalized pole-residue method over traditional numerical methods for computing nonlinear system responses, particularly in the context of arbitrary irregular excitations?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A Palm Bay man\u2019s Puerto Rican family bought local pills destined for the working class town of Holyoke, Mass. In Rhode Island, police pulled over a Lauderhill man caught speeding through Providence. They found 903 oxycodone tablets and 56 morphine pills in the car. Senior citizen and Tulane business graduate Joel Shumrak funneled more than 1 million pills into eastern Kentucky from his South Florida and Georgia clinics, much of it headed for street sales \u2014 an estimated 20 percent of the illicit oxycodone in the entire state. Van loads of pill-seekers organized by \u201cVIP buyers\u201d traveled from Columbus, Ohio, to three Jacksonville clinics, where armed guards handled crowd control (federal indictment) and doctors generated prescriptions totaling 3.2 million pills in six months. In Miami, Vinny Colangelo created 1,500 internet website names to entice drug users throughout the nation to one of his six South Florida pain clinics or pharmacies. Even the Mafia got in on the Florida oxy express action: A Bonanno crime family associate oversaw a local crew stocking up on Palm Beach and Broward pain clinic oxycodone, upstreaming profits to the New York family. At times, it seemed almost no section of the country was free of Florida-supplied pills: When Olubenga Badamosi was arrested driving his Bentley Continental in Miami in 2011, the Oregon man was one of two traffickers overseeing a crew smuggling South Florida oxycodone to sell in Salt Lake City, Seattle and Denver as well as Oregon, Nevada, Texas and even Alaska. Pharmacy delivers oxy \u2018pot of gold\u2019",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A researcher is studying the effects of aging on hippocampal synaptic plasticity using whole cell recordings in organotypic slices. However, the dissection procedure may exacerbate hippocampal damage, which could lead to inaccurate results. To minimize this problem, the researcher uses a technique that involves the use of genetically-encoded calcium indicators (GECIs) to image intracellular Ca2+ signals in astrocytes. The researcher also uses a myography technique to study the contraction and relaxation of mesenteric arteries, which are sensitive to changes in blood flow. Which of the following statements is most consistent with the researcher's approach?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Based on the provided documentation, what is the primary reason for the KR2's design modification to use the Diehl wing skin, despite the original intention to use the Taylor Monoplane airfoil, considering the increased gross weight and the need for a more efficient wing design?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The Supreme Court's decision in South Dakota v. Wayfair, Inc. (2018) challenged the long-standing precedent of Quill Corp. v. North Dakota (1992) regarding the application of sales tax to remote sellers. Justice Scalia's concurring opinion in Quill emphasized the importance of stare decisis, while Justice Kennedy's concurring opinion in Wayfair acknowledged the significant impact of the internet on commerce and the need for the Court to reexamine Quill. However, the Court's decision in Wayfair deviated from its prior stare decisis analysis, applying a weakened form of stare decisis to a precedent that could have been overruled by Congress. Which of the following best captures the essence of the Court's reasoning in Wayfair?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "In a T-shaped double quantum dot (DQD) system with normal and superconducting contacts, the exchange interactions between the DQDs and the superconductor (SC) lead to the formation of crossed Andreev reflections (CARs). However, the presence of the RKKY interaction between the two DQDs can destroy the CARs. What is the effect of the asymmetry coefficient $x$ on the second-stage Kondo temperature $T^*$ in the presence of CARs and RKKY interaction?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "In a T-shaped double quantum dot (DQD) system with normal and superconducting contacts, the exchange interactions control the magnetic order and properties of the system. The exchange interactions include local exchange, direct exchange, RKKY interaction, and superexchange. The non-local pairing induced by superconducting proximity effect, known as the CAR exchange, can be the sole cause of the Kondo screening. However, the presence of asymmetry in the couplings to the superconductor can lead to non-symmetric dependencies of the residual conductance on the asymmetry coefficient.",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "According to the study, what is the primary advantage of using Spiking Neural Networks (SNNs) over Convolutional Neural Networks (CNNs) and Vision Transformers (VTs) in modeling the visual cortex, as demonstrated by the results of the neural representation similarity experiments?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Analyze the effects of specific-heat ratio on the mixing degree of a fluid system in a two-fluid DBM, considering the temporal evolution of global mixing degree and the influence of shock compression on the mixing amplitude and area of the mixing zone.",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "According to the provided documentation, what is the quantum security parameter (qs) for the AES-256 cipher, assuming a conservative physical error rate per gate of 10^-4, and considering the trade-offs between spatial and temporal overhead in estimating the security of symmetric schemes, as well as the impact of parallelization on the number of required surface code cycles?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A function $f(x)$ is defined as follows:\n\n$f(x) = \\begin{cases} \n\\sqrt[3]{x}\\sin{\\left(x^2\\right)}, & \\mbox{if } x \\neq 0 \\\\\n0, & \\mbox{if } x = 0 \n\\end{cases}$\n\nThe function $f(x)$ is differentiable at $x=0$. Which of the following statements is true?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A semiconductor manufacturing line requires a high degree of cleanliness, necessitating the placement of the entire line in a large clean room. However, the large diameter of the sample necessitates the installation of a large vacuum processing apparatus, which in turn requires a significant amount of floor space. To address this issue, a novel vacuum processing system is proposed, comprising a plurality of vacuum processing chambers, a vacuum transfer chamber, and a locking device. The vacuum processing chambers are symmetrically arranged around the vacuum transfer chamber, and the locking device is positioned to control the movement of the vacuum transfer chamber. The system is designed to process a dummy wafer 30, which is placed in the cassette 1c and then transported to the etching process chamber 11a or 11b for processing. The processed wafer is then returned to its original position in the cassette 1a.",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A company, X Inc., is a leading manufacturer of eco-friendly products. According to the Environmental Protection Agency (EPA), X Inc.'s new line of solar panels has a significantly lower carbon footprint compared to its competitors. However, a recent study published in a peer-reviewed journal suggests that the panels may not be as efficient as claimed, potentially leading to reduced energy output and increased costs for consumers. Meanwhile, a Counterclaimant, a rival company, Y Inc., has filed a DMCA Notice against X Inc., alleging that the company's marketing materials for the solar panels contain false and misleading statements about their environmental benefits.",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Consider a graphene strained junction with a tensile strain of 4% and a transport direction of 30\u00b0. The conduction gap in this junction is given by the equation:\n\nE_cond.gap = 310 meV + 500 meV * sin(\u03b8) * cos(\u03c6)\n\nwhere \u03b8 is the angle between the strain direction and the zigzag direction, and \u03c6 is the angle between the transport direction and the armchair direction.\n\nHowever, due to the rotation of Dirac points in the k-space, the conduction gap is also affected by the strain direction. Specifically, for a compressive strain of -2%, the conduction gap is given by:\n\nE_cond.gap = 310 meV + 500 meV * sin(\u03b8) * cos(\u03c6) + 200 meV * sin(\u03b8) * cos(90\u00b0 - \u03c6)\n\nUsing the relationships between the strain direction and the transport direction, determine the conduction gap for a transport direction of 0\u00b0.",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A digital hospital is expected to have a high level of cybersecurity to protect sensitive patient data. However, the increasing number of IoT devices in the hospital's network poses a significant threat to its security. Which of the following business model archetypes can be used by a cybersecurity provider to offer a comprehensive IoT-MDM service to a digital hospital?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Based on the provided documentation, what is the most significant factor influencing the catch of threatened species in the Tanjung Luar shark fishery, considering the relationships between fishing effort, gear type, and spatial distribution of species?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A 75-year-old individual is wearing a wrist-worn ACC sensor to monitor their hand gestures and postural activities. The sensor data is fed into an HDBN model, which is then combined with ambient sensor readings to recognize complex activities. However, the model's performance is affected by the diversity of postures, such as walking normally, using a walker, or a wheelchair. Which of the following approaches would be most effective in improving the model's performance in recognizing complex activities for this individual?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A user is interested in sports cars, particularly those with a history of being involved in high-profile racing events. The user's current IP address is located in the United Kingdom. Based on this information, what channel category would the system recommend for the user, and what attributes would it include?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A social network server 101 is processing user data for a channel application 103. The channel application 103 receives data from various sources, including a search server 135, an entertainment server 137, a ratings server 139, and an email server 141. The data is processed by the channel engine 240, which identifies a channel category based on user interests and historical trends. The channel engine 240 then transmits a request for a stream of content to the scoring server 262. The scoring server 262 queries the data storage server 265 and the social network server 101 for candidate content items. The candidate content items are scored using a collaborative filtering engine 217, which takes into account the user's social connections and past interactions.",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "In the context of multi-agent reinforcement learning, a method is proposed to ground communication in referential features, but it is found that finding the communication utility requires grounding messages in ordinal information. Which of the following statements best describes the primary limitation of using input-oriented communication grounding in multi-agent reinforcement learning?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Consider a spectral density estimator that employs a variance stabilizing transform (VST) to convert a gamma-distributed response into an approximate Gaussian regression. The VST is defined as \u223c where H(y) = {\u03c6(m/2) + log (2y/m)} / \u221a 2 and \u03c6 is the digamma function. The spectral density estimator f is obtained by applying the inverse transform function H \u22121 (y) = m exp \u221a 2y \u2212 \u03c6 (m/2) /2. However, the choice of the smoothing parameter h is crucial for the estimator's performance. According to Lemma 1, the spectral density estimator f has a minimax optimal rate under the spectral norm over a large class of Toeplitz covariance matrices. Nevertheless, the optimal choice of h is not explicitly provided. What is the primary concern when selecting the smoothing parameter h for the spectral density estimator f, and how can it be addressed?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A study on the effects of Met/Cys starvation on gene expression in HeLa cells reveals that the expression of certain ribosomal protein mRNAs is downregulated, while other genes involved in transcription and metabolism are upregulated. The study also identifies that the activation of the Integrated Stress Response (ISR) and the downregulation of mTORC1 are involved in this process. However, the reactivation of a transgene in response to starvation appears to be a complex process that may involve multiple pathways, including the activation of GCN2 and the inhibition of mTORC1.\n\nWhich of the following statements best describes the relationship between the activation of GCN2 and the reactivation of the transgene in response to Met/Cys starvation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A researcher is tasked with estimating the spectral density of a time series using a new, fully data-driven approach. The approach involves transforming the data into gamma-distributed random variables, bining the data, and then estimating the spectral density using a periodic smoothing spline. However, the researcher encounters two practical problems: (1) selecting the tapering parameter for the tapered covariance estimator, and (2) ensuring the estimator is positive definite.",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Based on the provided documentation, what is the primary reason for the observed difference in bond order between the bonds a-d in the AFM image of 5OS (Fig. ) compared to the calculated 5OS geometry (Fig. ), and how does this difference relate to the electronic configuration of 5OS?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Based on the provided text, what is the relationship between the strain-induced shift of Dirac points in the $\\kappa_y$-axis and the conduction gap in graphene, considering the transport direction $\\phi$?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Consider a stationary time series Y with a Toeplitz covariance matrix \u03a3, where the spectral density function f is given by f(x) = sin(\u03c0x) for x \u2208 [0, 1]. According to Lemma 1, the DCT-I matrix approximately diagonalizes Toeplitz covariance matrices. However, the Whittle likelihood approximation (1) is based on twice as many data points W j as the standard Whittle likelihood. Which of the following statements is true?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Averill's clinic in Broward County was one of the many pain management clinics that sprouted up in South Florida, despite the state's failure to adopt a prescription monitoring database. According to a former medical assistant, an estimated 60% of Averill's patients were from out of state. In 2010, the year Averill's patients overdosed, Florida received applications to open 1,026 more pain clinics. However, it was not until 2011 that the prescription monitoring database finally came online, after a nine-year struggle to get it off the ground. What was the primary reason for the delay in implementing the prescription monitoring database, according to the text?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A robotic hand is equipped with a force feedback controller that uses conditional postural synergies to generate grasp postures. The controller adjusts the grasp size based on the difference between the desired normal force and the actual normal force, which is influenced by the object's weight and material. However, the grasp size also depends on the grasp type, which can be one of three precision grasp types: tripod, pinch, or lateral tripod. In the experiment, the robot lifts an object of varying weights and materials, and the controller must adjust the grasp size to apply the correct amount of normal force to avoid slipping. The robot's force sensors provide data at a rate of 50Hz, and the controller uses this data to adjust the grasp size. The force sensors also detect subtle changes in the object's weight and material, which affect the desired normal force. The controller must integrate this information to make accurate adjustments to the grasp size. The robot's hand is equipped with a unique finger configuration that allows for precise control over the grasp size. The controller uses a combination of machine learning algorithms and postural synergies to generate grasp postures that are tailored to the specific object being grasped. The goal of the experiment is to test the controller's ability to adapt to different object weights and materials while maintaining a stable grasp.",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A robot is navigating through a 2D environment composed of multiple polytopic obstacles, each defined by their half-space representation (H-representation). The robot's goal is to reach a target location in the environment. The robot's path preference is defined as the posterior distribution over transitions from the current to the neighboring polytopes, given the robot's location, the goal, and the human's preference for its current vertex. However, the human's preference is not mutually independent, and there is a dependent relationship between preferences for adjacent edges.",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A 75-year-old individual with cognitive impairment is living in a smart home environment with a wrist-worn accelerometer sensor and various ambient and object sensors. The individual's hand gestures and postural activities are being monitored and analyzed to estimate their daily activity performance. The activity features estimation method used in this system includes the calculation of task completeness (TC), sequential task ability (SEQ), interruption avoidance capabilities (INT), and time spent on tasks (TS). However, the system also uses a novel approach that incorporates the results of a deconvolution method to extract postural activity effects from the accelerometer signals.\n\nCorrect Answer: A) The deconvolution method is used to extract postural activity effects from the accelerometer signals by learning associated equalizer parameters for each hand gesture and postural activity, which are then used to calculate the task completeness scores.",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A semiconducting SWNT with a diameter of 1 nm is subjected to a low-energy nitrogen ion exposure, creating a di-vacancy defect pair along its axis. The resulting quantum dot (QD) has a confinement energy level spacing of 100 meV. According to the provided documentation, what is the most likely reason for the observed QD shortening in the valence band, as indicated by the effective length of the QD being larger than the actual length of the nanotube?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A second-order Trotter supercircuit with depth Mtrot = 16 is used to simulate a Heisenberg chain with L = 14 sites, affected by two-qubit depolarizing noise with p = 0.01. The supercircuit is denoised using a depth M = 2 denoiser, which is optimized at time t = 2 and stacked up to ten times. The denoised supercircuit is then used to calculate the out-of-time-ordered correlator C otoc i=L/2,j (t) for the middle site. However, the denoiser is affected by the same noise as the Trotter circuit, and the optimization process may not have fully recovered the noiseless eigenvalues.",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A quantum error mitigation scheme is employed to correct for two-qubit depolarizing noise in a quantum circuit. The scheme involves a denoiser that is constructed by applying a random circuit sampled from a quasiprobability distribution to the noisy Trotter supercircuit. The denoiser is designed to mitigate the sign problem, which arises due to the non-unitary nature of the noise channel. However, the scheme relies on the assumption that the denoiser can accurately cancel out the accumulated errors. What is the primary limitation of this approach, and how can it be addressed?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Based on the provided documentation, what can be inferred about the spatial distribution of C$_2$H emission in massive star-forming regions, and how does it differ from the distribution of other observed molecules?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "In the strong coupling regime of lattice QCD with staggered quarks, the dual formulation is used to study the nuclear liquid-gas transition. However, the sign problem at large values of the baryon chemical potential makes direct Monte Carlo simulations challenging. To address this issue, researchers consider the following approach:",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A user's social network server 101 has identified a set of candidate content items for a new channel, but the channel engine 240 of the channel application 103 is unsure which content items to include in the channel due to conflicting information from the ratings server 139 and the email server 141. The ratings server 139 has assigned a score of 0.8 to a news item, while the email server 141 has assigned a score of 0.2 to the same news item. The model server 255 has generated a model based on the user's activities and historical trends, which suggests that the news item should be included in the channel. However, the content categorizer 250 has categorized the news item as a low-scoring item. Which of the following options should the channel engine 240 choose to include in the channel?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A shock wave with Mach number 1.2 is propagating through a 2-D heavy-cylindrical bubble composed of 26% Air and 74% SF6. The initial conditions of the ambient gas are \u03c10 = 1.29 kg/m\u00b3, T0 = 293 K, and p0 = 101.3 kPa. The initial parameters of the bubble are \u03c1bubble = 4.859 kg/m\u00b3, pbubble = 101.3 kPa, and Tbubble = 293 K.",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The National Public Radio correspondent, Mara Liasson, has expressed concerns about the classification of cable television as a broadband distribution system. Peter Denning, the Chairman of the Computer Science Department at George Mason University, has argued that cable television should be treated as a common carrier open to all information suppliers. Simon Davies, the Director General of Privacy International, has a more pessimistic view of the future, warning that the creation of a centralized system could lead to a loss of individual freedom.",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Consider a spherically symmetric, static spacetime described by the Schwarzschild metric. Five test particles are placed in a small region of space, with one particle at the center (r = R) and the other four offset relative to the central particle. The particles are initially at rest relative to each other and are free to move in the spacetime. Using the infalling coordinates and the vacuum Einstein equation, derive the function \u03b2(r) that describes the tidal deformations of the spacetime.",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "According to the study, what is the primary difference in the visual processing structure between mice and macaques, as revealed by the neural representation similarity experiments?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The specific-heat ratio's effect on the interaction between shock waves and bubbles in supersonic combustion systems is a complex phenomenon. According to the research, the entropy production caused by NOMF and NOEF are contrary, with the former increasing with reduced specific-heat ratio and the latter first reducing and then approaching a saturation value. However, when the specific-heat ratio \u03b3 is smaller than a threshold value \u03b3c (\u03b3c \u2248 1.315), the entropy production induced by NOEF is more significant than that caused by NOMF. \n\nWhich of the following statements is CORRECT?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Hugh Goodwin's naval career was marked by a series of promotions and assignments that required him to work closely with various senior officers and organizations. Analyze the following information to determine the correct sequence of events:",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Consider a spectral density estimator f defined in the asymptotic scenario where p \u2192 \u221e and p/n \u2192 c \u2208 (0, \u221e]. The estimator f is based on a periodic smoothing spline estimator H(f ) of the log-spectral density, which is estimated using a variance stabilizing transform (VST) \u223c with a bandwidth parameter h > 0. The VST is applied to the data W i,j , k = 1, . . . , T, where T = p \u03c5 for any \u03c5 \u2208 ((4 \u2212 2 min{\u03b2, 1})/3, 1) and q = max{1, \u03b3}. The spectral density estimator f is then obtained by applying the inverse transform function H \u22121 (y) = m exp \u221a 2y \u2212 \u03c6 (m/2) /2 to the scaled and shifted log-spectral density H(f ).",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Minnesota Twins baseball team switched from KSTP 1500 AM to 96.3 KTWN-FM in 2012, citing concerns about the reduced signal strength of KSTP. However, the Twins have since returned to WCCO 830 AM. What is the primary reason for the Twins' decision to return to WCCO, despite KSTP's higher power output at night?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A researcher is studying the behavior of a two-dimensional heavy-cylindrical bubble in a flow field with a specific-heat ratio of 1.5. The bubble is subjected to a planar shock wave, and the flow field is described by the simplified Boltzmann equation:\n\n\u2202f/\u2202t + v \u2207f = -\u2207p + \u03bc \u2207\u00b2f + \u2207 \u00b7 (\u03c4 \u2207f)\n\nwhere f is the distribution function, v is the particle velocity vector, p is the pressure, \u03bc is the dynamic viscosity, \u03c4 is the relaxation time, and \u03b3 is the specific-heat ratio.\n\nTo analyze the effects of the specific-heat ratio on the bubble shape, deformation process, average motion, vortex motion, mixing degree of the fluid system, TNE strength, and entropy production, the researcher uses the following methods:",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "In the context of the Discrete Boltzmann Method (DBM), what is the primary purpose of the collision operator in the Boltzmann equation, and how does it relate to the concept of non-equilibrium flow (TNE) in fluid dynamics, particularly when considering the role of relaxation time and the impact of the collision operator on the simulation of complex non-equilibrium flows?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A robot is navigating through a complex environment to reach an unknown goal, and it receives sparse human interventions in the form of heading directions. The robot's action space is limited to moving in one of four possible directions (up, down, left, or right), and the transition model is deterministic. The robot's observation model for the human is stochastic and conditioned on both the goal and the human's preferred path. The human's preference is represented as a partitioning of the space into polytopes, and the robot must adapt to these preferences online. What is the correct inference for the robot's belief state at time step t, given the following information:",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A new acceleration technique, called Nonlinear Fokker-Planck Acceleration (NFPA), has been developed to solve the monoenergetic, steady-state transport equation in homogeneous slab geometry. NFPA accelerates up to all L moments of the angular flux, unlike other methods such as Fokker-Planck Synthetic Acceleration (FPSA) which only accelerates up to the first moment. However, NFPA has a limitation in that it requires the solution of a modified Fokker-Planck equation that preserves the angular moments of the flux given by the transport equation. Which of the following statements about NFPA is TRUE?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Analyze the magnetic properties of Ge$_{1-x}$Mn$_{x}$ films grown at 150$^{\\circ}$C and compare the results of ZFC-FC measurements for different Mn concentrations.",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The reactivation of the OA1 transgene in response to EAA starvation is mediated by a complex signaling pathway involving GCN2, mTORC1, and the ISR. However, the specific role of GCN2 in this process is still unclear. Which of the following statements best describes the relationship between GCN2 and the ISR in the context of EAA starvation?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A user's social connections and interests are used to generate a personalized channel. The channel engine identifies a channel category based on historical trends and the user's activities, interests, and social connections. The scoring engine generates a stream of content for the channel, which includes candidate content items that are pre-scored by the collaborative filtering engine. However, the scoring engine receives a query from the channel engine to generate a new channel, which requires the scoring engine to compare the candidate content items to the model generated by the model generation engine. The model generation engine derives additional candidate content items through collaborative filtering and transmits them to the scoring engine. The channel engine then uses the scoring engine's output to generate a new channel. Which of the following is a necessary step in the process of generating a personalized channel for a user, considering the potential for shortcut reasoning and ensuring comprehensive information synthesis across all document chunks?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A digital hospital in a 5G network, which relies heavily on IoT devices for data collection and analysis, is vulnerable to various security threats. The hospital's security team needs to implement a mobile device management (MDM) system to manage and secure the devices. However, the existing MDM systems are not designed to handle the unique security requirements of IoT devices. What type of business model would be most suitable for a cybersecurity vendor to offer MDM services to the digital hospital, considering the need for end-to-end security and the limitations of conventional MDM systems?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Given that Intel's foundries are a step or two behind the cutting-edge, and the PC market is expected to contract significantly in the next 5 years due to the rise of Surface-type devices, what is the most likely outcome for Intel's strategy in the tablet market, considering the increasing competition from Samsung and the potential disruption of TSVs?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A recent study on archaeobotanical data sharing in archaeology suggests that the majority of archaeobotanical datasets are published in academic journals, with many being made available through digital repositories such as the ADS. However, a review of the publication of primary data and meta-analysis in major archaeological journals over the last ten years reveals that levels of data reuse in archaeobotany are thought to remain low. Which of the following statements best describes the primary reason for the low levels of data reuse in archaeobotany?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The authors of the study on the aging and market capitalization of cryptocurrencies find that the power-law exponents for positive and negative returns tend to shift towards larger values when considering the largest cryptoassets. However, the power-law hypothesis is never rejected for positive returns and rarely rejected for negative returns. Which of the following statements best describes the relationship between the power-law exponents for positive and negative returns in the cryptocurrency market?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "In the context of essential amino acid (EAA) starvation, the reactivation of silenced transgenes in HeLa cells appears to be mediated by a novel nutrient-sensing and signaling pathway, independent of the General Control Non-derepressible 2 (GCN2) kinase. However, the involvement of other kinases, such as MEK/ERK and JNK, in this process is still unclear. Which of the following statements best describes the relationship between the reactivation of the OA1 transgene and the activity of the MEK/ERK and JNK pathways?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The specific-heat ratio has a significant impact on the vortex motion of the bubble. According to the study, what is the primary reason for the difference in vortex motion between the cases with \u03b3 = 1.4 and \u03b3 = 1.09?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Based on the provided text, what is the estimated distance to the white dwarf within XMMSL1~J060636.2-694933, considering the uncertainty in the outburst date and the maximum brightness at outburst?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Consider a quantum error mitigation scheme that employs a denoiser to correct for two-qubit depolarizing noise in a quantum processor. The denoiser is constructed as a local brickwall circuit and is parameterized with coefficients \u03b7 i \u2208 R that satisfy \u03b7 0 + \u03b7 1 = 1. The denoiser is used to mitigate errors in a second-order Trotter circuit with depth M trot = 32, and the noiseless expectation values are approximated using a stochastic interpretation of the denoiser ensemble.",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Sackler family's role in the opioid crisis is a complex issue with multiple layers of involvement. According to the documents, Purdue Pharma, the company founded by the Sackler family, was aware of the addictive nature of their opioid painkiller, OxyContin, and was sued by several states for misleading regulators, doctors, and patients about its addictiveness. However, the company continued to prioritize profits over people, ignoring the consequences of their actions.",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A 2-D heavy-cylindrical bubble is placed in a flow field filled with air, and a shock wave with Mach number 1.2 passes through the bubble from left to right. The initial conditions of the ambient gas are \u03c10 = 1.29 kg/m\u00b3, T0 = 293 K, and p0 = 101.3 kPa. The bubble is composed of 26% air and 74% SF6, with an initial density of \u03c1bubble = 4.859 kg/m\u00b3 and pressure of pbubble = 101.3 kPa. The specific-heat ratio of the bubble is varied in five cases: \u03b3 = 1.4, 1.28, 1.18, 1.12, and 1.09.",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Consider a time series Y with a Toeplitz covariance matrix \u03a3, which is estimated using the VST-DCT method. The method involves transforming the data into approximate Gaussian random variables, estimating the log-spectral density using a periodic smoothing spline, and then transforming the spectral density estimator into an estimator for \u03a3 or its inverse. However, the choice of the subseries length is crucial for this approach, and there is no data-based method available for selecting the tapering parameter.",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A new acceleration technique, called Nonlinear Fokker-Planck Acceleration (NFPA), is introduced to solve the monoenergetic, steady-state transport equation in homogeneous slab geometry. NFPA accelerates up to all L moments of the angular flux, unlike Fokker-Planck Synthetic Acceleration (FPSA), which only accelerates up to N moments. However, NFPA has the feature of preserving the angular moments of the flux in both the Higher-Order (HO) and Lower-Order (LO) equations. Which of the following statements about NFPA is NOT true?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "According to the provided documentation, what is the primary purpose of the Housing Accountability Act, as stated in the Planning and Zoning Law, and how does it relate to the approval of housing developments?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Consider a spacetime described by the metric (\\ref{preMetric}). The function $\\beta(r)$ is given by the equation\n\\begin{equation}\n\\beta(r) = \\sqrt{\\frac{2GM}{rc^2}}.\n\\end{equation}\nGiven that the initial radial coordinate value for a particle is $r_0 = R\\left[1+\\frac12\\left(\\frac{\\Delta l}{R}\\right)^2\\right]$, and the distance between two particles $L$ and $R$ is given by\n\\begin{equation}\nd_{\\perp}(T) = 2\\Delta l\\cdot\\frac{r_{L}(T)}{R} = 2\\Delta \\left[1-\\frac{c\\beta(R)}{R}\\Delta T+\\frac{c^2}{2}\\frac{B(R)}{R}\\Delta T^2\\right],\n\\end{equation}\nwhere $B(r) \\equiv \\beta(r)\\cdot\\beta'(r)$, what is the relationship between the coefficients of $\\Delta T$ in the expressions for $d_{\\parallel}(T)$ and $d_{\\perp}(T)$?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The conflict optimizer used by the Shadoks team in the CG:SHOP 2022 challenge employs a weight function w(u) = 1 + q(u) p to determine the next variable to remove from the set S of non-evaluated variables. However, the Shadoks team also experimented with a different weight function, w(u) = \u03c3 + q(u), where \u03c3 is a constant. According to the results shown in Figure 5, which of the following statements is true?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Mufti-e-Azam-e-Hind, Moulana Mustapha Raza Khan (radi Allahu anhu) was known for his extreme hospitality. He would often give away his own belongings to those in need. However, he was also known to be quite particular about his personal belongings. According to one of his Khaadim's, Mufti-e-Azam-e-Hind (radi Allahu anhu) would often say, \"A person who is not worthy of receiving blessings from others should not be given blessings by others.\" Considering the following information:",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A new acceleration technique, called Nonlinear Fokker-Planck Acceleration (NFPA), has been developed to solve the transport equation in homogeneous slab geometry. NFPA accelerates up to $N$ moments of the angular flux and has shown significant improvement in convergence rate compared to existing methods. However, NFPA requires a modified Fokker-Planck equation that preserves the angular moments of the flux given by the transport equation. Which of the following statements about NFPA is NOT true?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Based on the comprehensive analysis of the X-ray lightcurve, Swift UVOT observations, and Magellan optical observations, what can be inferred about the nature of the source XMMSL1 J060636.2-694933, considering the observed X-ray lightcurve, the spectral analysis of the Swift-XRT spectrum, and the optical observations of the Magellan Clay telescope, and taking into account the constraints that the source is likely to be a white dwarf and the UV emission is likely due to residual post-nova nuclear burning on the surface of the white dwarf?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Given the context of Weep Not, Child, what is the likely reason for Njoroge's father, Ngotho, to have attacked Jacobo at the workers' strike, and how does this event impact Njoroge's relationship with his family and his own future?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Consider a sequence of random variables X_1, X_2, ..., X_p, where each X_i is a Gaussian random variable with mean 0 and variance \u03c3^2. The sequence is generated by the following formula:\n\nX_i = \u2211_{j=1}^{p-1} \u03bb_j c(i, j) Y_j\n\nwhere Y_j are independent Gaussian random variables with mean 0 and variance 1, and c(i, j) are constants that satisfy the following conditions:\n\n* c(i, j) = 0 if i = j\n* c(i, j) = c(j, i) for all i, j\n* \u2211_{i=1}^{p-1} c(i, j) = 0 for all j\n\nThe constants \u03bb_j are chosen such that:\n\n* \u03bb_j = f(x_j) + O(log(p) / p^\u03b2)\n\nwhere f(x_j) is a function that satisfies certain properties, and \u03b2 is a parameter that can take on any value.\n\nThe goal is to find the asymptotic order of the variance of the estimator H(f) that is derived from the sequence X_1, X_2, ..., X_p.",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A researcher in archaeobotany has conducted a study on the reuse of archaeobotanical datasets and has found that the majority of datasets are not being reused due to a lack of training in data management and software skills. However, a recent study has shown that the use of digital archiving resources such as the Archaeology Data Service (ADS) can improve data sharing and reuse. Which of the following statements best describes the researcher's recommendation for improving data sharing and reuse in archaeobotany?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A couple, both carriers of the silent alpha thalassemia trait, have two children. The first child is diagnosed with hemoglobin H disease, while the second child is asymptomatic but has a 25% chance of inheriting beta thalassemia major. What is the most likely genotype of the second child, given that the parents are both carriers of the 'cis' type of alpha thalassemia trait?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "According to the biblical narrative, what is the significance of death in the context of God's plan, as described in the story of the Fall, the Flood, and the Pentateuch, and how does this understanding of death relate to the concept of sin and its consequences?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "According to the study, what is the primary difference in the functional hierarchy between the visual cortex of macaques and mice, as revealed by the analysis of layer depths and similarity scores in deep neural networks?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A researcher is developing a smart home system for cognitive health assessment of older adults. The system uses a combination of wrist-worn accelerometer (ACC) sensors, ambient sensors, and object sensors to recognize complex activities such as walking, using a walker, or using a wheelchair. The system employs a hybrid statistical and knowledge-based technique to analyze the data and estimate behavioral anomalies for early detection of mild cognitive impairment. However, the system faces challenges in recognizing diverse postures, such as those requiring the use of assistive devices.",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A decentralized economic system, enabled by advanced technologies, is proposed as a solution to the growing tensions between corporations and governments. However, critics argue that this system could lead to a loss of individual freedoms and the erosion of traditional values. Which of the following statements best captures the essence of the debate, taking into account the potential risks of unchecked technological advancements and the need for nuanced regulation?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The content categorizer 250 in the system receives new content items from heterogeneous data sources and annotates them with specific tags. However, the channel engine 240 identifies a channel category for a user based on historical trends and the user's activities, interests, and social connections. Which of the following is a potential consequence of the channel engine 240 submitting a request for a stream of content to the scoring engine 211, given that the content categorizer 250 indexes new content items according to an identification format such as \"MediaType#UniqueItemID\"?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A language identification model, such as XLM-RoBERTa, is used to classify sentences into one of three languages: English, Spanish, or Portuguese. The model achieves a test accuracy of 99.6%. However, when fine-tuning language-specific models for dialect identification, the performance varies across languages. Which of the following statements is true about the performance of the language-specific models?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A nonlinear oscillator is subjected to a white noise excitation with a constant power spectrum S0 = 0.001. The corresponding response is obtained by solving Eq. 28 by the fourth-order Runge-Kutta method. However, the Volterra kernel functions are unknown. Using the Prony-SS method, the excitation is decomposed into a pole-residue form. The damping rates of Laguerre polynomials are a1 = a2 = 2, and the numbers of Laguerre polynomials are R1 = R2 = 24. The order of Volterra series N is chosen to be 2.",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A future digital hospital, which operates as both a micro operator and a device manufacturer, is considering its cybersecurity business model. The hospital has developed a fleet of secure devices, including smartphones, tablets, and wearables, with built-in security features. However, managing and configuring these devices for the hospital's large-scale deployment requires an IoT-MDM system. The hospital can either develop its own IoT-MDM system, which would be a proprietary model, or outsource the IoT-MDM services to a third-party vendor, which would be an open extensions model. Alternatively, the hospital can sell the IoT-MDM services through a mobile network operator, which would be an indirect-open extensions business model. Considering the hospital's device-driven security focus, which emphasizes built-in security features, and its need for centralized management and configuration, which is a platform-driven security requirement, what is the most suitable cybersecurity business model for the future digital hospital?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Analyze the career trajectory of Admiral Goodwin, considering the following information:\n\nGoodwin was appointed Commander Carrier Division Two in August 1953, and his command was involved in the Operation Mariner, a Joint Anglo-American exercise that took place in the fall of 1953. During this exercise, the naval fighter planes under his command provided escort for passing commercial planes. In May 1954, Goodwin was ordered to the Philippines and assumed duty as Commander, U.S. Naval Forces in the Philippines with headquarters at Naval Station Sangley Point near Cavite. He publicly declared that any attack on Taiwan by the Chinese Communists on the mainland would result in US participation in the conflict.",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The authors of the study on quantum dots in semiconducting SWNTs propose that defects such as vacancies and di-vacancies, as well as nitrogen ad-atoms, can be used to create QDs with confined electron and hole states. However, the exact atomic structure of the defects is hampered by the large number of possible geometries to simulate. Which of the following statements about the defects is most consistent with the experimental and theoretical findings presented in the study?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "In the context of compositional message generation, consider a scenario where a message is generated by a network that takes the hidden state h as input. The message is composed of tokens, each of which has a natural embedding in the space of the hidden state. The network uses attention to minimize similarity with previous tokens and samples the new token from a variational distribution. What is the implication of the following equation on the mutual information between the composed message and the encoded information h?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A min-max normalization is applied to physiological signals to provide a uniform range of the variables. The autonomic nervous system (ANS) restrains the body's physiological activities, including heart rate, skin gland secretion, blood pressure, and respiration. A complex activity recognition framework is designed to recognize 13 complex activities using hand gesture and postural activities, along with ambient and object sensor streams. The framework uses a sparse-deconvolution method to extract Approximately Sparse Factor signals, which are then used to estimate complex activity features. However, the authors of AutoCogniSys proposed an activity features estimation method that includes hand gesture and postural activity recognition, and object and ambient sensor features. Which of the following statements is TRUE, given that the sparse-deconvolution method is used to extract Approximately Sparse Factor signals, and the authors of AutoCogniSys proposed an activity features estimation method that includes hand gesture and postural activity recognition, and object and ambient sensor features?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Consider a stationary time series Y1, ..., Yn, where the covariance matrix \u03a3 has a Toeplitz structure, and the spectral density function f is given by f(x) = \u2211[\u03c3k cos(kx)] from k=1 to \u221e. According to Lemma 1, the entries of the Discrete Cosine Transform (DCT) matrix I are related to the spectral density function f. However, the choice of subseries length is crucial for the proposed approach, but there is no data-based method available for this. What is the key advantage of the proposed estimator for Toeplitz covariance matrices, and how does it relate to the minimax optimality under the spectral norm?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A study investigated the effects of amino acid (Amino Acid) starvation on the expression of the OA1 transgene in HeLa cells. The results showed that the OA1 transgene was upregulated upon starvation, and this upregulation was associated with the activation of the integrated stress response (ISR) and the activation of the kinase GCN2. However, the upregulation of the OA1 transgene was not sufficient to induce the activation of the ISR, and the activation of GCN2 was not sufficient to induce the reactivation of the OA1 transgene in HeLa cells. \n\nWhich of the following statements best describes the relationship between the OA1 transgene, the ISR, and GCN2 in HeLa cells?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The Supreme Court's decision in Wayfair v. South Dakota has been criticized for its potential to undermine the role of Congress in shaping the law. What are the implications of the Court's assertion that it is inconsistent with its proper role to ask Congress to address a false constitutional premise, and how does this decision align with or depart from the Brandeisian wisdom on precedent?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A self-driving vehicle is navigating a multi-lane highway with a speed advisory system. The vehicle's perception module provides the ego vehicle's visibility range, denoted by Rv, and the set of vehicles in the ego vehicle's visibility range at time instant k, represented by O(k). The state (x0(k)) and control input (u0(k)) to the system at time instant k are defined as: where Vm denotes the maximum speed of the ego vehicle. However, the motion planning module requires the lane change maneuvers coupled with speed adjustments for long planning horizons (> 15s) while guaranteeing safety. The long horizon strategic decision making gives the ego vehicle the ability to proactively anticipate and handle challenging driving situations.",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "In the context of a multi-agent setting, consider a team of agents navigating a complex environment where each agent must coordinate with others to achieve a common goal. The agents use a compositional communication framework to encode and decode messages, where each message token represents a specific piece of information. The message generation architecture employs a softmin attention mechanism to minimize similarity with previous tokens and sample new tokens from a variational distribution. However, the agents also learn a communication policy through offline reinforcement learning, which can lead to social shadowing, where agents solely learn from an expert agent's action policy. What is the effect of the independent concept representation on the emergent language's capacity for redundancy, and how does the loss parameter \u03b2 in the variational autoencoder influence the convergence of the model, particularly in scenarios where agents must learn to communicate with varying levels of complexity and uncertainty?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The Supreme Court's decision in South Dakota v. Wayfair, Inc. (2018) overruled an outdated precedent in the dormant commerce clause context. However, this decision deviates from the Court's prior stare decisis analysis, which posits that stare decisis must bend \"in cases involving the Federal Constitution, where correction through legislative action is practically impossible.\" (Burnet v. Coronado Oil & Gas Co., 285 U.S. 393, 406\u201307 (1932) (Brandeis, J., dissenting)).",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A robot is navigating through a 10x10 grid with 8 polytopes, each defined by their half-space representation (H-representation). The robot's goal is to reach one of the 10 possible goals, but the human's preference for the robot's path is not explicitly stated. The robot uses a hyperplane arrangement to define path preferences as preferred transitions between adjacent regions of the space. However, the number of homotopy classes for a given problem can be infinite, and the robot must update its representation of the world and its representation of the human's preference at every iteration.",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A Palm Bay man\u2019s Puerto Rican family bought local pills destined for the working class town of Holyoke, Mass. In Rhode Island, police pulled over a Lauderhill man caught speeding through Providence. They found 903 oxycodone tablets and 56 morphine pills in the car. Senior citizen and Tulane business graduate Joel Shumrak funneled more than 1 million pills into eastern Kentucky from his South Florida and Georgia clinics, much of it headed for street sales \u2014 an estimated 20 percent of the illicit oxycodone in the entire state. Van loads of pill-seekers organized by \u201cVIP buyers\u201d traveled from Columbus, Ohio, to three Jacksonville clinics, where armed guards handled crowd control (federal indictment) and doctors generated prescriptions totaling 3.2 million pills in six months. In Miami, Vinny Colangelo created 1,500 internet website names to entice drug users throughout the nation to one of his six South Florida pain clinics or pharmacies. Even the Mafia got in on the Florida oxy express action: A Bonanno crime family associate oversaw a local crew stocking up on Palm Beach and Broward pain clinic oxycodone, upstreaming profits to the New York family. At times, it seemed almost no section of the country was free of Florida-supplied pills: When Olubenga Badamosi was arrested driving his Bentley Continental in Miami in 2011, the Oregon man was one of two traffickers overseeing a crew smuggling South Florida oxycodone to sell in Salt Lake City, Seattle and Denver as well as Oregon, Nevada, Texas and even Alaska. Pharmacy delivers oxy \u2018pot of gold\u2019",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "According to the provided documentation, what is the primary advantage of the proposed framework, AutoCogniSys, in detecting motion artifacts in EDA signals, as demonstrated by the results of the 5-random-participant experiment?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "In the context of EAA starvation, which cell line is most likely to exhibit synergistic effects when treated with L-Histidinol and PP242, and what is the underlying mechanism for this phenomenon?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "In the context of multi-agent reinforcement learning, a team of agents with heterogeneous feature models and dissimilar action policies can coordinate through emergent communication. However, the communication may be bootstrapped due to the lack of explicit information about the expert's action policy. To address this challenge, a social shadowing approach is proposed, where the agent alternates between traditional MARL and first-person shadowing an expert agent. The agent learns a communication policy using contrastive learning, which is optimal for social shadowing. The key to this approach is the minimization of the independence objective, which enables tokens to contain minimal overlapping information with other tokens. What is the primary benefit of using the independence objective in the social shadowing approach, and how does it enable the agent to learn a communication policy with lower sample complexity, considering the potential risks of shortcut reasoning and unused information?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "According to the provided documentation, what is the relationship between the conductance $G$ and the exchange mechanism $\\xi$ in the presence of a superconductor, as indicated by the equation $G_{\\mathrm{min}} = \\frac{e^2}{h} \\cdot c \\ , \\frac{\\GS{}^2}{U^2}$, where $c\\approx 2.25$?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "In a decentralized, partially observable Markov Decision Process with communication (Dec-POMDP-Comm), a set of tokens forms a message m. The objective is to minimize the interaction information between all tokens and the mutual information I(H; M ) between the composed message m and the encoded information h, while adhering to an adaptive limit on the total length of the sequence. However, the message generator must also ensure that the sequence length does not exceed the maximum allowed length of 20 bits. Which of the following approaches can be used to limit the sequence length while minimizing the mutual information I(H; M ) and ensuring that the sequence length does not exceed 20 bits?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Consider a convolutional neural network (CNN) designed for contour completion, which is trained on a single image without any additional training data. The network consists of an hour-glass model structure with a generator network that is solely trained on the incomplete input image. The generator network is optimized using the Adam optimizer with a learning rate of 0.01 and a reconstruction loss coefficient of 0.15.",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 4
+  }
+]

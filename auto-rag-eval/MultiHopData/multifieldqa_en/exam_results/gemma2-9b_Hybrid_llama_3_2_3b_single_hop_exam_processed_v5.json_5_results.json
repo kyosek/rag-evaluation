@@ -1,0 +1,1052 @@
+[
+  {
+    "question": "What can be inferred about Saif Al-Islam's role in Libya's human rights situation, based on the statements of the Libyan diplomat and the international reporting on mass murder and killings?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary consequence of the non-local pairing induced by superconducting proximity effect on the Kondo screening in QDs?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The partition function $Z$ is defined as the integral over all possible electromagnetic field configurations, constrained by the total power received by the system and the total amount of energy transmitted through the medium. The cost function ${\\cal H}$ is a real-valued function that depends on the effective input-input coupling matrix $U_{kl}$ and the interaction matrix $\\mathbb{J}$. \n\nWhich of the following statements is true about the partition function $Z$?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A vehicle is equipped with a V2I link and is communicating with an RSU. The vehicle's position is given by $\\mathrm{p}_{n,t}=[{x}_{n,t},{y}_{n,t}]$, and the channel power gain from the vehicle to the RSU is given by $\\textrm{g}_{t,k}^{nR} = \\alpha_{t,k}^{nR} \\mathrm{h}_{t,k}^{nR}$. The vehicle's signal is transmitted at each time instant $t$ and is received by the RSU. The RSU aims to detect both the spoofer on the satellite link and the jammer on multiple V2I links. Which of the following statements is true about the joint GPS spoofing and jamming detection problem?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A human robot collaboration system is designed to navigate towards an unknown goal while accounting for a human's preference for a particular path in the presence of obstacles. The goal-only baseline and the proposed method differ in their approach to inferring path preferences. Which of the following statements best describes the key difference between the two approaches?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyzing the temporal evolutions of \u1e60NOEF and S NOMF in the given stages, what can be inferred about the relationship between the specific-heat ratio and the entropy production rates of NOMF and NOEF?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "According to the DBM modeling, when constructing a DBM that only retains the first-order term of the Knudsen number (i.e., only the first-order TNE effects are retained), what are the seven kinetic moments that should be reserved?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "According to the text, what is the fundamental relationship between the repulsive force between two charged spheres and the distance between their centers?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Graham Stewart's comments about BC's recruiting process and the development of players like Kevin Pierre-Louis suggest that the program prioritizes a patient approach to player development. However, this approach may not be effective in addressing the issue of players leaving the program for other schools. What is a potential consequence of BC's recruiting strategy, and how might it impact the program's ability to retain players?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a significant limitation of traditional methods for computing convolution integrals in the context of Volterra series identification?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about Bill English's views on same-sex marriage based on his past voting record and his statement in December 2016?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The Supreme Court's decision in Wayfair v. Amica Mutual Insurance Company effectively eliminated the doctrine of stare decisis in constitutional cases. What is the primary reason for this shift, according to the Court's reasoning?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The Union Government intends to carry out development of a land for the purpose of its departments or offices or authorities. The officer-in-charge of the department shall inform the Director in writing, giving full particulars thereof, accompanied by such documents and plans as may be prescribed, at least thirty days before undertaking such development. However, the Director raises an objection to the proposed development on the ground that the development is not in conformity with the provisions of the development plan. What should the officer-in-charge do next?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The fuselage sides are laid out flat with reference to the top longeron measured to a straight chalk line. However, when the side panels are bent and sloped to form the fuselage box section, the resulting shape is conical. As a result, the top longeron takes on an elliptical shape when built flat, bent to form a cylindrical section, and sloped to form a conical section. What is the primary reason for this elliptical shape?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the underlying reason for Njoroge's relatively calm demeanor upon Mwihaki's departure, despite his initial embarrassment towards his father's actions towards Jacobo?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A 65-year-old patient presents with chest pain and is found to have a normal sinus rhythm (NSR) on an electrocardiogram (EKG). Further testing reveals a myocardial infarction (MI) with evidence of new wall-motion abnormalities (NWMA) on an echocardiogram. The patient is also found to have peripheral artery disease (PAD) and is prescribed nitroglycerin (NTG) for angina. Which of the following is the most likely underlying cause of the patient's myocardial infarction?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The girlfriend is concerned about her boyfriend's handling of their daughter's behavior and wants to know if it's reasonable to ask him to take the child out of the house if she continues to exhibit bad behavior. The boyfriend believes that his approach is appropriate because everyone handles being upset differently. However, the girlfriend feels that he is being too lenient and giving in to her daughter's behavior. What is the most appropriate approach for the girlfriend to take in this situation?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The conduction gap in graphene exhibits a strong dependence on the strain and its applied direction. According to the given equations, what is the condition for the zero conduction gap to occur?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In Ng\u0169g\u0129 wa Thiong'o's novel \"Things Fall Apart\", the character of Kamba is portrayed as a leader who is both a traditionalist and a pragmatist. However, his actions are influenced by the British colonial authorities, who are trying to suppress the traditional Igbo way of life. What is the significance of the fact that Kamba's son, Mwanga, is educated in a Christian mission school, which is seen as a symbol of Westernization and cultural imperialism?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary effect of the CAR exchange mechanism on the energy splitting of the singlet and triplet states in a DQD system?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a key implication of the proposed framework for contour completion using deep structure priors (DSP) that differs from traditional approaches to contour completion?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The speaker's son, Taylor, has a history of struggling with college courses, despite having a strong academic record in high school. The speaker is concerned about Taylor's future and is seeking more specific ideas on how to help him. What is a possible underlying reason for Taylor's struggles with college courses, based on the information provided?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A patient with the hemoglobin H/Constant Spring form of the disease requires regular transfusions to manage their anemia. However, the patient's bone marrow is not functioning properly, and they are at risk of developing jaundice due to excessive bilirubin buildup. To address this issue, the patient's doctor recommends a bone marrow transplantation from a compatible donor. The doctor also prescribes desferoxamine to counteract the life-threatening buildup of iron in the patient's body. Which of the following is the primary reason for the doctor's recommendation of desferoxamine?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a significant challenge in implementing effective shark conservation measures in Indonesia's shark fisheries, despite the country's commitment to CITES regulations?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the prevalence of alpha-thalassemia major in Southeast Asian populations based on the information provided about the prevalence of beta-thalassemia major in the same populations?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the discrete Boltzmann equation for component \u03c3, what is the physical significance of the term M 3,1,\u03b1 ( f \u03c3 ,(1) ) in the equation (C.15)?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A study on the metabolism of vitamin K in rats found that dietary phylloquinone is converted to tissue menaquinone-4 in the absence of gut bacteria. However, another study suggested that intestinal flora may play a role in the conversion of phylloquinone to menaquinone-4. Which of the following statements best summarizes the relationship between these two findings?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Consider the case where $N + \\alpha - 2 > 0$ and the remaining inequality is not satisfied. In this scenario, what can be concluded about the existence of a suitable function $g(x)$ that satisfies the properties and a stable sub/super-solution $u$ for the appropriate equation?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What type of device management system would be most suitable for a large enterprise that requires secure and centralized management of hundreds of IoT devices, including smartphones, tablets, PCs, wearables, and IoT devices?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a key consideration when designing a supercircuit for benchmarking a denoiser, particularly in terms of the dimensionality of the quasiprobabilistic mitigating ensemble?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyzing the results from Fig. , what can be inferred about the relationship between the sampling overhead \u03b3 and the unitary channels in the denoisers?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between John Coakley Lettsom's medical practice and his involvement in the dissection of human remains, based on the information provided about his correspondence and the description of the buildings at 27 Craven Street?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for the Minnesota Twins' decision to switch their flagship radio station from WCCO to KSTP in 2006?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The developers of the game have made several changes to the Battlerealm, including the addition of new Health Potions and Revive Potions. However, these changes have also led to some unintended consequences. What is the result of the daily loyalty limit being set to refresh at 08:00UTC for all players?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The conflict optimizer's performance on geometric graphs is impressive, but what can be inferred about its performance on random graphs, given that it works extremely poorly on these graphs?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyze the passage to determine the likely outcome for Jesse Lazear, the American who contracted yellow fever in Cuba in 1900, based on the information provided about the disease's progression and the experiment described by Lazear.",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary reason for the increased expression of genes involved in the Integrated Stress Response (ISR) pathway in C2C12 cells treated with L-Histidinol, as compared to HeLa and HepG2 cells?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyzing the consequences of less effective Andreev coupling in a T-shaped geometry setup, what is the expected outcome on the critical temperature $T^*$ in the presence of a strong suppression of the Cooper Andreev Reflection (CAR) exchange?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the numbering system of Craven Street based on the Westminster Rate Books during Franklin's residence?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a potential benefit of using newborn sibling umbilical cord blood for bone marrow transplantation in individuals with beta thalassemia?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The concept of determinism suggests that every event, including human decisions, is the inevitable result of prior causes. However, some argue that indeterminism, or the idea that there is more than one possible outcome from a given state, provides a more nuanced understanding of human agency. According to neuroscientist Peter Tse, what is the most reasonable approach to take in a fully deterministic universe?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the likely outcome if the Libyan delegation fails to respond to the US suggestions by midday tomorrow?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary challenge in implementing high-performance error mitigation schemes for quantum computing, as identified by the authors?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the role of astrocytes in the central nervous system based on the isolation and culture of mouse cortical astrocytes?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A patient is diagnosed with hemophilia A, a disorder caused by a deficiency in factor VIII. The patient's doctor prescribes a treatment that involves administering a prothrombin complex concentrate (PCC) containing factor VIII, as well as factor IX and factor X. However, the patient also has a history of taking a medication called Romiplostim, which is a thrombopoietin receptor agonist. Which of the following statements is true about the patient's treatment?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The city's plan to implement a new water management system has been met with resistance from the public, with many questioning the cost and effectiveness of the project. What is the underlying concern that has been reinforced by the discussion about the water issue, according to the author?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyze the impact of Mennonite settlement on the cultural landscape of Kansas, considering the status of Mennonite women in their church and home relationships, as well as the physical and cultural environment of the region. How did the Mennonite settlement influence the social dynamics of women in Kansas, particularly in relation to their roles in the church and at home?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Consider the proof of Corollary \\ref{thing}. Suppose that $\\omega_1 \\le C \\omega_2$ for big $x$, $\\omega_2 \\in L^\\infty$, and $\\nabla \\omega_1(x) \\cdot x \\le 0$ for big $x$. Which of the following statements is a necessary condition for the non-existence of a stable solution to $(G)$?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for Jenny Shipley's resignation as leader of the National Party in October 2001?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A patient with familial hypercholesterolemia (FH) undergoes a coronary catheterization to evaluate for ischemic heart disease (IHD). During the procedure, a fractional flow reserve (FFR) test is performed to assess the pressure differences across a coronary artery stenosis. The results of the FFR test indicate a significant pressure drop, suggesting a critical stenosis. However, the patient's high cholesterol levels are not adequately controlled, and they have a history of heart failure. Which of the following is the most likely outcome for this patient?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "According to the article, what is a potential disadvantage for Intel in manufacturing SoCs on nodes that are a step or two behind the state of the art?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary factor contributing to the proliferation of pill mills in Florida during the early 2000s, despite efforts by other states to curb the issue?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be said about the TNE strength/intensity/degree of a fluid system from different research perspectives?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "According to the passage, what is the significance of Jesus' actions before Andrew, Simon, James, and John follow him?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyzing the response of a system to a sinusoidal excitation, what can be inferred about the contribution of higher-order responses when the excitation frequency is far from the linear natural frequency?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A genetic study found that a new mutation for alpha-thalassemia was discovered for the first time among Iranian patients in 2004. This mutation is a result of a substitution of a single nucleotide, which leads to a structurally altered hemoglobin. The study also found that the mutation is more common in individuals who have a history of malaria infection. What is the likely reason for the increased prevalence of this mutation in individuals who have a history of malaria infection?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The philosopher DragonFly argues that libertarians accept the incompatibility premise that determinism is incompatible with human freedom. However, some critics argue that this premise is based on a flawed understanding of libertarianism. Which of the following statements best captures the essence of DragonFly's argument?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the fishing practices of larger vessels compared to smaller vessels based on the information provided?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The analysis of CPUE (catch per unit effort) for regulated species in Tanjung Luar's targeted shark fishery reveals significant variations in spatial and temporal patterns. Which of the following statements best summarizes the implications of these findings for fisheries management?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "As the government teeters on the brink of a shutdown, what is a potential consequence of the impending crisis for the city of Washington, D.C., which is heavily reliant on federal funding?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "If the government awards licenses for HDTV, which of the following is a likely outcome?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary advantage of using a probabilistic error cancellation scheme in the context of second-order Trotter circuits?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A study found that the circulating levels of menaquinone-7 and menaquinone-8, congeners of vitamin K2, increase with age. However, the same study also found that the intake of fermented soybeans, which is a rich source of these congeners, is associated with reduced bone loss in postmenopausal women. Additionally, a review of the literature on vitamin K2 found that the use of warfarin, a medication that requires vitamin K2 to prevent bleeding, is associated with an increased risk of fractures in older adults. Which of the following statements best summarizes the relationship between vitamin K2 intake and bone health in older adults?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Consider a scenario where a light source with $N_I$ incoming channels and $N_O$ outgoing channels is used to transmit electromagnetic fields. The transmission matrix $\\mathbb{T}$, which represents the propagation of these fields, is composed of $4 \\times 4$ M{\\\"u}ller matrices. If the source is polarized and the observation is made on the same polarization, a scalar model can be used to simplify the transmission process. However, in the presence of noise, it is more meaningful to use a probabilistic approach to account for the uncertainty in the observed data.\n\nWhich of the following statements best describes the implications of using a probabilistic approach to account for noise in the transmission process?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "According to the problem diagram, what is the assumption made about the conditional independence of observations and preferences?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A robotic hand is designed to perform dexterous manipulation tasks, such as lifting and placing objects. The control algorithm for this hand uses tactile feedback from the force sensors on the fingertips to decide the forces that need to be applied to the object in each step of the task. Given the desired forces to be applied, the size of the grasp will be computed. However, previous works have relied on simplifying assumptions about the friction coefficient between the object and the fingertip. Which of the following statements best describes the approach taken in this work?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a potential long-term consequence of the US's efforts to ensure a long-term military partnership with Iraq, as requested by the next Iraqi government?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The Veterans for Peace event in front of the White House was a solemn occasion, marked by a silent procession and a human link of bodies across the 'picture postcard' tableau in front of the White House. What can be inferred about the participants' motivations for their actions, based on the accounts of Nate Goldshlag and Linda LeTendre?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The developers have made several balance changes to the game's Champions, including adjustments to their abilities and scaling. However, these changes have raised questions about the impact on gameplay. Which of the following statements best summarizes the developers' reasoning for increasing the frequency of Black Bolt's \"Provocation\" ability?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyzing the provided text, what can be inferred about the relationship between Heart Rate Variability (HRV) and Heart Rate (HR) based on the signal processing methods described?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A user, \"John\", has created a Broadjam account and has subscribed to the \"Premium\" service. According to the terms of service, John is responsible for any unauthorized use of his account, and he agrees to immediately notify Broadjam of any breach of security. However, John has recently noticed that his account has been accessed from a different location than his usual IP address. What is the most likely explanation for this, given the information provided?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The authors' work on Fokker-Planck acceleration has implications for our understanding of the behavior of particles in complex systems. In particular, they have shown that the acceleration of particles in a system can be described by a Fokker-Planck equation. However, this equation assumes a certain level of symmetry in the system, which may not always be the case. Furthermore, the authors have also discussed the importance of considering the effects of noise on the behavior of particles in complex systems. What are the potential consequences of neglecting the effects of noise on the behavior of particles in a system that exhibits Fokker-Planck acceleration?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The reconstruction error curve for the Ising model displays a minimum at a low temperature, close to the critical point, in cases where a critical behavior occurs. This minimum is enhanced by the decimation method, which appears to reduce the reconstruction error by almost an order of magnitude compared to other methods. What is the likely outcome of using the decimation method in the field of light waves propagation through random media, where the goal is to reconstruct an object seen through an opaque medium or a disordered optical fiber?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary concern of Brooksley Born, the former Commodity Futures Trading Commission (CFTC) chair, as revealed in her 2009 testimony before the Senate Banking Committee, which was later cited as a warning about the impending credit crisis?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for KSTP's rebranding as \"SKOR North\" in 2019, and how did this change impact the station's programming schedule?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "When building the fuselage of a Rand Robinson KR series plane, what is the primary reason for the \"banana\" shape that occurs when the completed fuselage sides are laid into position to form the fuselage box section?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Carli's behavior of making up a story to get her friend's sister off the computer can be seen as a manifestation of her own anxiety and need for control. However, her father's recent withdrawal and his struggles with anxiety and depression may also be contributing factors. Considering the complex dynamics at play, what is the most likely underlying reason for Carli's behavior, and how can her father's situation inform his approach to supporting Carli?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A study published in the Journal of Biological Chemistry found that a protein called Gla-rich protein accumulates at sites of pathological calcifications, and is vitamin K-dependent. Another study published in the American Journal of Pathology found that a protein called Gas6 is a ligand for the Axl receptor tyrosine kinase subfamily, and is also vitamin K-dependent. However, a third study published in the Proceedings of the National Academy of Sciences found that a protein called proline-rich Gla protein 2 is a cell-surface vitamin K-dependent protein that binds to the transcriptional coactivator Yes-associated protein. Which of the following statements is most consistent with the findings of these studies?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "When performing complex manipulation tasks in unstructured environments, humans rely on tactile feedback from their fingers to adjust their grasp configuration. What is a key advantage of using synergy spaces in robotic grasping, as described in the provided text?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The recent incident involving the compromised accounts in the game has raised concerns about the security of password storage. What can be inferred about the password storage system of QONQR based on the information provided?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The proposed algorithm for the MISO channel estimation is an adaptable step-size LMS that performs well in both stationary and tracking scenarios. However, the choice of parameters for the algorithm can be challenging. What are the advantages of using a probabilistic interpretation of the LMS algorithm, and how does it address the issue of parameter tuning?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Consider a time series with a spectral density function f that is H\u00f6lder continuous with exponent \u03b2 = \u03b3 + \u03b1 > 0. The autocovariances \u03c3 k of the time series are the Fourier coefficients of f. According to Lemma 1, what is the relationship between the entries of the Discrete Cosine Transform (DCT-I) matrix I and the spectral density function f?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What are the primary concerns in the numerical research on SBI that macroscopic models based on the continuity hypothesis cannot address?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a plausible explanation for the observed deficits in astrocyte-mediated spine and synaptic pathology in Downs syndrome, based on the information provided in the two studies?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical consideration when administering supplemental vitamin K to patients taking warfarin, and how does it relate to the timing of dosing?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "As a preacher, you want to create a compelling sermon that engages your congregation. You've developed a process to achieve this, which involves several steps. However, you've noticed that if you skip one of these steps, the entire process is compromised. Which step is most crucial to the overall effectiveness of your sermon?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "When a robot and a human collaborate to move an object from one end of a room to the other, what is a potential risk of inferring the goal and the preferred path as separate problems?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the NFPA method, what is the role of the consistency term $\\hat{D}_F$ in the LO equation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A robot is navigating through a cluttered office space with a goal location marked on the floor. The robot receives direction indications from a human that indicate which path it should take to get to the goal. The human wants the robot to go around the desks on the right side of the classroom. However, the robot's path preference is not explicitly stated. The robot's navigation system uses a probabilistic representation of human preference to adapt to the human's recommendations. What is the primary challenge in using homotopy classes to encode and infer human preferences in this scenario?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A local authority in a rural area, falling within a Planning Area, wants to construct a new community center that includes a school, a library, and a community hall. The community center will be built on land that is currently used for agriculture. The local authority has already obtained permission from the Director for the construction of the community center, but they need to ensure that the development complies with the Interim Development Plan and the Development Plan for the area.\n\nWhich of the following is a necessary condition for the local authority to proceed with the construction of the community center?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the distance to XMMSL1~J060636.2-694933 based on the uncertainty in the estimated peak magnitude at outburst?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Consider the asymptotic order of E[exp{\u03bb H(f ) \u221e }] for n, p \u2192 \u221e, where \u03bb > 0 may depend on n, p or not. By the exponential decay property of the kernel K stated in Lemma 2, we can bound the moment generating function of H(f ) \u221e as follows:",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The philosopher's assertion that the power of an object to produce a human experience is a fundamental aspect of its nature can be seen as a statement of the obvious. However, this idea has been challenged by a school of western philosophy. According to the philosopher, what is the primary reason why we can trust our perceptions of the physical world, including the existence of buses?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A study on hand gesture and postural activity recognition using Feature Weighted Naive Bayes (FWNB) classification achieved significant improvements over baseline approaches. According to the results shown in Fig~\\ref{fig:hand_gesture_accuracy}, what is the accuracy of the FWNB method for 8-hand gestural activity recognition?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for the consolidation of WAMD and KFOY into a single station, KSTP, in 1928?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The author of the text describes a process for creating a fiberglass skin for a model aircraft. However, the text also mentions the importance of masking off the fuselage to prevent epoxy from getting on it. What is the likely consequence of not masking off the fuselage during the application of epoxy?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The author's response to the RSPH pamphlet can be characterized as a form of \"epistemic resistance\" to the vaccine program. This resistance is rooted in a deep-seated skepticism about the germ theory of disease and the safety of vaccines. The author's argument is that the outcome of disease is not solely determined by the virulence of the pathogen, but also by the individual's immune system. This perspective is based on the idea that the immune system can be compromised by various factors, including environmental toxins and other pathogens. The author's skepticism is also fueled by their perception that the vaccine program is driven by a desire to silence critics and maintain the products' safety through public relations rather than scientific evidence.",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What significant event in Hugh H. Goodwin's early life led to his decision to enlist in the United States Navy in 1917, despite not having completed high school?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyze the relationship between deliberative democracy and the concept of \"the people\" in the context of contemporary democratic theory. How do the ideas of Helene Landemore and Jeffrey Edward Green on democratic epistemology and the meaning of the people intersect with the deliberative democratic approach of Amy Gutmann and Dennis Thompson?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the SLAS system, what is the primary objective of the speed and lane advisory system, and how does it balance travel time minimization with passenger comfort?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the complicity of doctors and pharmacies in fueling the opioid epidemic in Ohio, based on the information provided about David L. Kidd's ring?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the likely outcome for Njoroge's family, given the events of the novel and the ideology of nationalism that drives the plot?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the electronic structure of 5OS from the DFT-calculated bond lengths and the open-shell resonance structure?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The author's argument about the effectiveness of vaccines is based on the observation that many routine childhood diseases, such as pertussis, measles, and mumps, have almost entirely disappeared in developed countries. However, the author also notes that the newer acellular vaccines, such as DTaP, are less effective than the older DPT vaccine. What is the most plausible explanation for the author's seeming contradiction between the disappearance of childhood diseases and the ineffectiveness of the newer vaccines?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following models achieves the highest average precision at the 50% threshold, while also achieving the highest average precision at the 75% threshold, and has the lowest FLOPS?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a key advantage of using the rotational normalization method proposed in the AutoCogniSys framework for reducing the complexity of ground truth labeling in hand gesture recognition?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Consider a probabilistic extension of the KS-equation, where the underlying linear dynamic is approximated using amortized Variational Inference. According to the text, what is the primary advantage of this approach in terms of quantifying uncertainty in predictions?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for the discontinuation of KSTP-FM 102.1 in 1952, despite its initial success in the early 1940s?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Consider a two-dimensional environment composed of 5 polytopic obstacles, each defined by their half-space representation (H-representation). The obstacles are arranged in a way that forms a hyperplane arrangement, as shown in fig. The preference \u03b8 is spatially decomposed into a set of preferred neighboring polytopes per region of the space. Within each polytope j, the human preference pj is a discrete distribution over the preferred neighbor in N (j).\n\nWhich of the following statements is true about the reduced H-representation of a polytope j, assuming that the non-redundant constraints correspond to edges of the polytope?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The author of the text describes a process of reinforcing the turtledeck of an aircraft model. What is the primary purpose of adding the 2-inch tapes to the bulkheads inside and out?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The C$_2$H lines are detected independent of the evolutionary stage of the sources, but the line-widths between the different sub-groups show a significant difference. What can be inferred about the spatial structure of C$_2$H during the different evolutionary stages?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The proposed formulation for the SLAS module can accommodate an arbitrary number of lanes at any given time instant k, as stated in Remark 3. However, the computational complexity of the original formulation is high due to the integer decision variables. To address this, the problem is reformulated with binary variables, which reduces the computational complexity. What is the primary benefit of using binary variables in the reformulated problem?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A user visits the Agency Spotter website and clicks on a link to a third-party service. The user's browser sends a request to the Agency Spotter server, which logs the request, including the user's IP address, browser type, and cookies. The user then clicks on an ad on the third-party service's website, which uses cookies to track the user's browsing behavior. The user returns to the Agency Spotter website and uploads a file, which is stored on the Agency Spotter server. The server logs the file upload, including the date and time of the upload, the amount of time spent on the upload page, and the pages viewed before and after the upload. The Agency Spotter server also shares the user's information with the third-party service, which uses it to personalize advertising content. However, the user has set their browser to limit the placement of cookies by advertising networks. Which of the following statements is true?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary consequence of Secretary Johnson's proposed reorganization of the United States Armed Forces in April 1949?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the experiment where the robot receives human input and the goal-only baseline, what is the primary effect of accounting for path preference on the robot's performance?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The author's argument about the effectiveness of vaccines is based on the observation that many routine childhood diseases, such as pertussis, measles, and mumps, have almost entirely disappeared in developed countries. However, the author also notes that the newer acellular vaccines, such as DTaP, are less effective than the older DPT vaccine. What is the most plausible explanation for the author's seeming contradiction between the disappearance of childhood diseases and the ineffectiveness of the newer vaccines?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A nonlinear oscillator, whose governing equation of motion is given by , can be represented by the Volterra series . If the energy of excitation f (t) is limited, the nonlinear response under zero initial conditions (i.e., zero displacement and zero velocity) can be represented by the Volterra series . What is the relationship between the order of the Volterra series and the convergence of the Volterra series representation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the minimum duration of a Hosting Service suspension due to suspected spam, as per Broadjam's policies?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyzing the interaction between a planar shock wave and a 2-D heavy-cylindrical bubble, what can be inferred about the effect of the shock wave on the bubble's TNE (Transition Number Effect) behavior?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the effect of a uniaxial strain of angle \u03b8 on the hopping parameters t_{1,2,3} of the strained graphene part of the structure?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The proposed method's efficiency under non-zero initial conditions can be understood by considering the following:\n\nChunk0: The efficiency of the proposed method was verified by the fourth-order Runge-Kutta method. This paper only computes the response under zero initial conditions. The response under non-zero initial conditions will be investigated in our future work.\n\nChunk1: The fourth-order Runge-Kutta method is known for its high accuracy and stability, especially when dealing with non-linear systems. However, its computational complexity can be a limitation for real-time applications.\n\nChunk2: In the context of non-linear systems, the response to initial conditions can be highly sensitive to the choice of method. A more efficient method might be necessary to capture the dynamics of the system accurately.",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The parallel least mean square-partial parallel interference cancelation (PLMS-PPIC) method improves upon the LMS-PPIC method in which aspect?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary consequence of the Prestige System in the game, and how does it impact the rewards for Alliance Quests?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Intel's strategy for maintaining market share in the face of stagnating desktop/laptop sales and increasing tablet sales will likely involve a significant shift in focus towards the tablet market. However, this shift will be hindered by Intel's current technology gap with ARM-based processors. What is the most likely outcome for Intel's tablet sales in the next 2-3 years?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The fuselage sides are laid out flat with reference to the top longeron measured to a straight chalk line. However, when the side panels are bent and sloped to form the fuselage box section, the resulting shape is conical. As a result, the top longeron takes on an elliptical shape when built flat, bent to form a cylindrical section, and sloped to form a conical section. What is the primary reason for this elliptical shape?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the expected behavior of the intrinsic Hall conductivity in twisted bilayers of tMoTe2 at twist angles deviating from the commensurate value of 21.8\u00b0, as indicated by the moir\u00e9 pattern in Figure S4?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a key challenge in dialect classification, particularly when dealing with multilingual datasets?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The authors derive an inequality for the kinetic energy of plasma blobs in a compressible flow, which is absent in the incompressible flow case. They also show that the acceleration of the blobs is proportional to the total radial particle flux. However, they assume that the results hold for both depletions and amplifications of the density field. What is the main assumption underlying this claim?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the demographics of McPherson County based on the information provided about the county's population and household characteristics?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the performance of NFPA and FPSA solvers in comparison to GMRES and DSA solvers, given the results from the HGK kernels for problems 1 and 2?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyze the implications of the Supreme Court's role in resolving disputes between the President and Congress over custody of their respective powers. How might this impact the balance of power in the American constitutional order?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyzing the reconstruction error plots in Fig. \\ref{PL-err-Jor1}, what can be inferred about the effect of the number of samples on the reconstruction error for the 2XY model at different temperatures?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The development of plasticity mechanisms in agents is influenced by various factors, including environmental variability, sensory system reliability, and the complexity of the motor network. However, the relationship between these factors is not always straightforward. Which of the following statements best summarizes the findings of the study on the impact of environmental variability on the development of plasticity mechanisms in agents?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the historical development of McPherson County, Kansas, based on the fact that the cities of Lindsborg and McPherson are considered governmentally independent and are excluded from the census figures for the townships?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyzing the temporal evolution of entropy production rates, what can be inferred about the impact of the shock wave on the bubble's deformation and the resulting entropy generation rate?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A paramecium is a biological machine that operates through self-organization and evolution. It lacks sentience and is not a product of design. However, its behavior is influenced by the interactions of organic chemistry. What is the primary reason for the distinction between a paramecium and a machine?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The Supreme Court's decision in Wayfair v. Amex challenged the physical presence rule, a constitutional precedent for stare decisis. However, the Court's reasoning was based on a flawed understanding of the relationship between stare decisis and the Constitution. What is the primary flaw in the Court's stare decisis analysis in Wayfair?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a fundamental consequence of the fast processes associated with disorder-induced heating in the formation of ultracold plasmas?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a likely consequence of the bipartisan efforts to delay and ultimately repeal the mandated sale of Plum Island, given the potential for gypsy moth outbreak in the region?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for the transfer of operator responsibility from ConocoPhillips to Statoil in 2013, in connection with the removal of the H7 platform?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the $B_s$ oscillation frequency from the CDF result on fully reconstructed decays, given that the D\\O\\ results on opposite and same side muon tagging are consistent with each other but differ from the CDF result?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The libertarian notion of free will is often criticized for its inability to account for the causal chain of events that lead to our actions. According to critics, what is the primary motivation behind libertarians' defense of this notion?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary advantage of using conditional postural synergies in the proposed force feedback control algorithm for a dexterous robotic hand?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a critical consideration for the Director when preparing the draft regional plan, as per Section 8 of the Act?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the demographics of McPherson County based on the information provided about the county's population and household characteristics?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the future of the mobile industry based on the decreasing cost of SoCs and the economics of device production?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "According to the NFPA algorithm, what is the primary advantage of setting up the LO equation in the described fashion?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyzing the distribution of power-law exponents for the top 2000 and top 200 cryptocurrencies by market capitalization, what can be inferred about the typical scale of large price movements in the cryptocurrency market?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "A study found that fruit consumption in Amazonian riparian communities was associated with lower levels of mercury in the blood and hair of fish-eaters. However, another study in Spain found that cooking predatory fish increased mercury bioaccessibility, leading to higher mercury exposure. Which of the following conclusions can be drawn from these two studies?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary consequence of the Penning-regulated NO$^+$ ion - NO$^*$ Rydberg molecule balance on the stability of the ultracold plasma?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  }
+]

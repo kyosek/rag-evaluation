@@ -1,0 +1,653 @@
+[
+  {
+    "question": "Bob's aspirations to join the middle class are influenced by his friendship with Terry, but his wife Thelma's strong personality often leads him to prioritize his social status over his ambitions. This dynamic is reflected in Bob's behavior towards his friend Steve Urkel, who, despite being unpopular with his peers, is a brilliant student and inventor. However, Steve's lack of interest in popular culture and athletic endeavors makes him an unlikely candidate for social advancement. What is the most plausible reason for Bob's ambivalence towards Steve Urkel, considering their differing values and social aspirations?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what is the primary reason for Bear Grylls' involvement in the NBC series \"The Island\", considering his background as a survivalist and his experience with primitive living skills?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Mirtemir, a renowned Uzbek poet and literary translator, was a close friend and admirer of the Turkish statesman Ali Fuat Cebesoy's great-grandfather, Mehmed Ali Pasha. However, Mehmed Ali Pasha's early life was marked by a significant departure from his family's Huguenot ancestry. What was the name of the event that led Mehmed Ali Pasha to convert to Islam and travel to the Ottoman Empire, where he would eventually receive a commission in the Ottoman Army?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the provided documentation, what is the correct release date of the song \"To Hell and Back\" by Benga, considering the information about the album's release and the premiere of the official video on Benga's Vevo?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "A power supply with a desired power factor of 0.95 is required for a high-performance computing system. The system's power requirements can vary between 80 and 240 volts, and it operates at a frequency of 50 Hz. What type of power factor correction (PFC) method is most suitable for this application, considering the need for a high power factor and the wide input voltage range?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the provided documentation, what is the likely origin of the nursery rhyme \"Three Little Kittens\" in relation to its depiction of bourgeois domestic cats, and how does this differ from its possible origins in the British folk tradition?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the provided documentation, what is the name of the high school that relocated to its present campus in Orange, California in 1954, and was later renamed to Chapman University in 1991?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The NHL's 3-on-3 tournament format has been used since 2016, but its origins can be traced back to the 2002 game where the World team's burgundy jersey was replaced with a white version due to contrast issues. However, the 2002 game was originally scheduled for the 1994-95 season, which was cancelled due to the 1994-95 NHL lockout. What is the name of the event that was held in 1997, which was originally scheduled for the 1994-95 season, and resulted in the Eastern Conference winning the skills competition for the first time since 1992?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The Moro Rebellion and The Lives of a Bengal Lancer share a common thread in their historical context, but the former is set in the Philippines, while the latter is set in India. What is the primary reason for the difference in setting between these two historical events?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The family's fortune is initially believed to be Kenneth's, but it is later revealed that Kenneth is actually the sole rightful heir to the estate. However, the wills created by Thomas Bradley and the circumstances surrounding his death are crucial to understanding the true ownership of the estate. What is the primary reason why Kenneth is the sole rightful heir to the estate, and how does the will created by Thomas Bradley's sister contribute to this outcome, considering the fact that Thomas Bradley's will was never publicly disclosed, and the family assumed Kenneth was the sole beneficiary, and that the will created by Thomas Bradley was a clever ruse to ensure that Kenneth, who had been a loyal servant, would inherit the estate after his death, and that the family's philanthropic legacy was not a factor in the will?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the information provided, what is the primary reason for the renovation of the mall's veranda, as mentioned in Chunk1, and how does it relate to the expansion of the mall's area, as mentioned in Chunk0?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to Gershon Galil's work, what is the significance of the Yiddish Scientific Institute's (YIVO) relocation from Wilno to New York City, and how does this impact the organization's role in regulating the Yiddish language?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Cat Stevens' decision to leave his musical career in the late 1970s was motivated by his conversion to Islam, but what was the specific reason he cited for his departure from the music industry, which was later contradicted by his son Yoriyos?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what is the significance of the fair-use doctrine in the context of independent film, as advocated by Michael C. Donaldson, and how does it relate to the work of Lisa A. Callif?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What was the primary consequence of J. J. Clancy's support for Charles Stewart Parnell during the Irish Party's leadership crisis in 1890, and how did this impact his subsequent role within the party?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the information provided, what can be inferred about the relationship between the number of stops in Miami Gardens and the population of the city, considering that the Miami Gardens Police Department was involved in 99,980 stops between 2008 and 2013, involving 56,922 people, which is over half of the city's population?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what can be inferred about the relationship between Jan Bull's literary awards and his involvement in the Buxtehude Bull award, considering his background as a Norwegian author and his later profession as an Executive Vice President of Marketing?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the information provided, what is the reason for the shortened length of the fifth season of the TV show Louie, as stated by Louis C.K.?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the provided documentation, what was the original name of the roller coaster at Six Flags Ohio, which was later renamed Steel Venom after Cedar Fair's acquisition of the park in 2004?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What was the primary reason for the Vancouver Canucks' inability to advance past the second round of the playoffs during the West Coast Express era, despite the line's regular season success?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what can be inferred about the severity of Todd Bertuzzi's actions during the altercation with Moore, considering the combination of the hit, fall, and piling-on, and how this relates to the subsequent injuries sustained by Moore?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What is the primary reason for the extinction of the proboscidean genus Palaeoloxodon during the Late Pleistocene, considering its dispersal outside of Africa and the evolutionary changes that occurred over time, and taking into account the specific characteristics of the proboscideans that were isolated on islands and experienced insular dwarfism?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to Lionel Shriver's review, what is a notable characteristic of Bill Bryson's writing style in his book \"African Diary\" that contrasts with his previous travel books?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What is the significance of the Redwood City Daily News's coverage of the Scott Peterson trial, and how does this relate to its circulation and ownership changes?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The City of Blacktown's sister city relations with Porirua, Wellington Region, North Island, New Zealand, were established in 1984, while its sister city with Suseong-gu, Daegu, South Korea, was established in 1994. What is the name of the suburb in Blacktown that was first incorporated as the \"Shire of Blacktown\" in 1906, and is also the location of the railway station that was originally known as \"Black Town Road Station\" in 1860?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the information provided, what was the primary reason for Don Revie's departure as Leeds United manager in 1961, and how did this event impact the club's subsequent performance, particularly in relation to the departure of John Charles, and what role did the club's financial situation play in the decision-making process?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What was the primary reason for the CBS Block Party's failure to compete with TGIF, despite its initial promise of a more mature and edgy lineup?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The article about PLOS One's handling of the \"CreatorGate\" controversy mentions that the journal's prompt response on social media was commended by Jonathan Eisen, chair of the advisory board of PLOS Biology. However, it also notes that Press TV has a history of publishing Holocaust denial articles. Which of the following statements best describes the relationship between the two events?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what can be inferred about the performance of the Washington Huskies' quarterback, Keith Price, in the 2011 Alamo Bowl against Baylor?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "The Black Panther Party's decision to utilize open-carry gun laws was influenced by their experiences with the Nation of Islam, which had a significant impact on their politics. However, this approach was also criticized by the Student Nonviolent Coordinating Committee (SNCC), which had shifted towards a more militant stance after the mid-1960s. Considering the following information, which of the following best explains the Black Panther Party's open-carry policy?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what is the primary reason for the Wanxiang Group's decision to purchase the assets of Fisker Automotive in a bankruptcy auction, and how does this decision impact the production of the Karma Revero plug-in hybrid car?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what is the name of the character played by John Hurt in the 2011 film adaptation of Tinker Tailor Soldier Spy, and how does this character differ from the character portrayed by Cyril Cusack in the 1965 film adaptation?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to Bill Bryson's book \"Neither Here nor There: Travels in Europe\", what is the name of the river that the city of Des Moines, Iowa is named after, as mentioned in the book's introduction?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the provided documentation, what can be inferred about Donna Summer's relationship with her music producers Giorgio Moroder and Pete Bellotte, based on the fact that she joined a German adaptation of the musical Hair in Munich, where they were also involved?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Michelle Thomas and Drea de Matteo both had notable roles in popular television series, but they worked on different shows. According to the provided documentation, Michelle Thomas appeared on The Cosby Show and Family Matters, while Drea de Matteo starred in The Sopranos. What is the common thread between Michelle Thomas's roles on The Cosby Show and Family Matters, and Drea de Matteo's role on The Sopranos?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to the provided documentation, what is the primary factor that determines the Roche limit, and how does it impact the stability of a satellite?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Rabi and Mumford, two prominent figures in their respective fields, shared a common concern about the impact of technological advancements on society. Rabi, a physicist, warned about the delays in large software projects, while Mumford, an architect and critic, cautioned about the unchecked growth of technology. Which of the following statements best captures the essence of their shared concern?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What was the significance of Tommie Smith's 200m gold medal victory at the 1968 Summer Olympics, and how did his actions on the medal podium relate to the broader social context of the time?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided documentation, what was the outcome of the game between UConn and Syracuse, and how did it impact the Huskies' chances of becoming bowl-eligible for the fourth consecutive season?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Analyze the historical context of the Arab Kingdom of Syria's establishment and its subsequent collapse, considering the roles of the British, French, and Ottoman empires. How did the Sykes-Picot Agreement and the McMahon-Hussein Correspondence contribute to the undermining of the Arab Kingdom of Syria, and what were the long-term consequences of this event on the modern Middle East?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Analyze the historical development of Temple Baptist Seminary and its relationship with Highland Park Baptist Church, considering the changes in leadership, governance, and academic programs. How do these changes reflect the institution's commitment to its founding principles and its role in shaping the next generation of Christian leaders?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "What was the primary motivation behind the British support for the Arab Kingdom of Syria, as proposed by King Faisal at the Congress of 1920, and how did this align with the broader geopolitical interests of the British Empire?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Based on the provided documentation, what was the primary reason for the airport's expansion project, which included the relocation of Alaska Airlines' operations to Concourse E, and how did this relocation impact the usage of Concourses B and C, considering the airport's history of expansion and the impact of the 2020 COVID-19 pandemic on air travel demand?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Analyze the motivations behind James II's actions in England from 1685 to 1688, considering the impact of his policies on the English and Scottish Parliaments, the Catholic Church, and the Dutch Republic.",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "In the context of board games, a bear game is a type of game where three hunters attempt to hem in the bear and block its movements. According to the classification system proposed by Robert Charles Bell, what type of game is a bear game, based on the movement and capture mechanics?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Analyze the strategic decisions made by Japanese leaders during the Battle of Okinawa, considering the impact of their tactics on the outcome of the battle.",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "The Bonus Army's occupation of Anacostia Flats was a pivotal event in the Great Depression, with the veterans demanding immediate payment of their World War I bonuses. However, the Hoover administration's response was marked by violence, with the 3rd Cavalry Regiment charging the protesters and the 12th Infantry Regiment evicting them. In contrast, President Franklin D. Roosevelt's administration took a more conciliatory approach, setting up a special camp for the marchers and providing them with food, housing, and entertainment. Eleanor Roosevelt's visit to the camp, where she met with veterans and listened to their songs, was seen as a turning point in the crisis. Which of the following statements best describes the key difference between the Hoover and Roosevelt administrations' responses to the Bonus Army?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A vacant urban lot in a densely populated city is contaminated with heavy metals, including Mercury and lead, which can be removed through Phytoremediation. However, the soil has low aeration, porosity, and drainage due to the removal of topsoil. A study found that urban agriculture can reduce noise pollution by up to 70% and improve air quality. Additionally, urban agriculture can increase the consumption of fruits and vegetables, leading to a decreased risk of chronic diseases. A community garden in Flint, Michigan, reported that participants consumed 1.4 times more fruits and vegetables per day. Considering the benefits of Phytoremediation, noise reduction, and improved nutrition, what is the most effective way to address the contamination of the vacant urban lot, and how can it be implemented in a sustainable manner?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "According to the provided documentation, what is the name of the special that premiered on ABC in 1974 and was later released on DVD in 2000, featuring the voice cast of Mickey Rooney as Santa Claus and Shirley Booth as Mrs. Claus?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A wealthy businessman, Richard Langley, has passed away, leaving behind a complex estate with multiple wills. His first will, written before his death, leaves the majority of his assets to his daughter, Emma. However, his second will, written shortly after his death, revokes the first will and leaves the majority of his assets to his son, James. The third will, discovered after the funeral, reveals that Richard had previously made a fourth will, which would have left the majority of his assets to his daughter, Emma. However, this fourth will was never found or signed. The executor of Richard's estate, a lawyer named Sarah, is struggling to determine the true intentions of Richard's last will. She has gathered the following information:\n\n* Richard's first will was written in 2010 and left Emma the majority of his assets.\n* The second will was written in 2015 and revoked the first will, leaving the majority of his assets to James.\n* The third will was written in 2018 and revealed that Richard had previously made a fourth will, which would have left the majority of his assets to Emma.\n* Richard's son, James, has been acting suspiciously and has been seen arguing with Sarah about the estate.\n* Emma has been in poor health and may not be able to manage the estate effectively.\n* The lawyer, Sarah, has discovered a hidden safe in Richard's office, but it is locked and the key is missing.",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A 45-year-old female moose is in the early stages of her oestrous cycle, and a 25-year-old bull is approaching her. The bull is not in musth, but he has been observed engaging in mate-guarding behavior with other females in the area. The female moose's relatives are nearby, and she is aware of the bull's presence. What is the most likely outcome of this encounter?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A borrower is eligible for the Streamlined Modification Program (SMP) based on the following criteria: the loan is a conforming conventional or jumbo conforming mortgage loan originated on or before January 1, 2008, the borrower is at least three payments past due, the loan is secured by a one-unit property that is the borrower's primary residence, the current mark-to-market loan-to-value ratio is 90 percent or more, and the property is not abandoned, vacant, condemned, or in a serious state of disrepair. However, the lender has decided to implement the IndyMac plan instead. According to the IndyMac plan, the interest rate will be reduced to as low as 3 percent, and the loan terms will be modified based on waterfalls, starting at a front-end 38 percent HTI ratio down to a 31 percent HTI ratio subject to a formal net present value (NPV) floor. Which of the following statements is true?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Grania's novel \"She-King of the Irish Seas\" is a fictionalized account of Grace O'Malley's life, but it was inspired by Morgan Llywelyn's own experiences as an Irish citizen. According to Morgan Llywelyn's biography, she relocated to Ireland after the death of her parents and husband in 1985. However, Robert Jordan, the author of the Wheel of Time series, was also an Irish-American author who wrote historical fiction novels, including \"Red Branch\", which is based on Irish mythology. In his biography, Jordan mentions that he was awarded the Distinguished Flying Cross with oak leaf cluster for his service in the U.S. Army during the Vietnam War. Considering the following statements:",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Based on the provided documentation, which athlete achieved the fastest 100m time in 2013, and what was their personal best time in the 200m event, considering the nuances of their performances in the 100m and 200m events, and the implications of their results on the overall athletic landscape?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which Spider-Man adversary, despite being a reformed character, has a unique ability to manipulate his physical form, and has clashed with Spider-Man on multiple occasions, including a notable confrontation with the Jackal, and has been involved in a plot to create an army of clones, including Spidercide, who was created to be the Jackal's enforcer and protector, but ultimately betrayed him and aligned with the Scrier?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Based on the provided documentation, what was the primary objective of the 3rd Parachute Brigade's initial deployment on D-Day, and how did the division's subsequent actions reflect this objective?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A new public radio station, WAMC-FM, is licensed to Albany, New York, and serves a regional audience through a network of repeaters and translators. MPR, a Minnesota-based public radio network, has a significant presence in the state, with multiple stations and services. According to the provided documentation, WAMC-FM's primary signal covers the Capital District, eastern New York, and parts of Vermont, Massachusetts, and Connecticut. In contrast, MPR's services are primarily focused on the state of Minnesota, with a presence in the Twin Cities, Rochester, and other areas. However, MPR has a significant online presence, with a news website (MPRNews.org) that covers issues affecting the state. Which of the following statements about the relationship between WAMC-FM and MPR is most accurate?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Ruffin McNeill's tenure as head coach at Texas Tech was marked by significant defensive improvements during his time as interim head coach in 2009. However, his overall coaching record at Texas Tech was 9-4, with a 5-3 conference record. McNeill's defensive coordinator at Oklahoma, Alex Grinch, was also known for his innovative defensive strategies. Considering the following information:\n\n* McNeill's defensive improvements at Texas Tech were attributed to his ability to adapt and innovate, as seen in his 2009 season.\n* Grinch's defensive strategies at Oklahoma were often compared to McNeill's approach at Texas Tech.\n* McNeill's overall coaching record at Texas Tech was not as impressive as his defensive coordinator at Oklahoma, who led the team to a 10-3 record in 2017.\n* McNeill's defensive coordinator at Oklahoma, Alex Grinch, was a former defensive coordinator at Texas Tech under Mike Leach.\n* Grinch's defensive strategies at Oklahoma were influenced by his experience as a defensive coordinator at Texas Tech under McNeill.\n\nWhich of the following statements is most consistent with the information provided?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The roe deer's ability to thrive in various habitats, including urban areas, can be attributed to its adaptability and ability to exploit different food sources, but human activities have also had a significant impact on its population growth in certain regions. Analyze the relationship between human activities and roe deer population growth, considering the role of habitat utilization, food availability, and conservation efforts.",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Roger Thatcher's work on centenarians in the United Kingdom led him to conclude that the increase in longevity among those individuals who reach the age of 100 was likely attributable to a lack of stress in older years. However, his research also revealed that the actual contributing factors were more complex, involving better overall healthcare and an ever-increasing total population size. Which of the following statements best summarizes the relationship between population size, healthcare, and longevity among centenarians in the United Kingdom?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Given that Oklahoma's departure from the Big 12 Conference in 2024 will result in the SEC and Big Ten dominating college football, and considering the Sooners' past performance under Lincoln Riley, which of the following statements is most consistent with the historical data and trends presented in the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Mika H\u00e4kkinen's decision to retire from Formula One in 2002 was influenced by a combination of factors, including his desire to spend more time with his family and a loss of desire to compete for race victories. However, he had previously expressed confidence in his abilities and had stated that he no longer had to tell himself every morning that he could win. Which of the following statements best describes H\u00e4kkinen's reasoning process in making the decision to retire from Formula One, taking into account his past experiences and the changing dynamics of the sport during the late 1990s and early 2000s?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Malcolm X's shift from the Nation of Islam to a more radical approach was influenced by his interactions with Dr. Martin Luther King Jr. and the Black Power movement. However, it was his experiences with the Chicago community, particularly the Puerto Rican community, that led him to adopt a more militant stance. This, in turn, was influenced by the formation of the Black Panther Party and the rise of the Rainbow Coalition. What was the primary catalyst for Malcolm X's decision to leave the Nation of Islam, and how did his interactions with the Chicago community and the Black Power movement shape his views on social change?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The British government's decision to support the French in the Maginot Line during World War II was influenced by the lessons learned from David Lloyd George's experience with the Alexandretta project in 1917. However, this approach was later criticized by General Archibald Wavell, who had witnessed the failure of the Maginot Line to prevent the German invasion of France. Wavell's views on defense were shaped by his time as Commander-in-Chief of the British Expeditionary Force in France, where he witnessed the failure of the Maginot Line to prevent the German invasion. This experience led Wavell to advocate for a more mobile and flexible defense strategy, one that would allow for rapid response to changing circumstances. In contrast, the Italian invasion of Egypt in 1940, led by General Erwin Rommel, highlighted the need for a more adaptable defense strategy. The Italian invasion of Egypt was a result of the failure of the British to provide adequate air support and supplies to the 6th Australian Division, which was tasked with defending the region. The British government's decision to support the French in the Maginot Line was seen as a failure to learn from the lessons of the Alexandretta project and the Italian invasion of Egypt.",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Garcia's musical and artistic endeavors were deeply intertwined, yet distinct. Which of the following statements accurately reflects the relationship between Garcia's visual art and his work with the Grateful Dead?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The EastEnders storyline involving Vicki's paternity and her abduction in 1993 had a profound impact on Michelle's mental health. However, considering the potential long-term effects of the storyline on Michelle's well-being, what would have been the most significant consequence if the storyline had been handled more responsibly, taking into account the potential long-term effects on her mental health and the audience's emotional investment in the character?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Austrian literary movement of the 18th century, which emphasized the ideals of harmony and beauty, was influenced by the cultural mindset of the imperial state, which was characterized as profoundly Catholic and sensuous. However, this mentality was not conducive to literary experimentation. What was the primary reason for Austria's late literary fruition, according to cultural historian Carl Emil Schorske?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Brout-Englert-Higgs mechanism is a fundamental concept in particle physics, but its implications extend beyond the realm of physics. Consider the following statements:",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Bonus Army's march on Washington, D.C. in 1932 was a response to the delayed payment of their service bonuses, which were awarded under the World War Adjusted Compensation Act of 1924. However, the Army's intervention on July 28, 1932, was not solely driven by a desire to quell the protest. What was the primary motivation behind President Hoover's decision to deploy troops to clear the marchers' campsite, as revealed by his statement to Congress on August 1, 1932?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A recent literature review on integrated behavior health programs (BHC) suggests that collaboration and co-location with primary care physicians (PCPs) and mental health providers are fundamental characteristics of successful mental health care. However, a study by Whitlock et al. (2003) found that brief behavioral interventions have only a modest impact on health behavior change. Considering the following information:",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Mare Barrow, a 17-year-old Red, possesses electrokinetic powers that allow her to absorb or release lightning. After being discovered by King Tiberias Calore VI, Mare is forced to marry his son, Maven, as part of a plot to manipulate her into helping the Silvers. However, Mare's true intentions are to join the Scarlet Guard, a group of Reds fighting against the Silvers.",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Ellis's views on eugenics and racial bias in the context of human sexuality can be understood through his work on sexual inversion. According to Ellis, what is a key factor that contributes to the development of racial bias in attitudes towards interracial relationships, and how does this relate to his concept of auto-eroticism, considering the potential impact of societal norms and cultural expectations on individual attitudes, as well as the role of public education in addressing the issue of eugenics?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Mumford's concept of biotechnics is rooted in his critique of megatechnics, which he believes has led to the degradation of human life. According to Mumford, what is the primary concern of biotechnics, and how does it differ from the megatechnic approach?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "When Haughey became Taoiseach in 1979, he faced a deep economic crisis, which he effectively addressed by acting as his own Minister for Finance, ignoring the views of his Minister. However, his actions made the problem worse. This led to a series of political errors, including the attempted appointment of Jim McDaid as Minister for Defence, which was met with pressure from O'Malley, and the phone-tapping scandal, which resurfaced during the presidential election campaign. In response to the phone-tapping scandal, Haughey described the affair as \"grotesque, unbelievable, bizarre and unprecedented\". This phrase, coined by Conor Cruise O'Brien, became known as GUBU. Later, a report linked Haughey with the phone tapping of political journalists, but he refused to resign. Despite this, he survived another vote of no-confidence in early 1983, albeit with a smaller majority. What was the outcome of the 1982 general election, and how did it affect Haughey's leadership?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "In the novel, Mattapoisett, what is the primary reason for the existence of the \"head house\" and the \"mind whore\" system, and how does this relate to the societal values of egalitarianism and the pursuit of perfection?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "The Cuban Revolution's impact on Santer\u00eda can be understood through the lens of Afro-Cuban identity and the role of the state in promoting or suppressing this identity. According to Anibal Arg\u00fcelles Mederos and Ileana Hodge Limonta, approximately 8% of Cubans were initiates of Santer\u00eda in the early 21st century. However, this number does not account for those who practice Santer\u00eda without being initiates. Considering the historical context of Afro-Cuban exclusion from economic and political power, and the negative stereotypes surrounding Santer\u00eda, it is clear that the religion has always been a primarily urban phenomenon in Cuba. In the 1990s, Wedel noted that Santer\u00eda was more common in working-class, low-income neighborhoods dominated by Afro-Cubans. Given this information, what can be inferred about the relationship between the Cuban government and Santer\u00eda during the Special Period, and how did this impact the practice of the religion?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The Okinawa Prefectural Peace Memorial Museum presents a complex narrative of the Battle of Okinawa, highlighting the brutal treatment of civilians by the Imperial Japanese Army. However, the museum's description of the events leading up to the battle has been a subject of controversy, with the Japanese government's Ministry of Education, Culture, Sports, Science and Technology (MEXT) advising textbook publishers to reword descriptions of civilian mass suicides. Which of the following statements best summarizes the implications of this controversy on our understanding of the Battle of Okinawa?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The New York Botanical Garden's mission to advocate for the plant world is reflected in its various programs and exhibitions. However, the garden's history is also marked by the influence of the Torrey Botanical Society, which played a crucial role in its establishment. Considering the garden's commitment to education and research, how does the NYBG's partnership with Douglaston Development, announced in 2020, align with its mission to promote the plant world, and what implications does this partnership have for the garden's role in the community?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Analyze the motivations behind James II's actions in 1685, considering the impact of his decisions on the English and Scottish Parliaments, the Catholic minority, and the broader European context.",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Ana's pregnancy and subsequent actions can be attributed to her desire for independence and freedom. However, Christian's reaction to her actions reveals his underlying concerns about their relationship and his own feelings towards the pregnancy. Which of the following best explains Christian's behavior in the following scenario?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The pre-Socratic philosopher Heraclitus is known for his maxim \"ta panta rhei,\" which translates to \"all things flow.\" However, his views on the nature of the world were not without controversy. According to Heraclitus, fire was considered the arche (beginning or principle) of the world. This idea was also shared by another pre-Socratic philosopher, Heraclitus' contemporary, Pythagoras. However, Pythagoras' views on the nature of the universe were more nuanced, as he believed that the universe was composed of numbers. The Milesian school, which included Thales, Anaximander, and Anaximenes, also attributed the arche of the world to water, air, and apeiron (the unlimited), respectively. Considering the views of these philosophers, what can be inferred about the nature of the universe, and how do their ideas relate to the concept of change and impermanence?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "A young girl, born into a society that emphasizes physical beauty and conformity, is constantly bombarded with messages that she is not good enough. She is given a Barbie doll that represents the idealized beauty standard, and as she grows older, she becomes increasingly aware of the societal expectations placed upon her. However, she also begins to realize that these expectations are unrealistic and damaging. Which of the following statements best captures the essence of the girl's struggle with societal expectations?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Based on the provided documentation, what was the primary reason for Yusuf Islam's denial of entry into the United States in 2004, as stated by the US Department of Homeland Security?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Based on the information provided, what was the primary motivation behind Paul Michaux's establishment of the F\u00e9d\u00e9ration gymnastique et sportive des patronages de France (FGSPF) in 1898, and how did this align with the Church of France's stance on physical education during that time, considering the role of the Conf\u00e9rence Olivaint in Michaux's life and the impact of the First World War on the FGSPF, and what implications did this have for the development of sports in France?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "According to historical records, what was the primary motivation behind the Han Dynasty's decision to annex Minyue in 111 BC, considering the geopolitical circumstances and the concept of Chinese centrality among nations?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Analyze the complex relationships between James II, William of Orange, and the Dutch Republic, considering the implications of their actions on the balance of power in Europe.",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Arcade Industries' involvement in the \"Avengers Arena\" and its connection to the Savage Land, as well as his partnership with Wilson Fisk, can be linked to the events of the \"Hunted\" storyline. However, the true extent of Arcade's role in the \"Avengers Arena\" and his relationship with Wilson Fisk can be understood by considering the following:",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Analyze the motivations behind James II's decision to flee England in December 1688, considering the events and interactions described in the provided documentation.",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "What was the primary reason for the decline of Northwest Plaza, according to the information provided, and how did this impact the redevelopment efforts?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The study of SINEs and their relationship to LINEs has provided valuable insights into the evolution of eukaryotic genomes. However, the exact mechanisms by which SINEs co-opt the machinery of LINEs to facilitate their own retrotransposition are still not fully understood. Which of the following statements best describes the current understanding of SINEs' role in the regulation of gene expression and their potential impact on eukaryotic organisms?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "The pre-Socratics' emphasis on rationalism and observation laid the groundwork for the development of Western rationalism. However, their views on the nature of the universe were often criticized for being overly simplistic. Which of the following philosophers, known for their nuanced understanding of the relationship between the material and spiritual realms, would be most likely to argue that the pre-Socratics' atomism was insufficient to explain the complexities of human experience?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements about the Home Affordable Modification Program (HAMP) is most consistent with the program's goals and eligibility criteria, considering the context of the Troubled Assets Relief Program (TARP) and the historical context of mortgage modification programs in the United States?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "After the Huskies' 40\u201321 win over Vanderbilt, Dave Teggart was named the Big East's Defensive Player of the Week, while Jordan Todman was also named to the weekly honor roll. However, in the same week, UConn's quarterback, Cody Endres, was suspended for the remainder of the season due to a concussion. Later, it was announced that Endres would not return to the team for his senior season in 2011. Considering the following information:",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  }
+]
