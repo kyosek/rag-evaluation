@@ -1,0 +1,1199 @@
+[
+  {
+    "question": "Which of the following individuals is NOT directly related to the literary works of Mirtemir Tursunov?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Given Aitken's actions and subsequent claims, what can be inferred about his motivations for embracing Christianity?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What event directly contributed to the decline in Troy's population after its peak in 1926?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the prominence of certain groups in The Odyssey compared to other ancient literary works, and the poem's enduring influence on Western literature, what can be inferred about the potential impact of The Odyssey on societal perceptions of women and slaves during its initial reception?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements accurately reflects the historical evolution of professional doctorates in the UK compared to the US?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements accurately reflects the impact of the wishbone offense on Oklahoma's football program during the Barry Switzer era?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What uniform combination did the Broncos wear for their Super Bowl 50 appearance, and what was the rationale behind this choice?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What specific legal action directly led to the abolishment of the \"trusty shooter\" system at Parchman Farm?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the circumstances surrounding Roy's proposal and Myra's ultimate fate, what can be inferred about the societal pressures and moral complexities faced by individuals during wartime?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What event directly led to the establishment of the three Burden Lakes and the subsequent economic growth of the Sand Lake region?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the historical context and architectural significance of Purdue University buildings, which structure best exemplifies the university's commitment to both academic excellence and remembrance of its past?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Given the events described in the provided documentation, what is the most likely reason Noah finds himself stripped and alone on the pier, considering his knowledge of Brandon James's past and the recent events surrounding Nina's murder?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided information, what can be inferred about the primary reason behind Niven's expulsion from Heatherdown Preparatory School?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Despite his notoriety for stagecoach robberies, what characteristic distinguished Bill Miner from other outlaws like Buck, as described in the provided texts?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided information, what is the most significant demographic difference between the residents of Sand Lake, Michigan, and the CDP described in Chunk 0?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which driver, besides Ayrton Senna, was involved in a significant collision during a race in 1994 that resulted in a suspension?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Given the contrasting societal structures depicted in the provided texts, what is the most significant underlying factor driving the divergent paths taken by the protagonists in each narrative?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Vernon Smith's research on market dynamics and experimental economics was significantly influenced by his experiences at which two institutions?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In what year did the winning conference in the Skills Challenge Relay gain the option to choose the order of mini-games in the subsequent All-Star Game?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which film marked David Niven's sole foray into a recurring television role, a series that garnered critical acclaim despite its short lifespan?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements best reflects the evolution of the nursery rhyme \"Three Little Kittens\" as described in the provided texts?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which scholar's work directly challenges the traditional chronologies of the kings of ancient Israel and Judah, as presented by figures like William F. Albright and Edwin R. Thiele?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What event directly prompted Jack Donaghy's decision to abstain from alcohol during Avery Jessup's pregnancy?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided information, in what year did the Denver Outlaws win their first championship, and what other championship titles did Pat Bowlen's ownership groups achieve?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which author, based on the provided information, is most likely to have won an award specifically recognizing their work in poetry?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which individual, based on their professional activities and affiliations, is most closely aligned with the legal and ethical considerations surrounding the use of copyrighted material in independent filmmaking?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the creative decisions made during the production of the episode discussed, which of the following statements best reflects the ultimate rationale behind the episode's structure?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following individuals was NOT directly involved in a controversy related to espionage or national security during the period spanning the 1980s to the early 1990s?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which film marked Jessica Biel's first foray into a leading role, propelling her towards wider recognition in Hollywood?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements BEST reflects the evolution of Saif Ali Khan's career trajectory as depicted in the provided text?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which composer's work, premiered in 1810, was directly influenced by the political climate of the French Revolution, as evidenced by the composer's own struggles with censorship and revisions demanded by authorities?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Given the challenges Ulysses faced during its development and deployment, what ultimately determined the spacecraft's final orbital configuration around the Sun?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the evolutionary relationships and functional differences between ribosomes, which of the following statements best explains the selective pressure that led to the development of antibiotics targeting bacterial ribosomes?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements accurately reflects Bear Grylls' career trajectory, considering both his literary and television endeavors?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided information, what was the primary factor that led to the Red Raiders' selection for the Cotton Bowl Classic in 2008?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What ultimately motivates Elizabeth Halsey to improve her teaching methods?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Despite facing significant challenges and managerial changes, Leeds United ultimately achieved a successful outcome in the 2016-2017 season. What specific event directly contributed to their failure to secure a playoff spot?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided information, which individual faced a medical emergency requiring evacuation from the island during the first season of \"The Island\"?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which individual, based on the provided information, is most likely to be recognized for their contributions to both the world of voice acting and live theatrical performance?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In what year did the Eugenio Monti track host its first FIBT World Championships after its reconstruction in 1936?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements BEST reflects the primary reason for criticism directed at Gianforte's actions regarding public lands during his political career?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In which country is the highest academic degree traditionally awarded after a three-year period of coursework and a short thesis, followed by a two-year specialized program culminating in a more advanced thesis?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What specific consequence did Todd Bertuzzi face as a direct result of his actions against Steve Moore, extending beyond the immediate game suspension?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What event directly led to the establishment of Traverse City as a village and the subsequent major commercial growth of the town?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What was the primary factor that led to Fisker Automotive's bankruptcy, according to the company itself?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What specific policy change did United Airlines implement in response to the incident involving Dr. Dao, as directly stated in a company communication obtained by CNN?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided information, what was the primary factor contributing to the decline in Miami Gardens' tax revenues around the time Oliver Gilbert proposed forming a community redevelopment agency (CRA)?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided information, what can be inferred about the historical economic reliance of Kemmerer compared to Troy?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Given the diverse applications of BNC connectors across various frequency ranges and voltage levels, which of the following scenarios BEST illustrates the potential limitations of using a 75 ohm BNC connector in a high-frequency data transmission system?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided information, what can be inferred about the relationship between the Miami Gardens Police Department's practices and the city's public perception of its law enforcement?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the game's design choices and the reception it received, what can be inferred about the intended player experience for Super Ghouls 'n Ghosts?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "How does the use of \"Billy Boy\" in a 1990s commercial for Maidenform lingerie challenge traditional notions of femininity and female agency?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which Austrian author, known for their exploration of societal absurdities and linguistic innovation, received the Nobel Prize in Literature in 2004?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What event directly led to the Lewiston Maineiacs' relocation attempt in 2009?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the information provided about both the Murowa and Victor diamond mines, what is the most significant factor contributing to the potential for long-term economic viability of a diamond mine?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which adaptation of Lewis Carroll's works features a protagonist who, after encountering fantastical creatures, must confront her own inner demons to regain her sanity?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided information, during which year did \"It's Always Sunny in Philadelphia\" begin airing on both FX and a new network besides FX?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What specific event prompts Christian Grey to initially offer Anastasia Steele a photo session?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In what year did Cogan experience a significant crash at the Indianapolis 500 that resulted in a broken arm and leg, leading to him missing the remainder of the season?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided information, what is the ultimate disposition of the estate after the death of all involved parties?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which individual, based on the provided information, experienced a career setback that led to a change in their professional trajectory?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the network landscape and programming strategies of the time, what was the primary factor contributing to the ultimate failure of the CBS Block Party?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements best describes the evolution of Massimiliano Soldani Benzi's artistic career?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the interplay of gravitational forces and internal structural integrity, under what specific circumstances might a celestial body, such as a comet, persist in orbit within its Roche limit?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements accurately reflects the thematic connection between Bill Bryson's travel writing and his personal life experiences?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What specific actions did Tommie Smith and John Carlos take during the 1968 Summer Olympics medal ceremony to protest social injustices?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements best encapsulates the evolution of Mick Jagger's public image as perceived by both critics and the general public?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "According to Cloward and Piven, what was the intended consequence of the \"crisis\" they sought to create within the welfare system?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Given the complex relationship dynamics depicted in the provided text, what ultimately motivates Christian's decision to accept Syed's proposal of marriage?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which cast member's departure from the series was directly tied to a salary dispute with CBS, leading to a change in their character's status within the show?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What prompted Cat Stevens' decision to change his stage name, and how did this decision reflect his understanding of the music industry at the time?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What motivated the BBC's decision to produce the docudrama series, considering the challenges and unique filming locations involved?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following directors did Robert Aldrich NOT work with as an assistant director during his early career?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What specific event prompted Cedar Fair to rename the roller coaster from \"Voodoo\" to \"Possessed\"?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Given the varying power factor capabilities of different power supply types, what is the MOST significant advantage of employing active power factor correction (PFC) in a switched-mode power supply (SMPS) compared to passive PFC?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the linguistic relationships and historical developments discussed, which of the following statements most accurately reflects the current scholarly understanding of the divergence between P-Celtic and Q-Celtic languages?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which film, based on its historical context and thematic elements, most directly reflects the complexities of colonial power dynamics and cultural clashes during the early 20th century?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What specific event led to a significant change in the design of the Porsche 917-10, directly impacting its performance and safety?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following characters is most closely associated with the theme of betrayal in John le Carré's works?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which individual's career path most closely resembles that of David Faber, considering both familial influence and professional trajectory?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What historical factors, as described in the provided text, contributed to the City of Blacktown's decision to adopt a Coat of Arms in 1981?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What event directly precedes Kimmy's decision to pursue higher education?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering Murray's stance on foreign intervention and his assessment of Trump's foreign policy, what can be inferred about his perspective on the potential consequences of a withdrawal from international engagements?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In Plato's Symposium, Socrates argues that children offer a false impression of immortality to their parents. Considering the ancient Greek understanding of immortality and the Socratic emphasis on knowledge and virtue, how does this misconception about children contribute to the pursuit of eudaimonia, and what potential pitfalls might arise from this belief?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the evolution of \"Three Little Kittens\" and its reception, which of the following statements BEST encapsulates the poem's significance within the broader context of children's literature?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In the context of George Balanchine's Nutcracker, how does the portrayal of the Sugar Plum Fairy's dance contribute to the overall narrative structure and thematic development of the ballet?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Given the potential for contamination and the desire to preserve the integrity of celestial bodies, what is the most stringent level of planetary protection required for a mission landing in a region on Mars where liquid water is known to occur, according to the provided text?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which metropolitan area, based on commuting patterns, encompasses the largest population within the broader \"Gold Coast\" region of Florida?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the geographical and economic factors described, what can be inferred about the potential impact of climate change on Traverse City's tourism industry?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What specific event, according to Paul Mullen, served as a catalyst for Martin Bryant's shift from contemplating suicide to planning the Port Arthur massacre?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Given the increasing emphasis on energy efficiency in consumer electronics, what is the primary reason for the widespread adoption of active power factor correction (PFC) in modern power supplies?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What was the primary catalyst for the 2007 protest, and how did the Hong Kong government's response to this event contribute to the escalating tensions surrounding universal suffrage?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Given Robert Jordan's intentions for the series and the circumstances surrounding the completion of *A Memory of Light*, what can be inferred about the potential impact of his death on the overall narrative arc of *The Wheel of Time* series?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What specific event prompted President Alma Coin to request Katniss Everdeen become the \"Mockingjay\"?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements BEST encapsulates the critical consensus surrounding Madonna's \"Like a Virgin\" album, as reflected in the provided text?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements accurately reflects the distribution of Rankin/Bass Christmas specials across various media platforms?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which artist, according to the provided tributes,  experienced a profound impact on the music industry, transcending genre boundaries and paving the way for future generations?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which actress, known for her roles in both television dramas and animated series, was the inspiration for a song by the band Toto?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What underlying theme connects the familial struggles depicted in \"Dinner at the Homesick Restaurant\" with the critical acclaim it received from literary reviewers?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Simon Pagenaud's career demonstrates a clear progression through various racing disciplines.  Which of the following best illustrates the evolution of his racing endeavors?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What event led to a shift in public perception of Hawaii's racial diversity and prompted a reassessment of the territory's racial dynamics?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Given his career trajectory and the awards he has received, what can be inferred about Yusuf / Cat Stevens' primary motivations?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "During which season did Leeds United experience both a significant financial crisis and a near-relegation scare, ultimately avoiding relegation only due to a last-minute victory?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the building's unique architectural features, its integration with surrounding public spaces, and its historical context within the Financial District, analyze the developers' likely motivations for constructing 55 Water Street.",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the information provided about Cirque du Soleil's productions, which show's technical design most directly reflects the company's commitment to innovative stagecraft and audience immersion?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the evolution of scientific communication and the criteria for publication in scientific journals, what factor most significantly distinguishes the dissemination of knowledge in the 17th century from contemporary scientific publishing practices?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the diverse landscape of vaccine delivery systems and their potential impact on global health equity, which of the following statements BEST encapsulates the multifaceted challenges and opportunities associated with widespread vaccine accessibility?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What ultimately motivates Radar's decision to leave the 4077th?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided information, during which year did Angelspit release their debut studio album and subsequently announce the addition of new members to the band?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following best describes the primary rationale behind the integration of behavioral health services into primary care settings, as evidenced by the historical developments outlined in the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the ecological impact of human activity and the subsequent conservation efforts, what was the primary motivation behind the Indian government's decision to declare Nanda Devi a sanctuary in 1983?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What year did Jerry Garcia's relationship with Carolyn Adams, also known as \"Mountain Girl,\" end?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What prompted Yusuf Islam's decision to cease his musical career, and how did this decision align with his evolving personal and religious beliefs?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following best exemplifies Locke's stance on the relationship between religious freedom and the potential for social disorder?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided information, what can be inferred about the primary factor influencing Bud Leavitt's decision to pursue a career in journalism?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What was the primary factor that led to Jeremih's decision to pursue a career in music?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the mall's history, what can be inferred about the management's approach to safety and security measures?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "In which year did the NHL All-Star Game format shift away from the two All-Star teams format and return to the Stanley Cup winner playing an all-star team?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which institution's founding was directly influenced by the inauguration of Abraham Lincoln?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which individual, despite recognizing the potential benefits of technological advancements, emphasized the importance of grounding progress within the limitations and needs of the human body?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What was the primary factor that led to Aldrich's decision to establish his own studio, Aldrich Studios?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the critical reception and controversies surrounding \"Unbreakable Kimmy Schmidt,\" what can be inferred about the show's approach to addressing sensitive social issues?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the evolutionary history and anatomical adaptations of proboscideans, which of the following statements best explains the relationship between the emergence of Elephantidae and the diversification of proboscideans across Eurasia?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What specific factor contributed to the Vancouver Canucks' decision to acquire Markus Naslund, ultimately leading to the formation of the West Coast Express?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What ultimately led to the closure of Infocom studios despite their initial success and Activision's acquisition of the company?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the economic shifts described in the provided text, what is the most significant factor contributing to the decline in Hong Kong's role as a major trade hub?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the documented controversies surrounding PLOS One and Press TV, which of the following best exemplifies a shared characteristic in their handling of contentious scientific and historical claims?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided information, what is the primary reason José Daniel Valencia's international football career ended in 1982?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Given Republic Airways' history of fleet expansion and contraction, what can be inferred about their strategic approach to aircraft acquisition and deployment?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What factor primarily contributed to the selection of Fort Smith as the administrative capital of the Northwest Territories in 1911?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements BEST encapsulates the critical consensus regarding Rihanna's vocal performance in \"We Found Love\"?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Considering the creative choices made during the production of both \"Alice in Wonderland\" and \"The Life of Emile Zola,\" what common thread can be identified in the directors' approaches to visual storytelling and their rationale behind those choices?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which author's work was criticized for lacking the \"malice, the appetite for smut, scandal and unpleasantness — above all, the narcissism\" essential to the genre, according to a critic?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which philosopher's ideas directly challenged the prevailing notion of divine intervention in natural phenomena by proposing a naturalistic explanation based on a fundamental, undifferentiated substance?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What event directly contributed to the SNCC's shift from a philosophy of nonviolence to one of greater militancy?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "What song from Benga's album \"Chapter II\" was released as a single in December 2012 and features a live PA performance by Kano on Example's 2013 arena tour?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Given the intricate relationship between SINEs and LINEs, and the potential for SINEs to influence gene expression, how might the presence of SINEs within pseudogenes contribute to the evolutionary dynamics of gene regulation, considering the potential for SINEs to co-opt the machinery of LINEs?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "What ultimately led to the breakdown of James II's relationship with William of Orange, despite their initial shared objectives and William's initial support for James's rule?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which pre-Socratic philosopher's ideas most directly challenged the traditional Greek understanding of the gods' role in the natural world, paving the way for a more naturalistic worldview?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Considering the Ovambo people's historical interactions with both European colonialism and traditional religious practices, what can be inferred about their approach to cultural preservation and adaptation?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which pre-Socratic philosopher's ideas most directly challenged the traditional Greek understanding of the gods' role in natural phenomena, paving the way for a more naturalistic worldview?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following linguistic features is NOT consistently cited as evidence supporting the Insular Celtic hypothesis, despite its presence in some Insular Celtic languages?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements accurately reflects the evolution of mortgage modification programs in the United States, considering both historical precedents and contemporary responses to the 2000s housing crisis?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements BEST encapsulates the complex relationship between the critical reception of the Fifty Shades novel series and its unprecedented commercial success?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which album features a collaboration between Matthew Good and a musician who has also contributed to the work of both Switchfoot and 54-40, and was produced by the same individual who worked on both Matthew Good's \"Beautiful Midnight\" and the 54-40 album \"Yes to Everything\"?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "According to the poem, what ultimately leads to the girl's death, and how does this relate to the societal pressures she faces throughout her life?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements BEST reflects the historical significance of Gjakova's craftsmanship, as evidenced by the provided texts?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following Marvel characters' first appearance in the Ultimate Marvel Universe was NOT a result of a team-up with Spider-Man in the *Ultimate Marvel Team-Up* comic series, and whose first appearance in the Ultimate Marvel Universe was NOT featured in a story arc involving time travel?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of Morgan Llywelyn's novels features a protagonist who, despite facing personal tragedy, ultimately finds success and recognition for their work, mirroring the author's own experiences of overcoming adversity and achieving literary acclaim?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "AES+F's artistic practice often employs surreal landscapes and symbolic imagery to critique contemporary societal structures. Considering this stylistic tendency, how does the \"Islamic Project\"  engage with the themes of cultural transformation and power dynamics explored in the \"Liminal Space Trilogy,\" particularly in light of the trilogy's exploration of Western values and mythology?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which artist, based on their musical collaborations and performance history, is most likely to have shared a stage with both Capital Cities and Fitz and the Tantrums?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "What specific event directly led to the rebranding of WIQI as \"Q101\" and the return of the WKQX call sign?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Considering the cultural impact of Steve Urkel and his portrayal in \"Family Matters,\" what can be inferred about the evolving perception of \"nerd\" culture in American society during the late 20th century?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which individual, based on their professional achievements and affiliations, would be most likely to contribute to a scholarly journal focused on the historical significance of war letters?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Based on the information provided, which of the following statements accurately describes the relationship between MPR's programming services and its network infrastructure?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "A traveler plans a road trip from Saginaw, Michigan, to PortMiami, Florida, aiming to maximize scenic routes while minimizing tolls. Considering the provided documents, which route would best fulfill these criteria?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Under what specific conditions will a quantum system exhibit oscillatory behavior in its probability distribution over time, and how do the properties of the Hamiltonian and the initial state influence the frequency and nature of these oscillations?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of Morgan Llywelyn's novels, drawing inspiration from a pivotal battle in Irish history, focuses on the lives of Brian Boru's children, particularly his son Donough, in the aftermath of this significant conflict?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Given the distinct naval and air power compositions deployed during the Battle of Okinawa, analyze how the United States leveraged its technological advantages to overcome the Japanese defensive strategies.",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "What specific event led to Republic Airways modifying the seating configuration of its Embraer E175 aircraft operated for American Eagle?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "What significant event occurred in 1889 that directly impacted the future of both the West Australian Football Club and the Victorian Football Club?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which couple, based on a combination of their performance scores and audience popularity throughout multiple seasons, can be considered the most successful in the Nach Baliye competition?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Considering the structural and functional differences between ribosomes in various cellular compartments, which of the following statements accurately reflects the impact of these differences on antibiotic susceptibility?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "How does Anne Tyler's portrayal of time's impact on characters in her novels contribute to the overall thematic exploration of family relationships, as suggested by both critical analysis and Tyler's own writing philosophy?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nAccording to Santería beliefs, what is the relationship between an individual's eledá, their oricha, and the concept of destiny (destino)?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "A qubit initially in state |0⟩ is subjected to a rotating magnetic field described by the Hamiltonian H = -ℏ/2 ω₀σz - ℏ/2 ω₁(σx cos ωt - σy sin ωt).  At time t = π/(2ω₁), a second rotating magnetic field with Hamiltonian H' = -ℏ/2 ω₂σz is applied for a duration of τ.  Given that ω₀ = ω₁ and ω₂ = 2ω₁, what is the probability of finding the qubit in state |1⟩ at time t' = t + τ?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Given the multifaceted nature of Japan's surrender in World War II, which of the following factors most significantly contributed to the Japanese leadership's decision to unconditionally surrender?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "According to Lewis Mumford, what fundamental shift in societal values would be necessary to transition from a \"megatechnic\" society characterized by relentless technological expansion and its unintended consequences, to a \"biotechnic\" society that prioritizes ecological balance and human well-being?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Considering the historical and contemporary contexts presented, which of the following statements BEST encapsulates the complex interplay between the revitalization efforts, academic interest, and societal shifts impacting the current status of Celtic languages?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Given the complex power dynamics and familial relationships within the novel, who ultimately benefits most from the events leading to King Tiberias VI's death and Maven's ascension to the throne?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "What ultimately motivates St. John Rivers' proposal to Jane Eyre, and how does this motivation differ from Mr. Rochester's proposal?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  }
+]

@@ -81,7 +81,7 @@ def main(input_path: str, output_path: str):
 
 if __name__ == "__main__":
     task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    llm_names = ["llama_3_1_8b", "gemma2_9b", "ministral_8b"]
+    llm_names = ["llama_3_1_8b", "gemma2-9b", "ministral-8b"]
     retriever_types = ["Dense", "Sparse", "Hybrid", "Rerank"]
     
     for task_domain in task_domains:
