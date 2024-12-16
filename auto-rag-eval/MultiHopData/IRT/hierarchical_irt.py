@@ -660,9 +660,9 @@ if __name__ == "__main__":
     
     # Analysis configurations
     analysis_modes = [
-        # {"combine_exams": True, "combine_exam_takers": False, "output_suffix": "combined_takers"}
+        {"combine_exams": True, "combine_exam_takers": False, "output_suffix": "combined_takers"}
         # {"combine_exams": False, "combine_exam_takers": False, "output_suffix": "combined_takers"}
-        {"combine_exams": True, "combine_exam_takers": True, "output_suffix": "combined_takers"}
+        # {"combine_exams": True, "combine_exam_takers": True, "output_suffix": "combined_takers"} - Don't use
     ]
     
     for task_domain in task_domains:
