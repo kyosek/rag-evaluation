@@ -656,7 +656,7 @@ def compare_exam_sets(model1: MultihopIRTModel, model2: MultihopIRTModel,
 if __name__ == "__main__":
     # Configuration
     task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    exam_generators = ["llama_3_2_3b", "gemma2_9b", "ministral_8b"]
+    exam_generators = ["llama_3_2_3b", "gemma2-9b", "ministral-8b"]
     
     # Analysis configurations
     analysis_modes = [
@@ -800,11 +800,11 @@ if __name__ == "__main__":
                 'gemma2-9b': {
                     'closed_book': {
                         'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_closed_{exam_generator}_single_hop_exam_processed.json.json',
-                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_closed_exam_new_{exam_generator}_processed_v2.json.json'
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_closed_exam_new_{exam_generator}_processed_v3.json.json'
                     },
                     'DenseV3': {
                         'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Dense_{exam_generator}_single_hop_exam_processed.json_5_results.json',
-                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Dense_exam_new_{exam_generator}_processed_v2.json_5_results.json'
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Dense_exam_new_{exam_generator}_processed_v3.json_5_results.json'
                     },
                     'DenseV4': {
                         'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Dense_{exam_generator}_single_hop_exam_processed_v4.json_5_results.json',
@@ -812,15 +812,15 @@ if __name__ == "__main__":
                     },
                     'SparseV3': {
                         'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Sparse_{exam_generator}_single_hop_exam_processed.json_5_results.json',
-                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Sparse_exam_new_{exam_generator}_processed_v2.json_5_results.json'
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Sparse_exam_new_{exam_generator}_processed_v3.json_5_results.json'
                     },
                     'HybridV3': {
                         'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Hybrid_{exam_generator}_single_hop_exam_processed.json_5_results.json',
-                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Hybrid_exam_new_{exam_generator}_processed_v2.json_5_results.json'
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Hybrid_exam_new_{exam_generator}_processed_v3.json_5_results.json'
                     },
                     'RerankV3': {
                         'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Rerank_{exam_generator}_single_hop_exam_processed.json_5_results.json',
-                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Rerank_exam_new_{exam_generator}_processed_v2.json_5_results.json'
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Rerank_exam_new_{exam_generator}_processed_v3.json_5_results.json'
                     },
                     'DenseV5-5': {
                         'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_Dense_{exam_generator}_single_hop_exam_processed_v5.json_5_results.json',
@@ -856,7 +856,7 @@ if __name__ == "__main__":
                     },
                     'open_book': {
                         'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_open_{exam_generator}_single_hop_exam_processed.json.json',
-                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_open_exam_new_{exam_generator}_processed_v2.json.json'
+                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/gemma2-9b_open_exam_new_{exam_generator}_processed_v3.json.json'
                     },
                 }
             }

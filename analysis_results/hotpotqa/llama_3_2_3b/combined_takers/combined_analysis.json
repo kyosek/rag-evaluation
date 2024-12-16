@@ -1,45 +1,101 @@
 {
   "overall_stats": {
-    "avg_difficulty": 0.25283325905864706,
-    "avg_discrimination": 0.7165817057565832,
-    "total_questions": 1228
+    "avg_difficulty": 0.5713170251730453,
+    "avg_discrimination": 0.7562081179812871,
+    "total_questions": 243
   },
   "hop_analysis": {
     "1": {
-      "avg_difficulty": 0.2677317171775666,
-      "avg_discrimination": 0.9023799789219235,
-      "num_questions": 300
+      "avg_difficulty": 0.5460141046003806,
+      "avg_discrimination": 0.8527791073075203,
+      "num_questions": 150
     },
     "2": {
-      "avg_difficulty": 0.21141627550836609,
-      "avg_discrimination": 0.8015305370866707,
-      "num_questions": 232
+      "avg_difficulty": 0.5864607572695067,
+      "avg_discrimination": 0.6940371741817271,
+      "num_questions": 38
     },
     "3": {
-      "avg_difficulty": 0.25648616014432246,
-      "avg_discrimination": 0.70594180925599,
-      "num_questions": 234
+      "avg_difficulty": 0.6952203796604235,
+      "avg_discrimination": 0.6026728161209881,
+      "num_questions": 19
     },
     "4": {
-      "avg_difficulty": 0.264863810431289,
-      "avg_discrimination": 0.608449860630773,
-      "num_questions": 224
+      "avg_difficulty": 0.505,
+      "avg_discrimination": 0.5009728026733494,
+      "num_questions": 18
     },
     "5": {
-      "avg_difficulty": 0.2595121682454935,
-      "avg_discrimination": 0.5118071606773309,
-      "num_questions": 238
+      "avg_difficulty": 0.6857347465113127,
+      "avg_discrimination": 0.5,
+      "num_questions": 18
     }
   },
   "model_abilities": {
-    "combined_llama3-8b_mistral-8b_open_book": -0.08660888151653634
+    "llama3-8b_DenseV3": -0.14571145924691054,
+    "llama3-8b_DenseV4": -0.17356309259407232,
+    "llama3-8b_SparseV3": -0.1409322281822618,
+    "llama3-8b_HybridV3": -0.16598424932727918,
+    "llama3-8b_RerankV3": -0.16604729103575022,
+    "llama3-8b_DenseV5-5": -0.10336835426506918,
+    "llama3-8b_SparseV5-5": -0.16256239751710522,
+    "llama3-8b_HybridV5-5": -0.10614612674883062,
+    "llama3-8b_RerankV5-5": -0.11926707068683173,
+    "llama3-8b_DenseV5-10": -0.08679827659630818,
+    "llama3-8b_SparseV5-10": -0.12413174168684826,
+    "llama3-8b_HybridV5-10": -0.08933367296857031,
+    "llama3-8b_RerankV5-10": -0.07463234240942584,
+    "llama3-8b_open_book": -0.04292473524169632,
+    "mistral-8b_DenseV3": -0.17100640945212608,
+    "mistral-8b_DenseV4": -0.19885804279928787,
+    "mistral-8b_SparseV3": -0.16622717838747736,
+    "mistral-8b_HybridV3": -0.19127919953249473,
+    "mistral-8b_RerankV3": -0.19134224124096577,
+    "mistral-8b_DenseV5-5": -0.12866330447028473,
+    "mistral-8b_SparseV5-5": -0.18785734772232077,
+    "mistral-8b_HybridV5-5": -0.13144107695404617,
+    "mistral-8b_RerankV5-5": -0.14456202089204728,
+    "mistral-8b_DenseV5-10": -0.11209322680152373,
+    "mistral-8b_SparseV5-10": -0.1494266918920638,
+    "mistral-8b_HybridV5-10": -0.11462862317378586,
+    "mistral-8b_RerankV5-10": -0.0999272926146414,
+    "mistral-8b_open_book": -0.06821968544691187,
+    "gemma2-9b": 0.48055521720480765,
+    "gemma2-9b_DenseV3": -0.06844747161241538,
+    "gemma2-9b_SparseV3": -0.06366824054776665,
+    "gemma2-9b_HybridV3": -0.08872026169278402,
+    "gemma2-9b_RerankV3": -0.08878330340125506,
+    "gemma2-9b_DenseV5-5": -0.026104366630574027,
+    "gemma2-9b_SparseV5-5": -0.08529840988261006,
+    "gemma2-9b_HybridV5-5": -0.02888213911433546,
+    "gemma2-9b_RerankV5-5": -0.042003083052336576,
+    "gemma2-9b_DenseV5-10": -0.00953428896181302,
+    "gemma2-9b_SparseV5-10": -0.046867754052353106,
+    "gemma2-9b_HybridV5-10": -0.012069685334075153,
+    "gemma2-9b_RerankV5-10": 0.0026316452250693123,
+    "gemma2-9b_open_book": 0.034339252392798836
   },
   "component_abilities": {
     "llms": {
-      "combined_llama3-8b_mistral-8b": -0.04330444075826817
+      "gemma2-9b": 0.48055521720480765,
+      "mistral-8b": 0.37799627936509694,
+      "llama3-8b": 0.4032912295703125
     },
     "retrievers": {
-      "open_book": -0.04330444075826817
+      "SparseV5-10": -0.5274229712571608,
+      "DenseV5-10": -0.49008950616662067,
+      "DenseV3": -0.549002688817223,
+      "SparseV3": -0.5442234577525743,
+      "DenseV5-5": -0.5066595838353817,
+      "HybridV5-5": -0.5094373563191431,
+      "HybridV5-10": -0.4926249025388828,
+      "DenseV4": -0.5768543221643848,
+      "RerankV5-5": -0.5225583002571442,
+      "SparseV5-5": -0.5658536270874177,
+      "RerankV3": -0.5693385206060627,
+      "open_book": -0.4462159648120088,
+      "RerankV5-10": -0.47792357197973834,
+      "HybridV3": -0.5692754788975917
     }
   }
 }
