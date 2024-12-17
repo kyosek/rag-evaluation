@@ -284,22 +284,22 @@ class ExamVerifier:
 
 def main():
     model_names = [
-        # 'llama_3_1_8b',
+        'llama_3_2_3b',
         # "ministral-8b",
-        "gemma2-9b",
+        # "gemma2-9b",
     ]
     task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     exams = [
-        "exam_new_llama_3_2_3b_processed_v2.json",
+        # "exam_new_llama_3_2_3b_processed_v2.json",
         "exam_new_ministral_8b_processed_v2.json",
-        # "exam_new_gemma2_9b_processed_v2.json",
+        "exam_new_gemma2_9b_processed_v2.json",
         ]
     
     for model_name in model_names:
         for task_domain in task_domains:
             for exam in exams:
                 input_path = f"MultiHopData/{task_domain}/exams/{exam}"
-                output_path = f"MultiHopData/{task_domain}/exam_verification/{task_domain}/{exam}"
+                output_path = f"MultiHopData/{task_domain}/exam_verification/{model_name}/{exam}"
 
                 verifier = ExamVerifier(model_name=model_name)
                 try:
