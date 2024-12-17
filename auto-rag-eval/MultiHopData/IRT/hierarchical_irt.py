@@ -656,7 +656,7 @@ def compare_exam_sets(model1: MultihopIRTModel, model2: MultihopIRTModel,
 if __name__ == "__main__":
     # Configuration
     task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
-    exam_generators = ["llama_3_2_3b", "gemma2-9b", "ministral-8b"]
+    exam_generators = ["llama_3_2_3b", "gemma2_9b", "ministral_8b"]
     
     # Analysis configurations
     analysis_modes = [
