@@ -245,6 +245,22 @@ class MultihopIRTModel:
         c = 0.25  # Fixed for 4-choice questions
         return c + ((1 - c) / (1 + np.exp(-a * (theta - b))))
     
+    def irt_3pl_with_feasibility(theta: np.array, a: float, b: float, c: float, gamma: float) -> float:
+        """
+        Extended 3PL IRT model with feasibility parameter
+        
+        Parameters:
+        - theta: ability parameter
+        - a: discrimination parameter
+        - b: difficulty parameter
+        - c: guessing parameter (typically 0.25 for 4-choice questions)
+        - gamma: feasibility parameter (upper bound on probability)
+        
+        Returns:
+        - Probability of correct response
+        """
+        return c + (gamma - c) / (1 + np.exp(-a * (theta - b)))
+    
     def neg_log_likelihood(self, params: np.array) -> float:
         """Compute negative log likelihood for optimization"""
         # Unpack parameters
@@ -261,10 +277,27 @@ class MultihopIRTModel:
                 (1 - self.response_matrix[:,i]) * np.log(1 - p)
             )
         
-        # Add hop-based regularization
-        hop_penalty = 0.1 * np.sum(np.abs(a * self.num_hops[:,np.newaxis] - b))
+        return -likelihood
+    
+    def neg_log_likelihood_with_feasibility(self, params: np.array) -> float:
+        # Unpack parameters with additional gamma parameters
+        n_q = self.num_questions
+        a = params[:n_q]  # discrimination
+        b = params[n_q:2*n_q]  # difficulty
+        gamma = params[2*n_q:3*n_q]  # feasibility
+        theta = self.compute_theta(params[3*n_q:])
         
-        return -(likelihood - hop_penalty)
+        # Compute likelihood with feasibility
+        likelihood = 0
+        for i in range(self.num_questions):
+            p = self.irt_3pl_with_feasibility(theta=theta, a=a[i], b=b[i], 
+                                            c=0.25, gamma=gamma[i])
+            likelihood += np.sum(
+                self.response_matrix[:,i] * np.log(p) + 
+                (1 - self.response_matrix[:,i]) * np.log(1 - p)
+            )
+        
+        return -likelihood
     
     def fit(self) -> Dict[str, np.array]:
         """Fit the IRT model using L-BFGS-B optimization"""
@@ -300,13 +333,51 @@ class MultihopIRTModel:
         
         return params
     
+    def fit_with_feasibility(self) -> Dict[str, np.array]:
+        """Fit the IRT model using L-BFGS-B optimization"""
+        # Initial parameter guesses
+        initial_params = np.concatenate([
+            np.ones(self.num_questions),  # a (discrimination)
+            np.zeros(self.num_questions),  # b (difficulty)
+            np.ones(self.num_questions),   # gamma (feasibility)
+            np.zeros(self.num_llms + self.num_retrievers)  # theta components
+        ])
+        
+        # Parameter bounds
+        bounds = (
+            [(0.5, 1.5) for _ in range(self.num_questions)] +  # a bounds
+            [(0.01, 1.0) for _ in range(self.num_questions)] +  # b bounds
+            [(0.25, 1.0) for _ in range(self.num_questions)] +  # gamma bounds
+            [(-3.0, 3.0) for _ in range(self.num_llms + self.num_retrievers)]  # theta bounds
+        )
+        
+        # Optimize
+        result = minimize(
+            self.neg_log_likelihood,
+            initial_params,
+            method='L-BFGS-B',
+            bounds=bounds
+        )
+        
+        # Extract parameters
+        params = {
+            'discrimination': result.x[:self.num_questions],
+            'difficulty': result.x[self.num_questions:2*self.num_questions],
+            'feasibility': result.x[2*self.num_questions:3*self.num_questions],
+            'theta_params': result.x[3*self.num_questions:],
+            'theta': self.compute_theta(result.x[3*self.num_questions:])
+            }
+        
+        return params
+    
     def compute_information(self, params: Dict[str, np.array], theta: np.array) -> np.array:
         """Compute Fisher information for questions across ability levels"""
         information = np.zeros((self.num_questions, len(theta)))
         c = 0.25
         
         for i in range(self.num_questions):
-            p = self.irt_3pl(theta=theta, a=params['discrimination'][i], b=params['difficulty'][i])
+            # p = self.irt_3pl(theta=theta, a=params['discrimination'][i], b=params['difficulty'][i])
+            p = self.irt_3pl_with_feasibility(theta=theta, a=params['discrimination'][i], b=params['difficulty'][i])
             information[i] = (params['discrimination'][i]**2 * (p - c)**2 * (1 - p)) / ((1 - c)**2 * p)
             
         return information
@@ -325,6 +396,7 @@ class MultihopIRTModel:
             hop_stats[str(hop_count)] = {
                 "avg_difficulty": float(np.mean(params['difficulty'][indices])),
                 "avg_discrimination": float(np.mean(params['discrimination'][indices])),
+                "avg_feasibility": float(np.mean(params['feasibility'][indices])),
                 "num_questions": len(indices)
             }
         
@@ -379,7 +451,8 @@ class MultihopIRTModel:
         
         # Item characteristic curves
         for i in range(self.num_questions):
-            p = self.irt_3pl(theta=theta_range, a=params['discrimination'][i], b=params['difficulty'][i])
+            # p = self.irt_3pl(theta=theta_range, a=params['discrimination'][i], b=params['difficulty'][i])
+            p = self.irt_3pl_with_feasibility(theta=theta_range, a=params['discrimination'][i], b=params['difficulty'][i])
             ax1.plot(theta_range, p, alpha=0.3, color='gray')
         
         # Use new plot_model_abilities for enhanced visualization
@@ -481,65 +554,24 @@ class MultihopIRTModel:
         ax.set_xlabel('Model Ability (θ)')
         ax.set_ylabel('Average Information')
         ax.legend(title='Number of Hops')
-    
-    def compare_hop_difficulties(self, other_model: 'MultihopIRTModel', 
-                               params: Dict[str, np.array], 
-                               other_params: Dict[str, np.array],
-                               save_path: Optional[str] = None):
-        """Compare difficulties between two exam sets (e.g., multihop vs single-hop)"""
-        # Create comparison plot
-        plt.figure(figsize=(12, 8))
-        
-        # Calculate statistics for both models
-        def get_hop_stats(model, params):
-            unique_hops = np.unique(model.exam_results[0].num_hops)
-            stats = {}
-            for hops in unique_hops:
-                indices = [i for i, h in enumerate(model.exam_results[0].num_hops) if h == hops]
-                stats[hops] = {
-                    'difficulty': np.mean(params['difficulty'][indices]),
-                    'std': np.std(params['difficulty'][indices]),
-                    'count': len(indices)
-                }
-            return stats
-        
-        stats1 = get_hop_stats(self, params)
-        stats2 = get_hop_stats(other_model, other_params)
-        
-        # Plot difficulties
-        x = np.arange(max(len(stats1), len(stats2)))
-        width = 0.35
-        
-        plt.bar(x - width/2, [stats1[h]['difficulty'] for h in stats1], 
-                width, label='Exam Set 1', color='skyblue')
-        plt.bar(x + width/2, [stats2[h]['difficulty'] for h in stats2], 
-                width, label='Exam Set 2', color='lightgreen')
-        
-        plt.xlabel('Number of Hops')
-        plt.ylabel('Average Difficulty')
-        plt.title('Comparison of Question Difficulties by Hop Count')
-        plt.xticks(x, list(stats1.keys()))
-        plt.legend()
-        
-        if save_path:
-            plt.savefig(save_path, dpi=300, bbox_inches='tight')
-        plt.show()
-        
-        # Return statistical comparison
-        return stats1, stats2
 
 
 def run_analysis(filepaths: Dict[str, Dict[str, Union[str, Dict[str, str]]]], 
                 combine_exams: bool = False,
                 combine_exam_takers: bool = False,
-                output_dir: str = "analysis_results"):
+                output_dir: str = "analysis_results",
+                feasibility: bool = False
+                ):
     """Run IRT analysis with option to combine exam results"""
     # Load and process exam results
     exam_results = ExamResult.from_json_files(filepaths, combine_exams=combine_exams, combine_exam_takers=combine_exam_takers)
     
     # Initialize and fit the model
     model = MultihopIRTModel(exam_results, num_questions=len(exam_results[0].responses))
-    params = model.fit()
+    if feasibility:
+        params = model.fit_with_feasibility()
+    else:
+        params = model.fit()
     
     # Create output directory
     output_dir = Path(output_dir)
@@ -557,102 +589,6 @@ def run_analysis(filepaths: Dict[str, Dict[str, Union[str, Dict[str, str]]]],
     return model, params
 
 
-def compare_exam_sets(model1: MultihopIRTModel, model2: MultihopIRTModel,
-                     save_path: Optional[str] = None):
-    """Compare two exam sets and visualize results"""
-    # Fit models separately
-    params1 = model1.fit()
-    params2 = model2.fit()
-    
-    # Calculate statistics for each exam set
-    def get_exam_stats(model, params):
-        difficulties = params['difficulty']
-        discriminations = params['discrimination']
-        
-        # Calculate statistics by hop count
-        hop_stats = {}
-        unique_hops = np.unique(model.exam_results[0].num_hops)
-        
-        for hop_num in unique_hops:
-            hop_indices = [i for i, h in enumerate(model.exam_results[0].num_hops) 
-                         if h == hop_num]
-            
-            if hop_indices:
-                hop_stats[int(hop_num)] = {
-                    'mean_difficulty': float(np.mean(difficulties[hop_indices])),
-                    'std_difficulty': float(np.std(difficulties[hop_indices])),
-                    'mean_discrimination': float(np.mean(discriminations[hop_indices])),
-                    'num_questions': len(hop_indices)
-                }
-        
-        return {
-            'overall_difficulty': float(np.mean(difficulties)),
-            'overall_discrimination': float(np.mean(discriminations)),
-            'num_questions': len(difficulties),
-            'hop_stats': hop_stats
-        }
-    
-    stats1 = get_exam_stats(model1, params1)
-    stats2 = get_exam_stats(model2, params2)
-    
-    # Create visualization
-    plt.figure(figsize=(15, 10))
-    
-    # Plot 1: Overall difficulty comparison
-    plt.subplot(2, 1, 1)
-    labels = ['Exam Set 1', 'Exam Set 2']
-    difficulties = [stats1['overall_difficulty'], stats2['overall_difficulty']]
-    
-    plt.bar(labels, difficulties, color=['skyblue', 'lightgreen'])
-    plt.title('Overall Difficulty Comparison')
-    plt.ylabel('Mean Difficulty Parameter')
-    
-    # Add value labels on bars
-    for i, v in enumerate(difficulties):
-        plt.text(i, v, f'{v:.3f}', ha='center', va='bottom')
-    
-    # Plot 2: Difficulty by hop count
-    plt.subplot(2, 1, 2)
-    
-    # Get all unique hop counts
-    all_hops = sorted(set(list(stats1['hop_stats'].keys()) + 
-                         list(stats2['hop_stats'].keys())))
-    
-    x = np.arange(len(all_hops))
-    width = 0.35
-    
-    # Plot bars for each exam set
-    difficulties1 = [stats1['hop_stats'].get(h, {'mean_difficulty': 0})['mean_difficulty'] 
-                    for h in all_hops]
-    difficulties2 = [stats2['hop_stats'].get(h, {'mean_difficulty': 0})['mean_difficulty'] 
-                    for h in all_hops]
-    
-    plt.bar(x - width/2, difficulties1, width, label='Exam Set 1', color='skyblue')
-    plt.bar(x + width/2, difficulties2, width, label='Exam Set 2', color='lightgreen')
-    
-    plt.xlabel('Number of Hops')
-    plt.ylabel('Mean Difficulty Parameter')
-    plt.title('Difficulty Comparison by Hop Count')
-    plt.xticks(x, all_hops)
-    plt.legend()
-    
-    plt.tight_layout()
-    
-    if save_path:
-        plt.savefig(save_path, dpi=300, bbox_inches='tight')
-    plt.show()
-    
-    return {
-        'exam_set1': stats1,
-        'exam_set2': stats2,
-        'comparison_summary': {
-            'difficulty_difference': stats1['overall_difficulty'] - stats2['overall_difficulty'],
-            'discrimination_difference': stats1['overall_discrimination'] - stats2['overall_discrimination'],
-            'question_count_difference': stats1['num_questions'] - stats2['num_questions']
-        }
-    }
-
-
 if __name__ == "__main__":
     # Configuration
     task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
@@ -660,7 +596,7 @@ if __name__ == "__main__":
     
     # Analysis configurations
     analysis_modes = [
-        {"combine_exams": True, "combine_exam_takers": False, "output_suffix": "combined_takers"}
+        {"combine_exams": True, "combine_exam_takers": False, "output_suffix": "combined_takers", "feasibility": True}
         # {"combine_exams": False, "combine_exam_takers": False, "output_suffix": "combined_takers"}
         # {"combine_exams": True, "combine_exam_takers": True, "output_suffix": "combined_takers"} - Don't use
     ]
@@ -867,6 +803,7 @@ if __name__ == "__main__":
                 print(f"\nRunning analysis with configuration:")
                 print(f"- Combine exams: {analysis_config['combine_exams']}")
                 print(f"- Combine exam takers: {analysis_config['combine_exam_takers']}")
+                print(f"- Feasibility: {analysis_config['feasibility']}")
                 print(f"- Output directory: {output_dir}")
                 
                 try:
@@ -874,7 +811,8 @@ if __name__ == "__main__":
                         filepaths=filepaths,
                         combine_exams=analysis_config['combine_exams'],
                         combine_exam_takers=analysis_config['combine_exam_takers'],
-                        output_dir=output_dir
+                        output_dir=output_dir,
+                        feasibility=analysis_config["feasibility"]
                     )
                     print(f"Analysis completed successfully")
                 except Exception as e:
