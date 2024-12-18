@@ -284,14 +284,14 @@ class ExamVerifier:
 
 def main():
     model_names = [
-        'llama_3_2_3b',
-        # "ministral-8b",
+        # 'llama_3_2_3b',
+        "ministral_8b",
         # "gemma2-9b",
     ]
     task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     exams = [
-        # "exam_new_llama_3_2_3b_processed_v2.json",
-        "exam_new_ministral_8b_processed_v2.json",
+        "exam_new_llama_3_2_3b_processed_v2.json",
+        # "exam_new_ministral_8b_processed_v2.json",
         "exam_new_gemma2_9b_processed_v2.json",
         ]
     
