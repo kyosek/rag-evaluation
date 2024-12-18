@@ -1,0 +1,98 @@
+{
+  "overall_stats": {
+    "avg_difficulty": 0.6133864804159486,
+    "avg_discrimination": 0.7472260545186704,
+    "total_questions": 247
+  },
+  "hop_analysis": {
+    "1": {
+      "avg_difficulty": 0.5538509421930251,
+      "avg_discrimination": 0.8489370054732986,
+      "num_questions": 150
+    },
+    "2": {
+      "avg_difficulty": 0.6858136059311056,
+      "avg_discrimination": 0.6561115629252519,
+      "num_questions": 51
+    },
+    "3": {
+      "avg_difficulty": 0.6699999999999999,
+      "avg_discrimination": 0.5543276126944469,
+      "num_questions": 12
+    },
+    "4": {
+      "avg_difficulty": 0.772032056088108,
+      "avg_discrimination": 0.5065096225644465,
+      "num_questions": 17
+    },
+    "5": {
+      "avg_difficulty": 0.7228106163412541,
+      "avg_discrimination": 0.5,
+      "num_questions": 17
+    }
+  },
+  "model_abilities": {
+    "llama3-8b_DenseV3": -0.1326142253609065,
+    "llama3-8b_SparseV3": -0.10622542439127558,
+    "llama3-8b_HybridV3": -0.08122437960870665,
+    "llama3-8b_RerankV3": -0.18114717787364898,
+    "llama3-8b_DenseV5-5": -0.24254114639111357,
+    "llama3-8b_SparseV5-5": -0.4096798466745899,
+    "llama3-8b_HybridV5-5": -0.27408127484483413,
+    "llama3-8b_RerankV5-5": -0.20906404661281164,
+    "llama3-8b_DenseV5-10": -0.2603174223957101,
+    "llama3-8b_SparseV5-10": -0.3655423551638304,
+    "llama3-8b_HybridV5-10": -0.34237673508880273,
+    "llama3-8b_RerankV5-10": -0.2739663079309125,
+    "llama3-8b_open_book": -0.044900286043631776,
+    "mistral-8b_DenseV3": -0.16402834763293872,
+    "mistral-8b_SparseV3": -0.1376395466633078,
+    "mistral-8b_HybridV3": -0.11263850188073887,
+    "mistral-8b_RerankV3": -0.2125613001456812,
+    "mistral-8b_DenseV5-5": -0.2739552686631458,
+    "mistral-8b_SparseV5-5": -0.4410939689466221,
+    "mistral-8b_HybridV5-5": -0.30549539711686635,
+    "mistral-8b_RerankV5-5": -0.24047816888484386,
+    "mistral-8b_DenseV5-10": -0.2917315446677423,
+    "mistral-8b_SparseV5-10": -0.3969564774358626,
+    "mistral-8b_HybridV5-10": -0.37379085736083495,
+    "mistral-8b_RerankV5-10": -0.3053804302029447,
+    "mistral-8b_open_book": -0.076314408315664,
+    "gemma2_9b": 0.4300756648463809,
+    "gemma2_9b_DenseV3": -0.10096766197849799,
+    "gemma2_9b_SparseV3": -0.07457886100886707,
+    "gemma2_9b_HybridV3": -0.049577816226298144,
+    "gemma2_9b_RerankV3": -0.14950061449124047,
+    "gemma2_9b_DenseV5-5": -0.21089458300870506,
+    "gemma2_9b_SparseV5-5": -0.3780332832921814,
+    "gemma2_9b_HybridV5-5": -0.24243471146242562,
+    "gemma2_9b_RerankV5-5": -0.17741748323040313,
+    "gemma2_9b_DenseV5-10": -0.2286708590133016,
+    "gemma2_9b_SparseV5-10": -0.33389579178142187,
+    "gemma2_9b_HybridV5-10": -0.3107301717063942,
+    "gemma2_9b_RerankV5-10": -0.24231974454850397,
+    "gemma2_9b_open_book": -0.013253722661223266
+  },
+  "component_abilities": {
+    "llms": {
+      "mistral-8b": 0.36701497919194015,
+      "llama3-8b": 0.39842910146397237,
+      "gemma2_9b": 0.4300756648463809
+    },
+    "retrievers": {
+      "open_book": -0.44332938750760414,
+      "DenseV3": -0.5310433268248789,
+      "HybridV3": -0.479653481072679,
+      "DenseV5-5": -0.6409702478550859,
+      "SparseV5-5": -0.8081089481385623,
+      "HybridV5-10": -0.7408058365527751,
+      "RerankV5-5": -0.607493148076784,
+      "SparseV5-10": -0.7639714566278027,
+      "DenseV5-10": -0.6587465238596825,
+      "HybridV5-5": -0.6725103763088065,
+      "SparseV3": -0.504654525855248,
+      "RerankV5-10": -0.6723954093948848,
+      "RerankV3": -0.5795762793376213
+    }
+  }
+}

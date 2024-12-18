@@ -1,54 +1,93 @@
 {
   "overall_stats": {
-    "avg_difficulty": 0.4847359563938494,
-    "avg_discrimination": 0.8455959240325844,
-    "total_questions": 392
+    "avg_difficulty": 0.5354348886511268,
+    "avg_discrimination": 0.6902700277699253,
+    "total_questions": 375
   },
   "hop_analysis": {
     "1": {
-      "avg_difficulty": 0.4571543834421547,
-      "avg_discrimination": 1.160808870865933,
+      "avg_difficulty": 0.5158844743089995,
+      "avg_discrimination": 0.9754316659310613,
       "num_questions": 150
     },
     "2": {
-      "avg_difficulty": 0.5054070366858732,
-      "avg_discrimination": 0.740424058121499,
-      "num_questions": 151
+      "avg_difficulty": 0.5423928867087924,
+      "avg_discrimination": 0.5002500720826217,
+      "num_questions": 146
     },
     "3": {
-      "avg_difficulty": 0.5061412388019454,
-      "avg_discrimination": 0.5009844656027916,
-      "num_questions": 49
+      "avg_difficulty": 0.5928467426464648,
+      "avg_discrimination": 0.5,
+      "num_questions": 40
     },
     "4": {
-      "avg_difficulty": 0.5623479693846201,
+      "avg_difficulty": 0.5372872372992146,
       "avg_discrimination": 0.5,
-      "num_questions": 27
+      "num_questions": 25
     },
     "5": {
-      "avg_difficulty": 0.3428372650545907,
+      "avg_difficulty": 0.505,
       "avg_discrimination": 0.5,
-      "num_questions": 15
+      "num_questions": 14
     }
   },
   "model_abilities": {
-    "gemma2-9b": 0.5483746043036314,
-    "gemma2-9b_Dense": 1.5205284875900462,
-    "gemma2-9b_Sparse": 1.5760811711945415,
-    "gemma2-9b_Hybrid": 1.5093832177966149,
-    "gemma2-9b_Rerank": 1.6658946439582905,
-    "gemma2-9b_open_book": 2.0140354622428256
+    "llama3-8b_DenseV3": 0.5106475511277473,
+    "llama3-8b_SparseV3": 0.6474735663906304,
+    "llama3-8b_HybridV3": 0.5071099281043348,
+    "llama3-8b_RerankV3": 0.6155435024596587,
+    "llama3-8b_DenseV5-5": 0.5497709182434172,
+    "llama3-8b_SparseV5-5": 0.5948570071278689,
+    "llama3-8b_HybridV5-5": 0.6433314841502837,
+    "llama3-8b_RerankV5-5": 0.5551785803539999,
+    "llama3-8b_DenseV5-10": 0.473690631567244,
+    "llama3-8b_SparseV5-10": 0.6037238963292593,
+    "llama3-8b_HybridV5-10": 0.4730456618259402,
+    "llama3-8b_RerankV5-10": 0.6213417187288581,
+    "mistral-8b_DenseV3": 0.1697007388175369,
+    "mistral-8b_SparseV3": 0.30652675408041996,
+    "mistral-8b_HybridV3": 0.16616311579412435,
+    "mistral-8b_RerankV3": 0.2745966901494483,
+    "mistral-8b_DenseV5-5": 0.20882410593320677,
+    "mistral-8b_SparseV5-5": 0.25391019481765853,
+    "mistral-8b_HybridV5-5": 0.30238467184007334,
+    "mistral-8b_RerankV5-5": 0.21423176804378952,
+    "mistral-8b_DenseV5-10": 0.1327438192570336,
+    "mistral-8b_SparseV5-10": 0.26277708401904887,
+    "mistral-8b_HybridV5-10": 0.1320988495157298,
+    "mistral-8b_RerankV5-10": 0.2803949064186477,
+    "gemma2_9b_DenseV3": 1.2387152970313904,
+    "gemma2_9b_SparseV3": 1.3755413122942735,
+    "gemma2_9b_HybridV3": 1.2351776740079778,
+    "gemma2_9b_RerankV3": 1.3436112483633018,
+    "gemma2_9b_DenseV5-5": 1.2778386641470603,
+    "gemma2_9b_SparseV5-5": 1.322924753031512,
+    "gemma2_9b_HybridV5-5": 1.3713992300539268,
+    "gemma2_9b_RerankV5-5": 1.283246326257643,
+    "gemma2_9b_DenseV5-10": 1.201758377470887,
+    "gemma2_9b_SparseV5-10": 1.3317916422329024,
+    "gemma2_9b_HybridV5-10": 1.2011134077295833,
+    "gemma2_9b_RerankV5-10": 1.3494094646325012
   },
   "component_abilities": {
     "llms": {
-      "gemma2-9b": 0.5483746043036314
+      "mistral-8b": -1.6672615148568952,
+      "llama3-8b": -1.3263147025466848,
+      "gemma2_9b": -0.5982469566430417
     },
     "retrievers": {
-      "Hybrid": 0.9610086134929835,
-      "Rerank": 1.117520039654659,
-      "Dense": 0.9721538832864147,
-      "Sparse": 1.02770656689091,
-      "open_book": 1.465660857939194
+      "DenseV3": 1.836962253674432,
+      "HybridV3": 1.8334246306510196,
+      "DenseV5-5": 1.876085620790102,
+      "SparseV5-5": 1.9211717096745538,
+      "HybridV5-10": 1.799360364372625,
+      "RerankV5-5": 1.8814932829006847,
+      "SparseV5-10": 1.930038598875944,
+      "DenseV5-10": 1.8000053341139288,
+      "HybridV5-5": 1.9696461866969686,
+      "SparseV3": 1.9737882689373152,
+      "RerankV5-10": 1.947656421275543,
+      "RerankV3": 1.9418582050063435
     }
   }
 }

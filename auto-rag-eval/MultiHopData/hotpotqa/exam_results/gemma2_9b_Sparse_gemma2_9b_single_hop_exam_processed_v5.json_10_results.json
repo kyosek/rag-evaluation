@@ -1,0 +1,1052 @@
+[
+  {
+    "question": "Considering the various advancements in vaccine delivery technologies discussed, which of the following statements BEST summarizes the primary advantages of these innovations?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which building on campus is NOT directly associated with either musical performance or academic instruction?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was a key factor that led to the establishment of the Business Growth Fund (BGF)?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which type of power factor correction is most likely to be found in a laptop power supply designed to operate on a wide range of AC voltages (100V to 240V)?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following individuals is most closely associated with the creation of visually compelling metaphors exploring complex global issues within a specific, transitional setting?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements BEST describes the relationship between street punk and its musical influences?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the complex relationships and events described, what ultimately leads to the most significant conflict between Christian and Phil?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately leads to the downfall of Bengt Gauteson?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason cited for the positive reception of the fifth series of Luther?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "How does the musical style of \"We Found Love\" relate to Rihanna's evolving public image as described in the reviews?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Considering the critical reception and controversies surrounding the show, what can be inferred about the overall impact of \"Unbreakable Kimmy Schmidt\"?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual achieved recognition for their work in a specific artistic field during a major international competition in 2005?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately motivates George Smiley to take on the investigation into Samuel Fennan's death?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which newspaper has the most geographically expansive reach, considering both its primary circulation area and any additional news bureaus it operates?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What recurring theme connects the exhibitions mentioned at The New York Botanical Garden, both large-scale and annual?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for the Han Dynasty's eventual control over the Minyue region?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately led to the continuation of the Fisker Karma model after Fisker Automotive's bankruptcy?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately determined the trajectory of the Ulysses spacecraft, allowing it to reach the Sun's poles?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason given for the NHL's decision to implement the new \"fantasy draft\" format for selecting All-Star teams?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary reason Robot Jones's existence creates conflict within his school environment?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Considering the educational and healthcare resources available in Lincoln County and surrounding areas, what can be inferred about the potential challenges faced by residents in maintaining a healthy lifestyle?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was a key factor contributing to the criticism of Gort's leadership during the early stages of World War II, despite his later actions being seen as potentially saving the BEF?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following individuals was NOT directly involved in the production of the live-action film \"Dora and the Lost City of Gold\"?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Considering the conditions described at Parchman Farm and the legal action taken, what was the primary motivation behind the lawsuit filed in 1971?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately led to the prioritization of Mara's political career over his entrepreneurial endeavors?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the highest attendance recorded for a football game at the Coliseum that did NOT involve either USC or UCLA?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary factor influencing the IIHF's decision to ban Todd Bertuzzi from international competition?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What significant achievement did Pat Bowlen accomplish in both the Arena Football League and Major League Lacrosse?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately convinced William of Orange to invade England in 1688?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately led to the US War Department's decision to withdraw \"The Real Glory\" in 1942?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was a significant consequence of Lincoln Riley's departure from Oklahoma that extended beyond his immediate replacement as head coach?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately led to Cat Stevens's decision to change his stage name?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was a key factor that shifted Clancy's political focus from immediate Home Rule to legislative reform in the years following 1893?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What factor primarily contributed to the establishment of the first Blacktown Municipal Library?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Considering Reagan's upbringing and later actions, what can be inferred about his personal evolution regarding social issues?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately led to Mika H\u00e4kkinen's decision to forgo a return to Formula One in 2004?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the information about BNC connectors, what is the primary reason why a 75 ohm BNC connector might be chosen over a 50 ohm BNC connector for a specific application?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following individuals is associated with both a British comedy series and a brand of children's shoes?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following companies is NOT directly involved in the production or distribution of Coca-Cola products?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was a key thematic element explored in Switchfoot's album \"Vice Verses\" and how did the band approach its musical style for this release?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What significant change in Deftones' creative process is reflected in their approach to the album following \"Gore\"?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What event at Purdue University directly led to a significant shift in the university's approach to student housing for Black females?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what can be inferred about the community dynamics surrounding school consolidation in Sand Lake during the early 1960s?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what can be inferred about the significance of Ballaios' coinage in the context of ancient trade networks?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What event directly led to a significant shift in Sand Lake's governance structure and its relationship with Rensselaer County?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a key factor that distinguishes successful urban agriculture initiatives from those that struggle to establish consumer dependency and sustainable farming careers?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the information provided, what was the primary reason Michael Howard prevented Aitken from returning as the Conservative candidate for South Thanet in 2005?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following best describes the primary advantage of using phytoremediation for soil decontamination compared to other remediation methods?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following individuals is NOT directly associated with a work that parodies or references the \"Fifty Shades of Grey\" franchise?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What event directly led to Sarah Polley's decision to scale back her political activism?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "According to Locke, which of the following best describes the long-term impact of early childhood experiences on an individual's development?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Considering the various types of Schorle and their regional variations, what characteristic distinguishes a \"Schorle sauer\" from a typical \"Arbeitersekt\"?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given Aitken's political activities and affiliations, what can be inferred about his views on the role of the Conservative Party in British society?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately leads to Christian's impulsive marriage proposal to Ana?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, during what period was the practice of assarting, or clearing land for agriculture, strictly prohibited within the Forests of Mara and Mondrem?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following best describes the primary focus of Bill Bryson's writing career?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following television series did the individual NOT work on in a writing or showrunning capacity?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Considering the linguistic and genetic evidence presented, what can be concluded about the concept of a unified \"Celtic\" identity?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following characters' primary antagonist relationship is NOT with Spider-Man, despite having significant interactions with him in the Marvel Universe?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "How does the composer's use of key changes and thematic material in the recapitulation differ from the exposition, and what effect does this have on the overall structure of the movement?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary reason cited by critics for the film \"Clouds of Sils Maria\" being considered a success?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements accurately reflects the reception and production challenges faced by a specific television series mentioned in the provided text?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the most likely reason for the observed shift in voting patterns among Hispanic voters in the Miami metropolitan area?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary catalyst for the 2011 protest, and how did the government respond to this catalyst?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What motivated Schneider's switch from the Democratic to the Republican Party, and how did this decision align with his later political self-identification?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best reflects the significance of Michelle Thomas's death to White?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary factor contributing to the lower chart performance of Ashanti's \"Chapter II\" compared to her debut album?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which individual's contributions to the University of Oregon's athletic program spanned multiple disciplines, including coaching, entrepreneurship, and advocacy for athletic organizations?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is a significant career milestone achieved by Del that demonstrates his influence within the entertainment industry?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What significant cultural exchange initiative did Robinson undertake in 2015 that built upon his earlier work in international broadcasting?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of Piercy's works explores themes of environmental ruin and technological advancement within a futuristic setting, while also incorporating elements of Jewish mysticism and a protagonist's struggle for parental custody?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Considering the societal impact and potential contributing factors discussed, what was a significant consequence of the extensive media coverage surrounding the Dunblane massacre?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what can be inferred about the socioeconomic conditions of the township in the year 2000?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Considering the societal expectations presented in the poem and the historical context of the Barbie doll, what is the primary message the author aims to convey about the impact of these cultural influences on young girls?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements accurately describes the key differences in consolidated tax return regulations between the United States and the United Kingdom?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What significant event occurred in 1999 that marked a first for both Manchester United and English football clubs?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What prompted the writers of \"The Young and the Restless\" to age Fenmore's character?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which team's head coach had a previous undefeated season with a different team before taking their current position?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary reason the Making Home Affordable Program (HAMP) was established, and how does its structure reflect this purpose?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the complex dynamics within the crime team depicted in \"Kiss of Death,\" which team member's personal struggles are most likely to directly hinder the investigation's progress?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What significant event in Elle King's life occurred around the same time she began listening to the Runaways and Blondie?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What event directly precedes Darci Kistler's decision to pursue ballet professionally?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was a significant factor in WAMC's transition from a classical music format to its current focus on information-based programming?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following individuals is most closely associated with a project focused on urban renewal and sustainability in Detroit?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What event directly led to the decision to expand the Blacktown Civic Centre?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What prompted the artist's decision to change his stage name from \"Cat Stevens\" to \"Yusuf\"?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Considering Socrates's views on virtue, knowledge, and human motivation, what is the most likely reason he challenged the religious norms of his time?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which character's portrayal was directly influenced by a specific historical figure, and whose performance involved significant digital alteration to achieve the desired on-screen appearance?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what can be inferred about the overall critical reception of the Hunger Games film franchise?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "According to the provided information, what is the primary reason for the character of Steve Urkel's enduring popularity despite his often-negative impact on the Winslow family?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the primary factor influencing the decision to further explore the Victor Mine site?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the potential for interference between vaccine components, what is the most likely reason a monovalent vaccine might be preferred over a multivalent vaccine in a situation where a rapid immune response is crucial?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary intended outcome of Cloward and Piven's strategy, and how did their assessment of its impact differ from that of Robert Albritton?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following best describes a key criticism of social atomism as presented in the provided text?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary motivation behind the Qin dynasty's southward expansion into the Lingnan region, and how did this expansion impact the Nanyue region?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was a significant factor contributing to the decline in popularity of the West Coast Express line, despite their offensive success?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what can be inferred about the individual's legal situation?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What event directly led Elle King to begin using the banjo as a compositional tool?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which airline's service to Portland International Airport (PDX) was most significantly impacted by a combination of external economic factors and negative public perception?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason Okinawans committed mass suicide during the Battle of Okinawa, according to the provided text?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which Austrian author's work is most closely associated with exploring the complexities of Austrian society in the decades leading up to World War II?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What significant recognition did Mirtemir receive in 1971, and how did this honor reflect his contributions to Uzbek literature?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary catalyst for the events described in the provided text, and what was the ultimate consequence of this catalyst?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately determines the fate of the Phantom Ruby at the end of the game?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately prevents Spyro from succumbing to his dark form and potentially harming Cynder?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately prevented O'Connor from achieving a complete victory in Operation Compass and pushing on to Tripoli?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was a key point of contention surrounding Gianforte's candidacy in both the 2016 and 2020 gubernatorial elections?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What factor contributed to \"Oh Santa!\" achieving a record-breaking debut on the Billboard Adult Contemporary songs chart?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary factor influencing the judge's decision regarding Johnson's sentence?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What event directly led to the establishment of Purdue's first computer science department?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Considering the various adaptations and releases of \"The Year Without a Santa Claus,\" what can be inferred about the enduring popularity and cultural impact of this holiday special?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for the initial selection of Fort Smith as the administrative and transportation hub for the Northwest Territories?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary factor that ultimately secured the Saints' League Leaders' Shield?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately led to the Center for Jewish History becoming financially stable?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary motivation behind the filmmakers' decision to film at the actual archaeological sites featured in the series?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following organisms is NOT known to be a food source for the larvae of the pistacia hawkmoth (Akbesia davidi)?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary reason electrical utilities charge higher costs to customers with low power factor loads?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Given the information provided, what is the most likely reason for the mixed critical reception of the \"Scream\" television series premiere?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Considering the various perspectives and challenges surrounding the Garden Bridge project, what was the primary factor that ultimately led to its cancellation?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Considering the gameplay mechanics and character traits described, what is the most likely reason the developers chose to make inventory items context-specific and unable to be combined?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following best describes Arcade's motivation for creating Murderworld?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Considering the historical context and breed characteristics of the Welsh Springer Spaniel, what can be inferred about its role in hunting practices during the 19th century?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In which country is the primary pathway to earning a doctorate in engineering shifting from industrial research to university-based research?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What motivated Zinke's decision to enter the cryptocurrency investment field after leaving public office?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary legal authority responsible for handling criminal cases involving individuals accused of crimes exceeding $25,000 in value within Lincoln County?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following historical events most directly led to the formation of a vigilante group in Montana Territory?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following individuals was NOT involved in a project that received significant public attention?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary function of the BoardGameGeek website, as described in the provided text?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In what year did the Broncos wear their 1960 throwback uniforms for a game against the Chargers?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following songs was released first?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which composer, known for their operas and sacred music, was considered by Beethoven to be the greatest of his contemporaries?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Considering the spread of Celtic languages and cultures, which of the following regions exhibits the most significant contemporary presence of a Celtic language, despite historical decline?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following best explains why Brandon Routh was ultimately cast as Superman in \"Superman Returns\"?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In which country is it possible to earn a doctorate in fine arts by presenting works and/or performances instead of a traditional dissertation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information about Birgunj, what is the PRIMARY factor influencing the city's economic activities?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What design element was shared between the Sydney Olympics bid logo and the official logo?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What significant achievement did Woods accomplish during his college football career that set a record in NCAA Division I-A annals?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What ultimately led to a decline in Ginther's racing performance?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following industries is NOT a significant contributor to Hollywood's economy based on the provided information?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which scholar's work is considered foundational for all subsequent studies of Old Irish, leading to a significant advancement in the field?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the impact of John Blake's recruiting on the Oklahoma Sooners' 2000 national championship team?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which cast member's departure from the show was directly tied to a condition of their promotion to a series regular role?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what can be inferred about the ecological preferences and potential historical significance of Pistacia terebinthus?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Under what circumstances might a borrower be eligible for a loan modification under Fannie Mae's new guidance, even if they are not yet delinquent on their payments?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary function of the offset S-band antenna feed on the Ulysses spacecraft?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the lasting impact of the film *Blade Runner*?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was a primary factor influencing Madonna's choice of Nile Rodgers as the producer for her album \"Like a Virgin\"?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the primary focus and target audience of the described media content?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for the speed limit increases on Wright Street in August 2010?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary factor leading to the closure of a prominent department store chain mentioned in the passages?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  }
+]

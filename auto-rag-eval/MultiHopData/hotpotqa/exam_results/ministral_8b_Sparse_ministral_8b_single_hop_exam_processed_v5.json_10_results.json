@@ -1,0 +1,1052 @@
+[
+  {
+    "question": "Which of the following statements is the most accurate description of the advantages of oral vaccines over injectable vaccines?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Purdue Mall and its surrounding areas?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Business Growth Fund (BGF)?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which type of power factor correction (PFC) is most effective in improving the power factor of a switched-mode power supply (SMPS) and why?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following is the most accurate description of the career trajectory of Aryanto Yuniawan, considering his roles as a director, writer, and producer, and his involvement in various film festivals and awards?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the evolution of street punk music from the 1980s to the present day?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the events described, what is the most likely reason for Syed's decision to secretly see Amira and Yasmin?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely reason for Margit's regret in marrying Bengt Gauteson?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the broadcast history of the TV series \"Luther\"?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most accurate description of Rihanna's vocal style in \"We Found Love\"?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which season of \"Unbreakable Kimmy Schmidt\" had the highest approval rating on Rotten Tomatoes, and what was the nature of the controversy surrounding the second season?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about Franz Walz's career in the military?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of John le Carr\u00e9's \"Call for the Dead,\" what is the most likely reason for George Smiley's inaction regarding his wife's affair and subsequent departure?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the distribution of newspapers in the Miami area?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the New York Botanical Garden's exhibitions and its leadership?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the events surrounding the annexation of Dongyue and the subsequent assimilation of Minyue into Han Chinese culture?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the acquisition of Fisker Automotive by Wanxiang Group?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following best describes the trajectory and orbit of the Ulysses spacecraft after its launch and Jupiter swing-by maneuver?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the 2011 NHL All-Star Game, how many players were selected in total, and what was the significance of the new format introduced by the NHLPA?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of Robot Jones' character development throughout the series?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the educational and healthcare systems in Lincoln County?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following best describes the strategic implications of David Lloyd George's 1917 Alexandretta project and its relevance to the conduct of General Gort during the Second World War?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the live-action series and animated reboots of the \"Dora\" franchise?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the conditions at Parchman Farm in the 1970s, based on the provided information?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the career of the individual known as \"Mara\"?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the seating capacity and attendance records of the Coliseum?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate summary of the events surrounding Bertuzzi's suspension and reinstatement?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Denver Outlaws' performance in the Major League Lacrosse (MLL) league?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the events surrounding the Glorious Revolution, which of the following statements best describes the relationship between William of Orange and James II?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the film \"The Real Glory\"?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Sooners' football program and the changes in their conference affiliation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about Cat Stevens' career and health?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the role of John Clancy in the Irish Party after the 1900 general election?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the history of the Blacktown City Libraries service?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the relationship between Ronald Reagan's early life experiences and his later political career?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In 2004, rumors circulated about H\u00e4kkinen's possible return to Formula One. However, he ultimately decided against it due to his age and declining physical abilities. In 2005, H\u00e4kkinen made his debut in the Deutsche Tourenwagen Masters (DTM) series. He had a successful start to his DTM career, securing a podium finish and a win within his first three races. Despite this, his performance fluctuated throughout the season, with several retirements and inconsistent results. He finished the season fifth in the Drivers' Championship. In 2006, H\u00e4kkinen continued with the HWA team for the second season. What was the primary reason for H\u00e4kkinen's decision to return to Formula One in 2004?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the compatibility of 75 ohm and 50 ohm BNC connectors?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the history of the Start-rite brand?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following companies is NOT a theme park operator, but is involved in the Coca-Cola bottling industry?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the release and reception of Switchfoot's music?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the release and production of Deftones' album \"Gore\"?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of Purdue University's history regarding its integration of Black students and faculty?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the population dynamics in West Sand Lake, New York, based on the provided information?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the historical significance of the coins minted by Ballaios?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the history of Sand Lake?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the primary goal of the Garden Resource Program Collaborative in Detroit?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what was the primary reason for Aitken's skepticism about his own claim of finding God?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the process of phytoremediation for soil decontamination?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following is the most accurate description of the book \"Fifty Shades of Grey\" based on the provided information?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In what year did she withdraw her association with the film \"The Heart\" and why?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements best summarizes John Locke's views on the nature of the mind and the role of education?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about Schorle, given the information provided?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about Aitken's political activities and affiliations?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the most likely reason for Ana's annoyance with Christian?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Forests of Mara and Mondrem?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements about Bill Bryson's books is true, given the information provided?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following series was produced by Capizzi during his tenure as showrunner for the animated TV series adaptation of Carmen Sandiego?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate representation of the genetic findings from the 2015 study in the United Kingdom regarding the genetic identity of the 'Celtic' areas?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the character Kraven the Hunter?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the given musical piece, how does the structure of the recapitulation differ from the exposition, and what key changes occur during the recapitulation?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best summarizes the overall critical reception of \"Clouds of Sils Maria\"?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the reception of the South Park episode that references the deaths of Eric Garner and Michael Brown, as well as the sexual assault allegations against Bill Cosby?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following best describes the political leanings of the Miami metropolitan area's Congressional districts, considering the information provided?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the events described, what was the primary reason for the protests in 2011?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, which of the following statements is true about the political views and actions of the person in question?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the career and personal life of actor John White?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the album \"Chapter II\" by Ashanti?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the University of Oregon's baseball program?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about Del's career progression and his involvement with ZeniMax Media?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the history and impact of the Exploring Music with Bill McGlaughlin program?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements about Marge Piercy's works is true, given the information provided?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the relationship between the Port Arthur massacre and the Dunblane massacre?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the demographics of the township and the Sand Lake Baptist Church?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The poem discusses the societal impact of the Barbie doll, which was created in 1959. The poem highlights the racial discrepancies that arose after the doll's creation, such as differences in hair type, facial features, and skin color. The poem also emphasizes the societal expectations placed on women, with the doll serving as a symbol of these expectations. The poem aims to challenge these societal norms and expectations. Given this information, what is the primary purpose of the poem?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the consolidated tax returns in the United States?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the history of Manchester United and the changes made to Maxine's Bar?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely reason for the sudden aging of Fenmore and Summer Newman?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which team's performance in the 2023 season led to a significant change in the Conference USA standings, and what was the outcome of their game against the SMU Mustangs?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Making Home Affordable Program (HAMP) and its modifications?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the production and release of the television film \"Kiss of Death\"?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about Elle King's career and influences?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the 1993 film version of George Balanchine's Nutcracker, which of the following changes were made to the original ballet to enhance the musical transition?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the history of WAMC?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Cass Corridor and its history?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the development and expansion of the Blacktown Civic Centre?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the artist's career and personal life?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "According to the provided information, which of the following statements best describes Socrates' view on the relationship between virtue and eudaimonia?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the casting of the characters in the film \"Alice in Wonderland\"?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the \"Hunger Games\" film franchise?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the character Steve Urkel from the TV series \"Family Matters\"?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the Victor Mine's operational status and future prospects?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements about multivalent vaccines is true, given the information provided?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following best describes the primary goal of Cloward and Piven's strategy to reform the welfare system?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the core criticism of social atomism, as presented in the provided text?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the Nanyue rulers' policy towards the assimilation of Yue and Han cultures?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Vancouver Canucks' performance in the 2005-06 season?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the release date of the person mentioned in the document?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what was the primary reason for Elle King's interest in learning the banjo?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following airlines has been operating seasonal service to Frankfurt, Germany, from Portland International Airport (PDX) since 2014?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "During the Battle of Okinawa, what was the primary cause of civilian deaths, and how did the Japanese military contribute to this?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the relationship between Jean Am\u00e9ry and Karl-Markus Gau\u00df?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements about Mirtemir Tursunov is true, given the information provided?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary cause of the deaths of the tea plantation workers in the incident described in the first chunk, and how did the estate owners' decisions contribute to the situation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the game \"Sonic the Hedgehog 3\", what is the primary purpose of the \"Blue Sphere\" special stages, and how do they relate to the game's plot?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the most effective strategy for the Dragon Guardians to intercept the Destroyer before it completes the Ring of Annihilation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following best describes the outcome of the Battle of Beda Fomm and the subsequent events that led to the halt of the XIII Corps' advance?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate summary of the events surrounding the 2020 Montana gubernatorial election involving Gianforte?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the song \"Oh Santa!\" based on the provided information?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what was the primary reason for Johnson's arrest and subsequent charges?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the history of Purdue University, based on the provided information?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the distribution of \"The Year Without a Santa Claus\" special?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In which year did the Northwest Territories government move its seat of government back inside the territories, and what was the new capital city?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the Saints' performance in the 2014 season?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Center for Jewish History?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the production of the TV series \"Egypt\"?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the life cycle of the Akbesia davidi moth?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In an electrical power system, a load with a low power factor draws more current than a load with a high power factor for the same amount of useful power transferred. This is due to the fact that a low power factor indicates that the voltage and current are not in phase, reducing the average product of the two. As a result, more current flows in the circuit than would be required to transfer real power alone. This leads to increased energy losses in the distribution system and the need for larger wires and other equipment. Consequently, electrical utilities often charge a higher cost to industrial or commercial customers with low power factors. What is the primary reason for the increased cost to customers with low power factors?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, who is the person who was rescued by Kieran and later insisted that someone grabbed him and pulled him under water?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate summary of the situation regarding the Garden Bridge project?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the game Sam & Max Hit the Road, what is the primary method for traveling between locations, and what special items can be used during driving sequences?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, which of the following statements is the most accurate description of Arcade's approach to his deathtraps?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Welsh Springer Spaniel?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In which country is the \"Diploma di Perfezionamento\" title awarded by law and MIUR Decree, and what is the primary method of earning a professional doctorate in Japan?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In what year did Zinke begin his new job at Artillery One, and what was the primary focus of his role there?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Lincoln County Sheriff's Office and its jurisdiction?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the timeline and context surrounding the formation of the \"Stuart's Stranglers\" vigilante group in Montana?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the career of Career Dungey?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the game of Bear, what is the primary strategy for the hunters to ensure victory, and how does the optional rule regarding stalemate affect their chances of winning?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In which year did the Broncos debut their new combination of white jerseys and alternate navy blue pants, and what was the significance of this uniform choice?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the song \"To Hell and Back\" from the album \"Chapter II\"?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements about Fran\u00e7ois-Beno\u00eet Hoffman is true, given the provided information?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the language education in the regions mentioned?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what was the primary reason for Routh's casting as Superman in the film \"Superman Returns\"?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the requirements for earning a doctorate in Finland?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the population of Birgunj based on the 2021 Census data?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Sydney 2000 Olympics?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the career of Terrell \"TJ\" Woods?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following best describes the career progression of Ginther, considering his involvement with Porsche, Ferrari, and Aston Martin?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the city of Hollywood?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the history of Celtic studies in Germany?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the 2000 Oklahoma Sooners' season?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the changes in the cast of the series over the course of its seasons?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Pistacia terebinthus and its relationship with Pistacia lentiscus?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following best describes the changes that can be made to a mortgage loan under the new Fannie Mae guidelines, considering the changes in terms and the Hope for Homeowners Plan (H4H) Program?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Ulysses spacecraft?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the impact of the film \"Blade Runner\" on the video game industry and the design of the Cybertruck?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the recording process of Madonna's album \"Like a Virgin\"?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following is the most accurate description of the Kring art gallery's unique facade?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the changes made to the traffic infrastructure in Marquette Township?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In which year did the L. L. Berger company file for bankruptcy, and what was the status of the company's flagship store at that time?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  }
+]
