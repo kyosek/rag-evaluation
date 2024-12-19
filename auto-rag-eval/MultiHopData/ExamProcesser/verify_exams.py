@@ -37,7 +37,7 @@ class ExamVerifier:
             'llama_3_2_3b': ModelType.LLAMA_3_2_3B,
             'mistral_7b': ModelType.MISTRAL_7B,
             'ministral_8b': ModelType.MINISTRAL_8B,
-            "gemma2-9b": ModelType.GEMMA2_9B,
+            "gemma2_9b": ModelType.GEMMA2_9B,
         }
         
         # Convert to lowercase to handle case-insensitive input
@@ -133,11 +133,6 @@ class ExamVerifier:
 
     def _create_verification_prompt(self, question_data: Dict) -> str:
         """Create verification prompt for the model."""
-        # Format chunks for better readability
-        # formatted_chunks = [
-        #     f"Chunk {i}: {chunk}" 
-        #     for i, chunk in enumerate(question_data["documentation"])
-        # ]
         chunk_dict = [
             {
                 "text": question_data["documentation"],
@@ -284,15 +279,19 @@ class ExamVerifier:
 
 def main():
     model_names = [
-        # 'llama_3_2_3b',
+        'llama_3_2_3b',
         "ministral_8b",
-        # "gemma2-9b",
+        "gemma2_9b",
     ]
     task_domains = ["gov_report", "hotpotqa", "multifieldqa_en", "SecFilings", "wiki"]
     exams = [
-        "exam_new_llama_3_2_3b_processed_v2.json",
+        # "exam_new_llama_3_2_3b_processed_v2.json",
         # "exam_new_ministral_8b_processed_v2.json",
-        "exam_new_gemma2_9b_processed_v2.json",
+        # "exam_new_gemma2_9b_processed_v2.json",
+        # v1 v2 diff
+        "exam_new_llama_3_2_3b_v1_v2_diff.json",
+        "exam_new_ministral_8b_v1_v2_diff.json",
+        "exam_new_gemma2_9b_v1_v2_diff.json",
         ]
     
     for model_name in model_names:
