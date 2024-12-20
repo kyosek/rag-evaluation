@@ -259,7 +259,15 @@ class MultihopIRTModel:
         Returns:
         - Probability of correct response
         """
-        return c + (gamma - c) / (1 + np.exp(-a * (theta - b)))
+        if not (0 <= c <= gamma <= 1):
+            raise ValueError("Parameters must satisfy: 0 <= c <= gamma <= 1")
+        if a <= 0:
+            raise ValueError("Discrimination parameter 'a' must be positive")
+            
+        logit = -a * (theta - b)
+        # Prevent overflow in exp
+        logit = np.clip(logit, -100, 100)
+        return c + (gamma - c) / (1 + np.exp(logit))
     
     def neg_log_likelihood(self, params: np.array) -> float:
         """Compute negative log likelihood for optimization"""
@@ -336,18 +344,21 @@ class MultihopIRTModel:
     def fit_with_feasibility(self) -> Dict[str, np.array]:
         """Fit the IRT model using L-BFGS-B optimization"""
         # Initial parameter guesses
+        rng = np.random.default_rng(42)
         initial_params = np.concatenate([
-            np.ones(self.num_questions),  # a (discrimination)
-            np.zeros(self.num_questions),  # b (difficulty)
-            np.ones(self.num_questions),   # gamma (feasibility)
-            np.zeros(self.num_llms + self.num_retrievers)  # theta components
+            1.0 + 0.1*rng.standard_normal(self.num_questions),  # a (discrimination)
+            0.0 + 0.1*rng.standard_normal(self.num_questions),  # b (difficulty)
+            0.25 + 0.05*rng.standard_normal(self.num_questions),  # c (guessing)
+            0.8 + 0.05*rng.standard_normal(self.num_questions), # gamma (feasibility)
+            0.0 + 0.1*rng.standard_normal(self.num_llms + self.num_retrievers)  # theta (ability)
         ])
         
         # Parameter bounds
         bounds = (
             [(0.5, 1.5) for _ in range(self.num_questions)] +  # a bounds
             [(0.01, 1.0) for _ in range(self.num_questions)] +  # b bounds
-            [(0.25, 1.0) for _ in range(self.num_questions)] +  # gamma bounds
+            [(0.0, 0.5) for _ in range(self.num_questions)] +  # c bounds
+            [(0.5, 1.0) for _ in range(self.num_questions)] +  # gamma bounds
             [(-3.0, 3.0) for _ in range(self.num_llms + self.num_retrievers)]  # theta bounds
         )
         
@@ -363,9 +374,10 @@ class MultihopIRTModel:
         params = {
             'discrimination': result.x[:self.num_questions],
             'difficulty': result.x[self.num_questions:2*self.num_questions],
-            'feasibility': result.x[2*self.num_questions:3*self.num_questions],
-            'theta_params': result.x[3*self.num_questions:],
-            'theta': self.compute_theta(result.x[3*self.num_questions:])
+            'guessing': result.x[2*self.num_questions:3*self.num_questions],
+            'feasibility': result.x[3*self.num_questions:4*self.num_questions],
+            'theta_params': result.x[5*self.num_questions:],
+            'theta': self.compute_theta(result.x[5*self.num_questions:])
             }
         
         return params
@@ -373,13 +385,26 @@ class MultihopIRTModel:
     def compute_information(self, params: Dict[str, np.array], theta: np.array) -> np.array:
         """Compute Fisher information for questions across ability levels"""
         information = np.zeros((self.num_questions, len(theta)))
-        c = 0.25
-        
         for i in range(self.num_questions):
-            # p = self.irt_3pl(theta=theta, a=params['discrimination'][i], b=params['difficulty'][i])
-            p = self.irt_3pl_with_feasibility(theta=theta, a=params['discrimination'][i], b=params['difficulty'][i])
-            information[i] = (params['discrimination'][i]**2 * (p - c)**2 * (1 - p)) / ((1 - c)**2 * p)
+            a = params['discrimination'][i]
+            b = params['difficulty'][i]
+            c = params['guessing'][i]
+            gamma = params['feasibility'][i]
             
+            # Compute probability
+            p = self.irt_3pl_with_feasibility(
+                theta=theta, 
+                a=a, 
+                b=b, 
+                c=c, 
+                gamma=gamma
+            )
+        
+            information[i] = (
+            (a**2 * (p - c)**2 * (1 - p)) / 
+            ((gamma - c)**2 * p)
+        )
+        
         return information
     
     def save_analysis(self, params: Dict[str, np.array], output_path: str):
@@ -396,6 +421,7 @@ class MultihopIRTModel:
             hop_stats[str(hop_count)] = {
                 "avg_difficulty": float(np.mean(params['difficulty'][indices])),
                 "avg_discrimination": float(np.mean(params['discrimination'][indices])),
+                "avg_guessing": float(np.mean(params['guessing'][indices])),
                 "avg_feasibility": float(np.mean(params['feasibility'][indices])),
                 "num_questions": len(indices)
             }
@@ -426,6 +452,8 @@ class MultihopIRTModel:
         overall_stats = {
             "avg_difficulty": float(np.mean(params['difficulty'])),
             "avg_discrimination": float(np.mean(params['discrimination'])),
+            "avg_guessing": float(np.mean(params['guessing'][indices])),
+            "avg_feasibility": float(np.mean(params['feasibility'][indices])),
             "total_questions": self.num_questions
         }
         
@@ -452,7 +480,13 @@ class MultihopIRTModel:
         # Item characteristic curves
         for i in range(self.num_questions):
             # p = self.irt_3pl(theta=theta_range, a=params['discrimination'][i], b=params['difficulty'][i])
-            p = self.irt_3pl_with_feasibility(theta=theta_range, a=params['discrimination'][i], b=params['difficulty'][i])
+            p = self.irt_3pl_with_feasibility(
+                theta=theta_range,
+                a=params['discrimination'][i],
+                b=params['difficulty'][i],
+                c=params['guessing'][i],
+                gamma=params['feasibility'][i],
+                )
             ax1.plot(theta_range, p, alpha=0.3, color='gray')
         
         # Use new plot_model_abilities for enhanced visualization
