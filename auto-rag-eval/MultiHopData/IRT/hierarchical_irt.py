@@ -245,7 +245,7 @@ class MultihopIRTModel:
         c = 0.25  # Fixed for 4-choice questions
         return c + ((1 - c) / (1 + np.exp(-a * (theta - b))))
     
-    def irt_3pl_with_feasibility(theta: np.array, a: float, b: float, c: float, gamma: float) -> float:
+    def irt_3pl_with_feasibility(self, theta: np.array, a: float, b: float, c: float, gamma: float) -> float:
         """
         Extended 3PL IRT model with feasibility parameter
         
@@ -292,14 +292,20 @@ class MultihopIRTModel:
         n_q = self.num_questions
         a = params[:n_q]  # discrimination
         b = params[n_q:2*n_q]  # difficulty
-        gamma = params[2*n_q:3*n_q]  # feasibility
-        theta = self.compute_theta(params[3*n_q:])
+        c = params[2*n_q:3*n_q]  # guessing
+        gamma = params[3*n_q:4*n_q]  # feasibility
+        theta = self.compute_theta(params[4*n_q:])
         
         # Compute likelihood with feasibility
         likelihood = 0
         for i in range(self.num_questions):
-            p = self.irt_3pl_with_feasibility(theta=theta, a=a[i], b=b[i], 
-                                            c=0.25, gamma=gamma[i])
+            p = self.irt_3pl_with_feasibility(
+                theta=theta,
+                a=a[i],
+                b=b[i],
+                c=c[i],
+                gamma=gamma[i]
+            )
             likelihood += np.sum(
                 self.response_matrix[:,i] * np.log(p) + 
                 (1 - self.response_matrix[:,i]) * np.log(1 - p)
@@ -345,17 +351,21 @@ class MultihopIRTModel:
         """Fit the IRT model using L-BFGS-B optimization"""
         # Initial parameter guesses
         rng = np.random.default_rng(42)
+            
+        n_params = 4 * self.num_questions  # For a, b, c, and gamma
+        n_params += self.num_llms + self.num_retrievers  # For theta components
+        
         initial_params = np.concatenate([
-            1.0 + 0.1*rng.standard_normal(self.num_questions),  # a (discrimination)
-            0.0 + 0.1*rng.standard_normal(self.num_questions),  # b (difficulty)
-            0.25 + 0.05*rng.standard_normal(self.num_questions),  # c (guessing)
-            0.8 + 0.05*rng.standard_normal(self.num_questions), # gamma (feasibility)
-            0.0 + 0.1*rng.standard_normal(self.num_llms + self.num_retrievers)  # theta (ability)
+            np.ones(self.num_questions),      # a (discrimination)
+            np.zeros(self.num_questions),     # b (difficulty)
+            0.25 * np.ones(self.num_questions),  # c (guessing)
+            0.8 * np.ones(self.num_questions),   # gamma (feasibility)
+            np.zeros(self.num_llms + self.num_retrievers)  # theta components
         ])
         
         # Parameter bounds
         bounds = (
-            [(0.5, 1.5) for _ in range(self.num_questions)] +  # a bounds
+            [(0.2, 2.0) for _ in range(self.num_questions)] +  # a bounds
             [(0.01, 1.0) for _ in range(self.num_questions)] +  # b bounds
             [(0.0, 0.5) for _ in range(self.num_questions)] +  # c bounds
             [(0.5, 1.0) for _ in range(self.num_questions)] +  # gamma bounds
@@ -364,7 +374,7 @@ class MultihopIRTModel:
         
         # Optimize
         result = minimize(
-            self.neg_log_likelihood,
+            self.neg_log_likelihood_with_feasibility,
             initial_params,
             method='L-BFGS-B',
             bounds=bounds
@@ -376,8 +386,8 @@ class MultihopIRTModel:
             'difficulty': result.x[self.num_questions:2*self.num_questions],
             'guessing': result.x[2*self.num_questions:3*self.num_questions],
             'feasibility': result.x[3*self.num_questions:4*self.num_questions],
-            'theta_params': result.x[5*self.num_questions:],
-            'theta': self.compute_theta(result.x[5*self.num_questions:])
+            'theta_params': result.x[4*self.num_questions:],
+            'theta': self.compute_theta(result.x[4*self.num_questions:])
             }
         
         return params
@@ -644,10 +654,10 @@ if __name__ == "__main__":
             # Define filepaths structure
             filepaths = {
                 'llama3-8b': {
-                    'closed_book': {
-                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_closed_{exam_generator}_single_hop_exam_processed.json.json',
-                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_closed_exam_new_{exam_generator}_processed_v3.json.json'
-                    },
+                    # 'closed_book': {
+                    #     'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_closed_{exam_generator}_single_hop_exam_processed.json.json',
+                    #     'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_closed_exam_new_{exam_generator}_processed_v3.json.json'
+                    # },
                     'DenseV3': {
                         'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Dense_{exam_generator}_single_hop_exam_processed.json_5_results.json',
                         'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/llama_3_1_8b_Dense_exam_new_{exam_generator}_processed_v3.json_5_results.json'
@@ -706,10 +716,10 @@ if __name__ == "__main__":
                     },
                 },
                 'mistral-8b': {
-                    'closed_book': {
-                        'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral_8b_closed_{exam_generator}_single_hop_exam_processed.json.json',
-                        'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral_8b_closed_exam_new_{exam_generator}_processed_v3.json.json'
-                    },
+                    # 'closed_book': {
+                    #     'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral_8b_closed_{exam_generator}_single_hop_exam_processed.json.json',
+                    #     'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral_8b_closed_exam_new_{exam_generator}_processed_v3.json.json'
+                    # },
                     'DenseV3': {
                         'single': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral_8b_Dense_{exam_generator}_single_hop_exam_processed.json_5_results.json',
                         'multi': f'auto-rag-eval/MultiHopData/{task_domain}/exam_results/ministral_8b_Dense_exam_new_{exam_generator}_processed_v3.json_5_results.json'
