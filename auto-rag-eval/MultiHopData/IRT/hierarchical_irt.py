@@ -349,9 +349,6 @@ class MultihopIRTModel:
     
     def fit_with_feasibility(self) -> Dict[str, np.array]:
         """Fit the IRT model using L-BFGS-B optimization"""
-        # Initial parameter guesses
-        rng = np.random.default_rng(42)
-            
         n_params = 4 * self.num_questions  # For a, b, c, and gamma
         n_params += self.num_llms + self.num_retrievers  # For theta components
         

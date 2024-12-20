@@ -67,10 +67,10 @@ class ChunkAnalyser:
         
         try:
             # Extract the JSON string and ensure it ends with }
-            json_str = response.strip() + "}"
-            extract_index = json_str.find("}\n")
-            json_str = json_str[:extract_index + 1]
-            return json.loads(json_str)
+            # json_str = response.strip() + "}"
+            # extract_index = json_str.find("}\n")
+            # json_str = json_str[:extract_index + 1]
+            return json.loads(response)
         except:
             # Fallback to default values if parsing fails
             return {
@@ -157,8 +157,7 @@ class ExamQuestionClassifier:
             exam_data: List of dictionaries containing exam questions and metadata
             filepath: Path where the JSON file should be saved
         """
-        output_path = Path(filepath)
-        with output_path.open('w', encoding='utf-8') as f:
+        with open(filepath, 'w', encoding='utf-8') as f:
             json.dump(exam_data, f, indent=2, ensure_ascii=False)
 
 
