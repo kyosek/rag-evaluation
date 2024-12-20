@@ -207,21 +207,21 @@ if __name__ == "__main__":
     exams = [
         # "llama_3_2_3b",
         "ministral_8b",
-        # "gemma2-9b",
+        # "gemma2_9b",
         ]
     
     for task in task_domains:
         for exam in exams:
-            gemma_path = f"auto-rag-eval/MultiHopData/{task}/exam_verification/gemma2-9b/exam_new_{exam}_processed_v2.json"
-            llama_path = f"auto-rag-eval/MultiHopData/{task}/exam_verification/llama_3_2_3b/exam_new_{exam}_processed_v2.json"
-            # llama_path = f"auto-rag-eval/MultiHopData/{task}/exams/exam_new_{exam}_processed_v2.json"
-            # ministral_path = f"auto-rag-eval/MultiHopData/{task}/exam_verification/ministral_8b/exam_new_{exam}_processed_v2.json"
-            ministral_path = f"auto-rag-eval/MultiHopData/{task}/exams/exam_new_{exam}_processed_v2.json"
-            output_path = f"auto-rag-eval/MultiHopData/{task}/exam_verification/new_exam_{exam}_verified.json"
+            # gemma_path = f"auto-rag-eval/MultiHopData/{task}/exam_verification/gemma2-9b/exam_new_{exam}_processed_v2.json"
+            # llama_path = f"auto-rag-eval/MultiHopData/{task}/exam_verification/llama_3_2_3b/exam_new_{exam}_processed_v2.json"
+            # # llama_path = f"auto-rag-eval/MultiHopData/{task}/exams/exam_new_{exam}_processed_v2.json"
+            # # ministral_path = f"auto-rag-eval/MultiHopData/{task}/exam_verification/ministral_8b/exam_new_{exam}_processed_v2.json"
+            # ministral_path = f"auto-rag-eval/MultiHopData/{task}/exams/exam_new_{exam}_processed_v2.json"
+            # output_path = f"auto-rag-eval/MultiHopData/{task}/exam_verification/new_exam_{exam}_verified.json"
             # v1 v2 diff
-            # gemma_path = f"auto-rag-eval/MultiHopData/{task}/exam_verification/gemma2-9b/exam_new_{exam}_v1_v2.json"
-            # llama_path = f"auto-rag-eval/MultiHopData/{task}/exam_verification/llama_3_2_3b/exam_new_{exam}_v1_v2.json"
-            # ministral_path = f"auto-rag-eval/MultiHopData/{task}/exam_verification/ministral_8b/exam_new_{exam}_v1_v2.json"
-            # output_path = f"auto-rag-eval/MultiHopData/{task}/exam_verification/new_exam_{exam}_v1_v2_verified.json"
+            gemma_path = f"auto-rag-eval/MultiHopData/{task}/exam_verification/gemma2-9b/exam_new_{exam}_v1_v2.json"
+            llama_path = f"auto-rag-eval/MultiHopData/{task}/exam_verification/llama_3_2_3b/exam_new_{exam}_v1_v2.json"
+            ministral_path = f"auto-rag-eval/MultiHopData/{task}/exam_verification/ministral_8b/exam_new_{exam}_v1_v2.json"
+            output_path = f"auto-rag-eval/MultiHopData/{task}/exam_verification/new_exam_{exam}_v1_v2_diff_verified.json"
     
-        main(gemma_path, llama_path, ministral_path, output_path)
+            main(gemma_path, llama_path, ministral_path, output_path)
