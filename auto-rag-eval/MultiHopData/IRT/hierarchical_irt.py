@@ -433,6 +433,15 @@ class MultihopIRTModel:
                 "num_questions": len(indices)
             }
         
+        multi_hop_indices = [i for i, hops in enumerate(self.exam_results[0].num_hops) if hops > 1]
+        hop_stats["multihop"] = {
+                "avg_difficulty": float(np.mean(params['difficulty'][multi_hop_indices])),
+                "avg_discrimination": float(np.mean(params['discrimination'][multi_hop_indices])),
+                "avg_guessing": float(np.mean(params['guessing'][multi_hop_indices])),
+                "avg_feasibility": float(np.mean(params['feasibility'][multi_hop_indices])),
+                "num_questions": len(multi_hop_indices)
+            }
+        
         # Prepare model ability results
         model_abilities = {}
         for result in self.exam_results:
@@ -471,11 +480,12 @@ class MultihopIRTModel:
             "component_abilities": component_abilities,
         }
         
-        # Create directory if it doesn't exist
-        Path(output_path).parent.mkdir(parents=True, exist_ok=True)
-        
         with open(output_path, 'w') as f:
             json.dump(analysis_results, f, indent=2)
+        
+        output_path = str(output_path).replace(".json", "_result.json")
+        with open(output_path, 'w') as f:
+            json.dump(params, f, indent=2)
     
     def plot_results(self, params: Dict[str, np.array], save_path: Optional[str] = None, title_prefix: str = ""):
         """Enhanced plot_results with new visualization functions"""
@@ -532,8 +542,7 @@ class MultihopIRTModel:
                 label += f" ({result.retriever_name})"
             
             key = f"{result.llm_name}_{result.retriever_name}"
-            ax.scatter(theta, 0, marker='x', color=model_colors[key], 
-                      s=100, label=label)
+            ax.scatter(theta, 0, marker='x', color=model_colors[key], s=100, label=label)
         
         ax.legend(bbox_to_anchor=(1.05, 1), loc='upper left', borderaxespad=0)
 
@@ -584,12 +593,10 @@ class MultihopIRTModel:
         colors = plt.cm.viridis(np.linspace(0, 1, len(unique_hops)))
         
         for hop_num, color in zip(unique_hops, colors):
-            hop_indices = [i for i, h in enumerate(self.exam_results[0].num_hops) 
-                         if h == hop_num]
+            hop_indices = [i for i, h in enumerate(self.exam_results[0].num_hops) if h == hop_num]
             if hop_indices:
                 mean_info = info[hop_indices].mean(axis=0)
-                ax.plot(theta_range, mean_info, label=f'{hop_num} hops',
-                       color=color, linewidth=2)
+                ax.plot(theta_range, mean_info, label=f'{hop_num} hops', color=color, linewidth=2)
         
         ax.set_title('Average Information by Hop Count')
         ax.set_xlabel('Model Ability')
