@@ -2,7 +2,7 @@ from collections import defaultdict
 import numpy as np
 from scipy.optimize import minimize
 from dataclasses import dataclass
-from typing import List, Dict, Optional, Union, Tuple
+from typing import List, Dict, Optional, Union, Any
 import json
 from scipy.stats import norm
 import matplotlib.pyplot as plt
@@ -181,6 +181,71 @@ class ExamResult:
             raise ValueError("No valid exam results could be loaded")
         
         return results
+
+
+class IRTDataHandler:
+    """Handler for saving and loading IRT analysis results."""
+    
+    @staticmethod
+    def _numpy_to_list(obj: Any) -> Any:
+        """Convert numpy arrays to lists for JSON serialization."""
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        elif isinstance(obj, dict):
+            return {key: IRTDataHandler._numpy_to_list(value) for key, value in obj.items()}
+        elif isinstance(obj, list):
+            return [IRTDataHandler._numpy_to_list(item) for item in list(obj)]
+        return obj
+
+    @staticmethod
+    def _list_to_numpy(obj: Any) -> Any:
+        """Convert lists back to numpy arrays during loading."""
+        if isinstance(obj, list):
+            return np.array(obj)
+        elif isinstance(obj, dict):
+            return {key: IRTDataHandler._list_to_numpy(value) for key, value in obj.items()}
+        return obj
+
+    @classmethod
+    def save_analysis(cls, data: Dict[str, Any], filepath: Union[str, Path], indent: int = 2) -> None:
+        """
+        Save IRT analysis results to a JSON file.
+        
+        Args:
+            data: Dictionary containing IRT analysis results
+            filepath: Path to save the JSON file
+            indent: Number of spaces for JSON indentation
+        """
+        filepath = Path(filepath)
+        if not filepath.parent.exists():
+            filepath.parent.mkdir(parents=True)
+            
+        # Convert numpy arrays to lists for JSON serialization
+        json_data = cls._numpy_to_list(data)
+        
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(json_data, f, indent=indent)
+            
+    @classmethod
+    def load_analysis(cls, filepath: Union[str, Path]) -> Dict[str, Any]:
+        """
+        Load IRT analysis results from a JSON file.
+        
+        Args:
+            filepath: Path to the JSON file
+            
+        Returns:
+            Dictionary containing the IRT analysis results with numpy arrays
+        """
+        filepath = Path(filepath)
+        if not filepath.exists():
+            raise FileNotFoundError(f"No file found at {filepath}")
+            
+        with open(filepath, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            
+        # Convert lists back to numpy arrays
+        return cls._list_to_numpy(data)
     
 class MultihopIRTModel:
     """Hierarchical IRT model for multihop question evaluation"""
@@ -356,7 +421,7 @@ class MultihopIRTModel:
             np.ones(self.num_questions),      # a (discrimination)
             np.zeros(self.num_questions),     # b (difficulty)
             0.25 * np.ones(self.num_questions),  # c (guessing)
-            0.8 * np.ones(self.num_questions),   # gamma (feasibility)
+            0.9 * np.ones(self.num_questions),   # gamma (feasibility)
             np.zeros(self.num_llms + self.num_retrievers)  # theta components
         ])
         
@@ -484,8 +549,7 @@ class MultihopIRTModel:
             json.dump(analysis_results, f, indent=2)
         
         output_path = str(output_path).replace(".json", "_result.json")
-        with open(output_path, 'w') as f:
-            json.dump(params, f, indent=2)
+        IRTDataHandler.save_analysis(params, output_path)
     
     def plot_results(self, params: Dict[str, np.array], save_path: Optional[str] = None, title_prefix: str = ""):
         """Enhanced plot_results with new visualization functions"""
