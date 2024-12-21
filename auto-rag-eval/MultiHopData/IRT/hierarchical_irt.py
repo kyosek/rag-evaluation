@@ -592,9 +592,68 @@ class MultihopIRTModel:
                        color=color, linewidth=2)
         
         ax.set_title('Average Information by Hop Count')
-        ax.set_xlabel('Model Ability (θ)')
+        ax.set_xlabel('Model Ability')
         ax.set_ylabel('Average Information')
         ax.legend(title='Number of Hops')
+    
+    def plot_parameter_distributions(self, params: Dict, output_dir: Optional[str] = None):
+        """Create histograms for model parameters"""
+        fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(15, 12))
+        
+        # Difficulty parameter
+        sns.histplot(params['difficulty'], ax=ax1, bins=30, kde=True)
+        ax1.set_title('Distribution of Difficulty Parameters')
+        ax1.set_xlabel('Difficulty (b)')
+        
+        # Discrimination parameter
+        sns.histplot(params['discrimination'], ax=ax2, bins=30, kde=True)
+        ax2.set_title('Distribution of Discrimination Parameters')
+        ax2.set_xlabel('Discrimination (a)')
+        
+        # Feasibility parameter
+        sns.histplot(params['feasibility'], ax=ax3, bins=30, kde=True)
+        ax3.set_title('Distribution of Feasibility Parameters')
+        ax3.set_xlabel('Feasibility (γ)')
+        
+        # Model abilities
+        abilities = params['theta']
+        sns.histplot(abilities, ax=ax4, bins=30, kde=True)
+        ax4.set_title('Distribution of Model Abilities')
+        ax4.set_xlabel('Ability (θ)')
+        
+        plt.tight_layout()
+        if output_dir:
+            plt.savefig(f"{output_dir}/parameter_distributions.png", dpi=300, bbox_inches='tight')
+        plt.show()
+
+    def create_difficulty_discrimination_plot(params: Dict, output_dir: Optional[str] = None):
+        """Create scatter plot of difficulty vs discrimination with feasibility colormap"""
+        plt.figure(figsize=(12, 8))
+        
+        scatter = plt.scatter(params['difficulty'], 
+                            params['discrimination'],
+                            c=params['feasibility'],
+                            cmap='viridis',
+                            alpha=0.6)
+        
+        plt.colorbar(scatter, label='Feasibility')
+        plt.xlabel('Difficulty')
+        plt.ylabel('Discrimination')
+        plt.title('Item Parameter Space: Difficulty vs Discrimination')
+        
+        # Add marginal distributions
+        ax_top = plt.axes([0.15, 0.85, 0.65, 0.1])
+        ax_right = plt.axes([0.82, 0.15, 0.1, 0.65])
+        
+        sns.histplot(params['difficulty'], ax=ax_top, bins=30)
+        ax_top.set_xticklabels([])
+        
+        sns.histplot(params['discrimination'], ax=ax_right, bins=30, orientation='horizontal')
+        ax_right.set_yticklabels([])
+        
+        if output_dir:
+            plt.savefig(f"{output_dir}/difficulty_discrimination_plot.png", dpi=300, bbox_inches='tight')
+        plt.show()
 
 
 def run_analysis(filepaths: Dict[str, Dict[str, Union[str, Dict[str, str]]]], 
