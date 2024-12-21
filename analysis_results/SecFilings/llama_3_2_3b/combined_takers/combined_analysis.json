@@ -1,45 +1,113 @@
 {
   "overall_stats": {
-    "avg_difficulty": 0.2603887692636582,
-    "avg_discrimination": 0.715396833040991,
-    "total_questions": 1330
+    "avg_difficulty": 0.297811751820025,
+    "avg_discrimination": 0.9717824760760934,
+    "avg_guessing": 0.22845159188125794,
+    "avg_feasibility": 0.7109844323566656,
+    "total_questions": 295
   },
   "hop_analysis": {
     "1": {
-      "avg_difficulty": 0.2574092157908179,
-      "avg_discrimination": 0.9016254342320891,
-      "num_questions": 300
+      "avg_difficulty": 0.2968964826893918,
+      "avg_discrimination": 0.9681199786287884,
+      "avg_guessing": 0.26855295245260324,
+      "avg_feasibility": 0.7377583130493923,
+      "num_questions": 150
     },
     "2": {
-      "avg_difficulty": 0.22686554512177193,
-      "avg_discrimination": 0.8022363016278528,
-      "num_questions": 252
+      "avg_difficulty": 0.2169238109084457,
+      "avg_discrimination": 0.9930329256517014,
+      "avg_guessing": 0.33233844754735825,
+      "avg_feasibility": 0.783374466501522,
+      "num_questions": 46
     },
     "3": {
-      "avg_difficulty": 0.25909980436685476,
-      "avg_discrimination": 0.7062312901942082,
-      "num_questions": 284
+      "avg_difficulty": 0.30272605165312066,
+      "avg_discrimination": 0.9685235898093646,
+      "avg_guessing": 0.269083547849168,
+      "avg_feasibility": 0.7334675416773656,
+      "num_questions": 35
     },
     "4": {
-      "avg_difficulty": 0.2952781675999188,
-      "avg_discrimination": 0.6104398947812815,
-      "num_questions": 256
+      "avg_difficulty": 0.3476407819613788,
+      "avg_discrimination": 0.9684592314225023,
+      "avg_guessing": 0.25532625216286525,
+      "avg_feasibility": 0.7153379951062744,
+      "num_questions": 34
     },
     "5": {
-      "avg_difficulty": 0.2636496876763343,
-      "avg_discrimination": 0.5125391184265102,
-      "num_questions": 238
+      "avg_difficulty": 0.36421002290546683,
+      "avg_discrimination": 0.9650793185486076,
+      "avg_guessing": 0.22845159188125794,
+      "avg_feasibility": 0.7109844323566656,
+      "num_questions": 30
     }
   },
   "model_abilities": {
-    "combined_llama3-8b_mistral-8b_open_book": -0.12042335187517389
+    "llama3-8b_DenseV3": 1.3839064945359087,
+    "llama3-8b_DenseV4": 1.4355752666587138,
+    "llama3-8b_SparseV3": 1.3457571596255988,
+    "llama3-8b_HybridV3": 1.3198299595595397,
+    "llama3-8b_RerankV3": 1.357982532403655,
+    "llama3-8b_DenseV5-5": 1.259727077140511,
+    "llama3-8b_SparseV5-5": 1.2474861055511337,
+    "llama3-8b_HybridV5-5": 1.2763744050738621,
+    "llama3-8b_RerankV5-5": 1.1492032649074024,
+    "llama3-8b_DenseV5-10": 1.2863336697742658,
+    "llama3-8b_SparseV5-10": 1.1833389812383635,
+    "llama3-8b_HybridV5-10": 1.3604987692606307,
+    "llama3-8b_RerankV5-10": 1.417791471250846,
+    "llama3-8b_open_book": 1.3177189882894982,
+    "mistral-8b_DenseV3": 0.8085720131176556,
+    "mistral-8b_DenseV4": 0.8602407852404607,
+    "mistral-8b_SparseV3": 0.7704226782073457,
+    "mistral-8b_HybridV3": 0.7444954781412866,
+    "mistral-8b_RerankV3": 0.7826480509854018,
+    "mistral-8b_DenseV5-5": 0.6843925957222577,
+    "mistral-8b_SparseV5-5": 0.6721516241328805,
+    "mistral-8b_HybridV5-5": 0.701039923655609,
+    "mistral-8b_RerankV5-5": 0.5738687834891493,
+    "mistral-8b_DenseV5-10": 0.7109991883560126,
+    "mistral-8b_SparseV5-10": 0.6080044998201103,
+    "mistral-8b_HybridV5-10": 0.7851642878423776,
+    "mistral-8b_RerankV5-10": 0.8424569898325928,
+    "mistral-8b_open_book": 0.742384506871245,
+    "gemma2_9b": -0.008913455030556683,
+    "gemma2_9b_DenseV3": 1.31094302511701,
+    "gemma2_9b_SparseV3": 1.2727936902067,
+    "gemma2_9b_HybridV3": 1.246866490140641,
+    "gemma2_9b_RerankV3": 1.2850190629847562,
+    "gemma2_9b_DenseV5-5": 1.1867636077216122,
+    "gemma2_9b_SparseV5-5": 1.174522636132235,
+    "gemma2_9b_HybridV5-5": 1.2034109356549634,
+    "gemma2_9b_RerankV5-5": 1.0762397954885037,
+    "gemma2_9b_DenseV5-10": 1.213370200355367,
+    "gemma2_9b_SparseV5-10": 1.1103755118194647,
+    "gemma2_9b_HybridV5-10": 1.287535299841732,
+    "gemma2_9b_RerankV5-10": 1.3448280018319472,
+    "gemma2_9b_open_book": 1.2447555188705994
   },
   "component_abilities": {
     "llms": {
-      "combined_llama3-8b_mistral-8b": -0.060211675937586945
+      "mistral-8b": -0.5112844670299111,
+      "gemma2_9b": -0.008913455030556683,
+      "llama3-8b": 0.06405001438834207
     },
     "retrievers": {
-      "open_book": -0.060211675937586945
+      "SparseV5-10": 1.1192889668500214,
+      "DenseV3": 1.3198564801475667,
+      "HybridV3": 1.2557799451711977,
+      "SparseV3": 1.2817071452372568,
+      "DenseV5-5": 1.195677062752169,
+      "SparseV5-5": 1.1834360911627917,
+      "RerankV5-5": 1.0851532505190604,
+      "HybridV5-10": 1.2964487548722887,
+      "RerankV5-10": 1.353741456862504,
+      "RerankV3": 1.293932518015313,
+      "DenseV4": 1.3715252522703718,
+      "DenseV5-10": 1.2222836553859238,
+      "open_book": 1.2536689739011562,
+      "HybridV5-5": 1.2123243906855201
     }
   }
 }

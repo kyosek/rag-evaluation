@@ -1,0 +1,1052 @@
+[
+  {
+    "question": "Which of the following statements is true about the leases of TCI and Apollo in the Windy Point I building?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, which of the following statements is true about the Company's real estate portfolio at December 31, 1994?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the company's midstream assets?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely scenario for the Company's financial situation regarding the Garden Gateway Plaza and its mortgage debt?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what was the total number of gross wells drilled on nonoperated interests in 2002, 2001, and 2000?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the provided information, what was the total amount of the Company's assets that were sold or foreclosed upon by the time the settlement with the Receiver was reached?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what was the primary reason for the decrease in the provision for income taxes as a percentage of net revenue during the year ended December 31, 2011, compared to the six months ended December 31, 2010 and six months ended June 30, 2010?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following wells is the most productive in terms of gas production, considering the total interest and the status of the wells?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Yellow Pine gold project based on the provided information?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the geology and access to the S\u00e3o Domingos property?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In which year did production from the La Quinua deposit commence at Minera Yanacocha?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "**\n\nIn the context of the geology of the Mashonga Mine area, which of the following statements is the most accurate description of the mineralization and its relationship to the geologic formations?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the current status of the Kunanga 1 Prospect?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the economic impact of changes in metals prices on mining operations?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "**\n\nThe unitholders of the Partnership are expected to vote on amendments to the partnership agreement, which include proposed compensation for the successor general partner and related matters. If approved, SAMLP will resign as General Partner, and the successor will take office during the third or fourth quarter of 1995. The Implementation Agreement specifies that SAMLP and its affiliates cannot vote to remove the successor general partner except for removal with cause for a period of thirty months. The Supervising Judge will determine any amounts owed by the Partnership to SAMLP upon SAMLP's withdrawal. The Moorman settlement plan and the NRLP oversight committee will be terminated upon the successor's election. If the successor nominee is not elected, the existing Moorman Settlement Agreement will remain in effect, and the Implementation Agreement will be voided. The Partnership's purchase of the Redeemable General Partner Interest could negatively impact its financial condition and the Company's investment in the Partnership. CMET, a California business trust organized in 1980, commenced operations on December 3, 1980.",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In which state did the Company sell the surface rights to its undeveloped acreage in 2014, while retaining the oil and gas rights?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate regarding the Company's decommissioning funding program and the probability of \"Deemed Loss Events\"?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, how many properties had partial recapture rights converted to 100% recapture rights as of December 31, 2018?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the terms of the TRS leases?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary source of power for NorthWestern Public Service's facilities in North Dakota and Iowa?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the current status of the Contact mining district in Elko County, Nevada?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the agreements and leases mentioned in the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, which of the following statements is true about the Cerro Blanco property?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Ahafo mine's royalty payments and production?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely scenario for the development of the Lion Rock/San Miguel field and the Sword Unit?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary manner by which the company becomes aware of activity on the Royalty Properties?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the current status of the Talco/Trix-Liz Field?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, which of the following statements is true about the Company's royalty obligations on mineral production from the DWC Property?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely interest rate for the Corporation's debt of the same remaining maturities?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, which of the following statements is true about NS' operations in 2004?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the drilling activities at the Buenavista mine in 2011 and 2012?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the total notional amount of the interest rate swap agreements associated with the loans?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "**\n\nIn the context of geology, which of the following statements is true about the formation and properties of heavy mineral sands and iron?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the total amount of exploration costs incurred by G&M and the Company from their inception through September 30, 2013?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Permian Abo area based on the provided information?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the primary method of mineralization in the Chambara Formation?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the total duration of the lease for the Smith property, including all possible extensions?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In which year did TCI complete the purchase of the Foxwood Apartments and remove the note receivable from ARI?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the compensation committee's ability to administer the incentive plan?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate regarding the Company's hedging activities and potential conflicts of interest?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "**\n\nIn the context of the provided information, which of the following statements is the most accurate description of the company's approach to managing the allowance for possible loan losses?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the weighted average rental rate per square foot for the Company's Office Properties in the submarket, taking into account all relevant factors?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "**\n\nIn the context of the GSWL's mining operations, which of the following statements is true regarding the timeline and operations at the Benso and Hwini-Butre mines?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "**\n\nIn the context of the Company's operations in New Mexico, which of the following statements is most accurate regarding the process of obtaining water rights?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Company's transmission lines and their maintenance?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the financial and leasing arrangements of the Alstom Power Inc. at the Ohmeda Building?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "If USPB's owners and associates were to face a situation where NBP could not purchase and process the cattle supplied by them, what would be the most likely outcome for the value of the Class A and Class B linked units and the associated delivery rights held by USPB's owners?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely impact of a successful arbitration on the company's 2018 distribution?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the total cost of the Corona Property, including all associated fees and expenses, and how does this compare to the estimated property taxes?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about ExxonMobil's operations in 2007?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate regarding the cleanup plan and environmental compliance for FirstEnergy?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate description of Pavilion Energy Resources Inc.'s (PVRE) business strategy?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the percentage of the total data center space that is currently leased or readily available to be leased to customers as of December 31, 2015?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely reason for Great South Land Minerals Limited's confidence in its case to the Minister regarding the Special Exploration License 13/98?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "**\n\nIn the context of the company's operations, which of the following statements is most likely to be true based on the provided information?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate description of the geologic history and exploration activities related to the Arctic Deposit and the Schist belt?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the exploration activities at Bogoso/Prestea in 2009?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of hedging transactions involving California heavy crude oil production, which of the following statements is true about the Company's hedging strategy?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate representation of the risks associated with investing in PetroCorp?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate assessment of the data verification process at Johnson Camp Mine?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the organizational structure of the mini-warehouse property operator, Public Storage?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely cause of the silicified sediments in the Grassy Mountain Formation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate summary of the drilling results at the Colonia, Patoa, and Tucanare prospects?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which mining method was used to transport ore from the ore pockets on the various levels of the mine below the Kellogg Tunnel to the shaft?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the estimated duration for the construction of the service and conveyor adits?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the Company's ownership and leasing arrangements for its properties?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is most accurate regarding the Company's sales and financial performance?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the company's compensation expenses and productive wells?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Fresno Building?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most accurate statement regarding the Trust's future net revenue and its relationship to the estimated oil and gas reserves?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In which year did the Company cease active mining operations at the Martha Mine, and what was the total length of drilling completed at the Joaquin property in 2012?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the most likely reason for the arid climate in the area surrounding the Hycroft Brimstone Open Pit Mine?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the conditions that could cause temporary shutdowns at the operating ISR mine at the Burke Hollow Project?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the Company's natural gas sales and the revenue it receives from them?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the company's ownership and occupancy of the CBL Center office buildings?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, how many shares of Common Stock will be issued to Mr. Ward in the first quarter of 2013, given the new base salary increase and the hedging policy?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In 2007, PVR paid a total of $5.5 million in royalties and compensations to third-party surface and mineral owners. Given that PVR's coal reserves are classified into low sulfur, medium sulfur, and high sulfur categories, and that 26% of PVR's reserves met compliance standards for the CAA, what was the approximate percentage of PVR's total coal reserves that were low sulfur?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which scenario is the most likely to incur the highest costs but generate revenues more quickly?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely occupancy rate for Chandler Villas at the end of 2007, considering the occupancy trends and the number of units available?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "**\n\nIn the context of the provided information, which of the following statements is the most accurate regarding the net operating income (NOI) of the company's segments?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the financial agreements between Western Massachusetts Electric Company (WMECO) and North Atlantic Energy Corporation (NAEC)?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the primary regulatory framework affecting BNSF Railway's environmental liabilities?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the facilities owned by Seacoast National?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the leasing arrangements at the CoolSprings Galleria and the St. Clair Square?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about Montaup's involvement in the decommissioning of Millstone 3 and Seabrook I?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the gold reserves at the various sites?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the most likely reason for the increase in production and extension of field life in the Fontenelle Field?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate assessment of the Johnson Camp Property's data integrity and reliability?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the uranium mining operations at Sheep Mountain and the Burro Canyon project?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following properties had the highest occupancy rate as of March 31, 2000, and what was the total cost of the property?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the relationship between Ingram and Wells OP regarding the Ingram Micro Building and the Nissan Property?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about Montaup's decommissioning costs and responsibilities?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely timeline for the completion of the first residential tower on the land site in Mountain View, California?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the company's plans for the Round Top Project?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate regarding the impact of commodity prices on the Trust's proved oil and natural gas reserves?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the company's reserves and production?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the total minimum work commitment required for the Lookout Mountain project?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the distribution of oil and gas revenues?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the agreements and amendments related to the joint ownership, construction, and operation of New Hampshire nuclear generating units?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the La Caridad complex's production capabilities and the IMMSA Unit's operations?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements best describes the relationship between the lacustrine sediments and the volcanic units at the Anderson Project?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "**\n\nIn the context of state utility commissions and their role in adjusting rates, consider the following:\n\n1. The cost of service for a utility includes operating expenses, depreciation, and taxes.\n2. State utility commissions periodically review and adjust rates based on a utility's revenues and expenses during a defined test period and its level of investment.\n3. In some states, reviews can be initiated by the commission on its own initiative, while in others, reviews may be requested by utilities, customers, or representatives of customer groups.\n4. AEP's public utility subsidiaries generally base their rates on the cost of providing bundled electric service.\n5. In Ohio, Virginia, and the ERCOT area of Texas, rates are transitioning from bundled to unbundled cost-based rates for transmission and distribution service, with market pricing for and/or customer choice of generation.\n6. In Ohio, the PUCO has approved rate stabilization plans that address retail generation service rates through December 31, 2008.\n7. In Virginia, APCO's base rates are capped at their mid-1999 levels until December 31, 2010, or sooner if a competitive market for generation exists.\n8. Historically, state regulatory frameworks have incorporated fuel costs into bundled or unbundled rates or through fuel adjustment clauses.\n\nGiven this information, which of the following statements is true about the current state of utility rate adjustments in the ERCOT area of Texas?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate description of the mineralization stages in the area?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate description of the geology and sampling activities at BIF Hill?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Electric Rate Matters Energy Conservation Surcharge approved by the PSC?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate assessment of the Cerbat Group of claims?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which company's reserves are entirely comprised of the mineral aplite, and which company did not mine any of its reserves in 2012?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "**\n\nThe Round Top project is expected to meet its water needs through an existing water lease. This lease has an annual minimum production payment of $5,000 before water production and $0.95 per thousand gallons or $20,000 annually after production, whichever is greater. The lease remains effective as long as the mineral lease is in effect. The water from this lease is not suitable for drinking due to high total dissolved solids but is adequate for process water needs. The metallurgical activities at the Round Top project involve heap leaching, which has shown promising results in extracting rare earth elements (REEs) and other elements. The project is currently in the stage of solution concentration and purification. Given this information, what is the most likely annual cost of water for the Round Top project after production begins?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "**\n\nIn the context of the provided information, which of the following statements is true regarding the management of the Trust's properties by Whiting?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the total cost of the Laufen Property, including all acquisition fees and expenses?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "In the context of the provided information, what was the primary reason for the Company's extraordinary gain of $1.2 million in 1994?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the company's natural gas reserves and their valuation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely outcome for ACRT regarding the property's rent and mortgage payments by the end of 2007?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Browse Joint Venture's plans for the WA-333-P permit?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely reason for the significant variation in waste rock mining rates from year to year?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the II-G Partnership's properties in the Permian Basin as of December 31, 1995?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "**\n\nIn the context of the provided information, what is the total amount Access is obligated to pay to LLCDA over the next three months?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, which of the following statements is most likely to be true about XTO Energy's position on compliance with the laws?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following properties has the highest occupancy rate and is located in the same city as the property with the lowest occupancy rate?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the company's lease expirations and customer base as of December 31, 2010?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the quality control measures implemented by the Company?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the relationship between Norfolk Southern (NS) and Triple Crown Services Company (TCSC)?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Colomac property and the Giant Mine?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate description of the oil production potential of the Mirage Oil Field?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the total expected capacity of the Santa Clara facility after the planned expansion, and what is the current annual rent payable under the ground sublease?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the most likely outcome if our partners in our joint ventures initiate provisions to acquire their partnership interest?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the Wild Horse Property?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "**\n\nIn the context of a company's financial statements, which of the following statements is most likely to be true based on the provided information?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the expected duration of the Lucky Friday mine's life and what is the primary focus of the upcoming exploration drilling?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what was the total amount of the Company's assets invested in junior mortgage loans at the end of 1994?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what was the total amount of cash and cash equivalents at the end of 2011, and how does it compare to the amount at the end of 2010?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the most likely next step for the exploration program at Hercules?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "**\n\nIn the context of the Kibi Gold Trend Project, which of the following statements is the most accurate description of the drilling results from Trenches TKB006 and TKB010?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the total amount the Partnership will receive from the sale of its interests in Flambeau Village, considering the option to purchase the remaining interests and the expiration of the 15-Year Tax Credit Compliance Period?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which country has the most complex licensing regime for exploration and production activities, considering both the initial terms and the potential for extensions?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the gold recovery operations at the Nolan Gold Project?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most likely outcome if a hotel is damaged and the Company decides not to repair, rebuild, or restore it?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which company currently operates the wells in the Underlying Properties, and what was the status of the Royalty Interests after the acquisition by HighMount?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "**\n\nThe geology of San Jos\u00e9 de Gracia is characterized by a complex history of deformation and mineralization. Given the information provided, which of the following statements is the most accurate description of the geologic history and mineralization at San Jos\u00e9 de Gracia?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate description of the gold mineralization found on the Chandalar gold property?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is the most accurate description of the copper mineralization patterns in the Longshot Ridge deposit?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the most accurate estimate of the recoverable coal reserves at the Sonoma mine as of December 31, 2011?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, which of the following statements is true about the reserves at Workman's Bench, Nolan Creek Area?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the information provided, what is the most likely impact of the revision of the proven and probable reserves at the Johnson Camp Mine on the company's financial statements?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary source of revenue for the gathering subsidiary of XTO Energy?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is true about the funding and development of the shopping center at Tanglewood Commons?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which well is the most productive in terms of gas production, considering both the total interest and the status of the wells?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements is the most accurate summary of the regulatory environment faced by the Company, considering both governmental and environmental regulations?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Based on the provided information, what is the primary source of gold ore for the SCMP site, and what is the expected recovery rate for this ore?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "**\n\nIn the context of the property's mineral rights and exploration activities, which of the following statements is true?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  }
+]

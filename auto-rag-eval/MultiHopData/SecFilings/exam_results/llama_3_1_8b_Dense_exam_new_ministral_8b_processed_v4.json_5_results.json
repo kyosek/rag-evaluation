@@ -1,0 +1,1332 @@
+[
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the Farmout Properties and the NPI?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following methods is most likely to be employed in the restart of the Bunker Hill Mine, given the historical methods and the proposed improvements?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the Lucky Friday mine, which of the following statements is true based on the provided document chunks?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided data, which of the following statements is true regarding the production and sales of oil and gas across the different partnerships over the years 2001 to 2004?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following is the most accurate estimate of the total gold reserves for the company, considering the provided per-ounce prices and the definitions of proven and probable reserves?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documents, which of the following statements is true regarding the employment agreement between Michigan National Bank and Joseph J. Whiteside?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the Current Communities as of January 31, 2006?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the Company's financial obligations and lease negotiations?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nConsider the following information about the leases and properties owned by a company:\n\n**Chunk0:**\n- The company typically enters into net leases with tenants, where tenants are responsible for paying all or a majority of operating expenses, including real estate taxes, utilities, and insurance.\n- The company has limited ability to revise lease terms for large national tenants who use standard lease forms.\n- The company evaluates lease term risk based on factors such as property location and replacement difficulty.\n\n**Chunk1:**\n- The company's project and construction managers work together to ensure projects are built within budget and on time.\n- The company has a wholly-owned property called Olmos Creek, which is a 102,178 square foot retail shopping center in San Antonio, Texas.\n- Olmos Creek is anchored by H-E-B, a regional grocer, and other tenants like Subway, UPS Store, and Edward Jones.\n\n**Chunk2:**\n- The company also owns the Westside Plaza property, a 43,021 square foot retail shopping center in Houston, Texas.\n- Westside Plaza was purchased from an unaffiliated third party and redeveloped with aesthetic enhancements in 2007.\n- The property is anchored by Trend Mall, which occupies 24,500 square feet with a lease scheduled to expire in June 2016.\n\n**Question:**\nWhich of the following statements is true about the company's leasing practices and properties?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the Company's accounting policies and practices?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following systems has the highest average gas quality (measured in gallons of NGLs per delivered Mcf) among the Crescent, Hamlin, and Arkoma Systems?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the PV-10 measure for the Marcellus joint venture as of December 31, 2013?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the Workman Creek Project, which of the following statements is true based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate representation of the company's strategy regarding the development of its Development Rights, based on the provided documentation?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true regarding the company's ability to fund its drilling activities?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the Edgar Lease Agreement and its Amendment, which of the following statements is true regarding the mineral rights on Property B?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true regarding the base rent for 2013 and 2012?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn which country is it possible to extend exploration concessions for an unlimited number of periods of up to three years each, with extensions subject to specific, minimum work commitments?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the McCabe Farms #1-4 well?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true regarding the Company's real estate portfolio at the end of 1995?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the Holdco Master Lease?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true regarding the claims in Esmeralda County, Nevada?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the potential impact of the partnership agreement on the tax status of MeriStar Hospitality?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true regarding the oil and gas reserves of the Corporation?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the impact of the sale of the Monterey's Tex-Mex Cafe restaurants on the overall financial performance of Chuck E. Cheese's restaurants?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the 2011 exploration program at the Chandalar property?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the operations of the Georgia Southwestern (GSWR) and the Georgia Great Southern (GGS)?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following resorts has the largest meeting space capacity among the ones mentioned in the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the Zarafshan-Newmont Joint Venture, what is the total amount of ore that the State Committee and Navoi are obligated to deliver to Zarafshan-Newmont by the end of 2003, considering the ore supply agreement and the amendments made in 2000 and May 2003?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true regarding the completion of the seismic surveys in NT/P62 and NT/P65?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following wells is the most likely to be in production based on the provided data, considering the status and interest type of each well?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the jurisdiction of FERC over the revenues of Eastern Edison and Montaup for the year 1997?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the Hycroft Brimstone Open Pit Mine?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of Black Dome Energy Corporation's financial statements for the years 1995 and 1994, consider the following information:\n\n- At December 31, 1994, the Company had accrued reserves for environmental contingencies of $65.0 million.\n- At December 31, 1993, the Company had accrued reserves for environmental contingencies of $61.7 million.\n- The Company's oil and gas operations are subject to environmental liabilities, but as of December 31, 1995, the Company was not aware of any environmental claims that would have a material impact on its financial position or results of operations.\n\nGiven this information, which of the following statements is true?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true regarding the valuation of the Partnership's properties?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the Company's decommissioning funding program and its potential impact on \"Deemed Loss Events\"?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nConsider the following information from the provided document chunks:\n\n- At December 31, 1998, the WI Properties covered 538 gross (67 net) coal seam gas wells with working interests ranging from 0.833 percent to 100 percent, with an average working interest of approximately 12.5 percent.\n- At December 31, 1997, the WI Properties covered 538 gross (67 net) coal seam gas wells with working interests ranging from 0.833 percent to 100 percent, with an average working interest of approximately 12.5 percent.\n- The Royalty Interests participate in each Federal Unit and participating area in which the WI Properties participate based on the acreage containing wells with proved reserves on December 31, 1998.\n- The Farmout Properties consist of a 35 percent net profits interest on a property farmed out to Amoco in La Plata County, Colorado. Such properties are not within any Federal Unit boundary.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the company's exploration strategy for the lower Monterey formation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Based on the provided document chunks, what is the total estimated cost to reclaim the mine, including the cost of maintaining and monitoring the reclaimed property prior to bond release?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the interest rate agreements and the maturity dates of the loans described in the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate assessment of the potential of the Norio block based on the results of the MK72 well?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided balance sheet information for two consecutive years (2011 and 2012), analyze the changes in the Company's cash and cash equivalents. Specifically, consider the following:\n\n1. The total cash and cash equivalents at the end of 2011 was $97,443, and at the end of 2012, it was $88,696.\n2. The company had a note receivable from the former President and CEO, which was due and payable on November 1, 2010, with a balance of $75,454 at the end of 2010.\n\nGiven these details, what is the most likely reason for the decrease in cash and cash equivalents from 2011 to 2012?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of stock-based compensation, which of the following statements is true based on the provided documentation?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the financial reporting practices of Entergy Corporation, as indicated by the auditors' opinion and the structure of the financial statement schedules?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, what is the percentage of coal seam natural gas in the proved natural gas reserves as of December 31, 2020, and how does this compare to the percentage in 2018?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is the most accurate representation of the gold mineralization found at the Patoa prospect, based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the leasing arrangements at the Associated Centers as of December 31, 2007, based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nConsider the following information from the provided document chunks:\n\n1. The company's ability to profitably drill and develop identified drilling locations depends on several factors, including crude oil and natural gas prices, capital availability, costs, drilling results, regulatory approvals, available transportation capacity, and other factors.\n2. The company may not drill all identified sites at the times scheduled or at all, due to higher risk profiles associated with exploration drilling locations, particularly in unconventional reservoirs.\n3. The company's hedging program is designed to protect cash flow and capital investment in case of price deterioration.\n\nGiven this information, which of the following statements is most accurate regarding the company's drilling strategy?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true regarding the reserve life (R/P) of the Denton field?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of ExxonMobil's reserves management, which of the following statements is true regarding the Global Reserves group's role and the reserves estimation process?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following companies has the highest annualized base rental revenue in 2015, considering the data from both the initial and subsequent chunks of documentation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the land ownership and mining rights of GQM LLC?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the compensation and benefits provided to an executive upon a Change of Control Termination?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nThe LIVENGOOD GOLD PROJECT, Alaska, is a significant mineral resource for the company. The project is located in the Tolovana Mining District and has a mineral resource of 731 million tonnes at an average grade of 0.61 g/tonne. The project is in the exploration stage and does not mine, produce, or sell any mineral products at this time. The company's primary focus is to continue to advance the project with the objective of assessing its viability for commercial gold mining. The company issued the results of the Feasibility Study in 2013, which converted a portion of the mineral resources into proven reserves of 434 million tonnes at an average grade of 0.69 g/tonne. The company plans to complete the evaluation of optimization opportunities and reduce project costs in 2016. The company also plans to continue critical baseline environmental studies to maintain the integrity of historical data.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the claims acquired by Calais Resources Colorado, Inc. from Hendricks Mining Co.?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the mining leases and options to purchase for the Lunar Property (Connection Area) and Lunar Property (Sunflower Area)?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the royalty payments for the Perdriau Property?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nThe Cornea Joint Venture has conducted extensive studies on the prospectivity of the Cornea gas/oil accumulation, estimating potential recoverable resources between 40 million and 90 million barrels of oil. The joint venture comprises several parties, with Moby Oil & Gas Limited holding 22.375% and Exoil Limited's subsidiary, Cornea Resource Pty Ltd, holding 16.75%. The operator of the joint venture is Hawkestone Oil Pty Ltd, a wholly-owned subsidiary of Exoil. The Cornea-3 appraisal well was drilled by the Songa Venus semi-submersible rig between December 11 and 28, 2009, and penetrated the Middle Albian and Lower Jamieson Formation B and C sand reservoir interval. The well was deepened to explore the Early Albian and Aptian of the Lower Heywood Formation before terminating at a total depth of 910.6 metres.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the South Pan project, which of the following statements is true based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is most likely to be true about the company's ability to maintain its financial position and access to capital in the face of volatile oil and gas prices?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn 2000, Newmont and Buenaventura consolidated their land holdings in northern Peru, folding them into Minera Yanacocha. By 2003, production from the La Quinua deposit at Yanacocha was expected to reach one million ounces per year. In 2001, gold sales at Yanacocha totaled 1.91 million ounces. In 2004, Yanacocha added 8.7 million ounces of gold to its reserves. Given these details, what was the total gold production at Yanacocha in 2004?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the company's strategy to mitigate the risk of declining oil and natural gas reserves?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the Sage Mine project?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn which year is the drilling on Block XXII expected to commence, given the current status of the environmental assessment and the approval of necessary permits?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nThe San Sebastian Gold Mine (SSGM) is planning to commence an open-pit, heap-leaching operation. The Joint Venture has placed the SSGM into a curbed production operation and intends to obtain a sum of $8 million or more to commence this operation. The Joint Venture also plans to expand its production capacity over several years, with the following milestones:\n\n- Year 1: 2,000 tons per day\n- Year 2: 3,000 tons per day\n- Year 3: 4,000 tons per day\n- Year 5: 6,000 tons per day\n\nThe funding for these expansions will be sourced from a combination of earned profits, borrowings, equity sales, or other creative sources. The SSGM has a total of 138 million tons of gold ore with a grade of 0.025 ounces of gold per ton. The Joint Venture's geologists have determined that the SSGM has minable gold ore reserves via an open pit of approximately 13.4 million tons of gold ore which should contain approximately 1.166 million ounces of gold. The SSGM is also actively engaged in the exploration and development of the peripheral area surrounding the main body of gold ore to increase its gold ore reserves.\n\nGiven the above information, what is the estimated total gold production from the SSGM open-pit, heap-leaching operation during the first twelve full operating months?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate description of the mineralization found at the Chief Danny Prospect on the Tetlin Property, based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Which of the following statements is true regarding the Antelope Pass Project, considering its status and activities as described in the provided documentation?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nThe San Rafael Uranium Project is located in Emery County, Utah, and is currently being held as a property that is exploratory in nature with no identified reserves. The project is administered by the U.S. Bureau of Land Management (BLM) and has a holding cost of $22,630 due to BLM for claim maintenance fees prior to September 1 each year. The project is located approximately 152 miles from the White Mesa Mill at Blanding, Utah, and about 139 miles from the Pinon Ridge mill proposed by EFRC near Naturita, Colorado. The property is located on the eastern side of the San Rafael Swell in east-central Utah, approximately 140 air miles southeast of Salt Lake City. The little desert community of Green River, Utah is located about ten miles to the east. The property is accessible year-round except for periods of heavy snowstorms during December through February and increased monsoon rains and summer cloudburst storms during August through October. Access for drilling and other exploration activity is excellent, except during occasional heavy rainy periods which can create heavy flash flooding and roads mudding-up and becoming impassable.\n\nGiven the above information, which of the following statements is true about the San Rafael Uranium Project?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nThe Company acquired several properties in 1998 and 1999. The total consideration paid for the Corona Property was $1,896,949, which included a management fee of 3% of the gross rents collected by WCRM. The total consideration for the Laufen Property was $2,737,500, and the total consideration for the Cerritos Property was approximately $2,500,000. The total consideration for the Ontario Property was $4,614,964. The Company also acquired the OPTO-22 Building for approximately $2,500,000. The management fee for all properties is 3% of the gross rents collected by WCRM. The total cost of the Corona Property per square foot is $51.11, which is comparable to recent sales in the area for similar properties. The purchase price for the Laufen Property was determined through an arms-length negotiation with the Seller. The purchase price for the Cerritos Property was also determined through an arms-length negotiation with the Seller. The purchase price for the Ontario Property was determined through an arms-length negotiation with the Seller. The purchase price for the OPTO-22 Building was determined through an arms-length negotiation with the Seller. The source of funds for the purchase of all properties was the proceeds from the sale of the Company's Shares in the current offering.",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the franchise agreements for the hotels operated by the Partnership?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "Based on the provided documentation, which of the following statements is true regarding the royalty regime for the Rosablanca association contract?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the Donlin Gold project, which of the following statements is true regarding the construction and management of the Tailings Storage Facility (TSF)?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true regarding the timeline and conditions for the election of the successor general partner and the subsequent termination of the settlement agreement?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nBased on the provided document chunks, which of the following statements is the most accurate representation of the impact of oil and gas prices on the estimated future net revenues and present value of proved reserves for Basin Exploration, Inc.?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nThe Newsboy Gold Project is located in the Vulture Mountains of Arizona, with a significant portion of its land being state and federal lands. The project is accessed via paved and gravel roads for 3 miles due west of Morristown, crossing the Hassayampa River, which flows a few days per year after severe rain storms. The project is close to several well-known historical gold mines, including the Vulture, Congress, and Yarnell mines. The project's mineralization is associated with extensional faults outside of the caldera complex, facilitated by the Bullfrog Hills Fault System (BHFS). The primary structure of the BHFS is the Southern Bullfrog Hills Fault (SBHF), which separates Proterozoic metamorphic rocks in the footwall from weakly metamorphosed Paleozoic sedimentary and Tertiary volcanic rocks in the hanging wall. The SBHF is an east-west-trending, north-dipping, district-scale, low-angle detachment fault. The SBHF-FCF appears to decrease in displacement from west to east across the greater Bullfrog district, with the northward dip increasing from west to east. The region is underlain by Paleozoic sedimentary rocks, which are the basement for the mid-Miocene tuffs and related rocks that host most of the mineralization in the Bullfrog mining district. The region has been subjected to extensional faulting contemporaneous with volcanism, resulting in the development of localized sedimentary basins filled with reworked volcanic and basement debris.\n\nGiven the above information, which of the following statements is true about the Newsboy Gold Project?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following facilities has the highest average utilization rate over the past three years?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate representation of the oil and gas reserves attributable to the Royalty Properties, considering the information provided in the three document chunks?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the impact of commodity price changes on the volumetric quantities of proved oil and natural gas reserves attributable to the Trust?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the status of the WA-332-P permit?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the Peek Claims property, which of the following statements is true regarding the exploration history and geological characteristics of the area?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate representation of the effectiveness of thiosulfate leaching in extracting gold and silver from the Columbus Project, considering the information provided across all document chunks?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following partnerships has the highest estimated total proved reserves of crude oil and natural gas combined, considering all their properties in the Anadarko Basin, Permian Basin, and Gulf Coast Basin?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate representation of the trend in gas production from the San Juan Basin over the years 2013 to 2019, based on the provided document chunks?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nThe Bunker Hill Mine is planning to restart operations after extensive repairs to the Kellogg Tunnel (KT). The mine has identified multiple zones (UTZ, Newgard, and Quill) with sufficient mineral reserves to supply mining needs for approximately 8 years. The company anticipates constructing its own milling facility near the mouth of the Kellogg Tunnel with an initial capacity of 1500 tons per day. The EPA has agreed to provide water treatment services for the mine under contract for at least five years. Given this information, what is the estimated time for the mine to reach a steady state production of 1500 tons per day?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of ExxonMobil's proved reserves reporting, which of the following statements is most accurate regarding the development of proved undeveloped reserves in the United States?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the role of Nathan E. Langston in the various companies mentioned?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the Eureka property, which of the following statements is true regarding the Windfall project?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the Nkamouna and Mada project, which of the following statements is true regarding the Mining Permit and its associated environmental impacts?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the company's proved undeveloped reserves over the years 2011 to 2014?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate representation of the environmental regulations affecting our oil production, considering the information provided in the given document chunks?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate description of the geology and land use of the Helmer-Bovill Property, considering the provided document chunks?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the financial performance of EMC Insurance Group Inc. and its subsidiaries in 2005?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the Partnership's liquidation basis of accounting, which of the following properties experienced the highest net loss when sold to an affiliated party, considering the adjustments made to net realizable amounts and the actual sale prices?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn which year did the company's total net proved reserves in Turkey decrease the most significantly, and what was the primary reason for this decrease?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the San Jos\u00e9 mine, which of the following statements is true regarding the ownership and operational structure of the mine?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the management structure of the hotels owned by the company as of December 31, 2014, based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate representation of the net profits interest calculation for the Farmout Properties, considering the information provided across the three document chunks?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following scenarios is the most likely to result in the lowest development costs, considering the current management's anticipation and the potential for extended development periods?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the Johnson Camp Property, which of the following statements is the most accurate representation of the reconciliation process between the drill hole determined block model and the blast-hole determined tonnage and grade?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true regarding the Johnson Camp Mine's operations and the permits required for its development and operation?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 4
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the Company's leasehold acreage as of December 31, 2014?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the natural gas industry, how has the implementation of FERC Order No. 636 influenced the role of interstate pipelines, and what are the potential implications of the ongoing judicial challenges to this order?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the exploration activities and mineral claims held by the company?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the risks associated with forward-looking statements made by PetroCorp?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nConsider the following information about Royal Gold's reserve estimates:\n\n1. Royal Gold has disclosed a number of reserve estimates that are provided by operators that are foreign issuers and are not based on the U.S. Securities and Exchange Commission's definitions for proven and probable reserves.\n2. For Canadian issuers, definitions of \"mineral reserve,\" \"proven mineral reserve,\" and \"probable mineral reserve\" conform to the Canadian Institute of Mining, Metallurgy and Petroleum definitions of these terms as of the effective date of estimation as required by National Instrument 43-101 of the Canadian Securities Administrators.\n3. For Australian issuers, definitions of \"mineral reserve,\" \"proven mineral reserve,\" and \"probable mineral reserve\" conform with the Australasian Code for Reporting of Mineral Resources and Ore Reserves prepared by the Joint Ore Reserves Committee of the Australasian Institute of Mining and Metallurgy, Australian Institute of Geoscientists and Minerals Council of Australia, as amended (\"JORC Code\").\n4. Royal Gold does not reconcile the reserve estimates provided by the operators with definitions of reserves used by the U.S. Securities and Exchange Commission.\n5. The reserves reported are either estimates received from the various operators or are based on documentation material provided to Royal Gold or which is derived from recent publicly-available information from the operators of the various properties or various recent National Instrument 43-101 or JORC Code reports filed by operators.\n6. \"Contained ounces\" or \"contained pounds\" do not take into account recovery losses in mining and processing the ore.\n7. NSR sliding-scale schedule (price of gold per ounce - royalty rate): Below $375 - 1.75%; >$375 to $400 - 2.0%; >$400 to $425 - 2.25%; >$425 - 2.5%. All price points are stated in 1986 dollars and are subject to adjustment in accordance with a blended index comprised of labor, diesel fuel, industrial commodities and mining machinery.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate representation of the geologic setting of the Arctic Deposit, considering the information provided in the document chunks?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true regarding the company's productive wells and leasehold acreage over the years 2015, 2016, and 2017?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the insurance obligations of the Lessees?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the Hard Rock Hotel & Casino Las Vegas, based on the provided document chunks?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the Seacoast National branches in Florida, based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the lease terms and obligations of the tenant at the property?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following wells is the most likely to be in production based on the provided data, considering the status and interest type of each well?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nBased on the provided document chunks, which of the following statements is the most accurate regarding the Johnson Camp Mine's proven and probable reserves?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the Company's accounting policies for depreciation of property and equipment?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the drilling program and the wells drilled by the company?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate assessment of the Company's future financial condition, considering the volatile nature of oil and gas markets and the potential risks associated with its drilling activities?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true regarding the changes in the standardized measure of discounted future net cash flows from proved reserves for the net profits interests?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of Devon's operations, which of the following statements is true regarding the Deep Basin and the Foothills Region?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nThe Galore Creek Partnership, formed on August 1, 2007, is a joint venture between two companies, each owning a 50% interest in the Galore Creek project. The partnership is managed by Galore Creek Mining Corporation (GCMC), an independent entity controlled equally by the two partners. The Galore Creek project is a large copper-gold-silver deposit located in British Columbia, Canada. The partnership agreement stipulates that each partner is responsible for funding the project equally after an initial contribution by Teck. The project's total mineral claims amount to 151,953 hectares (375,476 acres), with 11,344 hectares (28,032 acres) owned by the Copper Canyon Partnership, a subsidiary of NOVAGOLD. The Galore Creek project is approximately 70 kilometers west of the Bob Quinn airstrip on Highway 37 and 150 kilometers northeast of the port of Stewart.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following statements is the most accurate representation of the information provided in the document regarding the number of wells producing from or drilling on the Royalty Properties?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the mineralization at the Bear Lodge REE Project?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nAEP System companies are subject to various environmental regulations, including the Oil Pollution Act of 1990 (OPA), the Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA), and the Resource Conservation and Recovery Act (RCRA). Given the information provided in the document chunks, which of the following statements is true regarding the potential liabilities and compliance requirements for AEP System companies?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate representation of the company's financial situation based on the provided document chunks?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate description of the geology of the S\u0103o Domingos property, considering the information from both the geology and location sections of the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is most likely to be true regarding the company's legal proceedings and their potential impact on its financial condition?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following wells is the most likely to be in production based on the provided data, considering the status of each well and the distribution of interests across different counties?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate representation of the quality control measures implemented by the Company, based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nConsider the following information about the Company's properties:\n\n1. The Company owns a multifamily residential property in Southern California with 1,019 units, built in 1972, and acquired in 2002. The occupancy rate is 98%.\n2. The Company has a 30% special limited partnership interest in this property, which owns this multifamily property. This investment was made under arrangements whereby EMC became the general partner and the existing partners were granted the right to require the applicable partnership to redeem their interest for cash. Subject to certain conditions, the Company may, however, elect to deliver an equivalent number of shares of the Company's Common Stock in satisfaction of the applicable partnership's cash redemption obligation. The Company accounts for this property under the equity method of accounting.\n3. The property is subject to a ground lease, which, unless extended, will expire in 2082.\n4. The Company owns the land and has entered into a leasehold interest. The leasehold interest entitles the Company to receive a monthly payment for the 34-year term of the land lease. The Company may be required to sell its interest in the property anytime following the seventh anniversary of the leasehold date which was created in 2002.\n5. The Company has a 21.4% interest in this property, which is owned by the Fund.\n6. This Property is owned by a single asset limited partnership in which the Company has at least 99.0% limited partnership interest.\n7. The Company holds a 1% special limited partner interest in the partnerships, which own these multifamily properties.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nThe Casa Berardi mine is located in Quebec, Canada, and is owned by Hecla Quebec Inc. The mine is composed of 69 contiguous claims and two mining leases, covering a total area of 3,629.75 hectares. The mine is accessible via a 38-kilometer all-season gravel road that branches off from the paved Route des Conqu\u00e9rants road, which runs north from its intersection with road 393 north of La Sarre and passes through the village of Villebois. The branch is approximately 21 kilometers north of Villebois. The mine has two shafts: the West Mine shaft reaching a vertical depth of 1096 meters, and the East Mine shaft located 4.3 kilometers to the east, going down to a vertical depth of 379 meters. The mine also has a 3,100 tons per day cyanidation processing mill and tailings impoundment areas.\n\nGiven the information above, which of the following statements is true?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn 2001, what was the total percentage of retail space leased to Bradlees, and how does this impact the Company's overall retail revenues?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "Which of the following partnerships has the highest estimated total proved reserves of crude oil and natural gas combined, considering all provided chunks?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate representation of the mineral reserves and their expected mine life at Bogoso/Prestea, considering the information from all provided document chunks?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the quality assurance/quality control procedures for the Tetlin project?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the Kemess South mine project, which of the following statements is true regarding the timeline and conditions of the project's development?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following properties has the highest total rentable square feet written on a full service gross basis, considering all provided chunks?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn 2012, Newmont reported a total of 85 kilometers of drilling completed and anticipated an additional 65 kilometers in 2013. By the end of 2014, how many kilometers of drilling had been completed in total, and what was the total gold production for the year?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, what is the total amount Access is obligated to pay to LLCDA from the production of any Products, considering the terms of the Agreements and the acquisition of the J.E. Pettus Gas Unit?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nUnder the regulations set by Norma 14/97, Nextel Brazil was required to consolidate its SMR licenses by November 3, 1998. By December 31, 1998, Anatel had approved the consolidation of Nextel Brazil's SMR licenses in eight cities, including Sao Paulo, Rio de Janeiro, and Belo Horizonte. However, Anatel canceled 10 of Nextel Brazil's SMR channels in Sao Paulo without compensation. Nextel Brazil appealed this decision but was unsuccessful. Given that Nextel Brazil's interest in licensees holding 980 of its 2,245 channels in Brazil is structured through Option Agreements, and considering the regulatory environment and the status of its installations, what is the most likely outcome for the remaining cities where Nextel Brazil has applied for license consolidation?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nIn the context of the Workman Creek Project, which of the following statements is true based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nBased on the provided documentation, which of the following statements is true regarding the development of the Bengara II PSC area?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate description of the potential impacts of weather conditions on the Burke Hollow ISR mine operations?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate representation of the overall recovery of heavy rare earth elements (HREE) and yttrium from the Round Top rhyolite based on the provided documentation?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 3
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the occupancy rates and rental rates at Tanglewood Commons over the years 1997 to 2001?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of XTO Energy's operations, which of the following statements is most accurate regarding the gathering subsidiary's operations and the pricing mechanisms in place?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the ownership and management of the Underlying Properties over the period from May 1, 1997, to January 1, 2003?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements is the most accurate representation of the collective advice given by Williams, Burlington Resources, Whiting, and XTO Energy regarding the treatment of royalty interests in a bankruptcy proceeding?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the Reserve Rule Changes and their impact on reserve estimation procedures and disclosures?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the Prestea Underground project, which of the following statements is the most accurate regarding the drilling activities and mineralization potential in 2005?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the changes in the freight car bad order ratio over the years?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the Newmont Alliance, which of the following statements is true regarding the La Promesa property?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nConsider the following information from the provided document chunks:\n\n1. The company is a \"shell company\" under Rule 12b-2, which means it has no or nominal assets and no or nominal operations.\n2. The company's primary objective is to achieve long-term growth potential through a combination with another business, rather than immediate, short-term earnings.\n3. The company's principal business objective for the next 12 months and beyond is to achieve long-term growth potential through a combination with a business rather than immediate, short-term earnings.\n4. The company may consider a business which has recently commenced operations, is a developing company in need of additional funds for expansion into new products or markets, is seeking to develop a new product or service, or is an established business which may be experiencing financial or operating difficulties and is in need of additional capital.\n5. The company's ability to make expected distributions to stockholders depends on its ability to generate Funds From Operations in excess of scheduled principal payments on debt, payments on the preferred limited partnership units issued by the Operating Partnership, and capital expenditure requirements.\n6. The company's future financial condition and results of operations are highly dependent on the demand and prices received for oil and gas production and on the costs of acquiring, developing and producing reserves.\n\nBased on the above information, which of the following statements is the most accurate description of the company's business strategy?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate representation of the company's approach to determining the value of a unit for purposes of presentment to the managing general partner (MGP) for purchase, based on the provided documentation?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nThe Boulder Hill Project is located in an area with a complex geological history. The project is situated near the crest of the Wolf Creek Anticline and is immediately south of the Wolf Creek Fault. The rocks exposed in the area are thought to belong to the G Member of the Prichard Formation. The project is considered a stratiform sulfide target within the Middle Prichard Formation in Lincoln County, Montana. The project is also characterized by the presence of Precambrian gneiss, with the westerly part exposed hornblende diorite porphyry-type mineralization identified from initial examination of the breccias pipes #4, #5, and #6. The host rock is mostly composed of Proterozoic formations intruded by younger igneous rocks.\n\nGiven this information, which of the following statements is true about the Boulder Hill Project?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the Amayapampa property and its ownership?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nWhich of the following properties is most likely to have the highest potential for mineral exploration success based on the provided information, considering the infrastructure, mineralization, and exploration plans?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nThe Company, a shell corporation, has been engaged in starting up the business of offering LED lighting for consumers. The company has incurred significant losses and has minimal cash resources, raising substantial doubt about its ability to continue as a going concern. The company has redirected its focus towards identifying and pursuing new business opportunities to generate positive revenue and cash flow. The company has also changed its name to SavWatt USA, Inc. and has exclusive marketing rights to sell LED street lighting for Unilumin in the United States. Given this information, which of the following statements is most accurate regarding the company's financial situation and business plan?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the Permian Basin's production and reserves?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nThe San Sebastian Gold Mine (SSGM) has been transitioning its operations from tailings to virgin gold ore due to the exhaustion of its tailings resource. The gold ore is transported to the San Cristobal Mill and Plant (SCMP) for processing. The SCMP has been undergoing retrofitting and rehabilitation to increase its capacity to process 300/400 tons of virgin ore per day. Given the information provided, which of the following statements is true regarding the SCMP's operations and the gold ore processing?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the share capital of Ludvik Capital, Inc. as of December 31, 2006?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nBased on the provided document chunks, which of the following statements is the most accurate interpretation of the exploration philosophy changes recommended by the 2006 and 2007 drilling programs?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the leases and impairments recorded by the Partnership?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the Holiday Hills Resort based on the provided documentation?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the payment of amounts payable with respect to the Royalty Interests after the 2001 Transaction?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the Spring Valley project, which of the following statements is true based on the provided documentation?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the Palangana uranium deposit, which of the following statements is true regarding the ISR operation conducted by Union Carbide from 1977 to 1979?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the company's approach to calculating the standardized measure of oil and natural gas reserves?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate representation of the current state of exploration on the Vernal Property, considering the information provided across all document chunks?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true regarding the company's compliance with environmental regulations and the availability of their filings?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the Trinity Project, which of the following statements is the most accurate regarding the mineralization and its distribution?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "Which of the following statements is the most accurate description of the accessibility of the Powder River Basin properties during wet or snowy conditions?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate regarding the potential impact of environmental regulations on FirstEnergy's operations and financial position?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate regarding the environmental impact of mining operations and the regulatory requirements for mining companies?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of Simon Property Group's international investments, which of the following statements is true regarding the ownership structure and lease status of their properties in Europe?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the Powder River Basin properties, which of the following statements is true regarding the geology and exploration history of the Pumpkin Buttes Mining District?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the Arkose Mining Venture's exploration activities and the management committee's decision-making process?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nThe Company has filed for patent protection on various aspects of its technical program ideas with the US Patent Office, using technical information from preliminary bench scale testing with actual copper SX raffinate solutions. The Company believes this work can be demonstrated with a working and successful copper plant installation, with proven know-how, and intends to pursue a copper industry partner to demonstrate the economic viability of this technology. It is the Company\u2019s intent to fully participate in the operation, ownership, and production economics associated with a plant asset that is developed in concert with that partner. The Company has also filed for patents on the production of aluminum-scandium master alloys directly from aluminum oxide and scandium oxide feed materials, with the aim of significantly improving the economics of aluminum-scandium master alloy production. The Company has signed a Memorandum of Understanding (MOU) with Weston Aluminium Pty Ltd. to develop the capability to manufacture aluminum-scandium master alloy. Additionally, the Company has signed an MOU with ALCERECO Inc. to develop markets and applications for aluminum alloys containing scandium.\n\nGiven the above information, which of the following statements is true?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nAEP System companies are subject to various environmental regulations, including the Oil Pollution Act (OPA), the Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA), and the Resource Conservation and Recovery Act (RCRA). Given the information provided in the document chunks, which of the following statements is true regarding the potential liabilities and compliance requirements for AEP System companies?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is the most accurate representation of the company's natural gas reserves?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate representation of the current status of the Wikieup property, considering the information provided across all document chunks?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 5
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true about the company's reserves?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is the most accurate representation of the Company's progress on the Moss Mine Reactivation Project Pilot Plant?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided documentation, which of the following statements is true regarding the Company's natural gas sales and the percentage of proceeds it receives from these sales?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn 2010, the company's industrial properties were 93.7% leased, compared to 91.2% in 2009. Given this information, which of the following statements is true about the company's industrial properties in 2010?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, which of the following statements is true regarding the percentage change in revenues, expenses, and NOI (including straight-line rents) from 2006 to 2008?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is true about the transmission lines and substations owned and operated by the Company, based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the provided document chunks, what is the total projected expense for maintaining all claims for the next year, considering the exploration credits applied in 2014?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the Coeur d'Alene Mining District, which of the following statements is true regarding the geology and mineralization of the region?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nWhich of the following statements is the most accurate description of the mineral deposit's composition and formation process, based on the provided documentation?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  },
+  {
+    "question": "**\n\nIn the context of the Bluesky Formation, which of the following statements is true regarding the oil trapping mechanism and the seismic evaluation?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 2
+  },
+  {
+    "question": "Which of the following statements is true about the leasing arrangements at Cross Creek Mall and St. Clair Square?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 2
+  }
+]

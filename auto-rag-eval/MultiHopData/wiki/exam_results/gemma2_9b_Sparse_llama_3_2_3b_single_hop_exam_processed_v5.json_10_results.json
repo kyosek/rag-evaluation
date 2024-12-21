@@ -1,0 +1,1052 @@
+[
+  {
+    "question": "What is a notable consequence of Kennedy's focus on visual literacy at the Hood Museum of Art, as evidenced by the museum's recent return of several objects to their countries of origin?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about Thompson's approach to filmmaking based on his statement about making films for the sake of making them?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between Gertrude of Bavaria and her husband, Frederick IV, Duke of Swabia, based on the information provided about their marriage and subsequent events?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is notable about the preview version of the film House of Dark Shadows?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about Michael's political views based on his past actions and affiliations?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between Eric Ronald Holder Jr.'s cooperation with law enforcement and the events leading up to Nipsey Hussle's death, based on the testimony at the trial?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyze the narrative of King Sargon's campaign against the Anatolian city of Purushanda, as described in the Hittite and Akkadian versions of the Chronicle of Early Kings. How does Sargon's actions in the Mediterranean region relate to the broader context of his reign, as described in the Chronicle of Early Kings?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Rumbi Katedza's experience in film production and her role as a judge and monitor at the National Arts Merit Awards can be seen as a reflection of her broader commitment to promoting the arts in Zimbabwe. However, her involvement in the production of the 2001 American film \"Sam the Man\" raises questions about her potential biases and the impact of her work on the Zimbabwean film industry. What are the implications of Rumbi Katedza's involvement in the production of \"Sam the Man\" for her role as a judge and monitor at the National Arts Merit Awards?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for Bernard's appointment to oversee the economic development fund for the Restigouche-Baie des Chaleurs region in 2004?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between Thomas Scott's police career and his participation in the 1930 British Empire Games?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about Hugh Willoughby's early life and education based on the information provided about his guardianship and schooling?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about Edward's relationship with his father, King Henry, based on the marriage agreement between Edward and Eleanor, and the grants of land made to Edward in 1254?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Peter Levin's career in television and film spans over five decades. What is notable about the television series \"Love Is a Many Splendored Thing\" that Levin directed, which was also a notable project for his wife Audrey Davis Levin?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Kathy Griffin's career trajectory can be understood by analyzing her various endeavors and public statements. Which of the following best summarizes the outcome of her hosting gig on the channel Kathy?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The concept of \"Dance of Death\" has been explored in various forms of art and literature. Analyze the connections between the following works:\n\n* A 1938 novel by Helen McCloy, a 1900 play by August Strindberg, and a 1968 Mexican horror film starring Boris Karloff.\n* A 1997 novel by R. L. Stine, a 1908 play by Frank Wedekind, and a 1969 film based on Strindberg's play.\n* A 2005 novel by Douglas Preston and Lincoln Child, a 1933 play by W. H. Auden, and a 1948 film based on Strindberg's play.\n\nWhich of the following statements best summarizes the connections between these works?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyzing the family histories of prominent women, what can be inferred about the relationship between Anne Catherine Emmerich and Sobe, given that Sobe is a sister of Anne and the mother of Elizabeth, who is also a relative of Anne?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Juran's career transition from filmmaking to architecture can be understood by examining his early work in the film industry. What can be inferred about Juran's creative process and personal life based on his involvement in the production of \"The 7th Voyage of Sinbad\" (1958)?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "According to the biblical accounts, what is the significance of the baby's reaction in Elizabeth's womb when Mary greets her?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Bonnie Tyler's music career spans multiple decades, with significant contributions from various collaborators. Analyze the information provided to determine which of the following statements is most accurate regarding Bonnie Tyler's musical evolution.",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is notable about the career of Pier-Luc Funk, the Canadian actor who played Maxime in the 2018 film Genesis?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What significant milestone in Mary Joan Nielubowicz's career marked a shift towards greater responsibility and recognition within the Navy Nurse Corps?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between Devisingh Ramsingh Shekhawat's academic and professional pursuits, based on the information provided about his life and career?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The film \"The Police Serve the Citizens?\" (1973) is often compared to another film released in the same year, \"Bag Man\". What is a key difference between the two films, as described by critics, that might explain why Mike D'Angelo of The A.V. Club called \"Bag Man\" a Quentin Tarantino knock-off made two decades too late?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between John III, Count of Soissons, and his son John IV, Count of Soissons, based on the information provided?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "According to the text, what can be inferred about the relationship between Stephen, Gyula, and Boles\u0142aw I the Brave?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between Maurice Spata and Carlo I Tocco based on the events described in the passage?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about Yolonda Ross's career trajectory based on her filmography and public statements?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Kathy Griffin's transition from a dislike for organized religion to a career in stand-up comedy and television can be understood through her early experiences with musical theater and her involvement with the improvisational group The Groundlings. What is the most likely reason for Griffin's initial reluctance to pursue a career in acting, given her experiences with the nuns at her elementary school?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about Jim Bob's musical career based on the information provided about his involvement with Carter USM and his solo work?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between Sophia Magdalena and the King's alleged affair with Giovanna Bassi, based on the fact that Sophia Magdalena deposited a sum of 50,000 riksdaler in an account for Munck in 1787?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the significance of Stephen I of Hungary's marriage to Gisela of Bavaria, and how did it reflect his efforts to unify the Carpathian Basin?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the common thread among the various \"Valleys of Death\" mentioned in the provided passages, and how do they relate to the concept of \"death\" in different contexts?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for Ruth Ellis's decision to shoot David Blakely, despite her initial feelings for him?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about Howard Shore's approach to composing music for The Lord of the Rings films, based on Adams' involvement in the project?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a potential consequence of the proposed merger between LACMA and the Museum of Contemporary Art, Los Angeles, as described by Joseph Giovannini?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Lydia Becker's contributions to the scientific community extend beyond her work in immunology and inflammation. What is a notable aspect of her legacy that is reflected in the establishment of the institute named after her?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between Deren's films and her views on ritual and time, based on her discussion in An Anagram and the themes explored in Ritual in Transfigured Time?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the career trajectory of the individual referred to as the team captain, based on the information provided about his time in the First Division, his international career, and his subsequent management and media roles?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "According to Trejo and Rodriguez, what is the relationship between the Machete films and the Spy Kids films?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The English magnates' opposition to King Edward's policies in the late 13th century was motivated by a combination of factors, including the heavy burden of taxation, personal grievances, and the threat of Scottish raids. However, the turning point in the conflict came when the English suffered a heavy defeat to the Scots at the Battle of Stirling Bridge in September 1297. What was the immediate consequence of this defeat for the English magnates, and how did it affect their stance on the conflict?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a notable characteristic of Malengreau's compositions, as evident from his organ symphonies, which were inspired by paintings by Rogier van der Weyden and the van Eyck brothers?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is notable about the production of Carry On Matron, considering the series' history and the film's release date?",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between the Abbasid caliphate and the Shia elite during the time of al-Mutawakkil, based on the historical context provided?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between Yurek Bogayevicz's work in film and his background in art education, based on Kennedy's experiences as an art educator and curator?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about John Farrell's career trajectory, given that he co-founded Adetel, a company that provided internet access to residential communities and businesses in Mexico, and later worked for Televisa in Mexico City, where he established a strategic alliance with a leading telecommunications provider to launch co-branded Internet and telephone services?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the significance of the place of birth in the context of identity documents, as described in the National Gallery of Norway's collection of Randi Monsen's works?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyzing the complex relationships between characters in the film Querelle, what can be inferred about the dynamics between Georges Querelle and his brother Robert?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between the police officer and Travis based on the special features of the DVD release of My Little Eye?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a notable aspect of Jason Moore's career that is reflected in his work on the musical \"Tales of the City\"?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyze the lives of Mehdi Abrishamchi, Gertrude of Bavaria, and Sophia Magdalena of Denmark, and identify the common thread that connects their experiences.",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the outcome for the Marquess of Winchester's family after the siege of Basing House in 1645, as a result of his loyalty to Charles I?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about Jean Rollin's career trajectory based on the information provided about his filmography and the production of Le Masque de la M\u00e9duse?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between Princess Sophie Magdalena and her husband, King Gustav of Sweden, based on the information provided about their marriage and personal characteristics?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a notable aspect of Kennedy's approach to art education at the Toledo Museum of Art, as reflected in his definition of visual literacy?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the significance of the Zamzam Well's discovery, as described by 'Abdul-Mu\u1e6d\u1e6dalib, in the context of the history of Mecca?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Maria Teresa's involvement with various international organizations and initiatives suggests a commitment to improving the lives of women and girls in developing countries. Analyze the information provided to determine which of the following statements is most consistent with Maria Teresa's overall goals and values.",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyze the genealogical relationships between the following individuals:\n\nMarie of \u00c9vreux, Duchess of Brabant, was the wife of John III, Duke of Brabant. Their daughter, Joanna, Duchess of Brabant, was the first woman to hold the title in her own right. Marie's paternal grandmother was Marie of Brabant, making her a great-granddaughter of Henry III, Duke of Brabant. Beatrice of Luxembourg, Queen of Hungary, was the wife of Charles, Duke of Calabria, and a member of the House of Luxembourg. Hannah Arnold, a beauty queen, was born in 1996 and may refer to either the mother of Benedict Arnold or a Filipino-Australian model.",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the likely reason for Duke William of Mecklenburg-Schwerin's marriage to Alexandrine of Prussia in 1865, given his reputation for a dissolute character and his previous proposal to the ballerina Marie Taglioni?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following statements about the film \"In August of 1944, or The Moment of Truth\" (2001) is most consistent with the information provided in the passage?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the production of Bomgay, given that the film's budget was limited and the filmmakers had to enlist the help of friends from the Bombay advertising industry?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the tone of Carry On Emmannuelle, given its explicit content and its certification as an AA film by the British Board of Film Censors?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What notable musical revues and plays did Jerome Kern collaborate on during his extended stay in London in 1921?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Schubert's health issues in the late 1820s were likely caused by a combination of factors, including his struggles with syphilis and mercury poisoning. However, the symptoms he exhibited in his final illness do not align with the typical symptoms of tertiary syphilis. What can be inferred about Schubert's health condition in the months leading up to his death?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Astrid North's music career spanned multiple genres and collaborations. Analyze the information provided to determine the correct sequence of events that led to her involvement with the charity project Home.",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyze the career progression of Power Le Poer Trench, considering the temporal relationships between his appointments and the events that occurred during his lifetime.",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a common thread among Doctor Zee's films, as they explore the tensions between traditional cultural values and modern Western influences?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between Sophia Magdalena and Gustav, based on the events surrounding her arrival in Sweden?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyzing the complex relationships between medieval European powers, what can be inferred about the nature of Hungary's alliance with the Byzantine Empire during the 11th century?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between Isabella of Valois and her daughter Blanche of Bourbon based on the information provided?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about Roscoe Arbuckle's career trajectory after the scandal that ruined his career, based on the statement from Louise Brooks about her experience working with him on Windy Riley Goes Hollywood (1931)?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What significant event in Jennings' life led to a period of substance abuse and guilt, which he repeatedly expressed towards his friend and fellow musician, Buddy Holly?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between Fujiwara no Nagara and his brother Fujiwara no Yoshifusa, given that Nagara was promoted to ju san-mi in 851, while Yoshifusa was promoted to ch\u016bnagon in the same year?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about Mary's relationship with her father, Edward I, based on the information provided about her allowance and living arrangements?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about Jacques Tourneur's career trajectory based on his transition from working with MGM Studios to RKO Studios, and his subsequent promotion to the A-list?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary motivation behind Hans von Wunchendorf's plan to obtain the gold treasure from the sunken ship?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What significant technological advancements did Charles Wheatstone make in the field of optics, particularly in the context of stereoscopic vision?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "According to Abhishek Saxena's background, what is the significance of his marriage date (18 December 2014) in relation to his film career?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for Frederick II's marginalization of the Schwedt brothers within the Prussian army, and how did this reflect his broader policy towards his cousins?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Roger Corman's decision to leave his job at U.S. Electrical Motors was influenced by his brother Gene's success in the film industry. What was the primary reason for Roger's decision to pursue a career in filmmaking?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary reason for the release of Johnny Davis, an inmate who was involved in a prison riot, according to the film \"Mutiny in the Big House\"?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about Upton's career trajectory based on his involvement with the Sydney Theatre Company and Dirty Films?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyze the career trajectories of \u00c7elikbilek, Alan Chipp, and Milo\u0161 Zli\u010di\u0107, considering their respective achievements in tennis, football, and their family backgrounds.",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between Grand Duke Vladimir's military career and his artistic interests, based on the information provided about his appointments and the circumstances of his father's death?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the connection between the 1949 film \"Daughter of the Jungle\" and the Bomba film series, as described by Walter Mirisch, the general manager of Monogram Pictures?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between Louis and his uncle Charles IV, Duke of Anjou, based on the fact that Louis was made Count of Guise, a title last held by his uncle?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a notable connection between the International Culinary Academy and the Mission Rock station in San Francisco?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the historical perception of Edward I's role in shaping English national identity, based on the accounts of William Stubbs and Thomas Tout?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for the Mobile and Ohio Railroad's conversion to military use during the American Civil War?",
+    "model_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between Prince Dmitri Alexandrovich's birth and his family's social status?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about Bonnie Tyler's career trajectory based on her early experiences and subsequent successes?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the reception of Spy Kids 2: The Island of Lost Dreams based on the critical consensus and audience ratings?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about Henry Moore's life and career based on the information provided about his family and cricket career?",
+    "model_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What significant event in Chalbaud's life, as described in the provided text, likely influenced his development as a filmmaker and gave him a social conscience to create meaningful work?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Andrew Allen's music career can be characterized as a gradual build-up of international recognition, with several key milestones marking his transition from a local artist to a global phenomenon. Analyze the timeline of his career, focusing on the events and releases that contributed to his growing international profile.",
+    "model_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the significance of the song \"Star-Spangled Banner\" in the context of the 2019 Off-Broadway revival of the musical \"Mame\"?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between Anne Yelverton's marriage to Robert Montagu, 3rd Earl of Manchester, and her later life as Countess of Manchester?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about Alexander Bain's relationship with Sir Charles Wheatstone based on the events described in the Mechanics Magazine and the Royal Society exhibitions?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyze the lives of Khalfan Mubarak and Empress Sh\u014dken, two individuals from different cultural backgrounds, to answer the following question:\n\nWhat is the significance of the birthdate of 9 May for both Khalfan Mubarak and Empress Sh\u014dken, considering their respective careers and personal backgrounds?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about Humphrey (VI) de Bohun's military career based on the fact that his father, Humphrey (V) de Bohun, fought on the side of the rebellious barons in the Barons' War, and his grandfather, Humphrey (IV) de Bohun, later switched sides and was restored to favor after the royalist victory at the Battle of Evesham?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the Hood Museum of Art's collection and exhibitions under the directorship of Kennedy, based on the information provided?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the significance of Siu-bo's relationship with Princess in the context of Ng Sam-kwai's campaign for the throne?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Which of the following individuals is the most likely to be the great-great-grandfather of both Henry Krause and Zhao Shoushan?",
+    "model_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the ancestry of Princess Elizabeth, given that her mother's father was a grandson of Emperor Alexander II of Russia, and her mother's mother was a granddaughter of Emperor Alexander II of Russia?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the connection between Thomas Baker, the American actor who played the Fourth Doctor in Doctor Who, and the university president who served from 1871 to 1939?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Maya Deren's film career was marked by her efforts to establish cinema as an art form, but her personal life was also characterized by a sense of identity and cultural belonging. Which of the following statements best captures the essence of Maya Deren's experience as a Russian-American artist in Haiti?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the likely motivation behind Eric XIV's decision to marry Karin M\u00e5nsdotter, given his previous actions and the circumstances of his imprisonment?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the significance of Raymond Bernard's collaboration with his father, Tristan Bernard, in his early career as a film director?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the Hood Museum of Art's collection and exhibitions under the directorship of Kennedy, based on the information provided?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What significant event in Littlejohn's life led to him recording an album for Arhoolie Records in 1966, which was his first studio recording?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Paul W. S. Anderson's film career took a significant turn after the poor performance of Soldier. What was a major factor that contributed to the decision to release Soldier straight-to-video in several markets, rather than in theaters?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the social work of Rameshwari Nehru, given her involvement with the All India Women's Conference and her editing of Stri Darpan, a Hindi monthly for women?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Analyzing the careers of Olav Aaraas and Isaac Le Maire, what can be inferred about the role of family connections in securing influential positions within the Dutch East India Company (VOC)?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about Julie Bertuccelli's career trajectory based on her early involvement in the film industry and her subsequent transition to documentary filmmaking?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for the decline of Whale's career following the release of The Road Back in 1937?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a notable connection between Drew Esocoff and G. Marthandan, considering their respective careers in television and film?",
+    "model_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Tommy Gibbs' actions in the film can be seen as a form of revenge against those who wronged him, particularly his father and Zach. However, his decision to carry out a personal war against Zach and DiAngelo in New York City can be interpreted as a form of vigilantism. What is the primary motivation behind Tommy Gibbs' actions in the film?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the significance of Rita Moreno's role in the film, considering the context of the film's release and the broader trend of Latin American-themed films in the 1930s?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the career trajectory of Siddalingaiah, based on his collaborations with other actors and his own acting experience?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What significant achievement did the player accomplish in his U18 career, as indicated by his performance against Slovenia U18?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between Aretas B. Fleming's behavior in 1865 and his later actions as governor of West Virginia?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The Belcher Islands' unique geology and lack of soil support a diverse range of flora, but what is the primary reason for the absence of trees on the islands?",
+    "model_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "According to Dulong's formula, what is the calorific value Q of coal when the mass percent of carbon C is 70%, the mass percent of hydrogen H is 4%, and the mass percent of oxygen O is 6%?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the connection between Beryl Baxter's film career and the title of Helge Schmidt's 1993 album \"Texas \u2013 Doc Snyder h\u00e4lt die Welt in Atem\"?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a notable aspect of Dante Lam's career as a filmmaker, as revealed by his work on the 2018 film Operation Red Sea?",
+    "model_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a notable distinction in Elliot Silverstein's career, evident from his work in both film and television, and reflected in his awards and recognition?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was a notable outcome of the memorial services and community events held in honor of Nipsey Hussle, which went beyond a simple truce between gangs?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the family dynamics of Hedwig of Mecklenburg-G\u00fcstrow and her husband Prince August of Saxe-Merseburg, based on the fact that only one of their eight children survived to adulthood?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between Lee Kun-hee's pardon and his role on the International Olympic Committee?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for Wilcox's decision to shift his focus from realistic drama to escapist entertainment after the success of Flames of Passion?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the connection between the film \"Big House Blues\" (1947) and the film \"The Boer War\" (1914), considering the context of the Writers Guild of America's involvement in the film industry?",
+    "model_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a notable connection between Peter Levin's career and Dana Blankstein's background, given their shared involvement in the film and television industry?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between Maria Isabel's parents and her decision to marry King Ferdinand VII?",
+    "model_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the significance of Grand Duchess Maria Vladimirovna's decision to grant permission for her son's morganatic engagement to Rebecca Virginia Bettarini, and how does it relate to the broader context of the Russian Orthodox Church's honors and traditions?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the relationship between Gustav III and his wife, Sophia Magdalena, based on the events described in the passage?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the outcome of Jennings's decision to produce his own albums, as evident from the release of Lonesome, On'ry and Mean and Honky Tonk Heroes in 1973?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about Simon Pegg's career trajectory based on the information provided about Iain Morris's career?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is the primary consequence of Siu-bo's decision to castrate Ying-hung, and how does this event impact the power dynamics between Siu-bo and the Emperor?",
+    "model_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What is a notable characteristic of Obata Toramori's military career, as recorded in Passage 3?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the likely outcome for Charles's government in West Francia after he accepted the kingship, despite being crowned by Geilo, Bishop of Langres, on 20 May 885?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for Charibert's excommunication by Germanus, according to Gregory of Tours?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Nipsey Hussle's song \"Feelin' Myself\" was released in 2010 as the lead single from his debut studio album, South Central State of Mind. However, the album was canceled before its release. What is the significance of Nipsey Hussle's collaboration with Lloyd on the song \"Feelin' Myself\"?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the transition of American Bandstand from Philadelphia to Los Angeles, based on the information provided about Edward Yates' role in the show?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about the film's director, S. Siddalingaiah, based on his career and filmography?",
+    "model_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "Raoul Walsh's career in film was marked by a significant transition in his personal life, as he changed his name from Charles Walcott in 1913. This change was not only a personal one but also had a profound impact on his professional life. What was the outcome of this transition, and how did it affect his subsequent film career?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the outcome of the succession crisis in the Salian dynasty after the death of Henry V, Holy Roman Emperor, in 1125?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What can be inferred about James Armour's relationship with Robert Burns based on the information provided about their social standing and occupation?",
+    "model_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the outcome of the alliance between Simon de Montfort and Llywelyn ap Gruffudd of North Wales, and how did it affect Humphrey de Bohun's allegiance?",
+    "model_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The film \"Frau im Mond\" was a significant influence on the development of rocket science in Germany during the 1920s and 1930s. What is the connection between the film's production and the work of Hermann Oberth, a renowned rocket scientist?",
+    "model_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "What was the primary reason for Bud Selig's departure as general manager of the Milwaukee Brewers in 1974?",
+    "model_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true,
+    "number_of_hops": 1
+  },
+  {
+    "question": "The Statute of Quia emptores, issued in 1290, was a significant development in the area of land ownership disputes. What was the primary purpose of this statute, and how did it relate to the earlier Statute of Quo warranto?",
+    "model_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true,
+    "number_of_hops": 1
+  }
+]
